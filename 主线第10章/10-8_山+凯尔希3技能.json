@@ -1,0 +1,68 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "10-8磨难双人",
+        "details": "https://www.bilibili.com/video/av298220142/"
+    },
+    "stage_name": "obt/main/level_tough_10-07",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "凯尔希",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "name": "凯尔希",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "name": "Mon3tr",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Up",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "SkillDaemon",
+            "name": "",
+            "doc_color": "Gray"
+        }
+    ]
+}

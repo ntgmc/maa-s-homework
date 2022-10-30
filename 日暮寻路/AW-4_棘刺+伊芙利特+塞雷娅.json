@@ -1,0 +1,67 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "制作者：2586582719\n温馨提示：该作业对练度要求较高，如果失败建议更换作业",
+        "details": "https://www.bilibili.com/video/BV1kG411G7cs"
+    },
+    "stage_name": "AW-4",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者：2586582719"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

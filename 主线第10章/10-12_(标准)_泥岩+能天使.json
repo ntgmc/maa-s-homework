@@ -1,0 +1,51 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "10-12 (标准) 双人",
+        "details": "https://www.bilibili.com/video/av638247951/"
+    },
+    "stage_name": "obt/main/level_main_10-11",
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 16,
+            "name": "能天使",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

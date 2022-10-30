@@ -1,0 +1,78 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "",
+        "details": "https://www.bilibili.com/video/av728796393"
+    },
+    "stage_name": "DH-6",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "特制水上平台",
+            "location": [
+                5,
+                5
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "特制水上平台",
+            "location": [
+                8,
+                1
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

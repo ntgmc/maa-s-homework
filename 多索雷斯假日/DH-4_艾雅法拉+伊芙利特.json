@@ -1,0 +1,48 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "法师队",
+        "details": "https://www.bilibili.com/video/av292123316"
+    },
+    "stage_name": "DH-4",
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

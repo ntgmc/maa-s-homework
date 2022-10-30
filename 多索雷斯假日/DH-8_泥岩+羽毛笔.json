@@ -1,0 +1,52 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "",
+        "details": "https://www.bilibili.com/video/av292085760"
+    },
+    "stage_name": "DH-8",
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "羽毛笔",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "羽毛笔",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "特制水上平台",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "下"
+        }
+    ]
+}

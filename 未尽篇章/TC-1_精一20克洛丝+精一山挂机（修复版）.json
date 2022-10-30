@@ -1,0 +1,48 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "TC-1双人超低配，无需精二",
+        "details": "精一20克洛丝+精一满级山"
+    },
+    "stage_name": "TC-1",
+    "opers": [
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "山"
+        }
+    ]
+}

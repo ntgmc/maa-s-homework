@@ -1,0 +1,30 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "泥岩单人BW-1",
+        "details": "原地址：https://www.bilibili.com/video/av558026189\nhttps://www.bilibili.com/video/BV1DG4y1z7Ua\n制作者：2586582719"
+    },
+    "stage_name": "BW-1",
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "右"
+        }
+    ]
+}

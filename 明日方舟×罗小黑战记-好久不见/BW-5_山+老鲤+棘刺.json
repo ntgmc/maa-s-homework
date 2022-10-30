@@ -1,0 +1,65 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "三人BW-5",
+        "details": "原视频：https://www.bilibili.com/video/av858001777\n制作者：2586582719"
+    },
+    "stage_name": "BW-5",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "老鲤",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 28,
+            "name": "老鲤",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者：2586582719",
+            "doc_color": "#008000"
+        }
+    ]
+}

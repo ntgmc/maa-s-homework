@@ -1,0 +1,34 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "棘刺单人BW-1",
+        "details": "原地址：https://www.bilibili.com/video/av345568073\n制作者：2586582719"
+    },
+    "stage_name": "BW-1",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

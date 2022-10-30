@@ -1,0 +1,62 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "（无骑士之徽）双人NL-6",
+        "details": "原视频：https://www.bilibili.com/video/av548891391/\n制作者：2586582719"
+    },
+    "stage_name": "NL-6",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "name": "",
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者：2586582719",
+            "doc_color": "#008000"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

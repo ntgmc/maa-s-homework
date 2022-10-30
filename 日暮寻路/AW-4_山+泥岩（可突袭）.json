@@ -1,0 +1,49 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "制作者：2586582719\n温馨提示：该作业对练度要求较高，如果失败建议更换作业",
+        "details": "https://www.bilibili.com/video/BV1Re4y1h7f6"
+    },
+    "stage_name": "AW-4",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者：2586582719"
+        }
+    ]
+}

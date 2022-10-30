@@ -1,0 +1,63 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "三人BW-3",
+        "details": "原地址：https://www.bilibili.com/video/av603099579\n制作者：2586582719"
+    },
+    "stage_name": "BW-3",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者：2586582719"
+        }
+    ]
+}

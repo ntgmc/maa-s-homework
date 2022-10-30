@@ -1,0 +1,44 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "山精一即可，煌需要精二",
+        "details": ""
+    },
+    "stage_name": "DH-2",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        }
+    ]
+}

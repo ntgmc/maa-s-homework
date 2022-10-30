@@ -1,0 +1,53 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "制作者：2586582719\n温馨提示：该作业对潜能可能有要求建议关闭“自动编队”并带个德克萨斯",
+        "details": "https://www.bilibili.com/video/BV1dV4y1u7eA"
+    },
+    "stage_name": "AW-3",
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者：2586582719"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

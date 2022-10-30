@@ -1,0 +1,85 @@
+{
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "古米",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "摆完挂机咯~"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "TC-1双人超低配",
+        "details": "古米可以换成任意奶盾"
+    },
+    "stage_name": "TC-1",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "单奶",
+            "opers": [
+                {
+                    "name": "安塞尔",
+                    "skill": 1
+                },
+                {
+                    "skill_usage": 0,
+                    "name": "闪灵",
+                    "skill": 2
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 2
+                },
+                {
+                    "name": "赫默",
+                    "skill": 2
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1
+                }
+            ]
+        }
+    ]
+}

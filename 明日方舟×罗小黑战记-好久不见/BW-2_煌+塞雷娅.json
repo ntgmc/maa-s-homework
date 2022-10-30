@@ -1,0 +1,49 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "双人BW-2",
+        "details": "原地址：https://www.bilibili.com/video/av900581739\n制作者：2586582719"
+    },
+    "stage_name": "BW-2",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者：2586582719"
+        }
+    ]
+}

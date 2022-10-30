@@ -1,0 +1,84 @@
+{
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "阻挡",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "自制",
+        "details": ""
+    },
+    "stage_name": "IC-1",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "groups": [
+        {
+            "name": "阻挡",
+            "opers": [
+                {
+                    "name": "芬",
+                    "skill": 1
+                },
+                {
+                    "name": "黑角"
+                },
+                {
+                    "name": "卡缇",
+                    "skill": 1
+                },
+                {
+                    "name": "翎羽",
+                    "skill": 1
+                },
+                {
+                    "name": "夜刀"
+                },
+                {
+                    "name": "玫兰莎",
+                    "skill": 1
+                },
+                {
+                    "name": "泡普卡",
+                    "skill": 1
+                },
+                {
+                    "name": "月见夜",
+                    "skill": 1
+                },
+                {
+                    "name": "香草",
+                    "skill": 1
+                }
+            ]
+        }
+    ]
+}

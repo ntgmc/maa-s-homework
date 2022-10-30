@@ -1,0 +1,51 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "双人BW-5",
+        "details": "原视频：https://www.bilibili.com/video/av815544690\n制作者：2586582719"
+    },
+    "stage_name": "BW-5",
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "cost_changes": 13,
+            "name": "能天使",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者：2586582719",
+            "doc_color": "#008000"
+        }
+    ]
+}
