@@ -1,0 +1,52 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-2双人",
+        "details": "自制\n如果b站有纯属雷同"
+    },
+    "stage_name": "IS-2",
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "右",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

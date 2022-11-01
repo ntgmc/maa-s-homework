@@ -1,0 +1,52 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-5双人",
+        "details": "https://www.bilibili.com/video/av604632948/"
+    },
+    "stage_name": "IS-5",
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "左",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

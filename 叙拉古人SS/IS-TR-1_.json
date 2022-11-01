@@ -1,0 +1,50 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-TR-1",
+        "details": "自制\n如果b站有纯属雷同"
+    },
+    "stage_name": "IS-TR-1",
+    "opers": [],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "右",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "蛇屠箱",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "史都华德",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-9三人",
+        "details": "https://www.bilibili.com/video/av732231734/"
+    },
+    "stage_name": "IS-9",
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "下",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

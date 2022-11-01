@@ -1,0 +1,42 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-1单人",
+        "details": "自制\n如果b站有纯属雷同"
+    },
+    "stage_name": "IS-1",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "下",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

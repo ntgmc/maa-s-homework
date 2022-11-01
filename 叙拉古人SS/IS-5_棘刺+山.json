@@ -1,0 +1,56 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-5双人（90级·极限）",
+        "details": "https://www.bilibili.com/video/av647217467/"
+    },
+    "stage_name": "IS-5",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "下",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

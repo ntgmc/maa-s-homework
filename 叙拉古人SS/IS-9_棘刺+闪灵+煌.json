@@ -1,0 +1,71 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-9三人",
+        "details": "https://www.bilibili.com/video/av774653845/"
+    },
+    "stage_name": "IS-9",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "左",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 53,
+            "name": "煌",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}
