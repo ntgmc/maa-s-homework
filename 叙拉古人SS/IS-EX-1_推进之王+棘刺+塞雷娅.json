@@ -1,0 +1,68 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-EX-1突袭 3人",
+        "details": "https://www.bilibili.com/video/av559897901/\n【卡费警告】：由于maa延迟，需要高潜/德狗以保证不卡费，请自行配队！"
+    },
+    "stage_name": "IS-EX-1",
+    "opers": [
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

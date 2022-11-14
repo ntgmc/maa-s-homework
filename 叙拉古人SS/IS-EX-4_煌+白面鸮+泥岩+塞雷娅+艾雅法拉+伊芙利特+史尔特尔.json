@@ -1,0 +1,125 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-EX-4突袭 7人",
+        "details": "自制"
+    },
+    "stage_name": "IS-EX-4",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "白面鸮",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "kills": 18,
+            "name": "史尔特尔"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

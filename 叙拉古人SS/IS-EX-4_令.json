@@ -1,0 +1,163 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-EX-4突袭 令单人",
+        "details": "https://www.bilibili.com/video/av347401387/\n【高练警告】：原视频内干员均为精二90级专3，请确保自己练度足够，失败请更换作业！\n【卡费警告】：由于maa延迟，需要高潜/德狗以保证不卡费，请自行配队！\n单令作业制作不易，如果觉得好的话烦请您点个小赞支持一波﻿\nε≡٩(๑>₃<)۶ "
+    },
+    "stage_name": "IS-EX-4",
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "令",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 10,
+            "name": "令"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 19,
+            "name": "令"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "小龙",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 45,
+            "name": "“弦惊”",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "令"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "撤退",
+            "name": "",
+            "location": [
+                3,
+                5
+            ]
+        },
+        {
+            "type": "撤退",
+            "name": "",
+            "location": [
+                2,
+                5
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "单令作业制作不易，如果觉得好的话烦请您点个小赞支持一波﻿ ε≡٩(๑>₃<)۶ ",
+            "doc_color": "DeepSkyBlue"
+        }
+    ]
+}

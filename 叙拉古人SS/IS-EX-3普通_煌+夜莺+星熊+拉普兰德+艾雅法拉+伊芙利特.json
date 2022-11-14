@@ -1,0 +1,107 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-EX-3普通 6人",
+        "details": "https://www.bilibili.com/video/av474911974/"
+    },
+    "stage_name": "IS-EX-3",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 26,
+            "name": "星熊",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

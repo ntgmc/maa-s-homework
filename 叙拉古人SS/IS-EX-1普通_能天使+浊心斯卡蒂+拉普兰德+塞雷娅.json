@@ -1,0 +1,63 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-EX-1普通 4人",
+        "details": "https://www.bilibili.com/video/av262475412/"
+    },
+    "stage_name": "IS-EX-1",
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "cost_changes": 8,
+            "name": "能天使",
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "direction": "下"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}
