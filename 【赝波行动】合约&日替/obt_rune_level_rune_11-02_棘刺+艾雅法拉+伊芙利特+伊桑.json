@@ -1,0 +1,82 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "11月25日替-8难度带任务-盐风溶洞",
+        "details": "原视频：https://www.bilibili.com/video/av305396796/\nUP：是我刨冰哒\ntag：\n⬛⬛⬛\n⬜⬜⬜\n⬜⬛"
+    },
+    "stage_name": "obt/rune/level_rune_11-02",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊桑",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "伊桑",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "SkillDaemon",
+            "name": ""
+        }
+    ]
+}
