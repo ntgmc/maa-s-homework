@@ -1,0 +1,40 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【风雪过境】BI-2单人",
+        "details": "原视频：https://www.bilibili.com/video/av722611082/\nUP：刻俄柏\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "BI-2",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

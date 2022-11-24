@@ -1,0 +1,69 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【风雪过境】BI-6三人",
+        "details": "原视频：https://www.bilibili.com/video/av680118335/\nUP：刻俄柏\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "BI-6",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "kills": 5,
+            "name": "泥岩",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}
