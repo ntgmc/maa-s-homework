@@ -1,0 +1,100 @@
+{
+    "minimum_required": "v4.0",  
+    "difficulty": 3,
+    "doc": {
+        "title": "【风雪过境】BI-EX-4突袭五人",
+        "details": "原视频：https://www.bilibili.com/video/av677625792/\nUP：侬无言以对\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "BI-EX-4",
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 15,
+            "name": "能天使",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "能天使应该是右侧狗子刚过夜莺落地，不是寄了请换作业",
+            "doc_color": "#6f42c1"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

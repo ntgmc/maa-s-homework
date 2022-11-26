@@ -1,0 +1,149 @@
+{
+    "minimum_required": "v4.0",  
+    "difficulty": 3,
+    "doc": {
+        "title": "【风雪过境】BI-EX-8突袭九人",
+        "details": "原视频：https://www.bilibili.com/video/av422780698/\nUP：侬无言以对\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "BI-EX-8",
+    "opers": [
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白金",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "流星",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿米娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "阿米娅",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "白金",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "流星",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

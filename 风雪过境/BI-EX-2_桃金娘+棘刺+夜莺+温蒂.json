@@ -1,0 +1,99 @@
+{
+    "minimum_required": "v4.0",  
+    "difficulty": 3,
+    "doc": {
+        "title": "【风雪过境】BI-EX-2突袭四人",
+        "details": "原视频：https://www.bilibili.com/video/av850176873/\nUP：刻俄柏\n————————\n1.温蒂必须专三\n2.温蒂如果没有四潜，带安洁莉娜（不用下场，她有个天赋可以加攻速）\n3.评论区亲测专三无潜88级无需安洁莉娜[doge]\n————————\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "BI-EX-2",
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 2
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "温蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "温蒂",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "kills": 7,
+            "name": "工程蓄水炮",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "kills": 33,
+            "name": "工程蓄水炮",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

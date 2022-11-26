@@ -1,0 +1,156 @@
+{
+    "minimum_required": "v4.0",  
+    "difficulty": 3,
+    "doc": {
+        "title": "【风雪过境】BI-EX-6突袭六人",
+        "details": "原视频：https://www.bilibili.com/video/av680132978/\nUP：刻俄柏\n——————\n思路：\n1.用四月刺杀术士\n2.在M3位置挡住破坏箱子的敌人即可\n——————\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "BI-EX-6",
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "四月",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "凯尔希",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "四月",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "桃金娘",
+            "pre_delay": 3000
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "撤退",
+            "kills": 11,
+            "name": "四月"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "桃金娘",
+            "pre_delay": 5000
+        },
+        {
+            "type": "部署",
+            "name": "凯尔希",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "Mon3tr",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 35,
+            "name": "凯尔希"
+        },
+        {
+            "type": "部署",
+            "kills": 30,
+            "name": "四月",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "撤退",
+            "kills": 37,
+            "name": "四月"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 61,
+            "name": "凯尔希"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}
