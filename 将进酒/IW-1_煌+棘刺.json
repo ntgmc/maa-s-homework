@@ -1,0 +1,54 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【将进酒】IW-1双人",
+        "details": "原视频：https://www.bilibili.com/video/av210932063?p=1\nUP：制杖流水线\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "IW-1",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

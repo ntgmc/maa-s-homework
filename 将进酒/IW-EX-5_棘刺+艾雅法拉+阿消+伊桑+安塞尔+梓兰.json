@@ -1,0 +1,110 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【将进酒】IW-EX-5突袭六人",
+        "details": "原视频：https://www.bilibili.com/video/av296156766/\nUP：命辰\n——————\n阿消最低等级精零45级\n——————\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "IW-EX-5",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿消",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊桑",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安塞尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "梓兰",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "伊桑",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "阿消",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "梓兰",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "安塞尔",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【将进酒】IW-EX-1突袭三人",
+        "details": "原视频：https://www.bilibili.com/video/av593642965/\nUP：命辰\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "IW-EX-1",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "羽毛笔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊桑",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "羽毛笔",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "伊桑",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

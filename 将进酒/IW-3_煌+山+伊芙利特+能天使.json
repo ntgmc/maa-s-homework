@@ -1,16 +1,11 @@
 {
     "minimum_required": "v4.0",
     "doc": {
-        "title": "【风雪过境】BI-EX-1突袭三人",
-        "details": "原视频：https://www.bilibili.com/video/av765172003/\nUP：刻俄柏\n——————\n煌可能需要90级，70级会漏怪\n——————\n有问题联系制作者QQ2586582719"
+        "title": "【将进酒】IW-3四人",
+        "details": "原视频：https://www.bilibili.com/video/av210932063?p=4\nUP：制杖流水线\n有问题联系制作者QQ2586582719"
     },
-    "stage_name": "BI-EX-1",
+    "stage_name": "IW-3",
     "opers": [
-        {
-            "name": "塞雷娅",
-            "skill": 1,
-            "skill_usage": 0
-        },
         {
             "name": "煌",
             "skill": 2,
@@ -20,6 +15,16 @@
             "name": "山",
             "skill": 2,
             "skill_usage": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 1,
+            "skill_usage": 0
         }
     ],
     "actions": [
@@ -31,8 +36,8 @@
             "type": "部署",
             "name": "煌",
             "location": [
-                4,
-                5
+                2,
+                3
             ],
             "direction": "右"
         },
@@ -40,19 +45,28 @@
             "type": "部署",
             "name": "山",
             "location": [
-                7,
+                3,
                 3
             ],
-            "direction": "上"
+            "direction": "右"
         },
         {
             "type": "部署",
-            "name": "塞雷娅",
+            "name": "伊芙利特",
             "location": [
-                5,
-                5
+                7,
+                3
             ],
-            "direction": "右"
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "上"
         },
         {
             "type": "打印",

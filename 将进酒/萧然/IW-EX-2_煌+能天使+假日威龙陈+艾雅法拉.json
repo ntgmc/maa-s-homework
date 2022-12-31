@@ -1,25 +1,30 @@
 {
     "minimum_required": "v4.0",
     "doc": {
-        "title": "【风雪过境】BI-EX-1突袭三人",
-        "details": "原视频：https://www.bilibili.com/video/av765172003/\nUP：刻俄柏\n——————\n煌可能需要90级，70级会漏怪\n——————\n有问题联系制作者QQ2586582719"
+        "title": "【将进酒-萧然】IW-EX-2突袭四人",
+        "details": "原视频：https://www.bilibili.com/video/av893643464?p=3\nUP：萧然Q\n有问题联系制作者QQ2586582719"
     },
-    "stage_name": "BI-EX-1",
+    "stage_name": "IW-EX-2",
     "opers": [
-        {
-            "name": "塞雷娅",
-            "skill": 1,
-            "skill_usage": 0
-        },
         {
             "name": "煌",
             "skill": 2,
             "skill_usage": 0
         },
         {
-            "name": "山",
+            "name": "能天使",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "假日威龙陈",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
             "skill": 2,
-            "skill_usage": 2
+            "skill_usage": 0
         }
     ],
     "actions": [
@@ -29,30 +34,39 @@
         },
         {
             "type": "部署",
-            "name": "煌",
+            "name": "能天使",
             "location": [
                 4,
                 5
-            ],
-            "direction": "右"
-        },
-        {
-            "type": "部署",
-            "name": "山",
-            "location": [
-                7,
-                3
             ],
             "direction": "上"
         },
         {
             "type": "部署",
-            "name": "塞雷娅",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "假日威龙陈",
             "location": [
                 5,
                 5
             ],
-            "direction": "右"
+            "direction": "上"
         },
         {
             "type": "打印",

@@ -1,25 +1,25 @@
 {
     "minimum_required": "v4.0",
     "doc": {
-        "title": "【风雪过境】BI-EX-1突袭三人",
-        "details": "原视频：https://www.bilibili.com/video/av765172003/\nUP：刻俄柏\n——————\n煌可能需要90级，70级会漏怪\n——————\n有问题联系制作者QQ2586582719"
+        "title": "【将进酒-萧然】IW-2三人",
+        "details": "原视频：https://www.bilibili.com/video/av295975180?p=2\nUP：萧然Q\n————————\n该版本为蓝毒1技能替换能天使1技能版本\n————————\n有问题联系制作者QQ2586582719"
     },
-    "stage_name": "BI-EX-1",
+    "stage_name": "IW-2",
     "opers": [
-        {
-            "name": "塞雷娅",
-            "skill": 1,
-            "skill_usage": 0
-        },
         {
             "name": "煌",
             "skill": 2,
             "skill_usage": 0
         },
         {
-            "name": "山",
-            "skill": 2,
-            "skill_usage": 2
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "蓝毒",
+            "skill": 1,
+            "skill_usage": 0
         }
     ],
     "actions": [
@@ -31,28 +31,28 @@
             "type": "部署",
             "name": "煌",
             "location": [
-                4,
-                5
-            ],
-            "direction": "右"
-        },
-        {
-            "type": "部署",
-            "name": "山",
-            "location": [
-                7,
+                2,
                 3
             ],
-            "direction": "上"
+            "direction": "右"
         },
         {
             "type": "部署",
-            "name": "塞雷娅",
+            "name": "蓝毒",
             "location": [
-                5,
-                5
+                1,
+                3
             ],
             "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "下"
         },
         {
             "type": "打印",

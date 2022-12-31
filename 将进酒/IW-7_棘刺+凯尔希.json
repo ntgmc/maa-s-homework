@@ -1,0 +1,76 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【将进酒】IW-7双人",
+        "details": "原视频：https://www.bilibili.com/video/av210932063?p=7\nUP：制杖流水线\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "IW-7",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "凯尔希",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "凯尔希",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "kills": 9,
+            "name": "Mon3tr",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "kills": 11,
+            "name": "凯尔希"
+        },
+        {
+            "type": "技能",
+            "kills": 15,
+            "name": "凯尔希",
+            "pre_delay": 5000
+        },
+        {
+            "type": "技能",
+            "kills": 19,
+            "name": "凯尔希"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

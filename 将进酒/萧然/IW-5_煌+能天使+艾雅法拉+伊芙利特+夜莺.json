@@ -1,0 +1,92 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【将进酒-萧然】IW-5五人",
+        "details": "原视频：https://www.bilibili.com/video/av295975180?p=5\nUP：萧然Q\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "IW-5",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}
