@@ -61,10 +61,10 @@
             "type": "部署",
             "name": "桃金娘",
             "location": [
-                9,
-                2
+                11,
+                5
             ],
-            "direction": "左"
+            "direction": "上"
         },
         {
             "type": "部署",
