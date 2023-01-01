@@ -82,10 +82,10 @@
             "type": "部署",
             "name": "阿消",
             "location": [
-                8,
-                3
+                10,
+                1
             ],
-            "direction": "左"
+            "direction": "下"
         },
         {
             "type": "部署",
