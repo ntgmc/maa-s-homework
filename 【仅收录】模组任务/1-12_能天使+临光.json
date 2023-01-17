@@ -1,0 +1,44 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "临光模组-改良骑士盾牌",
+        "details": "侬无言以对:BV1mL4y1P7mg\n筱竹聽雨"
+    },
+    "stage_name": "1-12",
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "临光",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "临光",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        }
+    ]
+}

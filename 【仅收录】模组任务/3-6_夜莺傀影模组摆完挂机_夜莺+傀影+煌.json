@@ -1,0 +1,54 @@
+{
+    "stage_name": "3-6",
+    "doc": {
+        "title": "夜莺傀影模组",
+        "details": "BV16Q4y1S7zH"
+    },
+    "opers": [
+        {
+            "name": "夜莺",
+            "skill": 2
+        },
+        {
+            "name": "傀影",
+            "skill": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "cost_changes": 0
+        },
+        {
+            "type": "部署",
+            "name": "傀影",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "左"
+        }
+    ]
+}
