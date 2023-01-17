@@ -1,0 +1,78 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【登临意】WB-7四人",
+        "details": "UP主：侬无言以对\n原视频：https://www.bilibili.com/video/av435460589/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "WB-7",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}
