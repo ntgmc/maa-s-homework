@@ -1,0 +1,54 @@
+{
+    "actions": [
+        {
+            "type": "部署",
+            "name": "赫拉格",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "技能",
+            "kills": 8,
+            "name": "赫拉格",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "技能",
+            "kills": 31,
+            "name": "赫拉格",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "技能",
+            "kills": 52,
+            "name": "赫拉格",
+            "location": [
+                3,
+                3
+            ]
+        }
+    ],
+    "stage_name": "吾往矣",
+    "doc": {
+        "title": "赫拉格悖论模拟",
+        "details": "作者：snowflake\n赫拉格 精2 90级 三技能 专一"
+    },
+    "opers": [
+        {
+            "name": "赫拉格",
+            "skill": 3
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "部署",
+            "name": "便携式补给站",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 9000
+        },
+        {
+            "type": "部署",
+            "name": "便携式补给站",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "name": "德克萨斯",
+            "pre_delay": 7000,
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "便携式补给站",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "德克萨斯",
+            "pre_delay": 4500,
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "便携式补给站",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "德克萨斯",
+            "pre_delay": 7500,
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "kills": 7,
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 3500
+        },
+        {
+            "type": "技能",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 4200
+        },
+        {
+            "type": "技能",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 9300
+        },
+        {
+            "type": "部署",
+            "name": "石乐",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 4000
+        },
+        {
+            "type": "撤退",
+            "name": "石乐",
+            "location": [
+                4,
+                2
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 3700
+        },
+        {
+            "type": "部署",
+            "name": "石乐",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 5500
+        },
+        {
+            "type": "摆完挂机",
+            "kills": 68
+        }
+    ],
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "石乐",
+            "opers": [
+                {
+                    "name": "砾",
+                    "skill": 1
+                },
+                {
+                    "name": "陈",
+                    "skill": 1
+                }
+            ]
+        }
+    ],
+    "stage_name": "因地制宜",
+    "doc": {
+        "title": "德克萨斯悖论模拟",
+        "details": "作者：雪\n测试干员：德克萨斯 精2 50级 2技能7级 6潜 无模\n本作业使用了大量的延迟，可能会导致结果无法可控。"
+    }
+}

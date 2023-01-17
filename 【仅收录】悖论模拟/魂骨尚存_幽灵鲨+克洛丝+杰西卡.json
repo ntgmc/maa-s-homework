@@ -1,0 +1,101 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "",
+        "details": "作业幽灵鲨等级80，信赖200，技能等级7级，潜能4。"
+    },
+    "stage_name": "魂骨尚存",
+    "opers": [
+        {
+            "name": "幽灵鲨",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "杰西卡",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "cost_changes": null,
+            "name": "幽灵鲨",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "上",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "部署",
+            "cost_changes": null,
+            "name": "克洛丝",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "右",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "二倍速",
+            "cost_changes": null,
+            "name": "",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "技能",
+            "kills": 5,
+            "cost_changes": null,
+            "name": "幽灵鲨",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "部署",
+            "kills": 16,
+            "cost_changes": null,
+            "name": "杰西卡",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "下",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "部署",
+            "kills": 22,
+            "cost_changes": null,
+            "name": "克洛丝",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "下",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "技能",
+            "kills": 24,
+            "cost_changes": null,
+            "name": "幽灵鲨",
+            "pre_delay": 3000,
+            "doc": "",
+            "doc_color": ""
+        }
+    ]
+}

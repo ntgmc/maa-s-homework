@@ -1,0 +1,146 @@
+{
+    "actions": [
+        {
+            "name": "红云",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右",
+            "type": "部署"
+        },
+        {
+            "name": "梅",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右",
+            "type": "部署"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "黑",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "上",
+            "kills": 1
+        },
+        {
+            "type": "技能",
+            "name": "红云",
+            "kills": 6
+        },
+        {
+            "type": "技能",
+            "name": "黑"
+        },
+        {
+            "type": "部署",
+            "name": "松果",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "轰隆隆先生",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 13,
+            "pre_delay": 6000
+        },
+        {
+            "type": "技能",
+            "name": "红云"
+        },
+        {
+            "type": "部署",
+            "name": "轰隆隆先生",
+            "location": [
+                1,
+                4
+            ],
+            "kills": 16
+        },
+        {
+            "type": "技能",
+            "name": "黑"
+        },
+        {
+            "type": "部署",
+            "name": "轰隆隆先生"
+        },
+        {
+            "name": "轰隆隆先生",
+            "type": "部署",
+            "kills": 25,
+            "location": [
+                4,
+                4
+            ],
+            "pre_delay": 4000
+        },
+        {
+            "type": "技能",
+            "name": "红云"
+        },
+        {
+            "name": "黑",
+            "type": "技能"
+        },
+        {
+            "type": "技能",
+            "name": "红云",
+            "kills": 31,
+            "pre_delay": 5000
+        },
+        {
+            "type": "部署",
+            "name": "轰隆隆先生",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 32,
+            "pre_delay": 4000
+        },
+        {
+            "type": "技能",
+            "name": "黑",
+            "pre_delay": 2000
+        }
+    ],
+    "stage_name": "火力网",
+    "opers": [],
+    "doc": {
+        "details": "测试等级：黑精二89级，技能3专三\n测试版本：395\n警告：未测试过7级技能"
+    }
+}

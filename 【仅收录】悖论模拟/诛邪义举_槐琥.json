@@ -1,0 +1,125 @@
+{
+    "actions": [
+        {
+            "type": "部署",
+            "name": "布丁",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "槐琥",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "撤退",
+            "kills": 5,
+            "name": "槐琥"
+        },
+        {
+            "type": "部署",
+            "name": "米格鲁",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "kills": 11,
+            "name": "槐琥",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "下",
+            "pre_delay": 3900
+        },
+        {
+            "type": "技能",
+            "name": "布丁"
+        },
+        {
+            "type": "撤退",
+            "name": "槐琥"
+        },
+        {
+            "type": "部署",
+            "name": "槐琥",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "撤退",
+            "name": "槐琥",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "槐琥",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "撤退",
+            "name": "槐琥",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "槐琥",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "撤退",
+            "name": "槐琥"
+        }
+    ],
+    "stage_name": "诛邪义举",
+    "doc": {
+        "title": "",
+        "details": "干员等级：槐琥精二40，二技能7级\n测试版本：395b2\n"
+    },
+    "opers": [
+        {
+            "name": "槐琥"
+        }
+    ],
+    "groups": []
+}

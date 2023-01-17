@@ -1,0 +1,45 @@
+{
+    "actions": [
+        {
+            "doc_color": "#008000",
+            "type": "打印",
+            "doc": "代理有问题请群里@碎蜂"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "耀骑士临光",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "白面鸮",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "下",
+            "kills": 11,
+            "pre_delay": 3000
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "耀骑士悖论模拟",
+        "details": "代理有问题请群里@碎蜂"
+    },
+    "stage_name": "出鞘",
+    "opers": [
+        {
+            "name": "耀骑士临光",
+            "skill": 1
+        }
+    ],
+    "groups": []
+}

@@ -1,0 +1,101 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "艾",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "撤退",
+            "kills": 2,
+            "name": "艾"
+        },
+        {
+            "type": "技能",
+            "location": [
+                4,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "艾",
+            "direction": "右",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "撤退",
+            "kills": 5,
+            "name": "艾"
+        },
+        {
+            "type": "技能",
+            "name": "",
+            "direction": "",
+            "location": [
+                6,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "艾",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "史都华德",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "左"
+        }
+    ],
+    "stage_name": "业精于勤",
+    "doc": {
+        "title": "",
+        "details": "干员等级：孑精二40，二技能7级\n测试版本：395b2\n"
+    },
+    "opers": [
+        {
+            "name": "孑"
+        }
+    ],
+    "groups": [
+        {
+            "name": "艾",
+            "opers": [
+                {
+                    "name": "子"
+                },
+                {
+                    "name": "孑"
+                }
+            ]
+        }
+    ]
+}
