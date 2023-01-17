@@ -1,5 +1,11 @@
-1：该仓库内所有.json文件均由maa软件生成（https://github.com/MaaAssistantArknights/MaaAssistantArknights）
+1：该仓库内所有.json/.zip/.7z文件均由maa软件生成（https://github.com/MaaAssistantArknights/MaaAssistantArknights）
+
 2：该仓库内所有.json文件均在文件内标明制作者
+
 3：该仓库内文件名带有FIX的.json文件非本人（2586582719）制作，仅为修复
-4：若脚本出现问题，请使用QQ添加本人好友（2586582719）后反馈
-5：该仓库仅供2586582719进行脚本的存放，更新不及时请谅解
+
+该仓库内带有【仅收录】字样的文件夹内的全部文件非本人制作，仅为收录，有问题联系制作者。
+
+4：若作业出现问题，请使用QQ添加本人好友（2586582719）后反馈
+
+5：该仓库仅供本人进行脚本的存放，更新不及时请谅解
