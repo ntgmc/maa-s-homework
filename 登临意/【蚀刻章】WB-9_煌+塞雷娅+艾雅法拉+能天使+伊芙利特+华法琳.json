@@ -1,0 +1,113 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【登临意】【蚀刻章】WB-9六人",
+        "details": "UP主：柠檬味の小小猪\n原视频：https://www.bilibili.com/video/av307994084/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "WB-9",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "华法琳",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                11,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 16,
+            "name": "能天使",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "华法琳",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "kills": 17,
+            "name": "华法琳",
+            "pre_delay": 2500
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}
