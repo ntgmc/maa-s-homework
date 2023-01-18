@@ -2,7 +2,7 @@
     "minimum_required": "v4.0",
     "doc": {
         "title": "【登临意】WB-7四人",
-        "details": "UP主：侬无言以对\n原视频：https://www.bilibili.com/video/av435460589/\n有问题联系制作者QQ2586582719"
+        "details": "UP主：侬无言以对\n原视频：https://www.bilibili.com/video/av435460589/\n——————\n【卡费警告】：由于maa延迟，需要高潜/德狗以保证不卡费，请自行配队！\n——————\n有问题联系制作者QQ2586582719"
     },
     "stage_name": "WB-7",
     "opers": [
@@ -29,10 +29,6 @@
     ],
     "actions": [
         {
-            "type": "二倍速",
-            "name": ""
-        },
-        {
             "type": "部署",
             "name": "塞雷娅",
             "location": [
@@ -40,6 +36,10 @@
                 3
             ],
             "direction": "右"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
         },
         {
             "type": "部署",
