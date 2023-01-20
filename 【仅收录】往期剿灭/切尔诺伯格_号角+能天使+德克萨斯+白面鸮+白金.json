@@ -1,0 +1,90 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "剿灭高配摆完挂机",
+        "details": "雷欧奇卡斯:BV16r4y1t7gi\n作业未实测\n筱竹聽雨"
+    },
+    "stage_name": "切尔诺伯格",
+    "opers": [
+        {
+            "name": "号角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白金",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "白金",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "白面鸮",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "号角",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

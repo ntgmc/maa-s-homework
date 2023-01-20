@@ -1,0 +1,156 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "剿灭高配摆完挂机",
+        "details": "萧然:BV1vq4y1J7nw\n作业未实测\n已将安洁莉娜换成浊心斯卡蒂\n筱竹聽雨"
+    },
+    "stage_name": "潮没海滨",
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "指挥终端",
+            "location": [
+                2,
+                1
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "指挥终端",
+            "location": [
+                2,
+                2
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "指挥终端",
+            "location": [
+                2,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

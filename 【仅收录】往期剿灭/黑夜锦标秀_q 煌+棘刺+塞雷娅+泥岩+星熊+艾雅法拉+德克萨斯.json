@@ -1,0 +1,225 @@
+{
+    "stage_name": "黑夜锦标秀",
+    "doc": {
+        "title": "生于黑暗。",
+        "details": "抄自萧然q BV1CY411w7Ed"
+    },
+    "groups": [
+        {
+            "name": "群奶",
+            "opers": [
+                {
+                    "name": "白面鸮",
+                    "skill": 2
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2
+                },
+                {
+                    "name": "调香师",
+                    "skill": 1
+                }
+            ]
+        },
+        {
+            "name": "单奶",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1
+                }
+            ]
+        },
+        {
+            "name": "回费先锋",
+            "opers": [
+                {
+                    "name": "推进之王",
+                    "skill": 1
+                },
+                {
+                    "name": "贾维",
+                    "skill": 1
+                },
+                {
+                    "name": "嵯峨",
+                    "skill": 1
+                },
+                {
+                    "name": "讯使",
+                    "skill": 1
+                },
+                {
+                    "name": "清道夫",
+                    "skill": 1
+                },
+                {
+                    "name": "凛冬",
+                    "skill": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2
+        },
+        {
+            "name": "星熊",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "左",
+            "doc": "",
+            "doc_color": "",
+            "rear_delay": 3000
+        },
+        {
+            "type": "部署",
+            "name": "回费先锋",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "群奶",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左",
+            "rear_delay": 3000
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "左",
+            "rear_delay": 3000
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "下",
+            "rear_delay": 3000
+        },
+        {
+            "type": "撤退",
+            "name": "艾雅法拉"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "上",
+            "rear_delay": 3000
+        },
+        {
+            "type": "部署",
+            "name": "单奶",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "kills": 150,
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "下"
+        }
+    ]
+}

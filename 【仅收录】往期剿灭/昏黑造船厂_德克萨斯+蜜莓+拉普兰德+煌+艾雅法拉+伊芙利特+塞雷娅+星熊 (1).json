@@ -1,0 +1,126 @@
+{
+    "stage_name": "昏黑造船厂",
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill_usage": 1
+        },
+        {
+            "name": "蜜莓"
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2
+        },
+        {
+            "name": "星熊",
+            "skill": 2
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "德克萨斯",
+            "type": "Deploy",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "塞雷娅",
+            "type": "Deploy",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "煌",
+            "type": "Deploy",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "伊芙利特",
+            "type": "Deploy",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "蜜莓",
+            "type": "Deploy",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "艾雅法拉",
+            "type": "Deploy",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "拉普兰德",
+            "type": "Deploy",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "星熊",
+            "type": "Deploy",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "",
+            "type": "SkillDaemon"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "自在道爷挂机作业",
+        "details": "作业来源：https://www.bilibili.com/video/BV1Lm4y1c7CF\nFROMCAT"
+    }
+}

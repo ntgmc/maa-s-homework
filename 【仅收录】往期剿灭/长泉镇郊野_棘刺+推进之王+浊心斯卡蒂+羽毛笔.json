@@ -1,0 +1,149 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "剿灭高配摆完挂机",
+        "details": "功课姬:BV1wQ4y1a78e\n作业未实测\n筱竹聽雨"
+    },
+    "stage_name": "长泉镇郊野",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "羽毛笔",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "kills": 7,
+            "name": "推进之王",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "加固装置",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "加固装置",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "加固装置",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "加固装置",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "加固装置",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "加固装置",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "加固装置",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "加固装置",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "羽毛笔",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "stage_name": "昏黑造船厂",
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯"
+        },
+        {
+            "name": "蜜莓"
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅"
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "桃金娘",
+            "type": "Deploy",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "德克萨斯",
+            "type": "Deploy",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "棘刺",
+            "type": "Deploy",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "煌",
+            "type": "Deploy",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "白面鸮",
+            "type": "Deploy",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "蜜莓",
+            "type": "Deploy",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "艾雅法拉",
+            "type": "Deploy",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "拉普兰德",
+            "type": "Deploy",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "塞雷娅",
+            "type": "Deploy",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "桃金娘",
+            "type": "Retreat"
+        },
+        {
+            "name": "",
+            "type": "SkillDaemon"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "萧然Q挂机作业（开技能版）",
+        "details": "作业来源：https://www.bilibili.com/video/BV1zP4y1m7AC\nFROMCAT"
+    }
+}

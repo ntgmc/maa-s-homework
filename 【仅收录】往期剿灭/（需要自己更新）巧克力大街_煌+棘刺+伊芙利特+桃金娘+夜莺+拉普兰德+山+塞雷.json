@@ -1,0 +1,225 @@
+{
+    "actions": [
+        {
+            "type": "打印",
+            "doc": "代理有问题请群里@碎蜂",
+            "doc_color": "#008000"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "流明",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "name": "泥岩",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "左",
+            "type": "部署"
+        },
+        {
+            "type": "撤退",
+            "name": "德克萨斯"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "山",
+            "pre_delay": 3000
+        },
+        {
+            "type": "撤退",
+            "cost_changes": 30,
+            "name": "桃金娘"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "撤退",
+            "name": "德克萨斯",
+            "kills": 360,
+            "location": [
+                null,
+                null
+            ],
+            "direction": ""
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "夜莺",
+            "kills": 369
+        },
+        {
+            "type": "技能",
+            "name": "闪灵"
+        }
+    ],
+    "stage_name": "巧克力大街",
+    "doc": {
+        "title": "巧克力大街",
+        "details": "up：季节不会死去"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 3
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "闪灵",
+            "skill": 3
+        }
+    ],
+    "groups": []
+}

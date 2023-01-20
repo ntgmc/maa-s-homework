@@ -1,0 +1,175 @@
+{
+  "minimum_required": "v4.0",
+  "stage_name": "实验基地机库",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "法师",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "铃兰",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "阿米娅",
+      "location": [
+        4,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        5,
+        7
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Retreat",
+      "name": "德克萨斯",
+      "costs": 30
+    },
+    {
+      "type": "Deploy",
+      "name": "临光",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "实验基地机库-自在道爷",
+    "details": "自在道爷挂机作业\nFROMCAT\n注意！！：阿米娅为法术形态"
+  },
+  "groups": [
+    {
+      "name": "法师",
+      "opers": [
+        {
+          "name": "艾雅法拉",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "澄闪",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "临光",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "闪灵",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "铃兰",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "阿米娅",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

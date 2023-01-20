@@ -1,0 +1,161 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "剿灭高配摆完挂机",
+        "details": "萧然:BV1464y1X7wg\n作业未实测\n筱竹聽雨"
+    },
+    "stage_name": "积水潮窟",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "赫默",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "蛇屠箱",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "kills": 5,
+            "name": "能天使",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "古米",
+            "location": [
+                2,
+                7
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "赫默",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "蛇屠箱",
+            "location": [
+                9,
+                7
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

@@ -1,0 +1,219 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "巧克力大街 - 高配",
+        "details": "萧然Q - BV1ud4y1V7c4\n【巧克力大街400杀】摆完挂机 简单好抄"
+    },
+    "stage_name": "巧克力大街",
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "琴柳",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "行医",
+            "skill_usage": 0
+        },
+        {
+            "name": "流明",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "行医",
+            "opers": [
+                {
+                    "name": "蜜莓",
+                    "skill": 1
+                },
+                {
+                    "name": "桑葚",
+                    "skill": 1
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "琴柳",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "行医",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "澄闪",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "流明",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "撤退",
+            "cost_changes": 50,
+            "name": "桃金娘",
+            "location": [
+                10,
+                4
+            ]
+        },
+        {
+            "type": "撤退",
+            "name": "琴柳",
+            "location": [
+                10,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

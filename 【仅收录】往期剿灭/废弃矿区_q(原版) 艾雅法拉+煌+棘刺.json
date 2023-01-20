@@ -1,0 +1,292 @@
+{
+    "stage_name": "废弃矿区",
+    "doc": {
+        "title": "生于黑暗。",
+        "details": "抄自萧然q BV18N411Q7Bb"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 2
+                },
+                {
+                    "name": "古米",
+                    "skill": 1
+                },
+                {
+                    "name": "临光",
+                    "skill": 1
+                }
+            ]
+        },
+        {
+            "name": "单狙",
+            "opers": [
+                {
+                    "name": "能天使",
+                    "skill": 3
+                },
+                {
+                    "name": "灰烬",
+                    "skill": 1
+                },
+                {
+                    "name": "空弦",
+                    "skill": 1
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1
+                },
+                {
+                    "name": "四月",
+                    "skill": 1
+                },
+                {
+                    "name": "梅",
+                    "skill": 1
+                },
+                {
+                    "name": "流星",
+                    "skill": 1
+                },
+                {
+                    "name": "红云",
+                    "skill": 1
+                },
+                {
+                    "name": "杰西卡",
+                    "skill": 1
+                }
+            ]
+        },
+        {
+            "name": "群狙",
+            "opers": [
+                {
+                    "name": "白金",
+                    "skill": 2
+                },
+                {
+                    "name": "W",
+                    "skill": 2
+                },
+                {
+                    "name": "菲亚梅塔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "陨星",
+                    "skill": 1
+                },
+                {
+                    "name": "慑砂",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "白雪",
+                    "skill_usage": 1,
+                    "skill": 2
+                }
+            ]
+        },
+        {
+            "name": "单奶",
+            "opers": [
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "末药",
+                    "skill": 1
+                }
+            ]
+        },
+        {
+            "name": "群奶",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "微风",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "调香师",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "回费先锋",
+            "opers": [
+                {
+                    "name": "芬",
+                    "skill": 1
+                }
+            ]
+        },
+        {
+            "name": "远卫",
+            "opers": [
+                {
+                    "name": "月见夜",
+                    "skill": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "回费先锋",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "奶盾",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "远卫",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "单奶",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "群狙",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "kills": 0,
+            "name": "单狙",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "群奶",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                7
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "二倍速",
+            "kills": 408
+        }
+    ]
+}

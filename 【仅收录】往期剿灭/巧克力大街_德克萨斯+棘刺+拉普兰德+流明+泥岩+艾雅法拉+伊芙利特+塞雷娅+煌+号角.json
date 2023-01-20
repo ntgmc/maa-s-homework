@@ -1,0 +1,146 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "流明",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "号角",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "左"
+        }
+    ],
+    "stage_name": "巧克力大街",
+    "doc": {
+        "title": "巧克力大街-德狗+棘刺+煌+拉狗+泥岩+塞雷娅+小羊+小火龙+流明+号角",
+        "details": "萧然Q\n锂/fs"
+    },
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "泥岩",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "号角",
+            "skill": 1
+        }
+    ]
+}
