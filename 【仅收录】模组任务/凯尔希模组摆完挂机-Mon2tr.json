@@ -1,0 +1,80 @@
+{
+  "minimum_required": "v4.0.0",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "凯尔希",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "Mon3tr",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillDaemon"
+    },
+    {
+      "type": "Output",
+      "doc_color": "#6f42c1",
+      "doc": "给个好评吧，亲~"
+    }
+  ],
+  "doc": {
+    "title": "凯尔希模组摆完挂机-Mon2tr",
+    "details": "侬无言以对模组任务摆完挂机合集:BV1wU4y177Qu\n3星通关主题曲5-10；必须编入非助战凯尔希并上场，且使用4次指令：熔毁\n筱竹聽雨"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "白面鸮",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "凯尔希",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ],
+  "stage_name": "obt/main/level_main_05-10"
+}

@@ -1,0 +1,49 @@
+{
+  "minimum_required": "v4.0.0",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "焰尾",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        1,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Output",
+      "doc_color": "#6f42c1",
+      "doc": "给个好评吧，亲~"
+    }
+  ],
+  "doc": {
+    "title": "焰尾模组摆完挂机-红松的起点",
+    "details": "侬无言以对模组任务摆完挂机合集:BV1wU4y177Qu\n3星通关别传NL-3；必须编入非助战焰尾并上场，其他成员仅可编入4名干员\n筱竹聽雨"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "焰尾",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "stage_name": "activities/act13side/level_act13side_03"
+}
