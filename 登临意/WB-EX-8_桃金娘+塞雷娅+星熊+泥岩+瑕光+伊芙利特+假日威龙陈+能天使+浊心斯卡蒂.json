@@ -1,0 +1,152 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "WB-EX-8突袭九人",
+        "details": "UP：白樱iridescent\n原视频：https://www.bilibili.com/video/av435781762/\n——————\n能天使至少>80级 否则上路的boss可能打不死\n星熊必须开挡4模组 否则漏小怪\n——————\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "WB-EX-8",
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "瑕光",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "假日威龙陈",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                11,
+                7
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 25,
+            "name": "能天使",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "瑕光",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "假日威龙陈",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "撤退",
+            "name": "桃金娘"
+        },
+        {
+            "type": "技能",
+            "name": "假日威龙陈",
+            "pre_delay": 1500
+        }
+    ]
+}
