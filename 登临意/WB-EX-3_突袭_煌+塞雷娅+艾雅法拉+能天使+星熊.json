@@ -1,0 +1,86 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "WB-EX-3突袭五人",
+        "details": "UP：侬无言以对\n原视频：https://www.bilibili.com/video/av735860651/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "WB-EX-3",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        }
+    ]
+}
