@@ -1,0 +1,72 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "WB-EX-1突袭四人",
+        "details": "UP：侬无言以对\n原视频：https://www.bilibili.com/video/av608313404/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "WB-EX-1",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "上"
+        }
+    ]
+}
