@@ -37,7 +37,7 @@
             "skill_usage": 0
         },
         {
-            "name": "号角",
+            "name": "蓝毒",
             "skill": 1,
             "skill_usage": 0
         },
@@ -50,7 +50,7 @@
     "actions": [
         {
             "type": "部署",
-            "cost_changes": 6,
+            "cost_changes": 4,
             "name": "能天使",
             "location": [
                 3,
@@ -82,9 +82,9 @@
         },
         {
             "type": "部署",
-            "name": "号角",
+            "name": "蓝毒",
             "location": [
-                5,
+                4,
                 2
             ],
             "direction": "左"
