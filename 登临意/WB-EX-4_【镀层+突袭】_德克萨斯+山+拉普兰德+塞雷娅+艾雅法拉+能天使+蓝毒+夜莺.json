@@ -81,6 +81,10 @@
             "direction": "左"
         },
         {
+            "type": "技能",
+            "name": "山"
+        },
+        {
             "type": "部署",
             "name": "蓝毒",
             "location": [
