@@ -1,0 +1,50 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【遗尘漫步】WD-4双人",
+        "details": "UP主：萧然Q\n原视频：https://www.bilibili.com/video/av767684749?p=4\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "WD-4",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

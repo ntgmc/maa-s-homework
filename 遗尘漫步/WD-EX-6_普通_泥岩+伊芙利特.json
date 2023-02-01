@@ -1,0 +1,68 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【遗尘漫步】WD-EX-6仅普通双人",
+        "details": "UP主：萧然Q\n原视频：https://www.bilibili.com/video/av972728540/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "WD-EX-6",
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

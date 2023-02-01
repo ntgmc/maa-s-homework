@@ -1,0 +1,126 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【遗尘漫步】【蚀刻章】WD-8六人",
+        "details": "UP主：萧然Q\n原视频：https://www.bilibili.com/video/av767684749?p=8\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "WD-8",
+    "opers": [
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "下",
+            "pre_delay": 1500
+        },
+        {
+            "type": "技能",
+            "name": "史尔特尔",
+            "pre_delay": 2000
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                11,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "夜刀",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "史尔特尔",
+            "pre_delay": 2000
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

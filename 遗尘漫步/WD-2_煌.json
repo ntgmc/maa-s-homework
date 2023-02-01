@@ -1,0 +1,36 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【遗尘漫步】WD-2单人",
+        "details": "UP主：萧然Q\n原视频：https://www.bilibili.com/video/av767684749?p=2\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "WD-2",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

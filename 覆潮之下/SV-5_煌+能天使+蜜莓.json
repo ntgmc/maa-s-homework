@@ -1,0 +1,64 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【覆潮之下】SV-5三人",
+        "details": "UP主：萧然Q\n原视频：https://www.bilibili.com/video/av512053357?p=5\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "SV-5",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "蜜莓",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "蜜莓",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}
