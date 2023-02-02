@@ -1,0 +1,159 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【覆潮之下】【宝箱&突袭】SN-EX-2突袭七人",
+        "details": "UP主：萧然Q\n原视频：https://www.bilibili.com/video/av683885831/\n——————\n小帮手：\n1 1\n1 2\n   0\n——————\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "SN-EX-2",
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "蜜莓",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "桃金娘",
+            "pre_delay": 4500
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "桃金娘"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "蜜莓",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "kills": 38,
+            "name": "艾雅法拉",
+            "pre_delay": 4000
+        },
+        {
+            "type": "部署",
+            "name": "圣徒之手",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "圣徒之手",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "kills": 51,
+            "name": "艾雅法拉",
+            "pre_delay": 15000
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}
