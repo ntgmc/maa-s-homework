@@ -1,0 +1,116 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【覆潮之下】SV-EX-7突袭六人",
+        "details": "UP主：萧然Q\n原视频：https://www.bilibili.com/video/av512053357?p=21\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "SV-EX-7",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "蜜莓",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "蜜莓",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 12,
+            "name": "棘刺"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "kills": 8,
+            "name": "棘刺"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}
