@@ -1,0 +1,78 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【骑兵与猎人】GT-6四人",
+        "details": "UP主：刻俄柏_\n原视频：https://www.bilibili.com/video/av768746821/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "GT-6",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

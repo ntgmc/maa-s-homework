@@ -1,0 +1,36 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【骑兵与猎人】GT-2单人",
+        "details": "UP主：刻俄柏_\n原视频：https://www.bilibili.com/video/av938610277/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "GT-2",
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

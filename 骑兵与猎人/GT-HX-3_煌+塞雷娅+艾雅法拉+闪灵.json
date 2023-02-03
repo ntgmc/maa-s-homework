@@ -1,0 +1,96 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【骑兵与猎人】GT-HX-3突袭四人",
+        "details": "UP主：刻俄柏_\n原视频：https://www.bilibili.com/video/av641226944/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "GT-HX-3",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}
