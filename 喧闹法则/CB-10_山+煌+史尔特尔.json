@@ -1,0 +1,69 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【喧闹法则】CB-10三人",
+        "details": "UP主：刻俄柏_\n原视频：https://www.bilibili.com/video/av468658205/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "CB-10",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "name": "史尔特尔",
+            "pre_delay": 2000
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

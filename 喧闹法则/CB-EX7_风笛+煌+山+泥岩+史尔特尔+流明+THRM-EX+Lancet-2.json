@@ -1,0 +1,138 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "CB-EX7",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "name": ""
+    },
+    {
+      "type": "Deploy",
+      "name": "风笛",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "流明",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        6,
+        7
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "cost_changes": 22,
+      "name": "Lancet-2",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "cost_changes": 21,
+      "name": "史尔特尔",
+      "location": [
+        1,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "THRM-EX",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        1,
+        3
+      ],
+      "direction": "Up",
+      "cooling": 3
+    },
+    {
+      "type": "Output",
+      "name": "",
+      "doc": "有问题联系制作者QQ2586582719",
+      "doc_color": "SpringGreen"
+    }
+  ],
+  "doc": {
+    "title": "【喧闹法则】CB-EX7突袭八人",
+    "details": "UP主：刻俄柏_\n原视频：https://www.bilibili.com/video/av468658205/\n有问题联系制作者QQ2586582719"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "风笛",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "史尔特尔",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "流明",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "THRM-EX",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "Lancet-2",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

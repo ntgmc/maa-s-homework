@@ -1,0 +1,95 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【喧闹法则】CB-EX4突袭双人",
+        "details": "UP主：福哥宅\n原视频：https://www.bilibili.com/video/av676465320/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "CB-EX4",
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "便携式补给站",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 16,
+            "name": "艾雅法拉"
+        },
+        {
+            "type": "撤退",
+            "cost_changes": 17,
+            "name": "艾雅法拉"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 14,
+            "name": "",
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "kills": 19,
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上",
+            "pre_delay": 1500
+        },
+        {
+            "type": "技能",
+            "kills": 25,
+            "name": "艾雅法拉",
+            "pre_delay": 8000
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}
