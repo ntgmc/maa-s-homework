@@ -1,0 +1,58 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【孤岛风云】MB-4三人",
+        "details": "UP：萧然Q\n原视频：https://www.bilibili.com/video/av849683238/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "act15d0_04",
+    "opers": [
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "左"
+        }
+    ]
+}
