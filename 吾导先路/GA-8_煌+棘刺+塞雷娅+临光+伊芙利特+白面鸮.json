@@ -1,0 +1,101 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【吾导先路】GA-8六人",
+        "details": "UP：萧然Q\n原视频：https://www.bilibili.com/video/av254766733/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "GA-8",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "临光",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 21,
+            "name": "白面鸮",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "临光",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        }
+    ]
+}
