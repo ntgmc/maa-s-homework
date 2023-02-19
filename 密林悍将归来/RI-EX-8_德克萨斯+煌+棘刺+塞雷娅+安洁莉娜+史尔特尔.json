@@ -2,14 +2,14 @@
     "minimum_required": "v4.0",
     "doc": {
         "title": "【密林悍将】RI-EX-8突袭六人",
-        "details": "UP：萧然Q\n原视频：https://www.bilibili.com/video/av334288246\n有问题联系制作者QQ2586582719"
+        "details": "UP：萧然Q\n原视频：https://www.bilibili.com/video/av334288246\n有问题联系制作者QQ2586582719\n版本：V3.5"
     },
     "stage_name": "act12d0_ex08",
     "opers": [
         {
             "name": "德克萨斯",
             "skill": 2,
-            "skill_usage": 0
+            "skill_usage": 1
         },
         {
             "name": "煌",
@@ -65,7 +65,7 @@
             "name": "棘刺",
             "location": [
                 1,
-                3
+                4
             ],
             "direction": "右"
         },
@@ -113,8 +113,9 @@
         },
         {
             "type": "技能",
-            "kills": 34,
-            "name": "安洁莉娜"
+            "kills": 33,
+            "name": "安洁莉娜",
+            "pre_delay": 500
         }
     ]
 }
