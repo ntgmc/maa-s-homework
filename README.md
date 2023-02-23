@@ -1,3 +1,13 @@
+
+作业站已经恢复 需要更多作业的请到作业站下载 该仓库仅收录部分作业
+作业站地址：https://prts.plus/
+
+
+欢迎有时间并且懂github的人将作业下载后改名制成合集（如春分）
+pr到此仓库
+
+——————————————————————————————————————————————
+
 1：该仓库内所有.json/.zip/.7z文件均由maa软件生成（https://github.com/MaaAssistantArknights/MaaAssistantArknights）。
 
 2：该仓库内所有.json文件均在文件内标明制作者。

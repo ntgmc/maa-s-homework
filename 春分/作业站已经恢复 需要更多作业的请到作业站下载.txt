@@ -1,6 +1,0 @@
-作业站已经恢复 需要更多作业的请到作业站下载
-作业站地址：https://prts.plus/
-
-
-欢迎有时间并且懂github的人将作业下载后改名制成合集
-pr到我本人的作业备份仓库：https://github.com/ntgmc/maa-s-homework
