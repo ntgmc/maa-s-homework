@@ -1,0 +1,33 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "stage_name": "WR-1",
+    "doc": {
+        "title": "WR-1",
+        "details": "推荐练度精二60级以上\n\n参考b站up主侬无言以对所做视频"
+    },
+    "groups": [],
+    "minimum_required": "v4.0"
+}

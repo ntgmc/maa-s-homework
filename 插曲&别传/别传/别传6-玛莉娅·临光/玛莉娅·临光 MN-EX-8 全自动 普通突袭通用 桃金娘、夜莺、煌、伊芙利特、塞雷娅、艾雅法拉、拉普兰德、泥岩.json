@@ -1,0 +1,143 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act13d5_ex08",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "桃金娘",
+      "skill_usage": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "桃金娘",
+      "costs": 8,
+      "skill_usage": 1
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Down",
+      "kills": 11
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        6,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        10,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "玛莉娅·临光 MN-EX-8 普通突袭通用 桃金娘、夜莺、煌、伊芙利特、塞雷娅、艾雅法拉、拉普兰德、泥岩",
+    "details": "攻略作者：自在道爷  BV1sb4y117vx\n自动战斗作者：鱼丸\n本攻略普通突袭通用 平均练度 2303\n已测试 测试人：鱼丸"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    }
+  ]
+}

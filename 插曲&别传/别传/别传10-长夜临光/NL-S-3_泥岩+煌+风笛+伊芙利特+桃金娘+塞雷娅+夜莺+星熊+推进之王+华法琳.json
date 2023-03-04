@@ -1,0 +1,174 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "长夜临光",
+        "details": "萧然:BV1aU4y1M7kq\n突袭通用\n本作业未实测\n筱竹聽雨"
+    },
+    "stage_name": "NL-S-3",
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "华法琳",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "风笛",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "华法琳",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "撤退",
+            "kills": 15,
+            "name": "推进之王",
+            "location": [
+                5,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "撤退",
+            "kills": 15,
+            "name": "桃金娘",
+            "location": [
+                5,
+                6
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                2,
+                7
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        }
+    ]
+}

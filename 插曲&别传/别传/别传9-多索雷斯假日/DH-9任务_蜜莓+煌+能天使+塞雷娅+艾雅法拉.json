@@ -1,0 +1,90 @@
+{
+    "actions": [
+        {
+            "type": "打印",
+            "doc": "代理有问题请群里@碎蜂",
+            "doc_color": "#FF0000"
+        },
+        {
+            "type": "打印",
+            "doc": "不要忘记核对配置方案！",
+            "doc_color": "#008000"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "蜜莓",
+            "location": [
+                11,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "kills": 4,
+            "name": "能天使",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左"
+        }
+    ],
+    "stage_name": "DH-9",
+    "doc": {
+        "title": "DH-9",
+        "details": "多索雷斯游客章"
+    },
+    "opers": [
+        {
+            "name": "蜜莓",
+            "skill": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "能天使",
+            "skill": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "（含骑士之徽）三人NL-9",
+        "details": "原视频：https://www.bilibili.com/video/av688300425/\n制作者：2586582719"
+    },
+    "stage_name": "NL-9",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "骑士之徽",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "骑士之徽",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者：2586582719",
+            "doc_color": "#008000"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

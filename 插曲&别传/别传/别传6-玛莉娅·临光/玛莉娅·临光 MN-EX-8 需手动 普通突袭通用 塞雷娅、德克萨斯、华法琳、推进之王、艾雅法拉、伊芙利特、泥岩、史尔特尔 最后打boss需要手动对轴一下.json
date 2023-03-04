@@ -1,0 +1,177 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act13d5_ex08",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "推进之王",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        7,
+        1
+      ],
+      "direction": "Down",
+      "costs": 63
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        8,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        7,
+        4
+      ],
+      "cooling": 1,
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "华法琳",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Output",
+      "doc_color": "Black",
+      "doc": "！！！ 请自行开启史尔特尔技能 尽量使两个boss同时死掉 ！！！"
+    },
+    {
+      "type": "Output",
+      "doc_color": "Gray",
+      "doc": "！！！ 请自行开启史尔特尔技能 尽量使两个boss同时死掉 ！！！"
+    },
+    {
+      "type": "Output",
+      "doc_color": "DarkRed",
+      "doc": "！！！ 请自行开启史尔特尔技能 尽量使两个boss同时死掉 ！！！"
+    },
+    {
+      "type": "Output",
+      "doc_color": "DarkGoldenrod",
+      "doc": "！！！ 请自行开启史尔特尔技能 尽量使两个boss同时死掉 ！！！"
+    },
+    {
+      "type": "Output",
+      "doc_color": "Gold",
+      "doc": "！！！ 请自行开启史尔特尔技能 尽量使两个boss同时死掉 ！！！"
+    },
+    {
+      "type": "Output",
+      "doc_color": "SpringGreen",
+      "doc": "！！！ 请自行开启史尔特尔技能 尽量使两个boss同时死掉 ！！！"
+    },
+    {
+      "type": "Output",
+      "doc_color": "DarkCyan",
+      "doc": "！！！ 请自行开启史尔特尔技能 尽量使两个boss同时死掉 ！！！"
+    },
+    {
+      "type": "Output",
+      "doc_color": "DeepSkyBlue",
+      "doc": "！！！ 请自行开启史尔特尔技能 尽量使两个boss同时死掉 ！！！"
+    },
+    {
+      "type": "Output",
+      "doc_color": "#6f42c1",
+      "doc": "！！！ 请自行开启史尔特尔技能 尽量使两个boss同时死掉 ！！！"
+    },
+    {
+      "type": "Output",
+      "doc_color": "#d63384",
+      "doc": "！！！ 请自行开启史尔特尔技能 尽量使两个boss同时死掉 ！！！"
+    }
+  ],
+  "doc": {
+    "title": "玛莉娅·临光 MN-EX-8 普通突袭通用 塞雷娅、德克萨斯、华法琳、推进之王、艾雅法拉、伊芙利特、泥岩、史尔特尔 最后打boss需要手动对轴一下",
+    "details": "攻略作者：萧然Q  BV17Q4y1C7oF\n自动战斗作者：鱼丸\n本攻略普通突袭通用 平均练度 2603\n！！！ 史尔特尔用来对轴 需要自己手动 ！！！\n！！！ 史尔特尔用来对轴 需要自己手动 ！！！\n！！！ 史尔特尔用来对轴 需要自己手动 ！！！\n！！！ 史尔特尔用来对轴 需要自己手动 ！！！\n！！！ 史尔特尔用来对轴 需要自己手动 ！！！\n！！！ 史尔特尔用来对轴 需要自己手动 ！！！\n已测试 测试人：鱼丸"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "史尔特尔",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "华法琳",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "推进之王",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

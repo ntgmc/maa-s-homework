@@ -1,0 +1,80 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "长夜临光复刻",
+        "details": "萧然Q重制版作业\nav303272898\n@U98de"
+    },
+    "stage_name": "NL-7",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "蜜莓",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "骑士之徽",
+            "location": [
+                2,
+                4
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "蜜莓",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "右"
+        }
+    ]
+}

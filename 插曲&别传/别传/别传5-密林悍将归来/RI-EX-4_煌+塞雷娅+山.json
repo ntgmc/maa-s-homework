@@ -1,0 +1,62 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【密林悍将】RI-EX-4突袭三人",
+        "details": "UP：萧然Q\n原视频：https://www.bilibili.com/video/av334288246\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "act12d0_ex04",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

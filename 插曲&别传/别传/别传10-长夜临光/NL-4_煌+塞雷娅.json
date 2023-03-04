@@ -1,0 +1,53 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "长夜临光复刻",
+        "details": "萧然Q重制版作业\nav303272898\n@U98de\n\n塞雷娅一技能！"
+    },
+    "stage_name": "NL-4",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "城市霓虹",
+            "location": [
+                5,
+                1
+            ],
+            "pre_delay": 18000
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "右"
+        }
+    ]
+}

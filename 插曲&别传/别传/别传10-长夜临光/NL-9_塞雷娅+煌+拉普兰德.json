@@ -1,0 +1,73 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "（含骑士之徽）三人NL-9",
+        "details": "原视频：https://www.bilibili.com/video/av208937144/\n制作者：2586582719"
+    },
+    "stage_name": "NL-9",
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "骑士之徽",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者：2586582719",
+            "doc_color": "#008000"
+        }
+    ]
+}

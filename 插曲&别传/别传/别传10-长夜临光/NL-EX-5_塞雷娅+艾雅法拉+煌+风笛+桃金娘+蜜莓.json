@@ -1,0 +1,118 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "长夜临光复刻",
+        "details": "萧然Q重制版作业\n突袭通用\nav303272898\n@U98de\n\n突袭建议带德克萨斯补费"
+    },
+    "stage_name": "NL-EX-5",
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "蜜莓",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "骑士之徽",
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "风笛",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "下",
+            "pre_delay": 2000
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "蜜莓",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "撤退",
+            "kills": 11,
+            "name": "风笛",
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "右"
+        }
+    ]
+}

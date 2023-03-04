@@ -1,0 +1,149 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "长夜临光",
+        "details": "至多被击破一个障碍物\n侬无言以对:BV1jS4y197D2\n筱竹聽雨"
+    },
+    "stage_name": "NL-S-5",
+    "opers": [
+        {
+            "name": "银灰",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "临光",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "临光",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "kills": 1,
+            "name": "德克萨斯",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "kills": 3,
+            "name": "拉普兰德",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "kills": 7,
+            "name": "浊心斯卡蒂",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "撤退",
+            "name": "德克萨斯"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "上"
+        }
+    ]
+}

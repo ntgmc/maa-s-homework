@@ -1,0 +1,33 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ],
+    "stage_name": "WR-2",
+    "doc": {
+        "title": "WR-2",
+        "details": "推荐练度精二60级以上\n参考b站up主侬无言以对所做视频"
+    },
+    "groups": [],
+    "minimum_required": "v4.0"
+}

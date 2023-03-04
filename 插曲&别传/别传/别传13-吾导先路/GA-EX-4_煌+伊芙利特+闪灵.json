@@ -1,0 +1,58 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【吾导先路】GA-EX-4突袭三人",
+        "details": "UP：萧然Q\n原视频：https://www.bilibili.com/video/av679992983/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "GA-EX-4",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "下"
+        }
+    ]
+}

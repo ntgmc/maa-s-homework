@@ -1,0 +1,185 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "NL-S-4-突袭-煌-星熊-塞雷亚-闪灵-小火龙-夜莺-推王-风笛-拉普兰德",
+        "details": "up:侬无言以对\nBV19q4y137Ja"
+    },
+    "stage_name": "NL-S-4",
+    "opers": [
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "kills": 0,
+            "cost_changes": 0,
+            "name": "推进之王",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "右",
+            "pre_delay": 10,
+            "rear_delay": 10
+        },
+        {
+            "type": "部署",
+            "kills": 0,
+            "name": "塞雷娅",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "上",
+            "pre_delay": 10,
+            "rear_delay": 10
+        },
+        {
+            "type": "部署",
+            "kills": 2,
+            "name": "闪灵",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "左",
+            "pre_delay": 10,
+            "rear_delay": 10
+        },
+        {
+            "type": "部署",
+            "kills": 4,
+            "name": "伊芙利特",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "下",
+            "pre_delay": 10,
+            "rear_delay": 10
+        },
+        {
+            "type": "部署",
+            "kills": 5,
+            "name": "风笛",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "左",
+            "pre_delay": 10,
+            "rear_delay": 10
+        },
+        {
+            "type": "撤退",
+            "kills": 8,
+            "name": "风笛",
+            "location": [
+                9,
+                6
+            ],
+            "pre_delay": 10,
+            "rear_delay": 10
+        },
+        {
+            "type": "部署",
+            "kills": 8,
+            "name": "夜莺",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "右",
+            "pre_delay": 10,
+            "rear_delay": 10
+        },
+        {
+            "type": "部署",
+            "kills": 8,
+            "name": "拉普兰德",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "上",
+            "pre_delay": 10,
+            "rear_delay": 10
+        },
+        {
+            "type": "部署",
+            "kills": 8,
+            "name": "星熊",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "右",
+            "pre_delay": 10,
+            "rear_delay": 10
+        },
+        {
+            "type": "部署",
+            "kills": 29,
+            "name": "煌",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左",
+            "pre_delay": 10,
+            "rear_delay": 10
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

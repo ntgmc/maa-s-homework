@@ -1,0 +1,50 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "双人NL-3",
+        "details": "原视频：https://www.bilibili.com/video/av815818860/\n制作者：2586582719"
+    },
+    "stage_name": "NL-3",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "夜刀",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者：2586582719",
+            "doc_color": "#008000"
+        }
+    ]
+}

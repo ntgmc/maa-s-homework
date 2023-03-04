@@ -1,0 +1,166 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "高练专三普通突袭通用（未测试）",
+        "details": "标志物：道格牌工业密封胶 土匪醇厚浓汤 沙兹专业镀膜装置 安东陈年龙舌兰 马可伯伯仙人掌饼\n练度要求：全员高等级专三\nUP主：功课姬 BV1mU4y1J7K4"
+    },
+    "stage_name": "DH-S-4",
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "标志物：道格牌工业密封胶 土匪醇厚浓汤 沙兹专业镀膜装置 安东陈年龙舌兰 马可伯伯仙人掌饼",
+            "doc_color": "红"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "防水蚀镀膜装置",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "防水蚀镀膜装置",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "kills": 39,
+            "name": "伊芙利特",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "上",
+            "pre_delay": 100
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "防水蚀镀膜装置",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "kills": 55,
+            "name": "斯卡蒂的海嗣",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "斯卡蒂的海嗣",
+            "location": [
+                9,
+                2
+            ]
+        }
+    ]
+}

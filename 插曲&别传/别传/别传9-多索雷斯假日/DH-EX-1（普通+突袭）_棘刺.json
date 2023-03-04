@@ -1,0 +1,61 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "棘刺单人，需要道格密封胶+大帽子老哥塔可+马克伯伯仙人掌干+沙兹专业镀膜装置",
+        "details": "https://www.bilibili.com/video/av292163312"
+    },
+    "stage_name": "DH-EX-1",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "防水蚀镀膜装置",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "防水蚀镀膜装置",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "防水蚀镀膜装置",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "右",
+            "cost_changes": 10
+        },
+        {
+            "type": "部署",
+            "name": "白面鸮",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "特制水上平台",
+            "location": [
+                7,
+                1
+            ],
+            "direction": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "特制水上平台",
+            "location": [
+                1,
+                1
+            ],
+            "direction": ""
+        },
+        {
+            "type": "部署",
+            "name": "斯卡蒂",
+            "kills": 20,
+            "location": [
+                1,
+                1
+            ],
+            "direction": "左"
+        }
+    ],
+    "stage_name": "DH-EX-3",
+    "doc": {
+        "title": "DH-EX-3",
+        "details": "推荐练度精二60专3\n为黄金大队懒人挂机攻略\n参考b站up主萧然Q的视频\n收藏品：多索雷斯游客章；马可伯伯仙人掌饼；大帽子老哥卷饼；道格牌密封胶"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2
+        },
+        {
+            "name": "斯卡蒂",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}

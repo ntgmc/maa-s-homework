@@ -1,0 +1,68 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "（含骑士之徽）双人NL-9",
+        "details": "原视频：https://www.bilibili.com/video/av515851481/\n制作者：2586582719"
+    },
+    "stage_name": "NL-9",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "骑士之徽",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "骑士之徽",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者：2586582719",
+            "doc_color": "#008000"
+        }
+    ]
+}

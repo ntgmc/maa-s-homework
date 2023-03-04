@@ -1,0 +1,40 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "长夜临光复刻",
+        "details": "萧然Q重制版作业\nav303272898\n@U98de\n\n德克萨斯补潜能，没练可以考虑带个桃子爆费"
+    },
+    "stage_name": "NL-2",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        }
+    ]
+}

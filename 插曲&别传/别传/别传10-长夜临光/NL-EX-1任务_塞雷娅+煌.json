@@ -1,0 +1,104 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "长夜临光",
+        "details": "侬无言以对:BV1Tr4y1y7c4\n使用城市霓虹至少6次\n突袭/任务通用\n筱竹聽雨"
+    },
+    "stage_name": "NL-EX-1",
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "kills": 5,
+            "name": "城市霓虹",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "技能",
+            "kills": 6,
+            "name": "城市霓虹",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "技能",
+            "kills": 8,
+            "name": "城市霓虹",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "技能",
+            "kills": 16,
+            "name": "城市霓虹",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "技能",
+            "kills": 16,
+            "name": "城市霓虹",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "技能",
+            "kills": 26,
+            "name": "城市霓虹",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "无"
+        }
+    ]
+}

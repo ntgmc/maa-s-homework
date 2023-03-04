@@ -1,0 +1,67 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "长夜临光复刻",
+        "details": "萧然Q重制版作业\nav303272898\n@U98de\n\n桃子精二！先锋回血天赋！"
+    },
+    "stage_name": "NL-6",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "技能",
+            "name": "焰尾",
+            "location": [
+                4,
+                3
+            ],
+            "pre_delay": 6000
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "上"
+        }
+    ]
+}

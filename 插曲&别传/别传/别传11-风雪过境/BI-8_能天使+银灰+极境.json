@@ -1,0 +1,84 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【风雪过境】BI-8三人",
+        "details": "原视频：https://www.bilibili.com/video/av465041150/\nUP：風的传说\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "BI-8",
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "极境",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "子弹时间",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "极境",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "kills": 5,
+            "name": "银灰"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 68,
+            "name": "极境"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "没打死boss就升级能天使吧",
+            "doc_color": "#6f42c1"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

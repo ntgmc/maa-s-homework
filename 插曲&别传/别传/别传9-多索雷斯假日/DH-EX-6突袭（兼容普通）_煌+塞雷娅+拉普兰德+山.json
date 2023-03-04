@@ -1,0 +1,82 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "沙滩聚会",
+        "details": "DH-EX-6突袭（兼容普通）\n\n务必选好以下标志物：多索雷斯游客章、大帽子老哥卷饼、马可伯伯仙人掌饼、安东陈年龙舌兰\n\n推荐练度：全员2603左右，无需模组\n作者：Annoying Flower\n作业来源：https://www.bilibili.com/video/BV1fM4y1N7aj"
+    },
+    "stage_name": "DH-EX-6",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "务必选好以下标志物：多索雷斯游客章、大帽子老哥卷饼、马可伯伯仙人掌饼、安东陈年龙舌兰",
+            "doc_color": "red"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "长夜临光复刻",
+        "details": "萧然Q重制版作业\n突袭通用\nav303272898\n@U98de"
+    },
+    "stage_name": "NL-EX-2",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "kills": 5,
+            "name": "城市霓虹",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "技能",
+            "kills": 9,
+            "name": "城市霓虹",
+            "location": [
+                9,
+                5
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "右"
+        }
+    ]
+}
