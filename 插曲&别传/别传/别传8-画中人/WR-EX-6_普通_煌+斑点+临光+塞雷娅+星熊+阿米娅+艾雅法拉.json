@@ -1,0 +1,210 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "WR-EX-6普通7人",
+        "details": "UP：萧然Q\n原视频：https://www.bilibili.com/video/av680605405?p=19\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "WR-EX-6",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "临光",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿米娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "斑点",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "临光",
+            "location": [
+                10,
+                7
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "无",
+            "rear_delay": 2500
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                3,
+                7
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "阿米娅",
+            "location": [
+                11,
+                7
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                11,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "撤退",
+            "kills": 18,
+            "name": "",
+            "location": [
+                3,
+                1
+            ],
+            "rear_delay": 200
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "无",
+            "rear_delay": 200
+        },
+        {
+            "type": "撤退",
+            "name": "",
+            "location": [
+                3,
+                7
+            ],
+            "rear_delay": 200
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "无",
+            "rear_delay": 200
+        },
+        {
+            "type": "撤退",
+            "kills": 30,
+            "name": "",
+            "location": [
+                3,
+                3
+            ],
+            "rear_delay": 200
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "无",
+            "rear_delay": 200
+        },
+        {
+            "type": "撤退",
+            "name": "",
+            "location": [
+                3,
+                5
+            ],
+            "rear_delay": 200
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "无"
+        }
+    ]
+}
