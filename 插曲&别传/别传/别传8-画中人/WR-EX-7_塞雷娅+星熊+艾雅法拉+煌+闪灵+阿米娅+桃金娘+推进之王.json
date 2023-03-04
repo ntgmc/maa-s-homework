@@ -1,0 +1,149 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "改良型二踢脚",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "改良型二踢脚",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "改良型二踢脚",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "阿米娅",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "stage_name": "WR-EX-7",
+    "doc": {
+        "title": "WR-EX-7",
+        "details": "推荐练度精二60专3\n参考b站up主萧然Q的视频"
+    },
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 2
+        },
+        {
+            "name": "星熊",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "闪灵",
+            "skill": 2
+        },
+        {
+            "name": "阿米娅",
+            "skill": 2
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "推进之王",
+            "skill": 2
+        }
+    ]
+}

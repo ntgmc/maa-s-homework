@@ -1,0 +1,59 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "闪灵",
+            "skill_usage": 1,
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill_usage": 1,
+            "skill": 1
+        }
+    ],
+    "stage_name": "WR-EX-2",
+    "doc": {
+        "title": "WR-EX-2",
+        "details": "推荐练度精二60\n参考b站up萧然Q的视频"
+    }
+}
