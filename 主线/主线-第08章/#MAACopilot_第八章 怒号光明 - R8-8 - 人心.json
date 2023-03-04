@@ -1,0 +1,266 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_08-08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "银灰",
+      "location": [
+        10,
+        1
+      ],
+      "direction": "Down",
+      "pre_delay": 7000
+    },
+    {
+      "type": "Deploy",
+      "name": "砾",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Skill",
+      "name": "银灰",
+      "location": [
+        10,
+        1
+      ],
+      "pre_delay": 6000
+    },
+    {
+      "type": "Retreat",
+      "costs": 22,
+      "name": "砾",
+      "location": [
+        10,
+        3
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "假日威龙陈",
+      "location": [
+        10,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Retreat",
+      "name": "银灰",
+      "location": [
+        10,
+        1
+      ],
+      "pre_delay": 3500
+    },
+    {
+      "type": "SkillUsage",
+      "doc": "",
+      "name": "银灰",
+      "skill_usage": 1
+    },
+    {
+      "type": "Deploy",
+      "name": "银灰",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Retreat",
+      "name": "银灰",
+      "location": [
+        9,
+        3
+      ],
+      "kills": 8,
+      "pre_delay": 1500
+    },
+    {
+      "type": "Retreat",
+      "name": "假日威龙陈",
+      "location": [
+        10,
+        4
+      ],
+      "kills": 9
+    },
+    {
+      "type": "Output",
+      "doc_color": "SpringGreen",
+      "doc": "标记：进入9击杀"
+    },
+    {
+      "type": "SkillUsage",
+      "doc": "",
+      "name": "假日威龙陈",
+      "skill_usage": 0
+    },
+    {
+      "type": "Deploy",
+      "pre_delay": 15000,
+      "name": "特种（可替，自己加，高练！）",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Retreat",
+      "pre_delay": 4500,
+      "name": "特种（可替，自己加，高练！）",
+      "location": [
+        5,
+        2
+      ]
+    },
+    {
+      "type": "Output",
+      "doc": "标记\n",
+      "doc_color": "#6f42c1"
+    },
+    {
+      "type": "Deploy",
+      "name": "银灰",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "假日威龙陈",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "特种（可替，自己加，高练！）",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Up",
+      "pre_delay": 5000
+    },
+    {
+      "type": "Retreat",
+      "name": "银灰",
+      "location": [
+        5,
+        2
+      ],
+      "kills": 16
+    },
+    {
+      "type": "Output",
+      "doc_color": "SpringGreen",
+      "doc": "标记：进入17击杀",
+      "kills": 17
+    },
+    {
+      "type": "Deploy",
+      "name": "假日威龙陈",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "银灰",
+      "location": [
+        6,
+        6
+      ],
+      "direction": "Left",
+      "costs": 50
+    },
+    {
+      "type": "Deploy",
+      "name": "特种（可替，自己加，高练！）",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "假日威龙陈",
+      "kills": 21,
+      "location": [
+        1,
+        5
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第八章 怒号光明 - R8-8 - 人心，向背无常",
+    "details": "原作者：樱夜计划\nBV1Wq4y1G7sG\n\nyc.exe\n(干员练度要求极高，开局就过不去的建议别用该作业）\n(这作业怎么跟视频里不太一样？？？`(*>﹏<*)′）\n这作业不能打隐藏！！！！！"
+  },
+  "groups": [
+    {
+      "name": "特种（可替，自己加，高练！）",
+      "opers": [
+        {
+          "name": "红",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "傀影",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "缄默德克萨斯",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "工具人",
+      "opers": [
+        {
+          "name": "砾",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "假日威龙陈",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "银灰",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 1
+}

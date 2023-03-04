@@ -1,0 +1,131 @@
+{
+    "actions": [
+        {
+            "type": "二倍速",
+            "cost_changes": null,
+            "name": "",
+            "doc": "",
+            "doc_color": "",
+            "location": [
+                null,
+                null
+            ]
+        },
+        {
+            "type": "部署",
+            "cost_changes": null,
+            "name": "泥岩",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "右",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "部署",
+            "cost_changes": null,
+            "name": "山",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "左",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "location": [
+                null,
+                null
+            ],
+            "name": "山",
+            "type": "技能",
+            "pre_delay": 2000
+        },
+        {
+            "type": "部署",
+            "cost_changes": null,
+            "name": "史尔特尔",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "左",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "技能",
+            "name": "史尔特尔"
+        },
+        {
+            "type": "撤退",
+            "kills": 10,
+            "cost_changes": null,
+            "name": "史尔特尔",
+            "doc": "",
+            "doc_color": "",
+            "location": [
+                null,
+                null
+            ]
+        },
+        {
+            "type": "部署",
+            "cost_changes": null,
+            "name": "史尔特尔",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "左",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "技能",
+            "name": "史尔特尔"
+        },
+        {
+            "type": "部署",
+            "cost_changes": null,
+            "name": "史尔特尔",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "左",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "技能",
+            "name": "史尔特尔"
+        }
+    ],
+    "stage_name": "tough_10-06",
+    "doc": {
+        "title": "磨难10-6",
+        "details": "作者：YueShen                     泥岩要90级\n有问题群里@咕咕咕             攻略：https://www.bilibili.com/video/BV1gS4y1e78q?share_source=copy_web&vd_source=5971cb9ceac8f3fd4d0ef37c2de36579"
+    },
+    "opers": [
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": "0"
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "minimum_required": "v4.0"
+}

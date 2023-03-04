@@ -1,0 +1,58 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "direction": "下",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "斑点",
+            "direction": "左",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "direction": "左",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "二倍速",
+            "kills": 64
+        }
+    ],
+    "stage_name": "免费拥抱",
+    "doc": {
+        "details": "作者YueShen"
+    },
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

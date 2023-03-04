@@ -1,0 +1,241 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "哥伦比亚 - 实验基地机库 - 实验基地机库",
+        "details": "哥伦比亚 - 实验基地机库 - 实验基地机库"
+    },
+    "stage_name": "camp_r_14",
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "号角",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "卡达",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "苏苏洛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "调香师",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "蛇屠箱",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "缄默德克萨斯",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "号角",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "卡达",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "苏苏洛",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "kills": 31,
+            "name": "号角"
+        },
+        {
+            "type": "Retreat",
+            "kills": 32,
+            "name": "卡达",
+            "location": [
+                5,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "苏苏洛",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "号角",
+            "location": [
+                5,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "kills": 50,
+            "name": "拉普兰德"
+        },
+        {
+            "type": "Deploy",
+            "name": "蛇屠箱",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "卡达",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "kills": 100,
+            "name": "卡达"
+        },
+        {
+            "type": "Skill",
+            "kills": 344,
+            "name": "调香师"
+        },
+        {
+            "type": "Deploy",
+            "kills": 388,
+            "name": "澄闪",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        }
+    ]
+}

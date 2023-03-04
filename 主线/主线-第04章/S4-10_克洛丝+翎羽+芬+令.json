@@ -1,0 +1,142 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "翎羽",
+            "direction": "左",
+            "location": [
+                4,
+                5
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "芬",
+            "direction": "左",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "令",
+            "direction": "左",
+            "location": [
+                7,
+                4
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "direction": "左",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "撤退",
+            "name": "翎羽",
+            "direction": "",
+            "location": [
+                null,
+                null
+            ]
+        },
+        {
+            "type": "撤退",
+            "name": "芬"
+        },
+        {
+            "name": "“弦惊”",
+            "type": "部署",
+            "direction": "左",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "direction": "左",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "direction": "左",
+            "location": [
+                5,
+                2
+            ]
+        },
+        {
+            "name": "“弦惊”",
+            "type": "部署",
+            "direction": "左",
+            "location": [
+                4,
+                5
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "翎羽",
+            "direction": "左",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "direction": "左",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "direction": "左",
+            "location": [
+                8,
+                5
+            ]
+        }
+    ],
+    "stage_name": "S4-10",
+    "doc": {
+        "details": "作者：YueShen"
+    },
+    "opers": [
+        {
+            "name": "克洛丝",
+            "skill": 1
+        },
+        {
+            "name": "翎羽",
+            "skill": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1
+        },
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

@@ -1,0 +1,210 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "粉碎防御 - AP-4 - 矿材仓库保全",
+        "details": "参考作业：https://www.bilibili.com/video/BV1n4411j79j\n作了适当的修改\n干员等级越高越好啦……"
+    },
+    "stage_name": "wk_toxic_4",
+    "opers": [
+        {
+            "name": "刻刀",
+            "skill": null,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": null,
+            "skill_usage": 0
+        },
+        {
+            "name": "香草",
+            "skill": null,
+            "skill_usage": 1
+        },
+        {
+            "name": "调香师",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "安赛尔",
+            "skill": null,
+            "skill_usage": 1
+        },
+        {
+            "name": "黑角",
+            "skill": null,
+            "skill_usage": 0
+        },
+        {
+            "name": "米格鲁",
+            "skill": null,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": null,
+            "skill_usage": 0
+        },
+        {
+            "name": "白雪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "杰西卡",
+            "skill": null,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": null,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "香草",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "调香师",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "杰西卡",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "kills": 9,
+            "name": "刻刀",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "kills": 13,
+            "name": "刻刀",
+            "location": [
+                8,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "白雪",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "香草",
+            "location": [
+                2,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "location": [
+                1,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "kills": 30,
+            "name": "白雪",
+            "location": [
+                1,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "kills": 30,
+            "name": "斑点",
+            "location": [
+                1,
+                4
+            ]
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "stage_name": "9-4",
+    "opers": [
+        {
+            "name": "夜莺",
+            "skill": 3
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "华法琳"
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "银灰"
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "棘刺",
+            "type": "Deploy",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "银灰",
+            "type": "Deploy",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "name": "华法琳",
+            "type": "Deploy",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "kills": 11
+        },
+        {
+            "name": "拉普兰德",
+            "type": "Deploy",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "夜莺",
+            "type": "Deploy",
+            "kills": 17,
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "塞雷娅",
+            "type": "Deploy",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "",
+            "type": "SkillDaemon"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "萧然挂机作业，高练度需求注意",
+        "details": "延迟要求：无"
+    }
+}

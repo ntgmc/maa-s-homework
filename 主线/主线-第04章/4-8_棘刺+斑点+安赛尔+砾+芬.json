@@ -1,0 +1,98 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "斑点",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "安赛尔",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "砾",
+            "kills": 11,
+            "location": [
+                7,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "芬",
+            "kills": 13,
+            "location": [
+                7,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "砾",
+            "kills": 19,
+            "location": [
+                7,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "二倍速",
+            "kills": 30
+        }
+    ],
+    "stage_name": "4-8",
+    "doc": {
+        "details": "作者：YueShen"
+    },
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "砾",
+            "skill": 2
+        },
+        {
+            "name": "芬",
+            "skill": 1
+        }
+    ],
+    "minimum_required": "v4.0"
+}

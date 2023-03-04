@@ -1,0 +1,122 @@
+{
+    "stage_name": "9-12",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2
+        },
+        {
+            "name": "推进之王",
+            "skill": 2
+        },
+        {
+            "name": "银灰"
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "type": "Deploy",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "爆破装置",
+            "type": "Deploy",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "推进之王",
+            "type": "Deploy",
+            "location": [
+                4,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "name": "棘刺",
+            "type": "Deploy",
+            "location": [
+                2,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "name": "伊芙利特",
+            "type": "Deploy",
+            "location": [
+                8,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "白面鸮",
+            "type": "Deploy",
+            "location": [
+                9,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "银灰",
+            "type": "Deploy",
+            "location": [
+                1,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "name": "塞雷娅",
+            "type": "Deploy",
+            "location": [
+                3,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "name": "",
+            "type": "SkillDaemon"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "萧然挂机作业，高练度需求注意",
+        "details": "延迟要求：无"
+    }
+}

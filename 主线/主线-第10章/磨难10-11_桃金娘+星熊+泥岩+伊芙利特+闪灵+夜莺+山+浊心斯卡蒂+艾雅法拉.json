@@ -1,0 +1,146 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "direction": "左",
+            "location": [
+                7,
+                6
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "direction": "左",
+            "location": [
+                6,
+                6
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "direction": "下",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "type": "部署",
+            "cost_changes": 15,
+            "name": "浊心斯卡蒂",
+            "direction": "上",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "direction": "左",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "山",
+            "pre_delay": 1500
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "direction": "右",
+            "location": [
+                3,
+                6
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "direction": "右",
+            "location": [
+                2,
+                6
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "direction": "上",
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "撤退",
+            "name": "桃金娘",
+            "cost_changes": 30
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "direction": "左",
+            "location": [
+                7,
+                6
+            ]
+        }
+    ],
+    "stage_name": "tough_10-10",
+    "doc": {
+        "details": "作者：YueShen\n有问题群里@咕咕咕               攻略：https://www.bilibili.com/video/BV1GY411j72u?p=13",
+        "title": "磨难10-11"
+    },
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "星熊",
+            "skill": 2
+        },
+        {
+            "name": "泥岩",
+            "skill": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        },
+        {
+            "name": "闪灵",
+            "skill": 2
+        },
+        {
+            "name": "夜莺",
+            "skill": 2
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        }
+    ],
+    "minimum_required": "v4.0",
+    "groups": []
+}

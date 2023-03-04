@@ -1,0 +1,80 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "11-14磨难四人",
+        "details": "https://www.bilibili.com/video/av473937102/"
+    },
+    "stage_name": "obt/main/level_tough_11-12",
+    "opers": [
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 15,
+            "name": "能天使",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

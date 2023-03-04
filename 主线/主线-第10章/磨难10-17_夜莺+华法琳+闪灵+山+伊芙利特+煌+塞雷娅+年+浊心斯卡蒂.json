@@ -1,0 +1,140 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "direction": "下",
+            "location": [
+                10,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "华法琳",
+            "direction": "左",
+            "location": [
+                6,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "kills": 17,
+            "name": "浊心斯卡蒂",
+            "direction": "上",
+            "location": [
+                9,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "direction": "下",
+            "location": [
+                9,
+                1
+            ]
+        },
+        {
+            "type": "撤退",
+            "name": "山",
+            "kills": 24
+        },
+        {
+            "type": "部署",
+            "name": "年",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "上"
+        }
+    ],
+    "stage_name": "tough_10-15",
+    "doc": {
+        "details": "作者：YueShen\n有问题群里@咕咕咕               攻略：https://www.bilibili.com/video/BV1GY411j72u?p=23",
+        "title": "磨难10-17"
+    },
+    "opers": [
+        {
+            "name": "夜莺",
+            "skill": 2
+        },
+        {
+            "name": "华法琳",
+            "skill": 1
+        },
+        {
+            "name": "闪灵",
+            "skill": 2
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "年",
+            "skill": 2
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2
+        }
+    ],
+    "minimum_required": "v4.0",
+    "groups": []
+}

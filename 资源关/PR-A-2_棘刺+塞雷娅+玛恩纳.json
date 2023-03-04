@@ -1,0 +1,79 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "固若金汤 - PR-A-2 - 据守",
+        "details": "化学老施 重装医疗芯片2 https://www.bilibili.com/video/BV1fe4y1e7UF/\n棘刺3技能，塞雷娅2技能，玛恩纳3技能\n建议练度：90级，技能专三"
+    },
+    "stage_name": "pro_a_2",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "pre_delay": 100
+        },
+        {
+            "type": "Deploy",
+            "cost_changes": 1,
+            "name": "塞雷娅",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "cost_changes": 1,
+            "name": "玛恩纳",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "kills": 9,
+            "name": "",
+            "location": [
+                7,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "kills": 27,
+            "name": "",
+            "location": [
+                7,
+                4
+            ]
+        }
+    ]
+}

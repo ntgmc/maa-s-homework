@@ -1,0 +1,87 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "术士",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "华法琳",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速",
+            "kills": 25
+        }
+    ],
+    "stage_name": "tough_10-12",
+    "doc": {
+        "details": "作者：YueShen\n有问题群里@咕咕咕          攻略：https://www.bilibili.com/video/BV1B5411274M?p=12"
+    },
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "泥岩",
+            "skill": 2
+        },
+        {
+            "name": "华法琳",
+            "skill": 1
+        }
+    ],
+    "minimum_required": "v4.0",
+    "groups": [
+        {
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2
+                },
+                {
+                    "name": "异客",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2
+                }
+            ],
+            "name": "术士"
+        }
+    ]
+}

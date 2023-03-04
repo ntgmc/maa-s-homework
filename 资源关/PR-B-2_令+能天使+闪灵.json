@@ -1,0 +1,126 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "摧枯拉朽 - PR-B-2 - 打击",
+        "details": "化学老施 PR-B-2 2人堵门速刷 https://www.bilibili.com/video/BV15a411o7Jo/\n令60级二级模组三技能专三，能天使90无模组三技能专三"
+    },
+    "stage_name": "pro_b_2",
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "pre_delay": 200
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "cost_changes": 1,
+            "name": "“弦惊”",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "cost_changes": 1,
+            "name": "“弦惊”",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "cost_changes": 1,
+            "name": "“弦惊”",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                2,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "cost_changes": 1,
+            "name": "“弦惊”",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "cost_changes": 1,
+            "name": "“弦惊”",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Right"
+        }
+    ]
+}
