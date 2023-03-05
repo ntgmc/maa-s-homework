@@ -33,6 +33,17 @@ if os.path.exists(destination_file):
 zip_json_files(source_folder, destination_file)
 print(f"成功压缩{destination_file}")
 
+# 悖论模拟
+source_folder = r"D:\GITHOME\maa\悖论模拟"
+destination_file = os.path.join(r"D:\GITHOME\maa\【下载看这里】合集下载", os.path.basename(source_folder) + "-" + str(len(os.listdir(source_folder))) + ".zip")
+# 如果目标文件存在，就删除它
+if os.path.exists(destination_file):
+    os.remove(destination_file)
+
+# 压缩指定类型文件
+zip_json_files(source_folder, destination_file)
+print(f"成功压缩{destination_file}")
+
 # 资源关
 source_folder = r"D:\GITHOME\maa\资源关"
 destination_file = os.path.join(r"D:\GITHOME\maa\【下载看这里】合集下载", os.path.basename(source_folder) + "-" + str(len(os.listdir(source_folder))) + ".zip")

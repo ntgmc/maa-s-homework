@@ -25,7 +25,7 @@
     },
     {
       "type": "Deploy",
-      "name": "安洁莉娜",
+      "name": "减速辅助",
       "location": [
         10,
         5
@@ -83,10 +83,26 @@
     }
   ],
   "doc": {
-    "title": "玛莉娅·临光 MN-EX-3 普通突袭通用 煌、艾雅法拉、安洁莉娜、塞雷娅",
-    "details": "攻略作者：萧然Q  BV17Q4y1C7oF\n自动战斗作者：鱼丸\n本攻略普通突袭通用 平均练度 2603"
+    "title": "玛莉娅·临光 MN-EX-3 普通突袭通用 煌、艾雅法拉、减速辅助、塞雷娅",
+    "details": "攻略作者：萧然Q  BV17Q4y1C7oF\n自动战斗作者：鱼丸\nUpdate by 一只摆烂的42\n本攻略普通突袭通用 平均练度 2603"
   },
-  "groups": [],
+  "groups": [
+    {
+      "name": "减速辅助",
+      "opers": [
+        {
+          "name": "铃兰",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "安洁莉娜",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
   "opers": [
     {
       "name": "煌",
@@ -100,11 +116,6 @@
     },
     {
       "name": "塞雷娅",
-      "skill": 1,
-      "skill_usage": 0
-    },
-    {
-      "name": "安洁莉娜",
       "skill": 1,
       "skill_usage": 0
     }
