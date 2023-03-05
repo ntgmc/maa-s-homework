@@ -1,7 +1,21 @@
 {
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "德克萨斯悖论模拟",
+        "details": "作者：雪\n测试干员：德克萨斯 精2 50级 2技能7级 6潜 无模\n本作业使用了大量的延迟，可能会导致结果无法可控。\nFix by：一只摆烂的42\n版本：V7.3"
+    },
+    "stage_name": "因地制宜",
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
     "actions": [
         {
-            "type": "二倍速"
+            "type": "二倍速",
+            "name": ""
         },
         {
             "type": "部署",
@@ -19,7 +33,7 @@
                 5,
                 3
             ],
-            "pre_delay": 3000
+            "pre_delay": 3300
         },
         {
             "type": "部署",
@@ -37,7 +51,7 @@
                 5,
                 3
             ],
-            "pre_delay": 9000
+            "pre_delay": 11000
         },
         {
             "type": "部署",
@@ -51,11 +65,11 @@
         {
             "type": "技能",
             "name": "德克萨斯",
-            "pre_delay": 7000,
             "location": [
                 5,
                 3
-            ]
+            ],
+            "pre_delay": 7300
         },
         {
             "type": "部署",
@@ -69,11 +83,11 @@
         {
             "type": "技能",
             "name": "德克萨斯",
-            "pre_delay": 4500,
             "location": [
                 5,
                 3
-            ]
+            ],
+            "pre_delay": 5500
         },
         {
             "type": "部署",
@@ -87,11 +101,11 @@
         {
             "type": "技能",
             "name": "德克萨斯",
-            "pre_delay": 7500,
             "location": [
                 5,
                 3
-            ]
+            ],
+            "pre_delay": 10000
         },
         {
             "type": "部署",
@@ -110,7 +124,7 @@
                 5,
                 3
             ],
-            "pre_delay": 3500
+            "pre_delay": 4000
         },
         {
             "type": "技能",
@@ -119,7 +133,7 @@
                 5,
                 3
             ],
-            "pre_delay": 4200
+            "pre_delay": 5500
         },
         {
             "type": "技能",
@@ -128,14 +142,14 @@
                 5,
                 3
             ],
-            "pre_delay": 9300
+            "pre_delay": 5000
         },
         {
             "type": "部署",
-            "name": "石乐",
+            "name": "砾",
             "location": [
                 4,
-                2
+                1
             ],
             "direction": "右"
         },
@@ -150,11 +164,7 @@
         },
         {
             "type": "撤退",
-            "name": "石乐",
-            "location": [
-                4,
-                2
-            ]
+            "name": "砾"
         },
         {
             "type": "技能",
@@ -167,10 +177,10 @@
         },
         {
             "type": "部署",
-            "name": "石乐",
+            "name": "砾",
             "location": [
-                3,
-                3
+                4,
+                2
             ],
             "direction": "右"
         },
@@ -181,38 +191,7 @@
                 5,
                 3
             ],
-            "pre_delay": 5500
-        },
-        {
-            "type": "摆完挂机",
-            "kills": 68
+            "pre_delay": 5000
         }
-    ],
-    "opers": [
-        {
-            "name": "德克萨斯",
-            "skill": 2,
-            "skill_usage": 0
-        }
-    ],
-    "groups": [
-        {
-            "name": "石乐",
-            "opers": [
-                {
-                    "name": "砾",
-                    "skill": 1
-                },
-                {
-                    "name": "陈",
-                    "skill": 1
-                }
-            ]
-        }
-    ],
-    "stage_name": "因地制宜",
-    "doc": {
-        "title": "德克萨斯悖论模拟",
-        "details": "作者：雪\n测试干员：德克萨斯 精2 50级 2技能7级 6潜 无模\n本作业使用了大量的延迟，可能会导致结果无法可控。"
-    }
+    ]
 }
