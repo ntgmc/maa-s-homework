@@ -1,0 +1,79 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "棘刺悖论模拟",
+        "details": "作者：学\n测试干员：棘刺 精2 90级 3技能专三\n3技能至少专三，要求高练度，因为比较激进"
+    },
+    "stage_name": "搭把手",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "cost_changes": 7,
+            "name": "棘刺",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                1,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "极境",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "技能",
+            "cost_changes": 31,
+            "name": "极境",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}
