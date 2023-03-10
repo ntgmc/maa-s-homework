@@ -1,0 +1,71 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act24side_04",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Output",
+      "doc_color": "#d63384",
+      "doc": "给个好评吧~",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "落叶逐火 CF-4 萧然攻略摆完挂机",
+    "details": "视频作者：萧然Q BV1Zg4y1E7e3\n自动战斗作者：鱼丸 有问题请联系qq2877734958\nmaa问题就别联系了 哥们臭写作业的真不懂maa\n平均练度：2603  \n已测试 测试人鱼丸\n"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}

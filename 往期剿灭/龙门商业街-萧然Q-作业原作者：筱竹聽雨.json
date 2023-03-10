@@ -1,0 +1,428 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "camp_r_15",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "location": [
+        2,
+        1
+      ],
+      "kills": 17,
+      "doc_color": "DarkRed",
+      "doc": "17",
+      "name": "指挥终端",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "location": [
+        3,
+        1
+      ],
+      "name": "指挥终端",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "澄闪",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "铃兰",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "指挥终端",
+      "location": [
+        8,
+        1
+      ],
+      "kills": 29,
+      "doc_color": "DarkRed",
+      "doc": "29",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "location": [
+        9,
+        1
+      ],
+      "name": "指挥终端",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        1,
+        5
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        11,
+        2
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "桃金娘",
+      "location": [
+        5,
+        5
+      ],
+      "kills": 80,
+      "doc": "80击杀撤退桃金娘",
+      "doc_color": "DarkRed",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        10,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "德克萨斯",
+      "location": [
+        5,
+        1
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        10,
+        5
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "location": [
+        8,
+        3
+      ],
+      "kills": 240,
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "location": [
+        8,
+        4
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "玛恩纳",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon",
+      "doc": "给个好评吧，亲~",
+      "doc_color": "#6f42c1"
+    }
+  ],
+  "doc": {
+    "title": "龙门商业街-萧然Q-作业原作者：筱竹聽雨",
+    "details": "萧然Q：BV17T411e7bs\n原作者：筱竹聽雨\n在原作者基础上增加了一些干员的替代，多开两个装置增强容错\n干员替代较多，建议手动编队，否则会出现替代干员等级比较高，不选建议干员的情况\n多带的42不会自动下，建议等鼠王出现，自己手动切一下"
+  },
+  "groups": [
+    {
+      "name": "澄闪",
+      "opers": [
+        {
+          "name": "澄闪",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "刻俄柏",
+          "skill": 2,
+          "skill_usage": 1
+        }
+      ]
+    },
+    {
+      "name": "闪灵",
+      "opers": [
+        {
+          "name": "闪灵",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "流明",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "华法琳",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "赫默",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "嘉维尔",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "泥岩",
+      "opers": [
+        {
+          "name": "泥岩",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "斥罪",
+          "skill": 3,
+          "skill_usage": 1
+        }
+      ]
+    },
+    {
+      "name": "德克萨斯",
+      "opers": [
+        {
+          "name": "德克萨斯",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "推进之王",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "嵯峨",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "焰尾",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "凛冬",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "芬",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "讯使",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "煌",
+      "opers": [
+        {
+          "name": "煌",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "百炼嘉维尔",
+          "skill": 2,
+          "skill_usage": 1
+        },
+        {
+          "name": "山",
+          "skill": 2,
+          "skill_usage": 2
+        },
+        {
+          "name": "耀骑士临光",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "幽灵鲨",
+          "skill": 1,
+          "skill_usage": 1
+        }
+      ]
+    },
+    {
+      "name": "桃金娘",
+      "opers": [
+        {
+          "name": "桃金娘",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "极境",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "琴柳",
+          "skill": 1,
+          "skill_usage": 1
+        }
+      ]
+    },
+    {
+      "name": "塞雷娅",
+      "opers": [
+        {
+          "name": "塞雷娅",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "铃兰",
+      "opers": [
+        {
+          "name": "铃兰",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "灵知",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "艾雅法拉",
+      "opers": [
+        {
+          "name": "艾雅法拉",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "夕",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "玛恩纳",
+      "opers": [
+        {
+          "name": "玛恩纳",
+          "skill": 3,
+          "skill_usage": 1
+        },
+        {
+          "name": "银灰",
+          "skill": 3,
+          "skill_usage": 1
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "史尔特尔",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}
