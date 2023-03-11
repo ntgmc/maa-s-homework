@@ -1,0 +1,134 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act24side_09",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        1,
+        5
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "蜜莓",
+      "location": [
+        3,
+        7
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        5,
+        6
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Output",
+      "kills": 21,
+      "doc_color": "Gray",
+      "doc": "一段时间后会自动部署一次眩光手雷。",
+      "rear_delay": 0
+    },
+    {
+      "type": "Output",
+      "cost_changes": 16,
+      "doc": "接下来将自动部署眩光手雷，如部署失败，可手动部署。",
+      "doc_color": "#6f42c1",
+      "rear_delay": 250
+    },
+    {
+      "type": "Deploy",
+      "name": "眩光手雷",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "落叶逐火 - CF-9 - 决战！燃烧的狩魂！——自在道爷版",
+    "details": "作业原作者：自在道爷\n原视频链接：https://www.bilibili.com/video/BV1ox4y1K7Ms?p=9\njson制作者：魔法女仆\n【请携带眩光手雷】\n注：练度等因人而异，自动战斗可能不能掌握好放置眩光手雷的最佳时机，可考虑在出现“一段时间后会自动部署一次眩光手雷。”提示后停止自动战斗，手动部署眩光手雷。\n测试版本：MAA - v4.12.0-beta.3（在之前的部分MAA版本中可能遇到各种问题）\n测试练度：煌：精英二80级专精三；能天使：精英二60级专精三+1级X模组；蜜莓：精英二50级7级技能；塞雷娅：精英二60级专精一+1级X模组；艾雅法拉：精英二81级专精三+1级X模组；伊芙利特：精英二80级专精二\nUP主制作攻略不易，可到原视频地址支持。"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "蜜莓",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}
