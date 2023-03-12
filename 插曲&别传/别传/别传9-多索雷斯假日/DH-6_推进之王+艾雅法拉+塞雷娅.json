@@ -1,0 +1,80 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "下",
+            "name": "推进之王"
+        },
+        {
+            "type": "部署",
+            "name": "特制水上平台",
+            "location": [
+                8,
+                3
+            ],
+            "direction": ""
+        },
+        {
+            "type": "部署",
+            "name": "特制水上平台",
+            "location": [
+                8,
+                1
+            ],
+            "direction": ""
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "特制水上平台",
+            "location": [
+                7,
+                3
+            ]
+        }
+    ],
+    "stage_name": "DH-6",
+    "doc": {
+        "title": "DH-6",
+        "details": "推荐练度精二60专3\n为黄金大队懒人挂机攻略\n参考b站up主萧然Q的视频"
+    },
+    "opers": [
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "skill": 2,
+            "name": "艾雅法拉"
+        },
+        {
+            "skill": 2,
+            "name": "塞雷娅"
+        }
+    ]
+}

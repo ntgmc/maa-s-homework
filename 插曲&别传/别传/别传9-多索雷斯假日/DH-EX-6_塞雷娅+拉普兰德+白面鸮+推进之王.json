@@ -1,0 +1,76 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "白面鸮",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "右",
+            "type": "部署"
+        },
+        {
+            "name": "防水蚀镀膜装置",
+            "type": "部署",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "左"
+        }
+    ],
+    "stage_name": "DH-EX-6",
+    "doc": {
+        "title": "DH-EX-6",
+        "details": "推荐练度精二60专3\n为黄金大队懒人挂机攻略\n参考b站up主萧然Q的视频\n收藏品：多索雷斯游客章；\n               道格牌工业密封胶；\n               沙兹专业镀膜装置；\n               马可伯伯仙人掌饼；\n               大帽子老哥卷饼；"
+    },
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 2
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2
+        }
+    ]
+}

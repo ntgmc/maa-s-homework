@@ -1,16 +1,11 @@
 {
     "minimum_required": "v4.0",
     "doc": {
-        "title": "【愚人号】SN-S-4-B十人",
-        "details": "UP主：萧然Q\n原视频：https://www.bilibili.com/video/av683885831/\n——————\n小帮手：\n1 1\n1 1\n   1\n——————\n有问题联系制作者QQ2586582719"
+        "title": "",
+        "details": "贴片：\n多索雷斯游客章\n沙兹专业镀膜装置\n道格牌工业密封胶\n马克伯伯仙人掌饼\n大帽子老哥卷饼"
     },
-    "stage_name": "act17side_s04_b",
+    "stage_name": "DH-EX-8",
     "opers": [
-        {
-            "name": "桃金娘",
-            "skill": 1,
-            "skill_usage": 1
-        },
         {
             "name": "煌",
             "skill": 2,
@@ -22,18 +17,8 @@
             "skill_usage": 1
         },
         {
-            "name": "拉普兰德",
-            "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "塞雷娅",
-            "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "星熊",
-            "skill": 2,
+            "name": "史尔特尔",
+            "skill": 3,
             "skill_usage": 0
         },
         {
@@ -42,7 +27,12 @@
             "skill_usage": 0
         },
         {
-            "name": "伊芙利特",
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
             "skill": 2,
             "skill_usage": 0
         },
@@ -52,7 +42,17 @@
             "skill_usage": 0
         },
         {
-            "name": "蜜莓",
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "赫默",
             "skill": 1,
             "skill_usage": 0
         }
@@ -66,16 +66,7 @@
             "type": "部署",
             "name": "桃金娘",
             "location": [
-                1,
-                7
-            ],
-            "direction": "右"
-        },
-        {
-            "type": "部署",
-            "name": "拉普兰德",
-            "location": [
-                3,
+                7,
                 4
             ],
             "direction": "下"
@@ -84,35 +75,51 @@
             "type": "部署",
             "name": "棘刺",
             "location": [
-                1,
-                2
+                5,
+                4
             ],
-            "direction": "右"
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "特制水上平台",
+            "location": [
+                10,
+                7
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                10,
+                7
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "特制水上平台",
+            "location": [
+                9,
+                1
+            ]
         },
         {
             "type": "部署",
             "name": "煌",
             "location": [
-                2,
-                7
-            ],
-            "direction": "右"
-        },
-        {
-            "type": "部署",
-            "name": "星熊",
-            "location": [
-                2,
-                2
-            ],
-            "direction": "右"
-        },
-        {
-            "type": "部署",
-            "name": "蜜莓",
-            "location": [
-                2,
-                5
+                9,
+                1
             ],
             "direction": "上"
         },
@@ -120,8 +127,44 @@
             "type": "部署",
             "name": "闪灵",
             "location": [
-                1,
-                6
+                5,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "name": "史尔特尔"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "撤退",
+            "name": "史尔特尔",
+            "pre_delay": 2000
+        },
+        {
+            "type": "部署",
+            "name": "赫默",
+            "location": [
+                6,
+                2
             ],
             "direction": "右"
         },
@@ -129,43 +172,15 @@
             "type": "部署",
             "name": "艾雅法拉",
             "location": [
-                2,
-                3
-            ],
-            "direction": "上"
-        },
-        {
-            "type": "部署",
-            "name": "塞雷娅",
-            "location": [
-                2,
-                4
-            ],
-            "direction": "右"
-        },
-        {
-            "type": "部署",
-            "name": "伊芙利特",
-            "location": [
-                3,
+                4,
                 3
             ],
             "direction": "下"
         },
         {
-            "type": "部署",
-            "name": "圣徒之手",
-            "location": [
-                3,
-                7
-            ],
-            "direction": "右"
-        },
-        {
-            "type": "打印",
+            "type": "二倍速",
             "name": "",
-            "doc": "有问题联系制作者QQ2586582719",
-            "doc_color": "SpringGreen"
+            "pre_delay": 1000000
         }
     ]
 }

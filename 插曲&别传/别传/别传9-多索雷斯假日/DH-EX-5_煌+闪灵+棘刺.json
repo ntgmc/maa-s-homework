@@ -1,0 +1,81 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "",
+        "details": "贴片：\n多索雷斯游客章\n沙兹专业镀膜装置\n道格牌工业密封胶\n马克伯伯仙人掌饼\n大帽子老哥卷饼"
+    },
+    "stage_name": "DH-EX-5",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "防水蚀镀膜装置",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "防水蚀镀膜装置",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速",
+            "name": "",
+            "pre_delay": 1000000
+        }
+    ]
+}

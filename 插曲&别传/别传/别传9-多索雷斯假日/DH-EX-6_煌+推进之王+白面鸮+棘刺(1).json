@@ -1,10 +1,10 @@
 {
     "minimum_required": "v4.0",
     "doc": {
-        "title": "【愚人号】SN-8五人",
-        "details": "UP主：萧然Q\n原视频：https://www.bilibili.com/video/av726209538?p=8\n——————\n小帮手：\n1 0\n0 0\n   0\n——————\n有问题联系制作者QQ2586582719"
+        "title": "",
+        "details": "贴片：\n多索雷斯游客章\n沙兹专业镀膜装置\n道格牌工业密封胶\n马克伯伯仙人掌饼\n大帽子老哥卷饼"
     },
-  "stage_name": "act17side_08",
+    "stage_name": "DH-EX-6",
     "opers": [
         {
             "name": "煌",
@@ -12,24 +12,19 @@
             "skill_usage": 0
         },
         {
-            "name": "拉普兰德",
+            "name": "推进之王",
             "skill": 2,
             "skill_usage": 0
         },
         {
-            "name": "塞雷娅",
-            "skill": 1,
-            "skill_usage": 0
-        },
-        {
-            "name": "艾雅法拉",
+            "name": "白面鸮",
             "skill": 2,
             "skill_usage": 0
         },
         {
-            "name": "夜莺",
-            "skill": 2,
-            "skill_usage": 0
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
         }
     ],
     "actions": [
@@ -39,7 +34,34 @@
         },
         {
             "type": "部署",
+            "name": "推进之王",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
             "name": "煌",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "白面鸮",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
             "location": [
                 3,
                 5
@@ -48,7 +70,16 @@
         },
         {
             "type": "部署",
-            "name": "拉普兰德",
+            "name": "防水蚀镀膜装置",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "防水蚀镀膜装置",
             "location": [
                 2,
                 5
@@ -57,36 +88,17 @@
         },
         {
             "type": "部署",
-            "name": "夜莺",
+            "name": "防水蚀镀膜装置",
             "location": [
-                3,
-                6
+                2,
+                2
             ],
             "direction": "右"
         },
         {
-            "type": "部署",
-            "name": "艾雅法拉",
-            "location": [
-                4,
-                6
-            ],
-            "direction": "右"
-        },
-        {
-            "type": "部署",
-            "name": "塞雷娅",
-            "location": [
-                4,
-                5
-            ],
-            "direction": "右"
-        },
-        {
-            "type": "打印",
+            "type": "二倍速",
             "name": "",
-            "doc": "有问题联系制作者QQ2586582719",
-            "doc_color": "SpringGreen"
+            "pre_delay": 1000000
         }
     ]
 }

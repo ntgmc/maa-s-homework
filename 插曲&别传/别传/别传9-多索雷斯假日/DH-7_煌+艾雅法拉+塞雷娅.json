@@ -5,35 +5,44 @@
         },
         {
             "type": "部署",
-            "name": "煌",
             "location": [
-                4,
-                5
+                6,
+                6
             ],
-            "direction": "上"
+            "direction": "上",
+            "name": "煌"
         },
         {
             "type": "部署",
-            "name": "推进之王",
+            "name": "特制水上平台",
             "location": [
-                2,
-                3
-            ],
-            "direction": "上"
-        },
-        {
-            "type": "部署",
-            "location": [
-                2,
+                7,
                 4
             ],
-            "direction": "右",
-            "name": "白面鸮"
+            "direction": ""
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "右"
         }
     ],
-    "stage_name": "DH-3",
+    "stage_name": "DH-7",
     "doc": {
-        "title": "DH-3",
+        "title": "DH-7",
         "details": "推荐练度精二60专3\n为黄金大队懒人挂机攻略\n参考b站up主萧然Q的视频"
     },
     "opers": [
@@ -43,14 +52,12 @@
             "skill_usage": 1
         },
         {
-            "name": "白面鸮",
             "skill": 2,
-            "skill_usage": 1
+            "name": "艾雅法拉"
         },
         {
-            "name": "推进之王",
             "skill": 2,
-            "skill_usage": 1
+            "name": "塞雷娅"
         }
     ]
 }
