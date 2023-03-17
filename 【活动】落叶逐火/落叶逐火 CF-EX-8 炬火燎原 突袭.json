@@ -1,0 +1,171 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "CF-EX-8",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "kills": 0,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "浊心斯卡蒂",
+      "location": [
+        3,
+        6
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "铃兰",
+      "location": [
+        2,
+        7
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "华法琳",
+      "location": [
+        1,
+        7
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        1,
+        6
+      ],
+      "direction": "Right",
+      "costs": 47,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "眩光手雷",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Left",
+      "costs": 42,
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "铃兰",
+      "location": [
+        2,
+        7
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "华法琳",
+      "location": [
+        1,
+        7
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "CF-EX-8 炬火燎原 突袭",
+    "details": "萧然Q  https://www.bilibili.com/video/BV1HT411r7RE\n必须带的道具：眩光手雷\n所有干员均精二90级，技能专三，只能用于突袭。\n对轴有点难。\n关键在于能天使要在火龙第一次空血之后放下，以及在龙起飞后第一时间扔眩光手雷。\n这个轴目前在我自己的box下能对上，不知道其他人是怎么样的。\n看看有其他大佬能解决这个问题不。\n最好的办法还是不抄萧然Q的这份作业……\n"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "华法琳",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "浊心斯卡蒂",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "铃兰",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}

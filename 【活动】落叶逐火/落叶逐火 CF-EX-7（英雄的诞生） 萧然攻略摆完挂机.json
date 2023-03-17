@@ -1,0 +1,171 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "CF-EX-7",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        3,
+        6
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        4,
+        6
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        9,
+        6
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Left",
+      "kills": 7,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        8,
+        6
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        9,
+        5
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "桃金娘",
+      "location": [
+        3,
+        6
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "华法琳",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Output",
+      "doc_color": "#d63384",
+      "doc": "给个好评吧~",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "落叶逐火 CF-EX-7（英雄的诞生） 萧然攻略摆完挂机",
+    "details": "视频作者：萧然Q  BV1HT411r7RE\njson作者：鱼丸 有问题请联系qq2877734958\nmaa问题就别联系了 哥们臭写作业的真不懂maa\n平均练度：2603  本json普通突袭兼容\n已测试 测试人鱼丸\n"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "闪灵",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "华法琳",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

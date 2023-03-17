@@ -1,0 +1,157 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "CF-EX-4",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        8,
+        1
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "眩光手雷",
+      "location": [
+        7,
+        6
+      ],
+      "direction": "Up",
+      "kills": 48,
+      "rear_delay": 0
+    },
+    {
+      "type": "Output",
+      "doc_color": "#d63384",
+      "doc": "给个好评吧~",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "落叶逐火 CF-EX-4（当心坠落） 萧然攻略摆完挂机",
+    "details": "建议携带【眩光手雷】\n视频作者：萧然Q  BV1HT411r7RE\njson作者：鱼丸 有问题请联系qq2877734958\nmaa问题就别联系了 哥们臭写作业的真不懂maa\n平均练度：2603  本json普通突袭兼容\n已测试 测试人鱼丸"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}
