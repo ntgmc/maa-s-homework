@@ -1,0 +1,201 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "sub_07-1-1",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "羽毛笔",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "重装2",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "治疗",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "干扰地雷",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "None",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "重装",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Right",
+      "rear_delay": 15000
+    },
+    {
+      "type": "Deploy",
+      "name": "干扰地雷",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "None",
+      "rear_delay": 2000
+    },
+    {
+      "type": "Deploy",
+      "name": "干扰地雷",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "None",
+      "doc": "部署雷清掉下路炮手",
+      "doc_color": "Gray",
+      "rear_delay": 10000
+    },
+    {
+      "type": "Deploy",
+      "name": "干扰地雷",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "None",
+      "rear_delay": 2000
+    },
+    {
+      "type": "Deploy",
+      "name": "干扰地雷",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "None",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "干扰地雷",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "None",
+      "rear_delay": 17000,
+      "kills": 29
+    },
+    {
+      "type": "Deploy",
+      "name": "干扰地雷",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "None",
+      "rear_delay": 17000
+    },
+    {
+      "type": "Deploy",
+      "name": "干扰地雷",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "None",
+      "rear_delay": 17000
+    },
+    {
+      "type": "Deploy",
+      "name": "干扰地雷",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "None",
+      "rear_delay": 2000
+    }
+  ],
+  "doc": {
+    "title": "第七章 苦难摇篮 - S7-1 - 埋伏-1",
+    "details": "参考视频：BV1Q34y1o7KV 作者：猫猫-X\nyc.exe"
+  },
+  "groups": [
+    {
+      "name": "治疗",
+      "opers": [
+        {
+          "name": "苏苏洛",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "闪灵",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "华法琳",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "凯尔希",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "重装",
+      "opers": [
+        {
+          "name": "黑角",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "重装2",
+      "opers": [
+        {
+          "name": "斑点",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "羽毛笔",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

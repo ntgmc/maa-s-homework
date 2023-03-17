@@ -1,0 +1,137 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "战术演习 - LS-6 - 运动战演习 自用刷信赖版本，信赖位7人",
+        "details": "视频作者：化学老施 BV1AR4y1A7ew\n自动战斗作者：恒永 \n平均练度：2903\n\n已测试，自用刷信赖。不一定兼容。没真金斩没铃兰只能自己做了，带德为了不卡费。"
+    },
+    "stage_name": "wk_kc_6",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right",
+            "rear_delay": 7000
+        },
+        {
+            "type": "Skill",
+            "name": "棘刺",
+            "location": [
+                2,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up",
+            "rear_delay": 10000
+        },
+        {
+            "type": "Skill",
+            "name": "",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down",
+            "rear_delay": 10000
+        },
+        {
+            "type": "Skill",
+            "name": "棘刺",
+            "location": [
+                2,
+                2
+            ]
+        },
+        {
+            "type": "Retreat",
+            "kills": 36,
+            "name": "银灰",
+            "location": [
+                6,
+                5
+            ],
+            "rear_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "kills": 39,
+            "name": "艾雅法拉"
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Down"
+        }
+    ]
+}
