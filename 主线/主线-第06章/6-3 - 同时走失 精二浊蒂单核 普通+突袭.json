@@ -1,0 +1,312 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_06-03",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "浊心斯卡蒂",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "狙击1",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "减速辅助",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "狙击2",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "随便谁补点输出",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "6-3 - 同时走失 精二浊蒂单核 普通+突袭",
+    "details": "精二浊蒂单核 普通+突袭\n建议使用自动编队。每个干员组中至少有一个精一以上干员，等级要求随星级下降，具体自寻。"
+  },
+  "groups": [
+    {
+      "name": "减速辅助",
+      "opers": [
+        {
+          "name": "梓兰",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "铃兰",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "安洁莉娜",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "格劳克斯",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "真理",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "但书",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "波登可",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "地灵",
+          "skill": 1,
+          "skill_usage": 1
+        }
+      ]
+    },
+    {
+      "name": "狙击1",
+      "opers": [
+        {
+          "name": "克洛丝",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "能天使",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "灰喉",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "梅",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "蓝毒",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "流星",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "狙击2",
+      "opers": [
+        {
+          "name": "安德切尔",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "红云",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "四月",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "寒芒克洛丝",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "白金",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "灰烬",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "空弦",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "随便谁补点输出",
+      "opers": [
+        {
+          "name": "迷迭香",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "承曦格雷伊",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "早露",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "铅踝",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "熔泉",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "远牙",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "守林人",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "安哲拉",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "子月",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "安比尔",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "白雪",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "陨星",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "截云",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "菲亚梅塔",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "空爆",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "慑砂",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "异客",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "惊蛰",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "星源",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "布丁",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "刻俄柏",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "深靛",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "浊心斯卡蒂",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

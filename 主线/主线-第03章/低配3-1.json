@@ -1,0 +1,194 @@
+{
+    "actions": [
+        {
+            "type": "部署",
+            "name": "讯使",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速",
+            "name": "",
+            "location": [
+                null,
+                null
+            ],
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "部署",
+            "name": "杰西卡",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "翎羽",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左",
+            "kills": 2
+        },
+        {
+            "type": "部署",
+            "kills": 6,
+            "name": "流星",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "kills": 7,
+            "name": "梓兰",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "撤退",
+            "kills": 13,
+            "name": "翎羽",
+            "location": [
+                null,
+                null
+            ]
+        },
+        {
+            "type": "部署",
+            "kills": 13,
+            "name": "蛇屠箱",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左",
+            "pre_delay": 2
+        },
+        {
+            "type": "部署",
+            "kills": 17,
+            "name": "阿米娅",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "kills": 24,
+            "name": "炎熔",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "kills": 28,
+            "name": "芙蓉",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "撤退",
+            "kills": 32,
+            "name": "讯使",
+            "location": [
+                null,
+                null
+            ]
+        },
+        {
+            "type": "部署",
+            "kills": 33,
+            "name": "米格鲁",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能用法",
+            "kills": 83,
+            "doc": "完成任务",
+            "doc_color": "red"
+        }
+    ],
+    "stage_name": "3-1",
+    "doc": {
+        "title": "会合",
+        "details": "注意：\n干员等级最好是30级以上！！！\n迅使要40级！！！\n迅使要40级！！！\n迅使要40级！！！\n作业作者：小狼XF\nJSON制作：YlovexLN\n参考视频：https://www.bilibili.com/video/BV1n4411a7hn\n温馨提示：有bug在作业群及时反馈，人在作业群@我"
+    },
+    "opers": [
+        {
+            "name": "杰西卡",
+            "skill": 1,
+            "skill_usage": 3
+        },
+        {
+            "name": "讯使",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "蛇屠箱",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "芙蓉",
+            "skill_usage": 1,
+            "skill": 1
+        },
+        {
+            "name": "流星",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "翎羽",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "炎熔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "梓兰",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

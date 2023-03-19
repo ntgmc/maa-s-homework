@@ -1,0 +1,152 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_07-16",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "Down",
+      "kills": 0,
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 0,
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "kills": 0,
+      "name": "煌",
+      "location": [
+        1,
+        6
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        7,
+        1
+      ],
+      "direction": "Right",
+      "kills": 0,
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "缄默德克萨斯",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Right",
+      "costs": 9,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        1,
+        5
+      ],
+      "direction": "Down",
+      "costs": 22,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Up",
+      "kills": 7,
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "location": [
+        7,
+        6
+      ],
+      "kills": 16,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        3,
+        3
+      ],
+      "kills": 31,
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "缄默德克萨斯",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Up",
+      "kills": 33
+    }
+  ],
+  "doc": {
+    "title": "第七章 苦难摇篮 - 7-18 - 爱国者之死",
+    "details": "第七章 苦难摇篮 - 7-18 - 爱国者之死"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "史尔特尔",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "缄默德克萨斯",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 2
+}

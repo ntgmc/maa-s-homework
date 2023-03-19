@@ -1,0 +1,140 @@
+{
+    "stage_name": "1-2",
+    "doc": {
+        "title": "蔓延",
+        "details": "特别提醒：\n本关不能改编队，记得把自动编队取消！！！！！！！\n5秒内请手动跳过剧情！！！！！！\n作业作者：山吹若若子\nJSON制作：YlovexLN\n参考视频：https://www.bilibili.com/video/BV1jz411v7ci\n温馨提示：有bug在作业群及时反馈，人在作业群@我"
+    },
+    "opers": [
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "炎熔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "领习",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "杰西卡",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "史都华德",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "pre_delay": 5,
+            "doc": "5秒内请手动跳过剧情",
+            "doc_color": "Red"
+        },
+        {
+            "type": "部署",
+            "name": "芬",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "米格鲁",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左",
+            "pre_delay": 2
+        },
+        {
+            "type": "部署",
+            "name": "领习",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上",
+            "pre_delay": 1
+        },
+        {
+            "type": "部署",
+            "kills": 7,
+            "name": "炎熔",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "kills": 15,
+            "name": "史都华德",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "kills": 17,
+            "name": "杰西卡",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "kills": 19,
+            "name": "安赛尔",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "kills": 27,
+            "name": "芙蓉",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "二倍速",
+            "kills": 39
+        }
+    ]
+}
