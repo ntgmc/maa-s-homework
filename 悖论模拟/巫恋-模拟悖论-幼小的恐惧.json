@@ -1,0 +1,164 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "幼小的恐惧",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "doc": "",
+      "name": "巫恋",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "灰喉",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 1,
+      "rear_delay": 5000
+    },
+    {
+      "type": "Skill",
+      "name": "灰喉",
+      "location": [
+        5,
+        4
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "诅咒娃娃",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "None",
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "能天使",
+      "location": [
+        4,
+        4
+      ],
+      "kills": 7,
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 12,
+      "rear_delay": 2500
+    },
+    {
+      "type": "Deploy",
+      "name": "诅咒娃娃",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "None",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "灰喉",
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 15,
+      "rear_delay": 0
+    },
+    {
+      "type": "Output",
+      "doc_color": "DarkCyan",
+      "doc": "这里如果漏了帝国先锋是飞机没有及时击杀\n（别给差评了，求求你们专一下巫恋的技能吧，她真的很好用的）\n（；´д｀）ゞ ",
+      "rear_delay": 0
+    },
+    {
+      "type": "Output",
+      "doc_color": "DarkCyan",
+      "doc": "经测试，7级技能也能用这个作业\n但前提是电脑/手机性能要好（触控模式建议使用Minitouch并开启Adb Lite选项）",
+      "rear_delay": 2000
+    },
+    {
+      "type": "Deploy",
+      "kills": 16,
+      "name": "石英",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "末药",
+      "location": [
+        2,
+        4
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "rear_delay": 9500
+    },
+    {
+      "type": "Deploy",
+      "name": "诅咒娃娃",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "None",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "能天使",
+      "location": [
+        4,
+        4
+      ]
+    }
+  ],
+  "doc": {
+    "title": "巫恋-模拟悖论-幼小的恐惧",
+    "details": "经测试，7级技能也能用这个作业\n但前提是电脑/手机性能要好（maa触控模式建议使用Minitouch并开启Adb Lite选项）\nyc.exe"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "巫恋",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}
