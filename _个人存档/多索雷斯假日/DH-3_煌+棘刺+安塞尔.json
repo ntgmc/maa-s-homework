@@ -24,7 +24,7 @@
         },
         {
             "type": "部署",
-            "name": "安塞尔",
+            "name": "安赛尔",
             "location": [
                 2,
                 4
@@ -54,7 +54,7 @@
             "skill_usage": 1
         },
         {
-            "name": "安塞尔",
+            "name": "安赛尔",
             "skill": 1,
             "skill_usage": 0
         }

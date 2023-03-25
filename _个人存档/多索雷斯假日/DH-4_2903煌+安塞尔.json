@@ -1,7 +1,7 @@
 {
     "minimum_required": "v4.0",
     "doc": {
-        "title": "煌需要90级专3，安塞尔会死，正常",
+        "title": "煌需要90级专3，安赛尔会死，正常",
         "details": ""
     },
     "stage_name": "DH-4",
@@ -12,7 +12,7 @@
             "skill_usage": 0
         },
         {
-            "name": "安塞尔",
+            "name": "安赛尔",
             "skill": 1,
             "skill_usage": 0
         }
@@ -33,7 +33,7 @@
         },
         {
             "type": "部署",
-            "name": "安塞尔",
+            "name": "安赛尔",
             "location": [
                 2,
                 6
@@ -43,7 +43,7 @@
         {
             "type": "打印",
             "name": "",
-            "doc": "安塞尔会死，不要介意"
+            "doc": "安赛尔会死，不要介意"
         },
         {
             "type": "摆完挂机",
