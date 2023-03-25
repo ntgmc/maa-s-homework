@@ -1,0 +1,91 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "5-3 普通 令单人",
+        "details": "UP：有精二就能杀攻略组\n原视频：https://www.bilibili.com/video/BV1St4y1M7JT\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "main_05-03",
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "cost_changes": 20,
+            "name": "令",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "kills": 37,
+            "name": "“弦惊”",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "kills": 48,
+            "name": "“弦惊”",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "5-2 突袭 单核低配",
+        "details": "UP：却话离愁\n原视频：https://www.bilibili.com/video/BV1U5411m76f/\n煌需要精二 否则漏怪\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "main_05-02",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "芙蓉",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "黑角",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "安赛尔",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "安赛尔",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "上"
+        }
+    ]
+}
