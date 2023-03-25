@@ -1,0 +1,85 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "sub_06-1-1",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "翎羽",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "斑点",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "安赛尔",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "老鲤",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "翎羽",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第六章 局部坏死 - S6-1 - 凝结-1",
+    "details": "作者：YueShen\n老鲤专3"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "老鲤",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "斑点",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "安赛尔",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "翎羽",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}
