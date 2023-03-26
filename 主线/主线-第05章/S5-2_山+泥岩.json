@@ -9,7 +9,7 @@
         {
             "name": "山",
             "skill": 2,
-            "skill_usage": 2
+            "skill_usage": 0
         },
         {
             "name": "泥岩",
@@ -30,6 +30,11 @@
                 1
             ],
             "direction": "右"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 10,
+            "name": "山"
         },
         {
             "type": "部署",
