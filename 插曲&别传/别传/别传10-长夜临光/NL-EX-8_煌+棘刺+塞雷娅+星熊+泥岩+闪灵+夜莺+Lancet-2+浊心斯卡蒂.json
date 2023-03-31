@@ -4,7 +4,7 @@
         "title": "长夜临光复刻",
         "details": "萧然Q重制版作业\n突袭通用\nav303272898\n@U98de\n\n可自行带42解决BOSS"
     },
-    "stage_name": "NL-EX-8",
+    "stage_name": "act13side_ex08",
     "opers": [
         {
             "name": "煌",
@@ -43,7 +43,7 @@
         },
         {
             "name": "Lancet-2",
-            "skill": 0,
+            "skill": 1,
             "skill_usage": 0
         },
         {
