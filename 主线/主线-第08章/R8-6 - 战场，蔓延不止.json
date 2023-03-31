@@ -1,0 +1,84 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_08-06",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Left",
+      "costs": 25,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "假日威龙陈",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "塞雷娅",
+      "kills": 67
+    }
+  ],
+  "doc": {
+    "title": "第八章 怒号光明 - R8-6 - 战场，蔓延不止",
+    "details": "BV1b341177PU 作者：祈星_Estrellayc"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "假日威龙陈",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

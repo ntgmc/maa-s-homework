@@ -1,0 +1,72 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_chen2_1",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "假日威龙陈",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "桑葚",
+      "location": [
+        7,
+        1
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "假日威龙陈",
+      "location": [
+        5,
+        2
+      ],
+      "kills": 30,
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "假日威龙陈",
+      "location": [
+        5,
+        2
+      ],
+      "kills": 55,
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "假日威龙陈",
+      "location": [
+        5,
+        2
+      ],
+      "kills": 67
+    }
+  ],
+  "doc": {
+    "title": "狙击 - 假日威龙陈 - 去往高处 悖论模拟",
+    "details": "https://www.bilibili.com/video/BV1Co4y1Q7wj?p=29 up主：孑诺sang\n水陈三技能"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "假日威龙陈",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "桑葚",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

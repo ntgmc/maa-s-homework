@@ -1,0 +1,61 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_bluep_1",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "蓝毒",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "克洛丝",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 2500
+    },
+    {
+      "type": "Skill",
+      "name": "蓝毒",
+      "location": [
+        3,
+        3
+      ],
+      "kills": 6,
+      "rear_delay": 4200
+    },
+    {
+      "type": "Skill",
+      "location": [
+        3,
+        3
+      ],
+      "kills": 19
+    }
+  ],
+  "doc": {
+    "title": "狙击 - 蓝毒 - 渗骨毒液 悖论模拟",
+    "details": "https://www.bilibili.com/video/BV1Co4y1Q7wj?p=14 up主：孑诺sang\n蓝毒二技能"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "蓝毒",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "克洛丝",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}
