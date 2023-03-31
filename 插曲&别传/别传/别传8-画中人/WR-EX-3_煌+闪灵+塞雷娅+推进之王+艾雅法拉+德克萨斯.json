@@ -1,7 +1,46 @@
 {
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "WR-EX-3",
+        "details": "推荐练度精二60\n参考b站up萧然Q的视频\nFIX BY：一只摆烂的42"
+    },
+    "stage_name": "act16d5_ex03",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
     "actions": [
         {
-            "type": "二倍速"
+            "type": "二倍速",
+            "name": ""
         },
         {
             "type": "部署",
@@ -55,7 +94,7 @@
                 5,
                 5
             ],
-            "direction": ""
+            "direction": "无"
         },
         {
             "type": "部署",
@@ -63,7 +102,8 @@
             "location": [
                 5,
                 3
-            ]
+            ],
+            "direction": "无"
         },
         {
             "type": "部署",
@@ -74,42 +114,5 @@
             ],
             "direction": "上"
         }
-    ],
-    "opers": [
-        {
-            "name": "煌",
-            "skill": 2,
-            "skill_usage": 1
-        },
-        {
-            "name": "闪灵",
-            "skill_usage": 1,
-            "skill": 2
-        },
-        {
-            "name": "塞雷娅",
-            "skill_usage": 1,
-            "skill": 1
-        },
-        {
-            "name": "推进之王",
-            "skill": 2,
-            "skill_usage": 1
-        },
-        {
-            "name": "艾雅法拉",
-            "skill": 2,
-            "skill_usage": 1
-        },
-        {
-            "name": "德克萨斯",
-            "skill": 1,
-            "skill_usage": 1
-        }
-    ],
-    "stage_name": "WR-EX-3",
-    "doc": {
-        "title": "WR-EX-3",
-        "details": "推荐练度精二60\n参考b站up萧然Q的视频"
-    }
+    ]
 }
