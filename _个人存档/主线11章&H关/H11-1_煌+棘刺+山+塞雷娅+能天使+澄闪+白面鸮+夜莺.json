@@ -2,18 +2,13 @@
     "minimum_required": "v4.0",
     "doc": {
         "title": "H11-1八人",
-        "details": "制作者：一只摆烂的42\n有问题联系QQ2586582719\nhttps://www.bilibili.com/video/av474219166/"
+        "details": "原视频：https://www.bilibili.com/video/BV1yK411S726\n——————\n这个作业反复修改优化了十多次，现在应该是稳定过关了\n——————\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n"
     },
-    "stage_name": "H11-1",
+    "stage_name": "hard_11-01",
     "opers": [
         {
-            "name": "夜莺",
+            "name": "煌",
             "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "塞雷娅",
-            "skill": 1,
             "skill_usage": 0
         },
         {
@@ -22,8 +17,18 @@
             "skill_usage": 1
         },
         {
-            "name": "白面鸮",
+            "name": "山",
             "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
             "skill_usage": 0
         },
         {
@@ -32,17 +37,12 @@
             "skill_usage": 0
         },
         {
-            "name": "山",
+            "name": "白面鸮",
             "skill": 2,
-            "skill_usage": 2
-        },
-        {
-            "name": "能天使",
-            "skill": 3,
             "skill_usage": 0
         },
         {
-            "name": "煌",
+            "name": "夜莺",
             "skill": 2,
             "skill_usage": 0
         }
@@ -54,17 +54,17 @@
             "doc_color": "Gray"
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "山",
             "location": [
                 6,
                 6
             ],
-            "direction": "左"
+            "direction": "Left"
         },
         {
             "type": "部署",
-            "cost_changes": 16,
+            "cost_changes": 14,
             "name": "能天使",
             "location": [
                 6,
@@ -73,58 +73,63 @@
             "direction": "左"
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "棘刺",
             "location": [
                 6,
                 4
             ],
-            "direction": "左"
+            "direction": "Left"
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "夜莺",
             "location": [
                 6,
                 5
             ],
-            "direction": "上"
+            "direction": "Up"
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "塞雷娅",
             "location": [
                 7,
                 3
             ],
-            "direction": "左"
+            "direction": "Left"
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "白面鸮",
             "location": [
                 7,
                 2
             ],
-            "direction": "下"
+            "direction": "Down"
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "煌",
             "location": [
                 6,
                 1
             ],
-            "direction": "下"
+            "direction": "Down"
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "澄闪",
             "location": [
                 7,
                 5
             ],
-            "direction": "左"
+            "direction": "Left"
+        },
+        {
+            "type": "技能",
+            "kills": 54,
+            "name": "白面鸮"
         },
         {
             "type": "Output",
@@ -133,7 +138,7 @@
             "doc_color": "SpringGreen"
         },
         {
-            "type": "摆完挂机",
+            "type": "SkillDaemon",
             "name": ""
         }
     ]

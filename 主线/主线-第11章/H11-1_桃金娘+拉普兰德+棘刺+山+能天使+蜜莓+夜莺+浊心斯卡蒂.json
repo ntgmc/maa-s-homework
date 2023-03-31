@@ -2,34 +2,24 @@
     "minimum_required": "v4.0",
     "doc": {
         "title": "H11-1八人",
-        "details": "制作者：一只摆烂的42\n有问题联系QQ2586582719\nhttps://www.bilibili.com/video/av516747155/"
+        "details": "原视频：https://www.bilibili.com/video/BV1Ze4y1v74E\n——————\n非常稳定的作业\n——————\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n"
     },
     "stage_name": "hard_11-01",
     "opers": [
-        {
-            "name": "塞雷娅",
-            "skill": 2,
-            "skill_usage": 0
-        },
         {
             "name": "桃金娘",
             "skill": 1,
             "skill_usage": 1
         },
         {
-            "name": "棘刺",
-            "skill": 3,
-            "skill_usage": 1
-        },
-        {
-            "name": "蜜莓",
-            "skill": 1,
-            "skill_usage": 0
-        },
-        {
             "name": "拉普兰德",
             "skill": 2,
             "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
         },
         {
             "name": "山",
@@ -39,6 +29,16 @@
         {
             "name": "能天使",
             "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "蜜莓",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
             "skill_usage": 0
         },
         {
@@ -57,23 +57,14 @@
             "type": "部署",
             "name": "桃金娘",
             "location": [
-                5,
+                10,
                 1
             ],
             "direction": "左"
         },
         {
             "type": "部署",
-            "name": "山",
-            "location": [
-                5,
-                6
-            ],
-            "direction": "左"
-        },
-        {
-            "type": "部署",
-            "name": "拉普兰德",
+            "name": "棘刺",
             "location": [
                 6,
                 3
@@ -84,17 +75,36 @@
             "type": "部署",
             "name": "浊心斯卡蒂",
             "location": [
-                6,
+                7,
                 2
             ],
             "direction": "下"
         },
         {
             "type": "部署",
+            "name": "山",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 13,
             "name": "能天使",
             "location": [
-                5,
+                6,
                 2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                4
             ],
             "direction": "左"
         },
@@ -102,29 +112,20 @@
             "type": "部署",
             "name": "蜜莓",
             "location": [
-                7,
+                8,
                 2
             ],
             "direction": "左"
         },
         {
             "type": "部署",
-            "name": "棘刺",
-            "location": [
-                6,
-                4
-            ],
-            "direction": "左"
-        },
-        {
-            "type": "部署",
-            "kills": 17,
-            "name": "塞雷娅",
+            "cost_changes": 32,
+            "name": "夜莺",
             "location": [
                 5,
-                3
+                2
             ],
-            "direction": "左"
+            "direction": "下"
         },
         {
             "type": "Output",
