@@ -6,41 +6,42 @@
         },
         {
             "type": "部署",
-            "name": "山",
-            "location": [
-                3,
-                3
-            ],
-            "direction": "下"
-        },
-        {
-            "type": "部署",
             "name": "煌",
             "location": [
-                5,
+                4,
                 5
             ],
             "direction": "上"
         },
         {
             "type": "部署",
-            "name": "安赛尔",
+            "name": "棘刺",
             "location": [
-                7,
-                4
+                2,
+                2
             ],
-            "direction": "左"
+            "direction": "右"
         },
         {
-            "type": "摆完挂机"
+            "type": "部署",
+            "name": "安赛尔",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
         }
     ],
     "minimum_required": "v4.0",
     "doc": {
-        "title": "山精一即可，煌精一即可",
+        "title": "精2煌（无等级及专精限制）即可",
         "details": ""
     },
-    "stage_name": "DH-2",
+    "stage_name": "act12side_03",
     "opers": [
         {
             "name": "煌",
@@ -48,13 +49,14 @@
             "skill_usage": 0
         },
         {
-            "name": "山",
-            "skill": 2,
-            "skill_usage": 2
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
         },
         {
             "name": "安赛尔",
-            "skill": 1
+            "skill": 1,
+            "skill_usage": 0
         }
     ],
     "groups": []

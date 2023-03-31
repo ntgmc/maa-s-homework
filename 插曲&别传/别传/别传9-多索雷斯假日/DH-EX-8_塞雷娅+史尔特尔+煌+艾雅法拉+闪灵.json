@@ -1,7 +1,41 @@
 {
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "DH-EX-8",
+        "details": "推荐练度精二60专3\n为黄金大队懒人挂机攻略\n参考b站up主萧然Q的视频\n收藏品：多索雷斯游客章；\n               道格牌工业密封胶；\n               沙兹专业镀膜装置；\n               马可伯伯仙人掌饼；\n               大帽子老哥卷饼；"
+    },
+    "stage_name": "act12side_ex08",
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
     "actions": [
         {
-            "type": "二倍速"
+            "type": "二倍速",
+            "name": ""
         },
         {
             "type": "部署",
@@ -37,7 +71,7 @@
                 10,
                 7
             ],
-            "direction": ""
+            "direction": "无"
         },
         {
             "type": "部署",
@@ -68,36 +102,8 @@
             "name": "艾雅法拉"
         },
         {
-            "type": "摆完挂机"
-        }
-    ],
-    "stage_name": "DH-EX-8",
-    "doc": {
-        "title": "DH-EX-8",
-        "details": "推荐练度精二60专3\n为黄金大队懒人挂机攻略\n参考b站up主萧然Q的视频\n收藏品：多索雷斯游客章；\n               道格牌工业密封胶；\n               沙兹专业镀膜装置；\n               马可伯伯仙人掌饼；\n               大帽子老哥卷饼；"
-    },
-    "opers": [
-        {
-            "name": "塞雷娅",
-            "skill": 2
-        },
-        {
-            "name": "史尔特尔",
-            "skill": 3,
-            "skill_usage": 1
-        },
-        {
-            "name": "煌",
-            "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "艾雅法拉",
-            "skill": 3
-        },
-        {
-            "name": "闪灵",
-            "skill": 2
+            "type": "摆完挂机",
+            "name": ""
         }
     ]
 }
