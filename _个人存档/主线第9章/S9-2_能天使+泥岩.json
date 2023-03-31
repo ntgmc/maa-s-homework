@@ -1,0 +1,45 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "S9-2高配挂机",
+        "details": "UP：侬无言以对\n原视频：https://www.bilibili.com/video/BV1UG411j7sL/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "sub_09-1-2",
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "kills": 16,
+            "name": "能天使",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "右"
+        }
+    ]
+}
