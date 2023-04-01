@@ -4,7 +4,8 @@
   "actions": [
     {
       "type": "SpeedUp",
-      "name": ""
+      "name": "",
+      "rear_delay": 0
     },
     {
       "type": "Deploy",
@@ -13,16 +14,18 @@
         9,
         2
       ],
-      "direction": "Left"
+      "direction": "Left",
+      "rear_delay": 0
     },
     {
       "type": "Deploy",
-      "name": "克洛丝",
+      "name": "速狙",
       "location": [
         2,
         4
       ],
-      "direction": "Up"
+      "direction": "Up",
+      "rear_delay": 0
     },
     {
       "type": "Deploy",
@@ -31,7 +34,8 @@
         9,
         4
       ],
-      "direction": "Left"
+      "direction": "Left",
+      "rear_delay": 0
     },
     {
       "type": "Deploy",
@@ -40,7 +44,8 @@
         7,
         4
       ],
-      "direction": "Down"
+      "direction": "Down",
+      "rear_delay": 0
     },
     {
       "type": "Deploy",
@@ -49,7 +54,8 @@
         10,
         3
       ],
-      "direction": "Left"
+      "direction": "Left",
+      "rear_delay": 0
     },
     {
       "type": "Deploy",
@@ -58,7 +64,8 @@
         9,
         3
       ],
-      "direction": "Left"
+      "direction": "Left",
+      "rear_delay": 2000
     },
     {
       "type": "Deploy",
@@ -68,7 +75,7 @@
         6
       ],
       "direction": "Up",
-      "pre_delay": 2000
+      "rear_delay": 0
     },
     {
       "type": "Output",
@@ -78,8 +85,8 @@
     }
   ],
   "doc": {
-    "title": "【愚人号】SN-S-3-B六人",
-    "details": "UP主：萧然Q\n原视频：https://www.bilibili.com/video/av683885831/\n——————\n小帮手：\n1 2\n1 2\n   2\n——————\n有问题联系制作者QQ2586582719"
+    "title": "【愚人号】SN-S-3-B六人 修复版",
+    "details": "UP主：萧然Q\n原视频：https://www.bilibili.com/video/av683885831/\n——————\n小帮手：\n1 2\n1 2\n   2\n——————\n有问题联系制作者QQ2586582719\n感谢Alysaar - HaoZ的反馈"
   },
   "groups": [
     {

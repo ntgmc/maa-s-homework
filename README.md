@@ -5,7 +5,7 @@
 
 —————————————————————————————————————————
 
-该仓库内所有.json/.zip/.7z文件均由maa软件生成（https://github.com/MaaAssistantArknights/MaaAssistantArknights）。
+该仓库内所有.json/.zip/.7z文件均由maa软件生成（https://github.com/MaaAssistantArknights/MaaAssistantArknights ）。
 
 该仓库仅供本人进行脚本的存放，更新不及时请谅解。
 
