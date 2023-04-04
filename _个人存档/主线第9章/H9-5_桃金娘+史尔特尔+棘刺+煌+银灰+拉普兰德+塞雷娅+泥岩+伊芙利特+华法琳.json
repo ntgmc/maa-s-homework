@@ -1,0 +1,207 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "hard_09-05",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "name": "",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Right",
+      "rear_delay": 4000
+    },
+    {
+      "type": "Skill",
+      "name": "桃金娘",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Left",
+      "rear_delay": 6000
+    },
+    {
+      "type": "Skill",
+      "name": "桃金娘",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "银灰",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "华法琳",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Up",
+      "rear_delay": 10500
+    },
+    {
+      "type": "Skill",
+      "name": "桃金娘",
+      "rear_delay": 1000
+    },
+    {
+      "type": "Skill",
+      "kills": 18,
+      "name": "银灰",
+      "rear_delay": 2000
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Left",
+      "rear_delay": 500
+    },
+    {
+      "type": "Skill",
+      "kills": 32,
+      "name": "桃金娘",
+      "rear_delay": 1000
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        7,
+        1
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "kills": 40,
+      "name": "桃金娘",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "kills": 69,
+      "name": "银灰",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "Left",
+      "cooling": 2
+    }
+  ],
+  "doc": {
+    "title": "H9-5 摆完挂机（假）",
+    "details": "UP：萧然Q\n原视频：https://www.bilibili.com/video/BV11f4y1w7YN/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "史尔特尔",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "银灰",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "华法琳",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}
