@@ -1,0 +1,58 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【解手流】725天的守望——三步H5-3",
+        "details": "落日猫咖\n原视频：https://www.bilibili.com/video/BV1b94y1d73S/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "hard_05-03",
+    "opers": [
+        {
+            "name": "帕拉斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "帕拉斯",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "澄闪",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "上"
+        }
+    ]
+}
