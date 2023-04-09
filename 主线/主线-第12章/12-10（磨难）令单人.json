@@ -1,0 +1,153 @@
+{
+  "minimum_required": "v4.0.0",
+  "doc": {
+    "title": "第十二章 惊霆无声 - 12-10（磨难）令单人",
+    "details": "Ke_lin\n原视频：https://www.bilibili.com/video/BV1km4y1B7Jh?p=9\n——————\n德克萨斯用于补费\n——————\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n——————\n诚邀您参与【12章磨难低配作业需求调查】\nhttps://www.wjx.cn/vm/eToOAgs.aspx# \n如果需要剩余12章低配作业请麻烦填写一下\n——————"
+  },
+  "stage_name": "tough_12-09",
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "部署",
+      "name": "令",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "左",
+      "rear_delay": 0
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "右",
+      "rear_delay": 0
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "右",
+      "rear_delay": 0
+    },
+    {
+      "type": "二倍速",
+      "name": "",
+      "rear_delay": 0
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "右",
+      "rear_delay": 0
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "左",
+      "rear_delay": 1500
+    },
+    {
+      "type": "技能",
+      "name": "令",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillUsage",
+      "name": "令",
+      "skill_usage": 1,
+      "rear_delay": 0
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "下",
+      "rear_delay": 0
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "右",
+      "rear_delay": 0
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        6
+      ],
+      "direction": "上",
+      "rear_delay": 0
+    },
+    {
+      "type": "二倍速",
+      "name": "",
+      "rear_delay": 0
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "右",
+      "rear_delay": 0
+    },
+    {
+      "type": "二倍速",
+      "name": "",
+      "rear_delay": 0
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "下",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon",
+      "name": ""
+    }
+  ],
+  "groups": []
+}

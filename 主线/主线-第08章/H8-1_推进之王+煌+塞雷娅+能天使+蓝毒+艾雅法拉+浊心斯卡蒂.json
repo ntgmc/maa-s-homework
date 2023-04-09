@@ -1,0 +1,150 @@
+{
+  "minimum_required": "v4.0.0",
+  "doc": {
+    "title": "H8-1 摆完挂机",
+    "details": "侬无言以对\n原视频：https://www.bilibili.com/video/BV1CK4y1X7rL/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+  },
+  "stage_name": "hard_08-01",
+  "opers": [
+    {
+      "name": "推进之王",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "浊心斯卡蒂",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "name": "",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "推进之王",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "浊心斯卡蒂",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "kills": 15,
+      "name": "能天使",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "远程",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "推进之王",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "Down",
+      "kills": 36
+    }
+  ],
+  "groups": [
+    {
+      "name": "远程",
+      "opers": [
+        {
+          "name": "蓝毒",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "黑",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "W",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ]
+}

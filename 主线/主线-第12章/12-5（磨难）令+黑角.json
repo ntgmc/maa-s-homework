@@ -1,0 +1,125 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_12-04",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "黑角",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        5
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        6,
+        4
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        6,
+        4
+      ],
+      "kills": 30
+    }
+  ],
+  "doc": {
+    "title": "第十二章 惊霆无声 - 12-5（磨难）令+黑角 修复版",
+    "details": "视频作者：B站 @Ke_lin\njson作者：椴诮 qq：1917178499\n令单人\n作业目前可用\nB站视频链接：https://www.bilibili.com/video/BV1km4y1B7Jh?p=4\n一只摆烂的42：修复原作业没带黑角\n——————\n诚邀您参与【12章磨难低配作业需求调查】\nhttps://www.wjx.cn/vm/eToOAgs.aspx# \n如果需要剩余12章低配作业请麻烦填写一下\n——————"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "黑角",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

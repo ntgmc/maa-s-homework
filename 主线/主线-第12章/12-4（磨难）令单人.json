@@ -1,0 +1,121 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_12-03",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        5,
+        1
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        1,
+        3
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "Right",
+      "kills": 22,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        6
+      ],
+      "direction": "Left",
+      "rear_delay": 6000
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        5,
+        1
+      ],
+      "kills": 26,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Down"
+    }
+  ],
+  "doc": {
+    "title": "第十二章 惊霆无声 - 12-4（磨难）令单人 修复版",
+    "details": "视频作者：B站 @Ke_lin\njson作者：椴诮 qq：1917178499\n令单人\n作业目前可用\nB站视频链接：https://www.bilibili.com/video/BV1km4y1B7Jh?p=3\n一只摆烂的42：修复原作业开局漏怪和后续开技能时机错误，修复最后小龙没选方向。\n请不要使用adb input。\n还是漏怪请自行带德狗补费。\n——————\n诚邀您参与【12章磨难低配作业需求调查】\nhttps://www.wjx.cn/vm/eToOAgs.aspx# \n如果需要剩余12章低配作业请麻烦填写一下\n——————"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}

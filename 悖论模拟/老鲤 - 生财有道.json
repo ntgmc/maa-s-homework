@@ -1,0 +1,94 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_lmlee_1",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "红豆",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "障碍物",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "None",
+      "rear_delay": 3
+    },
+    {
+      "type": "Deploy",
+      "name": "格拉尼",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Up",
+      "costs": 15,
+      "rear_delay": 5
+    },
+    {
+      "type": "Deploy",
+      "name": "障碍物",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "None",
+      "costs": 6,
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "苇草",
+      "location": [
+        3,
+        4
+      ],
+      "kills": 22,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "老鲤",
+      "location": [
+        5,
+        4
+      ],
+      "costs": 41,
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "锡兰",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Down"
+    }
+  ],
+  "doc": {
+    "title": "特种 - 老鲤 - 生财有道",
+    "details": "老鲤带三技能，不知道为啥格拉尼不会自动部署，请手动部署一下在红豆下两格，朝上"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "老鲤",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}
