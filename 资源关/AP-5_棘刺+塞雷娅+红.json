@@ -1,0 +1,94 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【至高之术】AP-5[特]",
+        "details": "实际作战：棘刺.塞雷娅.红"
+    },
+    "stage_name": "wk_toxic_5",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "红",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "kills": 2,
+            "name": "红",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Right",
+            "rear_delay": 4000
+        },
+        {
+            "type": "Deploy",
+            "kills": 10,
+            "name": "红",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Right",
+            "rear_delay": 6000
+        },
+        {
+            "type": "Deploy",
+            "kills": 31,
+            "name": "红",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "红",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon",
+            "name": ""
+        }
+    ]
+}

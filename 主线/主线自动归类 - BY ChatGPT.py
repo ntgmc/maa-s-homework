@@ -9,7 +9,7 @@ destination_folder_base = r"D:\GITHOME\maa\主线"
 for file_name in os.listdir(source_folder):
     if file_name.endswith(".json"):
         # 解析文件名并获取目标文件夹路径
-        chapter_num = file_name.split("-")[0].strip("低配磨难SHsh")
+        chapter_num = file_name.split("-")[0].strip("低配磨难SHshRM")
         chapter_num = int(chapter_num)
         destination_folder_name = "主线-第{:02d}章".format(chapter_num)
         destination_folder_path = os.path.join(destination_folder_base, destination_folder_name)

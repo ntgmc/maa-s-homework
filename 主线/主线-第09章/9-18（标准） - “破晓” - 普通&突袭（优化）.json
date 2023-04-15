@@ -1,0 +1,177 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_09-16",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "爆破装置",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        1,
+        5
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "华法琳",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        1,
+        3
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        3,
+        6
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "远程",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第九章 风暴瞭望 - 9-18（标准） - “破晓” - 普通&突袭（优化）",
+    "details": "BV1QQ4y1r7Ni\nup：萧然Q\n相比起原作业，添加了位远程干员确保输出足够\n视频练度：260(?)\n已测试"
+  },
+  "groups": [
+    {
+      "name": "远程",
+      "opers": [
+        {
+          "name": "灰烬",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "早露",
+          "skill": 2,
+          "skill_usage": 1
+        },
+        {
+          "name": "W",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "空弦",
+          "skill": 3,
+          "skill_usage": 1
+        },
+        {
+          "name": "能天使",
+          "skill": 3,
+          "skill_usage": 0
+        },
+        {
+          "name": "远牙",
+          "skill": 2,
+          "skill_usage": 1
+        },
+        {
+          "name": "白金",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "蓝毒",
+          "skill": 2,
+          "skill_usage": 1
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "华法琳",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

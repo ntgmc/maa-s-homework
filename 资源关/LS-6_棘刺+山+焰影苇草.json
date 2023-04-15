@@ -1,0 +1,70 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "战术演习 - LS-6 - 运动战演习 3人信赖",
+        "details": "视频地址：https://www.bilibili.com/video/BV1784y1H7Tr/\n苇草练度需拉满，否则开局漏飞机\n由于苇草特性原因，开局有概率漏怪，可多尝试几次"
+    },
+    "stage_name": "wk_kc_6",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "焰影苇草",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "焰影苇草",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down",
+            "rear_delay": 2300
+        },
+        {
+            "type": "Skill",
+            "kills": 19,
+            "name": "焰影苇草",
+            "rear_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "kills": 38,
+            "name": "焰影苇草"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【至高之术】CE-6",
+        "details": "作业搬自化学老施 BV1S3411K7jy\n该图无法自动使用技能，在选中后及时点击使用技能。\n注意银灰节点为35击杀"
+    },
+    "stage_name": "wk_melee_6",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right",
+            "rear_delay": 5200
+        },
+        {
+            "type": "Skill",
+            "kills": 35,
+            "name": "银灰",
+            "location": [
+                4,
+                1
+            ]
+        }
+    ]
+}

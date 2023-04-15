@@ -8,6 +8,85 @@
     },
     {
       "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Left",
+      "costs": 19,
+      "cost_changes": 0,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "costs": 5,
+      "name": "障碍物",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "None",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "雷蛇",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Left",
+      "costs": 20,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "银灰",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Left",
+      "costs": 20,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "障碍物",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "None",
+      "costs": 5,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "安赛尔",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Down",
+      "costs": 15,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "芙蓉",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Down",
+      "costs": 15,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "costs": 5,
       "name": "障碍物",
       "location": [
         1,
@@ -17,44 +96,21 @@
       "rear_delay": 0
     },
     {
-      "type": "Deploy",
-      "name": "障碍物",
-      "location": [
-        3,
-        4
-      ],
-      "direction": "None",
+      "type": "Skill",
+      "name": "银灰",
+      "kills": 27,
       "rear_delay": 0
     },
     {
-      "type": "Deploy",
-      "name": "障碍物",
-      "location": [
-        7,
-        3
-      ],
-      "direction": "None",
-      "costs": 20,
+      "type": "Skill",
+      "name": "安赛尔",
+      "kills": 30,
       "rear_delay": 0
     },
     {
-      "type": "Deploy",
-      "name": "煌",
-      "location": [
-        7,
-        5
-      ],
-      "direction": "Left",
-      "rear_delay": 0
-    },
-    {
-      "type": "Deploy",
-      "name": "塞雷娅",
-      "location": [
-        6,
-        5
-      ],
-      "direction": "Left",
+      "type": "Skill",
+      "name": "芙蓉",
+      "kills": 39,
       "rear_delay": 0
     },
     {
@@ -63,17 +119,32 @@
   ],
   "doc": {
     "title": "第八章 怒号光明 - R8-10 - 沉默的屠夫",
-    "details": "BV1b341177PU 作者：祈星_Estrellayc"
+    "details": "关卡难度：中等\n难点：帝国前锋精锐攻击力大幅提升后，容易击退我方干员\n应对策略：队伍中加入两个远程医疗保证奶量，用障碍物堵住坐标（4,3）平地位置\n突袭加码：可部署数量由8减至5\n队伍练度参考（只要练度差不多，应该都能过）：\n拉普兰德（精2 40）、银灰（精2 60）、雷蛇（精1 70）、芙蓉（精1 55）、安赛尔（精1 55）\n"
   },
   "groups": [],
   "opers": [
     {
-      "name": "煌",
+      "name": "拉普兰德",
       "skill": 2,
+      "skill_usage": 1
+    },
+    {
+      "name": "银灰",
+      "skill": 3,
       "skill_usage": 0
     },
     {
-      "name": "塞雷娅",
+      "name": "雷蛇",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "芙蓉",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "安赛尔",
       "skill": 1,
       "skill_usage": 0
     }

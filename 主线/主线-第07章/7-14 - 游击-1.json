@@ -3,24 +3,44 @@
   "stage_name": "main_07-12",
   "actions": [
     {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
       "type": "SpeedUp",
       "rear_delay": 0
     },
     {
       "type": "Deploy",
-      "name": "桃金娘",
+      "name": "芬",
       "location": [
-        3,
+        4,
         4
       ],
-      "direction": "Down",
+      "direction": "Right",
       "rear_delay": 0
     },
     {
       "type": "Deploy",
-      "name": "推进之王",
+      "name": "玫兰莎",
       "location": [
-        6,
+        5,
+        1
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "安赛尔",
+      "location": [
+        2,
         5
       ],
       "direction": "Right",
@@ -28,9 +48,34 @@
     },
     {
       "type": "Deploy",
-      "name": "塞雷娅",
+      "name": "芙蓉",
       "location": [
-        6,
+        2,
+        2
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "慕斯",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "芬",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "斑点",
+      "location": [
+        4,
         4
       ],
       "direction": "Right",
@@ -38,70 +83,58 @@
     },
     {
       "type": "Deploy",
-      "name": "伊芙利特",
+      "name": "芬",
       "location": [
-        7,
-        3
-      ],
-      "direction": "Down",
-      "rear_delay": 0
-    },
-    {
-      "type": "Deploy",
-      "name": "白面鸮",
-      "location": [
-        6,
-        3
-      ],
-      "direction": "Up",
-      "rear_delay": 0
-    },
-    {
-      "type": "Deploy",
-      "name": "煌",
-      "location": [
-        5,
+        4,
         1
       ],
-      "direction": "Right"
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
     }
   ],
   "doc": {
     "title": "第七章 苦难摇篮 - 7-14 - 游击-1",
-    "details": "参考视频：BV16T4y1Y7DG 作者：祈星_Estrella\nyc.exe"
+    "details": "第七章 苦难摇篮 - 7-14 - 游击-1"
   },
   "groups": [],
   "opers": [
-    {
-      "name": "推进之王",
-      "skill": 2,
-      "skill_usage": 0
-    },
-    {
-      "name": "桃金娘",
-      "skill": 1,
-      "skill_usage": 1
-    },
     {
       "name": "煌",
       "skill": 2,
       "skill_usage": 0
     },
     {
-      "name": "塞雷娅",
+      "name": "慕斯",
       "skill": 1,
       "skill_usage": 0
     },
     {
-      "name": "伊芙利特",
-      "skill": 2,
+      "name": "安赛尔",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "芙蓉",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "玫兰莎",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "芬",
+      "skill": 1,
       "skill_usage": 0
     },
     {
-      "name": "白面鸮",
-      "skill": 2,
-      "skill_usage": 0
+      "name": "斑点",
+      "skill": 1,
+      "skill_usage": 1
     }
-  ],
-  "difficulty": 3
+  ]
 }

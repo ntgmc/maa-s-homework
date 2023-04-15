@@ -8,9 +8,50 @@
     },
     {
       "type": "Deploy",
-      "name": "推进之王",
+      "name": "棘刺",
       "location": [
         7,
+        5
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "斑点",
+      "location": [
+        1,
+        5
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "史都华德",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "米格鲁",
+      "location": [
+        10,
+        1
+      ],
+      "direction": "Left",
+      "costs": 22,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "安赛尔",
+      "location": [
+        9,
         4
       ],
       "direction": "Up",
@@ -18,32 +59,22 @@
     },
     {
       "type": "Deploy",
-      "name": "棘刺",
-      "location": [
-        2,
-        4
-      ],
-      "direction": "Right",
-      "rear_delay": 0
-    },
-    {
-      "type": "Deploy",
-      "name": "塞雷娅",
-      "location": [
-        7,
-        5
-      ],
-      "direction": "Right",
-      "rear_delay": 0
-    },
-    {
-      "type": "Deploy",
-      "name": "煌",
+      "name": "伊桑",
       "location": [
         10,
-        1
+        2
       ],
-      "direction": "Left",
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "芙蓉",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "Up",
       "rear_delay": 0
     },
     {
@@ -52,27 +83,42 @@
   ],
   "doc": {
     "title": "第七章 苦难摇篮 - 7-9 - 沉默者之怒-2",
-    "details": "BV16T4y1Y7DG\nup：祈星_Estrella\n测试干员均精2，90级，7级技能或以上"
+    "details": "第七章 苦难摇篮 - 7-9 - 沉默者之怒-2"
   },
   "groups": [],
   "opers": [
-    {
-      "name": "煌",
-      "skill": 2,
-      "skill_usage": 0
-    },
     {
       "name": "棘刺",
       "skill": 3,
       "skill_usage": 1
     },
     {
-      "name": "推进之王",
-      "skill": 2,
+      "name": "安赛尔",
+      "skill": 1,
       "skill_usage": 0
     },
     {
-      "name": "塞雷娅",
+      "name": "芙蓉",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "史都华德",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "斑点",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "米格鲁",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊桑",
       "skill": 1,
       "skill_usage": 0
     }
