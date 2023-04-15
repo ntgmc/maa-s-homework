@@ -2,7 +2,7 @@
   "minimum_required": "v4.0.0",
   "doc": {
     "title": "【遗尘漫步】WD-EX-8突袭十人",
-    "details": "萧然Q\n原视频：https://www.bilibili.com/video/BV12r4y1W7s4?p=20\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    "details": "萧然Q\n原视频：https://www.bilibili.com/video/BV12r4y1W7s4?p=20\n艾雅法拉需要90级专三\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
   },
   "stage_name": "act18d0_ex08",
   "opers": [
@@ -64,13 +64,13 @@
       "rear_delay": 0
     },
     {
-      "type": "部署",
-      "name": "推王",
+      "type": "Deploy",
+      "name": "推进之王",
       "location": [
         6,
         5
       ],
-      "direction": "上",
+      "direction": "Up",
       "rear_delay": 0
     },
     {
@@ -199,22 +199,28 @@
       "type": "技能",
       "kills": 36,
       "name": "闪灵",
-      "rear_delay": 0
+      "rear_delay": 5000
     },
     {
-      "type": "部署",
+      "type": "Deploy",
       "name": "艾雅法拉",
       "location": [
         8,
         2
       ],
-      "direction": "下",
+      "direction": "Down",
       "rear_delay": 0
     },
     {
       "type": "SkillUsage",
       "name": "艾雅法拉",
       "skill_usage": 1,
+      "rear_delay": 0
+    },
+    {
+      "type": "Output",
+      "doc_color": "DeepSkyBlue",
+      "doc": "如果艾雅法拉因为早下死了，等回转再部署即可",
       "rear_delay": 0
     },
     {
