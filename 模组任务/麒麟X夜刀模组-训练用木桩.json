@@ -1,0 +1,94 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "a003_05",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "麒麟X夜刀",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "麒麟X夜刀",
+      "location": [
+        7,
+        3
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "麒麟X夜刀",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "麒麟X夜刀",
+      "location": [
+        7,
+        3
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "麒麟X夜刀",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Output",
+      "doc_color": "#6f42c1",
+      "doc": "给个好评吧，亲~",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "麒麟X夜刀模组-训练用木桩",
+    "details": "侬无言以对模组任务摆完挂机合集:BV1wU4y177Qu\n完成5次战斗；每次战斗至少部署3次非助战的麒麟X夜刀\n筱竹聽雨"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "麒麟X夜刀",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}
