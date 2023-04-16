@@ -27,9 +27,7 @@
                 5,
                 3
             ],
-            "direction": "右",
-            "doc": "",
-            "doc_color": ""
+            "direction": "右"
         },
         {
             "type": "二倍速"
@@ -55,10 +53,6 @@
             "type": "技能",
             "kills": 59,
             "name": "水月",
-            "location": [
-                null,
-                null
-            ],
             "doc": "原定63杀后释放技能，但因MAA无法识别因此提前",
             "doc_color": "red"
         }
@@ -66,7 +60,7 @@
     "stage_name": "进化的佯谬",
     "doc": {
         "title": "水月悖论模拟",
-        "details": "作者：snowflake\n水月精2 60级 7级"
+        "details": "作者：snowflake\n水月精2 60级 7级\nAdb Input版作业，谨慎使用！"
     },
     "opers": [
         {

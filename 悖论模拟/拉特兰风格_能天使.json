@@ -10,93 +10,59 @@
             "name": "能天使",
             "skill": 2,
             "skill_usage": 0
-        },
-        {
-            "name": "极境",
-            "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "古米",
-            "skill": 1,
-            "skill_usage": 0
         }
     ],
     "actions": [
         {
             "type": "部署",
-            "cost_changes": null,
             "name": "能天使",
             "location": [
                 5,
                 5
             ],
-            "direction": "上",
-            "doc": "",
-            "doc_color": ""
+            "direction": "上"
         },
         {
             "type": "二倍速",
-            "cost_changes": null,
-            "name": "",
-            "doc": "",
-            "doc_color": ""
+            "name": ""
         },
         {
             "type": "部署",
-            "cost_changes": null,
             "name": "极境",
             "location": [
                 6,
                 6
             ],
-            "direction": "上",
-            "doc": "",
-            "doc_color": ""
+            "direction": "上"
         },
         {
             "type": "部署",
-            "cost_changes": null,
             "name": "古米",
             "location": [
                 6,
                 5
             ],
-            "direction": "上",
-            "doc": "",
-            "doc_color": ""
+            "direction": "上"
         },
         {
             "type": "技能",
             "kills": 7,
-            "cost_changes": null,
             "name": "能天使",
-            "pre_delay": 4000,
-            "doc": "",
-            "doc_color": ""
+            "pre_delay": 4000
         },
         {
             "type": "技能",
             "kills": 19,
-            "cost_changes": null,
             "name": "能天使",
-            "rear_delay": 36000,
-            "doc": "",
-            "doc_color": ""
+            "rear_delay": 40000
         },
         {
             "type": "技能",
-            "cost_changes": null,
-            "name": "能天使",
-            "doc": "",
-            "doc_color": ""
+            "name": "能天使"
         },
         {
             "type": "技能",
-            "cost_changes": null,
-            "name": "极境",
-            "doc": "",
-            "doc_color": ""
+            "name": "极境"
         }
     ]
 }

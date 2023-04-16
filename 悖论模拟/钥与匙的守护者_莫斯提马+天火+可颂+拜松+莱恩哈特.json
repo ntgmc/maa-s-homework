@@ -10,126 +10,75 @@
             "name": "莫斯提马",
             "skill": 3,
             "skill_usage": 0
-        },
-        {
-            "name": "天火",
-            "skill": 1,
-            "skill_usage": 0
-        },
-        {
-            "name": "可颂",
-            "skill": 1,
-            "skill_usage": 0
-        },
-        {
-            "name": "拜松",
-            "skill": 1,
-            "skill_usage": 0
-        },
-        {
-            "name": "莱恩哈特",
-            "skill": 1,
-            "skill_usage": 0
         }
     ],
     "actions": [
         {
             "type": "部署",
-            "cost_changes": null,
             "name": "莫斯提马",
             "location": [
                 5,
                 5
             ],
-            "direction": "上",
-            "doc": "",
-            "doc_color": ""
+            "direction": "上"
         },
         {
-            "type": "二倍速",
-            "cost_changes": null,
-            "name": "",
-            "doc": "",
-            "doc_color": ""
+            "type": "二倍速"
         },
         {
             "type": "部署",
-            "cost_changes": null,
             "name": "可颂",
             "location": [
                 4,
                 6
             ],
-            "direction": "上",
-            "doc": "",
-            "doc_color": ""
+            "direction": "上"
         },
         {
             "type": "部署",
-            "cost_changes": null,
             "name": "拜松",
             "location": [
                 6,
                 6
             ],
-            "direction": "上",
-            "doc": "",
-            "doc_color": ""
+            "direction": "上"
         },
         {
             "type": "技能",
-            "cost_changes": null,
             "name": "莫斯提马",
             "pre_delay": 6000,
-            "rear_delay": 12000,
-            "doc": "",
-            "doc_color": ""
+            "rear_delay": 12000
         },
         {
             "type": "部署",
-            "cost_changes": null,
             "name": "莱恩哈特",
             "location": [
                 7,
                 6
             ],
-            "direction": "上",
-            "doc": "",
-            "doc_color": ""
+            "direction": "上"
         },
         {
             "type": "部署",
-            "cost_changes": null,
             "name": "天火",
             "location": [
                 3,
                 6
             ],
-            "direction": "上",
-            "doc": "",
-            "doc_color": ""
+            "direction": "上"
         },
         {
             "type": "技能",
-            "cost_changes": null,
             "name": "莫斯提马",
-            "pre_delay": 27000,
-            "doc": "",
-            "doc_color": ""
+            "pre_delay": 27000
         },
         {
             "type": "技能",
-            "cost_changes": null,
-            "name": "天火",
-            "doc": "",
-            "doc_color": ""
+            "name": "天火"
         },
         {
             "type": "技能",
-            "cost_changes": null,
-            "name": "莱恩哈特",
-            "doc": "",
-            "doc_color": ""
+            "name": "莱恩哈特"
         }
     ]
 }

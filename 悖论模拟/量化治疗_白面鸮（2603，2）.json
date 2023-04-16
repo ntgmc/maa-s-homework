@@ -3,183 +3,124 @@
         {
             "type": "部署",
             "kills": 0,
-            "cost_changes": null,
             "name": "芳汀",
             "location": [
                 6,
                 3
             ],
-            "direction": "右",
-            "doc": "",
-            "doc_color": ""
+            "direction": "右"
         },
         {
             "type": "部署",
             "kills": 0,
-            "cost_changes": null,
             "name": "蛇屠箱",
             "location": [
                 5,
                 4
             ],
-            "direction": "下",
-            "doc": "",
-            "doc_color": ""
+            "direction": "下"
         },
         {
             "type": "二倍速",
-            "kills": 1,
-            "cost_changes": null,
-            "name": "",
-            "doc": "",
-            "doc_color": ""
+            "kills": 1
         },
         {
             "type": "技能",
             "kills": 3,
-            "cost_changes": null,
             "name": "芳汀",
             "location": [
                 6,
                 3
             ],
-            "direction": "右",
-            "doc": "",
-            "doc_color": ""
+            "direction": "右"
         },
         {
             "type": "子弹时间",
-            "kills": 3,
-            "cost_changes": null,
-            "name": "",
-            "doc": "",
-            "doc_color": ""
+            "kills": 3
         },
         {
             "type": "部署",
             "kills": 4,
-            "cost_changes": null,
             "name": "慕斯",
             "location": [
                 4,
                 3
             ],
-            "direction": "上",
-            "doc": "",
-            "doc_color": ""
+            "direction": "上"
         },
         {
             "type": "部署",
             "kills": 7,
-            "cost_changes": null,
             "name": "白面鸮",
             "location": [
                 5,
                 1
             ],
-            "direction": "下",
-            "doc": "",
-            "doc_color": ""
+            "direction": "下"
         },
         {
             "type": "技能",
             "kills": 9,
-            "cost_changes": null,
             "name": "蛇屠箱",
             "location": [
                 5,
                 4
             ],
-            "direction": "下",
-            "doc": "",
-            "doc_color": ""
+            "direction": "下"
         },
         {
             "type": "二倍速",
-            "kills": 9,
-            "cost_changes": null,
-            "name": "",
-            "doc": "",
-            "doc_color": ""
+            "kills": 9
         },
         {
             "type": "子弹时间",
-            "kills": 15,
-            "cost_changes": null,
-            "name": "",
-            "doc": "",
-            "doc_color": ""
+            "kills": 15
         },
         {
             "type": "技能",
             "kills": 16,
-            "cost_changes": null,
             "name": "芳汀",
             "location": [
                 6,
                 3
             ],
-            "direction": "右",
-            "doc": "",
-            "doc_color": ""
+            "direction": "右"
         },
         {
             "type": "二倍速",
-            "kills": 16,
-            "cost_changes": null,
-            "name": "",
-            "doc": "",
-            "doc_color": ""
+            "kills": 16
         },
         {
             "type": "子弹时间",
-            "kills": 19,
-            "cost_changes": null,
-            "name": "",
-            "doc": "",
-            "doc_color": ""
+            "kills": 19
         },
         {
             "type": "技能",
             "kills": 20,
-            "cost_changes": null,
             "name": "白面鸮",
             "location": [
                 5,
                 1
             ],
-            "direction": "下",
-            "doc": "",
-            "doc_color": ""
+            "direction": "下"
         },
         {
             "type": "二倍速",
-            "kills": 20,
-            "cost_changes": null,
-            "name": "",
-            "doc": "",
-            "doc_color": ""
+            "kills": 20
         },
         {
             "type": "子弹时间",
-            "kills": 27,
-            "cost_changes": null,
-            "name": "",
-            "doc": "",
-            "doc_color": ""
+            "kills": 27
         },
         {
             "type": "技能",
             "kills": 27,
-            "cost_changes": null,
             "name": "芳汀",
             "location": [
                 6,
                 3
             ],
-            "direction": "右",
-            "doc": "",
-            "doc_color": ""
+            "direction": "右"
         }
     ],
     "stage_name": "量化治疗",
@@ -188,5 +129,11 @@
         "details": "https://www.bilibili.com/video/BV11i4y1N7Nk?p=53"
     },
     "minimum_required": "v4.0",
-    "opers": []
+    "opers": [
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+          }
+    ]
 }
