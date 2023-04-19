@@ -1,0 +1,61 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act11d0_04",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "沃伦姆德的薄暮·复刻 - TW-4 - 复仇之魂",
+    "details": "沃伦姆德的薄暮·复刻 - TW-4 - 复仇之魂"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "闪灵",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    }
+  ]
+}

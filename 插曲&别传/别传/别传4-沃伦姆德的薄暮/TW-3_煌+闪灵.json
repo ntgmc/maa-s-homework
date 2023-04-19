@@ -1,0 +1,47 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act11d0_03",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "沃伦姆德的薄暮·复刻 - TW-3 - 高塔烟火",
+    "details": "沃伦姆德的薄暮·复刻 - TW-3 - 高塔烟火"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "闪灵",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

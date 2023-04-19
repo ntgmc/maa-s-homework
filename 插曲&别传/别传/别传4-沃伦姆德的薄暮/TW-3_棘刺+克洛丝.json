@@ -1,0 +1,48 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【沃伦姆德的薄暮】TW-3",
+        "details": "原视频：https://www.bilibili.com/video/BV1kN4y1g7Db/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "act11d0_03",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【沃伦姆德的薄暮】TW-8",
+        "details": "https://www.bilibili.com/video/BV1Q5411K7uA/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n隐藏关卡开启条件：\nTW-4不被敌人占领留声机\nTW-6不占领装置\nTW-8六人通关\n打败20只石头人\n通过TW-S-1遭遇战\n达成后开启TW-S-2+遭遇战"
+    },
+    "stage_name": "act11d0_08",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 22,
+            "name": "史尔特尔"
+        },
+        {
+            "type": "撤退",
+            "cost_changes": 18,
+            "name": "史尔特尔"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "史尔特尔",
+            "pre_delay": 2300
+        },
+        {
+            "type": "撤退",
+            "kills": 31,
+            "name": "能天使"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "史尔特尔",
+            "pre_delay": 2300
+        }
+    ]
+}

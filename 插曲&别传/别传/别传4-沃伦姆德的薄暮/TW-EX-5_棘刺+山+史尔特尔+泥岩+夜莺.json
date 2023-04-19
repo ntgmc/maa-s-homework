@@ -1,0 +1,100 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【沃伦姆德的薄暮】TW-EX-5突袭",
+        "details": "https://www.bilibili.com/video/BV1mY4y1L7PQ/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n开局漏怪，自带德狗"
+    },
+    "stage_name": "act11d0_ex05",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "幻影",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "史尔特尔",
+            "pre_delay": 2300
+        }
+    ]
+}
