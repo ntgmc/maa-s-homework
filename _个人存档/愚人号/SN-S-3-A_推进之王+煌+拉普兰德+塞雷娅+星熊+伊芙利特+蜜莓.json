@@ -1,132 +1,133 @@
 {
-    "minimum_required": "v4.0",
-    "doc": {
-        "title": "【愚人号】SN-S-3-A七人",
-        "details": "UP主：萧然Q\n原视频：https://www.bilibili.com/video/av683885831/\n——————\n小帮手：\n1 1\n1 2\n   1\n——————\n有问题联系制作者QQ2586582719"
+  "minimum_required": "v4.0.0",
+  "doc": {
+    "title": "【愚人号】SN-S-3-A七人 修复版",
+    "details": "UP主：萧然Q\n原视频：https://www.bilibili.com/video/av683885831/\n——————\n小帮手：\n1 1\n1 2\n   1\n——————\n有问题联系制作者QQ2586582719"
+  },
+  "stage_name": "act17side_s03_a",
+  "opers": [
+    {
+      "name": "推进之王",
+      "skill": 2,
+      "skill_usage": 0
     },
-    "stage_name": "act17side_s03_a",
-    "opers": [
-        {
-            "name": "推进之王",
-            "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "煌",
-            "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "拉普兰德",
-            "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "塞雷娅",
-            "skill": 1,
-            "skill_usage": 0
-        },
-        {
-            "name": "星熊",
-            "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "伊芙利特",
-            "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "蜜莓",
-            "skill": 1,
-            "skill_usage": 0
-        }
-    ],
-    "actions": [
-        {
-            "type": "二倍速",
-            "name": ""
-        },
-        {
-            "type": "部署",
-            "name": "煌",
-            "location": [
-                3,
-                1
-            ],
-            "direction": "左"
-        },
-        {
-            "type": "部署",
-            "name": "推进之王",
-            "location": [
-                7,
-                1
-            ],
-            "direction": "下"
-        },
-        {
-            "type": "部署",
-            "name": "星熊",
-            "location": [
-                7,
-                4
-            ],
-            "direction": "左"
-        },
-        {
-            "type": "部署",
-            "kills": 6,
-            "name": "蜜莓",
-            "location": [
-                9,
-                4
-            ],
-            "direction": "左"
-        },
-        {
-            "type": "部署",
-            "name": "拉普兰德",
-            "location": [
-                2,
-                1
-            ],
-            "direction": "左"
-        },
-        {
-            "type": "部署",
-            "name": "塞雷娅",
-            "location": [
-                3,
-                2
-            ],
-            "direction": "右"
-        },
-        {
-            "type": "部署",
-            "kills": 14,
-            "name": "圣徒之手",
-            "location": [
-                8,
-                5
-            ],
-            "direction": "左",
-            "pre_delay": 9000
-        },
-        {
-            "type": "部署",
-            "name": "伊芙利特",
-            "location": [
-                9,
-                3
-            ],
-            "direction": "左"
-        },
-        {
-            "type": "打印",
-            "name": "",
-            "doc": "有问题联系制作者QQ2586582719",
-            "doc_color": "SpringGreen"
-        }
-    ]
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "蜜莓",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "name": ""
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "推进之王",
+      "location": [
+        7,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "kills": 6,
+      "name": "蜜莓",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        2,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "kills": 14,
+      "name": "圣徒之手",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Left",
+      "pre_delay": 7000
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Output",
+      "name": "",
+      "doc": "有问题联系制作者QQ2586582719",
+      "doc_color": "SpringGreen"
+    }
+  ],
+  "groups": []
 }
