@@ -1,0 +1,179 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【沃伦姆德的薄暮】TW-S-2遭遇——固定编队",
+        "details": "刻俄柏_\nhttps://www.bilibili.com/video/BV1N5411R7gW/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n干员列表仅用于设置技能用法，非改技能\n"
+    },
+    "stage_name": "act11d0_s02",
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "凛冬",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "白面鸮",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "狮蝎",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "赫默",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "蛇屠箱",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "撤退",
+            "cost_changes": 26,
+            "name": "桃金娘"
+        },
+        {
+            "type": "部署",
+            "name": "可颂",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "白面鸮"
+        },
+        {
+            "type": "技能",
+            "name": "",
+            "location": [
+                3,
+                2
+            ]
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "医疗探机",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "无",
+            "pre_delay": 6000
+        },
+        {
+            "type": "技能",
+            "kills": 18,
+            "name": "",
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "技能",
+            "kills": 21,
+            "name": "",
+            "location": [
+                3,
+                2
+            ]
+        },
+        {
+            "type": "技能",
+            "kills": 25,
+            "name": "",
+            "location": [
+                6,
+                1
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "技能",
+            "kills": 31,
+            "name": "",
+            "location": [
+                3,
+                2
+            ]
+        }
+    ]
+}

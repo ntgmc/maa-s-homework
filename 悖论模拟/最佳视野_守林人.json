@@ -10,11 +10,7 @@
             "direction": "左"
         },
         {
-            "type": "二倍速",
-            "location": [
-                null,
-                null
-            ]
+            "type": "二倍速"
         },
         {
             "type": "部署",

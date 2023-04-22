@@ -1,0 +1,92 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【沃伦姆德的薄暮】TW-EX-8突袭",
+        "details": "福哥宅\nhttps://www.bilibili.com/video/BV1N14y1K7sm/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n"
+    },
+    "stage_name": "act11d0_ex08",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "kills": 6,
+            "name": "史尔特尔",
+            "pre_delay": 1000
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "史尔特尔",
+            "pre_delay": 3500
+        }
+    ]
+}
