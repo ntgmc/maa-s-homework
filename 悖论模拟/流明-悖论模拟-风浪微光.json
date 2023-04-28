@@ -1,0 +1,131 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_lumen_1",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "流明",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left",
+      "doc_color": "#6f42c1",
+      "doc": "1. 下干员"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾丽妮",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Skill",
+      "name": "艾丽妮",
+      "location": [
+        5,
+        3
+      ],
+      "kills": 4,
+      "pre_delay": 3200,
+      "doc_color": "#6f42c1",
+      "doc": "2. 艾丽妮放技能"
+    },
+    {
+      "type": "Deploy",
+      "name": "圣徒之手",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Right",
+      "pre_delay": 5800,
+      "doc_color": "#6f42c1",
+      "doc": "3. 清理溟痕，顺便眩晕一下"
+    },
+    {
+      "type": "Skill",
+      "name": "流明",
+      "location": [
+        7,
+        3
+      ],
+      "pre_delay": 9000,
+      "doc_color": "#6f42c1",
+      "doc": "4. 开流明技能，放圣徒之手眩晕一下"
+    },
+    {
+      "type": "Deploy",
+      "name": "圣徒之手",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Right",
+      "pre_delay": 400
+    },
+    {
+      "type": "Skill",
+      "name": "艾丽妮",
+      "location": [
+        5,
+        3
+      ],
+      "doc_color": "#6f42c1",
+      "doc": "5. 艾丽妮技能好了就放"
+    },
+    {
+      "type": "Deploy",
+      "name": "圣徒之手",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Right",
+      "pre_delay": 15000,
+      "doc_color": "#6f42c1",
+      "doc": "6. 清溟痕加眩晕"
+    },
+    {
+      "type": "Skill",
+      "name": "艾丽妮",
+      "doc_color": "#6f42c1",
+      "doc": "7. 艾丽妮技能等所有怪进入范围用",
+      "location": [
+        5,
+        3
+      ],
+      "pre_delay": 6300
+    },
+    {
+      "type": "Deploy",
+      "name": "圣徒之手",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Right",
+      "doc_color": "#6f42c1",
+      "doc": "8. 容错：额外眩晕",
+      "kills": 17
+    }
+  ],
+  "doc": {
+    "title": "流明-悖论模拟-风浪微光",
+    "details": "7级三技能，无潜无模组+精二30级+50%信赖可过。本作业放技能不依赖费用和技力，可适配不同潜能、不同专精的流明，一次过不了麻烦多试几次。\n悖论模拟需要在MAA中关闭“自动编队”，在游戏中选好流明三技能后处于“开始模拟”界面。MAA关卡不识别请等更新，或去开发版代码中复制地图素材。\n作者：VisualMod"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "流明",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}
