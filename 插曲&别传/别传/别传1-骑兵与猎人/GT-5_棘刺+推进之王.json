@@ -1,0 +1,54 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【骑兵与猎人】GT-5双人速刷堵门",
+        "details": "化学老施\n原视频：https://www.bilibili.com/video/BV1UK4y187zC/\n——————\n推王60级会死 不影响，棘刺练度低会漏怪，\n——————\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "a001_05",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

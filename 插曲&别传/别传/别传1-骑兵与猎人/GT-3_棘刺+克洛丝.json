@@ -1,0 +1,54 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【骑兵与猎人】GT-3双人",
+        "details": "原视频：https://www.bilibili.com/video/BV16S4y1Z7C4/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "a001_03",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}
