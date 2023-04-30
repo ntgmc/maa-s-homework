@@ -1,0 +1,46 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【风雪过境】BI-1单人",
+        "details": "原视频：https://www.bilibili.com/video/av849953974/\nUP：小河马之家园长\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "act14side_01",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "其实放左边一个更好，但是这样要手动开技能，所以还是往右了一格",
+            "doc_color": "#6f42c1"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}
