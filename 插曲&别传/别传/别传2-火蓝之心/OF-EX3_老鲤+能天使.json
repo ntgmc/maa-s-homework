@@ -1,0 +1,68 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【火蓝之心】OF-EX3突袭双人",
+        "details": "原视频：https://www.bilibili.com/video/BV1Vb4y1t7td/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "a003_ex03",
+    "opers": [
+        {
+            "name": "老鲤",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 50,
+            "name": "老鲤",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "kills": 5,
+            "name": "能天使",
+            "pre_delay": 6000
+        },
+        {
+            "type": "技能",
+            "kills": 18,
+            "name": "能天使",
+            "pre_delay": 6000
+        },
+        {
+            "type": "技能",
+            "kills": 33,
+            "name": "能天使"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

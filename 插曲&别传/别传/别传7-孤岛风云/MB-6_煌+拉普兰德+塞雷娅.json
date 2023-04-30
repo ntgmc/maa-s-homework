@@ -1,10 +1,10 @@
 {
     "minimum_required": "v4.0",
     "doc": {
-        "title": "【将进酒-萧然】IW-4三人",
-        "details": "原视频：https://www.bilibili.com/video/av295975180?p=4\nUP：萧然Q\n有问题联系制作者QQ2586582719"
+        "title": "【孤岛风云】MB-6三人",
+        "details": "UP：侬无言以对\n原视频：https://www.bilibili.com/video/BV1b34y1X7b5/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
     },
-    "stage_name": "act15side_04",
+    "stage_name": "act15d0_06",
     "opers": [
         {
             "name": "煌",
@@ -12,8 +12,8 @@
             "skill_usage": 0
         },
         {
-            "name": "能天使",
-            "skill": 1,
+            "name": "拉普兰德",
+            "skill": 2,
             "skill_usage": 0
         },
         {
@@ -29,36 +29,30 @@
         },
         {
             "type": "部署",
-            "name": "煌",
+            "name": "拉普兰德",
             "location": [
-                4,
-                1
+                5,
+                5
             ],
-            "direction": "右"
+            "direction": "上"
         },
         {
             "type": "部署",
-            "name": "能天使",
+            "name": "煌",
             "location": [
-                3,
-                2
+                6,
+                5
             ],
-            "direction": "右"
+            "direction": "上"
         },
         {
             "type": "部署",
             "name": "塞雷娅",
             "location": [
-                3,
-                1
+                4,
+                5
             ],
-            "direction": "右"
-        },
-        {
-            "type": "打印",
-            "name": "",
-            "doc": "有问题联系制作者QQ2586582719",
-            "doc_color": "SpringGreen"
+            "direction": "上"
         }
     ]
 }

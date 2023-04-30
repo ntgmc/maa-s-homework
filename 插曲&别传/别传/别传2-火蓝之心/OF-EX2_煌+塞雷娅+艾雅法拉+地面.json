@@ -1,0 +1,223 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "a003_ex02",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "name": ""
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "任意地面",
+      "location": [
+        10,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Output",
+      "name": "",
+      "doc": "有问题联系制作者QQ2586582719",
+      "doc_color": "SpringGreen"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【火蓝之心】OF-EX2突袭四人",
+    "details": "UP主：刻俄柏_\n原视频：https://www.bilibili.com/video/BV1rF411T7nt\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+  },
+  "groups": [
+    {
+      "name": "任意地面",
+      "opers": [
+        {
+          "name": "风笛",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "推进之王",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "德克萨斯",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "棘刺",
+          "skill": 3,
+          "skill_usage": 1
+        },
+        {
+          "name": "银灰",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "陈",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "百炼嘉维尔",
+          "skill": 3,
+          "skill_usage": 0
+        },
+        {
+          "name": "羽毛笔",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "山",
+          "skill": 2,
+          "skill_usage": 2
+        },
+        {
+          "name": "海沫",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "重岳",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "拉普兰德",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "幽灵鲨",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "耀骑士临光",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "艾丽妮",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "斯卡蒂",
+          "skill": 3,
+          "skill_usage": 0
+        },
+        {
+          "name": "号角",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "泥岩",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "星熊",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "斥罪",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "临光",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "古米",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "蛇屠箱",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "斑点",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "卡缇",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "米格鲁",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "黑角",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "雷蛇",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}
