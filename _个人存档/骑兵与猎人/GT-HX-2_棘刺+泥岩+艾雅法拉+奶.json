@@ -1,0 +1,135 @@
+{
+  "minimum_required": "v4.0.0",
+  "doc": {
+    "title": "【骑兵与猎人】GT-HX-2突袭四人 优化版",
+    "details": "UP主：刻俄柏_\n原视频：https://www.bilibili.com/video/BV1bZ4y1y76R\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+  },
+  "stage_name": "a001_ex05",
+  "opers": [
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "二倍速",
+      "name": ""
+    },
+    {
+      "type": "部署",
+      "name": "棘刺",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "上"
+    },
+    {
+      "type": "部署",
+      "name": "艾雅法拉",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "右"
+    },
+    {
+      "type": "部署",
+      "name": "泥岩",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "右"
+    },
+    {
+      "type": "Deploy",
+      "name": "是个奶",
+      "location": [
+        4,
+        6
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "打印",
+      "name": "",
+      "doc": "有问题联系制作者QQ2586582719",
+      "doc_color": "SpringGreen"
+    },
+    {
+      "type": "摆完挂机",
+      "name": ""
+    }
+  ],
+  "difficulty": 3,
+  "groups": [
+    {
+      "name": "是个奶",
+      "opers": [
+        {
+          "name": "闪灵",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "流明",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "蜜莓",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "华法琳",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "赫默",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "苏苏洛",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "末药",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "嘉维尔",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "芙蓉",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "安赛尔",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ]
+}

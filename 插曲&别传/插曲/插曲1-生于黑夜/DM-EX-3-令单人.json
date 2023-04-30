@@ -1,0 +1,143 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act9d0_ex03",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        2,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Right",
+      "cooling": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Down",
+      "cooling": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Down",
+      "cooling": 0
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        2,
+        1
+      ]
+    },
+    {
+      "type": "Retreat",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        3
+      ],
+      "costs": 19
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        6
+      ],
+      "cooling": 0,
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Left",
+      "cooling": 0,
+      "costs": 44
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        2,
+        1
+      ],
+      "costs": 35
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        3
+      ],
+      "cooling": 0,
+      "direction": "Down"
+    },
+    {
+      "type": "Retreat",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        1
+      ],
+      "costs": 55
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        3
+      ],
+      "costs": 65,
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        2,
+        1
+      ],
+      "cost_changes": 15
+    }
+  ],
+  "doc": {
+    "title": "生于黑夜·复刻 - DM-EX-3-令单人",
+    "details": "全程一倍速,测试用的2903三级模组令\n作者:叶霖光@bilibili\n参考链接:https://www.bilibili.com/video/BV1Ur4y1b7Us/?share_source=copy_web&vd_source=4763a469e545d6d5469c04546627b9ba"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 0
+}

@@ -1,0 +1,130 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act9d0_ex02",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Up",
+      "cooling": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Up",
+      "cooling": 0
+    },
+    {
+      "type": "Deploy",
+      "cooling": 0,
+      "costs": 57,
+      "name": "“弦惊”",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Down",
+      "cooling": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Right",
+      "cooling": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Down",
+      "cooling": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Right",
+      "cooling": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        2
+      ],
+      "cost_changes": 20
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        3
+      ],
+      "cooling": 0,
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "生于黑夜·复刻-DM-EX-2-令单人",
+    "details": "全程一倍速,测试用的2903三级模组令\n作者:叶霖光@bilibili\n参考链接:https://www.bilibili.com/video/BV17541127fe/?share_source=copy_web&vd_source=4763a469e545d6d5469c04546627b9ba"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ],
+  "difficulty": 2
+}
