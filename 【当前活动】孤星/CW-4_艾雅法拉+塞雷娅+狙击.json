@@ -1,0 +1,79 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act25side_04",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "高练度狙击",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillDaemon",
+      "doc": "有帮助的话 点个好评吧~",
+      "doc_color": "DarkRed"
+    }
+  ],
+  "doc": {
+    "title": "孤星 CW-4 小鬼卡比攻略 摆完挂机",
+    "details": "用之前好像可以去接一个任务 任务是三星通关cw-4 自己翻翻吧\n攻略作者：小鬼卡比 https://www.bilibili.com/video/BV1sm4y1C76w 记得去b站给卡比宝贝点赞三连\njson作者：鱼丸 有问题请点踩 然后在评论区反馈\n平均练度 2603 \n已测试"
+  },
+  "groups": [
+    {
+      "name": "高练度狙击",
+      "opers": [
+        {
+          "name": "能天使",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "空弦",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "灰烬",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}
