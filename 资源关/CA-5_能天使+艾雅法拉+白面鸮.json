@@ -1,0 +1,59 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "wk_fly_5",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Up",
+      "costs": 34
+    },
+    {
+      "type": "Deploy",
+      "name": "白面鸮",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right"
+    }
+  ],
+  "doc": {
+    "title": "空中威胁 - CA-5 - 战略要道净空",
+    "details": "自用"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "白面鸮",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}
