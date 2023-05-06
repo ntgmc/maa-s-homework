@@ -35,3 +35,7 @@ shutil.move(destination_all_zip_path, os.path.join(destination_all_folder, "主�
 
 # 输出作者信息
 print("程序作者：ChatGPT")
+# 执行您的Python代码
+
+# 让程序等待用户输入任意内容后才关闭
+input('程序执行完毕，请按任意键继续...')

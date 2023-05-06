@@ -54,3 +54,7 @@ if os.path.exists(destination_file):
 # 压缩指定类型文件
 zip_json_files(source_folder, destination_file)
 print(f"成功压缩{destination_file}")
+# 执行您的Python代码
+
+# 让程序等待用户输入任意内容后才关闭
+input('程序执行完毕，请按任意键继续...')

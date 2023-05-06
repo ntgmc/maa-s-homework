@@ -35,3 +35,7 @@ with zipfile.ZipFile(zip_file_path, 'w', zipfile.ZIP_DEFLATED) as zip_file:
 # 移动压缩文件到目标文件夹
 shutil.move(zip_file_path, os.path.join(target_dir, zip_file_name))
 print("所有文件已成功压缩为: {}".format(os.path.join(target_dir, zip_file_name)))
+# 执行您的Python代码
+
+# 让程序等待用户输入任意内容后才关闭
+input('程序执行完毕，请按任意键继续...')

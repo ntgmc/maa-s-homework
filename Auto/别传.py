@@ -31,3 +31,7 @@ shutil.move(os.path.join(destination_folder, "别传.zip"), r"D:\GITHOME\maa\【
 
 # 输出作者信息
 print("程序作者：ChatGPT")
+# 执行您的Python代码
+
+# 让程序等待用户输入任意内容后才关闭
+input('程序执行完毕，请按任意键继续...')
