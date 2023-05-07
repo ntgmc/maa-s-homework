@@ -1,0 +1,44 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act25side_04",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "水月",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Right"
+    }
+  ],
+  "doc": {
+    "title": "【专项调查】任务 - 孤星 - CW-4 - 一波又起",
+    "details": "专项调查任务——聚焦发生器\n以三星评价通过一次CW-4,且成功阻止弧光突击队起飞\n\n测试号水月70级专三一技能[三级X模组]，能天使九十级7级一技能"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "水月",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}
