@@ -1,0 +1,179 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act25side_ex08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "推进之王",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "浊心斯卡蒂",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "铃兰",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "澄闪",
+      "location": [
+        7,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "淬羽赫默",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Retreat",
+      "name": "推进之王",
+      "location": [
+        9,
+        3
+      ],
+      "kills": 26
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "夜莺",
+      "location": [
+        8,
+        3
+      ],
+      "kills": 40
+    },
+    {
+      "type": "Output",
+      "doc_color": "#6f42c1",
+      "doc": "亲~给个好评吧~"
+    }
+  ],
+  "doc": {
+    "title": "CW-EX-8 摆完挂机",
+    "details": "萧然：BV1ch4y1J7x2\n突袭适用，测试练度：澄闪、浊心斯卡蒂2903，其他2603\n存在小概率翻车，请多次尝试\n筱竹聽雨"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "推进之王",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "澄闪",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "闪灵",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "铃兰",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "浊心斯卡蒂",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "淬羽赫默",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}
