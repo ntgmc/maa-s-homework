@@ -1,0 +1,105 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "实验基地封锁区",
+  "actions": [
+    {
+      "type": "Output",
+      "doc": "塞雷娅、夜莺带x模组",
+      "doc_color": "DarkGoldenrod"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        5,
+        6
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Left"
+    }
+  ],
+  "doc": {
+    "title": "【尖灭测试作战】- 任务 -  晶块陈列室：模组数据整合块 <下半> - [化学老施]",
+    "details": "原视频 BV14T41147aD 化学老施\n通用配置：精二60级。回费输出辅助干员技能专三\n\n本视频为模组数据整合块任务下半（放生流），需配合上半打法[maa://23681]，领取奖励\n\n塞雷娅、夜莺带x模组\n\ntag请看下图，或去作业站评论区查看\n![tag](https://img1.imgtp.com/2023/05/23/GXf3OGbM.png)\n\nyc.exe"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

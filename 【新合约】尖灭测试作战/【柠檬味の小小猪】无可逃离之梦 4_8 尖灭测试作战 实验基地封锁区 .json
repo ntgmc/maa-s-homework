@@ -1,0 +1,134 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "实验基地封锁区",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌或重岳",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Retreat",
+      "name": "史尔特尔",
+      "location": [
+        5,
+        1
+      ],
+      "costs": 22
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵或者其他奶",
+      "location": [
+        9,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        7,
+        6
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Up",
+      "kills": 41
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【柠檬味の小小猪】无可逃离之梦 4/8 尖灭测试作战 实验基地封锁区 ",
+    "details": "！！！！！！！！！！注意！！！！！！！！！！\n这里是系列的第四个作业，建议按顺序来否则可能会无法直接点后面的词条\n！！！！！！！！！！注意！！！！！！！！！！\n原视频 https://www.bilibili.com/video/BV1am4y1t7Mp\n\n原up 柠檬味の小小猪\n\n词条一共140评分，看数值不对请根据图片检查\ntag的选择请点击右边图片链接查询~  https://postimg.cc/k2GxgY90\n\n原视频塞妈x模组，其他没有，全员精2 70级，按照原作者说奶妈似乎随便选，42可以任意单切，煌可以换成重岳，为了稳定性我就不改了。\n\n祝大家抄作业顺利，計算通り，完璧～~~~有什么问题请评论留言，缘分到了会看一下……吧（）"
+  },
+  "groups": [
+    {
+      "name": "闪灵或者其他奶",
+      "opers": [
+        {
+          "name": "闪灵",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "赫默",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "华法琳",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "煌或重岳",
+      "opers": [
+        {
+          "name": "煌",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "重岳",
+          "skill": 3,
+          "skill_usage": 1
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "史尔特尔",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}

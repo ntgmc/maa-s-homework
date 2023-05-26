@@ -1,0 +1,138 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "实验基地封锁区",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Retreat",
+      "name": "史尔特尔",
+      "location": [
+        4,
+        2
+      ],
+      "costs": 22
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺或者其他群奶",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Up",
+      "kills": 46
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【柠檬味の小小猪】模组数据整合块 5/8 尖灭测试作战 实验基地封锁区 ",
+    "details": "！！！！！！！！！！注意！！！！！！！！！！\n\n这里是系列的第五个作业，建议按顺序来否则可能会无法直接点后面的词条\n\n！！！！！！！！！！注意！！！！！！！！！！\n原视频 https://www.bilibili.com/video/BV19d4y1Z7vc\n\n柠檬味の小小猪\n\n词条选模组数据整合块左边三个就行，上面两个在打多萝西的作业的时候顺便做了。\ntag选择如图所示https://postimg.cc/7CgbHSGv\n\n原视频塞妈x模组，夜莺X模组，全员精2 70级，按照原作者说奶妈似乎是群体都行\n\n祝大家抄作业顺利，計算通り，完璧～~~~有什么问题请评论留言，缘分到了会看一下……吧（）"
+  },
+  "groups": [
+    {
+      "name": "夜莺或者其他群奶",
+      "opers": [
+        {
+          "name": "夜莺",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "白面鸮",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "微风",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "史尔特尔",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

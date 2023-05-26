@@ -1,0 +1,206 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "实验基地封锁区",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "羊或澄闪",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵或者其他单奶",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺或者其他群奶",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "山或者其他单守",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "白面鸮",
+      "kills": 15,
+      "skill_usage": 1
+    },
+    {
+      "type": "SkillUsage",
+      "name": "微风",
+      "skill_usage": 1
+    },
+    {
+      "type": "Deploy",
+      "kills": 45,
+      "name": "史尔特尔等切人",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔等切人",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Up",
+      "kills": 46,
+      "pre_delay": 30000
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【柠檬味の小小猪】应变100分 7/8 尖灭测试作战 实验基地封锁区",
+    "details": "！！！！！！！！！！注意！！！！！！！！！！\n群奶朝向的问题已经修复，现在可以正常使用了\n这里是系列的第⑦个作业，建议按顺序来否则可能会无法直接点后面的词条\n\n本关最后两个高达高防高血量，建议手动编队自带打手最后加速高达死亡，或者直接刮痧到大道都磨灭了。\n！！！！！！！！！！注意！！！！！！！！！！\n\n原视频 https://www.bilibili.com/video/BV1dX4y1C71b\n\n柠檬味の小小猪\n\n词条共125分如图所示https://postimg.cc/yg8JLkdw\n\n原视频塞妈x模组，夜莺X模组，小羊X模组其他没有，全员精2 70级，按照原作者说奶妈似乎是奶都行，羊可以换成山，闪可以换鸡翅百嘉都行\n\n祝大家抄作业顺利，計算通り，完璧～~~~有什么问题请评论留言，缘分到了会看一下……吧（）"
+  },
+  "groups": [
+    {
+      "name": "羊或澄闪",
+      "opers": [
+        {
+          "name": "艾雅法拉",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "澄闪",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "山或者其他单守",
+      "opers": [
+        {
+          "name": "山",
+          "skill": 2,
+          "skill_usage": 2
+        },
+        {
+          "name": "棘刺",
+          "skill": 3,
+          "skill_usage": 1
+        },
+        {
+          "name": "百炼嘉维尔",
+          "skill": 2,
+          "skill_usage": 1
+        }
+      ]
+    },
+    {
+      "name": "夜莺或者其他群奶",
+      "opers": [
+        {
+          "name": "夜莺",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "白面鸮",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "微风",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "闪灵或者其他单奶",
+      "opers": [
+        {
+          "name": "闪灵",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "赫默",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "华法琳",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "史尔特尔等切人",
+      "opers": [
+        {
+          "name": "史尔特尔",
+          "skill": 3,
+          "skill_usage": 1
+        },
+        {
+          "name": "耀骑士临光",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}
