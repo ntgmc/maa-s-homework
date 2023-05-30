@@ -1,0 +1,68 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "level_act38rune_01-03",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "costs": 15,
+      "cost_changes": 0,
+      "name": "能天使",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Output",
+      "doc_color": "Gray",
+      "doc": "觉得不错可以给作者和up都点点赞 地址：https://www.bilibili.com/video/BV1kc411G7sd/?vd_source=9868d1d5f6243822b4bf0d4043d4e889#reply271707265"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【尖灭作战】淤浊沼泽 一次完成三个任务 三人摆完挂机 简单好抄",
+    "details": "https://www.bilibili.com/video/BV1kc411G7sd/?vd_source=9868d1d5f6243822b4bf0d4043d4e889#reply271707265\n\nup：厨师长衬衫\n\n作者：肖肾客\n\n原视频中能天使和塞雷娅携带x模组\n\n开局15费左右部署能天使，否则可能会乱轴\n\ntag：\n\nhttps://postimg.cc/ts13VqkD\n\nhttps://postimg.cc/Z9H5b3NQ"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}
