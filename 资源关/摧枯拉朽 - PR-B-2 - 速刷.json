@@ -1,0 +1,113 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "pro_b_2",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Left",
+      "costs": 31
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "costs": 30,
+      "name": "令",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        1,
+        1
+      ],
+      "direction": "Left",
+      "costs": 18
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        2,
+        3
+      ],
+      "kills": 77
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "摧枯拉朽 - PR-B-2 - 速刷",
+    "details": "化学老施 PR-B-2 2人堵门速刷 https://www.bilibili.com/video/BV15a411o7Jo/"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}

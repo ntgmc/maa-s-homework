@@ -1,0 +1,134 @@
+{
+  "minimum_required": "v4.0.0",
+  "doc": {
+    "title": "13区废墟 150分三任务 低配 令单人",
+    "details": "冰海孤魂\nhttps://www.bilibili.com/video/BV1P8411f7SX/\ntag：https://postimg.cc/gallery/dkzYcgS\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+  },
+  "stage_name": "level_act38rune_01-04",
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ],
+  "actions": [
+    {
+      "type": "二倍速",
+      "name": ""
+    },
+    {
+      "type": "部署",
+      "name": "令",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "左"
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "下"
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "左"
+    },
+    {
+      "type": "撤退",
+      "kills": 3,
+      "name": "“弦惊”",
+      "location": [
+        8,
+        5
+      ]
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        1
+      ],
+      "direction": "左"
+    },
+    {
+      "type": "撤退",
+      "kills": 4,
+      "name": "“弦惊”",
+      "location": [
+        5,
+        2
+      ],
+      "pre_delay": 2000
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "右"
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "下"
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        6
+      ],
+      "direction": "左"
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "左"
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "左"
+    },
+    {
+      "type": "部署",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "左"
+    },
+    {
+      "type": "摆完挂机",
+      "name": ""
+    }
+  ]
+}
