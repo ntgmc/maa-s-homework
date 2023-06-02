@@ -30,7 +30,9 @@ def generate_summary_commit():
             continue
 
         diff_output = result.stdout.strip().split('\n')
-        summary_message += f'{file_path}: {diff_output[0]}\n'
+        # 转义为中文
+        diff_summary = diff_output[0].replace('insertions(+)', '个插入').replace('deletions(-)', '个删除')
+        summary_message += f'{file_path}: {diff_summary}\n'
 
     if summary_message == '':
         print('未生成总结性消息。')
