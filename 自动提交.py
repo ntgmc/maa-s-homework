@@ -34,7 +34,7 @@ def generate_summary_commit():
         # 转义为中文
         diff_summary = diff_output[0].replace('insertions(+)', '个插入').replace('deletions(-)', '个删除')
         # 转义文件路径为中文
-        file_path_chinese = urllib.parse.unquote(file_path)
+        file_path_chinese = urllib.parse.unquote(file_path, encoding='utf-8')
         summary_message += f'{file_path_chinese}: {diff_summary}\n'
 
     if summary_message == '':
