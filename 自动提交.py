@@ -1,17 +1,16 @@
 import subprocess
-import sys
 
 def generate_summary_commit():
     # 使用Git命令行工具获取更改的文件列表
     result = subprocess.run(['git', 'status', '--porcelain'], capture_output=True, text=True)
     if result.returncode != 0:
-        print('Error: Failed to retrieve changed files.')
+        print('错误：无法获取更改的文件列表。')
         return
 
     status_output = result.stdout.strip().split('\n')
 
     if len(status_output) == 0:
-        print('No changes found.')
+        print('未发现更改的文件。')
         return
 
     # 生成总结性commit消息
@@ -27,21 +26,21 @@ def generate_summary_commit():
         # 使用Git命令行工具获取每个文件的更改行数
         result = subprocess.run(['git', 'diff', '--stat', '--', file_path], capture_output=True, text=True)
         if result.returncode != 0:
-            print(f'Error: Failed to retrieve diff for file {file_path}')
+            print(f'错误：无法获取文件 {file_path} 的差异。')
             continue
 
         diff_output = result.stdout.strip().split('\n')
         summary_message += f'{file_path}: {diff_output[0]}\n'
 
     if summary_message == '':
-        print('No summary message generated.')
+        print('未生成总结性消息。')
         return
 
     # 提交总结性的commit
     subprocess.run(['git', 'add', '--all'])
-    subprocess.run(['git', 'commit', '-m', f'Summary of changes:\n\n{summary_message}'])
+    subprocess.run(['git', 'commit', '-m', f'更改总结：\n\n{summary_message}'])
 
-    print('Summary commit generated successfully.')
+    print('成功生成总结性commit。')
 
 # 在这里调用函数来自动生成总结性的commit
 generate_summary_commit()
