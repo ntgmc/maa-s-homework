@@ -1,9 +1,9 @@
 import subprocess
-import urllib.parse
 
 def generate_summary_commit():
     # 使用Git命令行工具获取更改的文件列表
-    result = subprocess.run(['git', 'status', '--porcelain'], capture_output=True, text=True)
+    result = subprocess.run(['git', 'status', '--porcelain'], capture_output=True, text=True, encoding='utf-8')
+
     if result.returncode != 0:
         print('错误：无法获取更改的文件列表。')
         return
@@ -31,11 +31,7 @@ def generate_summary_commit():
             continue
 
         diff_output = result.stdout.strip().split('\n')
-        # 转义为中文
-        diff_summary = diff_output[0].replace('insertions(+)', '个插入').replace('deletions(-)', '个删除')
-        # 转义文件路径为中文
-        file_path_chinese = urllib.parse.unquote(file_path, encoding='utf-8')
-        summary_message += f'{file_path_chinese}: {diff_summary}\n'
+        summary_message += f'{file_path}: {diff_output[0]}\n'
 
     if summary_message == '':
         print('未生成总结性消息。')
