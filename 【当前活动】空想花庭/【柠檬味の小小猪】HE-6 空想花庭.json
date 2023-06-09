@@ -1,0 +1,110 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act26side_06",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        10,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Skill",
+      "name": "圣像",
+      "location": [
+        2,
+        1
+      ],
+      "kills": 2
+    },
+    {
+      "type": "Deploy",
+      "name": "煌或鸡翅或拉狗",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "圣像",
+      "location": [
+        10,
+        5
+      ],
+      "kills": 12,
+      "pre_delay": 1000
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【柠檬味の小小猪】HE-6 空想花庭",
+    "details": "原视频 https://www.bilibili.com/video/BV1qk4y1p7v3?p=8\n\n原作者 柠檬味の小小猪\n\n默认练度精2 70级\n原视频说塞妈需要有模组，视频里是X，但是我练度高Y也过了\n\n原作者虽然都有理论上可替换但是都没有经过测试，替换有概率会炸，因为涉及人员数量变动和需要进行替换的测试太麻烦我就不重复写作业了\n\n祝大家抄作业顺利，計算通り，完璧～~~~有什么问题请评论留言，缘分到了会看一下……吧（）"
+  },
+  "groups": [
+    {
+      "name": "煌或鸡翅或拉狗",
+      "opers": [
+        {
+          "name": "拉普兰德",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "煌",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "棘刺",
+          "skill": 3,
+          "skill_usage": 1
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    }
+  ]
+}
