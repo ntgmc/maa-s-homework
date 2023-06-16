@@ -1,0 +1,262 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act26side_ex07",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        7,
+        6
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "砾",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left",
+      "costs": 14
+    },
+    {
+      "type": "Deploy",
+      "name": "风笛",
+      "location": [
+        10,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Down",
+      "costs": 30
+    },
+    {
+      "type": "Deploy",
+      "name": "银灰",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "砾",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Left",
+      "kills": 8
+    },
+    {
+      "type": "Deploy",
+      "name": "单奶",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "单法",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Retreat",
+      "name": "风笛",
+      "location": [
+        10,
+        4
+      ]
+    },
+    {
+      "type": "Retreat",
+      "name": "砾",
+      "location": [
+        9,
+        4
+      ]
+    },
+    {
+      "type": "SkillUsage",
+      "name": "银灰",
+      "skill_usage": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Retreat",
+      "name": "桃金娘",
+      "location": [
+        7,
+        6
+      ],
+      "cooling": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "风笛",
+      "location": [
+        7,
+        6
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Skill",
+      "kills": 41,
+      "location": [
+        5,
+        4
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "砾",
+      "location": [
+        3,
+        4
+      ],
+      "cooling": 2,
+      "direction": "None"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【小鬼卡比】【普通镀层】空想花庭 - HE-EX-7 - 完全的爱",
+    "details": "【空想花庭】HE-EX-8突袭等 EX合集【摆完挂机】攻略合集 【明日方舟】】https://www.bilibili.com/video/BV1nz4y1e7K6\n麻烦给卡比老师一个3连吖"
+  },
+  "groups": [
+    {
+      "name": "单奶",
+      "opers": [
+        {
+          "name": "流明",
+          "skill": 3,
+          "skill_usage": 2
+        },
+        {
+          "name": "闪灵",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "华法琳",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "嘉维尔",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "单法",
+      "opers": [
+        {
+          "name": "艾雅法拉",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "澄闪",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "银灰",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "风笛",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "砾",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    }
+  ],
+  "difficulty": 1
+}
