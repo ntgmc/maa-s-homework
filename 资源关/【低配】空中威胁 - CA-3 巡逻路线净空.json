@@ -1,0 +1,173 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "wk_fly_3",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "速射手2",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "速射手1",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "医师1",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "中坚术师1",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "医师2",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "中坚术师2",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【低配】空中威胁 - CA-3 巡逻路线净空",
+    "details": "https://www.bilibili.com/video/BV1b4411a7oY"
+  },
+  "groups": [
+    {
+      "name": "速射手1",
+      "opers": [
+        {
+          "name": "克洛丝",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "速射手2",
+      "opers": [
+        {
+          "name": "杰西卡",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "流星",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "梅",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "医师1",
+      "opers": [
+        {
+          "name": "安赛尔",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "芙蓉",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "医师2",
+      "opers": [
+        {
+          "name": "嘉维尔",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "末药",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "苏苏洛",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "中坚术师1",
+      "opers": [
+        {
+          "name": "阿米娅",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "中坚术师2",
+      "opers": [
+        {
+          "name": "史都华德",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "夜烟",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "苦艾",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "特米米",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": []
+}

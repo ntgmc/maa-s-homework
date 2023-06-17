@@ -41,9 +41,9 @@
     },
     {
       "name": "焰尾",
-      "skill": 1,
+      "skill": 2,
       "skill_usage": 0
     }
   ],
-  "stage_name": "activities/act13side/level_act13side_03"
+  "stage_name": "act13side_03"
 }

@@ -1,0 +1,63 @@
+{
+  "minimum_required": "v4.0.0",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "阿",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Output",
+      "doc_color": "#6f42c1",
+      "doc": "给个好评吧，亲~"
+    }
+  ],
+  "doc": {
+    "title": "阿模组摆完挂机-什锦果味医用箱",
+    "details": "侬无言以对模组任务摆完挂机合集:BV1wU4y177Qu\n3星通关主题曲2-8；必须编入非助战阿并上场，且不编入狙击干员\n筱竹聽雨"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "阿",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "stage_name": "main_02-08"
+}
