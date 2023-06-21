@@ -1,0 +1,100 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "direction": "左",
+            "location": [
+                9,
+                2
+            ],
+            "name": "斯卡蒂"
+        },
+        {
+            "type": "部署",
+            "name": "便携式补给站",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "name": "华法琳",
+            "cost_changes": 10,
+            "location": [
+                9,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "kills": 10,
+            "location": [
+                7,
+                2
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "撤退",
+            "name": "障碍物",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 10000
+        },
+        {
+            "type": "技能",
+            "name": "斯卡蒂",
+            "location": [
+                null,
+                null
+            ],
+            "pre_delay": 10000
+        },
+        {
+            "type": "技能",
+            "name": "华法琳",
+            "location": [
+                9,
+                3
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "杰西卡",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 12
+        },
+        {
+            "type": "技能",
+            "name": "华法琳",
+            "location": [
+                9,
+                3
+            ],
+            "kills": 20
+        }
+    ],
+    "stage_name": "纯粹的强大",
+    "doc": {
+        "title": "斯卡蒂悖论模拟",
+        "details": "作者：Snowflake\n斯卡蒂 精2 80级 模组 专0"
+    },
+    "opers": [
+        {
+            "name": "斯卡蒂",
+            "skill": 3,
+            "skill_usage": 2
+        }
+    ]
+}

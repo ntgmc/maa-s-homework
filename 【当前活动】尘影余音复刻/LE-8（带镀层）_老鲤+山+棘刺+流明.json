@@ -1,0 +1,78 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "流明",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "kills": 9,
+            "name": "老鲤",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "二倍速",
+            "kills": 11
+        },
+        {
+            "type": "二倍速",
+            "kills": 11
+        }
+    ],
+    "stage_name": "LE-8",
+    "opers": [
+        {
+            "name": "老鲤",
+            "skill": 3
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 2
+        }
+    ],
+    "doc": {
+        "title": "LE-8带镀层摆完挂机",
+        "details": "来源：【尘影余音】LE-8 4人摆完挂机+蚀刻章镀层 简单好抄 BV1KL4y1T7BN\n棘刺3技能2703\n山2技能2503\n流明3技能2507\n老鲤借的2803带模组"
+    }
+}

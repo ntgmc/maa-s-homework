@@ -1,0 +1,40 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "上"
+        }
+    ],
+    "stage_name": "LE-1",
+    "doc": {
+        "details": "BV1Ag41197",
+        "title": "LE-1"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "推进之王",
+            "skill": 2
+        }
+    ]
+}

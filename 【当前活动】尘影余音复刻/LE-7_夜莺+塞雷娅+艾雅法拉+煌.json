@@ -1,0 +1,102 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "萧然Q",
+        "details": "抄自BV1Ag41197ak"
+    },
+    "stage_name": "LE-7",
+    "opers": [
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "cost_changes": null,
+            "name": "",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "部署",
+            "cost_changes": null,
+            "name": "煌",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "上",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "二倍速",
+            "kills": 2,
+            "cost_changes": null,
+            "name": "",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "部署",
+            "cost_changes": null,
+            "name": "塞雷娅",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "右",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "二倍速",
+            "cost_changes": null,
+            "name": "",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "部署",
+            "cost_changes": null,
+            "name": "夜莺",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "上",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "部署",
+            "cost_changes": null,
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "下",
+            "doc": "",
+            "doc_color": ""
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act18side_ex08",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "推进之王",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        10,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "群奶",
+      "location": [
+        9,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        8,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Retreat",
+      "name": "推进之王",
+      "location": [
+        2,
+        5
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "风笛",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Retreat",
+      "name": "桃金娘",
+      "location": [
+        4,
+        5
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "老鲤",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Right",
+      "costs": 21
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【突袭/普通】尘影余音 - LE-EX-8 - 变格终止",
+    "details": "攻略作者：自在道爷\n视频：https://www.bilibili.com/video/BV1bT411G73A\njson作者：香草\n自测已过\n老鲤暴毙就是你专精/模组问题，我没有老鲤，我借的，别问我ε=ε=ε=┏(゜ロ゜;)┛"
+  },
+  "groups": [
+    {
+      "name": "群奶",
+      "opers": [
+        {
+          "name": "白面鸮",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "调香师",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "风笛",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "推进之王",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "闪灵",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "老鲤",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

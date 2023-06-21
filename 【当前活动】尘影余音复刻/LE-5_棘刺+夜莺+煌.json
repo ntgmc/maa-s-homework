@@ -1,0 +1,63 @@
+{
+    "actions": [
+        {
+            "type": "二倍速",
+            "cost_changes": null,
+            "name": "",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "LE-5",
+        "details": "银灰换棘刺 谁叫银老板不进店可恶"
+    },
+    "stage_name": "LE-5",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        }
+    ]
+}

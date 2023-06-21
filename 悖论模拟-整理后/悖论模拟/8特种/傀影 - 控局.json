@@ -1,0 +1,220 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_phatom_1",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "蓝毒",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "傀影",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "Up",
+      "costs": 26,
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "傀影",
+      "location": [
+        2,
+        6
+      ],
+      "costs": 25,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "白面鸮",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "傀影",
+      "location": [
+        10,
+        2
+      ],
+      "direction": "Left",
+      "costs": 47,
+      "rear_delay": 0
+    },
+    {
+      "type": "BulletTime",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "镜中虚影",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "傀影",
+      "kills": 17,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "傀影",
+      "location": [
+        2,
+        1
+      ],
+      "costs": 65,
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "傀影",
+      "location": [
+        2,
+        1
+      ],
+      "costs": 50,
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "蓝毒",
+      "kills": 33,
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "凛冬",
+      "location": [
+        9,
+        4
+      ],
+      "kills": 35,
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "清道夫",
+      "location": [
+        9,
+        6
+      ],
+      "kills": 35,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "傀影",
+      "location": [
+        7,
+        6
+      ],
+      "costs": 97,
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "镜中虚影",
+      "location": [
+        8,
+        6
+      ],
+      "direction": "Left",
+      "costs": 80,
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "傀影",
+      "kills": 47,
+      "rear_delay": 0
+    },
+    {
+      "type": "BulletTime",
+      "rear_delay": 6000
+    },
+    {
+      "type": "Deploy",
+      "name": "傀影",
+      "location": [
+        2,
+        1
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "BulletTime",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "镜中虚影",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "蓝毒",
+      "location": [
+        7,
+        2
+      ],
+      "kills": 54,
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "白面鸮",
+      "location": [
+        8,
+        5
+      ]
+    }
+  ],
+  "doc": {
+    "title": "特种 - 傀影 - 控局",
+    "details": "精2 60级 7级3技能 不带模组\nhttps://www.bilibili.com/video/BV1oK411u7k1/"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "傀影",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "蓝毒",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

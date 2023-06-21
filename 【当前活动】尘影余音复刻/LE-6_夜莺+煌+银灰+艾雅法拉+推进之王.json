@@ -1,0 +1,85 @@
+{
+    "actions": [
+        {
+            "type": "二倍速",
+            "cost_changes": null,
+            "name": "",
+            "doc": "",
+            "doc_color": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "左"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "LE-6",
+        "details": "BV1b3411G79q"
+    },
+    "stage_name": "LE-6",
+    "opers": [
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "银灰",
+            "skill": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "推进之王",
+            "skill": 2
+        }
+    ]
+}

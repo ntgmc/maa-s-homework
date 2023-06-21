@@ -1,0 +1,113 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "玫兰莎",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "苏苏洛",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "芙蓉",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "kills": 25,
+            "name": "玫兰莎",
+            "pre_delay": 5000
+        },
+        {
+            "type": "技能",
+            "name": "苏苏洛"
+        },
+        {
+            "type": "技能",
+            "kills": 30,
+            "name": "芙蓉"
+        },
+        {
+            "type": "技能",
+            "name": "苏苏洛"
+        },
+        {
+            "type": "技能",
+            "name": "玫兰莎"
+        },
+        {
+            "type": "打印",
+            "doc": "《远和近》",
+            "pre_delay": 100
+        },
+        {
+            "type": "打印",
+            "doc": "顾城"
+        },
+        {
+            "type": "打印",
+            "doc": " "
+        },
+        {
+            "type": "打印",
+            "doc": "你，",
+            "pre_delay": 100
+        },
+        {
+            "type": "打印",
+            "doc": "一会看我，",
+            "pre_delay": 100
+        },
+        {
+            "type": "打印",
+            "doc": "一会看云。",
+            "pre_delay": 100
+        },
+        {
+            "type": "打印",
+            "doc": "我觉得，",
+            "pre_delay": 100
+        },
+        {
+            "type": "打印",
+            "doc": "你看我时很远，",
+            "pre_delay": 100
+        },
+        {
+            "type": "打印",
+            "doc": "你看云时很近。",
+            "pre_delay": 100
+        }
+    ],
+    "stage_name": "伤痛坚守",
+    "doc": {
+        "title": "",
+        "details": "测试等级：玫兰莎精一55，一技能7级\n测试版本：397\n"
+    },
+    "opers": [
+        {
+            "name": "玫兰莎",
+            "skill_usage": 0,
+            "skill": 1
+        }
+    ],
+    "groups": []
+}

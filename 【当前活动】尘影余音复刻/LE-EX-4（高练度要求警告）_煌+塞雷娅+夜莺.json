@@ -1,0 +1,53 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        }
+    ],
+    "stage_name": "LE-EX-4",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 2
+        }
+    ],
+    "groups": [],
+    "doc": {
+        "details": "萧然挂机作业来源：https://www.bilibili.com/video/BV1NN4y137Yw?p=5"
+    }
+}

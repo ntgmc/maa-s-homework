@@ -1,0 +1,125 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "右",
+            "name": "桃金娘"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                1,
+                5
+            ]
+        },
+        {
+            "type": "撤退",
+            "name": "桃金娘",
+            "kills": 2
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "虫虫",
+            "direction": "上",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "direction": "左",
+            "location": [
+                6,
+                4
+            ]
+        }
+    ],
+    "stage_name": "LE-EX-2",
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        },
+        {
+            "name": "闪灵",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "桃金娘",
+            "skill_usage": 1,
+            "skill": 1
+        },
+        {
+            "name": "虫虫",
+            "skill": 1
+        }
+    ],
+    "groups": [
+        {
+            "opers": [
+                {
+                    "name": "狮蝎",
+                    "skill": 1
+                },
+                {
+                    "name": "扬师虫",
+                    "skill": 1
+                }
+            ],
+            "name": "虫虫"
+        }
+    ],
+    "doc": {
+        "details": "萧然挂机作业来源：https://www.bilibili.com/video/BV1NN4y137Yw?p=9",
+        "title": ""
+    }
+}

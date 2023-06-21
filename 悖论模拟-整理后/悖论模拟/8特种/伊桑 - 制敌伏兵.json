@@ -1,0 +1,105 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_ethan_1",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊桑",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "克洛丝",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Up",
+      "kills": 4
+    },
+    {
+      "type": "Deploy",
+      "name": "安德切尔",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Skill",
+      "name": "伊桑",
+      "location": [
+        5,
+        3
+      ],
+      "costs": 44
+    },
+    {
+      "type": "SkillUsage",
+      "name": "伊桑",
+      "skill_usage": 2
+    },
+    {
+      "type": "Skill",
+      "name": "侦测器",
+      "pre_delay": 16000,
+      "location": [
+        3,
+        3
+      ],
+      "kills": 34
+    },
+    {
+      "type": "Skill",
+      "name": "伊桑",
+      "location": [
+        5,
+        3
+      ],
+      "pre_delay": 5000
+    },
+    {
+      "type": "SkillUsage",
+      "name": "伊桑",
+      "skill_usage": 2
+    },
+    {
+      "type": "Skill",
+      "name": "侦测器",
+      "pre_delay": 10000,
+      "location": [
+        3,
+        3
+      ]
+    },
+    {
+      "type": "Skill",
+      "name": "伊桑",
+      "kills": 55,
+      "location": [
+        5,
+        3
+      ]
+    }
+  ],
+  "doc": {
+    "title": "特种 - 伊桑 - 制敌伏兵",
+    "details": "伊桑精二40级7级技能专0测试通过\n这关纯看脸，打不过只能多打几遍。\n再打不过专一下技能或者开模组吧\n参考https://www.bilibili.com/video/BV1Zh411Z7KB"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "伊桑",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

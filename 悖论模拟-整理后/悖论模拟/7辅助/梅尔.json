@@ -1,0 +1,246 @@
+{
+    "actions": [
+        {
+            "type": "部署",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "下",
+            "name": "梅尔"
+        },
+        {
+            "type": "部署",
+            "name": "空",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "机械水",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "location": [
+                8,
+                3
+            ],
+            "name": "机械水",
+            "direction": "上",
+            "type": "部署"
+        },
+        {
+            "type": "部署",
+            "name": "机械水",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "location": [
+                2,
+                5
+            ],
+            "direction": "下",
+            "type": "部署",
+            "name": "机械水"
+        },
+        {
+            "location": [
+                5,
+                5
+            ],
+            "type": "部署",
+            "name": "机械水",
+            "direction": "上"
+        },
+        {
+            "kills": 9,
+            "type": "技能",
+            "name": "空",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "梅尔",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 10
+        },
+        {
+            "type": "部署",
+            "name": "机械水",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "上",
+            "name": "机械水"
+        },
+        {
+            "type": "部署",
+            "name": "机械水",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "机械水",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "name": "空",
+            "kills": 28,
+            "location": [
+                6,
+                3
+            ],
+            "pre_delay": 0,
+            "cost_changes": 14
+        },
+        {
+            "type": "技能",
+            "name": "梅尔",
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "机械水",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "location": [
+                8,
+                5
+            ],
+            "name": "机械水",
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "机械水",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "机械水",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "机械水",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "空",
+            "location": [
+                6,
+                3
+            ],
+            "pre_delay": 14000
+        },
+        {
+            "type": "技能",
+            "name": "梅尔",
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "机械水",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "机械水",
+            "location": [
+                5,
+                5
+            ]
+        }
+    ],
+    "stage_name": "爆炸美学",
+    "doc": {
+        "title": "梅尔悖论模拟",
+        "details": "作者：雪\n测试干员：梅尔 精2 80级 2技能7级 1模"
+    },
+    "opers": [
+        {
+            "name": "梅尔",
+            "skill": 2
+        }
+    ],
+    "groups": [
+        {
+            "opers": [
+                {
+                    "name": "机械水獭"
+                },
+                {
+                    "name": "机械水"
+                }
+            ],
+            "name": "机械水"
+        }
+    ]
+}

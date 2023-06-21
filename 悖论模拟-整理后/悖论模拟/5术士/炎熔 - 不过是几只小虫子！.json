@@ -1,0 +1,40 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_lava_1",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "炎熔",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "夜刀",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Right",
+      "kills": 75,
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "悖论模拟 术师 - 炎熔 - 不过是几只小虫子！",
+    "details": "已测试\n参考链接：https://www.bilibili.com/video/BV1GA411P7oN/?from=search&seid=5397724347256986295&spm_id_from=333.337.0.0&vd_source=1c3ae8f21d9e9fa8a913acc91885ac64"
+  },
+  "groups": [],
+  "opers": []
+}

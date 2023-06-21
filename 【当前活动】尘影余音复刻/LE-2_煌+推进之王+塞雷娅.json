@@ -1,0 +1,53 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "右"
+        }
+    ],
+    "stage_name": "LE-2",
+    "doc": {
+        "details": "BV1Ag41197",
+        "title": "LE-2"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "推进之王",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        }
+    ]
+}

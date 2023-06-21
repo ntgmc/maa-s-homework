@@ -1,0 +1,184 @@
+{
+    "actions": [
+        {
+            "type": "部署",
+            "name": "守林人",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "石乐志",
+            "direction": "左",
+            "kills": 4,
+            "location": [
+                6,
+                3
+            ],
+            "pre_delay": 4000
+        },
+        {
+            "type": "技能",
+            "name": "守林人",
+            "pre_delay": 1000,
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "撤退",
+            "kills": 8,
+            "name": "石乐志",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "pre_delay": 7500,
+            "name": "石乐志",
+            "type": "部署",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "撤退",
+            "kills": 11,
+            "name": "石乐志",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "部署",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "左",
+            "pre_delay": 4500,
+            "name": "石乐志"
+        },
+        {
+            "type": "撤退",
+            "kills": 14,
+            "name": "石乐志",
+            "location": [
+                6,
+                2
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "守林人",
+            "location": [
+                8,
+                3
+            ],
+            "pre_delay": 8500
+        },
+        {
+            "type": "部署",
+            "name": "夜刀",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "石乐志",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "撤退",
+            "kills": 21,
+            "name": "石乐志",
+            "location": [
+                6,
+                2
+            ]
+        },
+        {
+            "type": "撤退",
+            "name": "夜刀",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "夜刀",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "石乐志",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "守林人",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "打印",
+            "doc": "对轴真是太折磨了！！！",
+            "doc_color": " red"
+        }
+    ],
+    "stage_name": "最佳视野",
+    "doc": {
+        "title": "守林人悖论模拟",
+        "details": "作者：雪\n测试干员：守林人 精2 80级 6潜  2技能专三 3模"
+    },
+    "opers": [
+        {
+            "name": "守林人",
+            "skill": 2
+        }
+    ],
+    "groups": [
+        {
+            "opers": [
+                {
+                    "name": "砾",
+                    "skill": 2
+                },
+                {
+                    "name": "陈",
+                    "skill": 2
+                }
+            ],
+            "name": "石乐志"
+        }
+    ]
+}

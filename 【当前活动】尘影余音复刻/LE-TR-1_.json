@@ -1,0 +1,45 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "安德切尔",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "史都华德",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "安赛尔",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "上"
+        }
+    ],
+    "stage_name": "LE-TR-1",
+    "doc": {
+        "details": "BV1Ag41197",
+        "title": "LE-TR-1"
+    }
+}
