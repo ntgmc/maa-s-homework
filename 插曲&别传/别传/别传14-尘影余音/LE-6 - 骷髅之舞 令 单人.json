@@ -1,0 +1,107 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act18side_06",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Left",
+      "kills": 12
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Left",
+      "kills": 35
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "尘影余音 - LE-6 - 骷髅之舞 令 单人",
+    "details": "https://www.bilibili.com/video/BV1Kc411u7b2/\n满练无潜测试通过，练度低点应该也能过，但是模组要开"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}

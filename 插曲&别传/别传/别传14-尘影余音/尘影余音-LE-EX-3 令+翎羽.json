@@ -1,0 +1,170 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act18side_ex03",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        7,
+        6
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "低费抗几下",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Retreat",
+      "location": [
+        3,
+        5
+      ],
+      "kills": 1,
+      "pre_delay": 2000
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        1,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "令",
+      "skill_usage": 2
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Retreat",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        4
+      ],
+      "kills": 35
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "BulletTime",
+      "name": "令"
+    },
+    {
+      "type": "Deploy",
+      "name": "低费抗几下",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Skill",
+      "location": [
+        7,
+        6
+      ]
+    },
+    {
+      "type": "Retreat",
+      "location": [
+        7,
+        4
+      ],
+      "kills": 40
+    }
+  ],
+  "doc": {
+    "title": "尘影余音-LE-EX-3 令+翎羽",
+    "details": "转载自B站用户Ke_lin，令单核，练度看视频，没做过几次作业如果有问题的话发评论我可以尝试解决下-3-\n或者自己手动改改放技能和弦惊的时间应该可以解决\nhttps://www.bilibili.com/video/BV1Mc411u7V5?p=11\njson作者：七一"
+  },
+  "groups": [
+    {
+      "name": "核",
+      "opers": [
+        {
+          "name": "令",
+          "skill": 3,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "低费抗几下",
+      "opers": [
+        {
+          "name": "翎羽",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "Castle-3",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "夜刀",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [],
+  "difficulty": 1
+}
