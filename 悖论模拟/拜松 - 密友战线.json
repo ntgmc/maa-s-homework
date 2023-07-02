@@ -1,0 +1,126 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_bison_1",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Skill",
+      "costs": 20,
+      "name": "德克萨斯",
+      "location": [
+        2,
+        3
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "拜松",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "可颂",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "德克萨斯",
+      "location": [
+        2,
+        3
+      ],
+      "costs": 34
+    },
+    {
+      "type": "Skill",
+      "name": "可颂",
+      "pre_delay": 1000
+    },
+    {
+      "type": "Skill",
+      "name": "拜松",
+      "costs": 75
+    },
+    {
+      "type": "Skill",
+      "name": "德克萨斯",
+      "location": [
+        2,
+        3
+      ],
+      "costs": 90
+    },
+    {
+      "type": "Skill",
+      "location": [
+        2,
+        1
+      ],
+      "kills": 13
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Skill",
+      "name": "可颂"
+    },
+    {
+      "type": "Skill",
+      "location": [
+        1,
+        1
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "空",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "可颂",
+      "skill_usage": 1
+    },
+    {
+      "type": "SkillUsage",
+      "name": "拜松",
+      "skill_usage": 1
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "重装 - 拜松 - 密友战线",
+    "details": "https://www.bilibili.com/video/BV1do4y1W79y/\n练度精二30级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "拜松",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}
