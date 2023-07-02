@@ -1,0 +1,60 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_lionhd_1",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "断崖",
+      "location": [
+        6,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "莱恩哈特",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "便携式补给站",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "便携式补给站",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "术师 - 莱恩哈特 - 解构阵域",
+    "details": "https://www.bilibili.com/video/BV1Yh411E78A/\n练度精二20级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "莱恩哈特",
+      "skill": 2,
+      "skill_usage": 1
+    }
+  ]
+}

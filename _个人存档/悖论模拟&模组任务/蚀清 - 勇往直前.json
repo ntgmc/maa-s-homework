@@ -1,0 +1,72 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_serum_1",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "香草",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "香草",
+      "skill_usage": 2
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "蚀清",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "米格鲁",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "红",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "蚀清",
+      "costs": 22
+    },
+    {
+      "type": "Skill",
+      "name": "蚀清",
+      "costs": 87
+    }
+  ],
+  "doc": {
+    "title": "术师 - 蚀清 - 勇往直前",
+    "details": "https://www.bilibili.com/video/BV1Td4y1h76B/\n练度精二25级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "蚀清",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}
