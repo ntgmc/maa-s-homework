@@ -1,0 +1,63 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act15mini_05",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon",
+      "doc_color": "DarkRed",
+      "doc": "给个好评吧~"
+    }
+  ],
+  "doc": {
+    "title": "眠于树影之中 FD-5突袭 萧然Q攻略 摆完挂机",
+    "details": "攻略作者：萧然Q https://www.bilibili.com/video/BV1xs4y167d6 记得去b站给萧然宝贝点赞三连\njson作者：鱼丸 有问题请点踩然后在评论区反馈 看心情解决\n评论区不解决maa问题 评论区不解决maa问题 谢谢理解\n需要上下位替代可以自己下载json进行修改\n连接模式请使用minitouch或者maatouch 不兼容ADB Input模式:-)\n平均练度 2603\n没测 好像也测不了"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

@@ -42,7 +42,7 @@
     {
       "type": "Skill",
       "name": "雪雉",
-      "pre_delay": 3000
+      "pre_delay": 2500
     },
     {
       "type": "Skill",
@@ -58,8 +58,8 @@
     }
   ],
   "doc": {
-    "title": "特种 - 雪雉 - 高效除虫",
-    "details": "https://www.bilibili.com/video/BV16X4y1U7G5/\n练度精二30级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    "title": "特种 - 雪雉 - 高效除虫 修复",
+    "details": "https://www.bilibili.com/video/BV16X4y1U7G5/\n练度精二30级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修复"
   },
   "groups": [],
   "opers": [

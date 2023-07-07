@@ -34,7 +34,7 @@
     },
     {
       "type": "Deploy",
-      "name": "喀什科线圈",
+      "name": "梅什科线圈",
       "location": [
         4,
         5
@@ -43,7 +43,7 @@
     },
     {
       "type": "Deploy",
-      "name": "喀什科线圈",
+      "name": "梅什科线圈",
       "location": [
         4,
         3
@@ -52,7 +52,7 @@
     },
     {
       "type": "Deploy",
-      "name": "喀什科线圈",
+      "name": "梅什科线圈",
       "location": [
         3,
         3
@@ -61,7 +61,7 @@
     },
     {
       "type": "Deploy",
-      "name": "喀什科线圈",
+      "name": "梅什科线圈",
       "location": [
         3,
         5
@@ -82,8 +82,8 @@
     }
   ],
   "doc": {
-    "title": "近卫 - 鞭刃 - 因材施教",
-    "details": "https://www.bilibili.com/video/BV1wv4y1j7TQ/\n练度精二25级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    "title": "近卫 - 鞭刃 - 因材施教 修复",
+    "details": "https://www.bilibili.com/video/BV1wv4y1j7TQ/\n练度精二25级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修复"
   },
   "groups": [],
   "opers": [
