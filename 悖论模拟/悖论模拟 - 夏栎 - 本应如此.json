@@ -1,0 +1,83 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_quercu_1",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "夏栎",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "夏栎",
+      "location": [
+        4,
+        4
+      ],
+      "kills": 3
+    },
+    {
+      "type": "SkillUsage",
+      "name": "夏栎",
+      "skill_usage": 1
+    },
+    {
+      "type": "Skill",
+      "name": "格拉尼",
+      "location": [
+        5,
+        4
+      ],
+      "kills": 4
+    },
+    {
+      "type": "Deploy",
+      "name": "天火",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Skill",
+      "name": "天火",
+      "kills": 28,
+      "location": [
+        4,
+        3
+      ]
+    },
+    {
+      "type": "Skill",
+      "name": "格拉尼",
+      "location": [
+        5,
+        4
+      ],
+      "kills": 29
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "悖论模拟 - 夏栎 - 本应如此",
+    "details": "请携带二技能【生灵的回响】\n请确保设备配置能流畅运行MAA+模拟器。\n测试模式：Minitouch\n测试练度：2潜 精二60 7级"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "夏栎",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

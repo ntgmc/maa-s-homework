@@ -3,8 +3,7 @@
   "stage_name": "mem_glady_1",
   "actions": [
     {
-      "type": "SpeedUp",
-      "rear_delay": 0
+      "type": "SpeedUp"
     },
     {
       "type": "Deploy",
@@ -14,8 +13,7 @@
         4
       ],
       "direction": "Left",
-      "costs": 13,
-      "rear_delay": 0
+      "costs": 13
     },
     {
       "type": "Deploy",
@@ -25,28 +23,25 @@
         7,
         3
       ],
-      "direction": "Down",
-      "rear_delay": 0
+      "direction": "Down"
     },
     {
       "type": "SkillUsage",
       "name": "幽灵鲨",
-      "skill_usage": 1,
-      "rear_delay": 0
+      "skill_usage": 1
     },
     {
       "type": "Deploy",
+      "pre_delay": 0,
       "name": "砾",
       "location": [
         7,
         5
       ],
-      "direction": "Up",
-      "rear_delay": 0
+      "direction": "Up"
     },
     {
-      "type": "SpeedUp",
-      "rear_delay": 0
+      "type": "SpeedUp"
     },
     {
       "type": "Skill",
@@ -55,17 +50,14 @@
         10,
         4
       ],
-      "costs": 34,
-      "rear_delay": 0
+      "costs": 34
+    },
+    {
+      "type": "SpeedUp"
     },
     {
       "type": "SpeedUp",
-      "rear_delay": 0
-    },
-    {
-      "type": "SpeedUp",
-      "costs": 65,
-      "rear_delay": 0
+      "costs": 65
     },
     {
       "type": "Deploy",
@@ -75,8 +67,7 @@
         5
       ],
       "costs": 70,
-      "direction": "Up",
-      "rear_delay": 0
+      "direction": "Up"
     },
     {
       "type": "Output",
@@ -89,8 +80,7 @@
       "location": [
         10,
         4
-      ],
-      "rear_delay": 0
+      ]
     },
     {
       "type": "SpeedUp"

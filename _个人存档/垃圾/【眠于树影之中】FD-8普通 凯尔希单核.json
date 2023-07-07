@@ -1,0 +1,138 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act15mini_08",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "凯尔希",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "Mon3tr",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "挡二以上",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Left",
+      "costs": 27
+    },
+    {
+      "type": "Retreat",
+      "name": "Mon3tr",
+      "kills": 16
+    },
+    {
+      "type": "Deploy",
+      "name": "Mon3tr",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "凯尔希",
+      "skill_usage": 0
+    },
+    {
+      "type": "Skill",
+      "name": "凯尔希",
+      "pre_delay": 16500
+    },
+    {
+      "type": "Deploy",
+      "name": "挡二以上",
+      "location": [
+        2,
+        6
+      ],
+      "pre_delay": 15000,
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "凯尔希",
+      "cost_changes": 9,
+      "pre_delay": 200
+    },
+    {
+      "type": "Retreat",
+      "name": "挡二以上",
+      "kills": 19
+    },
+    {
+      "type": "SkillUsage",
+      "name": "凯尔希",
+      "skill_usage": 1
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【眠于树影之中】FD-8普通 凯尔希单核",
+    "details": "福哥宅\nhttps://www.bilibili.com/video/BV18P411C7zt/\n凯尔希精二90级专三Y模组 练度低了后果自负\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n连接模式请使用minitouch或者maatouch 不兼容ADB Input模式:-)\n演习开不了技能无法使用，请直接开始"
+  },
+  "groups": [
+    {
+      "name": "挡二以上",
+      "opers": [
+        {
+          "name": "德克萨斯",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "讯使",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "推进之王",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "嵯峨",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "焰尾",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "蛇屠箱",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "凯尔希",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}
