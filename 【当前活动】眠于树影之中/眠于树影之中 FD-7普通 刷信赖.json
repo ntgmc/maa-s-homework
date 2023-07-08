@@ -1,0 +1,179 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act15mini_07",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "银灰",
+      "location": [
+        10,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Skill",
+      "name": "银灰",
+      "location": [
+        10,
+        5
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Retreat",
+      "location": [
+        10,
+        5
+      ],
+      "kills": 5
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "城市霓虹",
+      "location": [
+        10,
+        4
+      ]
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        2,
+        4
+      ],
+      "kills": 7
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        10,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "城市霓虹",
+      "location": [
+        3,
+        4
+      ],
+      "kills": 18
+    },
+    {
+      "type": "Deploy",
+      "name": "银灰",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        10,
+        5
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        2,
+        4
+      ],
+      "kills": 19
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        1,
+        5
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Skill",
+      "name": "银灰",
+      "location": [
+        5,
+        4
+      ],
+      "kills": 29
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        1,
+        6
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "眠于树影之中 FD-7普通 刷信赖",
+    "details": "眠于树影之中 FD-7普通 刷信赖"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "银灰",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}

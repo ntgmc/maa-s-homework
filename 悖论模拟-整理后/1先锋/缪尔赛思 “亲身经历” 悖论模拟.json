@@ -1,0 +1,130 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_mlyss_1",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "缪尔赛思",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "流形",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "流形",
+      "location": [
+        4,
+        3
+      ],
+      "costs": 7
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        5,
+        6
+      ],
+      "costs": 32,
+      "direction": "Up"
+    },
+    {
+      "type": "Skill",
+      "kills": 14,
+      "pre_delay": 2000,
+      "name": "伊芙利特",
+      "location": [
+        5,
+        6
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "缪尔赛思",
+      "skill_usage": 0
+    },
+    {
+      "type": "Skill",
+      "name": "流形",
+      "location": [
+        4,
+        3
+      ],
+      "kills": 22
+    },
+    {
+      "type": "Deploy",
+      "name": "多萝西",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "缪尔赛思",
+      "location": [
+        2,
+        4
+      ],
+      "kills": 35
+    },
+    {
+      "type": "Skill",
+      "name": "伊芙利特",
+      "location": [
+        5,
+        6
+      ],
+      "kills": 40
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "缪尔赛思 “亲身经历” 悖论模拟",
+    "details": "第一次发作业，有问题轻喷。\n参考BV1La4y1F7Nx\n截至发布时MAA正式版尚未更新缪尔塞斯悖论模拟地图，可能需要内测版使用\n\n更新：v4.19.3正式版已加入缪尔塞斯悖论模拟"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "缪尔赛思",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}
