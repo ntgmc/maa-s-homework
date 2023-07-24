@@ -1,0 +1,300 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "",
+        "details": ""
+    },
+    "stage_name": "DV-8",
+    "opers": [
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "史都华德",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "玫兰莎",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "月见夜",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "苏苏洛",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "嘉维尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "Castle-3",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "卡缇",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "月见夜",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "银灰",
+            "location": [
+                7,
+                4
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "Castle-3",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "嘉维尔",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "玫兰莎",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "撤退",
+            "name": "银灰",
+            "location": [
+                7,
+                4
+            ],
+            "pre_delay": 5000
+        },
+        {
+            "type": "部署",
+            "name": "史都华德",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "苏苏洛",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "银灰",
+            "location": [
+                4,
+                4
+            ],
+            "pre_delay": 14000
+        },
+        {
+            "type": "部署",
+            "name": "史都华德",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "撤退",
+            "kills": 16,
+            "name": "银灰",
+            "location": [
+                4,
+                4
+            ],
+            "pre_delay": 2000
+        },
+        {
+            "type": "技能",
+            "kills": 17,
+            "name": "月见夜",
+            "location": [
+                3,
+                1
+            ],
+            "pre_delay": 14000
+        },
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "黑角",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "右",
+            "pre_delay": 5000
+        },
+        {
+            "type": "技能",
+            "name": "银灰",
+            "location": [
+                3,
+                4
+            ],
+            "pre_delay": 10000
+        },
+        {
+            "type": "部署",
+            "name": "史都华德",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "撤退",
+            "name": "月见夜",
+            "location": [
+                3,
+                1
+            ]
+        },
+        {
+            "type": "撤退",
+            "name": "Castle-3",
+            "location": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "芙蓉",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "撤退",
+            "name": "银灰",
+            "location": [
+                3,
+                4
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "卡缇",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右",
+            "pre_delay": 1000
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "苏苏洛",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "name": "银灰",
+            "location": [
+                3,
+                4
+            ],
+            "pre_delay": 7000
+        }
+    ]
+}

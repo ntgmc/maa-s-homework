@@ -1,0 +1,209 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "最终实验",
+        "details": "突袭DV-EX-8（虽然是按突袭做的，但好像普通也能过）\n推荐练度：流明-必须精二40级及以上不然会被炸死，史尔特尔、艾雅法拉-2903无模组无潜能，棘刺、塞雷娅、银灰-2603无模组无潜能，桃金娘-2403无模组满潜\n\n作者：Annoying Flower\n作业来源：https://www.bilibili.com/video/BV1KZ4y1v7gZ"
+    },
+    "stage_name": "DV-EX-8",
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "银灰",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "流明",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速",
+            "kills": 5,
+            "name": ""
+        },
+        {
+            "type": "技能",
+            "cost_changes": 3,
+            "name": "史尔特尔"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "kills": 11,
+            "name": "艾雅法拉"
+        },
+        {
+            "type": "撤退",
+            "kills": 16,
+            "name": "艾雅法拉"
+        },
+        {
+            "type": "部署",
+            "kills": 26,
+            "name": "史尔特尔",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 4,
+            "name": "史尔特尔"
+        },
+        {
+            "type": "部署",
+            "kills": 31,
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速",
+            "kills": 37,
+            "name": ""
+        },
+        {
+            "type": "技能",
+            "name": "艾雅法拉",
+            "pre_delay": 5000
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 4,
+            "name": "史尔特尔"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

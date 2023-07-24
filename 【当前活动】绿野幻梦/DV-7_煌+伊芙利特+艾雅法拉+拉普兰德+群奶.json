@@ -1,0 +1,103 @@
+{
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": "",
+            "location": [
+                null,
+                null
+            ],
+            "direction": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "群奶",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "右",
+            "name": "艾雅法拉"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "左"
+        }
+    ],
+    "stage_name": "DV-7",
+    "doc": {
+        "title": "道爷DV-7挂机",
+        "details": "根据B站自在道爷剿灭挂机流制作BV1WN4y1M73R\n所有干员都使用自动技能"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "群奶"
+        }
+    ],
+    "groups": [
+        {
+            "name": "群奶",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2
+                },
+                {
+                    "name": "调香师",
+                    "skill": 1
+                }
+            ]
+        }
+    ]
+}

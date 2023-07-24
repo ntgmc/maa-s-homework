@@ -1,0 +1,76 @@
+{
+    "minimum_required": "v4.0",
+    "opers": [
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "location": [
+                null,
+                null
+            ],
+            "type": "二倍速"
+        },
+        {
+            "location": [
+                3,
+                2
+            ],
+            "name": "推进之王",
+            "type": "部署",
+            "direction": "上"
+        },
+        {
+            "location": [
+                9,
+                5
+            ],
+            "name": "德克萨斯",
+            "type": "部署",
+            "direction": "下"
+        },
+        {
+            "location": [
+                6,
+                4
+            ],
+            "name": "拉普兰德",
+            "type": "部署",
+            "direction": "上"
+        },
+        {
+            "location": [
+                5,
+                3
+            ],
+            "name": "塞雷娅",
+            "type": "部署",
+            "direction": "右"
+        }
+    ],
+    "doc": {
+        "title": "不杀多萝西",
+        "details": "萧然Q\nhttps://www.bilibili.com/video/BV1KZ4y1v7gZ?p=6&share_source=copy_web"
+    },
+    "groups": [],
+    "stage_name": "DV-5"
+}

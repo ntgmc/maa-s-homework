@@ -1,0 +1,173 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "",
+        "details": ""
+    },
+    "stage_name": "DV-8",
+    "opers": [
+        {
+            "name": "卡缇",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "调香师",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "假日威龙陈",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "Lancet-2",
+            "skill": 1,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "芬",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "假日威龙陈",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "调香师",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "Lancet-2",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "斑点",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "卡缇",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "撤退",
+            "kills": 8,
+            "name": "假日威龙陈",
+            "location": [
+                7,
+                6
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "假日威龙陈",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "kills": 15,
+            "name": "假日威龙陈",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "技能",
+            "kills": 17,
+            "name": "假日威龙陈",
+            "location": [
+                5,
+                1
+            ],
+            "pre_delay": 2000
+        },
+        {
+            "type": "技能",
+            "name": "假日威龙陈",
+            "location": [
+                5,
+                1
+            ],
+            "pre_delay": 27000
+        },
+        {
+            "type": "技能",
+            "name": "斑点",
+            "location": [
+                4,
+                2
+            ],
+            "pre_delay": 6000
+        },
+        {
+            "type": "技能",
+            "kills": 25,
+            "name": "假日威龙陈",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "假日威龙陈",
+            "location": [
+                5,
+                1
+            ],
+            "pre_delay": 29000
+        }
+    ]
+}

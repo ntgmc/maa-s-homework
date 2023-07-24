@@ -1,0 +1,102 @@
+{
+    "actions": [
+        {
+            "type": "二倍速",
+            "cost_changes": 25
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "重装干员",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "重装干员",
+            "kills": 31
+        }
+    ],
+    "stage_name": "DV-S-2",
+    "doc": {
+        "title": "DV-S-2",
+        "details": "参考：侬无言以对 \n视频地址：https://www.bilibili.com/video/BV1t34y1p78a?share_source=copy_web"
+    },
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "闪灵",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "重装干员",
+            "skill": 2,
+            "skill_usage": 3
+        }
+    ],
+    "groups": [
+        {
+            "opers": [
+                {
+                    "name": "星熊",
+                    "skill": 2
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 2,
+                    "skill_usage": 3
+                }
+            ],
+            "name": "重装干员"
+        }
+    ]
+}

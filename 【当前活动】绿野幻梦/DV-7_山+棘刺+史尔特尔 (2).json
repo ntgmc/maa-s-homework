@@ -1,0 +1,129 @@
+{
+    "minimum_required": "v4.0",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": "2"
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": "1"
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": "1"
+        }
+    ],
+    "actions": [
+        {
+            "location": [
+                null,
+                null
+            ],
+            "name": "",
+            "type": "二倍速"
+        },
+        {
+            "location": [
+                9,
+                6
+            ],
+            "name": "棘刺",
+            "type": "部署",
+            "direction": "上",
+            "cost_change": 20
+        },
+        {
+            "location": [
+                null,
+                null
+            ],
+            "name": "棘刺",
+            "type": "技能",
+            "kills": 5
+        },
+        {
+            "location": [
+                9,
+                4
+            ],
+            "name": "山",
+            "type": "部署",
+            "direction": "右"
+        },
+        {
+            "location": [
+                null,
+                null
+            ],
+            "name": "山",
+            "type": "技能",
+            "pre_delay": null,
+            "doc": "她是悠扬歌声里凯尔特的陈年美酿，她是穿梭在粼粼上的欢快波浪，她是狂风掠舞下肆虐的狂沙，她是捉摸不定的，西西里的自由诗。-------西西里蜜蒜"
+        },
+        {
+            "location": [
+                1,
+                3
+            ],
+            "name": "史尔特尔",
+            "type": "部署",
+            "direction": "右"
+        },
+        {
+            "location": [
+                null,
+                null
+            ],
+            "name": "史尔特尔",
+            "type": "技能",
+            "pre_delay": null
+        },
+        {
+            "location": [
+                null,
+                null
+            ],
+            "name": "史尔特尔",
+            "type": "撤退",
+            "kills": 14
+        },
+        {
+            "location": [
+                null,
+                null
+            ],
+            "name": "棘刺",
+            "type": "技能"
+        },
+        {
+            "location": [
+                10,
+                3
+            ],
+            "name": "史尔特尔",
+            "type": "部署",
+            "kills": 38,
+            "direction": "下",
+            "pre_delay": 2000
+        },
+        {
+            "location": [
+                null,
+                null
+            ],
+            "name": "史尔特尔",
+            "type": "技能",
+            "pre_delay": null
+        }
+    ],
+    "doc": {
+        "title": "速刷97秒",
+        "details": "https://www.bilibili.com/video/BV1dZ4y1e7iw?share_source=copy_web"
+    },
+    "groups": [],
+    "stage_name": "DV-7"
+}

@@ -1,0 +1,54 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "左",
+            "name": "煌"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        }
+    ],
+    "stage_name": "DV-6",
+    "doc": {
+        "details": "",
+        "title": ""
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "推进之王",
+            "skill": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        }
+    ],
+    "groups": []
+}

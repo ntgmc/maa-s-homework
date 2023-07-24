@@ -1,0 +1,264 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "桃金娘",
+            "location": [
+                4,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "风笛",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "桃金娘",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "",
+            "kills": 2
+        },
+        {
+            "type": "部署",
+            "name": "单奶干员",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "下",
+            "cost_changes": 18
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "direction": "右",
+            "name": "铃兰",
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "群奶干员",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "kills": 7,
+            "name": "桃金娘",
+            "location": [
+                4,
+                2
+            ]
+        },
+        {
+            "type": "撤退",
+            "cost_changes": 41,
+            "name": "风笛",
+            "location": [
+                5,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "撤退",
+            "name": "桃金娘",
+            "location": [
+                4,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "撤退",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                3
+            ],
+            "kills": 29
+        },
+        {
+            "type": "撤退",
+            "name": "泥岩",
+            "location": [
+                5,
+                2
+            ]
+        },
+        {
+            "type": "撤退",
+            "name": "铃兰",
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "撤退",
+            "name": "塞雷娅",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "撤退",
+            "name": "单奶干员",
+            "location": [
+                7,
+                1
+            ]
+        }
+    ],
+    "stage_name": "DV-EX-7",
+    "doc": {
+        "title": "DV-EX-7道爷挂机版",
+        "details": "https://www.bilibili.com/video/BV1yS4y1E7h2?p=5&spm_id_from=333.880.my_history.page.click&vd_source=9dd674aad283795b4e58929d8c84668d b站up主：自在道爷"
+    },
+    "groups": [
+        {
+            "name": "群奶干员",
+            "opers": [
+                {
+                    "name": "白面鸮",
+                    "skill": 2
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2
+                },
+                {
+                    "name": "调香",
+                    "skill": 2
+                }
+            ]
+        },
+        {
+            "name": "单奶干员",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1
+                },
+                {
+                    "name": "末药",
+                    "skill": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "风笛",
+            "skill": 2
+        },
+        {
+            "name": "推进之王",
+            "skill": 2
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "群奶干员"
+        },
+        {
+            "name": "单奶干员"
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2
+        },
+        {
+            "name": "铃兰",
+            "skill": 2
+        }
+    ]
+}

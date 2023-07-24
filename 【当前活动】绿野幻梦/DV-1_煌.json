@@ -1,0 +1,28 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "direction": "右",
+            "location": [
+                1,
+                5
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2
+        }
+    ],
+    "stage_name": "DV-1",
+    "doc": {
+        "details": "作业来源：萧然（不想找链接了",
+        "title": "挂机作业 高练度要求"
+    },
+    "groups": []
+}

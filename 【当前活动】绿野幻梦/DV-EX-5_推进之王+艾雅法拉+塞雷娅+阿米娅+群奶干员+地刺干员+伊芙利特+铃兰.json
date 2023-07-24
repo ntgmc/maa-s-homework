@@ -1,0 +1,148 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "阿米娅",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "群奶干员",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "direction": "右",
+            "name": "铃兰",
+            "location": [
+                5,
+                5
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "地刺干员",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "左"
+        }
+    ],
+    "stage_name": "DV-EX-5",
+    "doc": {
+        "title": "DV-EX-5道爷挂机版",
+        "details": "https://www.bilibili.com/video/BV1yS4y1E7h2?p=5&spm_id_from=333.880.my_history.page.click&vd_source=9dd674aad283795b4e58929d8c84668d b站up主：自在道爷"
+    },
+    "groups": [
+        {
+            "name": "地刺干员",
+            "opers": [
+                {
+                    "name": "狮蝎",
+                    "skill": 1
+                },
+                {
+                    "name": "伊桑",
+                    "skill": 1
+                }
+            ]
+        },
+        {
+            "name": "群奶干员",
+            "opers": [
+                {
+                    "name": "白面鸮",
+                    "skill": 2
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2
+                },
+                {
+                    "name": "调香",
+                    "skill": 2
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "推进之王",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2
+        },
+        {
+            "name": "阿米娅",
+            "skill": 2
+        },
+        {
+            "name": "群奶干员"
+        },
+        {
+            "name": "地刺干员"
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        },
+        {
+            "name": "铃兰",
+            "skill": 2
+        }
+    ]
+}
