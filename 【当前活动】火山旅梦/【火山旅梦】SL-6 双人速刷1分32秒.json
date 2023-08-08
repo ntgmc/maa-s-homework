@@ -1,0 +1,102 @@
+{
+  "minimum_required": "v4.0.0",
+  "doc": {
+    "title": "【火山旅梦】SL-6 双人速刷1分32秒",
+    "details": "https://www.bilibili.com/video/BV1Gu4y1m7er/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+  },
+  "stage_name": "act27side_06",
+  "opers": [
+    {
+      "name": "凯尔希",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ],
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "name": ""
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "水汽汽水瓶",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Deploy",
+      "name": "凯尔希",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "Mon3tr",
+      "location": [
+        2,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "凯尔希",
+      "costs": 44,
+      "skill_usage": 1
+    },
+    {
+      "type": "Deploy",
+      "kills": 15,
+      "name": "水汽汽水瓶",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Deploy",
+      "name": "水汽汽水瓶",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "None",
+      "pre_delay": 5000
+    },
+    {
+      "type": "Deploy",
+      "name": "水汽汽水瓶",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "None",
+      "pre_delay": 5000
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "groups": []
+}
