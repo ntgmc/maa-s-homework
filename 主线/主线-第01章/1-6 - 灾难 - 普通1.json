@@ -3,7 +3,8 @@
   "stage_name": "main_01-06",
   "actions": [
     {
-      "type": "SpeedUp"
+      "type": "SpeedUp",
+      "rear_delay": 0
     },
     {
       "type": "Deploy",
@@ -12,7 +13,8 @@
         3,
         3
       ],
-      "direction": "None"
+      "direction": "None",
+      "rear_delay": 0
     },
     {
       "type": "Deploy",
@@ -21,7 +23,8 @@
         5,
         3
       ],
-      "direction": "Right"
+      "direction": "Right",
+      "rear_delay": 0
     },
     {
       "type": "Deploy",
@@ -30,7 +33,8 @@
         5,
         2
       ],
-      "direction": "Right"
+      "direction": "Right",
+      "rear_delay": 0
     },
     {
       "type": "Deploy",
@@ -39,7 +43,8 @@
         5,
         4
       ],
-      "direction": "Right"
+      "direction": "Right",
+      "rear_delay": 0
     },
     {
       "type": "Deploy",
@@ -48,7 +53,8 @@
         6,
         4
       ],
-      "direction": "Up"
+      "direction": "Up",
+      "rear_delay": 0
     },
     {
       "type": "Deploy",
@@ -57,7 +63,8 @@
         8,
         3
       ],
-      "direction": "Left"
+      "direction": "Left",
+      "rear_delay": 0
     },
     {
       "type": "Deploy",
@@ -66,28 +73,33 @@
         6,
         3
       ],
-      "direction": "Right"
+      "direction": "Right",
+      "rear_delay": 0
     },
     {
       "type": "SkillUsage",
       "name": "炎熔",
       "kills": 76,
-      "skill_usage": 2
+      "skill_usage": 2,
+      "rear_delay": 0
     },
     {
       "type": "SkillUsage",
       "name": "米格鲁",
-      "skill_usage": 2
+      "skill_usage": 2,
+      "rear_delay": 0
     },
     {
       "type": "SkillUsage",
       "name": "芙蓉",
-      "skill_usage": 2
+      "skill_usage": 2,
+      "rear_delay": 0
     },
     {
       "type": "SkillUsage",
       "name": "阿米娅",
-      "skill_usage": 2
+      "skill_usage": 2,
+      "rear_delay": 0
     },
     {
       "type": "SkillDaemon"
@@ -95,7 +107,7 @@
   ],
   "doc": {
     "title": "第一章 黑暗时代·下 - 1-6 - 灾难 - 普通",
-    "details": "搬运自_ 蘿卜卜，支持突袭\nBV1v8411Y7ed\nup：AnJek\n视频练度：全员10级\n后续作业搜索建议：标题“第一章”，关卡“1-X”"
+    "details": "BV1v8411Y7ed\nup：AnJek\n视频练度：全员10级\n后续作业搜索建议：标题“第一章”，关卡“1-X”"
   },
   "groups": [],
   "opers": [
@@ -130,5 +142,5 @@
       "skill_usage": 0
     }
   ],
-  "difficulty": 3
+  "difficulty": 1
 }
