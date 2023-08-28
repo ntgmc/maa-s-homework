@@ -1,0 +1,164 @@
+{
+    "actions": [
+        {
+            "type": "打印",
+            "doc": "代理如有问题请群里@碎蜂",
+            "doc_color": "#008000"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "name": "自走车单行道",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "上"
+        },
+        {
+            "name": "自走车单行道",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "上"
+        },
+        {
+            "name": "自走车单行道",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "上"
+        },
+        {
+            "name": "自走车单行道",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "上"
+        },
+        {
+            "name": "自走车单行道",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "上"
+        },
+        {
+            "name": "自走车单行道",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "上"
+        },
+        {
+            "name": "自走车单行道",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "上"
+        },
+        {
+            "name": "自走车单行道",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "上"
+        },
+        {
+            "name": "自走车单行道",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "name": "自走车单行道",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "上"
+        }
+    ],
+    "opers": [
+        {
+            "name": "推进之王",
+            "skill": 2
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "闪灵",
+            "skill": 2
+        }
+    ],
+    "doc": {
+        "details": "up:侬无言以对\n代理如有问题请群里@碎蜂",
+        "title": "IC-EX-6（任务）"
+    },
+    "stage_name": "IC-EX-6"
+}

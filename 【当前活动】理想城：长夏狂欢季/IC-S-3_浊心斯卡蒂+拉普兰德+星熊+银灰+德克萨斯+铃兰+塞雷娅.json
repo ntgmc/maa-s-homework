@@ -1,0 +1,145 @@
+{
+    "actions": [
+        {
+            "type": "打印",
+            "doc": "代理有问题请群里@碎蜂",
+            "doc_color": "#008000"
+        },
+        {
+            "type": "打印",
+            "doc": "请提前检查装置",
+            "doc_color": "#FF0000"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "铃兰",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "自走车出发点",
+            "location": [
+                7,
+                6
+            ],
+            "kills": 1,
+            "pre_delay": 1500
+        },
+        {
+            "type": "部署",
+            "location": [
+                5,
+                4
+            ],
+            "name": "拉普兰德",
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "location": [
+                4,
+                4
+            ],
+            "name": "星熊",
+            "direction": "左"
+        }
+    ],
+    "stage_name": "IC-S-3",
+    "doc": {
+        "title": "IC-S-3",
+        "details": "up:侬无言以对\n装置：超强制冷机，突击保险杠，提纯薄荷油，浓缩蘑菇精，无尽之拳，爆压充能程序\n代理有问题请群里@碎蜂"
+    },
+    "opers": [
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2
+        },
+        {
+            "name": "银灰",
+            "skill": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1
+        },
+        {
+            "name": "铃兰",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        }
+    ]
+}

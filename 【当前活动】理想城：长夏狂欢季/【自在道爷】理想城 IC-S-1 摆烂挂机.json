@@ -1,0 +1,166 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act20side_s01#f#",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "白面鸮",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "自走车单行道",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Skill",
+      "location": [
+        4,
+        2
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "自走车单行道",
+      "location": [
+        3,
+        6
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "自走车单行道",
+      "location": [
+        4,
+        6
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "狮蝎",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【自在道爷】理想城 IC-S-1 摆烂挂机",
+    "details": "“平均60，基本专三，模组1级”\nav302455429/?p=1\nJson制作：status102\n.\n配件：\n车顶：超强制冷机<寒冷 5s>\n车头：跷跷板弹射座椅<较大力推>\n液罐：浓缩蘑菇精<+60%HP 5s>、提纯薄荷油<+40攻速 5s>\n插槽：无尽之拳、矛盾的爆发<600%物伤>"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "白面鸮",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "狮蝎",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

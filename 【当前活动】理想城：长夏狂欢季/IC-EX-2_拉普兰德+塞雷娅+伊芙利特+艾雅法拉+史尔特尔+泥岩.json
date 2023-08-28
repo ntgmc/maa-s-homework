@@ -1,0 +1,108 @@
+{
+    "actions": [
+        {
+            "type": "打印",
+            "doc": "史尔可用任一法术近卫替代，无需技能，如阿米娅（大概）",
+            "doc_color": "#FF0000"
+        },
+        {
+            "type": "打印",
+            "doc": "代理如有问题请群里@碎蜂",
+            "doc_color": "#008000"
+        },
+        {
+            "type": "打印",
+            "doc_color": "#0000FF",
+            "doc": "本关任务：车不被教练拦下"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "上"
+        }
+    ],
+    "opers": [
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2
+        }
+    ],
+    "doc": {
+        "details": "up:侬无言以对\n史尔可用任一法术近卫替代，无需技能，如阿米娅（大概）\n代理如有问题请群里@碎蜂\n本关任务：车不被教练拦下",
+        "title": "IC-EX-2"
+    },
+    "stage_name": "IC-EX-2",
+    "groups": []
+}

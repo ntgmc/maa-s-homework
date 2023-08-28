@@ -1,0 +1,202 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "先锋1",
+            "direction": "下",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "direction": "左",
+            "location": [
+                9,
+                1
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "direction": "左",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "direction": "左",
+            "location": [
+                5,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "direction": "左",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "术士",
+            "direction": "左",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "direction": "上",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "direction": "左",
+            "location": [
+                10,
+                5
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "direction": "下",
+            "location": [
+                9,
+                4
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "direction": "下",
+            "location": [
+                9,
+                3
+            ]
+        },
+        {
+            "name": "自走车单行道",
+            "type": "部署",
+            "direction": "左",
+            "location": [
+                9,
+                7
+            ]
+        },
+        {
+            "name": "自走车单行道",
+            "type": "部署",
+            "direction": "上",
+            "location": [
+                9,
+                6
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "自走车出发点",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "stage_name": "IC-MO-1",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "泥岩",
+            "skill": 2
+        },
+        {
+            "name": "夜莺",
+            "skill": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        }
+    ],
+    "groups": [
+        {
+            "name": "术士",
+            "opers": [
+                {
+                    "name": "夕",
+                    "skill": 1
+                },
+                {
+                    "name": "异客",
+                    "skill": 1
+                }
+            ]
+        },
+        {
+            "name": "先锋1",
+            "opers": [
+                {
+                    "name": "推进之王",
+                    "skill": 1
+                },
+                {
+                    "name": "嵯峨",
+                    "skill": 1
+                }
+            ]
+        }
+    ],
+    "doc": {
+        "details": "作者：YueShen\n攻略参考：https://www.bilibili.com/video/BV1jd4y1A7jD               小车配件：无尽之拳   矛盾的爆发   复方醒酒口服液x2   超强制冷机   高速阶梯钻"
+    }
+}

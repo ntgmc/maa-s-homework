@@ -1,0 +1,287 @@
+{
+    "actions": [
+        {
+            "type": "打印",
+            "doc": "代理如有问题请群里@碎蜂",
+            "doc_color": "#008000"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                3,
+                7
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "左",
+            "type": "部署"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                8,
+                7
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                1,
+                7
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                4,
+                7
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "name": "自走车出发点",
+            "location": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                11,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "kills": 17,
+            "name": "自走车出发点",
+            "location": [
+                11,
+                1
+            ]
+        },
+        {
+            "type": "部署",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右",
+            "name": "自走车单行道"
+        },
+        {
+            "location": [
+                9,
+                5
+            ],
+            "direction": "下",
+            "type": "部署",
+            "name": "塞雷娅"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "name": "自走车单行道",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "左",
+            "type": "部署"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                11,
+                7
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "重装",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "撤退",
+            "name": "桃金娘"
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2
+        },
+        {
+            "name": "夜莺",
+            "skill": 2
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "闪灵",
+            "skill": 2
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "风笛",
+            "skill": 2
+        }
+    ],
+    "doc": {
+        "details": "up:小鬼卡比\n装备：无尽之拳，转向扩展套组，外置制冷机（最好是超强制冷机），高速阶梯钻，浓缩蘑菇精，浓缩蘑菇精\n代理如有问题请群里@碎蜂",
+        "title": "IC-EX-8"
+    },
+    "stage_name": "IC-EX-8",
+    "groups": [
+        {
+            "name": "重装",
+            "opers": [
+                {
+                    "name": "星熊",
+                    "skill": 2
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "雷蛇",
+                    "skill": 1
+                },
+                {
+                    "name": "年",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ]
+}

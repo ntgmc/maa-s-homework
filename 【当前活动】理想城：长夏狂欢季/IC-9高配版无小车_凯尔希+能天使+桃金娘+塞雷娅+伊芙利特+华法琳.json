@@ -1,0 +1,133 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "穹顶之上",
+        "details": "无小车高配版IC-9\n推荐练度：2603应该能过，凯尔希练度最好高一点，能天使最好专三，方便对轴。\n作者：Annoying Flower（作业搬运工）\n作业来源：自己摸的轴"
+    },
+    "stage_name": "IC-9",
+    "opers": [
+        {
+            "name": "凯尔希",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "华法琳",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "凯尔希",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "Mon3tr",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "华法琳",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速",
+            "kills": 14,
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "cost_changes": 5,
+            "name": "能天使",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 5,
+            "name": "华法琳"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "呜呜呜我的水陈呜呜呜"
+        }
+    ]
+}

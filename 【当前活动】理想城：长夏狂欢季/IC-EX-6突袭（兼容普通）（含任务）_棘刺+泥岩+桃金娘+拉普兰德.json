@@ -1,0 +1,186 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "连续过弯IC-EX-6突袭（兼容普通）（含任务）（小车刮痧，最好多带几个输出）",
+        "details": "自走车装备：超强制冷机、突击保险杠、浓缩蘑菇精、提纯薄荷油、无尽之拳、爆压充能程序\n\n作者：Annoying Flower（作业搬运工）\n作业来源：www.bilibili.com/video/BV14P411j7Cb"
+    },
+    "stage_name": "IC-EX-6",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "name": "棘刺"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "",
+            "location": [
+                8,
+                6
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "棘刺"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "撤退",
+            "name": "桃金娘"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

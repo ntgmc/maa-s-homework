@@ -1,0 +1,30 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "自制",
+        "details": ""
+    },
+    "stage_name": "IC-1",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "右"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act20side_02",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【自在道爷】理想城 IC-2 摆烂挂机",
+    "details": "“平均60，基本专三，模组1级”\nav386904822/?p=2\nJson制作：status102"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

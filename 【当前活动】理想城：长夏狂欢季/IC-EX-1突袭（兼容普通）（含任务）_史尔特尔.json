@@ -1,0 +1,81 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "丁字路口",
+        "details": "IC-EX-1突袭（兼容普通）（含任务）\n自走车装备：跷跷板弹射座椅、无尽之拳、矛盾的爆发\n作者：Annoying Flower（作业搬运工）\n作业来源：没抄作业\n我宣布自走车是七星行商！"
+    },
+    "stage_name": "IC-EX-1",
+    "opers": [
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "史尔特尔",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "name": "",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "",
+            "location": [
+                9,
+                4
+            ]
+        },
+        {
+            "type": "撤退",
+            "name": "史尔特尔"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

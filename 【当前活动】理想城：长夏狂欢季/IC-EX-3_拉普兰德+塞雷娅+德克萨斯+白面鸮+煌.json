@@ -1,0 +1,84 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "白面鸮",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "右",
+            "cost_changes": 31
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "stage_name": "IC-EX-3",
+    "doc": {
+        "title": "IC-EX-3",
+        "details": "推荐练度精二60专3\n无小车\n为黄金大队懒人挂机攻略\n参考b站up主萧然Q的视频"
+    },
+    "opers": [
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        }
+    ]
+}

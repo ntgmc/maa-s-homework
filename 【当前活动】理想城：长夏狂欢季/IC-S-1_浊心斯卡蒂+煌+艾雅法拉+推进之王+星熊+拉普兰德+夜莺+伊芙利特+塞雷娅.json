@@ -1,0 +1,171 @@
+{
+    "actions": [
+        {
+            "type": "打印",
+            "doc": "代理有问题请群里@碎蜂",
+            "doc_color": "#008000"
+        },
+        {
+            "type": "打印",
+            "doc": "请提前检查装置",
+            "doc_color": "#FF0000"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "name": "自走车出发点",
+            "location": [
+                4,
+                2
+            ]
+        }
+    ],
+    "stage_name": "IC-S-1",
+    "doc": {
+        "title": "IC-S-1稳定版",
+        "details": "up:侬无言以对\n装置：超强制冷机，突击保险杠，清凉薄荷油，优级蘑菇精，无尽之拳，爆压充能程序\n代理有问题请群里@碎蜂"
+    },
+    "opers": [
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "星熊",
+            "skill": 2
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "夜莺",
+            "skill": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        }
+    ]
+}

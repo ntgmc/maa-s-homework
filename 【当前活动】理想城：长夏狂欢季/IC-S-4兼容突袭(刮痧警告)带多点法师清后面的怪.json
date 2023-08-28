@@ -1,0 +1,160 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "",
+        "details": "UP：KhakiMew\n小车配件：超强制冷机、突击保险杠、复方醒酒口服液*2、无尽之拳、爆压充能程序\n鸿雪三技能专三 模组最好有二级以上\n铃兰三技能专三\n陈二技能专三 一级模组\n"
+    },
+    "stage_name": "简化工程",
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "凛冬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "鸿雪",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "陈",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": "干员名字"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "凛冬",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "name": "自走车出发点",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "鸿雪",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "铃兰",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "name": "",
+            "location": [
+                2,
+                5
+            ],
+            "pre_delay": 11700
+        },
+        {
+            "type": "部署",
+            "name": "“打字机”",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "name": "",
+            "location": [
+                1,
+                5
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "陈",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "",
+            "location": [
+                4,
+                2
+            ],
+            "pre_delay": 100
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

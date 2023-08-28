@@ -1,0 +1,111 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "争夺场地",
+        "details": "IC-EX-4突袭（兼容普通）（含任务）\n自走车装备：超强制冷机、高速阶梯钻、浓缩蘑菇精、浓缩蘑菇精、无尽之拳、爆压充能程序\n作者：Annoying Flower（作业搬运工）\n作业来源：www.bilibili.com/video/BV16a411d73u\n"
+    },
+    "stage_name": "IC-EX-4",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "黑角",
+            "skill": 0,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "黑角",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "name": "",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "斑点",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

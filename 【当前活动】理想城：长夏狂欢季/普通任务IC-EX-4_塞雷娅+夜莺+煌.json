@@ -1,0 +1,91 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "location": [
+                4,
+                1
+            ],
+            "name": "自走车出发点"
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "stage_name": "IC-EX-4",
+    "doc": {
+        "title": "IC-EX-4",
+        "details": "推荐练度精二60专3\n记得带配件'矛盾的爆发'‘无尽之拳’‘高速阶梯钻’\n为黄金大队懒人挂机攻略\n参考b站up主萧然Q的视频"
+    },
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        }
+    ]
+}

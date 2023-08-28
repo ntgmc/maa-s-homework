@@ -1,0 +1,115 @@
+{
+    "actions": [
+        {
+            "type": "打印",
+            "doc": "代理有问题请群里@碎蜂",
+            "doc_color": "#008000"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "芬",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "香草",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "name": "自走车出发点",
+            "location": [
+                4,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "伊桑",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "上",
+            "kills": 5
+        },
+        {
+            "type": "部署",
+            "name": "史都华德",
+            "kills": 16,
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "stage_name": "IC-S-1",
+    "doc": {
+        "title": "IC-S-1超低配",
+        "details": "up:伤心的小鱼人丶\n装置：无尽之拳，爆压充能程序，超强制冷机，高速阶梯钻，浓缩蘑菇精，浓缩蘑菇精\n代理有问题请群里@碎蜂"
+    },
+    "opers": [
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "史都华德",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "香草",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "伊桑",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act20side_01",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【自在道爷】理想城 IC-1 摆烂挂机",
+    "details": "“平均60，基本专三，模组1级”\nav386904822/\nJson制作：status102"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

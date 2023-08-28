@@ -1,0 +1,82 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "stage_name": "IC-EX-4",
+    "doc": {
+        "title": "IC-EX-4",
+        "details": "推荐练度精二60专3\n为黄金大队懒人挂机攻略\n参考b站up主萧然Q的视频"
+    },
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "能天使",
+            "skill": 3
+        }
+    ]
+}

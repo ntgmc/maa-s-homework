@@ -1,0 +1,102 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "kills": 9,
+            "location": [
+                4,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "摆完挂机"
+        },
+        {
+            "type": "打印",
+            "doc": "1",
+            "doc_color": "#00FFFF"
+        }
+    ],
+    "stage_name": "IC-9",
+    "doc": {
+        "title": "萧然挂机作业，高练度要求",
+        "details": "萧然挂机作业：https://www.bilibili.com/video/BV1dT411w72G"
+    },
+    "opers": [
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "夜莺",
+            "skill": 2
+        }
+    ]
+}

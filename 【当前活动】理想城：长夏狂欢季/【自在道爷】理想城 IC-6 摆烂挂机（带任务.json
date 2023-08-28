@@ -1,0 +1,131 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act20side_06",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        10,
+        2
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Skill",
+      "location": [
+        1,
+        4
+      ]
+    },
+    {
+      "type": "Skill",
+      "location": [
+        1,
+        4
+      ]
+    },
+    {
+      "type": "Skill",
+      "location": [
+        1,
+        4
+      ]
+    },
+    {
+      "type": "Skill",
+      "location": [
+        1,
+        4
+      ]
+    },
+    {
+      "type": "Skill",
+      "location": [
+        1,
+        4
+      ]
+    },
+    {
+      "type": "Skill",
+      "location": [
+        1,
+        4
+      ]
+    },
+    {
+      "type": "Skill",
+      "location": [
+        1,
+        4
+      ]
+    },
+    {
+      "type": "Skill",
+      "location": [
+        1,
+        4
+      ]
+    },
+    {
+      "type": "Skill",
+      "location": [
+        1,
+        4
+      ]
+    },
+    {
+      "type": "Skill",
+      "location": [
+        1,
+        4
+      ]
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【自在道爷】理想城 IC-6 摆烂挂机（带任务",
+    "details": "“平均60，基本专三，模组1级”\nav386904822/?p=6\nJson制作：status102"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

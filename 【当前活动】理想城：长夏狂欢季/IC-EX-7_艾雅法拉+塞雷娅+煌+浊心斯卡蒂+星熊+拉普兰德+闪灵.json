@@ -1,0 +1,134 @@
+{
+    "actions": [
+        {
+            "type": "打印",
+            "doc": "代理如有问题请群里@碎蜂",
+            "doc_color": "#008000"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "地刺",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "左"
+        }
+    ],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2
+        },
+        {
+            "name": "星熊",
+            "skill": 2
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "闪灵",
+            "skill": 2
+        }
+    ],
+    "doc": {
+        "details": "up:侬无言以对\n代理如有问题请群里@碎蜂\n拉狗专三的话不需要补地刺",
+        "title": "IC-EX-7"
+    },
+    "stage_name": "IC-EX-7",
+    "groups": [
+        {
+            "name": "地刺",
+            "opers": [
+                {
+                    "name": "水月",
+                    "skill": 1
+                },
+                {
+                    "name": "狮蝎",
+                    "skill": 1
+                }
+            ]
+        }
+    ]
+}

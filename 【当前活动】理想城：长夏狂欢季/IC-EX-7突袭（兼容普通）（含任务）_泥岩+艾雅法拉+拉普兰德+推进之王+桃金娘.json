@@ -1,0 +1,128 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "危险品运输",
+        "details": "IC-EX-7突袭（兼容普通）（含任务）\n自走车装备：超强制冷机、突击保险杠、浓缩蘑菇精、提纯薄荷油、无尽之拳、爆压充能程序\n作者：Annoying Flower（作业搬运工）\n作业来源：www.bilibili.com/video/BV1kV4y1p7r7"
+    },
+    "stage_name": "IC-EX-7",
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "name": "",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "name": "",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "桃金娘"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "下",
+            "pre_delay": 5000
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+{
+    "stage_name": "障碍清理",
+    "opers": [
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "桃金娘",
+            "skill_usage": 1,
+            "skill": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "铃兰",
+            "skill": 2
+        },
+        {
+            "name": "星熊",
+            "skill": 2
+        },
+        {
+            "name": "风笛",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1
+        },
+        {
+            "name": "极境",
+            "skill_usage": 1,
+            "skill": 1
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "type": "Deploy",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "星熊",
+            "type": "Deploy",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "name": "极境",
+            "type": "Deploy",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "澄闪",
+            "type": "Deploy",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "塞雷娅",
+            "type": "Deploy",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "自走车单行道",
+            "type": "Retreat",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "name": "自走车单行道",
+            "type": "Retreat",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "name": "自走车单行道",
+            "type": "Retreat",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "type": "Deploy",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "name": "拉普兰德",
+            "type": "Deploy",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "name": "自走车出发点",
+            "type": "Skill",
+            "location": [
+                1,
+                6
+            ],
+            "cost_changes": 4
+        },
+        {
+            "name": "铃兰",
+            "type": "Deploy",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down",
+            "cost_changes": 18
+        },
+        {
+            "name": "艾雅法拉",
+            "type": "Deploy",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Right",
+            "cost_changes": 23
+        },
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "",
+            "type": "SpeedUp",
+            "kills": 25
+        },
+        {
+            "name": "桃金娘",
+            "type": "Retreat"
+        },
+        {
+            "name": "桃金娘",
+            "type": "Retreat"
+        },
+        {
+            "name": "桃金娘",
+            "type": "Retreat"
+        },
+        {
+            "name": "史尔特尔",
+            "type": "Deploy",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "name": "",
+            "type": "SpeedUp",
+            "cost_changes": 0,
+            "pre_delay": 7000
+        },
+        {
+            "name": "",
+            "type": "SkillDaemon"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "",
+        "details": "BV1CP41157uV\n啸叫器、高速钻、浓缩精、提纯油、“拳”、“矛盾”\n个人练度仅供参考：澄闪塞雷娅桃金娘拉狗42平均2603(一级模组)，艾雅法拉铃兰2601，极境精一1级，歌蕾蒂娅精二1级无专，风笛未上场仅提供6点军统"
+    }
+}

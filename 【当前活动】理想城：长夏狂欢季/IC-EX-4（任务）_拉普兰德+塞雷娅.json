@@ -1,0 +1,117 @@
+{
+    "actions": [
+        {
+            "type": "打印",
+            "doc": "代理如有问题请群里@碎蜂",
+            "doc_color": "#008000"
+        },
+        {
+            "type": "打印",
+            "doc": "任务：自走车击败10敌人",
+            "doc_color": "#FF0000"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "医疗",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "自走车单行道",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "name": "自走车出发点",
+            "location": [
+                4,
+                1
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        }
+    ],
+    "doc": {
+        "details": "配件：矛盾的爆发，无尽之拳，超强制冷机，高速阶梯钻\n代理如有问题请群里@碎蜂\n任务：自走车击败10敌人",
+        "title": "IC-EX-4"
+    },
+    "stage_name": "IC-EX-4",
+    "groups": [
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2
+                },
+                {
+                    "name": "赫默",
+                    "skill": 2
+                }
+            ]
+        }
+    ]
+}
