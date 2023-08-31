@@ -7,8 +7,13 @@
     "stage_name": "act20side_01",
     "opers": [
         {
-            "name": "煌",
+            "name": "艾雅法拉",
             "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
             "skill_usage": 0
         }
     ],
@@ -19,12 +24,25 @@
         },
         {
             "type": "部署",
-            "name": "煌",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "黑角",
             "location": [
                 1,
                 1
             ],
             "direction": "右"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
         }
     ]
 }

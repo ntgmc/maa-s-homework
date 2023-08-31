@@ -1,0 +1,82 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "",
+        "details": "https://www.bilibili.com/video/av729447444"
+    },
+    "stage_name": "act20side_09",
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "华法琳",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "华法琳",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 45,
+            "name": "能天使",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 42,
+            "name": "华法琳"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}
