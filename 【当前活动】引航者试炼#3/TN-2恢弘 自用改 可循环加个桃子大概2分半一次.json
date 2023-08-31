@@ -1,0 +1,138 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act3bossrush_02",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "年",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right",
+      "costs": 21
+    },
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right",
+      "costs": 10
+    },
+    {
+      "type": "SkillUsage",
+      "name": "令",
+      "skill_usage": 1
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Up",
+      "costs": 18
+    },
+    {
+      "type": "Deploy",
+      "name": "夕",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Up",
+      "costs": 32
+    },
+    {
+      "type": "SkillUsage",
+      "name": "夕",
+      "skill_usage": 1
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Up",
+      "costs": 18
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Up",
+      "costs": 18
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Up",
+      "costs": 18
+    },
+    {
+      "type": "Retreat",
+      "name": "令",
+      "kills": 19
+    },
+    {
+      "type": "Retreat",
+      "name": "夕",
+      "location": [
+        4,
+        3
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Up",
+      "pre_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "costs": 79
+    }
+  ],
+  "doc": {
+    "title": "TN-2恢弘 自用改 可循环加个桃子大概2分半一次",
+    "details": "三人直接开，二倍速刷第一波拿20分就撤"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "年",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "夕",
+      "skill": 2,
+      "skill_usage": 1
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "TN-1",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "Down",
+      "costs": 20
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Down",
+      "costs": 21
+    },
+    {
+      "type": "Deploy",
+      "name": "特制水上平台",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "None",
+      "kills": 2,
+      "costs": 3
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Left",
+      "kills": 4,
+      "costs": 21
+    },
+    {
+      "type": "Skill",
+      "name": "棘刺",
+      "location": [
+        8,
+        4
+      ]
+    },
+    {
+      "type": "Skill",
+      "name": "史尔特尔",
+      "location": [
+        4,
+        5
+      ],
+      "kills": 6
+    },
+    {
+      "type": "Deploy",
+      "name": "纯烬艾雅法拉",
+      "location": [
+        9,
+        6
+      ],
+      "direction": "Up",
+      "costs": 17
+    },
+    {
+      "type": "Deploy",
+      "name": "特制水上平台",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "None",
+      "kills": 7,
+      "costs": 3
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Left",
+      "costs": 23
+    },
+    {
+      "type": "Deploy",
+      "name": "澄闪",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Left",
+      "costs": 22
+    },
+    {
+      "type": "Skill",
+      "name": "棘刺",
+      "location": [
+        8,
+        4
+      ],
+      "kills": 14
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 23,
+      "pre_delay": 13000
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Down",
+      "kills": 0,
+      "costs": 31,
+      "pre_delay": 700
+    },
+    {
+      "type": "Skill",
+      "name": "史尔特尔",
+      "location": [
+        9,
+        4
+      ],
+      "kills": 0,
+      "pre_delay": 1200
+    }
+  ],
+  "doc": {
+    "title": "引航者试炼#03 TN-1 初始试炼（可用）",
+    "details": "TN-1挂机刷级\n用时：2.6min\n平均等级：精二60"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "澄闪",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "纯烬艾雅法拉",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "史尔特尔",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}

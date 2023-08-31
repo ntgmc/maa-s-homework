@@ -4,7 +4,7 @@
         "title": "自制",
         "details": ""
     },
-    "stage_name": "IC-1",
+    "stage_name": "act20side_01",
     "opers": [
         {
             "name": "艾雅法拉",
@@ -13,7 +13,7 @@
         },
         {
             "name": "黑角",
-            "skill": 0,
+            "skill": 1,
             "skill_usage": 0
         }
     ],
