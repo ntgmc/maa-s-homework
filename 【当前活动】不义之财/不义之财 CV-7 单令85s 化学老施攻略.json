@@ -1,0 +1,136 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act28side_07",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        10,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "令",
+      "skill_usage": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Retreat",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        4
+      ],
+      "kills": 17
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Retreat",
+      "name": "“弦惊”",
+      "location": [
+        1,
+        4
+      ],
+      "kills": 20
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        10,
+        6
+      ],
+      "kills": 21
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillDaemon",
+      "doc_color": "DarkRed",
+      "doc": "有帮助的话 给个好评吧~"
+    }
+  ],
+  "doc": {
+    "title": "不义之财 CV-7 单令85s 化学老施攻略",
+    "details": "攻略作者：化学老施 https://www.bilibili.com/video/BV14P411a78P 记得去b站给化学老施点赞三连\njson作者：鱼丸  评论区不解决maa问题\n已测试 为照顾低配电脑未加二倍速 有需要的自己点一下二倍速 但不保证不漏怪\n练度 2903"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}

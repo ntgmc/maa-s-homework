@@ -1,0 +1,139 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act28side_ex07",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "铃兰",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "白面鸮",
+      "location": [
+        3,
+        6
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "桃金娘",
+      "skill_usage": 0
+    },
+    {
+      "type": "SkillDaemon",
+      "doc_color": "DarkRed",
+      "doc": "有帮助的话 给个好评吧~"
+    }
+  ],
+  "doc": {
+    "title": "不义之财 CV-EX-7 突袭兼容 萧然Q攻略",
+    "details": "攻略作者：萧然Q https://www.bilibili.com/video/BV1au411P7pL 记得去b站给萧然Q点赞三连\njson作者：鱼丸  评论区不解决maa问题\n已测试\n平均练度2603 白面鸮应该是要开模组的 不开小火龙模组会因伤害不够导致山暴毙\n修改后：添加了塞雷娅，应该能防止山暴毙"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "白面鸮",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "铃兰",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}
