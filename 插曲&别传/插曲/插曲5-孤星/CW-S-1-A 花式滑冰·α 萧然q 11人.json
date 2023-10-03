@@ -1,0 +1,199 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "花式滑冰·α",
+  "actions": [
+    {
+      "name": "桃金娘",
+      "location": [
+        4,
+        6
+      ],
+      "type": "Deploy",
+      "direction": "Right"
+    },
+    {
+      "name": "拉普兰德",
+      "location": [
+        10,
+        4
+      ],
+      "kills": 0,
+      "type": "Deploy",
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "name": "艾雅法拉",
+      "location": [
+        9,
+        3
+      ],
+      "kills": 0,
+      "direction": "Left",
+      "type": "Deploy"
+    },
+    {
+      "name": "德克萨斯",
+      "location": [
+        10,
+        6
+      ],
+      "direction": "Left",
+      "type": "Deploy"
+    },
+    {
+      "name": "铃兰",
+      "location": [
+        7,
+        3
+      ],
+      "type": "Deploy",
+      "direction": "Left"
+    },
+    {
+      "name": "闪灵",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Down",
+      "type": "Deploy"
+    },
+    {
+      "name": "史尔特尔",
+      "location": [
+        1,
+        1
+      ],
+      "direction": "Right",
+      "type": "Deploy"
+    },
+    {
+      "name": "煌",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Left",
+      "type": "Deploy"
+    },
+    {
+      "name": "山",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Up",
+      "type": "Deploy"
+    },
+    {
+      "name": "伊芙利特",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Right",
+      "type": "Deploy"
+    },
+    {
+      "location": [
+        4,
+        6
+      ],
+      "name": "桃金娘",
+      "kills": 10,
+      "cost_changes": 6,
+      "type": "Retreat"
+    },
+    {
+      "name": "夜莺",
+      "location": [
+        2,
+        2
+      ],
+      "type": "Deploy",
+      "direction": "Right"
+    },
+    {
+      "name": "德克萨斯",
+      "location": [
+        10,
+        6
+      ],
+      "type": "Retreat"
+    },
+    {
+      "name": "德克萨斯",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Up",
+      "type": "Deploy"
+    }
+  ],
+  "doc": {
+    "title": "CW-S-1-A 花式滑冰·α 萧然q 11人",
+    "details": "萧然q:BV1ch4y1J7x2\n山和煌练度不够会漏怪,重部署下德狗"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "skill": 1,
+      "name": "德克萨斯",
+      "skill_usage": 0
+    },
+    {
+      "skill": 1,
+      "name": "桃金娘",
+      "skill_usage": 1
+    },
+    {
+      "skill": 2,
+      "name": "山",
+      "skill_usage": 2
+    },
+    {
+      "skill": 3,
+      "name": "史尔特尔",
+      "skill_usage": 1
+    },
+    {
+      "skill": 2,
+      "name": "艾雅法拉",
+      "skill_usage": 0
+    },
+    {
+      "skill": 2,
+      "name": "煌",
+      "skill_usage": 0
+    },
+    {
+      "skill": 2,
+      "name": "拉普兰德",
+      "skill_usage": 0
+    },
+    {
+      "skill": 2,
+      "name": "闪灵",
+      "skill_usage": 0
+    },
+    {
+      "skill": 2,
+      "name": "铃兰",
+      "skill_usage": 0
+    },
+    {
+      "skill": 2,
+      "name": "伊芙利特",
+      "skill_usage": 0
+    },
+    {
+      "skill": 2,
+      "name": "夜莺",
+      "skill_usage": 0
+    }
+  ]
+}

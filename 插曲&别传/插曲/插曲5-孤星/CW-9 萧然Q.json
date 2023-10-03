@@ -1,0 +1,105 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "CW-9",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "铃兰",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        7,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Output",
+      "doc_color": "Gold",
+      "doc": "有问题请在评论区反馈\n有问题请在评论区反馈\n有问题请在评论区反馈"
+    }
+  ],
+  "doc": {
+    "title": "孤星 CW-9 萧然Q",
+    "details": "萧然Q https://www.bilibili.com/video/BV1ch4y1J7x2?p=10&vd_source=c2a39f7e6b89c45423d19e239858efbd\n记得去b站给作者一键三连哦\n\n使用此作业时请不要携带玫拉和霍尔海雅（盲猜缪缪也不行，为什么我不说？因为我300抽没有缪缪，笑），会造成识别错误\n\n请不要携带玫拉和霍尔海雅！（盲猜缪缪也不行\n\n请不要携带玫拉和霍尔海雅！（盲猜缪缪也不行\n\n请不要携带玫拉和霍尔海雅！（盲猜缪缪也不行\n\n萧然标准练度，小羊练度不够可能导致漏车，注意！注意！注意！\n\n有问题请在评论区反馈"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "闪灵",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "铃兰",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

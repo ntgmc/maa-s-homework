@@ -1,0 +1,251 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act25side_s01_a",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        4,
+        6
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        10,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "艾雅法拉",
+      "location": [
+        7,
+        3
+      ],
+      "kills": 3,
+      "pre_delay": 2000
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "史尔特尔",
+      "location": [
+        3,
+        1
+      ],
+      "pre_delay": 3000
+    },
+    {
+      "type": "Deploy",
+      "name": "白面鸮",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Left",
+      "pre_delay": 1000
+    },
+    {
+      "type": "Deploy",
+      "name": "风笛",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Right",
+      "pre_delay": 3000
+    },
+    {
+      "type": "Deploy",
+      "name": "推",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Down",
+      "pre_delay": 1000
+    },
+    {
+      "type": "Deploy",
+      "name": "流明",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Left",
+      "pre_delay": 2000
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Right",
+      "pre_delay": 3000
+    },
+    {
+      "type": "Skill",
+      "name": "白面鸮",
+      "location": [
+        9,
+        3
+      ],
+      "pre_delay": 1,
+      "kills": 9,
+      "rear_delay": 3000
+    },
+    {
+      "type": "Skill",
+      "name": "艾雅法拉",
+      "location": [
+        7,
+        3
+      ],
+      "kills": 10,
+      "pre_delay": 10000
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Down",
+      "pre_delay": 2000
+    },
+    {
+      "type": "Retreat",
+      "name": "桃金娘",
+      "location": [
+        4,
+        6
+      ],
+      "pre_delay": 1000
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "Up",
+      "pre_delay": 2000
+    },
+    {
+      "type": "Skill",
+      "name": "史尔特尔",
+      "location": [
+        10,
+        3
+      ],
+      "kills": 26,
+      "pre_delay": 1
+    },
+    {
+      "type": "Skill",
+      "name": "艾雅法拉",
+      "location": [
+        7,
+        3
+      ],
+      "kills": 36
+    }
+  ],
+  "doc": {
+    "title": "孤星 - CW-S-1-A 花式滑冰α",
+    "details": "优化了一下  自己写的作业\n练度精2 60级 无模组要求 有当然更好  \n艾雅法拉要专三 不然轴可能对不上 等级越高越好\n\n流明不能选可能是因为你用了新皮肤"
+  },
+  "groups": [
+    {
+      "name": "推",
+      "opers": [
+        {
+          "name": "阿消",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "温蒂",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "史尔特尔",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "白面鸮",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "流明",
+      "skill": 3,
+      "skill_usage": 2
+    },
+    {
+      "name": "风笛",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

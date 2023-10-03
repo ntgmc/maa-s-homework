@@ -1,0 +1,123 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act25side_s01_b",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "铃兰",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        8,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Retreat",
+      "name": "桃金娘",
+      "location": [
+        7,
+        4
+      ],
+      "costs": 10
+    },
+    {
+      "type": "Deploy",
+      "name": "老鲤",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Down"
+    }
+  ],
+  "doc": {
+    "title": "孤星 - CW-S-1-B - 花式滑冰·β",
+    "details": "https://www.bilibili.com/video/BV1gs4y1M7Dm/?p=2&spm_id_from=pageDriver&vd_source=47fc46e6fbc608bce830943ab74f60ef\nUP自在道爷，视频中干员等级全员精2，60级，1级模组，技能专3\n羊练度不足的话可能漏狗\n建议全部挂机作业都手动加入风笛和先锋德狗增加下干员容错率。"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "铃兰",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "老鲤",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act25side_01",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        1,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon",
+      "doc": "有帮助的话 点个好评吧~",
+      "doc_color": "DarkRed"
+    }
+  ],
+  "doc": {
+    "title": "孤星 CW-1 小鬼卡比攻略 摆完挂机",
+    "details": "攻略作者：小鬼卡比 https://www.bilibili.com/video/BV1sm4y1C76w 记得去b站给卡比宝贝点赞三连\njson作者：鱼丸 有问题请点踩然后在评论区反馈\n平均练度 2603 \n已测试\n"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "CW-4",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "老鲤",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Left",
+      "costs": 10
+    },
+    {
+      "type": "SkillDaemon"
+    },
+    {
+      "type": "Output",
+      "doc_color": "Gold",
+      "doc": "有问题请在评论区反馈\n有问题请在评论区反馈\n有问题请在评论区反馈"
+    }
+  ],
+  "doc": {
+    "title": "孤星 CW-4（阻止起飞任务） 萧然Q  强烈建议先演习",
+    "details": "萧然Q https://www.bilibili.com/video/BV1ch4y1J7x2?p=6&vd_source=c2a39f7e6b89c45423d19e239858efbd\n记得去b站给作者一键三连哦\n\n使用此作业时如果携带maa未识别过的干员会因识别操作导致能天使晚部署漏狗，强烈建议先演习一遍再正常使用\n\n练度：能天使精二60专三，老鲤精二607级技能一级模组\n\n有问题请在评论区反馈"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "老鲤",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}
