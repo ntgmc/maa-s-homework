@@ -10,7 +10,7 @@ today = datetime.date.today()
 # 遍历目录下的所有文件
 for filename in os.listdir(directory):
     # 检查是否为.json文件且修改日期为今天
-    if filename.endswith('.json') and datetime.date.fromtimestamp(os.path.getmtime(os.path.join(directory, filename))) == today:
+    if filename.endswith('.json') :
         # 检查文件名是否包含需要删除的字符
         chars_to_remove = ['序章 黑暗时代·上 - ', '第一章 黑暗时代·下 - ', '第二章 异卵同生 - ', '第三章 二次呼吸 - ', '第四章 急性衰竭 - ',
                            '第五章 靶向药物 - ', '第六章 局部坏死 - ', '第七章 苦难摇篮 - ', '第八章 怒号光明 - ', '第九章 风暴瞭望 - ',
