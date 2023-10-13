@@ -1,0 +1,119 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_13-12",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "号角",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "行医",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "领主",
+      "location": [
+        7,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Skill",
+      "name": "炸弹载荷点",
+      "location": [
+        7,
+        5
+      ],
+      "costs": 10
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第十三章 恶兆湍流 - 13-14（磨难） - 猩红烟火",
+    "details": "13-14磨难，2603，原视频用的煌拉狗蜜莓，我换成号角棘刺纯艾\n【【明日方舟】13-14摆完挂机（磨难险地环境/恶兆湍流）】 https://www.bilibili.com/video/BV1Hw411y77y/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e UP侬无言以对"
+  },
+  "groups": [
+    {
+      "name": "行医",
+      "opers": [
+        {
+          "name": "纯烬艾雅法拉",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "蜜莓",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "领主",
+      "opers": [
+        {
+          "name": "棘刺",
+          "skill": 3,
+          "skill_usage": 1
+        },
+        {
+          "name": "拉普兰德",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "号角",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

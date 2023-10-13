@@ -1,0 +1,209 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_13-13",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        4,
+        7
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "澄闪或小刻",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "纯烬艾雅法拉",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        5,
+        7
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "速射",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "炸弹载荷点",
+      "location": [
+        1,
+        1
+      ],
+      "costs": 10
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "桃金娘",
+      "skill_usage": 0
+    },
+    {
+      "type": "Skill",
+      "name": "炸弹载荷点",
+      "location": [
+        1,
+        1
+      ],
+      "costs": 50
+    },
+    {
+      "type": "Skill",
+      "name": "炸弹载荷点",
+      "location": [
+        8,
+        3
+      ],
+      "costs": 99
+    },
+    {
+      "type": "Skill",
+      "name": "炸弹载荷点",
+      "location": [
+        8,
+        3
+      ],
+      "pre_delay": 20000
+    },
+    {
+      "type": "SkillDaemon",
+      "doc": "有帮助的话 给个好评吧~",
+      "doc_color": "#d63384"
+    }
+  ],
+  "doc": {
+    "title": "主线十三章 恶兆湍流 13-15（磨难） 萧然攻略（替换小刻、空弦）",
+    "details": "这是磨难难度 普通难度地图不一样 别用磨难的打普通\n攻略作者：萧然Q BV1Hw411A7iG 记得去b站给萧然Q点赞三连\n原json作者：鱼丸 修改json作者：雪见璃  评论区不解决maa问题\n已测试\n平均练度2603"
+  },
+  "groups": [
+    {
+      "name": "速射",
+      "opers": [
+        {
+          "name": "能天使",
+          "skill": 3,
+          "skill_usage": 0
+        },
+        {
+          "name": "空弦",
+          "skill": 3,
+          "skill_usage": 1
+        }
+      ]
+    },
+    {
+      "name": "澄闪或小刻",
+      "opers": [
+        {
+          "name": "澄闪",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "刻俄柏",
+          "skill": 2,
+          "skill_usage": 1
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "纯烬艾雅法拉",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}
