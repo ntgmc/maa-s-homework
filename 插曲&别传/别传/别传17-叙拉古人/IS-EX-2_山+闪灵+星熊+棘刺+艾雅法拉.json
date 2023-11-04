@@ -1,0 +1,96 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-EX-2突袭 5人",
+        "details": "https://www.bilibili.com/video/av517405560/"
+    },
+    "stage_name": "IS-EX-2",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

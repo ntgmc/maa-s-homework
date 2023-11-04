@@ -1,0 +1,283 @@
+{
+    "stage_name": "IS-EX-4",
+    "opers": [],
+    "groups": [
+        {
+            "name": "地面群攻",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "高伤害切人",
+            "opers": [
+                {
+                    "name": "史尔特尔",
+                    "skill": 3
+                },
+                {
+                    "name": "玛恩纳",
+                    "skill": 3
+                },
+                {
+                    "name": "银灰",
+                    "skill": 3
+                }
+            ]
+        },
+        {
+            "name": "挡人先锋",
+            "opers": [
+                {
+                    "name": "推进之王",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嵯峨"
+                },
+                {
+                    "name": "焰尾"
+                },
+                {
+                    "name": "德克萨斯"
+                }
+            ]
+        },
+        {
+            "name": "投降先锋",
+            "opers": [
+                {
+                    "name": "桃金娘",
+                    "skill_usage": 1
+                },
+                {
+                    "name": "极境",
+                    "skill_usage": 1
+                },
+                {
+                    "name": "琴柳",
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "右路盾",
+            "opers": [
+                {
+                    "name": "泥岩",
+                    "skill": 2
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1
+                }
+            ]
+        },
+        {
+            "name": "左路盾",
+            "opers": [
+                {
+                    "name": "星熊",
+                    "skill": 2
+                },
+                {
+                    "name": "年",
+                    "skill": 3
+                }
+            ]
+        },
+        {
+            "name": "左路医疗",
+            "opers": [
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 2
+                },
+                {
+                    "name": "华法琳"
+                },
+                {
+                    "name": "赫默",
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "术士",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2
+                },
+                {
+                    "name": "黑键",
+                    "skill_usage": 1
+                },
+                {
+                    "name": "夕"
+                },
+                {
+                    "name": "刻俄柏"
+                },
+                {
+                    "name": "异客"
+                }
+            ]
+        },
+        {
+            "name": "左地面补伤",
+            "opers": [
+                {
+                    "name": "拉普兰德",
+                    "skill": 2
+                },
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "号角"
+                },
+                {
+                    "name": "帕拉斯"
+                },
+                {
+                    "name": "水月"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "挡人先锋",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "投降先锋",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "地面群攻",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "右路盾",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "左路盾",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "左路医疗",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "术士",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "左地面补伤",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "挡人先锋",
+            "location": [
+                3,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "高伤害切人",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "高伤害切人",
+            "location": [
+                9,
+                3
+            ],
+            "kills": 20
+        }
+    ],
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "IS-EX-4 - 风雨如晦 多替换 （待测试",
+        "details": "柠檬味の小小猪\n最后20杀技能看缘分，一般可以。\n锂/fs"
+    },
+    "difficulty": 3
+}

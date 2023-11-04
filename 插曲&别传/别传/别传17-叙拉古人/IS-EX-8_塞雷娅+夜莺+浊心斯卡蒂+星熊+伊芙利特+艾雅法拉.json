@@ -1,0 +1,106 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-EX-8突袭 6人",
+        "details": "https://www.bilibili.com/video/av562420559/\n【高练警告】：原视频内干员均为精二90级专3，请确保自己练度足够，失败请更换作业！\n星熊带加【阻挡】的模组！！！"
+    },
+    "stage_name": "IS-EX-8",
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

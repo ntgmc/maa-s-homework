@@ -1,0 +1,88 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act29side_09",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "水月",
+      "location": [
+        4,
+        7
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "调谐节点",
+      "location": [
+        3,
+        6
+      ]
+    },
+    {
+      "type": "Output",
+      "doc": "觉得不错可以点个三连~",
+      "doc_color": "Gray"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【明日方舟】崔林特尔梅之金 ZT-9 摆完挂机 简单好抄",
+    "details": "视频作者：厨师长衬衫\n\nhttps://www.bilibili.com/video/BV1nz4y1N7tD\n\njson作者：削肾客的救赎 有问题请联系qq399619550\n\nmaa问题就别联系了 哥们臭写作业的真不懂maa\n\n平均练度：2603\n\n已测试 削肾客的救赎"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "水月",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

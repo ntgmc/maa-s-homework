@@ -1,0 +1,108 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-8六人",
+        "details": "制作者：一只摆烂的42\n有问题联系QQ2586582719\nhttps://www.bilibili.com/video/av517198431/"
+    },
+    "stage_name": "act21side_08",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "德克萨斯",
+            "location": [
+                12,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "风笛",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "下",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

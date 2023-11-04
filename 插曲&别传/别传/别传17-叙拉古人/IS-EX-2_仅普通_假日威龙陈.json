@@ -1,0 +1,149 @@
+{
+    "stage_name": "IS-EX-2",
+    "opers": [
+        {
+            "name": "假日威龙陈",
+            "skill": 3
+        },
+        {
+            "name": "重装"
+        },
+        {
+            "name": "医疗"
+        },
+        {
+            "name": "奶盾"
+        }
+    ],
+    "groups": [
+        {
+            "name": "重装",
+            "opers": [
+                {
+                    "name": "雷蛇"
+                },
+                {
+                    "name": "星熊",
+                    "skill": 2
+                },
+                {
+                    "name": "年",
+                    "skill": 2
+                },
+                {
+                    "name": "归溟幽灵鲨",
+                    "skill": 2
+                },
+                {
+                    "name": "贝娜"
+                },
+                {
+                    "name": "瑕光"
+                }
+            ]
+        },
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2
+                },
+                {
+                    "name": "华法琳"
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "古米"
+                },
+                {
+                    "name": "临光"
+                },
+                {
+                    "name": "斑点",
+                    "skill_usage": 1
+                },
+                {
+                    "name": "塞雷娅"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "奶盾",
+            "type": "Deploy",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "假日威龙陈",
+            "type": "Deploy",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "医疗",
+            "type": "Deploy",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "name": "假日威龙陈",
+            "type": "Skill",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 9
+        },
+        {
+            "name": "重装",
+            "type": "Deploy",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "name": "",
+            "type": "SkillDaemon"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-EX-2 普通+突袭",
+        "details": "小小暗v影\n锂/fs"
+    }
+}

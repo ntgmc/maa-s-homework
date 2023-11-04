@@ -1,0 +1,84 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "白面鸮",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "doc": {
+        "title": "IS-EX-2普通+突袭",
+        "details": "https://www.bilibili.com/video/BV1Re4y1x77V/?p=2&spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=99a8f72c6ea613435f38e2a9e1faadba"
+    },
+    "stage_name": "IS-EX-2",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "银灰",
+            "skill": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 3
+        }
+    ],
+    "groups": []
+}

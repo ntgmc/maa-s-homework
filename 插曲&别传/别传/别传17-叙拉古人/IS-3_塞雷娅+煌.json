@@ -1,0 +1,52 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-3双人",
+        "details": "制作者：一只摆烂的42\n有问题联系QQ2586582719\nhttps://www.bilibili.com/video/av774705247/"
+    },
+    "stage_name": "act21side_03",
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

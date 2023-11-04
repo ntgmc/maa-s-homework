@@ -1,0 +1,289 @@
+{
+    "stage_name": "IS-EX-3",
+    "opers": [
+        {
+            "name": "假日威龙陈",
+            "skill": 3
+        },
+        {
+            "name": "桃金娘",
+            "skill_usage": 1
+        }
+    ],
+    "groups": [
+        {
+            "name": "挡二先锋",
+            "opers": [
+                {
+                    "name": "德克萨斯",
+                    "skill": 1
+                },
+                {
+                    "name": "嵯峨",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "推进之王",
+                    "skill": 2
+                },
+                {
+                    "name": "焰尾"
+                }
+            ]
+        },
+        {
+            "name": "重装上",
+            "opers": [
+                {
+                    "name": "泥岩",
+                    "skill": 2
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1
+                },
+                {
+                    "name": "古米"
+                },
+                {
+                    "name": "临光"
+                },
+                {
+                    "name": "瑕光"
+                }
+            ]
+        },
+        {
+            "name": "群奶",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2
+                },
+                {
+                    "name": "调香师"
+                }
+            ]
+        },
+        {
+            "name": "重装下",
+            "opers": [
+                {
+                    "name": "雷蛇"
+                },
+                {
+                    "name": "星熊",
+                    "skill": 2
+                },
+                {
+                    "name": "年",
+                    "skill": 3
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "术士",
+            "opers": [
+                {
+                    "name": "伊芙利特",
+                    "skill": 2
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2
+                },
+                {
+                    "name": "夕"
+                },
+                {
+                    "name": "异客"
+                }
+            ]
+        },
+        {
+            "name": "医疗二",
+            "opers": [
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2
+                },
+                {
+                    "name": "华法琳"
+                },
+                {
+                    "name": "图耶",
+                    "skill": 2
+                },
+                {
+                    "name": "赫默",
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "type": "Deploy",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "挡二先锋",
+            "type": "Deploy",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "假日威龙陈",
+            "type": "Deploy",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "群奶",
+            "type": "Deploy",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "重装上",
+            "type": "Deploy",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "挡二先锋",
+            "type": "Retreat",
+            "cost_changes": 15,
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "name": "重装下",
+            "type": "Deploy",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "术士",
+            "type": "Deploy",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "医疗二",
+            "type": "Deploy",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "假日威龙陈",
+            "type": "Skill",
+            "location": [
+                6,
+                3
+            ],
+            "cost_changes": 0,
+            "kills": 14
+        },
+        {
+            "name": "桃金娘",
+            "type": "Retreat",
+            "location": [
+                8,
+                5
+            ]
+        },
+        {
+            "name": "挡二先锋",
+            "type": "Deploy",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "假日威龙陈",
+            "type": "Skill",
+            "location": [
+                6,
+                3
+            ],
+            "cost_changes": 0,
+            "pre_delay": 20
+        },
+        {
+            "name": "假日威龙陈",
+            "type": "Skill",
+            "pre_delay": 22,
+            "location": [
+                6,
+                3
+            ]
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-EX-3 普通+突袭",
+        "details": "孤独的国哥\n锂/fs"
+    }
+}

@@ -1,0 +1,52 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act29side_06",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "山",
+      "cost_changes": 5
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "崔林特尔梅之金 - ZT-6 - 华尔兹“假面”（关卡存在bug）",
+    "details": "ZT-6\n不知道什么BUG山不会开技能，需手动开\n【【崔林特尔梅之金】ZT-6摆完挂机简单好抄明日方舟zt6】 https://www.bilibili.com/video/BV11c411d7f3/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e\nUP祈星_Estrella"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

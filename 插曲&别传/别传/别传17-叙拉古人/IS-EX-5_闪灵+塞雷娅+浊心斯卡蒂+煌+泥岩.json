@@ -1,0 +1,93 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-EX-5突袭 5人",
+        "details": "https://www.bilibili.com/video/av347473543/"
+    },
+    "stage_name": "IS-EX-5",
+    "opers": [
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 46,
+            "name": "闪灵",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

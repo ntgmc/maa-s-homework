@@ -1,0 +1,110 @@
+{
+  "minimum_required": "v4.0.0",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "doc_color": "DarkCyan",
+      "doc": "up：侬无言以对\n代理有问题请先自查练度，然后在群/频道@碎蜂"
+    },
+    {
+      "type": "Deploy",
+      "name": "浊心斯卡蒂",
+      "location": [
+        3,
+        6
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "水月",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "Up"
+    }
+  ],
+  "doc": {
+    "title": "is-s-1 突袭",
+    "details": "up：侬无言以对\n代理有问题请先自查练度，然后在群/频道@碎蜂\nhttps://www.bilibili.com/video/BV1rd4y1b7om/?vd_source=de25aa473a440a003168902e0348a8c8"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "塞雷娅",
+      "skill": 1
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2
+    },
+    {
+      "name": "闪灵",
+      "skill": 2
+    },
+    {
+      "name": "水月",
+      "skill": 1
+    },
+    {
+      "name": "星熊",
+      "skill": 2
+    },
+    {
+      "name": "煌",
+      "skill": 2
+    },
+    {
+      "name": "浊心斯卡蒂",
+      "skill": 2
+    }
+  ],
+  "stage_name": "IS-S-1",
+  "difficulty": 2
+}

@@ -1,0 +1,38 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-1单人",
+        "details": "制作者：一只摆烂的42\n有问题联系QQ2586582719\n自制\n如果b站有纯属雷同"
+    },
+    "stage_name": "act21side_01",
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "右",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

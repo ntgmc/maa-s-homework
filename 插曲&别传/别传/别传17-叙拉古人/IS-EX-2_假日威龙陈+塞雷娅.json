@@ -1,0 +1,172 @@
+{
+    "stage_name": "IS-EX-2",
+    "opers": [
+        {
+            "name": "假日威龙陈",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "塞雷娅"
+        },
+        {
+            "name": "术士"
+        },
+        {
+            "name": "先锋"
+        },
+        {
+            "name": "医疗"
+        }
+    ],
+    "groups": [
+        {
+            "name": "术士",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2
+                },
+                {
+                    "name": "夕"
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2
+                },
+                {
+                    "name": "黑键",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "先锋",
+            "opers": [
+                {
+                    "name": "德克萨斯"
+                },
+                {
+                    "name": "推进之王",
+                    "skill": 1
+                },
+                {
+                    "name": "嵯峨",
+                    "skill": 1
+                },
+                {
+                    "name": "焰尾"
+                },
+                {
+                    "name": "凛冬"
+                },
+                {
+                    "name": "讯使"
+                }
+            ]
+        },
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2
+                },
+                {
+                    "name": "华法琳"
+                },
+                {
+                    "name": "赫默",
+                    "skill_usage": 1
+                },
+                {
+                    "name": "图耶",
+                    "skill": 2
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "先锋",
+            "type": "Deploy",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "术士",
+            "type": "Deploy",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "name": "假日威龙陈",
+            "type": "Deploy",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "先锋",
+            "type": "Retreat",
+            "location": [
+                4,
+                3
+            ],
+            "cost_changes": 13
+        },
+        {
+            "name": "塞雷娅",
+            "type": "Deploy",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "医疗",
+            "type": "Deploy",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "",
+            "type": "SkillDaemon"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-EX-2 ",
+        "details": "海中月L\n锂/fs"
+    }
+}

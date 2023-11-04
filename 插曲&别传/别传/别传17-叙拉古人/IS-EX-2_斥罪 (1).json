@@ -1,0 +1,35 @@
+{
+    "stage_name": "IS-EX-2",
+    "opers": [
+        {
+            "name": "斥罪",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "斥罪",
+            "type": "Deploy",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "name": "",
+            "type": "SkillDaemon"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-EX-2 普通+突袭",
+        "details": "单斥罪，娱乐作业，练度自寻\n锂/fs"
+    }
+}

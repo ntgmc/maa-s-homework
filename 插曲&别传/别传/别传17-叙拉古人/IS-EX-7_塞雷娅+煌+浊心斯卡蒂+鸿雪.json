@@ -1,0 +1,116 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "IS-EX-7突袭 4人",
+        "details": "https://www.bilibili.com/video/av562381627/\n【高练警告】：原视频内干员均为精二90级专3，请确保自己练度足够，失败请更换作业！"
+    },
+    "stage_name": "IS-EX-7",
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "鸿雪",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "鸿雪",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "kills": 6,
+            "name": "鸿雪"
+        },
+        {
+            "type": "部署",
+            "name": "“打字机”",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "kills": 16,
+            "name": "鸿雪"
+        },
+        {
+            "type": "技能",
+            "kills": 30,
+            "name": "鸿雪"
+        },
+        {
+            "type": "部署",
+            "name": "“打字机”",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "kills": 45,
+            "name": "鸿雪"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}
