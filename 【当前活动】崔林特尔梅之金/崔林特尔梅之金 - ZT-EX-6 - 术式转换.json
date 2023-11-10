@@ -1,0 +1,145 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act29side_ex06",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "pre_delay": 3000,
+      "name": "山"
+    },
+    {
+      "type": "Skill",
+      "location": [
+        5,
+        2
+      ]
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "location": [
+        5,
+        2
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "location": [
+        5,
+        2
+      ],
+      "kills": 7
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "崔林特尔梅之金 - ZT-EX-6 - 术式转换",
+    "details": "读取文件失败 不支持的关卡 请检查关卡名解决办法：\n进MAA→设置→软件更新→选择更新版本→内测版→检查更新→更新后重启\n【【崔林特尔梅之金】ZT全关卡 摆完挂机 简单好抄（持续更新中）】 https://www.bilibili.com/video/BV1xa4y1D7BE/?p=20&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "闪灵",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

@@ -1,0 +1,132 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act29side_ex04",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        5,
+        6
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Skill",
+      "kills": 6,
+      "cost_changes": 10,
+      "location": [
+        6,
+        5
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "kills": 9,
+      "location": [
+        6,
+        5
+      ]
+    },
+    {
+      "type": "Skill",
+      "kills": 15,
+      "location": [
+        6,
+        5
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Skill",
+      "location": [
+        6,
+        5
+      ],
+      "cost_changes": 3
+    },
+    {
+      "type": "Skill",
+      "location": [
+        6,
+        5
+      ],
+      "cost_changes": 5,
+      "kills": 18
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "崔林特尔梅之金 - ZT-EX-4 - 序列法",
+    "details": "读取文件失败 不支持的关卡 请检查关卡名解决办法：\n进MAA→设置→软件更新→选择更新版本→内测版→检查更新→更新后重启\n【【崔林特尔梅之金】ZT全关卡 摆完挂机 简单好抄（持续更新中）】 https://www.bilibili.com/video/BV1xa4y1D7BE/?p=18&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "闪灵",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

@@ -1,0 +1,84 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act29side_ex05",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        8,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊桑",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "location": [
+        7,
+        3
+      ],
+      "cost_changes": 10
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "崔林特尔梅之金 - ZT-EX-5 - 和谐进行",
+    "details": "伊桑自动编队可能编不上去，需手动编队\n读取文件失败 不支持的关卡 请检查关卡名解决办法：\n进MAA→设置→软件更新→选择更新版本→内测版→检查更新→更新后重启\n【【崔林特尔梅之金】ZT全关卡 摆完挂机 简单好抄（持续更新中）】 https://www.bilibili.com/video/BV1xa4y1D7BE/?p=19&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊桑",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}
