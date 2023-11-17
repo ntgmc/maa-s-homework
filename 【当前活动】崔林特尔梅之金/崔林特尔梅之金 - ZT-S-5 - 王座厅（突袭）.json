@@ -1,0 +1,250 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act29side_s05",
+  "actions": [
+    {
+      "type": "Output",
+      "doc_color": "DarkRed",
+      "doc": "自用只适用于突袭关不兼容普通关\n（已测试）\n大哥需要手动换三技能（属于MAA：GBU）\n"
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        8,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "浊心斯卡蒂",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Retreat",
+      "name": "桃金娘",
+      "location": [
+        6,
+        3
+      ],
+      "costs": 12,
+      "pre_delay": 3000
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        7,
+        2
+      ],
+      "pre_delay": 18000,
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "重岳",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "白面鸮",
+      "location": [
+        6,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "装置",
+      "location": [
+        6,
+        2
+      ],
+      "kills": 8,
+      "pre_delay": 1000
+    },
+    {
+      "type": "Deploy",
+      "name": "湮灭之相",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Up",
+      "pre_delay": 0,
+      "kills": 20
+    },
+    {
+      "type": "Deploy",
+      "name": "湮灭之相",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Up",
+      "pre_delay": 12500,
+      "kills": 23
+    },
+    {
+      "type": "SkillUsage",
+      "name": "重岳",
+      "pre_delay": 6000,
+      "skill_usage": 0,
+      "kills": 23
+    },
+    {
+      "type": "Deploy",
+      "name": "湮灭之相",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Up",
+      "pre_delay": 6000,
+      "kills": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "湮灭之相",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Up",
+      "pre_delay": 0,
+      "kills": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "湮灭之相",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Up",
+      "pre_delay": 0,
+      "kills": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "湮灭之相",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Up",
+      "pre_delay": 0,
+      "kills": 0
+    },
+    {
+      "type": "SkillDaemon"
+    },
+    {
+      "type": "Output",
+      "doc_color": "#6f42c1",
+      "doc": "点个赞吧！！"
+    }
+  ],
+  "doc": {
+    "title": "崔林特尔梅之金 - ZT-S-5 - 王座厅（突袭）",
+    "details": "自用只适用于突袭关不兼容普通关\n（已测试）\n大哥需要手动换三技能（属于MAA：GBU）\n\n"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "重岳",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "浊心斯卡蒂",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "白面鸮",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 2
+}

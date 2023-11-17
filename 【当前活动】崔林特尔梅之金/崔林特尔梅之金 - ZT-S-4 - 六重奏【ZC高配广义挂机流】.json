@@ -1,0 +1,163 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act29side_s04",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "玛恩纳",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "玛恩纳",
+      "location": [
+        8,
+        2
+      ],
+      "pre_delay": 10000
+    },
+    {
+      "type": "Deploy",
+      "name": "伊桑",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "奶",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "奶2",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Skill",
+      "name": "玛恩纳",
+      "location": [
+        8,
+        2
+      ],
+      "kills": 12,
+      "pre_delay": 3000
+    },
+    {
+      "type": "Skill",
+      "name": "玛恩纳",
+      "location": [
+        8,
+        2
+      ],
+      "kills": 17
+    },
+    {
+      "type": "SkillUsage",
+      "name": "玛恩纳",
+      "skill_usage": 1
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "崔林特尔梅之金 - ZT-S-4 - 六重奏【ZC高配广义挂机流】",
+    "details": "普通突袭兼容，\n练度：精二60级专3一级模组；伊桑精一60级7级技能\n视频参考：【ZC】【明日方舟】“崔林特尔梅之金”ZT-S-1~5摆完挂机或半挂机全关卡攻略！\n视频链接：BV1NN4y1S7Gf\n测试通过"
+  },
+  "groups": [
+    {
+      "name": "奶",
+      "opers": [
+        {
+          "name": "闪灵",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "纯烬艾雅法拉",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "奶2",
+      "opers": [
+        {
+          "name": "流明",
+          "skill": 3,
+          "skill_usage": 1
+        },
+        {
+          "name": "夜莺",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "白面鸮",
+          "skill": 2,
+          "skill_usage": 1
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "玛恩纳",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊桑",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}
