@@ -25,7 +25,7 @@ for i in range(14):
 # 压缩所有章节的压缩包
 destination_all_zip_path = os.path.join(destination_folder, "主线.zip")
 with zipfile.ZipFile(destination_all_zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
-    for i in range(13):
+    for i in range(14):
         chapter_zip_path = os.path.join(destination_folder, "主线-第{:02d}章.zip".format(i))
         zipf.write(chapter_zip_path, os.path.basename(chapter_zip_path))
 

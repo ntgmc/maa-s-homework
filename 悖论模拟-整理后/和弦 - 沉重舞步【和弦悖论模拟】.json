@@ -1,0 +1,65 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_hamoni_1",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "和弦",
+      "location": [
+        7,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Skill",
+      "name": "和弦",
+      "location": [
+        7,
+        1
+      ],
+      "kills": 1,
+      "pre_delay": 2000
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 20
+    },
+    {
+      "type": "Skill",
+      "name": "和弦",
+      "location": [
+        7,
+        1
+      ],
+      "kills": 21
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 20
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "术师 - 和弦 - 沉重舞步【 和弦悖论模拟】",
+    "details": "和弦悖论模拟：沉重舞步\n练度：精二1级、7级二技能 - 测试通过\n悖论模拟需要在MAA中关闭“自动编队”，\n选好二技能后处于红色ui“开始模拟”界面，maa就可以按开始了"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "和弦",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "古米",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

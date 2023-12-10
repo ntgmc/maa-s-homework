@@ -1,0 +1,103 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "wk_fly_1",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "安德切尔",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "巡林者",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "杰西卡",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "阿米娅",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "炎熔",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "芙蓉",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "空中威胁 - CA-1 - 疗养用地净空（新人养成）",
+    "details": "技能本第一关，\n练度全员精0一级\n如果关卡内有剧情，请快速跳过"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "芙蓉",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "炎熔",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "巡林者",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "杰西卡",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "安德切尔",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "阿米娅",
+      "skill": 1,
+      "skill_usage": 1
+    }
+  ]
+}

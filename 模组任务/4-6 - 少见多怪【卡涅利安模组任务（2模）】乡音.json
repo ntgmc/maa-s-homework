@@ -1,0 +1,61 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_04-06",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "卡涅利安",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第四章 急性衰竭 - 4-6 - 少见多怪【卡涅利安模组任务（2模）】乡音",
+    "details": "卡姐模组任务：乡音\n任务要求：3星通关主题曲4-6;必须编入非助战卡涅利安并上场，其他成员仅可编入6名干员\n（记得别开自动补充低信赖干员）\n练度：地图简单，精2就行\n"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "卡涅利安",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}

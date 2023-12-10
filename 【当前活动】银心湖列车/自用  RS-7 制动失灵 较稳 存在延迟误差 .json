@@ -1,0 +1,166 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act30side_07",
+  "actions": [
+    {
+      "type": "BulletTime",
+      "name": "点火石"
+    },
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "点火石",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "None",
+      "costs": 8
+    },
+    {
+      "type": "Skill",
+      "name": "令"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        3
+      ],
+      "cost_changes": 15,
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "点火石",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "None",
+      "kills": 5
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Down",
+      "cost_changes": 20
+    },
+    {
+      "type": "Skill",
+      "name": "令"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        3
+      ],
+      "kills": 13,
+      "direction": "Down"
+    },
+    {
+      "type": "Retreat",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        3
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Skill",
+      "name": "令"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        5
+      ],
+      "cost_changes": 9,
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "点火石",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "None",
+      "cost_changes": 8
+    }
+  ],
+  "doc": {
+    "title": "自用  RS-7 制动失灵 较稳 存在延迟误差 ",
+    "details": "化学老施 \nhttps://www.bilibili.com/video/BV1xc411D7nR/?spm_id_from=333.880.my_history.page.click"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}
