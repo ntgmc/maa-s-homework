@@ -1,0 +1,61 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_09-04",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "风笛",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        1,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "黑角",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第九章 风暴瞭望 - 9-5（标准） - 临界值 风笛模组任务",
+    "details": "风笛模组任务\n【【明日方舟】风笛二模模组任务 三人挂机打法一遍过 极其好抄】 https://www.bilibili.com/video/BV1fQ4y1H71m/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "风笛",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "黑角",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

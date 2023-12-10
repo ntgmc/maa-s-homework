@@ -1,6 +1,6 @@
 {
   "minimum_required": "v4.0.0",
-  "stage_name": "main_09-13",
+  "stage_name": "main_11-03",
   "actions": [
     {
       "type": "SpeedUp"
@@ -9,63 +9,59 @@
       "type": "Deploy",
       "name": "煌",
       "location": [
-        8,
+        4,
         4
       ],
-      "direction": "Left"
+      "direction": "Right"
     },
     {
       "type": "Deploy",
-      "name": "能天使",
+      "name": "山",
       "location": [
-        9,
-        3
+        6,
+        5
       ],
       "direction": "Up"
     },
     {
       "type": "Deploy",
-      "name": "白面鸮",
+      "name": "艾雅法拉",
       "location": [
-        8,
-        3
+        3,
+        5
       ],
-      "direction": "Down"
+      "direction": "Right"
     },
     {
       "type": "Deploy",
-      "name": "艾雅法拉",
+      "name": "元素奶",
       "location": [
         7,
         5
       ],
       "direction": "Left"
-    },
-    {
-      "type": "Deploy",
-      "name": "奶盾",
-      "location": [
-        7,
-        4
-      ],
-      "direction": "Left"
     }
   ],
   "doc": {
-    "title": "第九章 风暴瞭望 - 9-15（标准） - 大地滚烫 - 突袭",
-    "details": "BV1QQ4y1r7Ni\nup：萧然Q\njson:_蘿卜卜\n视频练度：260(?)\n"
+    "title": "【自用】 11-3（标准）",
+    "details": "！【磨难勿用】！\n仅标准。标准和磨难地图不同\nUP：墨鱼包老板\n【明日方舟】主线第十一章 11-3标准模式 摆完挂机 简单好抄\nhttps://www.bilibili.com/video/BV1s8411W7fW/?spm_id_from=333.788&vd_source=493740e983e9ff66d4b6ff5a27e800a7"
   },
   "groups": [
     {
-      "name": "奶盾",
+      "name": "元素奶",
       "opers": [
         {
-          "name": "塞雷娅",
+          "name": "桑葚",
           "skill": 1,
           "skill_usage": 0
         },
         {
-          "name": "临光",
+          "name": "纯烬艾雅法拉",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "蜜莓",
           "skill": 1,
           "skill_usage": 0
         }
@@ -74,25 +70,19 @@
   ],
   "opers": [
     {
-      "name": "能天使",
-      "skill": 3,
-      "skill_usage": 0
-    },
-    {
       "name": "煌",
       "skill": 2,
       "skill_usage": 0
     },
     {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
       "name": "艾雅法拉",
       "skill": 2,
       "skill_usage": 0
-    },
-    {
-      "name": "白面鸮",
-      "skill": 2,
-      "skill_usage": 0
     }
-  ],
-  "difficulty": 2
+  ]
 }

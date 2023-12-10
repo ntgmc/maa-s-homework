@@ -3,8 +3,7 @@
   "stage_name": "tough_10-09",
   "actions": [
     {
-      "type": "SpeedUp",
-      "rear_delay": 0
+      "type": "SpeedUp"
     },
     {
       "type": "Deploy",
@@ -13,18 +12,16 @@
         6,
         2
       ],
-      "direction": "Left",
-      "rear_delay": 0
+      "direction": "Left"
     },
     {
       "type": "Deploy",
-      "name": "推进之王",
+      "name": "先锋",
       "location": [
         6,
         3
       ],
-      "direction": "Left",
-      "rear_delay": 0
+      "direction": "Left"
     },
     {
       "type": "Deploy",
@@ -33,18 +30,16 @@
         5,
         2
       ],
-      "direction": "Down",
-      "rear_delay": 0
+      "direction": "Down"
     },
     {
       "type": "Deploy",
-      "name": "夜莺",
+      "name": "群奶",
       "location": [
         6,
         1
       ],
-      "direction": "Down",
-      "rear_delay": 0
+      "direction": "Down"
     },
     {
       "type": "Deploy",
@@ -53,13 +48,11 @@
         5,
         1
       ],
-      "direction": "Down",
-      "rear_delay": 0
+      "direction": "Down"
     },
     {
       "type": "SpeedUp",
-      "costs": 22,
-      "rear_delay": 0
+      "costs": 22
     },
     {
       "type": "Retreat",
@@ -67,32 +60,72 @@
       "location": [
         6,
         2
-      ],
-      "rear_delay": 0
+      ]
     },
     {
       "type": "Deploy",
-      "name": "塞雷娅",
+      "name": "奶盾",
       "location": [
         6,
         2
       ],
-      "direction": "Left",
-      "rear_delay": 0
+      "direction": "Left"
     },
     {
-      "type": "SpeedUp",
-      "rear_delay": 0
-    },
-    {
-      "type": "SkillDaemon"
+      "type": "SpeedUp"
     }
   ],
   "doc": {
     "title": "第十章 破碎日冕 - 10-10（磨难） - 旧日之影",
-    "details": "BV1GY411j72u\nup：萧然Q\n测试干员均精2，90级，7级技能或以上"
+    "details": "BV1GY411j72u\nup：萧然Q\n视频练度：260(?)\njson:_蘿卜卜\n添加下位替代"
   },
-  "groups": [],
+  "groups": [
+    {
+      "name": "先锋",
+      "opers": [
+        {
+          "name": "推进之王",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "山",
+          "skill": 2,
+          "skill_usage": 2
+        }
+      ]
+    },
+    {
+      "name": "群奶",
+      "opers": [
+        {
+          "name": "白面鸮",
+          "skill": 2,
+          "skill_usage": 1
+        },
+        {
+          "name": "夜莺",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "奶盾",
+      "opers": [
+        {
+          "name": "临光",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "塞雷娅",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
   "opers": [
     {
       "name": "伊芙利特",
@@ -100,22 +133,7 @@
       "skill_usage": 0
     },
     {
-      "name": "塞雷娅",
-      "skill": 1,
-      "skill_usage": 0
-    },
-    {
       "name": "煌",
-      "skill": 2,
-      "skill_usage": 0
-    },
-    {
-      "name": "推进之王",
-      "skill": 2,
-      "skill_usage": 0
-    },
-    {
-      "name": "夜莺",
       "skill": 2,
       "skill_usage": 0
     },

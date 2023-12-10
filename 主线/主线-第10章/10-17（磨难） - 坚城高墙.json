@@ -3,8 +3,7 @@
   "stage_name": "tough_10-15",
   "actions": [
     {
-      "type": "SpeedUp",
-      "rear_delay": 0
+      "type": "SpeedUp"
     },
     {
       "type": "Deploy",
@@ -13,8 +12,7 @@
         3,
         2
       ],
-      "direction": "Up",
-      "rear_delay": 0
+      "direction": "Up"
     },
     {
       "type": "Deploy",
@@ -23,8 +21,7 @@
         6,
         1
       ],
-      "direction": "Left",
-      "rear_delay": 0
+      "direction": "Left"
     },
     {
       "type": "Deploy",
@@ -33,18 +30,16 @@
         10,
         3
       ],
-      "direction": "Down",
-      "rear_delay": 0
+      "direction": "Down"
     },
     {
       "type": "Deploy",
-      "name": "华法琳",
+      "name": "流明",
       "location": [
         6,
         2
       ],
-      "direction": "Left",
-      "rear_delay": 0
+      "direction": "Left"
     },
     {
       "type": "Deploy",
@@ -54,8 +49,7 @@
         3
       ],
       "direction": "Left",
-      "kills": 17,
-      "rear_delay": 0
+      "kills": 17
     },
     {
       "type": "Deploy",
@@ -64,8 +58,7 @@
         9,
         4
       ],
-      "direction": "Up",
-      "rear_delay": 0
+      "direction": "Up"
     },
     {
       "type": "Deploy",
@@ -74,8 +67,7 @@
         10,
         4
       ],
-      "direction": "Left",
-      "rear_delay": 0
+      "direction": "Left"
     },
     {
       "type": "Deploy",
@@ -84,8 +76,7 @@
         9,
         1
       ],
-      "direction": "Down",
-      "rear_delay": 0
+      "direction": "Down"
     },
     {
       "type": "Output",
@@ -100,18 +91,16 @@
       "location": [
         3,
         2
-      ],
-      "rear_delay": 0
+      ]
     },
     {
       "type": "Deploy",
-      "name": "年",
+      "name": "星熊",
       "location": [
         3,
         2
       ],
-      "direction": "Up",
-      "rear_delay": 0
+      "direction": "Up"
     },
     {
       "type": "SkillDaemon"
@@ -119,7 +108,7 @@
   ],
   "doc": {
     "title": "第十章 破碎日冕 - 10-17（磨难） - 坚城高墙",
-    "details": "BV1GY411j72u\nup：萧然Q\n测试干员均精2，90级，7级技能或以上\n（标准和磨难地图不一样，务必确认难度）"
+    "details": "BV1GY411j72u\nup：萧然Q\n！标准和磨难地图不一样，务必确认难度！\n视频练度：260(?)\n已测试"
   },
   "groups": [],
   "opers": [
@@ -129,9 +118,9 @@
       "skill_usage": 0
     },
     {
-      "name": "华法琳",
-      "skill": 1,
-      "skill_usage": 0
+      "name": "流明",
+      "skill": 3,
+      "skill_usage": 2
     },
     {
       "name": "浊心斯卡蒂",
@@ -164,9 +153,9 @@
       "skill_usage": 0
     },
     {
-      "name": "年",
+      "name": "星熊",
       "skill": 2,
-      "skill_usage": 1
+      "skill_usage": 0
     }
   ]
 }

@@ -1,53 +1,53 @@
 {
   "minimum_required": "v4.0.0",
-  "stage_name": "main_09-02",
+  "stage_name": "sub_09-1-1",
   "actions": [
     {
       "type": "SpeedUp"
     },
     {
       "type": "Deploy",
-      "name": "奶盾",
-      "location": [
-        4,
-        5
-      ],
-      "direction": "Up"
-    },
-    {
-      "type": "Deploy",
       "name": "拉普兰德",
       "location": [
         5,
-        5
+        2
       ],
       "direction": "Up"
     },
     {
       "type": "Deploy",
-      "name": "能天使",
+      "name": "奶盾",
       "location": [
-        7,
-        6
+        4,
+        2
       ],
       "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Right"
     }
   ],
   "doc": {
-    "title": "第九章 风暴瞭望 - 9-3（标准） - 牌局",
-    "details": "up：侬无言以对\nlink:【【明日方舟】9-3突袭摆完挂机】 https://www.bilibili.com/video/BV1zR4y1H7Ru/?share_source=copy_web&vd_source=dcc7ddeba31e59bccd51d29a07ff1565\n精二603"
+    "title": "第九章 风暴瞭望 - S9-1（标准） - 废墟坚守",
+    "details": "UP:侬无言以对\nLINK：【【明日方舟】S9-1摆完挂机】 https://www.bilibili.com/video/BV133411y7UA/?share_source=copy_web&vd_source=dcc7ddeba31e59bccd51d29a07ff1565\n精二603"
   },
   "groups": [
     {
       "name": "奶盾",
       "opers": [
         {
-          "name": "塞雷娅",
+          "name": "临光",
           "skill": 1,
           "skill_usage": 0
         },
         {
-          "name": "临光",
+          "name": "塞雷娅",
           "skill": 1,
           "skill_usage": 0
         }
@@ -56,15 +56,14 @@
   ],
   "opers": [
     {
-      "name": "能天使",
-      "skill": 3,
-      "skill_usage": 0
-    },
-    {
       "name": "拉普兰德",
       "skill": 2,
       "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
     }
-  ],
-  "difficulty": 3
+  ]
 }

@@ -1,0 +1,105 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_11-02",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "速狙",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第十一章 淬火尘霾 - 11-2（磨难） - 一丝光亮",
+    "details": "11-2磨难 2603\n【【淬火尘霾】明日方舟 主线第十一章 磨难环境 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1cG411J7Mu/?p=3&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [
+    {
+      "name": "速狙",
+      "opers": [
+        {
+          "name": "克洛丝",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "空弦",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "蓝毒",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "能天使",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

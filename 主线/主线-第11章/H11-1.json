@@ -1,0 +1,213 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "hard_11-01",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "costs": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Left",
+      "costs": 16
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        10,
+        6
+      ],
+      "direction": "Left",
+      "costs": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        7,
+        6
+      ],
+      "direction": "Left",
+      "costs": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Up",
+      "costs": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "铃兰",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Down",
+      "costs": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "幻影",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "None",
+      "cost_changes": 12
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        6,
+        6
+      ],
+      "direction": "Up",
+      "cost_changes": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "山",
+      "location": [
+        7,
+        6
+      ],
+      "kills": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "浊心斯卡蒂",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left",
+      "costs": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "幻影",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "None",
+      "cost_changes": 0,
+      "rear_delay": 1000
+    },
+    {
+      "type": "Retreat",
+      "name": "桃金娘",
+      "location": [
+        10,
+        6
+      ],
+      "kills": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Left",
+      "costs": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "流明",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Left",
+      "costs": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": " H11-1",
+    "details": "自用，copy他人代码，无闪灵，用流明代替\n德克萨斯没练，山+桃子接敌/回费\n（德克萨斯还得带，不然轴可能会乱）\n尽可能优化至稳定了,被copy作者：一只摆烂的42\nhttps://www.bilibili.com/video/BV1U8411Y74E 萧然作业"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "铃兰",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "浊心斯卡蒂",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "流明",
+      "skill": 3,
+      "skill_usage": 2
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

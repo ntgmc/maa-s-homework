@@ -1,0 +1,48 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_09-07",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        4,
+        6
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第九章 风暴瞭望 - 9-9（标准） - 无辜者 萧然Q摆完挂机",
+    "details": "视频来源：https://www.bilibili.com/video/BV1QQ4y1r7Ni?p=8&vd_source=24685a4f3d3c476e9ab276dda2b2c262"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ],
+  "difficulty": 3
+}

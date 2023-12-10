@@ -1,86 +1,95 @@
 {
   "minimum_required": "v4.0.0",
-  "stage_name": "tough_10-11",
+  "stage_name": "tough_11-11",
   "actions": [
     {
       "type": "SpeedUp"
     },
     {
       "type": "Deploy",
-      "name": "桃金娘",
+      "name": "山",
       "location": [
-        4,
-        4
+        3,
+        3
       ],
-      "direction": "Down"
+      "direction": "Right"
     },
     {
       "type": "Deploy",
-      "name": "煌",
+      "name": "伊芙利特",
       "location": [
-        10,
-        3
+        1,
+        1
       ],
-      "direction": "Left"
-    },
-    {
-      "type": "Deploy",
-      "name": "泥岩",
-      "location": [
-        2,
-        3
-      ],
-      "direction": "Left"
-    },
-    {
-      "type": "SpeedUp"
+      "direction": "Right"
     },
     {
       "type": "Deploy",
       "name": "单奶",
       "location": [
-        10,
-        1
+        4,
+        4
       ],
-      "direction": "Down"
-    },
-    {
-      "type": "SpeedUp"
-    },
-    {
-      "type": "Deploy",
-      "name": "艾雅法拉",
-      "location": [
-        9,
-        1
-      ],
-      "direction": "Down"
+      "direction": "Up"
     },
     {
       "type": "Deploy",
       "name": "奶盾",
       "location": [
-        9,
-        3
+        3,
+        1
       ],
-      "direction": "Down"
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "群奶",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Right"
     },
     {
       "type": "SkillDaemon"
     }
   ],
   "doc": {
-    "title": "第十章 破碎日冕 - 10-12（磨难） - 仇怨的尽头",
-    "details": "攻略参考萧然Q\njson:路痴的世界\n精二603"
+    "title": "第十一章 淬火尘霾 - 11-13（简单和磨难通用） ",
+    "details": "up主：萧然q\njson:xhlmiku"
   },
   "groups": [
+    {
+      "name": "群奶",
+      "opers": [
+        {
+          "name": "白面鸮",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "夜莺",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    },
     {
       "name": "单奶",
       "opers": [
         {
-          "name": "闪灵",
-          "skill": 2,
-          "skill_usage": 0
+          "name": "流明",
+          "skill": 3,
+          "skill_usage": 1
         },
         {
           "name": "纯烬艾雅法拉",
@@ -88,9 +97,9 @@
           "skill_usage": 0
         },
         {
-          "name": "流明",
-          "skill": 3,
-          "skill_usage": 1
+          "name": "闪灵",
+          "skill": 2,
+          "skill_usage": 0
         }
       ]
     },
@@ -98,12 +107,12 @@
       "name": "奶盾",
       "opers": [
         {
-          "name": "临光",
+          "name": "塞雷娅",
           "skill": 1,
           "skill_usage": 0
         },
         {
-          "name": "塞雷娅",
+          "name": "临光",
           "skill": 1,
           "skill_usage": 0
         }
@@ -112,12 +121,12 @@
   ],
   "opers": [
     {
-      "name": "泥岩",
+      "name": "山",
       "skill": 2,
-      "skill_usage": 0
+      "skill_usage": 2
     },
     {
-      "name": "煌",
+      "name": "伊芙利特",
       "skill": 2,
       "skill_usage": 0
     },
@@ -125,11 +134,6 @@
       "name": "艾雅法拉",
       "skill": 2,
       "skill_usage": 0
-    },
-    {
-      "name": "桃金娘",
-      "skill": 1,
-      "skill_usage": 1
     }
   ]
 }
