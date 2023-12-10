@@ -28,4 +28,4 @@ for file_name in os.listdir(source_folder):
         print("成功移动文件'{}'到文件夹'{}'".format(file_name, os.path.basename(destination_folder_path)))
 
 # 输出作者信息
-print("程序作者：ChatGPT")
+input("程序作者：ChatGPT")

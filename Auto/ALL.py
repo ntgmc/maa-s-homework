@@ -10,7 +10,7 @@ folders = [
     r"D:\GITHOME\maa\往期剿灭",
     r"D:\GITHOME\maa\模组任务",
     r"D:\GITHOME\maa\插曲&别传",
-    r"D:\GITHOME\maa\悖论模拟-整理后"
+    r"D:\GITHOME\maa\悖论模拟"
 ]
 
 # 指定目标文件夹路径
