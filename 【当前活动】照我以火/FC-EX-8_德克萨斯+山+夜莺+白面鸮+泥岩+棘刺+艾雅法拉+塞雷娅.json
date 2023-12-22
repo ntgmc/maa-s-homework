@@ -1,0 +1,127 @@
+{
+    "stage_name": "FC-EX-8",
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "夜莺",
+            "skill": 2
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2
+        },
+        {
+            "name": "泥岩",
+            "skill": 2
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅"
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "德克萨斯",
+            "type": "Deploy",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "name": "山",
+            "type": "Deploy",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "夜莺",
+            "type": "Deploy",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "name": "白面鸮",
+            "type": "Deploy",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "艾雅法拉",
+            "type": "Deploy",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "name": "塞雷娅",
+            "type": "Deploy",
+            "direction": "Down",
+            "location": [
+                10,
+                3
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "name": "泥岩",
+            "type": "Deploy",
+            "direction": "Down",
+            "location": [
+                11,
+                4
+            ]
+        },
+        {
+            "name": "棘刺",
+            "type": "Deploy",
+            "direction": "Down",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "name": "",
+            "type": "SkillDaemon"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "萧然挂机作业",
+        "details": "作业来源：https://www.bilibili.com/video/BV1914y1A7sn\nFROMCAT\n"
+    }
+}

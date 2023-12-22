@@ -1,0 +1,126 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "FC-3",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "奶盾",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "手长地面",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "狙击",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "FC-3 狙击+奶盾+煌/刺",
+    "details": "柠檬味の小小猪\n锂/fs"
+  },
+  "groups": [
+    {
+      "name": "狙击",
+      "opers": [
+        {
+          "name": "克洛丝",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "寒芒克洛丝",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "能天使",
+          "skill": 3,
+          "skill_usage": 0
+        },
+        {
+          "name": "灰烬",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "空弦",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "灰喉",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "蓝毒",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "梅",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "奶盾",
+      "opers": [
+        {
+          "name": "塞雷娅",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "临光",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "古米",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "手长地面",
+      "opers": [
+        {
+          "name": "煌",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "棘刺",
+          "skill": 3,
+          "skill_usage": 1
+        }
+      ]
+    }
+  ],
+  "opers": []
+}

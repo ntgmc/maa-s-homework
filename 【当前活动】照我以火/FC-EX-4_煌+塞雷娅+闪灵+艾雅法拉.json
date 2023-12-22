@@ -1,0 +1,70 @@
+{
+    "stage_name": "FC-EX-4",
+    "opers": [
+        {
+            "name": "煌",
+            "skill_usage": 0,
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "闪灵",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "煌",
+            "type": "Deploy",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "闪灵",
+            "type": "Deploy",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "艾雅法拉",
+            "type": "Deploy",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "塞雷娅",
+            "type": "Deploy",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "萧然挂机作业",
+        "details": "作业来源：https://www.bilibili.com/video/BV1914y1A7sn\nFROMCAT"
+    }
+}

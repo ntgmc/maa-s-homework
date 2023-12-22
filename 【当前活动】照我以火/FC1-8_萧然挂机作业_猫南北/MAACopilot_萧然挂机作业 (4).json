@@ -1,0 +1,59 @@
+{
+  "minimum_required": "v4.0.0",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "蜜莓",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Down"
+    }
+  ],
+  "doc": {
+    "title": "萧然挂机作业",
+    "details": "作业来源：https://www.bilibili.com/video/BV1414y1N7nY\nFROMCAT"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "蜜莓",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "stage_name": "activities/act22side/level_act22side_05",
+  "difficulty": 1
+}

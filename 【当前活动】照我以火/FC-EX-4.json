@@ -1,0 +1,75 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "FC-EX-4普通+突袭",
+        "details": "up：侬无言以对\n作者：碎蜂"
+    },
+    "stage_name": "FC-EX-4",
+    "opers": [
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+      "type": "SpeedUp",
+      "doc_color": "DarkCyan",
+      "doc": "up：侬无言以对\n作者：碎蜂"
+    },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        }
+    ],
+
+      "difficulty": 3
+}

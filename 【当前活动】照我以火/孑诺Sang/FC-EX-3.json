@@ -1,0 +1,159 @@
+{
+  "minimum_required": "v4.0.0",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "盾",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "远素奶",
+      "location": [
+        10,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "群奶",
+      "location": [
+        8,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "单奶",
+      "location": [
+        10,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "近卫",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "FC-EX-3"
+  },
+  "groups": [
+    {
+      "name": "群奶",
+      "opers": [
+        {
+          "name": "白面鸮",
+          "skill": 2,
+          "skill_usage": 1
+        },
+        {
+          "name": "夜莺",
+          "skill": 2,
+          "skill_usage": 1
+        }
+      ]
+    },
+    {
+      "name": "单奶",
+      "opers": [
+        {
+          "name": "闪灵",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "华法琳",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "流明",
+          "skill": 3,
+          "skill_usage": 2
+        }
+      ]
+    },
+    {
+      "name": "盾",
+      "opers": [
+        {
+          "name": "年",
+          "skill": 2,
+          "skill_usage": 1
+        },
+        {
+          "name": "星熊",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "近卫",
+      "opers": [
+        {
+          "name": "拉普兰德",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "棘刺",
+          "skill": 3,
+          "skill_usage": 1
+        }
+      ]
+    },
+    {
+      "name": "远素奶",
+      "opers": [
+        {
+          "name": "蜜莓",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "桑葚",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "stage_name": "FC-EX-3",
+  "difficulty": 2
+}

@@ -1,0 +1,142 @@
+{
+    "stage_name": "FC-EX-7",
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill_usage": 0,
+            "skill": 1
+        },
+        {
+            "name": "银灰",
+            "skill": 3
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "夜莺",
+            "skill": 2
+        },
+        {
+            "name": "闪灵",
+            "skill": 2
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "夜莺",
+            "type": "Deploy",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "德克萨斯",
+            "type": "Deploy",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "银灰",
+            "type": "Deploy",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "name": "山",
+            "type": "Deploy",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "史尔特尔",
+            "type": "Deploy",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "银灰",
+            "type": "Skill",
+            "direction": "None",
+            "location": [
+                0,
+                0
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "name": "史尔特尔",
+            "type": "Skill",
+            "direction": "None",
+            "location": [
+                0,
+                0
+            ]
+        },
+        {
+            "name": "塞雷娅",
+            "type": "Deploy",
+            "direction": "Left",
+            "location": [
+                2,
+                4
+            ]
+        },
+        {
+            "name": "闪灵",
+            "type": "Deploy",
+            "direction": "Left",
+            "location": [
+                5,
+                5
+            ]
+        },
+        {
+            "name": "艾雅法拉",
+            "type": "Deploy",
+            "direction": "Left",
+            "location": [
+                4,
+                3
+            ]
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "萧然挂机作业",
+        "details": "作业来源：https://www.bilibili.com/video/BV1914y1A7sn\nFROMCAT"
+    }
+}

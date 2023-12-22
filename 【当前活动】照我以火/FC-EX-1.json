@@ -1,0 +1,75 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "FC-EX-1普通+突袭",
+        "details": "up：侬无言以对\n作者：碎蜂"
+    },
+    "stage_name": "FC-EX-1",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "能天使",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+      "type": "SpeedUp",
+      "doc_color": "DarkCyan",
+      "doc": "up：侬无言以对\n作者：碎蜂"
+    },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "下"
+        }
+    ],
+
+      "difficulty": 3
+}

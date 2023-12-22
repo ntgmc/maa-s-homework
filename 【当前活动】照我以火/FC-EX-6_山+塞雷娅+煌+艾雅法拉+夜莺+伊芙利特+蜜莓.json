@@ -1,0 +1,108 @@
+{
+    "stage_name": "FC-EX-6",
+    "opers": [
+        {
+            "name": "山",
+            "skill_usage": 2,
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "夜莺",
+            "skill": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        },
+        {
+            "name": "蜜莓"
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "山",
+            "type": "Deploy",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "塞雷娅",
+            "type": "Deploy",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "艾雅法拉",
+            "type": "Deploy",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "name": "夜莺",
+            "type": "Deploy",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "伊芙利特",
+            "type": "Deploy",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "name": "蜜莓",
+            "type": "Deploy",
+            "direction": "Up",
+            "location": [
+                7,
+                4
+            ]
+        },
+        {
+            "name": "煌",
+            "type": "Deploy",
+            "direction": "Left",
+            "location": [
+                9,
+                3
+            ]
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "萧然挂机作业",
+        "details": "作业来源：https://www.bilibili.com/video/BV1914y1A7sn\nFROMCAT"
+    }
+}

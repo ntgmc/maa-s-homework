@@ -1,0 +1,153 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act22side_08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "风笛",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "白面鸮",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Right",
+      "kills": 11
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "奶",
+      "location": [
+        9,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "吸引伤害",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "照我以火 - FC-8 - 她的影子（含刻章）",
+    "details": "原作者自在道爷 JSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业\n【【照我以火】FC-1至8挂机流，刻章不用愁！语音快乐详解，轻松解放双手| 明日方舟攻略合集(含FC-8刻章，FC-6刻章等)】 https://www.bilibili.com/video/BV1VV4y1A7bn/?p=8&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [
+    {
+      "name": "奶",
+      "opers": [
+        {
+          "name": "纯烬艾雅法拉",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "华法琳",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "吸引伤害",
+      "opers": [
+        {
+          "name": "玛恩纳",
+          "skill": 3,
+          "skill_usage": 1
+        },
+        {
+          "name": "拉普兰德",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "风笛",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "白面鸮",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

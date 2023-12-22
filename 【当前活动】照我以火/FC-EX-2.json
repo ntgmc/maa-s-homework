@@ -1,0 +1,75 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "FC-EX-2普通+突袭",
+        "details": "up：侬无言以对\n作者：碎蜂"
+    },
+    "stage_name": "FC-EX-2",
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+      "type": "SpeedUp",
+      "doc_color": "DarkCyan",
+      "doc": "up：侬无言以对\n作者：碎蜂"
+    },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "下"
+        }
+    ],
+
+      "difficulty": 3
+}

@@ -1,0 +1,163 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "FC-EX-8普通（镀层请看说明）",
+        "details": "up：侬无言以对\n作者：碎蜂\n镀层请手动在21杀boss二阶段放火后，在煌和拉普右边各放一个衍生物\n(煌右边放海嗣，拉普右边放灯笼)"
+    },
+    "stage_name": "FC-EX-8",
+    "opers": [
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+       
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "Castle-3",
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "年",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+      "type": "SpeedUp",
+      "doc_color": "DarkCyan",
+      "doc": "up：侬无言以对\n作者：碎蜂\n镀层请手动在21杀boss二阶段放火后，在煌和拉普右边各放一个衍生物\n(煌右边放海嗣，拉普右边放灯笼)"
+    },
+        
+         
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "右"
+
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                11,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "下",
+            "costs":27
+        },
+        {
+            "type": "部署",
+            "name": "Castle-3",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "年",
+            "location": [
+                11,
+                4
+            ],
+            "direction": "左"
+        }
+    ],
+
+      "difficulty": 1
+}
