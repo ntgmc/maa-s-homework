@@ -1,0 +1,76 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act16mini_08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "提丰",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        11,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "号角",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        10,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "去咧嘴谷 - TG-8 - 主要运输巷 号角提丰",
+    "details": "提丰号角最好高练\n原作者幽幽子幽幽  JSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业\n【【明日方舟】TG-8突袭 摆完挂机】 https://www.bilibili.com/video/BV1k94y1u7XL/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "提丰",
+      "skill": 2,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "号角",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

@@ -1,0 +1,45 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act16mini_08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "歌蕾蒂娅",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "号角",
+      "location": [
+        10,
+        4
+      ],
+      "direction": "Left"
+    }
+  ],
+  "doc": {
+    "title": "去咧嘴谷 - TG-8 - 主要运输巷 2人2步 摆完挂机",
+    "details": "https://www.bilibili.com/video/BV1r64y1K7VC\n【去咧嘴谷/TG-8】2人2步 摆完挂机\n仅支持普通 不支持突袭！！！\n号角90级专三三模 歌蕾蒂娅专三\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "号角",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "歌蕾蒂娅",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 1
+}
