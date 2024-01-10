@@ -1,0 +1,97 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act16mini_03",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "BulletTime",
+      "name": "令",
+      "location": [
+        6,
+        3
+      ],
+      "costs": 16
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "去咧嘴谷 - TG-3 - 不安全出口 - 令",
+    "details": "作业作者：灰bao_\nJSON作者：灰bao_\n令：精二90级专3、三级模组\nhttps://www.bilibili.com/video/BV1Lg4y1S77p/?spm_id_from=333.999.0.0"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ],
+  "difficulty": 3
+}

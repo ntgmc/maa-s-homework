@@ -1,0 +1,62 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act16mini_07",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "costs": 35,
+      "name": "歌蕾蒂娅",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Right",
+      "costs": 31
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        6,
+        1
+      ],
+      "direction": "Left",
+      "costs": 22
+    }
+  ],
+  "doc": {
+    "title": "【去咧嘴谷】 TG-7  三人 摆完挂机",
+    "details": "参考视频：https://www.bilibili.com/video/BV1Le411v7GF/?spm_id_from=333.337.search-card.all.click&vd_source=c0f9512783e61805e55272b4a3ad1298\n作者：侬无言以对"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "歌蕾蒂娅",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

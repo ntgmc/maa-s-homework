@@ -1,0 +1,214 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act16mini_08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "BulletTime",
+      "name": "令",
+      "location": [
+        7,
+        3
+      ],
+      "costs": 16
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        7
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        7,
+        3
+      ],
+      "costs": 6
+    },
+    {
+      "type": "BulletTime",
+      "name": "令",
+      "location": [
+        7,
+        3
+      ],
+      "costs": 20
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        11,
+        6
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        7
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right",
+      "costs": 40
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        7,
+        3
+      ]
+    },
+    {
+      "type": "SkillUsage",
+      "name": "令",
+      "skill_usage": 1
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        10,
+        6
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        11,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Retreat",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        4
+      ],
+      "kills": 20
+    },
+    {
+      "type": "BulletTime",
+      "name": "令",
+      "location": [
+        7,
+        3
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        11,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Retreat",
+      "name": "“弦惊”",
+      "location": [
+        11,
+        1
+      ],
+      "kills": 24
+    },
+    {
+      "type": "BulletTime",
+      "name": "令",
+      "location": [
+        7,
+        3
+      ],
+      "pre_delay": 2200
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Retreat",
+      "name": "“弦惊”",
+      "location": [
+        11,
+        4
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        11,
+        2
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "去咧嘴谷 - TG-8 - 主要运输巷 - 令 - 普通 ",
+    "details": "优化了堵门速刷\n测试通过\n注意：这是普通，不是突袭\n作业作者：浅歌何以相予\nJSON作者：灰bao_\n令：精二90级专3、三级模组\nhttps://www.bilibili.com/video/BV1jW4y1A7H3/?spm_id_from=333.788&vd_source=10857a8c905c104ca2eab27415c72ffc"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 1
+}

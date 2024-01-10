@@ -1,0 +1,61 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "a001_ex02",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "Lancet-2",
+      "location": [
+        1,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "圣约送葬人",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "黑角",
+      "location": [
+        2,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "骑兵与猎人·复刻 - GT-EX-2 - 老无所依 圣葬单核",
+    "details": "圣葬精一满级七级技能即可\n原作者低配挂机研讨会 JSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业\n【【新的时代】从此删除骑兵与猎人  全关卡 精一单核挂机攻略】 https://www.bilibili.com/video/BV1dk4y1f7oo/?p=5&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "圣约送葬人",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "黑角",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "Lancet-2",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}
