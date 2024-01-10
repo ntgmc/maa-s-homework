@@ -1,0 +1,86 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act22side_08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        9,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right",
+      "costs": 25
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Retreat",
+      "name": "星熊",
+      "location": [
+        6,
+        4
+      ],
+      "kills": 37
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "照我以火 - FC-8 - 她的影子 - 少人挂机（包括镀层任务）",
+    "details": "作业作者：Keating_20\nJSON作者：灰bao_\n平均练度：精二90级专3、一级模组\n夜莺刚需模组，练度低自己在夜莺下面补奶\nhttps://www.bilibili.com/video/BV1i24y1X7La/?spm_id_from=333.337.search-card.all.click&vd_source=10857a8c905c104ca2eab27415c72ffc"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2,
+      "skill_times": 1
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}
