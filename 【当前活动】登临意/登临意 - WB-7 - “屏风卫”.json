@@ -1,0 +1,62 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act23side_07",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "澄闪",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "登临意 - WB-7 - “屏风卫”",
+    "details": "原作者魔法ZC目录 JSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业\n【【明日方舟】“登临意”WB-1~9摆完挂机全关卡攻略（含EX）！操作轻松+语音详解的愉悦攻略！《明日方舟》|魔法Zc目录】 https://www.bilibili.com/video/BV1t3411d71R/?p=7&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "澄闪",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2,
+      "skill_times": 1
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

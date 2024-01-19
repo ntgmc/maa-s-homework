@@ -1,0 +1,87 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "WB-EX-6突袭五人",
+        "details": "UP：祈星_Estrella\n原视频：https://www.bilibili.com/video/av863273760/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "act23side_ex06",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 42,
+            "name": "能天使",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        }
+    ]
+}

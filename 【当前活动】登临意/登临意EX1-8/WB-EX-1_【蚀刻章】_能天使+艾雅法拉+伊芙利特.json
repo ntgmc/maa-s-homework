@@ -1,0 +1,58 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "WB-EX-1普通三人【蚀刻章】",
+        "details": "UP：祈星_Estrella\n原视频：https://www.bilibili.com/video/av523316018/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "act23side_ex01",
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "左"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【登临意】WB-1单人",
+        "details": "UP主：冰阔落好喝a\n原视频：https://www.bilibili.com/video/av947978994/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "act23side_01",
+    "opers": [
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

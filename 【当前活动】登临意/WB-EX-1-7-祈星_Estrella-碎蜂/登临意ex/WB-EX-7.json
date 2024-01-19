@@ -1,0 +1,161 @@
+{
+    "minimum_required": "v4.10.0",
+    "doc": {
+        "title": "WB-EX-7",
+        "details": "up：祈星_Estrella\n作者：碎蜂"
+    },
+    "stage_name": "act23side_ex07",
+    "groups": [
+    {
+      "name": "术士",
+      "opers": [
+        {
+          "name": "澄闪",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "刻俄柏",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+],
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+      "type": "SpeedUp",
+      "doc_color": "DarkCyan",
+      "doc": "up：祈星_Estrella\n作者：碎蜂"
+    },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "桃金娘",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "术士",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "铃兰",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+        "type": "Retreat",
+        "name": "推进之王",
+        "costs":25
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "下"
+        }
+    ],
+    "difficulty": 3
+}

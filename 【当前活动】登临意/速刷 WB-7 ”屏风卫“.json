@@ -1,0 +1,91 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act23side_07",
+  "actions": [
+    {
+      "type": "BulletTime",
+      "name": "玛恩纳",
+      "costs": 17,
+      "doc": "速刷作业需要卡轴\n·请确保模拟器在前台运行，不要最小化\n·请不要手动调节倍速",
+      "doc_color": "DarkRed"
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "BulletTime",
+      "name": "棘刺",
+      "costs": 10,
+      "doc": "速刷作业需要卡轴\n·请确保模拟器在前台运行，不要最小化\n·请不要手动调节倍速",
+      "doc_color": "DarkRed",
+      "location": [
+        6,
+        3
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "玛恩纳",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 3
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 9
+    },
+    {
+      "type": "SpeedUp",
+      "costs": 88
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 27
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 38
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 40
+    },
+    {
+      "type": "SkillDaemon",
+      "doc": "如有帮助，请支持原作者！\n攻略作者：化学老施\nBV1aY4y1Z7Pk\n可点击MAA界面左下角 [视频链接] 跳转页面支持作者",
+      "doc_color": "#d63384"
+    }
+  ],
+  "doc": {
+    "title": "速刷 WB-7 ”屏风卫“",
+    "details": "》速刷作业需要卡轴《\n》请确保模拟器在前台运行，不要最小化，否则会操作慢导致乱轴漏怪\n》请不要手动调节倍速\n——————\nUP：化学老施\n无限定【登临意】WB-7 2人堵门速刷 106秒 酮凝集组 简单好抄 明日方舟 信赖攻略 230117\nBV1aY4y1Z7Pk\n可点击MAA界面左下角 [视频链接] 跳转页面支持作者"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "玛恩纳",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}

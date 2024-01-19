@@ -1,0 +1,118 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act23side_ex04",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Up",
+      "costs": 18
+    },
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "克洛丝",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        1,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "WB-EX-4 突袭普通兼容 萧然攻略（拿刻章 新版）",
+    "details": "视频作者：萧然Q   BV1Ms4y1t7FD\n自动战斗作者：鱼丸\n使用干员：德克萨斯1；拉普兰德2；塞雷娅1；能天使3；艾雅法拉2；克洛斯1；夜莺2\n平均练度：精二六十级\n本打法突袭普通兼容 可拿蚀刻章"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "克洛丝",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

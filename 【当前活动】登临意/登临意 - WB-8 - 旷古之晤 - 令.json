@@ -1,0 +1,203 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act23side_08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "BulletTime",
+      "name": "令",
+      "location": [
+        9,
+        4
+      ],
+      "costs": 16
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        9,
+        4
+      ],
+      "costs": 6
+    },
+    {
+      "type": "BulletTime",
+      "name": "令",
+      "location": [
+        9,
+        4
+      ],
+      "costs": 20
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "BulletTime",
+      "name": "令",
+      "location": [
+        9,
+        4
+      ],
+      "pre_delay": 8000
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "BulletTime",
+      "name": "令",
+      "location": [
+        9,
+        4
+      ],
+      "pre_delay": 8000
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Retreat",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        3
+      ],
+      "kills": 14
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        9,
+        4
+      ],
+      "pre_delay": 500
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "BulletTime",
+      "name": "令",
+      "location": [
+        9,
+        4
+      ],
+      "pre_delay": 8000
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        6
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        9,
+        4
+      ],
+      "kills": 32
+    },
+    {
+      "type": "Retreat",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        6
+      ],
+      "kills": 38
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon",
+      "doc": "可以下异德切车了",
+      "doc_color": "#d63384"
+    }
+  ],
+  "doc": {
+    "title": "登临意 - WB-8 - 旷古之晤 - 令",
+    "details": "搜索关键词：登临意-令（多带一个异德手动切最后2个挡4车，就是堵门速刷作业了）（WB-9令应该是没了）\n有些人用国家地理那个皮肤，无法识别龙和干员，更换皮肤可以解决，\n或者清一下maa根目录 cache avatars 里面的缓存图片\n作业作者：Ke_lin\nJSON作者：灰bao_\n令：精二90级专3、三级模组\n建了个q群（789724611），有啥问题可以进来问\nhttps://www.bilibili.com/video/BV1zd4y1L7Y6?p=8"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}

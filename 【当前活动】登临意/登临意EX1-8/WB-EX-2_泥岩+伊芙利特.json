@@ -1,0 +1,44 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "WB-EX-2突袭双人",
+        "details": "作业来源：WWPXX\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "act23side_ex02",
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "伊芙利特",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        }
+    ]
+}

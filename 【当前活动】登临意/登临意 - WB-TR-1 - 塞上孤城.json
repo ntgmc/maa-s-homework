@@ -1,0 +1,37 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act23side_tr01",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "克洛丝",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Skill",
+      "location": [
+        5,
+        1
+      ]
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "登临意 - WB-TR-1 - 塞上孤城",
+    "details": "原作者萧然Q JSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业\n【【登临意】WB全关卡 摆完挂机 简单好抄（更新至WB-EX-8突袭）】 https://www.bilibili.com/video/BV1Ms4y1t7FD/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "克洛丝",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

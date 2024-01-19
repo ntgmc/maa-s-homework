@@ -1,0 +1,50 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【登临意】WB-4双人",
+        "details": "UP主：刻俄柏_\n原视频：https://www.bilibili.com/video/av307997422/\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "act23side_04",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "澄闪",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}
