@@ -1,0 +1,229 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "hard_08-04",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "纯烬艾雅法拉",
+      "location": [
+        10,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "流明",
+      "location": [
+        11,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        10,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        11,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        10,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "白面鸮",
+      "location": [
+        10,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Retreat",
+      "name": "伊芙利特",
+      "location": [
+        11,
+        2
+      ]
+    },
+    {
+      "type": "Retreat",
+      "name": "桃金娘",
+      "location": [
+        9,
+        2
+      ]
+    },
+    {
+      "type": "Retreat",
+      "name": "德克萨斯",
+      "location": [
+        8,
+        5
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "临光",
+      "location": [
+        8,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "阿米娅",
+      "location": [
+        7,
+        6
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Retreat",
+      "name": "棘刺",
+      "location": [
+        8,
+        3
+      ],
+      "kills": 38
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第八章 怒号光明 - H8-4 - 狂夜行动-4（稳定挂机）（某些干员非高配会暴毙注意看作业描述）",
+    "details": "参考作者视频链接https://www.bilibili.com/video/BV1Pp4y1A7oS（修改了一些站位）\nmaa作者：雪见璃\n由于是近卫驴所以无法使用maa的自动编队，需要手动编队\n刚需临光x模1和白面x模1，平均练度2603，棘刺需要精二80撑血量（作者使用精二70没抗住）\n测试挂机已过\n"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "纯烬艾雅法拉",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "流明",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "白面鸮",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "德克萨斯",
+      "skill": 2,
+      "skill_usage": 1
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "临光",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "阿米娅",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

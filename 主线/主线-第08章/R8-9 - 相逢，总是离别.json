@@ -3,8 +3,7 @@
   "stage_name": "main_08-10",
   "actions": [
     {
-      "type": "SpeedUp",
-      "rear_delay": 0
+      "type": "SpeedUp"
     },
     {
       "type": "Deploy",
@@ -13,8 +12,7 @@
         9,
         5
       ],
-      "direction": "Left",
-      "rear_delay": 0
+      "direction": "Left"
     },
     {
       "type": "Deploy",
@@ -23,8 +21,7 @@
         8,
         1
       ],
-      "direction": "Left",
-      "rear_delay": 0
+      "direction": "Left"
     },
     {
       "type": "Deploy",
@@ -33,8 +30,7 @@
         8,
         5
       ],
-      "direction": "Left",
-      "rear_delay": 0
+      "direction": "Left"
     },
     {
       "type": "Deploy",
@@ -44,8 +40,7 @@
         2
       ],
       "direction": "Up",
-      "costs": 57,
-      "rear_delay": 0
+      "costs": 57
     },
     {
       "type": "Deploy",
@@ -54,8 +49,7 @@
         3,
         1
       ],
-      "direction": "Right",
-      "rear_delay": 0
+      "direction": "Right"
     },
     {
       "type": "SkillDaemon"

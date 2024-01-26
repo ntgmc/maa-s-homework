@@ -3,93 +3,119 @@
   "stage_name": "main_08-12",
   "actions": [
     {
-      "type": "SpeedUp",
-      "rear_delay": 0
+      "type": "SpeedUp"
     },
     {
       "type": "Deploy",
-      "name": "棘刺",
-      "location": [
-        3,
-        1
-      ],
-      "direction": "Down",
-      "rear_delay": 0
-    },
-    {
-      "type": "Deploy",
-      "name": "推进之王",
+      "name": "德克萨斯",
       "location": [
         5,
-        6
+        1
       ],
-      "direction": "Right",
-      "rear_delay": 0
+      "direction": "Right"
     },
     {
       "type": "Deploy",
-      "name": "塞雷娅",
+      "name": "守门",
       "location": [
-        6,
+        3,
         6
       ],
-      "direction": "Up",
-      "rear_delay": 0
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        6,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "奶盾",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Up"
     },
     {
       "type": "Deploy",
       "name": "艾雅法拉",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
       "location": [
         5,
         5
       ],
-      "direction": "Up",
-      "rear_delay": 0
-    },
-    {
-      "type": "Deploy",
-      "name": "山",
-      "location": [
-        4,
-        1
-      ],
-      "direction": "Right",
-      "costs": 15,
-      "rear_delay": 0
-    },
-    {
-      "type": "SkillDaemon"
+      "direction": "Left",
+      "kills": 13
     }
   ],
   "doc": {
     "title": "第八章 怒号光明 - M8-7 - 恶言，报应不爽",
-    "details": "BV1b341177PU 作者：祈星_Estrellayc"
+    "details": "UP:侬无言以对\nlink:【【明日方舟】M8-7突袭摆完挂机】 https://www.bilibili.com/video/BV1sX4y1c79U/?share_source=copy_web&vd_source=dcc7ddeba31e59bccd51d29a07ff1565\n精二60 \n推王没精二 改了一点"
   },
-  "groups": [],
-  "opers": [
+  "groups": [
     {
-      "name": "棘刺",
-      "skill": 3,
-      "skill_usage": 1
+      "name": "奶盾",
+      "opers": [
+        {
+          "name": "塞雷娅",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "临光",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
     },
     {
-      "name": "塞雷娅",
-      "skill": 1,
+      "name": "守门",
+      "opers": [
+        {
+          "name": "山",
+          "skill": 2,
+          "skill_usage": 2
+        },
+        {
+          "name": "推进之王",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "能天使",
+      "skill": 3,
       "skill_usage": 0
     },
     {
-      "name": "山",
-      "skill": 2,
-      "skill_usage": 2
-    },
-    {
-      "name": "推进之王",
+      "name": "煌",
       "skill": 2,
       "skill_usage": 0
     },
     {
       "name": "艾雅法拉",
       "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "德克萨斯",
+      "skill": 1,
       "skill_usage": 0
     }
   ],
