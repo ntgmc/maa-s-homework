@@ -1,0 +1,57 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act31side_05",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "克洛丝",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "泵站",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "HS-5 - 纺绫罗",
+    "details": "HS-5 - 纺绫罗"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2,
+      "skill_times": 1
+    },
+    {
+      "name": "克洛丝",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

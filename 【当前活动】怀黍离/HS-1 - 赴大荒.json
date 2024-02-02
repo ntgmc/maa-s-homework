@@ -1,0 +1,47 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act31side_01",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "HS-1 - 赴大荒",
+    "details": "HS-1 - 赴大荒"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}
