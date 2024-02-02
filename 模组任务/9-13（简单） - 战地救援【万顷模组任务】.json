@@ -1,0 +1,126 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_09-11",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "强攻手",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "单奶",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "万顷",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "桃金娘",
+      "skill_usage": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第九章 风暴瞭望 - 9-13（简单） - 战地救援【万顷模组任务】",
+    "details": "任务要求：3星通关主题曲9-13标准实战环境;必须编入非助战万顷并上场，且至少使用2次应东风\nJSON作者：灰bao_\n新干员可能无法识别，建议用自动编队试试水\n开服就用，maa大概率不认识，\n要等到地图包更新后（就是可以用maa打新活动关卡的时候）才能用\n建了个q群（789724611），有啥问题可以进来问"
+  },
+  "groups": [
+    {
+      "name": "单奶",
+      "opers": [
+        {
+          "name": "华法琳",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "闪灵",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "流明",
+          "skill": 3,
+          "skill_usage": 1
+        },
+        {
+          "name": "纯烬艾雅法拉",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "强攻手",
+      "opers": [
+        {
+          "name": "百炼嘉维尔",
+          "skill": 2,
+          "skill_usage": 1
+        },
+        {
+          "name": "煌",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "万顷",
+      "skill": 2,
+      "skill_usage": 1
+    }
+  ],
+  "difficulty": 1
+}

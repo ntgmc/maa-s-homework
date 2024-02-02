@@ -1,0 +1,157 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act5d0_ex04",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "便携式补给站",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "钩子",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        5,
+        5
+      ]
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        4,
+        3
+      ],
+      "kills": 10
+    },
+    {
+      "type": "SkillUsage",
+      "name": "令",
+      "skill_usage": 1
+    },
+    {
+      "type": "Retreat",
+      "name": "钩子",
+      "location": [
+        2,
+        5
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "钩子",
+      "location": [
+        10,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        10,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "喧闹法则·复刻 - CB-EX4 - 施工现场",
+    "details": "CB-令\n钩子要精一以上，技能等级4级及以上，最好肉点\n第一个小兵卡不住是因为延迟太高，建议换台电脑"
+  },
+  "groups": [
+    {
+      "name": "钩子",
+      "opers": [
+        {
+          "name": "歌蕾蒂娅",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "崖心",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "暗索",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}
