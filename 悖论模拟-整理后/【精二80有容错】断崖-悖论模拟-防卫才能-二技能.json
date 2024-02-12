@@ -1,0 +1,149 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "mem_ayer_1",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "断崖",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Left",
+      "costs": 21
+    },
+    {
+      "type": "Skill",
+      "costs": 48,
+      "name": "断崖",
+      "location": [
+        5,
+        3
+      ]
+    },
+    {
+      "type": "Skill",
+      "name": "莱恩哈特",
+      "location": [
+        8,
+        3
+      ],
+      "kills": 49
+    },
+    {
+      "type": "Skill",
+      "name": "莱恩哈特",
+      "location": [
+        8,
+        3
+      ],
+      "kills": 0
+    },
+    {
+      "type": "Skill",
+      "name": "角峰",
+      "location": [
+        6,
+        4
+      ],
+      "pre_delay": 15000
+    },
+    {
+      "type": "Skill",
+      "name": "斑点",
+      "location": [
+        4,
+        2
+      ]
+    },
+    {
+      "type": "Skill",
+      "name": "断崖",
+      "location": [
+        5,
+        3
+      ],
+      "pre_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "莱恩哈特",
+      "location": [
+        8,
+        3
+      ]
+    },
+    {
+      "type": "Skill",
+      "name": "莱恩哈特",
+      "location": [
+        8,
+        3
+      ]
+    },
+    {
+      "type": "Skill",
+      "name": "蛇屠箱",
+      "location": [
+        4,
+        3
+      ]
+    },
+    {
+      "type": "Skill",
+      "name": "泡泡",
+      "location": [
+        4,
+        4
+      ]
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【精二80有容错】断崖-悖论模拟-防卫才能-二技能",
+    "details": "自己的断崖是80四潜的，操作都延后了几秒，应该没问题吧（？）\nMAA的两个作业几乎不可用，自己搓了一个（其实这关很简单的）\n写脚本发现有一点bug，但是无伤大雅，程序仍然在正常运行！"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "断崖",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "斑点",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "蛇屠箱",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "泡泡",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "古米",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "角峰",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "莱恩哈特",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act31side_ex08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        11,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "泵站",
+      "location": [
+        10,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "泵站",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        11,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "奶",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        11,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "澄闪",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        9,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "泵站",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "HS-EX-8 - 收割",
+    "details": "原作者萧然Q JSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业\n【【怀黍离】HS-EX-1至EX-8突袭 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1aC411z7nB/?p=8&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [
+    {
+      "name": "奶",
+      "opers": [
+        {
+          "name": "纯烬艾雅法拉",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "闪灵",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "澄闪",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

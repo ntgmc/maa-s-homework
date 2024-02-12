@@ -1,0 +1,136 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act31side_ex01",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "泵站",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Up",
+      "kills": 36
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "令",
+      "skill_usage": 1
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "HS-EX-1 - 整地 - 令【突袭】",
+    "details": "泵方向不一样，普通不能用\nHS-令\n令：精二90级专3，三级模组\n延迟太高的人建议用挂机"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 2
+}

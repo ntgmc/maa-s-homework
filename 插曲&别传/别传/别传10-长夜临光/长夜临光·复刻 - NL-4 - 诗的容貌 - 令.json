@@ -1,0 +1,104 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act13side_04",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "芬",
+      "location": [
+        1,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right",
+      "costs": 22
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Right",
+      "costs": 22
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        1
+      ],
+      "pre_delay": 4000
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Right",
+      "pre_delay": 30000
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "长夜临光·复刻 - NL-4 - 诗的容貌 - 令",
+    "details": "NL-令"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "芬",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

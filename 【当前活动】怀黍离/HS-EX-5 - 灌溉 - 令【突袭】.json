@@ -1,0 +1,239 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act31side_ex05",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        7,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        7,
+        1
+      ],
+      "costs": 16
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "阻流阀",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Deploy",
+      "name": "阻流阀",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Deploy",
+      "name": "阻流阀",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "阻流阀",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Deploy",
+      "name": "阻流阀",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "阻流阀",
+      "location": [
+        2,
+        1
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        7,
+        1
+      ],
+      "kills": 10,
+      "costs": 28
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "location": [
+        7,
+        1
+      ],
+      "kills": 23,
+      "costs": 40
+    },
+    {
+      "type": "SkillUsage",
+      "name": "令",
+      "skill_usage": 1
+    },
+    {
+      "type": "Deploy",
+      "name": "阻流阀",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Deploy",
+      "name": "阻流阀",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Up",
+      "pre_delay": 2000
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "阻流阀",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "None",
+      "costs": 38
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Down",
+      "costs": 45
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "HS-EX-5 - 灌溉 - 令【突袭】",
+    "details": "HS-令，普通对不上轴不能用，\n这关比较极限，全程一倍速\n令：精二90级专3，三级模组\n延迟太高的人建议用挂机\nhttps://www.bilibili.com/video/BV1h4421c7VD/?spm_id_from=333.1365.list.card_archive.click&vd_source=10857a8c905c104ca2eab27415c72ffc"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 2
+}
