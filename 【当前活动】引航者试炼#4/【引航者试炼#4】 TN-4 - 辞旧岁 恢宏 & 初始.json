@@ -1,0 +1,405 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act4bossrush_04",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        7,
+        8
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        8,
+        7
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        9,
+        7
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        8,
+        8
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "纯烬艾雅法拉",
+      "location": [
+        6,
+        8
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Skill",
+      "name": "夜莺",
+      "location": [
+        9,
+        7
+      ],
+      "kills": 25
+    },
+    {
+      "type": "MoveCamera",
+      "distance": [
+        9,
+        0.1
+      ],
+      "kills": 26,
+      "pre_delay": 15000
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        15,
+        7
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "改良型二踢脚",
+      "location": [
+        16,
+        7
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞or黍",
+      "location": [
+        15,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        16,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 16
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        18,
+        6
+      ],
+      "direction": "Up",
+      "kills": 19
+    },
+    {
+      "type": "SkillUsage",
+      "name": "棘刺",
+      "skill_usage": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        17,
+        5
+      ],
+      "direction": "Up",
+      "kills": 20
+    },
+    {
+      "type": "Skill",
+      "name": "夜莺",
+      "location": [
+        16,
+        5
+      ]
+    },
+    {
+      "type": "SkillUsage",
+      "name": "夜莺",
+      "skill_usage": 1
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        17,
+        5
+      ],
+      "kills": 23,
+      "pre_delay": 4000,
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        18,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "棘刺",
+      "kills": 24,
+      "location": [
+        18,
+        6
+      ]
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Retreat",
+      "name": "伊芙利特",
+      "location": [
+        15,
+        7
+      ],
+      "kills": 28
+    },
+    {
+      "type": "Retreat",
+      "name": "塞or黍",
+      "location": [
+        15,
+        4
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "纯烬艾雅法拉",
+      "location": [
+        15,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Retreat",
+      "name": "夜莺",
+      "location": [
+        16,
+        5
+      ]
+    },
+    {
+      "type": "Skill",
+      "name": "棘刺",
+      "location": [
+        18,
+        6
+      ],
+      "pre_delay": 12000
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        18,
+        7
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Retreat",
+      "name": "艾雅法拉",
+      "location": [
+        17,
+        5
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        17,
+        5
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Retreat",
+      "name": "纯烬艾雅法拉",
+      "location": [
+        15,
+        5
+      ]
+    },
+    {
+      "type": "MoveCamera",
+      "distance": [
+        5.8,
+        -0.1
+      ],
+      "kills": 29,
+      "pre_delay": 15000
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        24,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞or黍",
+      "location": [
+        26,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "纯烬艾雅法拉",
+      "location": [
+        23,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        25,
+        5
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        23,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Retreat",
+      "name": "纯烬艾雅法拉",
+      "location": [
+        23,
+        5
+      ],
+      "kills": 34
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【引航者试炼#4】 TN-4 - 辞旧岁 恢宏 & 初始",
+    "details": "遏制单元：第一个，三级\n恢宏：记得选择自由编队\n初始：也能用\n平均练度精二90级专3，有模组的一级模组\n部分人要是出现第二波错位无法部署我也没啥方法\n2/25更新后坐标出现问题，我改了一下\nhttps://www.bilibili.com/video/BV1fm411U7A4/?spm_id_from=333.337.search-card.all.click&vd_source=10857a8c905c104ca2eab27415c72ffc"
+  },
+  "groups": [
+    {
+      "name": "塞or黍",
+      "opers": [
+        {
+          "name": "塞雷娅",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "黍",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 2,
+      "skill_times": 2
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "纯烬艾雅法拉",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 2
+}
