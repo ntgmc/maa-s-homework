@@ -1,0 +1,42 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act32side_tr01",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "杰西卡",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "医生",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "双月",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "水晶箭行动 - CR-TR-1 - “请有序入场”",
+    "details": "需要手动跳剧情\n原作者萧然Q JSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业\n【【水晶箭行动】CR-1至CR-8 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1Vm411Z7td/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [],
+  "opers": []
+}
