@@ -1,0 +1,123 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act17d0_07",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "加固装置",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "加固装置",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "加固装置",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "源石尘行动·复刻 - OD-7 - 地堡防线 -令",
+    "details": "OD-令\n令练度：精二90级专3，三级模组\n已测试"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}

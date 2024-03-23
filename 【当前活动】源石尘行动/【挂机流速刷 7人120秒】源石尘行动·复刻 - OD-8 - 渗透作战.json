@@ -1,0 +1,132 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act17d0_08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "水月",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Up",
+      "kills": 9
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "德克萨斯",
+      "skill_usage": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "德克萨斯",
+      "location": [
+        5,
+        3
+      ],
+      "kills": 30
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【挂机流速刷 7人120秒】源石尘行动·复刻 - OD-8 - 渗透作战",
+    "details": "原作者化学老施：https://www.bilibili.com/video/BV1PA4m1N7zv\n已测试，练度至少精二60级带模组专三，练度越高越好。\n【注意】❗❗塞雷娅Y模或无模，X模组会乱轴；水月需要2级X模组❗❗\n练度不够请自行带工具人在右下角守门"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "德克萨斯",
+      "skill": 2,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "水月",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}
