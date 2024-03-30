@@ -1,0 +1,232 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "level_crisis_v2_02-01",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        10,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊内丝",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "投锋",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "塑心",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Retreat",
+      "name": "伊内丝",
+      "costs": 18
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Retreat",
+      "name": "桃金娘",
+      "costs": 25
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        6,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Retreat",
+      "name": "投锋",
+      "costs": 23
+    },
+    {
+      "type": "Deploy",
+      "name": "林",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊内丝",
+      "location": [
+        5,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Retreat",
+      "name": "伊内丝"
+    },
+    {
+      "type": "Deploy",
+      "name": "白面鸮",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "林",
+      "kills": 26
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊内丝",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "林",
+      "kills": 28,
+      "costs": 55,
+      "skill_usage": 1
+    },
+    {
+      "type": "Deploy",
+      "name": "伊内丝",
+      "location": [
+        4,
+        3
+      ],
+      "kills": 33,
+      "direction": "Up"
+    },
+    {
+      "type": "Retreat",
+      "name": "伊内丝"
+    },
+    {
+      "type": "Retreat",
+      "name": "白面鸮"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "危机合约 - 潮曦作战 - 不朽厅堂630分",
+    "details": "可能不稳定，建议抄maa://35459\n林必须有模组\nTAG：\n恶敌上面两个\n衰退下面两个\n引痕全部\n约束下面两个\n险地不点最终防线\n缺失全点，or点右下\n裂潮全点，or点下\n溟海全点\n应变点第一个\n原作者萧然Q JSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业\n【【潮曦作战】全关卡全任务 摆完挂机 简单好抄（更新至不朽厅堂620+3.28月落环巷）】 https://www.bilibili.com/video/BV1pq421A7UU/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [
+    {
+      "name": "投锋",
+      "opers": [
+        {
+          "name": "极境",
+          "skill": 1,
+          "skill_usage": 1
+        },
+        {
+          "name": "琴柳",
+          "skill": 1,
+          "skill_usage": 1
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "伊内丝",
+      "skill": 2,
+      "skill_usage": 1
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "林",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "风笛",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塑心",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "白面鸮",
+      "skill": 2,
+      "skill_usage": 1
+    }
+  ]
+}
