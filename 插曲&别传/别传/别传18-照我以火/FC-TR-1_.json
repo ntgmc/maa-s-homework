@@ -1,0 +1,39 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "【照我以火】FC-TR-1双人",
+        "details": "原视频：https://www.bilibili.com/video/av348772278/\nUP：侬无言以对\n有问题联系制作者QQ2586582719"
+    },
+    "stage_name": "FC-TR-1",
+    "opers": [],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "卡缇",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "玫兰莎",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "有问题联系制作者QQ2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}
