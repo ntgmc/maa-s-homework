@@ -19,8 +19,7 @@ for i in range(14):
                 file_path = os.path.join(root, file)
                 zipf.write(file_path, os.path.relpath(file_path, source_folder_path))
     
-    # 输出提示信息
-    print("成功压缩文件夹'{}'为压缩包'{}'".format(source_folder_path, destination_zip_path))
+    print(f"成功压缩文件夹'{source_folder_path}'为压缩包'{destination_zip_path}'")
 
 # 压缩所有章节的压缩包
 destination_all_zip_path = os.path.join(destination_folder, "主线.zip")
@@ -33,9 +32,4 @@ with zipfile.ZipFile(destination_all_zip_path, 'w', zipfile.ZIP_DEFLATED) as zip
 destination_all_folder = r"D:\GITHOME\maa\【下载看这里】合集下载"
 shutil.move(destination_all_zip_path, os.path.join(destination_all_folder, "主线.zip"))
 
-# 输出作者信息
-print("程序作者：ChatGPT")
-# 执行您的Python代码
-
-# 让程序等待用户输入任意内容后才关闭
 input('程序执行完毕，请按任意键继续...')
