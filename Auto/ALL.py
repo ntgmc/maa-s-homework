@@ -39,7 +39,7 @@ for source in source_list:
 
     # 压缩整个压缩包文件夹，并移动到目标文件夹中
     shutil.make_archive(os.path.join(destination_folder, source), 'zip', destination_folder)
-    file_path = fr"D:\GITHOME\maa\【下载看这里】合集下载\{source}"
+    file_path = fr"D:\GITHOME\maa\【下载看这里】合集下载\{source}.zip"
     if os.path.exists(file_path):
         os.remove(file_path)
     shutil.move(os.path.join(destination_folder, f"{source}.zip"), r"D:\GITHOME\maa\【下载看这里】合集下载")
@@ -90,5 +90,3 @@ with zipfile.ZipFile(zip_file_path, 'w', zipfile.ZIP_DEFLATED) as zip_file:
 # 移动压缩文件到目标文件夹
 shutil.move(zip_file_path, os.path.join(target_dir, zip_file_name))
 print(f"所有文件已成功压缩为: {os.path.join(target_dir, zip_file_name)}")
-
-input('程序执行完毕，请按任意键继续...')
