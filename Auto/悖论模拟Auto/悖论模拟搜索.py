@@ -42,14 +42,15 @@ def search(keyword):
             ids_user = []
             for item in data['data']['data']:
                 percent = calculate_percent(item)
-                if percent > 50:
+                if percent > 0:
                     ids_develop.append(code_output(percent, item['id'], 1))
-                    ids_user.append(code_output(percent, item['id'], 2))
-            return len(ids_develop), ', '.join(ids_develop), ', '.join(ids_user)
+                    if percent > 50:
+                        ids_user.append(code_output(percent, item['id'], 2))
+            return len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
         else:
-            return 0, "None", "None"
+            return 0, 0, "None", "None"
     else:
-        return 0, "None", "None"
+        return 0, 0, "None", "None"
 
 
 # 读取关键字文件
@@ -68,9 +69,9 @@ with open(keywords_file, 'r', encoding='utf-8') as f:
                 output_lines_user.append(line)
                 continue
             keyword = line.strip()
-            id_count, str_ids_develop, str_ids_user = search(keyword)
-            output_lines_develop.append(f"{keyword}\t{id_count}\t{str_ids_develop}\n")
-            output_lines_user.append(f"{keyword}\t{id_count}\t{str_ids_user}\n")
+            id_count_develop, id_count_user, str_ids_develop, str_ids_user = search(keyword)
+            output_lines_develop.append(f"{keyword}\t{id_count_develop}\t{str_ids_develop}\n")
+            output_lines_user.append(f"{keyword}\t{id_count_user}\t{str_ids_user}\n")
         output_develop.writelines(output_lines_develop)
         output_user.writelines(output_lines_user)
 
