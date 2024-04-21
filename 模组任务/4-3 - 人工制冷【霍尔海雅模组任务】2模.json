@@ -1,0 +1,74 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_04-03",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "霍尔海雅",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞or黍",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第四章 急性衰竭 - 4-3 - 人工制冷【霍尔海雅模组任务】2模",
+    "details": "霍尔海雅二模\n任务要求：3星通关主题曲4-3；必须编入非助战霍尔海雅并上场，且使用霍尔海雅至少歼灭10个敌人"
+  },
+  "groups": [
+    {
+      "name": "塞or黍",
+      "opers": [
+        {
+          "name": "塞雷娅",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "黍",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "霍尔海雅",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2,
+      "skill_times": 1
+    }
+  ],
+  "difficulty": 1
+}

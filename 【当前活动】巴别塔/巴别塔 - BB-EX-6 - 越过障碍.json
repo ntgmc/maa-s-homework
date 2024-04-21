@@ -1,0 +1,110 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act33side_ex06",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "Left",
+      "costs": 20
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Up",
+      "costs": 23
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        10,
+        1
+      ],
+      "direction": "Down",
+      "costs": 20
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Down",
+      "costs": 22
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        10,
+        5
+      ],
+      "direction": "Up",
+      "costs": 18
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        10,
+        2
+      ],
+      "direction": "Down",
+      "costs": 14
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "巴别塔 - BB-EX-6 - 越过障碍",
+    "details": "自用，https://www.bilibili.com/video/BV1Xp421D7SG，祈星_Estrella"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "闪灵",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}
