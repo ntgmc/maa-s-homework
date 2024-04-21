@@ -226,7 +226,7 @@ def configure_download_settings():
 
 
 def generate_filename(keyword, data):
-    #stage_name = data.get('stage_name', '')
+    # stage_name = data.get('stage_name', '')
     stage_name = keyword.upper()
     opers = data.get('opers', [])
     names = '+'.join(oper.get('name', '') for oper in opers)
@@ -308,7 +308,7 @@ def mode2():
     os.system("cls")
     print("已进入批量搜索并下载模式，（输入back返回）")
     while True:
-        keyword = input("请输入关卡代号(如WD,OD)：").replace(" ", "")
+        keyword = input("请输入关卡代号(如WD,OD)(仅支持活动关)：").replace(" ", "")
         if keyword.lower() == "back":
             return menu()
         elif "-" in keyword or len(keyword) != 2:
