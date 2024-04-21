@@ -12,11 +12,17 @@ def calculate_percent(item):
         return round(like / total * 100, 2)
 
 
-def code_output(percent, id):
-    if percent < 80:
-        return f"*maa://{id} ({percent})"
+def code_output(percent, id, mode):
+    if mode == 1:
+        if percent < 80:
+            return f"*maa://{id} ({percent})"
+        else:
+            return f"maa://{id} ({percent})"
     else:
-        return f"maa://{id} ({percent})"
+        if percent < 80:
+            return f"*maa://{id}"
+        else:
+            return f"maa://{id}"
 
 
 def search(keyword):
@@ -32,37 +38,41 @@ def search(keyword):
         data = _response.json()
         total = data['data'].get('total', 0)
         if total > 0:
-            ids = []
+            ids_develop = []
+            ids_user = []
             for item in data['data']['data']:
                 percent = calculate_percent(item)
                 if percent > 50:
-                    ids.append(code_output(percent, item['id']))
-                else:
-                    continue
-            return len(ids), ', '.join(ids)
+                    ids_develop.append(code_output(percent, item['id'], 1))
+                    ids_user.append(code_output(percent, item['id'], 2))
+            return len(ids_develop), ', '.join(ids_develop), ', '.join(ids_user)
         else:
-            return 0, "None"
+            return 0, "None", "None"
     else:
-        return 0, "None"
+        return 0, "None", "None"
 
 
 # 读取关键字文件
 keywords_file = './keywords.txt'
-output_file = './output.txt'
-file_path2 = "./output2.txt"
-output_lines = []
+output_file_develop = './output_develop.txt'
+output_file_user = './output_user.txt'
+output_lines_develop = []
+output_lines_user = []
 with open(keywords_file, 'r', encoding='utf-8') as f:
-    with open(output_file, 'w', encoding='utf-8') as output:
+    with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w',
+                                                                                  encoding='utf-8') as output_user:
         for line in f:
             # 如果是空行，保留空行并继续下一行的处理
             if not line.strip():
-                output_lines.append(line)
+                output_lines_develop.append(line)
+                output_lines_user.append(line)
                 continue
             keyword = line.strip()
-            id_count, str_ids = search(keyword)
-            output_lines.append(f"{keyword}\t{id_count}\t{str_ids}\n")
-            print(f"{keyword}\t{id_count}\t{str_ids}\n")
-        output.writelines(output_lines)
+            id_count, str_ids_develop, str_ids_user = search(keyword)
+            output_lines_develop.append(f"{keyword}\t{id_count}\t{str_ids_develop}\n")
+            output_lines_user.append(f"{keyword}\t{id_count}\t{str_ids_user}\n")
+        output_develop.writelines(output_lines_develop)
+        output_user.writelines(output_lines_user)
 
 print("输出完成！")
 
@@ -90,24 +100,25 @@ params = {
 response = requests.get('https://prts.wiki/index.php', params=params, headers=headers)
 # 提取HTML中的角色名
 character_names = extract_character_names(response.text)
-# 处理txt文件
-with open(output_file, 'r', encoding='utf-8') as txt_file:
-    lines = txt_file.readlines()
-# 处理每一行
-output_lines = []
-for line in lines:
-    # 如果是空行，保留空行并继续下一行的处理
-    if not line.strip():
-        output_lines.append(line)
-        continue
-    parts = line.split('\t')
-    name = parts[0]
-    if name in character_names:
-        output_lines.append(line)
-    else:
-        # 如果角色名不存在，将后面两个内容都变为"-"
-        output_lines.append(name + '\t-\t-\n')
-# 写入处理后的内容到新的txt文件中
-with open(file_path2, 'w', encoding='utf-8') as output_file:
-    output_file.writelines(output_lines)
+for file_name in ['output_develop.txt', 'output_user.txt']:
+    # 处理txt文件
+    with open(file_name, 'r', encoding='utf-8') as txt_file:
+        lines = txt_file.readlines()
+    # 处理每一行
+    output_lines = []
+    for line in lines:
+        # 如果是空行，保留空行并继续下一行的处理
+        if not line.strip():
+            output_lines.append(line)
+            continue
+        parts = line.split('\t')
+        name = parts[0]
+        if name in character_names:
+            output_lines.append(line)
+        else:
+            # 如果角色名不存在，将后面两个内容都变为"-"
+            output_lines.append(name + '\t-\t-\n')
+    # 写入处理后的内容到原来的txt文件中
+    with open(file_name, 'w', encoding='utf-8') as output_file:
+        output_file.writelines(output_lines)
 print("输出完成！")
