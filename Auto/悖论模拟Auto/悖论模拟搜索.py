@@ -14,12 +14,20 @@ def calculate_percent(item):
 
 def code_output(percent, id, mode):
     if mode == 1:
-        if percent < 80:
+        if percent <= 30:
+            return f"***maa://{id} ({percent})"
+        elif percent <= 50:
+            return f"**maa://{id} ({percent})"
+        elif percent <= 80:
             return f"*maa://{id} ({percent})"
         else:
             return f"maa://{id} ({percent})"
     else:
-        if percent < 80:
+        if percent <= 30:
+            return f"***maa://{id}"
+        elif percent <= 50:
+            return f"**maa://{id}"
+        elif percent <= 80:
             return f"*maa://{id}"
         else:
             return f"maa://{id}"
@@ -44,7 +52,7 @@ def search(keyword):
                 percent = calculate_percent(item)
                 if percent > 0:
                     ids_develop.append(code_output(percent, item['id'], 1))
-                    if percent > 50:
+                    if percent >= 20:
                         ids_user.append(code_output(percent, item['id'], 2))
             return len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
         else:
