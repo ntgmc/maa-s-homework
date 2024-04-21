@@ -9,7 +9,14 @@ def calculate_percent(item):
     if total == 0:
         return 0
     else:
-        return like / total * 100
+        return round(like / total * 100, 2)
+
+
+def code_output(percent, id):
+    if percent < 80:
+        return f"*maa://{id} ({percent})"
+    else:
+        return f"maa://{id} ({percent})"
 
 
 def search(keyword):
@@ -28,10 +35,10 @@ def search(keyword):
             ids = []
             for item in data['data']['data']:
                 percent = calculate_percent(item)
-                if percent < 80:
-                    ids.append("*maa://" + str(item['id']))
+                if percent > 50:
+                    ids.append(code_output(percent, item['id']))
                 else:
-                    ids.append("maa://" + str(item['id']))
+                    continue
             return len(ids), ', '.join(ids)
         else:
             return 0, "None"
@@ -40,9 +47,9 @@ def search(keyword):
 
 
 # 读取关键字文件
-keywords_file = r'C:\Users\Administrator.Arknights-WZXKT\Desktop\python\maa\悖论模拟\keywords.txt'
-output_file = r'C:\Users\Administrator.Arknights-WZXKT\Desktop\python\maa\悖论模拟\output.txt'
-file_path2 = r"C:\Users\Administrator.Arknights-WZXKT\Desktop\python\maa\悖论模拟\output2.txt"
+keywords_file = './keywords.txt'
+output_file = './output.txt'
+file_path2 = "./output2.txt"
 output_lines = []
 with open(keywords_file, 'r', encoding='utf-8') as f:
     with open(output_file, 'w', encoding='utf-8') as output:
@@ -72,17 +79,6 @@ def extract_character_names(html_content):
 
 
 headers = {
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-    'cache-control': 'no-cache',
-    'pragma': 'no-cache',
-    'sec-ch-ua': '"Microsoft Edge";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"Windows"',
-    'sec-fetch-dest': 'empty',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'same-origin',
-    'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0',
 }
 params = {
