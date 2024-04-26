@@ -1,0 +1,155 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act33side_s03",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        6,
+        7
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        4,
+        7
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "奶盾",
+      "location": [
+        2,
+        7
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        3,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        1,
+        6
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Retreat",
+      "name": "",
+      "location": [
+        6,
+        7
+      ]
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 15
+    },
+    {
+      "type": "Deploy",
+      "name": "幻影",
+      "location": [
+        1,
+        5
+      ],
+      "direction": "None",
+      "kills": 18
+    },
+    {
+      "type": "Deploy",
+      "name": "幻影",
+      "location": [
+        1,
+        5
+      ],
+      "direction": "None",
+      "kills": 24
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "巴别塔 - BB-S-3 - 模拟刺杀作战-3（老干员）",
+    "details": "2903\n用鸟笼和桃子骗吉他手技能，截图太慢的话手点一下，17杀之后放置\n原视频：https://www.bilibili.com/video/BV1Aw4m1m7Kf"
+  },
+  "groups": [
+    {
+      "name": "奶盾",
+      "opers": [
+        {
+          "name": "黍",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2,
+      "skill_times": 1
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}
