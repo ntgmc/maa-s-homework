@@ -86,7 +86,7 @@ def search(keyword, job=None):
                     file_path = f"./download/{job}/{keyword} - {int(percent)} - {item['id']}.json"
                     if not os.path.exists(file_path):
                         check_file_exists(job, keyword, item['id'])
-                        write_to_file(file_path, item['content'])
+                        write_to_file(file_path, json.loads(item['content']))
             print(f"成功搜索 {job} - {keyword}")
             return len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
         else:
