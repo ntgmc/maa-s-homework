@@ -55,7 +55,11 @@ def check_file_exists(job, keyword, id):  # 判断是否存在相同id但评分�
 
 
 def search(keyword, job=None):
-    url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword=悖论模拟&document={keyword}&desc=true&orderBy=hot"
+    if keyword == "W":
+        print(f"成功搜索 {job} - {keyword}")
+        return 0, 0, "None", "None"
+    else:
+        url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword=悖论模拟&document={keyword}&desc=true&orderBy=hot"
     _headers = {
         "Origin": "https://prts.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
