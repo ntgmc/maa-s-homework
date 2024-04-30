@@ -1,0 +1,64 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_07-13",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "costs": 20,
+            "name": "棘刺",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Right",
+            "costs": 10
+        },
+        {
+            "type": "Deploy",
+            "name": "号角",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Right",
+            "costs": 27
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "号角模组任务 7-15 苦难摇篮",
+        "details": "模组任务 棘刺2903 山2803 号角2800 亲测已过"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "棘刺",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "号角",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "minimum_required": "v4.0.0",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "凛冬",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Output",
+            "doc_color": "#6f42c1",
+            "doc": "给个好评吧，亲~"
+        }
+    ],
+    "doc": {
+        "title": "凛冬模组摆完挂机-冬将军的毕业礼物",
+        "details": "侬无言以对模组任务摆完挂机合集:BV1wU4y177Qu\n3星通关主题曲1-5；必须编入非助战凛冬并上场，其他成员仅可编入先锋与狙击干员\n筱竹聽雨"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "凛冬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "stage_name": "main_01-05"
+}

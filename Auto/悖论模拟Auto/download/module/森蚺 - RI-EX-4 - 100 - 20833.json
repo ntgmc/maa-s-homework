@@ -1,0 +1,56 @@
+{
+    "stage_name": "RI-EX-4",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "闪灵",
+            "skill": 2
+        },
+        {
+            "name": "森蚺",
+            "skill": 1
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "煌",
+            "type": "Deploy",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "闪灵",
+            "type": "Deploy",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "name": "森蚺",
+            "type": "Deploy",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Up"
+        }
+    ],
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "森蚺模组任务",
+        "details": "BV1SR4y1P7cY\n煌专三 闪灵专一"
+    }
+}

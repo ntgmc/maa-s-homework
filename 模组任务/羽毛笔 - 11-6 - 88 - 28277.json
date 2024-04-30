@@ -1,0 +1,69 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_11-05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "羽毛笔",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        }
+    ],
+    "doc": {
+        "title": "第十一章 淬火尘霾 - 11-6（磨难） - 演绎文明",
+        "details": "up:苏趴YU\nlink:【明日方舟 磨难11-6 羽毛笔三人三核三步挂机流  简单好抄（bushi）】 https://www.bilibili.com/video/BV1eG411j7SC/?share_source=copy_web&vd_source=dcc7ddeba31e59bccd51d29a07ff1565\n精二603"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "羽毛笔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

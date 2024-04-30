@@ -1,0 +1,77 @@
+{
+    "minimum_required": "v4.0.0",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "推进之王",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "锡兰",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Output",
+            "doc_color": "#6f42c1",
+            "doc": "给个好评吧，亲~"
+        }
+    ],
+    "doc": {
+        "title": "锡兰模组摆完挂机-野外考察套装",
+        "details": "侬无言以对模组任务摆完挂机合集:BV1wU4y177Qu\n3星通关别传OF-3；且仅可编入非助战锡兰1名医疗干员并上场\n筱竹聽雨"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "锡兰",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "stage_name": "a003_03"
+}

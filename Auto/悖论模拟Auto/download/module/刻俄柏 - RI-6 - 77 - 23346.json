@@ -1,0 +1,61 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act12d0_06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "刻俄柏",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "刻俄柏第一模组（x模）任务摆完挂机",
+        "details": "b站up：侬无言以对 视频链接：https://www.bilibili.com/video/BV1nY4y1Z7U2/\njson制作：unspeakable\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "刻俄柏",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

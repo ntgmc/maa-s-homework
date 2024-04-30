@@ -1,0 +1,104 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "【覆潮之下】SV-8 【灰烬模组任务】",
+        "details": "ash二模任务\n任务要求：ash击杀两个蛋\nUP主：萧然Q 视频上进行修改\n原视频：https://www.bilibili.com/video/av512053357?p=9\n已测试\n"
+    },
+    "stage_name": "act18d3_08",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "灰烬",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "灰烬",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "SpringGreen",
+            "doc": "有问题联系制作者QQ2586582719",
+            "name": ""
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ]
+}
