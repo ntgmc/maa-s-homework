@@ -2,6 +2,7 @@ import os
 import zipfile
 import datetime
 import shutil
+import glob
 
 
 def zip_json_files(_source_folder, _destination_file):
@@ -62,7 +63,22 @@ for source in source2_list:
     # 压缩指定类型文件
     zip_json_files(source_folder, destination_file)
     print(f"成功压缩{destination_file}")
-# 压缩文件夹列表
+# 当前活动
+now_activity_folders = glob.glob(r"D:\GITHOME\maa\【当前活动】*")
+# 遍历所有匹配的文件夹
+for folder in now_activity_folders:
+    # 构造目标压缩文件的路径
+    destination_file = os.path.join(r"D:\GITHOME\maa\【下载看这里】合集下载", os.path.basename(folder) + ".zip")
+
+    # 如果目标文件存在，就删除它
+    if os.path.exists(destination_file):
+        os.remove(destination_file)
+
+    # 压缩文件夹
+    shutil.make_archive(destination_file[:-4], 'zip', folder)
+
+    print(f"成功压缩{folder}为{destination_file}")
+# ALL
 folders = [
     r"D:\GITHOME\maa\资源关",
     r"D:\GITHOME\maa\主线",
