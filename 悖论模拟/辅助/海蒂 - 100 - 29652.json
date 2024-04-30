@@ -1,1 +1,99 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_heidi_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u6d77\u8482\",\"location\":[4,4],\"direction\":\"Up\",\"costs\":6},{\"type\":\"Skill\",\"name\":\"\u6d77\u8482\",\"location\":[4,4],\"costs\":15,\"pre_delay\":4000},{\"type\":\"Deploy\",\"name\":\"\u7130\u5f71\u82c7\u8349\",\"location\":[4,5],\"costs\":17,\"direction\":\"Up\"},{\"type\":\"Skill\",\"name\":\"\u6d77\u8482\",\"location\":[4,4],\"kills\":10},{\"type\":\"Skill\",\"name\":\"\u98ce\u4e38\",\"location\":[3,5],\"kills\":14},{\"type\":\"Skill\",\"name\":\"\u6d77\u8482\",\"kills\":51,\"rear_delay\":0,\"pre_delay\":11500},{\"type\":\"Skill\",\"name\":\"\u98ce\u4e38\",\"kills\":0,\"rear_delay\":0,\"pre_delay\":0,\"cooling\":1}],\"doc\":{\"title\":\"\u8f85\u52a9 - \u6d77\u8482 - \u6ef4\u6c34\u4e0d\u6f0f\",\"details\":\"\u6d77\u8482\u5e26\u4e8c\uff0c\u53ef\u80fd\u7684\u7ffb\u8f66\u70b9\u5728\u72d7\u5927\u961f\u5904\u548c\u6700\u540e\u7070\u793c\u5e3d\u5904\uff0c\u7070\u793c\u5e3d\u5904\u53ef\u624b\u52a8\u5f00\u98ce\u4e38\u6280\u80fd\u7838\u4ed6\u3002\u6280\u672f\u6709\u9650\u8fd8\u8bf7\u89c1\u8c05\"},\"groups\":[],\"opers\":[{\"name\":\"\u6d77\u8482\",\"skill\":2,\"skill_usage\":0},{\"name\":\"\u7130\u5f71\u82c7\u8349\",\"skill\":2,\"skill_usage\":1},{\"name\":\"\u98ce\u4e38\",\"skill\":2,\"skill_usage\":0},{\"name\":\"\u8c1c\u56fe\",\"skill\":1,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_heidi_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "海蒂",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "costs": 6
+        },
+        {
+            "type": "Skill",
+            "name": "海蒂",
+            "location": [
+                4,
+                4
+            ],
+            "costs": 15,
+            "pre_delay": 4000
+        },
+        {
+            "type": "Deploy",
+            "name": "焰影苇草",
+            "location": [
+                4,
+                5
+            ],
+            "costs": 17,
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "海蒂",
+            "location": [
+                4,
+                4
+            ],
+            "kills": 10
+        },
+        {
+            "type": "Skill",
+            "name": "风丸",
+            "location": [
+                3,
+                5
+            ],
+            "kills": 14
+        },
+        {
+            "type": "Skill",
+            "name": "海蒂",
+            "kills": 51,
+            "rear_delay": 0,
+            "pre_delay": 11500
+        },
+        {
+            "type": "Skill",
+            "name": "风丸",
+            "kills": 0,
+            "rear_delay": 0,
+            "pre_delay": 0,
+            "cooling": 1
+        }
+    ],
+    "doc": {
+        "title": "辅助 - 海蒂 - 滴水不漏",
+        "details": "海蒂带二，可能的翻车点在狗大队处和最后灰礼帽处，灰礼帽处可手动开风丸技能砸他。技术有限还请见谅"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "海蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "焰影苇草",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "风丸",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "谜图",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

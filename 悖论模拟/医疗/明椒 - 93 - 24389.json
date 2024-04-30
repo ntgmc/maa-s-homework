@@ -1,1 +1,115 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_peper_1\",\"actions\":[{\"type\":\"Deploy\",\"name\":\"\u660e\u6912\",\"location\":[3,5],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"\u83f2\u4e9a\u6885\u5854\",\"location\":[5,5],\"direction\":\"Up\"},{\"type\":\"SpeedUp\"},{\"type\":\"Skill\",\"costs\":27,\"name\":\"\u83f2\u4e9a\u6885\u5854\"},{\"type\":\"Skill\",\"name\":\"\u7c73\u683c\u9c81\",\"location\":[5,3],\"costs\":35},{\"type\":\"Skill\",\"name\":\"\u94ce\u94c3\",\"location\":[7,3]},{\"type\":\"Skill\",\"name\":\"\u77f3\u82f1\",\"location\":[6,4]},{\"type\":\"Skill\",\"name\":\"\u660e\u6912\",\"costs\":59},{\"type\":\"Skill\",\"name\":\"\u660e\u6912\",\"pre_delay\":12500},{\"type\":\"Skill\",\"name\":\"\u94ce\u94c3\",\"location\":[7,3]},{\"type\":\"Skill\",\"name\":\"\u77f3\u82f1\",\"location\":[6,4]},{\"type\":\"Skill\",\"name\":\"\u7c73\u683c\u9c81\",\"location\":[5,3]},{\"type\":\"Skill\",\"name\":\"\u83f2\u4e9a\u6885\u5854\"},{\"type\":\"SkillUsage\",\"name\":\"\u83f2\u4e9a\u6885\u5854\",\"skill_usage\":1},{\"type\":\"SkillDaemon\"}],\"doc\":{\"title\":\"\u533b\u7597 - \u660e\u6912 - \u201c\u522b\u52a8\u6211\u7684\u540c\u4f34\uff01\u201d\",\"details\":\"https://www.bilibili.com/video/BV1YV4y1d7Fi/\\n\u7ec3\u5ea6\u7cbe\u4e8c1\u7ea7 7\u7ea7\u6280\u80fd\\n\u5236\u4f5c\u8005\uff1a\u4e00\u53ea\u6446\u70c2\u768442\\n\u6709\u95ee\u9898\u8054\u7cfbQQ2586582719\"},\"groups\":[],\"opers\":[{\"name\":\"\u660e\u6912\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_peper_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "明椒",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "菲亚梅塔",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "costs": 27,
+            "name": "菲亚梅塔"
+        },
+        {
+            "type": "Skill",
+            "name": "米格鲁",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 35
+        },
+        {
+            "type": "Skill",
+            "name": "铎铃",
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "石英",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "明椒",
+            "costs": 59
+        },
+        {
+            "type": "Skill",
+            "name": "明椒",
+            "pre_delay": 12500
+        },
+        {
+            "type": "Skill",
+            "name": "铎铃",
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "石英",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "米格鲁",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "菲亚梅塔"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "菲亚梅塔",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "医疗 - 明椒 - “别动我的同伴！”",
+        "details": "https://www.bilibili.com/video/BV1YV4y1d7Fi/\n练度精二1级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "明椒",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

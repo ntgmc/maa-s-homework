@@ -1,1 +1,118 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_lmlee_1\",\"actions\":[{\"type\":\"SpeedUp\",\"kills\":0},{\"type\":\"Deploy\",\"name\":\"\u683c\u62c9\u5c3c\",\"location\":[2,5],\"direction\":\"Up\",\"kills\":0},{\"type\":\"Deploy\",\"name\":\"\u7ea2\u8c46\",\"location\":[2,3],\"direction\":\"Down\",\"kills\":0},{\"type\":\"Deploy\",\"name\":\"\u8001\u9ca4\",\"location\":[5,4],\"direction\":\"Right\",\"kills\":23},{\"type\":\"Deploy\",\"name\":\"\u969c\u788d\u7269\",\"location\":[3,5],\"direction\":\"None\",\"kills\":25},{\"type\":\"Deploy\",\"name\":\"\u969c\u788d\u7269\",\"location\":[3,3],\"kills\":30,\"direction\":\"None\"},{\"type\":\"Skill\",\"name\":\"\u82c7\u8349\",\"location\":[3,4],\"kills\":63},{\"type\":\"Deploy\",\"name\":\"\u9521\u5170\",\"location\":[4,6],\"kills\":114,\"direction\":\"Up\"},{\"type\":\"Skill\",\"name\":\"\u82c7\u8349\",\"location\":[3,4],\"kills\":180},{\"type\":\"Skill\",\"name\":\"\u7ea2\u8c46\",\"location\":[2,3],\"kills\":223},{\"type\":\"Skill\",\"name\":\"\u683c\u62c9\u5c3c\",\"location\":[2,5],\"kills\":235}],\"doc\":{\"title\":\"\u7279\u79cd - \u8001\u9ca4 - \u751f\u8d22\u6709\u9053\",\"details\":\"\u4fee\u6539\u81eaTheae\u7684\u4f5c\u4e1a\uff0c\u8001\u9ca4\u5e263\u6280\u80fd\"},\"groups\":[],\"opers\":[{\"name\":\"\u8001\u9ca4\",\"skill\":3,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_lmlee_1",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "kills": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "格拉尼",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up",
+            "kills": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "红豆",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down",
+            "kills": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "老鲤",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right",
+            "kills": 23
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "None",
+            "kills": 25
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 30,
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "苇草",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 63
+        },
+        {
+            "type": "Deploy",
+            "name": "锡兰",
+            "location": [
+                4,
+                6
+            ],
+            "kills": 114,
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "苇草",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 180
+        },
+        {
+            "type": "Skill",
+            "name": "红豆",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 223
+        },
+        {
+            "type": "Skill",
+            "name": "格拉尼",
+            "location": [
+                2,
+                5
+            ],
+            "kills": 235
+        }
+    ],
+    "doc": {
+        "title": "特种 - 老鲤 - 生财有道",
+        "details": "修改自Theae的作业，老鲤带3技能"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "老鲤",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,1 +1,51 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_frostl_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u971c\u53f6\",\"location\":[7,3],\"direction\":\"Left\"},{\"type\":\"Deploy\",\"name\":\"\u9668\u661f\",\"location\":[7,2],\"direction\":\"Left\"},{\"type\":\"Deploy\",\"name\":\"\u6770\u897f\u5361\",\"location\":[6,1],\"direction\":\"Down\"},{\"type\":\"SkillDaemon\"}],\"doc\":{\"title\":\"\u8fd1\u536b - \u971c\u53f6 - \u5c0f\u961f\",\"details\":\"https://www.bilibili.com/video/BV11m4y1C7cB/\\n\u7ec3\u5ea6\u7cbe\u4e8c35\u7ea7 7\u7ea7\u6280\u80fd\\n\u5236\u4f5c\u8005\uff1a\u4e00\u53ea\u6446\u70c2\u768442\\n\u6709\u95ee\u9898\u8054\u7cfbQQ2586582719\"},\"groups\":[],\"opers\":[{\"name\":\"\u971c\u53f6\",\"skill\":2,\"skill_usage\":1}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_frostl_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "霜叶",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "陨星",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "杰西卡",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 霜叶 - 小队",
+        "details": "https://www.bilibili.com/video/BV11m4y1C7cB/\n练度精二35级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "霜叶",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}

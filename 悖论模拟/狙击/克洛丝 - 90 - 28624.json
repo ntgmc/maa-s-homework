@@ -1,1 +1,119 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_sunbr_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u6d41\u661f\",\"location\":[2,2],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"\u514b\u6d1b\u4e1d\",\"location\":[1,4],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"\u6770\u897f\u5361\",\"location\":[2,4],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"\u5b89\u5fb7\u5207\u5c14\",\"location\":[1,2],\"direction\":\"Right\",\"costs\":11},{\"type\":\"Deploy\",\"name\":\"\u53e4\u7c73\",\"location\":[3,3],\"direction\":\"Right\",\"costs\":18},{\"type\":\"Skill\",\"location\":[3,3],\"kills\":6,\"pre_delay\":4000,\"rear_delay\":0},{\"type\":\"Skill\",\"location\":[3,3],\"kills\":15,\"pre_delay\":5000},{\"type\":\"Skill\",\"kills\":15,\"pre_delay\":5500,\"location\":[1,2]},{\"type\":\"SkillDaemon\"}],\"doc\":{\"title\":\"\u91cd\u88c5 - \u53e4\u7c73 - \u6218\u573a\u70f9\u8c03\u5e08\",\"details\":\"\u53c2\u8003\u89c6\u9891\uff1a\u3010\u3010\u660e\u65e5\u65b9\u821f\u3011\u53e4\u7c73 \u6096\u8bba\u6a21\u62df/\u65e0\u9700\u4e13\u7cbe/\u770b\u4e00\u904d\u5c31\u8fc7/\u7b80\u5355\u64cd\u4f5c/\u957f\u591c\u4e34\u5149\u3011 https://www.bilibili.com/video/BV17h411t7Lh/?share_source=copy_web&vd_source=d367282aa767b38fef0fe88494c1921c\\nup\u4e3b\uff1a\u503e\u4e5d_Komy\\n\u5bf9\u7ad9\u4f4d\u7a0d\u5fae\u505a\u4e86\u8c03\u6574\uff0c\u6309\u7167\u539f\u89c6\u9891\u514b\u6d1b\u4e1d\u5728\u524d\u4f1a\u51fa\u73b0\u53e4\u7c73\u6765\u4e0d\u53ca\u5976\u7684\u60c5\u51b5\u5bfc\u81f4\u514b\u6d1b\u4e1d\u88ab\u70e7\u6b7b\uff0c\u6240\u4ee5\u5c06\u6770\u897f\u5361\u653e\u5230\u4e86\u514b\u6d1b\u4e1d\u524d\u9762\"},\"groups\":[],\"opers\":[{\"name\":\"\u53e4\u7c73\",\"skill\":2,\"skill_usage\":0},{\"name\":\"\u514b\u6d1b\u4e1d\",\"skill\":1,\"skill_usage\":0},{\"name\":\"\u6d41\u661f\",\"skill\":1,\"skill_usage\":0},{\"name\":\"\u5b89\u5fb7\u5207\u5c14\",\"skill\":1,\"skill_usage\":0},{\"name\":\"\u6770\u897f\u5361\",\"skill\":1,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_sunbr_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "流星",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "杰西卡",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "安德切尔",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "costs": 11
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "costs": 18
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 6,
+            "pre_delay": 4000,
+            "rear_delay": 0
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 15,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Skill",
+            "kills": 15,
+            "pre_delay": 5500,
+            "location": [
+                1,
+                2
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "重装 - 古米 - 战场烹调师",
+        "details": "参考视频：【【明日方舟】古米 悖论模拟/无需专精/看一遍就过/简单操作/长夜临光】 https://www.bilibili.com/video/BV17h411t7Lh/?share_source=copy_web&vd_source=d367282aa767b38fef0fe88494c1921c\nup主：倾九_Komy\n对站位稍微做了调整，按照原视频克洛丝在前会出现古米来不及奶的情况导致克洛丝被烧死，所以将杰西卡放到了克洛丝前面"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "古米",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "流星",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "杰西卡",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

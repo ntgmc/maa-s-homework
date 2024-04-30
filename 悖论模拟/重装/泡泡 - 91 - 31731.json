@@ -1,1 +1,53 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_bubble_1\",\"actions\":[{\"type\":\"Deploy\",\"name\":\"\u6ce1\u6ce1\",\"location\":[4,5],\"direction\":\"Right\"},{\"type\":\"SpeedUp\"},{\"type\":\"Skill\",\"name\":\"\u6ce1\u6ce1\",\"location\":[4,5],\"kills\":10,\"pre_delay\":6500},{\"type\":\"Skill\",\"name\":\"\u6ce1\u6ce1\",\"location\":[4,5],\"kills\":33,\"pre_delay\":3500},{\"type\":\"SkillDaemon\"}],\"doc\":{\"title\":\"\u91cd\u88c5 - \u6ce1\u6ce1 - \u4e0d\u80fd\u767d\u6328\u6253\u3010\u6ce1\u6ce1\u6096\u8bba\u6a21\u62df\u3011\",\"details\":\"\u6ce1\u6ce1 \u6096\u8bba\u6a21\u62df\uff1a\u4e0d\u80fd\u767d\u6328\u6253\\n\u7ec3\u5ea6\uff1a\u7cbe\u4e8c70\u7ea7\u30017\u7ea7\u4e8c\u6280\u80fd\uff08\u6211\u53ea\u6709\u4e00\u4e2a\u53f7\u517b\u4e86\uff0c\u7b49\u7ea7\u5177\u4f53\u53ef\u4ee5\u591a\u4f4e\u4e0d\u77e5\u9053\uff09\\n\u6096\u8bba\u6a21\u62df\u9700\u8981\u5728MAA\u4e2d\u5173\u95ed\u201c\u81ea\u52a8\u7f16\u961f\u201d\uff0c\\n\u9009\u597d\u4e8c\u6280\u80fd\u540e\u5904\u4e8e\u7ea2\u8272ui\u201c\u5f00\u59cb\u6a21\u62df\u201d\u754c\u9762\uff0cmaa\u5c31\u53ef\u4ee5\u6309\u5f00\u59cb\u4e86\"},\"groups\":[],\"opers\":[{\"name\":\"\u6ce1\u6ce1\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_bubble_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "泡泡",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "泡泡",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 10,
+            "pre_delay": 6500
+        },
+        {
+            "type": "Skill",
+            "name": "泡泡",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 33,
+            "pre_delay": 3500
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "重装 - 泡泡 - 不能白挨打【泡泡悖论模拟】",
+        "details": "泡泡 悖论模拟：不能白挨打\n练度：精二70级、7级二技能（我只有一个号养了，等级具体可以多低不知道）\n悖论模拟需要在MAA中关闭“自动编队”，\n选好二技能后处于红色ui“开始模拟”界面，maa就可以按开始了"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "泡泡",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

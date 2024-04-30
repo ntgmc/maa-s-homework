@@ -1,1 +1,69 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_bluep_1\",\"actions\":[{\"type\":\"Deploy\",\"name\":\"\u84dd\u6bd2\",\"location\":[3,3],\"doc_color\":\"Gray\",\"doc\":\"\u65e0\u4eba\u5728\u610f\u7684\u89d2\u843d\uff0c\u65b0\u5e74\u5feb\u4e95\u4e86\u4e00\u4e2a\u9650\u5b9a\u90fd\u6ca1\u62bd\u5230\u3002\",\"direction\":\"Right\"},{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"costs\":9,\"doc_color\":\"Gray\",\"doc\":\"\u9ebb\u6728\u4e86\u3002\u8fd8\u6709\u5f69\u516d\u7684\u9650\u5b9a\u8ddf\u5728\u540e\u9762\uff0c\u975e\u6d32\u5e38\u9a7b\u4eba\u53e3\u771f\u7684\u4e00\u6ef4\u90fd\u6ca1\u6709\u4e86\u3002\",\"name\":\"\u514b\u6d1b\u4e1d\",\"location\":[7,3],\"direction\":\"Left\"},{\"type\":\"Skill\",\"name\":\"\u84dd\u6bd2\",\"costs\":10,\"rear_delay\":1300,\"doc_color\":\"DarkRed\",\"doc\":\"\u6211\u662f\u771f\u7684\u670d\u6c14\uff0c\u6b6a\u5c31\u7b97\u4e86\uff0c\u8c01\u5929\u5929\u6c60\u5b50\u90fd\u662f65\u62bd\u51fa\u516d\u661f\u7684\uff0c\u662f\u8c01\u554a\uff1f240\u62bd3\u4e2a6\u661f\uff1f\"},{\"type\":\"SkillUsage\",\"name\":\"\u84dd\u6bd2\",\"doc_color\":\"Gray\",\"doc\":\"\u53ea\u80fd\u4ece\u6096\u8bba\u6a21\u62df\u518d\u6263\u6263\u7389\u57ab\u4e00\u57ab\uff0c\u5782\u6b7b\u6323\u624e\u3002\",\"skill_usage\":1},{\"type\":\"SkillDaemon\",\"doc_color\":\"Gray\",\"doc\":\"\u5509\uff0c\u771f\u7684\u670d\u6c14\u4e86\uff0c\u6211\u90fd\u6ca1\u8d44\u683c\u9a82\u53ccUP\uff0c\u6bd5\u7adf\u4e00\u4e2a\u5f53\u671f\u90fd\u6ca1\u62bd\u5230\u6709\u5565\u597d\u9a82\u7684\uff0c\u62b1\u4e0d\u5230\u9ecd\u8fd8\u6709\u585e\u96f7\u4e9a\u966a\u6211\u3002\"}],\"doc\":{\"title\":\"\u6096\u8bba\u6a21\u62df\uff1a\u84dd\u6bd2 - \u6e17\u9aa8\u6bd2\u6db2\",\"details\":\"\u4f5c\u8005:littlh\\n\u4e8c\u6280\u80fd7\u7ea7\uff0c\u7406\u8bba\u4e0a\u5c0f\u602a\u53ea\u5403\u6b21\u6570\uff0c\u4f46\u662f\u6253\u7206\u955c\u5b50\u5403\u7b49\u7ea7\uff0c\u6211\u662f\u62c9\u768450\u7ea7\uff0c\u5e94\u8be5\u662f\u57fa\u7840\u7ec3\u5ea6...\u5427\uff1f\\n\"},\"groups\":[],\"opers\":[{\"name\":\"\u84dd\u6bd2\",\"skill\":2,\"skill_usage\":0},{\"name\":\"\u514b\u6d1b\u4e1d\",\"skill\":1,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_bluep_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "蓝毒",
+            "location": [
+                3,
+                3
+            ],
+            "doc_color": "Gray",
+            "doc": "无人在意的角落，新年快井了一个限定都没抽到。",
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "costs": 9,
+            "doc_color": "Gray",
+            "doc": "麻木了。还有彩六的限定跟在后面，非洲常驻人口真的一滴都没有了。",
+            "name": "克洛丝",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "蓝毒",
+            "costs": 10,
+            "rear_delay": 1300,
+            "doc_color": "DarkRed",
+            "doc": "我是真的服气，歪就算了，谁天天池子都是65抽出六星的，是谁啊？240抽3个6星？"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "蓝毒",
+            "doc_color": "Gray",
+            "doc": "只能从悖论模拟再扣扣玉垫一垫，垂死挣扎。",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "Gray",
+            "doc": "唉，真的服气了，我都没资格骂双UP，毕竟一个当期都没抽到有啥好骂的，抱不到黍还有塞雷亚陪我。"
+        }
+    ],
+    "doc": {
+        "title": "悖论模拟：蓝毒 - 渗骨毒液",
+        "details": "作者:littlh\n二技能7级，理论上小怪只吃次数，但是打爆镜子吃等级，我是拉的50级，应该是基础练度...吧？\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "蓝毒",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

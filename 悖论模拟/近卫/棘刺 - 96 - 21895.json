@@ -1,1 +1,67 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_thorns_1\",\"actions\":[{\"type\":\"SpeedUp\",\"rear_delay\":0},{\"type\":\"Deploy\",\"name\":\"\u68d8\u523a\",\"location\":[2,1],\"direction\":\"Down\",\"costs\":21,\"rear_delay\":0},{\"type\":\"Deploy\",\"name\":\"\u969c\u788d\u7269\",\"location\":[4,1],\"direction\":\"Right\",\"costs\":6,\"rear_delay\":0},{\"type\":\"Deploy\",\"name\":\"\u6781\u5883\",\"location\":[1,1],\"direction\":\"Left\",\"rear_delay\":0},{\"type\":\"SkillDaemon\"}],\"doc\":{\"title\":\"\u6096\u8bba\u6a21\u62df \u68d8\u523a \u642d\u628a\u624b\",\"details\":\"\u539f\u89c6\u9891b\u7ad9\uff1ahttps://www.bilibili.com/video/BV1Co4y1Q7wj?p=10 up\u4e3b \u5b51\u8bfaSang\\n\u68d8\u523a \u9009\u4e09\u6280\u80fd \u5bf9\u7ec3\u5ea6\u4e0e\u4e13\u7cbe\u6709\u4e00\u5b9a\u8981\u6c42\\nps\uff1a\u5df2\u5c1d\u8bd5\u6700\u4f4e\u7cbe2 60 \u4e131\uff0c\u8fd8\u53ef\u518d\u4f4e\"},\"groups\":[],\"opers\":[{\"name\":\"\u68d8\u523a\",\"skill\":3,\"skill_usage\":1},{\"name\":\"\u969c\u788d\u7269\",\"skill\":1,\"skill_usage\":0},{\"name\":\"\u6781\u5883\",\"skill\":2,\"skill_usage\":1}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_thorns_1",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Down",
+            "costs": 21,
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Right",
+            "costs": 6,
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "极境",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Left",
+            "rear_delay": 0
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "悖论模拟 棘刺 搭把手",
+        "details": "原视频b站：https://www.bilibili.com/video/BV1Co4y1Q7wj?p=10 up主 孑诺Sang\n棘刺 选三技能 对练度与专精有一定要求\nps：已尝试最低精2 60 专1，还可再低"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "障碍物",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "极境",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}

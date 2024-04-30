@@ -5,8 +5,6 @@ import os
 
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
 setting = {}
-now = 0
-last = 0
 
 
 def save_data(data):
@@ -15,11 +13,12 @@ def save_data(data):
         os.makedirs(user_data_dir)
     with open(SETTING_PATH, 'w') as file:
         json.dump(data, file)
+    return True
 
 
 def write_to_file(file_path, content):
-    with open(file_path, 'w') as file:
-        json.dump(content, file)
+    with open(file_path, 'w', encoding='utf-8') as file:
+        json.dump(content, file, ensure_ascii=False, indent=4)
 
 
 def load_settings():
@@ -35,10 +34,10 @@ def configuration():
     print("1. 默认配置")
     print("2. 用户配置")
     print("3. 自定义模式（单次）")
-    m1 = input("请选择配置：")
-    if m1.lower() == "back":
+    mode1 = input("请选择配置：")
+    if mode1.lower() == "back":
         return menu()
-    if m1 == "1":
+    if mode1 == "1":
         st = {
             'stitle': "1",
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)), "download"),
@@ -49,13 +48,13 @@ def configuration():
             'soperater': [],
             'suploader': []
         }
-    elif m1 == "2":
+    elif mode1 == "2":
         if not load_settings():
             print("未找到用户配置，请先设置")
             input()
             return menu()
         st = setting["download"]
-    elif m1 == "3":
+    elif mode1 == "3":
         st = configure_download_settings()
     else:
         print("未知选项，请重新选择，返回请输入back")
@@ -91,12 +90,7 @@ def searches(keyword_perfix, range_max, mode):
                     break
             if opers_bool:
                 return False
-            if stitle == "1":
-                file_name = content["doc"]["title"]
-            elif stitle == "2":
-                file_name = content["doc"]["title"] + " - " + uploader
-            elif stitle == "3":
-                file_name = generate_filename(keyword, content)
+            file_name = generate_filename(content, stitle, uploader, keyword)
             file_path = os.path.join(path, f"{file_name}.json")
             i = 1
             while os.path.exists(file_path):
@@ -118,11 +112,10 @@ def searches(keyword_perfix, range_max, mode):
             keyword_concatenate = f"-MO-"
         elif mode == 6:  # 全部
             for i in range(5):
-                if load_settings() == True and setting["range"] is not None:
+                if load_settings() and setting["range"] is not None:
                     range_max = setting["range"][f"{i + 1}_range"]
                 else:
-                    print("请先设置【批量设置】再使用下载【全部关】")
-                    input()
+                    input("请先设置【批量设置】再使用下载【全部关】\n")
                     return menu()
                 searches_(range_max, i + 1)
             return menu()
@@ -155,8 +148,7 @@ def searches(keyword_perfix, range_max, mode):
                 elif amount >= samount:
                     break
         last = time.time()
-        print(f"搜索完毕，共耗时 {round(last - now, 2)} s.")
-        input()
+        input(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
 
     st = configuration()
     stitle = st["stitle"]
@@ -177,42 +169,47 @@ def configure_download_settings():
     stitle = input("选择文件名格式（默认为1）：").replace(" ", "")
     if stitle.replace(" ", "") not in ["1", "2", "3"]:
         stitle = "1"
-
+    print(f"设定值：{stitle}")
     path = input("设置保存文件夹（为空默认当前目录\\download）：").replace(" ", "")
     if path == "" or not os.path.isdir(path):
         path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "download")
     print(f"成功设置保存文件夹为：{path}")
-
     print("1. 热度")
     print("2. 最新")
     print("3. 浏览量")
     order_by = input("设置排序方式（为空默认为1）：").replace(" ", "")
     try:
         order_by = int(order_by)
+        if order_by > 3 or order_by < 1:
+            order_by = 1
     except:
         order_by = 1
-
+    print(f"设定值：{order_by}")
     spoint = input("设置好评率限制(0-100)（为空不限制）：").replace(" ", "")
     try:
         spoint = int(spoint)
+        if spoint > 99 or spoint < 0:
+            spoint = 0
     except:
-        spoint = 1
-
+        spoint = 0
+    print(f"设定值：{spoint}")
     sview = input("设置浏览量限制（大于你设置的值）（为空不限制）：").replace(" ", "")
     try:
         sview = int(sview)
     except:
-        sview = 1
-
+        sview = 0
+    print(f"设定值：{sview}")
     samount = input("设置下载数量(1-5)（为空默认为1）：").replace(" ", "")
     try:
         samount = int(samount)
     except:
         samount = 1
-
+    print(f"设定值：{samount}")
     soperater = input("设置禁用干员（空格分隔）（为空不限制）：").split()
+    print(f"设定值：{soperater}")
     suploader = input("设置只看作者（空格分隔）（为空不限制）：").split()
-
+    print(f"设定值：{suploader}")
+    input("按下Enter返回\n")
     return {
         'stitle': stitle,
         'path': path,
@@ -225,13 +222,23 @@ def configure_download_settings():
     }
 
 
-def generate_filename(keyword, data):
-    # stage_name = data.get('stage_name', '')
+def generate_filename_mode3(keyword, data):
+    #stage_name = data.get('stage_name', '')
     stage_name = keyword.upper()
     opers = data.get('opers', [])
     names = '+'.join(oper.get('name', '') for oper in opers)
     filename = f"{stage_name}_{names}"
     return filename
+
+
+def generate_filename(content, stitle, uploader, keyword):
+    if stitle == "1":
+        file_name = content["doc"]["title"]
+    elif stitle == "2":
+        file_name = content["doc"]["title"] + " - " + uploader
+    elif stitle == "3":
+        file_name = generate_filename_mode3(keyword, content)
+    return file_name
 
 
 def mode1():
@@ -245,12 +252,7 @@ def mode1():
                 break
         if opers_bool:
             return False
-        if stitle == "1":
-            file_name = content["doc"]["title"]
-        elif stitle == "2":
-            file_name = content["doc"]["title"] + " - " + uploader
-        elif stitle == "3":
-            file_name = generate_filename(keyword, content)
+        file_name = generate_filename(content, stitle, uploader, keyword)
         file_path = os.path.join(path, f"{file_name}.json")
         i = 1
         while os.path.exists(file_path):
@@ -299,8 +301,7 @@ def mode1():
         elif amount >= samount:
             break
     last = time.time()
-    print(f"搜索完毕，共耗时 {round(last - now, 2)} s.")
-    input()
+    input(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
     return menu()
 
 
@@ -308,7 +309,7 @@ def mode2():
     os.system("cls")
     print("已进入批量搜索并下载模式，（输入back返回）")
     while True:
-        keyword = input("请输入关卡代号(如WD,OD)(仅支持活动关)：").replace(" ", "")
+        keyword = input("请输入关卡代号(如WD,OD)：").replace(" ", "")
         if keyword.lower() == "back":
             return menu()
         elif "-" in keyword or len(keyword) != 2:
@@ -382,26 +383,31 @@ def level_set():
         normal_range = int(normal_range)
     except:
         normal_range = 9
+    print(f"设定值：{normal_range}")
     ex_range = input("输入EX关最大关卡（默认8）：").replace(" ", "")
     try:
         ex_range = int(ex_range)
     except:
         ex_range = 8
+    print(f"设定值：{ex_range}")
     s_range = input("输入S关最大关卡（默认5）：").replace(" ", "")
     try:
         s_range = int(s_range)
     except:
         s_range = 5
+    print(f"设定值：{s_range}")
     tr_range = input("输入TR关最大关卡（默认3）：").replace(" ", "")
     try:
         tr_range = int(tr_range)
     except:
         tr_range = 3
+    print(f"设定值：{tr_range}")
     mo_range = input("输入MO关最大关卡（默认1）：").replace(" ", "")
     try:
         mo_range = int(mo_range)
     except:
         mo_range = 1
+    print(f"设定值：{mo_range}")
     load_settings()
     setting["range"] = {
         "1_range": normal_range,
@@ -410,7 +416,10 @@ def level_set():
         "4_range": tr_range,
         "5_range": mo_range,
     }
-    save_data(setting)
+    if save_data(setting):
+        input("保存成功，按下回车键返回\n")
+    else:
+        input("保存失败，按下回车键返回\n")
     return menu()
 
 
@@ -422,11 +431,11 @@ def menu():
     print("3. 设置")
     choose = input("请选择操作：")
     if choose == "1":
-        mode1()
+        return mode1()
     elif choose == "2":
-        mode2()
+        return mode2()
     elif choose == "3":
-        mode3()
+        return mode3()
 
 
 while True:

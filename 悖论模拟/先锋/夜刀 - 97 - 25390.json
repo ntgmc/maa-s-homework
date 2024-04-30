@@ -1,1 +1,94 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_nblade_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u9ed1\u89d2\",\"location\":[1,2],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"\u591c\u5200\",\"location\":[1,4],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"\u514b\u6d1b\u4e1d\",\"location\":[2,3],\"direction\":\"Right\"},{\"type\":\"Retreat\",\"name\":\"\u591c\u5200\",\"location\":[1,4],\"kills\":6},{\"type\":\"Deploy\",\"name\":\"\u591c\u5200\",\"location\":[6,4],\"direction\":\"Left\"},{\"type\":\"Retreat\",\"name\":\"\u591c\u5200\",\"location\":[6,4],\"cost_changes\":7},{\"type\":\"Deploy\",\"name\":\"\u591c\u5200\",\"location\":[2,5],\"direction\":\"Right\"}],\"doc\":{\"title\":\"\u6096\u8bba\u6a21\u62df - \u591c\u5200 - \u950b\u8292\u5982\u4e00\",\"details\":\"\u6096\u8bba\u6a21\u62df - \u591c\u5200 - \u950b\u8292\u5982\u4e00\"},\"groups\":[],\"opers\":[{\"name\":\"\u9ed1\u89d2\",\"skill\":1,\"skill_usage\":0},{\"name\":\"\u591c\u5200\",\"skill\":1,\"skill_usage\":0},{\"name\":\"\u514b\u6d1b\u4e1d\",\"skill\":1,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_nblade_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "夜刀",
+            "location": [
+                1,
+                4
+            ],
+            "kills": 6
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "夜刀",
+            "location": [
+                6,
+                4
+            ],
+            "cost_changes": 7
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "悖论模拟 - 夜刀 - 锋芒如一",
+        "details": "悖论模拟 - 夜刀 - 锋芒如一"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

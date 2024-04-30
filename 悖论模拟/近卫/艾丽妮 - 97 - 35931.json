@@ -1,1 +1,94 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_irene_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u827e\u4e3d\u59ae\",\"location\":[2,2],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"\u6d41\u660e\",\"location\":[2,1],\"direction\":\"Right\"},{\"type\":\"Skill\",\"name\":\"\u827e\u4e3d\u59ae\",\"location\":[2,2],\"kills\":7},{\"type\":\"Skill\",\"name\":\"\u523b\u5200\",\"location\":[3,1],\"kills\":14},{\"type\":\"Skill\",\"name\":\"\u827e\u4e3d\u59ae\",\"location\":[2,2],\"costs\":77},{\"type\":\"Skill\",\"name\":\"\u523b\u5200\",\"location\":[3,1],\"kills\":40},{\"type\":\"Skill\",\"name\":\"\u827e\u4e3d\u59ae\",\"location\":[2,2],\"kills\":44}],\"doc\":{\"title\":\"\u8fd1\u536b - \u827e\u4e3d\u59ae - \u7ec6\u5251\u7684\u91cd\u91cf  \u6096\u8bba\u6a21\u62df\",\"details\":\"\u672c\u4eba\u5c0f\u9e1f2753 \u4e8c\u7ea7\u6a21\u7ec4  \u5e94\u8be5\u53ef\u4ee5\u538b\u523060\u7ea7\uff0c\u53c2\u8003\u94fe\u63a5 BV16z421k74t\"},\"groups\":[],\"opers\":[{\"name\":\"\u827e\u4e3d\u59ae\",\"skill\":3,\"skill_usage\":0},{\"name\":\"\u6d41\u660e\",\"skill\":3,\"skill_usage\":1},{\"name\":\"\u523b\u5200\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_irene_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾丽妮",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "流明",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "艾丽妮",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 7
+        },
+        {
+            "type": "Skill",
+            "name": "刻刀",
+            "location": [
+                3,
+                1
+            ],
+            "kills": 14
+        },
+        {
+            "type": "Skill",
+            "name": "艾丽妮",
+            "location": [
+                2,
+                2
+            ],
+            "costs": 77
+        },
+        {
+            "type": "Skill",
+            "name": "刻刀",
+            "location": [
+                3,
+                1
+            ],
+            "kills": 40
+        },
+        {
+            "type": "Skill",
+            "name": "艾丽妮",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 44
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 艾丽妮 - 细剑的重量  悖论模拟",
+        "details": "本人小鸟2753 二级模组  应该可以压到60级，参考链接 BV16z421k74t"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "艾丽妮",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "刻刀",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

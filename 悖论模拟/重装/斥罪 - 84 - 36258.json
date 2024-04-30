@@ -1,0 +1,109 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_judge_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伺夜",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "狼群",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯",
+            "costs": 24
+        },
+        {
+            "type": "Deploy",
+            "name": "斥罪",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 36,
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "斥罪",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 30
+        },
+        {
+            "type": "Skill",
+            "name": "斥罪",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 99,
+            "pre_delay": 2000
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "斥罪",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 62
+        }
+    ],
+    "doc": {
+        "title": "斥罪悖论模拟",
+        "details": "斥罪-悖论模拟 无需过高练度要求"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "斥罪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伺夜",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

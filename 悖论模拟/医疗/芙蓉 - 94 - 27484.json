@@ -1,1 +1,92 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_hibisc_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u7c73\u683c\u9c81\",\"location\":[3,3],\"direction\":\"Right\",\"pre_delay\":1000},{\"type\":\"Deploy\",\"name\":\"\u8299\u84c9\",\"location\":[1,2],\"direction\":\"Right\"},{\"type\":\"Skill\",\"location\":[1,2],\"kills\":7,\"name\":\"\u8299\u84c9\",\"pre_delay\":3000},{\"type\":\"Skill\",\"name\":\"\u9707\u64bc\u88c5\u7f6e\",\"location\":[5,3],\"kills\":14},{\"type\":\"Skill\",\"location\":[1,2],\"name\":\"\u8299\u84c9\",\"pre_delay\":2750},{\"type\":\"Skill\",\"name\":\"\u7c73\u683c\u9c81\",\"location\":[3,3],\"kills\":22},{\"type\":\"Skill\",\"location\":[1,2],\"kills\":26,\"name\":\"\u8299\u84c9\",\"pre_delay\":3000}],\"doc\":{\"title\":\"\u533b\u7597 - \u8299\u84c9 - \u201c\u6301\u7eed\u5173\u6ce8\u201d\",\"details\":\"\u533b\u7597 - \u8299\u84c9 - \u201c\u6301\u7eed\u5173\u6ce8\u201d\\n\u8299\u84c9\u6ee1\u7ea7\uff0c\u6280\u80fd7\u7ea7\uff0c\u7a33\u5b9a\u8fc7\\n\u6709\u95ee\u9898\u7fa4\u627e\\\"\u65e0\u5fe7\u65e0\u8651\u5566\\\"\\n\"},\"groups\":[],\"opers\":[{\"name\":\"\u8299\u84c9\",\"skill\":1,\"skill_usage\":0},{\"name\":\"\u7c73\u683c\u9c81\",\"skill\":1,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_hibisc_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                2
+            ],
+            "kills": 7,
+            "name": "芙蓉",
+            "pre_delay": 3000
+        },
+        {
+            "type": "Skill",
+            "name": "震撼装置",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 14
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                2
+            ],
+            "name": "芙蓉",
+            "pre_delay": 2750
+        },
+        {
+            "type": "Skill",
+            "name": "米格鲁",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 22
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                2
+            ],
+            "kills": 26,
+            "name": "芙蓉",
+            "pre_delay": 3000
+        }
+    ],
+    "doc": {
+        "title": "医疗 - 芙蓉 - “持续关注”",
+        "details": "医疗 - 芙蓉 - “持续关注”\n芙蓉满级，技能7级，稳定过\n有问题群找\"无忧无虑啦\"\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,1 +1,99 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_acdrop_1\",\"actions\":[{\"type\":\"Deploy\",\"name\":\"\u969c\u788d\u7269\",\"location\":[2,3],\"direction\":\"None\",\"costs\":10},{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u8baf\u4f7f\",\"location\":[4,3],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"\u9178\u7cd6\",\"location\":[6,2],\"direction\":\"Right\"},{\"type\":\"Skill\",\"name\":\"\u8baf\u4f7f\",\"pre_delay\":2000},{\"type\":\"Deploy\",\"name\":\"\u5b89\u5fb7\u5207\u5c14\",\"location\":[4,4],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"\u969c\u788d\u7269\",\"location\":[5,4],\"direction\":\"None\"},{\"type\":\"Deploy\",\"name\":\"\u969c\u788d\u7269\",\"location\":[6,3],\"direction\":\"None\"},{\"type\":\"Deploy\",\"name\":\"\u969c\u788d\u7269\",\"location\":[1,4],\"direction\":\"None\"},{\"type\":\"Skill\",\"name\":\"\u5b89\u5fb7\u5207\u5c14\",\"costs\":36},{\"type\":\"Skill\",\"name\":\"\u9178\u7cd6\"}],\"doc\":{\"title\":\"\u72d9\u51fb - \u9178\u7cd6 - \u5c04\u672f\u4f20\u627f\",\"details\":\"https://www.bilibili.com/video/BV1nD4y1M7Z4/\\n\u7ec3\u5ea6\u7cbe\u4e8c1\u7ea7 7\u7ea7\u6280\u80fd\\n\u5236\u4f5c\u8005\uff1a\u4e00\u53ea\u6446\u70c2\u768442\\n\u6709\u95ee\u9898\u8054\u7cfbQQ2586582719\"},\"groups\":[],\"opers\":[{\"name\":\"\u9178\u7cd6\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_acdrop_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "None",
+            "costs": 10
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "讯使",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "酸糖",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "讯使",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "安德切尔",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "安德切尔",
+            "costs": 36
+        },
+        {
+            "type": "Skill",
+            "name": "酸糖"
+        }
+    ],
+    "doc": {
+        "title": "狙击 - 酸糖 - 射术传承",
+        "details": "https://www.bilibili.com/video/BV1nD4y1M7Z4/\n练度精二1级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "酸糖",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

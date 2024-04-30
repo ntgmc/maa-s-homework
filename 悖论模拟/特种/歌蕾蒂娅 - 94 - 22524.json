@@ -1,1 +1,101 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_glady_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u6b4c\u857e\u8482\u5a05\",\"location\":[10,4],\"direction\":\"Left\",\"costs\":13},{\"type\":\"Deploy\",\"costs\":25,\"name\":\"\u5e7d\u7075\u9ca8\",\"location\":[7,3],\"direction\":\"Down\"},{\"type\":\"SkillUsage\",\"name\":\"\u5e7d\u7075\u9ca8\",\"skill_usage\":1},{\"type\":\"Deploy\",\"pre_delay\":0,\"name\":\"\u783e\",\"location\":[7,5],\"direction\":\"Up\"},{\"type\":\"SpeedUp\"},{\"type\":\"Skill\",\"name\":\"\u6b4c\u857e\u8482\u5a05\",\"location\":[10,4],\"costs\":34},{\"type\":\"SpeedUp\"},{\"type\":\"SpeedUp\",\"costs\":65},{\"type\":\"Deploy\",\"name\":\"\u783e\",\"location\":[7,5],\"costs\":70,\"direction\":\"Up\"},{\"type\":\"Output\",\"costs\":99,\"rear_delay\":15000},{\"type\":\"Skill\",\"name\":\"\u6b4c\u857e\u8482\u5a05\",\"location\":[10,4]},{\"type\":\"SpeedUp\"}],\"doc\":{\"title\":\"\u6b4c\u857e\u8482\u5a05 \u6096\u8bba\u6a21\u62df\",\"details\":\"BV1Ff4y1H7GP\\nup\uff1a\u503e\u4e5d_Komy\\njson\uff1aBnnA\uff08maa://22432\uff09\\n\u4fee\u6539\u539f\u4f5c\u4e1a\u6b4c\u857e\u8482\u5a05\u7684\u6280\u80fd\u65f6\u673a\\n2907\u5df2\u6d4b\u8bd5\"},\"groups\":[],\"opers\":[{\"name\":\"\u6b4c\u857e\u8482\u5a05\",\"skill\":3,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_glady_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left",
+            "costs": 13
+        },
+        {
+            "type": "Deploy",
+            "costs": 25,
+            "name": "幽灵鲨",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "幽灵鲨",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "pre_delay": 0,
+            "name": "砾",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "歌蕾蒂娅",
+            "location": [
+                10,
+                4
+            ],
+            "costs": 34
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 65
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "location": [
+                7,
+                5
+            ],
+            "costs": 70,
+            "direction": "Up"
+        },
+        {
+            "type": "Output",
+            "costs": 99,
+            "rear_delay": 15000
+        },
+        {
+            "type": "Skill",
+            "name": "歌蕾蒂娅",
+            "location": [
+                10,
+                4
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        }
+    ],
+    "doc": {
+        "title": "歌蕾蒂娅 悖论模拟",
+        "details": "BV1Ff4y1H7GP\nup：倾九_Komy\njson：BnnA（maa://22432）\n修改原作业歌蕾蒂娅的技能时机\n2907已测试"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

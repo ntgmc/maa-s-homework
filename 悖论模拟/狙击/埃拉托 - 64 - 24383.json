@@ -1,1 +1,122 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_erato_1\",\"actions\":[{\"type\":\"Deploy\",\"name\":\"\u57c3\u62c9\u6258\",\"location\":[6,2],\"direction\":\"Left\"},{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u591c\u534a\",\"location\":[5,2],\"direction\":\"Left\"},{\"type\":\"Deploy\",\"name\":\"\u7720\u517d\",\"location\":[4,2],\"direction\":\"None\"},{\"type\":\"Skill\",\"name\":\"\u591c\u534a\",\"costs\":16},{\"type\":\"Deploy\",\"name\":\"\u7455\u5149\",\"location\":[4,3],\"direction\":\"Up\"},{\"type\":\"Skill\",\"name\":\"\u591c\u534a\",\"costs\":29},{\"type\":\"Skill\",\"name\":\"\u591c\u534a\",\"pre_delay\":500},{\"type\":\"Skill\",\"name\":\"\u7455\u5149\",\"costs\":62},{\"type\":\"Deploy\",\"name\":\"\u5361\u592b\u5361\",\"location\":[1,4],\"costs\":76,\"direction\":\"Right\"},{\"type\":\"Retreat\",\"name\":\"\u5361\u592b\u5361\",\"pre_delay\":500},{\"type\":\"SkillUsage\",\"name\":\"\u7455\u5149\",\"skill_usage\":1},{\"type\":\"Deploy\",\"name\":\"\u5361\u592b\u5361\",\"kills\":13,\"pre_delay\":5000,\"location\":[4,4],\"direction\":\"Up\"},{\"type\":\"Retreat\",\"name\":\"\u5361\u592b\u5361\",\"kills\":14},{\"type\":\"Deploy\",\"name\":\"\u5361\u592b\u5361\",\"location\":[8,2],\"direction\":\"Up\"}],\"doc\":{\"title\":\"\u72d9\u51fb - \u57c3\u62c9\u6258 - \u6c89\u6e0a\u7f8e\u68a6\",\"details\":\"https://www.bilibili.com/video/BV1yh4y1x7HE/\\n\u7ec3\u5ea6\u7cbe\u4e8c1\u7ea7 7\u7ea7\u6280\u80fd\\n\u5236\u4f5c\u8005\uff1a\u4e00\u53ea\u6446\u70c2\u768442\\n\u6709\u95ee\u9898\u8054\u7cfbQQ2586582719\"},\"groups\":[],\"opers\":[{\"name\":\"\u57c3\u62c9\u6258\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_erato_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "埃拉托",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜半",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "眠兽",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "夜半",
+            "costs": 16
+        },
+        {
+            "type": "Deploy",
+            "name": "瑕光",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "夜半",
+            "costs": 29
+        },
+        {
+            "type": "Skill",
+            "name": "夜半",
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "瑕光",
+            "costs": 62
+        },
+        {
+            "type": "Deploy",
+            "name": "卡夫卡",
+            "location": [
+                1,
+                4
+            ],
+            "costs": 76,
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "卡夫卡",
+            "pre_delay": 500
+        },
+        {
+            "type": "SkillUsage",
+            "name": "瑕光",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "卡夫卡",
+            "kills": 13,
+            "pre_delay": 5000,
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "卡夫卡",
+            "kills": 14
+        },
+        {
+            "type": "Deploy",
+            "name": "卡夫卡",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Up"
+        }
+    ],
+    "doc": {
+        "title": "狙击 - 埃拉托 - 沉渊美梦",
+        "details": "https://www.bilibili.com/video/BV1yh4y1x7HE/\n练度精二1级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "埃拉托",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

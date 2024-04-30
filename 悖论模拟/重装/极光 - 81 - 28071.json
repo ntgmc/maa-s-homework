@@ -1,1 +1,107 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_aurora_1\",\"actions\":[{\"type\":\"Deploy\",\"name\":\"\u6781\u5149\",\"location\":[7,3],\"direction\":\"Left\",\"costs\":33},{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"costs\":10,\"name\":\"\u5b51\",\"location\":[5,2],\"direction\":\"Down\"},{\"type\":\"Skill\",\"name\":\"\u6781\u5149\",\"kills\":3},{\"type\":\"Retreat\",\"name\":\"\u5b51\",\"location\":[5,2],\"kills\":3},{\"type\":\"Deploy\",\"name\":\"\u5b51\",\"location\":[5,4],\"costs\":33,\"direction\":\"Up\"},{\"type\":\"Skill\",\"name\":\"\u6781\u5149\",\"location\":[7,3],\"kills\":7},{\"type\":\"Retreat\",\"name\":\"\u5b51\",\"location\":[5,4],\"kills\":7},{\"type\":\"Skill\",\"name\":\"\u6781\u5149\",\"kills\":8},{\"type\":\"Deploy\",\"name\":\"\u5b51\",\"location\":[5,2],\"direction\":\"Down\",\"costs\":53},{\"type\":\"Skill\",\"name\":\"\u6781\u5149\",\"location\":[7,3],\"kills\":11}],\"doc\":{\"title\":\"\u6096\u8bba\u6a21\u62df - \u6781\u5149 - \u4e0d\u60e7\u4e25\u5bd2\",\"details\":\"\u81ea\u5236\u4f5c\u4e1a\uff0c\u6d4b\u8bd5\u7528\u6781\u5149\u7ec3\u5ea6\u65e0\u6f5c\u65e0\u6a21\u7cbe\u4e8c50\u4e8c\u6280\u80fd7\u7ea7\\n\u7ec3\u5ea6\u4e0d\u591f\u53ef\u80fd\u4f1a\u5bfc\u81f4\u4ee3\u7406\u5931\u8d25 0.0\"},\"groups\":[],\"opers\":[{\"name\":\"\u6781\u5149\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_aurora_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "极光",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "costs": 33
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "costs": 10,
+            "name": "孑",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "极光",
+            "kills": 3
+        },
+        {
+            "type": "Retreat",
+            "name": "孑",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "孑",
+            "location": [
+                5,
+                4
+            ],
+            "costs": 33,
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "极光",
+            "location": [
+                7,
+                3
+            ],
+            "kills": 7
+        },
+        {
+            "type": "Retreat",
+            "name": "孑",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 7
+        },
+        {
+            "type": "Skill",
+            "name": "极光",
+            "kills": 8
+        },
+        {
+            "type": "Deploy",
+            "name": "孑",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down",
+            "costs": 53
+        },
+        {
+            "type": "Skill",
+            "name": "极光",
+            "location": [
+                7,
+                3
+            ],
+            "kills": 11
+        }
+    ],
+    "doc": {
+        "title": "悖论模拟 - 极光 - 不惧严寒",
+        "details": "自制作业，测试用极光练度无潜无模精二50二技能7级\n练度不够可能会导致代理失败 0.0"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "极光",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,1 +1,84 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_buildr_1\",\"actions\":[{\"type\":\"Deploy\",\"name\":\"\u9752\u67b3\",\"location\":[1,3],\"direction\":\"Right\"},{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u675c\u6797\",\"location\":[1,2],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"Lancet-2\",\"location\":[1,4],\"direction\":\"Up\"},{\"type\":\"Deploy\",\"name\":\"\u81f3\u7b80\",\"location\":[2,2],\"direction\":\"Right\"},{\"type\":\"Skill\",\"name\":\"\u88c5\u7f6e\",\"location\":[3,2],\"costs\":20},{\"type\":\"SkillDaemon\"}],\"doc\":{\"title\":\"\u5148\u950b - \u9752\u67b3 - \u522b\u6765\u62c6\u5bb6\u3010\u9752\u67b3\u6096\u8bba\u6a21\u62df\u3011\",\"details\":\"\u9752\u67b3\u6096\u8bba\u6a21\u62df\uff1a\u522b\u6765\u62c6\u5bb6\\n\u571f\u6728\u5b66\u59d0\u7684\u81ea\u6211\u4fee\u517b.jpg\\n\u7ec3\u5ea6\uff1a\u7cbe\u4e8c50\u7ea7\u3001\u4e133\u4e8c\u6280\u80fd\uff08\u6211\u53ea\u6709\u4e00\u4e2a\u53f7\u517b\u4e86\uff0c\u7b49\u7ea7\u5177\u4f53\u53ef\u4ee5\u591a\u4f4e\u4e0d\u77e5\u9053\uff09\\n\u6096\u8bba\u6a21\u62df\u9700\u8981\u5728MAA\u4e2d\u5173\u95ed\u201c\u81ea\u52a8\u7f16\u961f\u201d\uff0c\\n\u9009\u597d\u4e8c\u6280\u80fd\u540e\u5904\u4e8e\u7ea2\u8272ui\u201c\u5f00\u59cb\u6a21\u62df\u201d\u754c\u9762\uff0cmaa\u5c31\u53ef\u4ee5\u6309\u5f00\u59cb\u4e86\"},\"groups\":[],\"opers\":[{\"name\":\"\u9752\u67b3\",\"skill\":2,\"skill_usage\":1},{\"name\":\"Lancet-2\",\"skill\":1,\"skill_usage\":0},{\"name\":\"\u675c\u6797\",\"skill\":1,\"skill_usage\":0},{\"name\":\"\u81f3\u7b80\",\"skill\":1,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_buildr_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "青枳",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "杜林",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "Lancet-2",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "至简",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "装置",
+            "location": [
+                3,
+                2
+            ],
+            "costs": 20
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "先锋 - 青枳 - 别来拆家【青枳悖论模拟】",
+        "details": "青枳悖论模拟：别来拆家\n土木学姐的自我修养.jpg\n练度：精二50级、专3二技能（我只有一个号养了，等级具体可以多低不知道）\n悖论模拟需要在MAA中关闭“自动编队”，\n选好二技能后处于红色ui“开始模拟”界面，maa就可以按开始了"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "青枳",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "Lancet-2",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "杜林",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "至简",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,1 +1,56 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_grani_1\",\"actions\":[{\"type\":\"Deploy\",\"name\":\"\u683c\u62c9\u5c3c\",\"location\":[4,1],\"direction\":\"Left\"},{\"type\":\"SpeedUp\"},{\"type\":\"Skill\",\"name\":\"\u683c\u62c9\u5c3c\",\"kills\":3},{\"type\":\"Deploy\",\"name\":\"\u65af\u5361\u8482\",\"location\":[5,4],\"direction\":\"Right\"},{\"type\":\"Skill\",\"name\":\"\u65af\u5361\u8482\",\"kills\":10,\"pre_delay\":7000},{\"type\":\"Skill\",\"name\":\"\u683c\u62c9\u5c3c\",\"kills\":12,\"pre_delay\":5000}],\"doc\":{\"title\":\"\u5148\u950b - \u683c\u62c9\u5c3c - \u201c\u5b64\u80c6\u9a91\u5175\u201d\",\"details\":\"\u7cbe\u4e8c1\u7ea7\uff0c7\u7ea7\u6280\u80fd\u6d4b\u8bd5\u5df2\u8fc7\"},\"groups\":[],\"opers\":[{\"name\":\"\u683c\u62c9\u5c3c\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_grani_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "格拉尼",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "格拉尼",
+            "kills": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "斯卡蒂",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "斯卡蒂",
+            "kills": 10,
+            "pre_delay": 7000
+        },
+        {
+            "type": "Skill",
+            "name": "格拉尼",
+            "kills": 12,
+            "pre_delay": 5000
+        }
+    ],
+    "doc": {
+        "title": "先锋 - 格拉尼 - “孤胆骑兵”",
+        "details": "精二1级，7级技能测试已过"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "格拉尼",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

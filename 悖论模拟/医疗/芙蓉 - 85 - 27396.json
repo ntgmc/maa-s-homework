@@ -1,1 +1,66 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_hibisc_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u7c73\u683c\u9c81\",\"location\":[2,3],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"\u8299\u84c9\",\"location\":[1,2],\"direction\":\"Right\"},{\"type\":\"Skill\",\"name\":\"\u8299\u84c9\",\"location\":[1,2],\"kills\":17},{\"type\":\"Skill\",\"location\":[5,3],\"kills\":23,\"doc\":\"\u5f15\u7206\u67f1\u5b50\",\"doc_color\":\"DarkRed\"},{\"type\":\"SkillDaemon\"}],\"doc\":{\"title\":\"\u8299\u84c9-\u6096\u8bba\u6a21\u62df-\u201c\u6301\u7eed\u5173\u6ce8\u201d\",\"details\":\"MAA\u5185\u6d4b\u7248\u5df2\u66f4\u65b0\u3002\\n\u8299\u84c9\u6096\u8bba\u6a21\u62df\uff0c6\u7ea7\u6280\u80fd\u3002\u6096\u8bba\u6a21\u62df\u9700\u8981\u5728MAA\u4e2d\u5173\u95ed\u201c\u81ea\u52a8\u7f16\u961f\u201d\uff0c\u5728\u6e38\u620f\u4e2d\u9009\u597d\u8299\u84c9\u4e00\u6280\u80fd\u540e\u5904\u4e8e\u201c\u5f00\u59cb\u6a21\u62df\u201d\u754c\u9762\u3002\\n\u53c2\u8003\uff1aBV1gp4y1N7GP\uff08\u52aa\u529b\u6446\u70c2\u7684\u5c0f\u5609\uff09\uff1b\u5236\u4f5c\uff1aVisualMod\"},\"groups\":[],\"opers\":[{\"name\":\"\u8299\u84c9\",\"skill\":1,\"skill_usage\":0},{\"name\":\"\u7c73\u683c\u9c81\",\"skill\":1,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_hibisc_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "芙蓉",
+            "location": [
+                1,
+                2
+            ],
+            "kills": 17
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 23,
+            "doc": "引爆柱子",
+            "doc_color": "DarkRed"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "芙蓉-悖论模拟-“持续关注”",
+        "details": "MAA内测版已更新。\n芙蓉悖论模拟，6级技能。悖论模拟需要在MAA中关闭“自动编队”，在游戏中选好芙蓉一技能后处于“开始模拟”界面。\n参考：BV1gp4y1N7GP（努力摆烂的小嘉）；制作：VisualMod"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

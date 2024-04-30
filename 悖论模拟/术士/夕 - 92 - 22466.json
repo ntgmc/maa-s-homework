@@ -1,1 +1,169 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_nian_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u5e74\",\"location\":[3,3],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"\u53f2\u90fd\u534e\u5fb7\",\"location\":[2,4],\"direction\":\"Right\"},{\"type\":\"Skill\",\"name\":\"\u94f8\u94c1\",\"location\":[3,5],\"costs\":22},{\"type\":\"Deploy\",\"name\":\"\u708e\u7194\",\"location\":[2,2],\"direction\":\"Right\"},{\"type\":\"Skill\",\"name\":\"\u5e74\",\"location\":[3,3]},{\"type\":\"Skill\",\"name\":\"\u661f\u6781\",\"location\":[3,1]},{\"type\":\"Deploy\",\"name\":\"\u8299\u84c9\",\"location\":[1,2],\"direction\":\"Right\"},{\"type\":\"Skill\",\"name\":\"\u708e\u7194\"},{\"type\":\"Deploy\",\"name\":\"\u6539\u826f\u578b\u4e8c\u8e22\u811a\",\"location\":[7,3],\"costs\":16,\"direction\":\"None\"},{\"type\":\"Deploy\",\"name\":\"\u6539\u826f\u578b\u4e8c\u8e22\u811a\",\"location\":[7,2],\"direction\":\"None\",\"costs\":31},{\"type\":\"Deploy\",\"name\":\"\u6539\u826f\u578b\u4e8c\u8e22\u811a\",\"location\":[7,3],\"direction\":\"None\",\"costs\":42},{\"type\":\"Deploy\",\"name\":\"\u6539\u826f\u578b\u4e8c\u8e22\u811a\",\"location\":[7,4],\"direction\":\"None\",\"costs\":57},{\"type\":\"Deploy\",\"name\":\"\u6539\u826f\u578b\u4e8c\u8e22\u811a\",\"location\":[7,3],\"direction\":\"None\",\"costs\":84},{\"type\":\"Skill\",\"name\":\"\u5e74\",\"location\":[3,3],\"costs\":94},{\"type\":\"Skill\",\"name\":\"\u94f8\u94c1\",\"location\":[3,5]},{\"type\":\"Skill\",\"name\":\"\u661f\u6781\",\"location\":[3,1]},{\"type\":\"Skill\",\"name\":\"\u708e\u7194\",\"location\":[2,2]}],\"doc\":{\"title\":\"\u91cd\u88c5 - \u5e74 - \u201c\u9664\u5915\u201d\",\"details\":\"\u91cd\u88c5 - \u5e74 - \u201c\u9664\u5915\u201d\"},\"groups\":[],\"opers\":[{\"name\":\"\u5e74\",\"skill\":3,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_nian_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "年",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "史都华德",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "铸铁",
+            "location": [
+                3,
+                5
+            ],
+            "costs": 22
+        },
+        {
+            "type": "Deploy",
+            "name": "炎熔",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "年",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "星极",
+            "location": [
+                3,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "炎熔"
+        },
+        {
+            "type": "Deploy",
+            "name": "改良型二踢脚",
+            "location": [
+                7,
+                3
+            ],
+            "costs": 16,
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "改良型二踢脚",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "None",
+            "costs": 31
+        },
+        {
+            "type": "Deploy",
+            "name": "改良型二踢脚",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "None",
+            "costs": 42
+        },
+        {
+            "type": "Deploy",
+            "name": "改良型二踢脚",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "None",
+            "costs": 57
+        },
+        {
+            "type": "Deploy",
+            "name": "改良型二踢脚",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "None",
+            "costs": 84
+        },
+        {
+            "type": "Skill",
+            "name": "年",
+            "location": [
+                3,
+                3
+            ],
+            "costs": 94
+        },
+        {
+            "type": "Skill",
+            "name": "铸铁",
+            "location": [
+                3,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "星极",
+            "location": [
+                3,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "炎熔",
+            "location": [
+                2,
+                2
+            ]
+        }
+    ],
+    "doc": {
+        "title": "重装 - 年 - “除夕”",
+        "details": "重装 - 年 - “除夕”"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "年",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

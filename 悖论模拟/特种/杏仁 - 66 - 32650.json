@@ -1,1 +1,75 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_almond_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u674f\u4ec1\",\"location\":[6,4],\"direction\":\"Right\"},{\"type\":\"Skill\",\"name\":\"\u674f\u4ec1\",\"location\":[6,4],\"costs\":20},{\"type\":\"Skill\",\"name\":\"\u674f\u4ec1\",\"location\":[6,4],\"costs\":45},{\"type\":\"Skill\",\"name\":\"\u767d\u9762\u9e2e\",\"location\":[7,5],\"costs\":46},{\"type\":\"Skill\",\"name\":\"\u8299\u5170\u5361\",\"location\":[9,5],\"costs\":46},{\"type\":\"Skill\",\"name\":\"\u674f\u4ec1\",\"location\":[6,4],\"costs\":87}],\"doc\":{\"title\":\"\u7279\u79cd - \u674f\u4ec1 - \u201c\u89c1\u7f1d\u63d2\u9488\u201d\u3010\u674f\u4ec1\u6096\u8bba\u6a21\u62df\u3011\",\"details\":\"\u674f\u4ec1\u6096\u8bba\u6a21\u62df\\n\u7ec3\u5ea6\uff1a\u7cbe\u4e8c1\u7ea7\u30017\u7ea7\u6280\u80fd\\n\u539f\u4f5c\u8005\uff1a\u503e\u4e5d_Komy   JSON\u4f5c\u8005landgranf\\n\u6096\u8bba\u6a21\u62df\u9700\u8981\u5728MAA\u4e2d\u5173\u95ed\u201c\u81ea\u52a8\u7f16\u961f\u201d\uff0c\\n\u9009\u597d\u4e8c\u6280\u80fd\u540e\u5904\u4e8e\u7ea2\u8272ui\u201c\u5f00\u59cb\u6a21\u62df\u201d\u754c\u9762\uff0cmaa\u5c31\u53ef\u4ee5\u6309\u5f00\u59cb\u4e86\\n\u3010\u660e\u65e5\u65b9\u821f\u3011\u674f\u4ec1 \u6096\u8bba\u6a21\u62df/\u65e0\u9700\u4e13\u7cbe/\u770b\u4e00\u904d\u5c31\u8fc7/\u7b80\u5355\u64cd\u4f5c/\u503e\u4e5d/\u6076\u5146\u6e4d\u6d41\\nhttps://www.bilibili.com/video/BV1fN411t7DQ\"},\"groups\":[],\"opers\":[{\"name\":\"\u674f\u4ec1\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_almond_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "杏仁",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "杏仁",
+            "location": [
+                6,
+                4
+            ],
+            "costs": 20
+        },
+        {
+            "type": "Skill",
+            "name": "杏仁",
+            "location": [
+                6,
+                4
+            ],
+            "costs": 45
+        },
+        {
+            "type": "Skill",
+            "name": "白面鸮",
+            "location": [
+                7,
+                5
+            ],
+            "costs": 46
+        },
+        {
+            "type": "Skill",
+            "name": "芙兰卡",
+            "location": [
+                9,
+                5
+            ],
+            "costs": 46
+        },
+        {
+            "type": "Skill",
+            "name": "杏仁",
+            "location": [
+                6,
+                4
+            ],
+            "costs": 87
+        }
+    ],
+    "doc": {
+        "title": "特种 - 杏仁 - “见缝插针”【杏仁悖论模拟】",
+        "details": "杏仁悖论模拟\n练度：精二1级、7级技能\n原作者：倾九_Komy   JSON作者landgranf\n悖论模拟需要在MAA中关闭“自动编队”，\n选好二技能后处于红色ui“开始模拟”界面，maa就可以按开始了\n【明日方舟】杏仁 悖论模拟/无需专精/看一遍就过/简单操作/倾九/恶兆湍流\nhttps://www.bilibili.com/video/BV1fN411t7DQ"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "杏仁",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,1 +1,42 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_crow_1\",\"actions\":[{\"type\":\"Deploy\",\"name\":\"\u7fbd\u6bdb\u7b14\",\"location\":[6,3],\"direction\":\"Right\"},{\"type\":\"SpeedUp\"},{\"type\":\"Skill\",\"name\":\"\u9f99\u820c\u5170\",\"location\":[2,3],\"kills\":10},{\"type\":\"SkillDaemon\"}],\"doc\":{\"title\":\"\u8fd1\u536b - \u7fbd\u6bdb\u7b14 - \u98ce\u4e2d\u4e4b\u7fbd\",\"details\":\"\u7fbd\u6bdb\u7b14\u4e0d\u8981\u6c42\u6280\u80fd\u4e13\u7cbe   \\n\u6d4b\u8bd5\u6700\u4f4e\u7b49\u7ea7\u662f50\u7ea7\uff01\uff01\uff01\\n\\n50\u7ea7\uff01\uff01\uff01\uff01\uff01\uff01\"},\"groups\":[],\"opers\":[{\"name\":\"\u7fbd\u6bdb\u7b14\",\"skill\":1,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_crow_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "羽毛笔",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "龙舌兰",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 10
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 羽毛笔 - 风中之羽",
+        "details": "羽毛笔不要求技能专精   \n测试最低等级是50级！！！\n\n50级！！！！！！"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "羽毛笔",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

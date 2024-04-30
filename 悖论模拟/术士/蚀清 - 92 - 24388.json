@@ -1,1 +1,72 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_serum_1\",\"actions\":[{\"type\":\"Deploy\",\"name\":\"\u9999\u8349\",\"location\":[3,4],\"direction\":\"Right\"},{\"type\":\"SkillUsage\",\"name\":\"\u9999\u8349\",\"skill_usage\":2},{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u8680\u6e05\",\"location\":[1,2],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"\u7c73\u683c\u9c81\",\"location\":[3,2],\"direction\":\"Right\"},{\"type\":\"Deploy\",\"name\":\"\u7ea2\",\"location\":[5,4],\"direction\":\"Right\"},{\"type\":\"Skill\",\"name\":\"\u8680\u6e05\",\"costs\":22},{\"type\":\"Skill\",\"name\":\"\u8680\u6e05\",\"costs\":87}],\"doc\":{\"title\":\"\u672f\u5e08 - \u8680\u6e05 - \u52c7\u5f80\u76f4\u524d\",\"details\":\"https://www.bilibili.com/video/BV1Td4y1h76B/\\n\u7ec3\u5ea6\u7cbe\u4e8c25\u7ea7 7\u7ea7\u6280\u80fd\\n\u5236\u4f5c\u8005\uff1a\u4e00\u53ea\u6446\u70c2\u768442\\n\u6709\u95ee\u9898\u8054\u7cfbQQ2586582719\"},\"groups\":[],\"opers\":[{\"name\":\"\u8680\u6e05\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_serum_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "香草",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "香草",
+            "skill_usage": 2
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "蚀清",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "红",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "蚀清",
+            "costs": 22
+        },
+        {
+            "type": "Skill",
+            "name": "蚀清",
+            "costs": 87
+        }
+    ],
+    "doc": {
+        "title": "术师 - 蚀清 - 勇往直前",
+        "details": "https://www.bilibili.com/video/BV1Td4y1h76B/\n练度精二25级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "蚀清",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

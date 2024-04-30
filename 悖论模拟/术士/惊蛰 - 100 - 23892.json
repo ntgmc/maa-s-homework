@@ -1,1 +1,35 @@
-"{\"minimum_required\":\"v4.0.0\",\"doc\":{\"title\":\"\u58f0\u5a01\u5728\u524d-\u6096\u8bba\u6a21\u62df-\u60ca\u86f0\",\"details\":\"\u503e\u4e5d_Komy\\nhttps://www.bilibili.com/video/BV1N14y1Q7pM\\n\u4e8c\u6280\u80fd\uff0c\u65e0\u9700\u4e13\u7cbe\\n\u5236\u4f5c\u8005\uff1a\u4e00\u53ea\u6446\u70c2\u768442\\n\u6709\u95ee\u9898\u8054\u7cfbQQ2586582719\"},\"stage_name\":\"mem_leizi_1\",\"opers\":[{\"name\":\"\u60ca\u86f0\",\"skill\":2,\"skill_usage\":0}],\"actions\":[{\"type\":\"\u4e8c\u500d\u901f\",\"name\":\"\"},{\"type\":\"\u90e8\u7f72\",\"name\":\"\u60ca\u86f0\",\"location\":[3,4],\"direction\":\"\u53f3\"},{\"type\":\"\u6280\u80fd\",\"cost_changes\":86,\"name\":\"\u60ca\u86f0\"}]}"
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "声威在前-悖论模拟-惊蛰",
+        "details": "倾九_Komy\nhttps://www.bilibili.com/video/BV1N14y1Q7pM\n二技能，无需专精\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "mem_leizi_1",
+    "opers": [
+        {
+            "name": "惊蛰",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "惊蛰",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 86,
+            "name": "惊蛰"
+        }
+    ]
+}

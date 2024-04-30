@@ -11,7 +11,7 @@ job_categories = ['先锋', '近卫', '重装', '狙击', '术士', '医疗', '�
 
 def write_to_file(file_path, content):
     with open(file_path, 'w', encoding='utf-8') as file:
-        json.dump(content, file)
+        json.dump(content, file, ensure_ascii=False, indent=4)
 
 
 def calculate_percent(item):

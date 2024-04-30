@@ -1,1 +1,39 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_humus_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"costs\":25,\"name\":\"\u4f11\u8c1f\u65af\",\"location\":[6,3],\"direction\":\"Left\"},{\"type\":\"Skill\",\"location\":[6,3],\"kills\":20}],\"doc\":{\"title\":\"\u8fd1\u536b - \u4f11\u8c1f\u65af - \u201c\u94ee\u94ee\u94c1\u9aa8\u201d\",\"details\":\"\u7cbe2   70\u7ea7  7\u7ea7\u6280\u80fd\u81ea\u6d4b  \u53ef\u8fc7\\nPS\uff1a\u624b\u91cc\u5b9e\u5728\u6ca1\u6709\u4f4e\u914d\u7684\u6d4b\u8bd5\u8d26\u53f7\u4e86\"},\"groups\":[],\"opers\":[{\"name\":\"\u4f11\u8c1f\u65af\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_humus_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "costs": 25,
+            "name": "休谟斯",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 20
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 休谟斯 - “铮铮铁骨”",
+        "details": "精2   70级  7级技能自测  可过\nPS：手里实在没有低配的测试账号了"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "休谟斯",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

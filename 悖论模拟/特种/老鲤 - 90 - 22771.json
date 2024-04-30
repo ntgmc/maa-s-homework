@@ -1,1 +1,78 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_lmlee_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u7ea2\u8c46\",\"location\":[4,5],\"direction\":\"Left\"},{\"type\":\"Deploy\",\"name\":\"\u683c\u62c9\u5c3c\",\"location\":[4,3],\"direction\":\"Left\"},{\"type\":\"Deploy\",\"name\":\"\u8001\u9ca4\",\"location\":[5,4],\"direction\":\"Left\",\"kills\":30},{\"type\":\"Deploy\",\"name\":\"\u9521\u5170\",\"location\":[4,6],\"direction\":\"Up\"},{\"type\":\"Output\",\"doc_color\":\"Gray\",\"doc\":\"\u5f00\u59cb\u6302\u673a\"}],\"doc\":{\"title\":\" \u8001\u9ca4 \u6096\u8bba\u6a21\u62df \u6446\u5b8c\u6302\u673a\",\"details\":\"\u653b\u7565\u4f5c\u8005\uff1a\u8537\u8587\u8272\u4e0e\u7070\u8272 BV11x4y1u7DJ\\n\u81ea\u52a8\u6218\u6597\u6587\u4ef6\u4f5c\u8005\uff1a\u9c7c\u4e38\\n\u8001\u9ca4\u65e0\u9700\u4e13\u7cbe \u53ef\u80fd\u9700\u8981\u4e00\u7ea7\u6a21\u7ec4\"},\"groups\":[],\"opers\":[{\"name\":\"\u8001\u9ca4\",\"skill\":3,\"skill_usage\":0},{\"name\":\"\u7ea2\u8c46\",\"skill\":1,\"skill_usage\":0},{\"name\":\"\u683c\u62c9\u5c3c\",\"skill\":1,\"skill_usage\":0},{\"name\":\"\u9521\u5170\",\"skill\":1,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_lmlee_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "红豆",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "格拉尼",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "老鲤",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left",
+            "kills": 30
+        },
+        {
+            "type": "Deploy",
+            "name": "锡兰",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Output",
+            "doc_color": "Gray",
+            "doc": "开始挂机"
+        }
+    ],
+    "doc": {
+        "title": " 老鲤 悖论模拟 摆完挂机",
+        "details": "攻略作者：蔷薇色与灰色 BV11x4y1u7DJ\n自动战斗文件作者：鱼丸\n老鲤无需专精 可能需要一级模组"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "老鲤",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "红豆",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "格拉尼",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "锡兰",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

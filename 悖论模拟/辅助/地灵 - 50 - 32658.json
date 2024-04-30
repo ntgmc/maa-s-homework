@@ -1,1 +1,89 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_skgoat_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"Deploy\",\"name\":\"\u5730\u7075\",\"location\":[7,4],\"direction\":\"Left\"},{\"type\":\"Deploy\",\"name\":\"\u969c\u788d\u7269\",\"location\":[2,3],\"direction\":\"Left\"},{\"type\":\"Skill\",\"name\":\"\u5730\u7075\",\"location\":[7,4],\"costs\":89},{\"type\":\"Skill\",\"name\":\"\u65af\u5361\u8482\",\"location\":[4,3],\"pre_delay\":29000},{\"type\":\"SpeedUp\",\"kills\":14},{\"type\":\"Skill\",\"name\":\"\u5730\u7075\",\"location\":[7,4],\"pre_delay\":30000},{\"type\":\"Retreat\",\"name\":\"\u969c\u788d\u7269\",\"location\":[2,3],\"pre_delay\":12000},{\"type\":\"Deploy\",\"name\":\"\u969c\u788d\u7269\",\"location\":[5,3],\"pre_delay\":1000,\"direction\":\"Up\"}],\"doc\":{\"title\":\"\u8f85\u52a9 - \u5730\u7075 - \u201c\u4e09\u4eba\u7684\u9635\u7ebf\u201d\u3010\u5730\u7075\u6096\u8bba\u6a21\u62df\u3011\",\"details\":\"\u5730\u7075\u6096\u8bba\u6a21\u62df\\n\\n\u6ce8\u610f\uff1a\u622a\u56fe\u65f6\u95f4\u8f83\u5feb\u7684\u7528\u6237\u9700\u8981\u624b\u52a8\u8c03\u7bb1\uff0c\u5730\u7075\u5f00\u6280\u80fd\u540e\u7b49\u7b2c\u4e00\u4e2a\u8840\u5deb\u8d70\u5230\u5730\u7075\u4e0a\u65b9\u683c\u5b50\uff0c\u64a4\u9000\u7bb1\u5b50\uff0c\u5728\u65af\u5361\u8482\u53f3\u8fb9\u8865\u4e00\u4e2a\u7bb1\u5b50\\n\\n\u7ec3\u5ea6\uff1a\u7cbe\u4e8c1\u7ea7\u30017\u7ea7\u6280\u80fd\\n\u539f\u4f5c\u8005\uff1aturtleaaaaaaaaa   JSON\u4f5c\u8005landgranf\\n\u6096\u8bba\u6a21\u62df\u9700\u8981\u5728MAA\u4e2d\u5173\u95ed\u201c\u81ea\u52a8\u7f16\u961f\u201d\uff0c\\n\u9009\u597d\u4e8c\u6280\u80fd\u540e\u5904\u4e8e\u7ea2\u8272ui\u201c\u5f00\u59cb\u6a21\u62df\u201d\u754c\u9762\uff0cmaa\u5c31\u53ef\u4ee5\u6309\u5f00\u59cb\u4e86\\n\u3010\u660e\u65e5\u65b9\u821f\u3011\u5730\u7075\u7684\u6096\u8bba\u6a21\u62df \u8ddf\u70b8\u70df\u82b1\u4e00\u6837\\nhttps://www.bilibili.com/video/BV1ro4y117t1\"},\"groups\":[],\"opers\":[{\"name\":\"\u5730\u7075\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_skgoat_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "地灵",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "地灵",
+            "location": [
+                7,
+                4
+            ],
+            "costs": 89
+        },
+        {
+            "type": "Skill",
+            "name": "斯卡蒂",
+            "location": [
+                4,
+                3
+            ],
+            "pre_delay": 29000
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 14
+        },
+        {
+            "type": "Skill",
+            "name": "地灵",
+            "location": [
+                7,
+                4
+            ],
+            "pre_delay": 30000
+        },
+        {
+            "type": "Retreat",
+            "name": "障碍物",
+            "location": [
+                2,
+                3
+            ],
+            "pre_delay": 12000
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 1000,
+            "direction": "Up"
+        }
+    ],
+    "doc": {
+        "title": "辅助 - 地灵 - “三人的阵线”【地灵悖论模拟】",
+        "details": "地灵悖论模拟\n\n注意：截图时间较快的用户需要手动调箱，地灵开技能后等第一个血巫走到地灵上方格子，撤退箱子，在斯卡蒂右边补一个箱子\n\n练度：精二1级、7级技能\n原作者：turtleaaaaaaaaa   JSON作者landgranf\n悖论模拟需要在MAA中关闭“自动编队”，\n选好二技能后处于红色ui“开始模拟”界面，maa就可以按开始了\n【明日方舟】地灵的悖论模拟 跟炸烟花一样\nhttps://www.bilibili.com/video/BV1ro4y117t1"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "地灵",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,1 +1,70 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_frncat_1\",\"actions\":[{\"type\":\"Deploy\",\"name\":\"\u6155\u65af\",\"location\":[8,2],\"direction\":\"Up\"},{\"type\":\"SpeedUp\"},{\"type\":\"Skill\",\"kills\":10,\"pre_delay\":700,\"name\":\"\u963f\u6d88\",\"location\":[4,2]},{\"type\":\"Skill\",\"name\":\"\u6155\u65af\"},{\"type\":\"Skill\",\"name\":\"\u963f\u6d88\",\"location\":[4,2],\"kills\":18,\"pre_delay\":1200},{\"type\":\"Skill\",\"name\":\"\u827e\u4e1d\u9edb\u5c14\",\"location\":[7,4]},{\"type\":\"SkillUsage\",\"name\":\"\u6155\u65af\",\"skill_usage\":1},{\"type\":\"SkillDaemon\"}],\"doc\":{\"title\":\"\u8fd1\u536b - \u6155\u65af - \u53cc\u624b\u5341\u6307 \u4fee\u590d\",\"details\":\"https://www.bilibili.com/video/BV1bM411U7Tt/\\n\u7ec3\u5ea6\u7cbe\u4e8c40\u7ea7 7\u7ea7\u6280\u80fd\\n\u5236\u4f5c\u8005\uff1a\u4e00\u53ea\u6446\u70c2\u768442\\n\u6709\u95ee\u9898\u8054\u7cfbQQ2586582719\\n\u4fee\u590d\"},\"groups\":[],\"opers\":[{\"name\":\"\u6155\u65af\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_frncat_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "慕斯",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "kills": 10,
+            "pre_delay": 700,
+            "name": "阿消",
+            "location": [
+                4,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "慕斯"
+        },
+        {
+            "type": "Skill",
+            "name": "阿消",
+            "location": [
+                4,
+                2
+            ],
+            "kills": 18,
+            "pre_delay": 1200
+        },
+        {
+            "type": "Skill",
+            "name": "艾丝黛尔",
+            "location": [
+                7,
+                4
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "慕斯",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 慕斯 - 双手十指 修复",
+        "details": "https://www.bilibili.com/video/BV1bM411U7Tt/\n练度精二40级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修复"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "慕斯",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

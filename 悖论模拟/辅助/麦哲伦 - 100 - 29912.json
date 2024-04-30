@@ -1,1 +1,206 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_mgllan_1\",\"actions\":[{\"type\":\"SpeedUp\"},{\"type\":\"BulletTime\",\"name\":\"\u9ea6\u54f2\u4f26\",\"location\":[6,6],\"rear_delay\":1},{\"type\":\"Deploy\",\"name\":\"\u9ea6\u54f2\u4f26\",\"location\":[6,6],\"direction\":\"Up\",\"pre_delay\":0,\"rear_delay\":1},{\"type\":\"BulletTime\",\"name\":\"\u9ea6\u54f2\u4f26\",\"location\":[6,6]},{\"type\":\"Deploy\",\"name\":\"\u9f99\u817e.A\",\"location\":[3,5],\"direction\":\"Left\"},{\"type\":\"Deploy\",\"name\":\"\u673a\u68b0\u6c34\u736d\",\"location\":[9,5],\"direction\":\"Right\",\"costs\":30},{\"type\":\"Deploy\",\"name\":\"\u9f99\u817e.A\",\"location\":[2,3],\"direction\":\"Up\"},{\"type\":\"Skill\",\"name\":\"\u9ea6\u54f2\u4f26\",\"location\":[6,6],\"costs\":25},{\"type\":\"Deploy\",\"name\":\"\u9f99\u817e.A\",\"location\":[2,3],\"direction\":\"Up\",\"costs\":56},{\"type\":\"Deploy\",\"name\":\"\u9f99\u817e.A\",\"location\":[3,5],\"direction\":\"Left\",\"costs\":62},{\"type\":\"Deploy\",\"name\":\"\u9f99\u817e.A\",\"location\":[10,3],\"direction\":\"Up\",\"costs\":76},{\"type\":\"Skill\",\"name\":\"\u9ea6\u54f2\u4f26\",\"location\":[6,6],\"pre_delay\":2},{\"type\":\"Deploy\",\"name\":\"\u9f99\u817e.A\",\"location\":[2,3],\"direction\":\"Up\",\"costs\":97},{\"type\":\"Deploy\",\"name\":\"\u673a\u68b0\u6c34\u736d\",\"location\":[8,5],\"direction\":\"Up\",\"costs\":0,\"kills\":36},{\"type\":\"Deploy\",\"name\":\"\u9f99\u817e.A\",\"location\":[3,5],\"direction\":\"Left\",\"costs\":0},{\"type\":\"Deploy\",\"name\":\"\u9f99\u817e.A\",\"location\":[10,3],\"direction\":\"Up\",\"costs\":0},{\"type\":\"Skill\",\"name\":\"\u9ea6\u54f2\u4f26\",\"location\":[6,6],\"costs\":99,\"pre_delay\":3},{\"type\":\"Deploy\",\"name\":\"\u9f99\u817e.A\",\"location\":[8,3],\"direction\":\"Up\",\"costs\":92},{\"type\":\"Deploy\",\"name\":\"\u9f99\u817e.A\",\"location\":[2,3],\"direction\":\"Up\",\"costs\":0},{\"type\":\"Deploy\",\"name\":\"\u9f99\u817e.A\",\"location\":[9,6],\"direction\":\"Up\",\"costs\":0}],\"doc\":{\"title\":\"\u8f85\u52a9 - \u9ea6\u54f2\u4f26 - \u53d6\u4e4b\u4e0d\u5c3d\uff0c\u7528\u4e4b\u4e0d\u7aed\",\"details\":\"\u9ea6\u54f2\u4f26\uff1a2307\\n\u539f\u89c6\u9891\uff1ahttps://www.bilibili.com/video/BV1Ta411G7ax\\nup\uff1a\u503e\u4e5d_Komy\\n\u5982\u679c\u5931\u8d25\u4e86\uff0c\u5c31\u662f\u90e8\u7f72\u9ea6\u9ea6\u5931\u8d25\uff0c\u518d\u70b9\u4e00\u6b21\u770b\u770b\u8138\"},\"groups\":[],\"opers\":[{\"name\":\"\u9ea6\u54f2\u4f26\",\"skill\":3,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_mgllan_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "BulletTime",
+            "name": "麦哲伦",
+            "location": [
+                6,
+                6
+            ],
+            "rear_delay": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "麦哲伦",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up",
+            "pre_delay": 0,
+            "rear_delay": 1
+        },
+        {
+            "type": "BulletTime",
+            "name": "麦哲伦",
+            "location": [
+                6,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "龙腾.A",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "机械水獭",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Right",
+            "costs": 30
+        },
+        {
+            "type": "Deploy",
+            "name": "龙腾.A",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "麦哲伦",
+            "location": [
+                6,
+                6
+            ],
+            "costs": 25
+        },
+        {
+            "type": "Deploy",
+            "name": "龙腾.A",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Up",
+            "costs": 56
+        },
+        {
+            "type": "Deploy",
+            "name": "龙腾.A",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Left",
+            "costs": 62
+        },
+        {
+            "type": "Deploy",
+            "name": "龙腾.A",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Up",
+            "costs": 76
+        },
+        {
+            "type": "Skill",
+            "name": "麦哲伦",
+            "location": [
+                6,
+                6
+            ],
+            "pre_delay": 2
+        },
+        {
+            "type": "Deploy",
+            "name": "龙腾.A",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Up",
+            "costs": 97
+        },
+        {
+            "type": "Deploy",
+            "name": "机械水獭",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up",
+            "costs": 0,
+            "kills": 36
+        },
+        {
+            "type": "Deploy",
+            "name": "龙腾.A",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Left",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "龙腾.A",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Up",
+            "costs": 0
+        },
+        {
+            "type": "Skill",
+            "name": "麦哲伦",
+            "location": [
+                6,
+                6
+            ],
+            "costs": 99,
+            "pre_delay": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "龙腾.A",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up",
+            "costs": 92
+        },
+        {
+            "type": "Deploy",
+            "name": "龙腾.A",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Up",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "龙腾.A",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Up",
+            "costs": 0
+        }
+    ],
+    "doc": {
+        "title": "辅助 - 麦哲伦 - 取之不尽，用之不竭",
+        "details": "麦哲伦：2307\n原视频：https://www.bilibili.com/video/BV1Ta411G7ax\nup：倾九_Komy\n如果失败了，就是部署麦麦失败，再点一次看看脸"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "麦哲伦",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

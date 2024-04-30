@@ -1,1 +1,97 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_hbisc2_1\",\"actions\":[{\"type\":\"SpeedUp\",\"kills\":0},{\"type\":\"Deploy\",\"name\":\"\u6fef\u5c18\u8299\u84c9\",\"location\":[5,4],\"direction\":\"Up\",\"costs\":34},{\"type\":\"Deploy\",\"name\":\"\u708e\u72f1\u708e\u7194\",\"location\":[5,2],\"direction\":\"Down\",\"kills\":3,\"costs\":35},{\"type\":\"SkillUsage\",\"kills\":6,\"costs\":13,\"name\":\"\u6fef\u5c18\u8299\u84c9\",\"skill_usage\":2},{\"type\":\"SkillUsage\",\"name\":\"\u708e\u72f1\u708e\u7194\",\"skill_usage\":2,\"kills\":6,\"costs\":16},{\"type\":\"SkillUsage\",\"name\":\"\u6fef\u5c18\u8299\u84c9\",\"skill_usage\":2,\"kills\":12,\"costs\":42},{\"type\":\"SkillUsage\",\"name\":\"\u6fef\u5c18\u8299\u84c9\",\"skill_usage\":2,\"kills\":18,\"costs\":72},{\"type\":\"SkillUsage\",\"name\":\"\u6fef\u5c18\u8299\u84c9\",\"skill_usage\":2,\"kills\":25,\"costs\":48},{\"type\":\"SkillUsage\",\"name\":\"\u708e\u72f1\u708e\u7194\",\"skill_usage\":2,\"kills\":25,\"costs\":99},{\"type\":\"SkillUsage\",\"name\":\"\u6fef\u5c18\u8299\u84c9\",\"kills\":43,\"costs\":99,\"skill_usage\":2}],\"doc\":{\"title\":\"\u6fef\u5c18\u8299\u84c9 \u6096\u8bba\u6a21\u62df\",\"details\":\"\u7cbe\u4e8c\u4e94\u5341\u4e03\u7ea7\u6280\u80fd \u7b2c\u4e00\u6b21\u5199\u4f5c\u4e1a \u5f53\u65f6\u6284\u53d1\u73b0\u6ca1\u6709\u5c31\u53bb\u5199\u4e86\u4e00\u4e2a\"},\"groups\":[],\"opers\":[{\"name\":\"\u6fef\u5c18\u8299\u84c9\",\"skill\":2,\"skill_usage\":0},{\"name\":\"\u708e\u72f1\u708e\u7194\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_hbisc2_1",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "kills": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "濯尘芙蓉",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up",
+            "costs": 34
+        },
+        {
+            "type": "Deploy",
+            "name": "炎狱炎熔",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down",
+            "kills": 3,
+            "costs": 35
+        },
+        {
+            "type": "SkillUsage",
+            "kills": 6,
+            "costs": 13,
+            "name": "濯尘芙蓉",
+            "skill_usage": 2
+        },
+        {
+            "type": "SkillUsage",
+            "name": "炎狱炎熔",
+            "skill_usage": 2,
+            "kills": 6,
+            "costs": 16
+        },
+        {
+            "type": "SkillUsage",
+            "name": "濯尘芙蓉",
+            "skill_usage": 2,
+            "kills": 12,
+            "costs": 42
+        },
+        {
+            "type": "SkillUsage",
+            "name": "濯尘芙蓉",
+            "skill_usage": 2,
+            "kills": 18,
+            "costs": 72
+        },
+        {
+            "type": "SkillUsage",
+            "name": "濯尘芙蓉",
+            "skill_usage": 2,
+            "kills": 25,
+            "costs": 48
+        },
+        {
+            "type": "SkillUsage",
+            "name": "炎狱炎熔",
+            "skill_usage": 2,
+            "kills": 25,
+            "costs": 99
+        },
+        {
+            "type": "SkillUsage",
+            "name": "濯尘芙蓉",
+            "kills": 43,
+            "costs": 99,
+            "skill_usage": 2
+        }
+    ],
+    "doc": {
+        "title": "濯尘芙蓉 悖论模拟",
+        "details": "精二五十七级技能 第一次写作业 当时抄发现没有就去写了一个"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "濯尘芙蓉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "炎狱炎熔",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,1 +1,80 @@
-"{\"actions\":[{\"type\":\"\u4e8c\u500d\u901f\"},{\"type\":\"\u90e8\u7f72\",\"name\":\"\u767d\u96ea\",\"location\":[5,5],\"direction\":\"\u4e0a\"},{\"type\":\"\u90e8\u7f72\",\"name\":\"\u6885\",\"location\":[1,2],\"direction\":\"\u53f3\"},{\"name\":\"\u7ea2\u4e91\",\"type\":\"\u90e8\u7f72\",\"location\":[9,2],\"direction\":\"\u5de6\"},{\"type\":\"\u6280\u80fd\",\"kills\":9,\"name\":\"\u767d\u96ea\",\"location\":[5,5]},{\"type\":\"\u6280\u80fd\",\"kills\":48,\"name\":\"\u767d\u96ea\",\"location\":[5,5]},{\"type\":\"\u6280\u80fd\",\"name\":\"\u6885\",\"location\":[1,2]},{\"type\":\"\u6280\u80fd\",\"name\":\"\u7ea2\u4e91\",\"location\":[9,2]}],\"stage_name\":\"mem_yuki_1\",\"doc\":{\"title\":\"\u767d\u96ea\u6096\u8bba\u6a21\u62df\",\"details\":\"\u4f5c\u8005\uff1asnowflake\\n\u6d4b\u8bd5\u5e72\u5458\uff1a\u767d\u96ea\u7cbe2 70\u7ea7 7\u7ea7\u6280\u80fd \u65e0\u6a21\"},\"opers\":[{\"name\":\"\u767d\u96ea\",\"skill\":2}],\"minimum_required\":\"v4.0.0\"}"
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "白雪",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "梅",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "name": "红云",
+            "type": "部署",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "kills": 9,
+            "name": "白雪",
+            "location": [
+                5,
+                5
+            ]
+        },
+        {
+            "type": "技能",
+            "kills": 48,
+            "name": "白雪",
+            "location": [
+                5,
+                5
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "梅",
+            "location": [
+                1,
+                2
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "红云",
+            "location": [
+                9,
+                2
+            ]
+        }
+    ],
+    "stage_name": "mem_yuki_1",
+    "doc": {
+        "title": "白雪悖论模拟",
+        "details": "作者：snowflake\n测试干员：白雪精2 70级 7级技能 无模"
+    },
+    "opers": [
+        {
+            "name": "白雪",
+            "skill": 2
+        }
+    ],
+    "minimum_required": "v4.0.0"
+}

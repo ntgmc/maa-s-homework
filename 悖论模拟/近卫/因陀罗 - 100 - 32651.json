@@ -1,1 +1,126 @@
-"{\"minimum_required\":\"v4.0.0\",\"stage_name\":\"mem_tiger_1\",\"actions\":[{\"type\":\"Deploy\",\"name\":\"\u56e0\u9640\u7f57\",\"location\":[5,2],\"direction\":\"Down\"},{\"type\":\"Deploy\",\"name\":\"\u963f\u6d88\",\"location\":[1,4],\"direction\":\"Right\"},{\"type\":\"Skill\",\"name\":\"\u963f\u6d88\",\"kills\":31,\"pre_delay\":500},{\"type\":\"Skill\",\"name\":\"\",\"location\":[6,3],\"pre_delay\":500},{\"type\":\"Skill\",\"name\":\"\u963f\u6d88\",\"kills\":46,\"pre_delay\":500},{\"type\":\"Skill\",\"name\":\"\",\"location\":[6,3],\"pre_delay\":500},{\"type\":\"Skill\",\"name\":\"\u963f\u6d88\",\"kills\":58,\"pre_delay\":700},{\"type\":\"Skill\",\"name\":\"\",\"location\":[6,3],\"pre_delay\":500},{\"type\":\"Skill\",\"name\":\"\u56e0\u9640\u7f57\",\"kills\":59},{\"type\":\"Skill\",\"name\":\"\u963f\u6d88\",\"kills\":66,\"pre_delay\":1000},{\"type\":\"Skill\",\"name\":\"\",\"location\":[6,3],\"pre_delay\":500},{\"type\":\"Skill\",\"name\":\"\u963f\u6d88\",\"kills\":82,\"pre_delay\":500},{\"type\":\"Skill\",\"name\":\"\",\"location\":[6,3],\"pre_delay\":500},{\"type\":\"Skill\",\"name\":\"\u56e0\u9640\u7f57\",\"kills\":83}],\"doc\":{\"title\":\"\u8fd1\u536b - \u56e0\u9640\u7f57 - \u4e58\u98ce\u8ffd\u51fb\",\"details\":\"\u56e0\u9640\u7f57\u6096\u8bba\u6a21\u62df\\n\u6d4b\u8bd5\u7b49\u7ea7\uff1a\u7cbe\u4e8c\u4e00\u7ea7\uff0c\u5176\u4f59\u7b49\u7ea7\u672a\u6d4b\u8bd5\\n\u53ef\u80fd\u968fmaa\u622a\u56fe\u901f\u5ea6\u7b49\u56e0\u7d20\u5f71\u54cd\u5bfc\u81f4\u4e71\u8f74\uff0c\u6ca1\u529e\u6cd5\\nJSON\u4f5c\u8005\u8428\u62c9\u6258\u52a0\\n\u4f5c\u4e1a\u4ea4\u6d41\u7fa4545928846\uff0c\u5982\u679c\u4f5c\u4e1a\u6709\u95ee\u9898\u53ef\u4ee5\u52a0\u7fa4\u627e\u6211\uff0c\u8bc4\u8bba\u533a\u4e0d\u80fd\u53ca\u65f6\u56de\u590d\uff0c\u8fd8\u53ef\u4ee5\u53bb\u7fa4\u91cc\u8e72\u6211\u7684\u65b0\u4f5c\u4e1a\"},\"groups\":[],\"opers\":[{\"name\":\"\u56e0\u9640\u7f57\",\"skill\":2,\"skill_usage\":0},{\"name\":\"\u963f\u6d88\",\"skill\":2,\"skill_usage\":0}]}"
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_tiger_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "因陀罗",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿消",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "阿消",
+            "kills": 31,
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "",
+            "location": [
+                6,
+                3
+            ],
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "阿消",
+            "kills": 46,
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "",
+            "location": [
+                6,
+                3
+            ],
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "阿消",
+            "kills": 58,
+            "pre_delay": 700
+        },
+        {
+            "type": "Skill",
+            "name": "",
+            "location": [
+                6,
+                3
+            ],
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "因陀罗",
+            "kills": 59
+        },
+        {
+            "type": "Skill",
+            "name": "阿消",
+            "kills": 66,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "",
+            "location": [
+                6,
+                3
+            ],
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "阿消",
+            "kills": 82,
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "",
+            "location": [
+                6,
+                3
+            ],
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "因陀罗",
+            "kills": 83
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 因陀罗 - 乘风追击",
+        "details": "因陀罗悖论模拟\n测试等级：精二一级，其余等级未测试\n可能随maa截图速度等因素影响导致乱轴，没办法\nJSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "因陀罗",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿消",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

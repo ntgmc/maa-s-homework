@@ -1,1 +1,73 @@
-"{\"actions\":[{\"type\":\"\u90e8\u7f72\",\"name\":\"\u514b\u6d1b\u4e1d\",\"location\":[4,4],\"direction\":\"\u53f3\"},{\"type\":\"\u4e8c\u500d\u901f\"},{\"type\":\"\u90e8\u7f72\",\"name\":\"\u9ed1\u89d2\",\"location\":[6,3],\"direction\":\"\u5de6\"},{\"type\":\"\u90e8\u7f72\",\"location\":[7,2],\"name\":\"\u6893\u5170\",\"direction\":\"\u4e0b\"},{\"type\":\"\u90e8\u7f72\",\"location\":[3,2],\"name\":\"\u7d6e\u96e8\",\"direction\":\"\u53f3\",\"kills\":4},{\"type\":\"\u90e8\u7f72\",\"name\":\"\u675c\u6797\",\"location\":[6,2],\"direction\":\"\u4e0b\"},{\"type\":\"\u6446\u5b8c\u6302\u673a\"}],\"stage_name\":\"mem_whispr_1\",\"doc\":{\"title\":\"\u629a\u6170\u4f24\u75db\",\"details\":\"\u5e72\u5458\u7b49\u7ea7\uff1a\u7d6e\u96e8\u7cbe\u4e8c40\uff0c\u4e8c\u6280\u80fd\u4e137\u7ea7\\n\u6d4b\u8bd5\u7248\u672c\uff1a395b2\\n\u6ce8\u610f\uff1a\u672c\u4f5c\u4e1a\u9700\u8981\u4fee\u590d\u7d6e\u8bed\u5e72\u5458\u540d\u5b57\u8bfb\u53d6bug\"},\"opers\":[{\"name\":\"\u7d6e\u96e8\"},{\"name\":\"\u6893\u5170\",\"skill_usage\":1,\"skill\":1}],\"groups\":[],\"minimum_required\":\"v4.0.0\"}"
+{
+    "actions": [
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "黑角",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "location": [
+                7,
+                2
+            ],
+            "name": "梓兰",
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "location": [
+                3,
+                2
+            ],
+            "name": "絮雨",
+            "direction": "右",
+            "kills": 4
+        },
+        {
+            "type": "部署",
+            "name": "杜林",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "stage_name": "mem_whispr_1",
+    "doc": {
+        "title": "抚慰伤痛",
+        "details": "干员等级：絮雨精二40，二技能专7级\n测试版本：395b2\n注意：本作业需要修复絮语干员名字读取bug"
+    },
+    "opers": [
+        {
+            "name": "絮雨"
+        },
+        {
+            "name": "梓兰",
+            "skill_usage": 1,
+            "skill": 1
+        }
+    ],
+    "groups": [],
+    "minimum_required": "v4.0.0"
+}
