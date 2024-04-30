@@ -13,6 +13,10 @@ def zip_json_files(_source_folder, _destination_file):
                     zipf.write(file_path, arcname=os.path.relpath(file_path, _source_folder))
 
 
+def count_files_in_directory(directory):
+    return sum([len(files) for r, d, files in os.walk(directory)])
+
+
 source_list = ["插曲", "别传"]
 
 for source in source_list:
@@ -48,9 +52,9 @@ source2_list = ["往期剿灭", "模组任务", "悖论模拟", "资源关"]
 
 for source in source2_list:
     source_folder = os.path.join(r"D:\GITHOME\maa", source)
+    total_files = count_files_in_directory(source_folder)
     destination_file = os.path.join(r"D:\GITHOME\maa\【下载看这里】合集下载",
-                                    os.path.basename(source_folder) + "-" + str(
-                                        len(os.listdir(source_folder))) + ".zip")
+                                    os.path.basename(source_folder) + "-" + str(total_files) + ".zip")
     # 如果目标文件存在，就删除它
     if os.path.exists(destination_file):
         os.remove(destination_file)
