@@ -4,7 +4,7 @@ import json
 import os
 import glob
 
-download_mode = True
+download_mode = False
 download_score_threshold = 50
 job_categories = ['先锋', '近卫', '重装', '狙击', '术士', '医疗', '辅助', '特种']
 ids = []
@@ -220,7 +220,7 @@ def main_paradox():
     response = requests.get('https://prts.wiki/index.php', params=params, headers=headers)
     # 提取HTML中的角色名
     character_names = extract_character_names(response.text)
-    for file_name in ['output_develop.txt', 'output_user.txt']:
+    for file_name in ['paradox_develop.txt', 'paradox_user.txt']:
         # 处理txt文件
         with open(file_name, 'r', encoding='utf-8') as txt_file:
             lines = txt_file.readlines()
@@ -273,6 +273,6 @@ if download_mode:
     if not os.path.exists(f'./download/module'):
         os.makedirs(f'./download/module')
 # search("缪尔赛思", '先锋')
-# main_paradox()
+main_paradox()
 main_module()
 print(ids)
