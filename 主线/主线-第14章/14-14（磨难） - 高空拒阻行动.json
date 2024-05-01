@@ -1,0 +1,127 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_14-12",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "纯烬艾雅法拉",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "澄闪",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Retreat",
+      "costs": 24,
+      "name": "桃金娘"
+    },
+    {
+      "type": "Deploy",
+      "name": "号角",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第十四章 慈悲灯塔 - 14-14（磨难） - 高空拒阻行动",
+    "details": "第十四章 慈悲灯塔 - 14-14（磨难） - 高空拒阻行动"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "风笛",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "纯烬艾雅法拉",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "澄闪",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "号角",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

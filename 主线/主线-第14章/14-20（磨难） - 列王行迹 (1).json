@@ -1,0 +1,178 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_14-18",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Skill",
+      "name": "",
+      "location": [
+        4,
+        3
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "玛恩纳",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "黍",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "location": [
+        5,
+        3
+      ],
+      "costs": 15
+    },
+    {
+      "type": "Deploy",
+      "name": "锏",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "location": [
+        5,
+        4
+      ],
+      "costs": 21
+    },
+    {
+      "type": "Skill",
+      "location": [
+        4,
+        2
+      ],
+      "costs": 37
+    },
+    {
+      "type": "Skill",
+      "location": [
+        5,
+        3
+      ],
+      "costs": 63
+    },
+    {
+      "type": "Skill",
+      "location": [
+        4,
+        3
+      ],
+      "pre_delay": 28000
+    },
+    {
+      "type": "Skill",
+      "location": [
+        5,
+        3
+      ],
+      "pre_delay": 10000
+    },
+    {
+      "type": "Skill",
+      "location": [
+        5,
+        4
+      ],
+      "pre_delay": 22000
+    },
+    {
+      "type": "Skill",
+      "location": [
+        4,
+        3
+      ],
+      "pre_delay": 8000
+    },
+    {
+      "type": "Skill",
+      "location": [
+        4,
+        2
+      ],
+      "pre_delay": 1000
+    },
+    {
+      "type": "Skill",
+      "location": [
+        5,
+        3
+      ],
+      "pre_delay": 13000
+    },
+    {
+      "type": "Skill",
+      "location": [
+        5,
+        4
+      ],
+      "pre_delay": 20000
+    },
+    {
+      "type": "Skill",
+      "location": [
+        4,
+        3
+      ],
+      "pre_delay": 15000
+    },
+    {
+      "type": "Skill",
+      "location": [
+        4,
+        2
+      ],
+      "pre_delay": 1000
+    },
+    {
+      "type": "Skill",
+      "location": [
+        5,
+        3
+      ],
+      "pre_delay": 1000
+    }
+  ],
+  "doc": {
+    "title": "第十四章 慈悲灯塔 - 14-20（磨难） - 列王行迹",
+    "details": "第十四章 慈悲灯塔 - 14-20（磨难） - 列王行迹 技能全都专三，不专的没试过"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "玛恩纳",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "锏",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "黍",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}

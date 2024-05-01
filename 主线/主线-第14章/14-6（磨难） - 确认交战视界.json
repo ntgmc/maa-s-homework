@@ -1,0 +1,47 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_14-05",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第十四章 慈悲灯塔 - 14-6（磨难） - 确认交战视界",
+    "details": "第十四章 慈悲灯塔 - 14-6（磨难） - 确认交战视界"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

@@ -47,7 +47,7 @@ def code_output(percent, id, mode):
 
 
 def check_file_exists(job, keyword, id):  # 判断是否存在相同id但评分不同的文件
-    pattern = f"./download/{job}/{keyword} - * - {id}.json"
+    pattern = f"./download/paradox/{job}/{keyword} - * - {id}.json"
     matching_files = glob.glob(pattern)
     if len(matching_files) > 0:
         for file_name in matching_files:
@@ -97,7 +97,7 @@ def search_paradox(keyword, job=None):
 
                 # 只下载评分最高的三个项目
                 for percent, item in items_to_download[:3]:
-                    file_path = f"./download/{job}/{keyword} - {int(percent)} - {item['id']}.json"
+                    file_path = f"./download/paradox/{job}/{keyword} - {int(percent)} - {item['id']}.json"
                     if not os.path.exists(file_path):
                         check_file_exists(job, keyword, item['id'])
                         write_to_file(file_path, json.loads(item['content']))
@@ -252,7 +252,9 @@ def main_module():
     headers = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0',
     }
-    response = requests.get("https://prts.wiki/w/%E5%B9%B2%E5%91%98%E6%A8%A1%E7%BB%84%E4%B8%80%E8%A7%88/%E6%A8%A1%E7%BB%84%E4%BB%BB%E5%8A%A1", headers=headers)
+    response = requests.get(
+        "https://prts.wiki/w/%E5%B9%B2%E5%91%98%E6%A8%A1%E7%BB%84%E4%B8%80%E8%A7%88/%E6%A8%A1%E7%BB%84%E4%BB%BB%E5%8A%A1",
+        headers=headers)
     # 提取HTML中的角色名
     tr_contents = extract_tr_contents(response.text)
     with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w',
@@ -268,8 +270,8 @@ def main_module():
 
 if download_mode:
     for job in job_categories:
-        if not os.path.exists(f'./download/{job}'):
-            os.makedirs(f'./download/{job}')
+        if not os.path.exists(f'./download/paradox/{job}'):
+            os.makedirs(f'./download/paradox/{job}')
     if not os.path.exists(f'./download/module'):
         os.makedirs(f'./download/module')
 # search("缪尔赛思", '先锋')
