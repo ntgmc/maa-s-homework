@@ -1,0 +1,136 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_13-09",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "炸弹载荷点",
+            "location": [
+                9,
+                1
+            ],
+            "kills": 19
+        },
+        {
+            "type": "Skill",
+            "name": "炸弹载荷点",
+            "kills": 29,
+            "pre_delay": 20000,
+            "location": [
+                2,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十三章 恶兆湍流 - 13-11（磨难） - 小镇翳云",
+        "details": "统计日期：2024-05-02\n好评率：88.7%  浏览量：4380\n13-11磨难，2603\n【【明日方舟】13-11摆完挂机（磨难险地环境/恶兆湍流）】 https://www.bilibili.com/video/BV1JH4y1o77y/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e UP侬无言以对"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

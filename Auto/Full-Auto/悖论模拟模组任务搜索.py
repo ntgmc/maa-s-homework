@@ -3,11 +3,16 @@ from bs4 import BeautifulSoup
 import json
 import os
 import glob
+from datetime import datetime
 
 download_mode = True
 download_score_threshold = 50
 job_categories = ['先锋', '近卫', '重装', '狙击', '术士', '医疗', '辅助', '特种']
 ids = []
+
+
+def get_current_date():
+    return datetime.now().strftime('%Y-%m-%d')
 
 
 def write_to_file(file_path, content):
@@ -47,7 +52,7 @@ def code_output(percent, id, mode):
 
 
 def check_file_exists(job, keyword, id):  # 判断是否存在相同id但评分不同的文件
-    pattern = f"./download/paradox/{job}/{keyword} - * - {id}.json"
+    pattern = f"./download/悖论模拟/{job}/{keyword} - * - {id}.json"
     matching_files = glob.glob(pattern)
     if len(matching_files) > 0:
         for file_name in matching_files:
@@ -56,7 +61,7 @@ def check_file_exists(job, keyword, id):  # 判断是否存在相同id但评分�
 
 
 def check_file_exists2(name, stage, id):  # 判断是否存在相同id但评分不同的文件
-    pattern = f"./download/module/{name} - {stage} - * - {id}.json"
+    pattern = f"./download/模组任务/{name} - {stage} - * - {id}.json"
     matching_files = glob.glob(pattern)
     if len(matching_files) > 0:
         for file_name in matching_files:
@@ -68,8 +73,7 @@ def search_paradox(keyword, job=None):
     if keyword == "W":
         print(f"成功搜索 {job} - {keyword}")
         return 0, 0, "None", "None"
-    else:
-        url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword=悖论模拟&document={keyword}&desc=true&orderBy=hot"
+    url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword=悖论模拟&document={keyword}&desc=true&orderBy=hot"
     _headers = {
         "Origin": "https://prts.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
@@ -85,22 +89,25 @@ def search_paradox(keyword, job=None):
             items_to_download = []
             for item in data['data']['data']:
                 percent = calculate_percent(item)
+                view = item.get('views', 0)
                 if percent > 0:
                     ids_develop.append(code_output(percent, item['id'], 1))
                     if percent >= 20:
                         ids_user.append(code_output(percent, item['id'], 2))
                 if total > 1 and percent >= download_score_threshold or total == 1:
-                    items_to_download.append((percent, item))
+                    items_to_download.append((percent, view, item))
             if download_mode and job:
                 # 对列表按照评分进行排序，评分最高的在前面
                 items_to_download.sort(key=lambda x: x[0], reverse=True)
 
                 # 只下载评分最高的三个项目
-                for percent, item in items_to_download[:3]:
-                    file_path = f"./download/paradox/{job}/{keyword} - {int(percent)} - {item['id']}.json"
+                for percent, view, item in items_to_download[:3]:
+                    file_path = f"./download/悖论模拟/{job}/{keyword} - {int(percent)} - {item['id']}.json"
                     if not os.path.exists(file_path):
                         check_file_exists(job, keyword, item['id'])
-                        write_to_file(file_path, json.loads(item['content']))
+                        content = json.loads(item['content'])
+                        content['doc']['details'] = f"统计日期：{get_current_date()}\n好评率：{percent}%  浏览量：{view}\n" + content['doc']['details']
+                        write_to_file(file_path, content)
             print(f"成功搜索 {job} - {keyword}")
             return len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
         else:
@@ -128,6 +135,7 @@ def search_module(name, stage):
             items_to_download = []
             for item in data['data']['data']:
                 percent = calculate_percent(item)
+                view = item.get('views', 0)
                 if percent > 0:
                     ids_develop.append(code_output(percent, item['id'], 1))
                     if percent >= 50:
@@ -135,17 +143,19 @@ def search_module(name, stage):
                 elif item['uploader'] == '作业代传——有问题联系原作者':
                     ids.append(int(item['id']))
                 if total > 1 and percent >= download_score_threshold or total == 1:
-                    items_to_download.append((percent, item))
+                    items_to_download.append((percent, view, item))
             if download_mode and job:
                 # 对列表按照评分进行排序，评分最高的在前面
                 items_to_download.sort(key=lambda x: x[0], reverse=True)
 
                 # 只下载评分最高的三个项目
-                for percent, item in items_to_download[:3]:
-                    file_path = f"./download/module/{name} - {stage} - {int(percent)} - {item['id']}.json"
+                for percent, view, item in items_to_download[:3]:
+                    file_path = f"./download/模组任务/{name} - {stage} - {int(percent)} - {item['id']}.json"
                     if not os.path.exists(file_path):
                         check_file_exists2(name, stage, item['id'])
-                        write_to_file(file_path, json.loads(item['content']))
+                        content = json.loads(item['content'])
+                        content['doc']['details'] = f"统计日期：{get_current_date()}\n好评率：{percent}%  浏览量：{view}\n" + content['doc']['details']
+                        write_to_file(file_path, content)
             print(f"成功搜索 {name} - {stage}")
             return len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
         else:
@@ -270,10 +280,10 @@ def main_module():
 
 if download_mode:
     for job in job_categories:
-        if not os.path.exists(f'./download/paradox/{job}'):
-            os.makedirs(f'./download/paradox/{job}')
-    if not os.path.exists(f'./download/module'):
-        os.makedirs(f'./download/module')
+        if not os.path.exists(f'./download/悖论模拟/{job}'):
+            os.makedirs(f'./download/悖论模拟/{job}')
+    if not os.path.exists(f'./download/模组任务'):
+        os.makedirs(f'./download/模组任务')
 # search("缪尔赛思", '先锋')
 main_paradox()
 main_module()

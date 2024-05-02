@@ -1,0 +1,30 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-01",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up"
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-2（磨难） - 作战对策会议",
+        "details": "统计日期：2024-05-02\n好评率：100.0%  浏览量：1681\n第十四章 慈悲灯塔 - 14-2（磨难） - 作战对策会议"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

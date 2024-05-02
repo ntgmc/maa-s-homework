@@ -1,0 +1,341 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_09-17",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                2,
+                6
+            ],
+            "pre_delay": 10000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 16,
+            "pre_delay": 2000
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                2,
+                6
+            ],
+            "pre_delay": 5000
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                2
+            ],
+            "pre_delay": 6000
+        },
+        {
+            "type": "Deploy",
+            "name": "快速复活",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "kills": 25
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "快速复活",
+            "location": [
+                3,
+                2
+            ],
+            "pre_delay": 16000
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                2,
+                6
+            ],
+            "kills": 33
+        },
+        {
+            "type": "Output",
+            "doc_color": "SpringGreen",
+            "doc": "boss起飞后装置再砸下来基本就稳了，后面全程一倍求稳，千万别手动2倍速"
+        },
+        {
+            "type": "Deploy",
+            "name": "爆破装置",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right",
+            "pre_delay": 9500
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "艾雅法拉",
+            "location": [
+                3,
+                6
+            ],
+            "pre_delay": 12000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                7
+            ],
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "kills": 51,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Right",
+            "pre_delay": 9000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Output",
+            "doc_color": "SpringGreen",
+            "doc": "留个赞再走吧"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "艾雅法拉",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第九章 风暴瞭望 - 9-19（标准）长夜枪火【4人刷刺球】",
+        "details": "统计日期：2024-05-02\n好评率：92.38%  浏览量：2241\n注意，不兼容突袭，如果令的龙无法识别，更换皮肤\n攻略作者：老青蛙【心海攻略组】\nJSON作者：灰bao_；\n练度：令：精二90级专3的三技能、3级模组（可以零潜）\n（maa自动编队可能不会带令模组，没有模组必翻车）\n快活只用了一次，如果使用的是砾的话尽量精一以上练度\n（再低就没法推土了）\n原作业是满潜单令，低潜必须加队友配合\n作业视频：https://www.bilibili.com/video/BV1ta411s7Da/?spm_id_from=333.337.search-card.all.click&vd_source=10857a8c905c104ca2eab27415c72ffc"
+    },
+    "groups": [
+        {
+            "name": "快速复活",
+            "opers": [
+                {
+                    "name": "砾",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "傀影",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "麒麟R夜刀",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "缄默德克萨斯",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}

@@ -1,0 +1,68 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_ghost2_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "归溟幽灵鲨",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "归溟幽灵鲨",
+            "location": [
+                3,
+                5
+            ],
+            "kills": 3,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "归溟幽灵鲨",
+            "location": [
+                3,
+                5
+            ],
+            "kills": 20,
+            "pre_delay": 5500
+        },
+        {
+            "type": "Skill",
+            "name": "幽灵鲨",
+            "location": [
+                5,
+                5
+            ],
+            "kills": 21
+        },
+        {
+            "type": "SkillDaemon",
+            "kills": 21
+        }
+    ],
+    "doc": {
+        "title": "特种 - 归溟幽灵鲨 - 倒影【归溟幽灵鲨悖论模拟】",
+        "details": "统计日期：2024-05-02\n好评率：77.78%  浏览量：358\n练度：精二90级、专三2技能（我只有一个号养了，等级具体可以多低不知道）\n悖论模拟需要在MAA中关闭“自动编队”，\n选好2技能后处于红色ui“开始模拟”界面，maa就可以按开始了"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "归溟幽灵鲨",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "幽灵鲨",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_12-04",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "先锋",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left",
+            "costs": 14
+        },
+        {
+            "type": "Deploy",
+            "costs": 11,
+            "name": "山",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "山",
+            "pre_delay": 3000
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "costs": 21
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left",
+            "costs": 23
+        }
+    ],
+    "doc": {
+        "title": "第十二章 惊霆无声 - 12-5（磨难） - 脆钢",
+        "details": "统计日期：2024-05-02\n好评率：100.0%  浏览量：2457\nhttps://www.bilibili.com/video/BV1ZT411p7dD\nup:侬无言以对\n练度：2603，风笛无需专精也可，小羊模组1级，塞雷娅x模组2级\njson:cutesnake"
+    },
+    "groups": [
+        {
+            "name": "先锋",
+            "opers": [
+                {
+                    "name": "推进之王",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "风笛",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
