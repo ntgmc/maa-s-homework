@@ -4,7 +4,7 @@ import json
 import os
 import glob
 
-download_mode = False
+download_mode = True
 download_score_threshold = 50
 job_categories = ['先锋', '近卫', '重装', '狙击', '术士', '医疗', '辅助', '特种']
 ids = []

@@ -30,17 +30,16 @@
                 4,
                 5
             ],
-            "pre_delay": 59000
+            "kills": 41,
+            "pre_delay": 11500
         },
         {
             "type": "Skill",
-            "name": "禁锢装置",
             "location": [
                 5,
                 5
             ],
-            "costs": 0,
-            "cost_changes": 0
+            "pre_delay": 1000
         },
         {
             "type": "Skill",
@@ -48,10 +47,7 @@
                 5,
                 1
             ],
-            "costs": 0,
-            "cost_changes": 0,
-            "name": "禁锢装置",
-            "pre_delay": 1500
+            "pre_delay": 1000
         },
         {
             "type": "Skill",
@@ -64,7 +60,7 @@
     ],
     "doc": {
         "title": "近卫 - 山 - 不动如山",
-        "details": "https://www.bilibili.com/video/BV1HB4y1c7ew/?spm_id_from=333.337.search-card.all.click&vd_source=c8b6e09bdf79a6ee5ba2f855c7253700  \n"
+        "details": "3技能 7级技能 自己试了五次都过了"
     },
     "groups": [],
     "opers": [
