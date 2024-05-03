@@ -4,6 +4,7 @@ import json
 import os
 import glob
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 def get_current_date():
@@ -18,7 +19,7 @@ date = get_current_date()
 
 
 def write_to_file(file_path, content):
-    with open(file_path.replace('/', ''), 'w', encoding='utf-8') as file:
+    with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
 
 
@@ -199,8 +200,8 @@ def main_paradox():
     output_lines_user = []
     job_now = -1
     with open(keywords_file, 'r', encoding='utf-8') as f:
-        with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w',
-                                                                                      encoding='utf-8') as output_user:
+        with ThreadPoolExecutor() as executor:
+            futures = []
             for line in f:
                 # 如果是空行，保留空行并继续下一行的处理
                 if not line.strip():
@@ -211,10 +212,13 @@ def main_paradox():
                 if job_now + 1 < len(job_categories) and keyword == job_categories[job_now + 1]:
                     job_now += 1
                     continue
-                id_count_develop, id_count_user, str_ids_develop, str_ids_user = search_paradox(keyword,
-                                                                                                job_categories[job_now])
+                future = executor.submit(search_paradox, keyword, job_categories[job_now])
+                futures.append(future)
+            for future in as_completed(futures):
+                id_count_develop, id_count_user, str_ids_develop, str_ids_user = future.result()
                 output_lines_develop.append(f"{keyword}\t{id_count_develop}\t{str_ids_develop}\n")
                 output_lines_user.append(f"{keyword}\t{id_count_user}\t{str_ids_user}\n")
+        with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w', encoding='utf-8') as output_user:
             output_develop.writelines(output_lines_develop)
             output_user.writelines(output_lines_user)
     print("输出Paradox完成！")
@@ -267,12 +271,16 @@ def main_module():
         headers=headers)
     # 提取HTML中的角色名
     tr_contents = extract_tr_contents(response.text)
-    with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w',
-                                                                                  encoding='utf-8') as output_user:
+    with ThreadPoolExecutor() as executor:
+        futures = []
         for name, stage, task in tr_contents:
-            id_count_develop, id_count_user, str_ids_develop, str_ids_user = search_module(name, stage)
+            future = executor.submit(search_module, name, stage)
+            futures.append(future)
+        for future in as_completed(futures):
+            id_count_develop, id_count_user, str_ids_develop, str_ids_user = future.result()
             output_lines_develop.append(f"{name}\t{stage}\t{id_count_develop}\t{str_ids_develop}\n")
             output_lines_user.append(f"{name}\t{stage}\t{id_count_user}\t{str_ids_user}\n")
+    with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w', encoding='utf-8') as output_user:
         output_develop.writelines(output_lines_develop)
         output_user.writelines(output_lines_user)
     print("输出Module完成！")
