@@ -47,8 +47,11 @@ def get_current_date():
     return datetime.now().strftime('%Y-%m-%d')
 
 
+date = get_current_date()
+
+
 def write_to_file(file_path, content):
-    with open(file_path, 'w', encoding='utf-8') as file:
+    with open(file_path.replace('/', ''), 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
 
 
@@ -78,9 +81,9 @@ def extract_info(text):  # TODO: 增加sub适配
     match = re.match(pattern, text)
     if match:
         name = match.group(1)
-        stage = int(match.group(2))
+        _stage = int(match.group(2))
         level = int(match.group(3))
-        return name, stage, level
+        return name, _stage, level
     else:
         return None
 
@@ -131,7 +134,7 @@ def search(keyword):
                     if percent >= score_threshold and view >= view_threshold:
                         content = json.loads(item['content'])
                         file_path = generate_filename_mode3(content)
-                        content['doc']['details'] = f"统计日期：{get_current_date()}\n好评率：{percent}%  浏览量：{view}\n" + content['doc']['details']
+                        content['doc']['details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
                         print(f"{file_path} {percent}% {view} 成功下载")
                         write_to_file(file_path, content)
                         download_amount += 1
@@ -144,12 +147,12 @@ def search(keyword):
 
 
 def bat_search():
-    for stage in tough:
-        for level in range(1, max_level.get(stage, 0) + 1):
-            search(f"tough_{pad_zero(stage)}-{pad_zero(level)}")
-    for stage in main:
-        for level in range(1, max_level.get(stage, 0) + 1):
-            search(f"main_{pad_zero(stage)}-{pad_zero(level)}")
+    for _stage in tough:
+        for level in range(1, max_level.get(_stage, 0) + 1):
+            search(f"tough_{pad_zero(_stage)}-{pad_zero(level)}")
+    for _stage in main:
+        for level in range(1, max_level.get(_stage, 0) + 1):
+            search(f"main_{pad_zero(_stage)}-{pad_zero(level)}")
 
 
 if not os.path.exists(f'./download/主线'):

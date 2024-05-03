@@ -1,0 +1,240 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act33side_ex04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "投降",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶2",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "辅助",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "输出",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "巴别塔 - BB-EX-4 - 裹起躯体 已更新",
+        "details": "统计日期：2024-05-03\n好评率：88.0%  浏览量：1563\n巴别塔 - BB-EX-4 - 裹起躯体"
+    },
+    "groups": [
+        {
+            "name": "辅助",
+            "opers": [
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "伊桑",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "狮蝎",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "归溟幽灵鲨",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉"
+                },
+                {
+                    "name": "絮雨",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "投降",
+            "opers": [
+                {
+                    "name": "桃金娘",
+                    "skill": 1,
+                    "skill_usage": 2,
+                    "skill_times": 5
+                },
+                {
+                    "name": "极境",
+                    "skill": 1,
+                    "skill_usage": 2,
+                    "skill_times": 5
+                }
+            ]
+        },
+        {
+            "name": "近卫",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "输出",
+            "opers": [
+                {
+                    "name": "提丰",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 2
+                },
+                {
+                    "name": "伊芙利特",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "早露",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶2",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [],
+    "difficulty": 3
+}

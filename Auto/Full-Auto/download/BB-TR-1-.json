@@ -1,0 +1,36 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act33side_tr01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "杰西卡",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left",
+            "costs": 14,
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down",
+            "pre_delay": 5000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "BB-TR-1无法自动，会卡剧情",
+        "details": "统计日期：2024-05-03\n好评率：92.0%  浏览量：2829\n来源：萨拉托加  ID：35866\n用不了，会卡剧情，根据指示手动吧，摆两个干员"
+    },
+    "groups": [],
+    "opers": []
+}

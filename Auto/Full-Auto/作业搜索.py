@@ -2,9 +2,17 @@ import requests
 import json
 import time
 import os
+from datetime import datetime
 
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
 setting = {}
+
+
+def get_current_date():
+    return datetime.now().strftime('%Y-%m-%d')
+
+
+date = get_current_date()
 
 
 def save_data(data):
@@ -17,7 +25,7 @@ def save_data(data):
 
 
 def write_to_file(file_path, content):
-    with open(file_path, 'w', encoding='utf-8') as file:
+    with open(file_path.replace('/', ''), 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
 
 
@@ -28,6 +36,16 @@ def load_settings():
             setting = json.load(file)
         return True
     return False
+
+
+def calculate_percent(item):
+    like = item.get('like', 0)
+    dislike = item.get('dislike', 0)
+    total = like + dislike
+    if total == 0:
+        return 0
+    else:
+        return round(like / total * 100, 2)
 
 
 def configuration():
@@ -62,12 +80,12 @@ def configuration():
     return st
 
 
-def search(keyword, searchmode):
-    if searchmode == 1:
+def search(keyword, search_mode):
+    if search_mode == 1:
         order_by = "hot"
-    elif searchmode == 2:
+    elif search_mode == 2:
         order_by = "id"
-    elif searchmode == 3:
+    elif search_mode == 3:
         order_by = "views"
     url = f"https://prts.maa.plus/copilot/query?desc=true&limit=50&page=1&order_by={order_by}&level_keyword={keyword}"
     headers = {
@@ -78,19 +96,20 @@ def search(keyword, searchmode):
     return response.text
 
 
-def searches(keyword_perfix, range_max, mode):
-    def searches_(range_max, mode):
-        def searches__(member):
-            content = json.loads(member["content"])
-            names = [oper["name"] for oper in content["opers"]]
+def searches(keyword_prefix, range_max, mode):
+    def _searches(_range_max, _mode):
+        def __searches(_member, _percent=0, _view=0, _uploader="", _id=""):
+            content = json.loads(_member["content"])
+            content['doc']['details'] = f"统计日期：{date}\n好评率：{_percent}%  浏览量：{_view}\n来源：{_uploader}  ID：{_id}\n" + content['doc']['details']
+            names = [oper.get('name', '') for oper in content.get('opers', '')]
             opers_bool = False
-            for opers in soperater:
+            for opers in st["soperater"]:
                 if opers in names:
                     opers_bool = True
                     break
             if opers_bool:
                 return False
-            file_name = generate_filename(content, stitle, uploader, keyword)
+            file_name = generate_filename(content, st["stitle"], _member["uploader"], keyword)
             file_path = os.path.join(path, f"{file_name}.json")
             i = 1
             while os.path.exists(file_path):
@@ -100,66 +119,57 @@ def searches(keyword_perfix, range_max, mode):
             print(f"成功写出文件：{file_path}")
             return True
 
-        if mode == 1:  # 普通关
+        if _mode == 1:  # 普通关
             keyword_concatenate = f"-"
-        elif mode == 2:  # EX
+        elif _mode == 2:  # EX
             keyword_concatenate = f"-EX-"
-        elif mode == 3:  # S
+        elif _mode == 3:  # S
             keyword_concatenate = f"-S-"
-        elif mode == 4:  # TR
+        elif _mode == 4:  # TR
             keyword_concatenate = f"-TR-"
-        elif mode == 5:  # MO
+        elif _mode == 5:  # MO
             keyword_concatenate = f"-MO-"
-        elif mode == 6:  # 全部
+        elif _mode == 6:  # 全部
             for i in range(5):
                 if load_settings() and setting["range"] is not None:
-                    range_max = setting["range"][f"{i + 1}_range"]
+                    _range_max = setting["range"][f"{i + 1}_range"]
                 else:
                     input("请先设置【批量设置】再使用下载【全部关】\n")
                     return menu()
-                searches_(range_max, i + 1)
+                _searches(_range_max, i + 1)
             return menu()
         print(f"保存目录：{path}")
         if not os.path.exists(path):
             os.makedirs(path)
         now = time.time()
-        if range_max == 0:
-            if setting["range"][f"{mode}_range"]:
-                range_max = setting["range"][f"{mode}_range"]
-        for i in range(range_max):
-            keyword = f"{keyword_perfix}{keyword_concatenate}{i + 1}"
-            data = json.loads(search(keyword, order_by))
+        if _range_max == 0:
+            if setting["range"][f"{_mode}_range"]:
+                _range_max = setting["range"][f"{_mode}_range"]
+        for i in range(_range_max):
+            keyword = f"{keyword_prefix}{keyword_concatenate}{i + 1}"
+            data = json.loads(search(keyword, st["order_by"]))
             total = data["data"]["total"]
             print(f"搜索 {keyword} 共获得 {total} 个数据")
             amount = 0
             for member in data["data"]["data"]:
-                view = member["views"]
-                uploader = member["uploader"]
                 if member["like"] + member["dislike"] != 0:
                     point = round(member["like"] / (member["like"] + member["dislike"]) * 100, 0)
                 else:
                     point = 0
-                if view >= sview and point >= spoint and amount < samount:
-                    if suploader == [] or uploader in suploader:
-                        if searches__(member):
+                if member["views"] >= st["sview"] and point >= st["spoint"] and amount < st["samount"]:
+                    if st["suploader"] == [] or member["uploader"] in st["suploader"]:
+                        if __searches(member, point, member["views"], member["uploader"], member["id"]):
                             amount = amount + 1
-                    if amount >= samount:
+                    if amount >= st["samount"]:
                         break
-                elif amount >= samount:
+                elif amount >= st["samount"]:
                     break
         last = time.time()
         input(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
 
     st = configuration()
-    stitle = st["stitle"]
     path = st["path"]
-    order_by = st["order_by"]
-    spoint = st["spoint"]
-    sview = st["sview"]
-    samount = st["samount"]
-    soperater = st["soperater"]
-    suploader = st["suploader"]
-    searches_(range_max, mode)
+    _searches(range_max, mode)
 
 
 def configure_download_settings():
@@ -226,9 +236,11 @@ def generate_filename_mode3(keyword, data):
     # stage_name = data.get('stage_name', '')
     stage_name = keyword.upper()
     opers = data.get('opers', [])
-    names = '+'.join(oper.get('name', '') for oper in opers)
-    filename = f"{stage_name}_{names}"
-    return filename
+    groups = data.get('groups', [])
+    names_parts = ['+'.join(oper.get('name', '') for oper in opers),
+                   '+'.join(group.get('name', '') for group in groups)]
+    names = stage_name + '-' + '+'.join(part for part in names_parts if part)  # 只连接非空的部分
+    return names
 
 
 def generate_filename(content, stitle, uploader, keyword):
@@ -242,8 +254,10 @@ def generate_filename(content, stitle, uploader, keyword):
 
 
 def mode1():
-    def search_(member):
-        content = json.loads(member["content"])
+    def _search(_member, _percent=0, _view=0, _uploader="", _id=""):
+        content = json.loads(_member["content"])
+        content['doc'][
+            'details'] = f"统计日期：{date}\n好评率：{_percent}%  浏览量：{_view}\n来源：{_uploader}  ID：{_id}\n" + content['doc']['details']
         names = [oper["name"] for oper in content["opers"]]
         opers_bool = False
         for opers in st["soperater"]:
@@ -252,7 +266,7 @@ def mode1():
                 break
         if opers_bool:
             return False
-        file_name = generate_filename(content, st["stitle"], member["uploader"], keyword)
+        file_name = generate_filename(content, st["stitle"], _member["uploader"], keyword)
         file_path = os.path.join(st["path"], f"{file_name}.json")
         i = 1
         while os.path.exists(file_path):
@@ -278,13 +292,10 @@ def mode1():
     print(f"搜索 {keyword} 共获得 {total} 个数据")
     amount = 0
     for member in data["data"]["data"]:
-        if member["like"] + member["dislike"] != 0:
-            point = round(member["like"] / (member["like"] + member["dislike"]) * 100, 0)
-        else:
-            point = 0
+        point = calculate_percent(member)
         if member["views"] >= st["sview"] and point >= st["spoint"] and amount < st["samount"]:
             if st["suploader"] == [] or member["uploader"] in st["suploader"]:
-                if search_(member):
+                if _search(member, point, member["views"], member["uploader"], member["id"]):
                     amount = amount + 1
             if amount >= st["samount"]:
                 break
