@@ -1,0 +1,119 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act17side_ex01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "幽灵鲨",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "行医",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "幽灵鲨",
+            "location": [
+                3,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "幽灵鲨",
+            "location": [
+                3,
+                1
+            ],
+            "kills": 40,
+            "pre_delay": 3000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "幽灵鲨",
+            "skill_usage": 1
+        },
+        {
+            "type": "Output",
+            "doc_color": "SpringGreen",
+            "doc": "留个赞吧"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "愚人号 - SN-EX-1 【幽灵鲨模组任务】幽明烛光",
+        "details": "统计日期：2024-05-03\n好评率：96.0%  浏览量：360\n来源：小卡拉帕鲁灰🐖  ID：30500\n五星鲨鲨的模组任务：幽明烛光\n任务要求：3星通关插曲SN-EX-1;必须编入非助战幽灵鲨并上场，且使用幽灵鲨击败至少10名富营养的滑动者\n练度：鲨鲨精二50级7级一技能；\n小装置我是全卸下来了测试的，你们可以不用刻意管\n"
+    },
+    "groups": [
+        {
+            "name": "行医",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "桑葚",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "幽灵鲨",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
