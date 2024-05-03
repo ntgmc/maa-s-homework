@@ -1,0 +1,79 @@
+{
+    "stage_name": "main_09-14",
+    "opers": [
+        {
+            "name": "华法琳",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        },
+        {
+            "name": "德克萨斯"
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "煌",
+            "type": "Deploy",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "风笛",
+            "type": "Deploy",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "name": "华法琳",
+            "type": "Deploy",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "name": "能天使",
+            "type": "Deploy",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "name": "",
+            "type": "SkillDaemon"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "萧然挂机作业，高练度需求注意",
+        "details": "延迟要求：无\n要求有德狗挂件"
+    }
+}

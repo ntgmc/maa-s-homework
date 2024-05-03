@@ -1,0 +1,81 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "幽灵鲨",
+            "direction": "下",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "direction": "上",
+            "location": [
+                10,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "direction": "上",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "蜜莓",
+            "direction": "左",
+            "location": [
+                7,
+                4
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "华法琳",
+            "direction": "下",
+            "location": [
+                9,
+                1
+            ]
+        }
+    ],
+    "stage_name": "tough_10-08",
+    "doc": {
+        "details": "作者：YueShen                     蜜莓60级\n有问题群里@咕咕咕",
+        "title": "磨难10-9"
+    },
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "华法琳",
+            "skill": 1
+        },
+        {
+            "name": "蜜莓",
+            "skill": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1
+        },
+        {
+            "name": "幽灵鲨",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

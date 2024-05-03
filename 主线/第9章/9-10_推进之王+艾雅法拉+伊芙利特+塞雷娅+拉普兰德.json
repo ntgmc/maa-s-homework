@@ -1,0 +1,96 @@
+{
+    "stage_name": "main_09-08",
+    "opers": [
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "",
+            "type": "SpeedUp"
+        },
+        {
+            "name": "推进之王",
+            "type": "Deploy",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "拉普兰德",
+            "type": "Deploy",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "伊芙利特",
+            "type": "Deploy",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "艾雅法拉",
+            "type": "Deploy",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "name": "爆破装置",
+            "type": "Deploy",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "塞雷娅",
+            "type": "Deploy",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "name": "",
+            "type": "SkillDaemon"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "萧然挂机作业，高练度需求注意",
+        "details": "延迟要求：无"
+    }
+}

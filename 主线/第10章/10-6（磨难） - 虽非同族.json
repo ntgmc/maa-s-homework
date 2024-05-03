@@ -1,0 +1,65 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_10-05",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        8,
+        6
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        5,
+        6
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第十章 破碎日冕 - 10-6（磨难） - 虽非同族",
+    "details": "BV1GY411j72u\nup：萧然Q\n测试干员均精2，90级，7级技能或以上"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}

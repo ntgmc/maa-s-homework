@@ -1,0 +1,95 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_10-01",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "推进之王",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "白面鸮",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第十章 破碎日冕 - 10-2（标准） - 抢夺目标",
+    "details": "BV1GY411j72u\nup：萧然Q\n测试干员均精2，90级，7级技能或以上"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "推进之王",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "白面鸮",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

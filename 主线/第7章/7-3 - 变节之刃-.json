@@ -1,0 +1,183 @@
+{
+  "opers": [
+    {
+      "skill": 1,
+      "name": "米格鲁",
+      "skill_usage": 0
+    },
+    {
+      "skill": 1,
+      "name": "安赛尔",
+      "skill_usage": 0
+    },
+    {
+      "skill": 2,
+      "name": "铃兰",
+      "skill_usage": 0
+    },
+    {
+      "skill": 1,
+      "name": "斑点",
+      "skill_usage": 0
+    },
+    {
+      "skill": 1,
+      "name": "月见夜",
+      "skill_usage": 0
+    },
+    {
+      "skill": 1,
+      "name": "克洛丝",
+      "skill_usage": 0
+    },
+    {
+      "skill": 1,
+      "name": "梓兰",
+      "skill_usage": 0
+    }
+  ],
+  "doc": {
+    "title": "MAA AI - 变节之刃",
+    "details": "7-3"
+  },
+  "stage_name": "main_07-02",
+  "minimum_required": "v4.0.0",
+  "actions": [
+    {
+      "name": "月见夜",
+      "location": [
+        4,
+        1
+      ],
+      "kills": 0,
+      "type": "Deploy",
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "name": "克洛丝",
+      "location": [
+        7,
+        2
+      ],
+      "kills": 0,
+      "direction": "Left",
+      "cost_changes": 8,
+      "type": "Deploy",
+      "rear_delay": 0
+    },
+    {
+      "name": "安赛尔",
+      "location": [
+        8,
+        3
+      ],
+      "kills": 3,
+      "direction": "Down",
+      "cost_changes": 14,
+      "type": "Deploy",
+      "rear_delay": 0
+    },
+    {
+      "name": "米格鲁",
+      "location": [
+        7,
+        6
+      ],
+      "kills": 6,
+      "direction": "Left",
+      "cost_changes": 16,
+      "type": "Deploy",
+      "rear_delay": 0
+    },
+    {
+      "name": "铃兰",
+      "location": [
+        6,
+        2
+      ],
+      "kills": 7,
+      "direction": "Down",
+      "cost_changes": 15,
+      "type": "Deploy",
+      "rear_delay": 0
+    },
+    {
+      "name": "梓兰",
+      "location": [
+        5,
+        2
+      ],
+      "kills": 9,
+      "direction": "Down",
+      "cost_changes": 11,
+      "type": "Deploy",
+      "rear_delay": 0
+    },
+    {
+      "name": "斑点",
+      "location": [
+        5,
+        1
+      ],
+      "kills": 13,
+      "direction": "Right",
+      "cost_changes": 14,
+      "type": "Deploy",
+      "rear_delay": 0
+    },
+    {
+      "location": [
+        5,
+        1
+      ],
+      "name": "斑点",
+      "kills": 20,
+      "cost_changes": 53,
+      "type": "Retreat",
+      "rear_delay": 0
+    },
+    {
+      "name": "斑点",
+      "location": [
+        5,
+        1
+      ],
+      "kills": 36,
+      "direction": "Right",
+      "cost_changes": 42,
+      "type": "Deploy",
+      "rear_delay": 0
+    },
+    {
+      "location": [
+        7,
+        6
+      ],
+      "name": "米格鲁",
+      "kills": 45,
+      "cost_changes": 22,
+      "type": "Retreat",
+      "rear_delay": 0
+    },
+    {
+      "location": [
+        5,
+        2
+      ],
+      "name": "梓兰",
+      "kills": 45,
+      "type": "Retreat",
+      "rear_delay": 0
+    },
+    {
+      "location": [
+        6,
+        2
+      ],
+      "name": "铃兰",
+      "kills": 45,
+      "type": "Retreat"
+    }
+  ]
+}

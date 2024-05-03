@@ -1,0 +1,242 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_12-18",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "浊心斯卡蒂",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Left",
+      "doc": "棘刺这里有点极限，如果德狗攻击力不够打不掉箱子，可能会漏一个真平民\n“盲目信任在战场上是不负责任的，博士”",
+      "doc_color": "Gold",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Up",
+      "kills": 7,
+      "costs": 0,
+      "doc": "煌设定为7击杀数时部署，此时有减费怪因此费用波动较大，请确保你的煌放下去了",
+      "doc_color": "Gold",
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "蜜莓",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "德克萨斯",
+      "location": [
+        5,
+        3
+      ],
+      "kills": 15,
+      "doc": "撤德狗原地下水月",
+      "doc_color": "Gray",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "重岳",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Up",
+      "kills": 18,
+      "doc": "设定为18杀时部署，确保42在平民过去后再下",
+      "doc_color": "Gold",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "棘刺",
+      "location": [
+        1,
+        2
+      ],
+      "kills": 28,
+      "doc": "设定为28杀时开技能，实际上灰礼帽出来就可以开了",
+      "doc_color": "Gold",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        4,
+        2
+      ],
+      "costs": 34,
+      "doc": "42燃尽了就可以下德狗了，设定为34费用时部署，留出余量",
+      "direction": "Down",
+      "doc_color": "Gold",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "德克萨斯",
+      "location": [
+        4,
+        2
+      ],
+      "doc": "撤掉德克萨斯，准备上42姐解决战斗",
+      "doc_color": "Gold",
+      "rear_delay": 0,
+      "kills": 48
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right",
+      "rear_delay": 3000
+    },
+    {
+      "type": "Skill",
+      "name": "史尔特尔",
+      "location": [
+        4,
+        4
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon",
+      "doc": "PRTS-MAA已完成作战部署，指挥权移交博士\n后期请观察塞雷娅及煌是否有漏怪可能，如果有那就在塞爹下面部署带控制的快活/耀光等干员补救一下，快结束时如果煌暴毙可以直接原地上42开大",
+      "doc_color": "DarkRed"
+    }
+  ],
+  "doc": {
+    "title": "第十二章 惊霆无声 - 12-20（磨难） - 诚挚邀请 萧然攻略 水月换重岳 谢谢JSON原作者RS激昂",
+    "details": "磨难12-20 广义挂机\n攻略作者：萧然Q BV1oL411m7bL\n练度2603 萧然经典练度水平\nMAA目前有BUG，自动编队会将3技能选择成2技能……\n请各位放弃自动编队，手动编队，注意选择重岳的3技能……\n刚才才知道这个问题，难怪这么多人通不过。\nJSON原作者：RS激昂，MAA作业制作群筱竹聽雨 提出一种思路，用重岳替换掉水月。\n修改后测试通过，但是对棘刺的练度要求很高，请保证棘刺90级三技能专三（2903）。\n原作者的JSON亦可用，水月练度可以是2607，但是水月的模组升级到X模三级。模组不开的话，水月升级到90级，一技能专三亦可。\n由于干员潜能不同等级不同可能会存在误差，如果演习不通过请看着MAA打一遍，剩余位置建议带异德/耀光/红等有控制的快活放在塞爹下面控一下以防漏怪\n"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "史尔特尔",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "蜜莓",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "浊心斯卡蒂",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "重岳",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}

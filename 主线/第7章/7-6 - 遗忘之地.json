@@ -1,0 +1,107 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_07-05",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "芬",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "羽毛笔",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "芬",
+      "costs": 16,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "斑点",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "玫兰莎",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "月见夜",
+      "location": [
+        6,
+        1
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "玫兰莎",
+      "kills": 24,
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第七章 苦难摇篮 - 7-6 - 遗忘之地",
+    "details": "第七章 苦难摇篮 - 7-6 - 遗忘之地"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "羽毛笔",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "玫兰莎",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "月见夜",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "斑点",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "芬",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

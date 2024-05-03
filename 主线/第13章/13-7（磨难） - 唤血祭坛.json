@@ -1,0 +1,86 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_13-06",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "速狙",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "炸弹载荷点",
+      "location": [
+        1,
+        5
+      ],
+      "costs": 10
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第十三章 恶兆湍流 - 13-7（磨难） - 唤血祭坛",
+    "details": "13-7磨难，2603\n地图可以用了，用不了的更新一下maa\n【【明日方舟】13-7摆完挂机（磨难险地环境/恶兆湍流）】 https://www.bilibili.com/video/BV1hC4y1V7pg/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e UP侬无言以对"
+  },
+  "groups": [
+    {
+      "name": "速狙",
+      "opers": [
+        {
+          "name": "克洛丝",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "能天使",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "蓝毒",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

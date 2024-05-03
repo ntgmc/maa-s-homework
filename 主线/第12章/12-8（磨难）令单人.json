@@ -1,0 +1,123 @@
+{
+  "minimum_required": "v4.0.0",
+  "doc": {
+    "title": "第十二章 惊霆无声 - 12-8（磨难）令单人",
+    "details": "福哥宅\n原视频：https://www.bilibili.com/video/BV1dT411p7bq/\n——————\n德克萨斯用于补费\n——————\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n——————\n诚邀您参与【12章磨难低配作业需求调查】\nhttps://www.wjx.cn/vm/eToOAgs.aspx#\n如果需要剩余12章低配作业请麻烦填写一下\n——————"
+  },
+  "stage_name": "tough_12-07",
+  "opers": [
+    {
+      "name": "令",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "令",
+      "location": [
+        4,
+        6
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        6
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "name": "",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillUsage",
+      "name": "令",
+      "skill_usage": 0,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Left",
+      "rear_delay": 1000
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Up",
+      "rear_delay": 9000
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "“弦惊”",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "令",
+      "kills": 32
+    }
+  ]
+}

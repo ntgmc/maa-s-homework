@@ -1,0 +1,93 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "S4-8",
+        "details": "作者：YueShen"
+    },
+    "stage_name": "sub_04-3-2",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "斑点",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "安赛尔",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "kills": 14,
+            "name": "斑点"
+        },
+        {
+            "type": "部署",
+            "kills": 31,
+            "name": "夜刀",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "上",
+            "pre_delay": 5000
+        }
+    ]
+}

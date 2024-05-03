@@ -1,0 +1,84 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "安赛尔",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "direction": "上",
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "斑点",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "芙蓉",
+            "direction": "上",
+            "location": [
+                5,
+                5
+            ]
+        },
+        {
+            "type": "技能",
+            "kills": 22,
+            "name": "斑点"
+        }
+    ],
+    "stage_name": "sub_04-3-3",
+    "doc": {
+        "details": "作者：YueShen"
+    },
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "斑点",
+            "skill": 1
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1
+        }
+    ]
+}

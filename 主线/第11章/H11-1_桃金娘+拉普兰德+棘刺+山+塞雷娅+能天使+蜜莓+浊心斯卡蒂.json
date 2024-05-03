@@ -1,0 +1,147 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "hard_11-01",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "name": "",
+      "doc_color": "Gray"
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        5,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "浊心斯卡蒂",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Left",
+      "cost_changes": 16
+    },
+    {
+      "type": "Deploy",
+      "name": "蜜莓",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "桃金娘",
+      "skill_usage": 0
+    },
+    {
+      "type": "Deploy",
+      "kills": 17,
+      "name": "塞雷娅",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Output",
+      "name": "",
+      "doc": "制作者2586582719",
+      "doc_color": "SpringGreen"
+    },
+    {
+      "type": "SkillDaemon",
+      "name": ""
+    }
+  ],
+  "doc": {
+    "title": "H11-1八人 修复版",
+    "details": "原视频：https://www.bilibili.com/video/BV1Mg41187iE\n——————\n使用演习的话桃子不会自动开技能\n——————\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "蜜莓",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "浊心斯卡蒂",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

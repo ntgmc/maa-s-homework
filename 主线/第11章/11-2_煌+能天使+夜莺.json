@@ -1,0 +1,67 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "11-2磨难三人",
+        "details": "制作者：一只摆烂的42\n有问题联系QQ2586582719\nhttps://www.bilibili.com/video/av261468755/"
+    },
+    "stage_name": "obt/main/level_tough_11-02",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "下",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "下",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

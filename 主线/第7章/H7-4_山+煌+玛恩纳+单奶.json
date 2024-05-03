@@ -1,0 +1,122 @@
+{
+  "minimum_required": "v4.0.0",
+  "doc": {
+    "title": "H7-4 四人稳定",
+    "details": "原视频：https://www.bilibili.com/video/BV1GG411g7Wz/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+  },
+  "stage_name": "hard_07-04",
+  "opers": [
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "玛恩纳",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "name": "",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "玛恩纳",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "单奶",
+      "location": [
+        2,
+        1
+      ],
+      "direction": "Right",
+      "rear_delay": 2000
+    },
+    {
+      "type": "Skill",
+      "kills": 20,
+      "name": "玛恩纳",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillUsage",
+      "name": "玛恩纳",
+      "skill_usage": 1,
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "kills": 57,
+      "name": "芙蓉",
+      "doc_color": "DarkGoldenrod",
+      "doc": "不是芙蓉就不用开了",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "groups": [
+    {
+      "name": "单奶",
+      "opers": [
+        {
+          "name": "闪灵",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "华法琳",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "嘉维尔",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "芙蓉",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ]
+}

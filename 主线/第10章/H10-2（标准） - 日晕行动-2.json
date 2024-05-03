@@ -1,0 +1,171 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "hard_10-02",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        5,
+        6
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "泥岩",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Up",
+      "kills": 3,
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "史尔特尔",
+      "kills": 4,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        1,
+        5
+      ],
+      "kills": 12,
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "浊心斯卡蒂",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        3,
+        6
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Left",
+      "kills": 18,
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "史尔特尔",
+      "kills": 23,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        4,
+        5
+      ],
+      "direction": "Right"
+    }
+  ],
+  "doc": {
+    "title": "第十章 破碎日冕 - H10-2（标准） - 日晕行动-2",
+    "details": "视频作者：萧然Q\nhttps://www.bilibili.com/video/BV1VY4y1Y7NA?p=2"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "泥岩",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "闪灵",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "浊心斯卡蒂",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "史尔特尔",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}

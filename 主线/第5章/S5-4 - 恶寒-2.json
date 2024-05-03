@@ -1,0 +1,144 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "sub_05-2-2",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "芬",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "克洛丝",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "巡林者",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "芙蓉",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "安赛尔",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "干扰装置",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Deploy",
+      "name": "干扰装置",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Retreat",
+      "name": "芬",
+      "location": [
+        7,
+        3
+      ],
+      "costs": 8
+    },
+    {
+      "type": "Deploy",
+      "name": "黑角",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第五章 靶向药物 - S5-4 - 恶寒-2",
+    "details": "up：|GoodGame|"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "克洛丝",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "巡林者",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "安赛尔",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "芙蓉",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "芬",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "黑角",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}

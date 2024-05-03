@@ -1,0 +1,172 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_10-15",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "伊芙利特",
+      "location": [
+        6,
+        1
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "华法琳",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "浊心斯卡蒂",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Left",
+      "kills": 17,
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        10,
+        4
+      ],
+      "direction": "Left",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "闪灵",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Output",
+      "kills": 23,
+      "rear_delay": 10000,
+      "doc": "撤退延迟",
+      "doc_color": "DeepSkyBlue"
+    },
+    {
+      "type": "Retreat",
+      "name": "山",
+      "location": [
+        3,
+        2
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "年",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第十章 破碎日冕 - 10-17（磨难） - 坚城高墙",
+    "details": "BV1GY411j72u\nup：萧然Q\n测试干员均精2，90级，7级技能或以上\n（标准和磨难地图不一样，务必确认难度）"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "闪灵",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "华法琳",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "浊心斯卡蒂",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊芙利特",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "年",
+      "skill": 2,
+      "skill_usage": 1
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_09-12",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "假日威龙陈",
+      "location": [
+        7,
+        5
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "白面鸮",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Down",
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "假日威龙陈",
+      "kills": 12,
+      "location": [
+        7,
+        5
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillUsage",
+      "name": "假日威龙陈",
+      "skill_usage": 0,
+      "rear_delay": 0
+    },
+    {
+      "type": "Skill",
+      "name": "假日威龙陈",
+      "kills": 26,
+      "location": [
+        7,
+        5
+      ],
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第九章 风暴瞭望 - 9-14（标准） - 风中旗帜 - 突袭",
+    "details": "BV1QQ4y1r7Ni\nup：萧然Q\n视频练度：260(?)\n已测试"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "白面鸮",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "假日威龙陈",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ],
+  "difficulty": 2
+}

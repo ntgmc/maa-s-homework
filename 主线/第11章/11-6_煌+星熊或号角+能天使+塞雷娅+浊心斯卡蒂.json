@@ -1,0 +1,105 @@
+{
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "重装",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "打印",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ],
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "11-6磨难五人",
+        "details": "制作者：一只摆烂的42\n有问题联系QQ2586582719\nhttps://www.bilibili.com/video/av773980829/"
+    },
+    "stage_name": "obt/main/level_tough_11-05",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "重装",
+            "opers": [
+                {
+                    "name": "星熊",
+                    "skill": 2
+                },
+                {
+                    "name": "号角",
+                    "skill": 1
+                }
+            ]
+        }
+    ]
+}

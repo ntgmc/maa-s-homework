@@ -1,0 +1,59 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "斑点",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "安赛尔",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速",
+            "kills": 55
+        }
+    ],
+    "stage_name": "main_04-06",
+    "doc": {
+        "details": "作者：YueShen"
+    },
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1
+        }
+    ],
+    "minimum_required": "v4.0"
+}

@@ -1,0 +1,115 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "11-16磨难三人",
+        "details": "制作者：一只摆烂的42\n有问题联系QQ2586582719\nhttps://www.bilibili.com/video/av858898209/"
+    },
+    "stage_name": "obt/main/level_tough_11-14",
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "右",
+            "rear_delay": 4000
+        },
+        {
+            "type": "技能",
+            "name": "山"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        }
+    ]
+}

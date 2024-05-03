@@ -1,0 +1,100 @@
+{
+    "minimum_required": "v4.0",
+    "doc": {
+        "title": "5-1 突袭 单核低配",
+        "details": "UP：原研次郎\n原视频：https://www.bilibili.com/video/BV1T3411f7kG/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "main_05-01",
+    "opers": [
+        {
+            "name": "重岳",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "嘉维尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "斑点",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "重岳",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "芙蓉",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "古米",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "嘉维尔",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "右"
+        }
+    ]
+}

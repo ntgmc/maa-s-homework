@@ -1,0 +1,140 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_07-12",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Up",
+      "rear_delay": 0
+    },
+    {
+      "type": "SpeedUp",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "芬",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "玫兰莎",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "安赛尔",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "芙蓉",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "慕斯",
+      "location": [
+        5,
+        4
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "芬",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "斑点",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "芬",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "Right",
+      "rear_delay": 0
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第七章 苦难摇篮 - 7-14 - 游击-1",
+    "details": "第七章 苦难摇篮 - 7-14 - 游击-1"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "慕斯",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "安赛尔",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "芙蓉",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "玫兰莎",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "芬",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "斑点",
+      "skill": 1,
+      "skill_usage": 1
+    }
+  ]
+}
