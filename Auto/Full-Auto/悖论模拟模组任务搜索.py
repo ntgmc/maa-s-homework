@@ -4,7 +4,7 @@ import json
 import os
 import glob
 from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor
 
 
 def get_current_date():
