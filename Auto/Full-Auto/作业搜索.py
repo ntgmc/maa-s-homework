@@ -153,7 +153,7 @@ def searches(keyword_prefix, range_max, mode):
             amount = 0
             for member in data["data"]["data"]:
                 if member["like"] + member["dislike"] != 0:
-                    point = round(member["like"] / (member["like"] + member["dislike"]) * 100, 0)
+                    point = calculate_percent(member)
                 else:
                     point = 0
                 if member["views"] >= st["sview"] and point >= st["spoint"] and amount < st["samount"]:

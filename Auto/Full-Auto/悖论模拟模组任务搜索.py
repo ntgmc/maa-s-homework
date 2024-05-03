@@ -75,7 +75,7 @@ def check_file_exists2(name, stage, _id):  # 判断是否存在相同id但评分
 def search_paradox(keyword, _job=None):
     if keyword == "W":
         print(f"成功搜索 {_job} - {keyword}")
-        return 0, 0, "None", "None"
+        return "W", 0, 0, "None", "None"
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword=悖论模拟&document={keyword}&desc=true&orderBy=hot"
     _headers = {
         "Origin": "https://prts.plus",
@@ -111,12 +111,12 @@ def search_paradox(keyword, _job=None):
                         content['doc']['details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
                         write_to_file(file_path, content)
             print(f"成功搜索 {_job} - {keyword}")
-            return len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
+            return keyword, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
         else:
-            return 0, 0, "None", "None"
+            return keyword, 0, 0, "None", "None"
     else:
         print(f"请求失败！ERR_CONNECTION_REFUSED in search({keyword})")
-        return 0, 0, "None", "None"
+        return keyword, 0, 0, "None", "None"
 
 
 def search_module(name, stage):
@@ -158,12 +158,12 @@ def search_module(name, stage):
                         content['doc']['details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
                         write_to_file(file_path, content)
             print(f"成功搜索 {name} - {stage}")
-            return len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
+            return name, stage, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
         else:
-            return 0, 0, "None", "None"
+            return name, stage, 0, 0, "None", "None"
     else:
         print(f"请求失败！ERR_CONNECTION_REFUSED in search({name} - {stage})")
-        return 0, 0, "None", "None"
+        return name, stage, 0, 0, "None", "None"
 
 
 # 解析HTML并提取角色名
@@ -196,31 +196,43 @@ def main_paradox():
     keywords_file = './keywords.txt'
     output_file_develop = './paradox_develop.txt'
     output_file_user = './paradox_user.txt'
-    output_lines_develop = []
-    output_lines_user = []
+    results = []
     job_now = -1
     with open(keywords_file, 'r', encoding='utf-8') as f:
         with ThreadPoolExecutor() as executor:
             futures = []
-            for line in f:
-                # 如果是空行，保留空行并继续下一行的处理
+            for index, line in enumerate(f):
+                # 如果是空行，提交一个表示空行的任务
                 if not line.strip():
-                    output_lines_develop.append(line)
-                    output_lines_user.append(line)
+                    futures.append((index, executor.submit(lambda: ('empty_line',))))
                     continue
                 keyword = line.strip()
                 if job_now + 1 < len(job_categories) and keyword == job_categories[job_now + 1]:
                     job_now += 1
                     continue
                 future = executor.submit(search_paradox, keyword, job_categories[job_now])
-                futures.append(future)
-            for future in as_completed(futures):
-                id_count_develop, id_count_user, str_ids_develop, str_ids_user = future.result()
-                output_lines_develop.append(f"{keyword}\t{id_count_develop}\t{str_ids_develop}\n")
-                output_lines_user.append(f"{keyword}\t{id_count_user}\t{str_ids_user}\n")
-        with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w', encoding='utf-8') as output_user:
-            output_develop.writelines(output_lines_develop)
-            output_user.writelines(output_lines_user)
+                futures.append((index, future))
+            for index, future in futures:
+                result = future.result()
+                # 将结果和序号一起存储
+                results.append((index, result))
+    # 根据序号对结果进行排序
+    results.sort(key=lambda x: x[0])
+    # 提取排序后的结果
+    output_lines_develop = []
+    output_lines_user = []
+    for index, result in results:
+        # 如果结果是表示空行的标记，添加一个空行到输出列表
+        if result[0] == 'empty_line':
+            output_lines_develop.append('\n')
+            output_lines_user.append('\n')
+        else:
+            result_keyword, id_count_develop, id_count_user, str_ids_develop, str_ids_user = result
+            output_lines_develop.append(f"{result_keyword}\t{id_count_develop}\t{str_ids_develop}\n")
+            output_lines_user.append(f"{result_keyword}\t{id_count_user}\t{str_ids_user}\n")
+    with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w', encoding='utf-8') as output_user:
+        output_develop.writelines(output_lines_develop)
+        output_user.writelines(output_lines_user)
     print("输出Paradox完成！")
     headers = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0',
@@ -261,8 +273,7 @@ def main_paradox():
 def main_module():
     output_file_develop = './module_develop.txt'
     output_file_user = './module_user.txt'
-    output_lines_develop = []
-    output_lines_user = []
+    results = []
     headers = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0',
     }
@@ -273,13 +284,22 @@ def main_module():
     tr_contents = extract_tr_contents(response.text)
     with ThreadPoolExecutor() as executor:
         futures = []
-        for name, stage, task in tr_contents:
+        for index, (name, stage, task) in enumerate(tr_contents):
             future = executor.submit(search_module, name, stage)
-            futures.append(future)
-        for future in as_completed(futures):
-            id_count_develop, id_count_user, str_ids_develop, str_ids_user = future.result()
-            output_lines_develop.append(f"{name}\t{stage}\t{id_count_develop}\t{str_ids_develop}\n")
-            output_lines_user.append(f"{name}\t{stage}\t{id_count_user}\t{str_ids_user}\n")
+            futures.append((index, future))
+        for index, future in futures:
+            result = future.result()
+            # 将结果和序号一起存储
+            results.append((index, result))
+    # 根据序号对结果进行排序
+    results.sort(key=lambda x: x[0])
+    # 提取排序后的结果
+    output_lines_develop = []
+    output_lines_user = []
+    for index, result in results:
+        result_name, result_stage, id_count_develop, id_count_user, str_ids_develop, str_ids_user = result
+        output_lines_develop.append(f"{result_name}\t{result_stage}\t{id_count_develop}\t{str_ids_develop}\n")
+        output_lines_user.append(f"{result_name}\t{result_stage}\t{id_count_user}\t{str_ids_user}\n")
     with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w', encoding='utf-8') as output_user:
         output_develop.writelines(output_lines_develop)
         output_user.writelines(output_lines_user)

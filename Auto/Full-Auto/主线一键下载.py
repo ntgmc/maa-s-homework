@@ -51,7 +51,7 @@ date = get_current_date()
 
 
 def write_to_file(file_path, content):
-    with open(file_path.replace('/', ''), 'w', encoding='utf-8') as file:
+    with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
 
 
@@ -109,7 +109,7 @@ def generate_filename_mode3(data):
     names_parts = ['+'.join(oper.get('name', '') for oper in opers),
                    '+'.join(group.get('name', '') for group in groups)]
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
-    return f'./download/主线/第{_stage}章/{stage_name}_{names}.json'
+    return f'./download/主线/第{_stage}章/{stage_name}_{names.replace("/", "")}.json'
 
 
 def search(keyword):
