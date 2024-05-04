@@ -155,10 +155,16 @@ def bat_search():
             search(f"main_{pad_zero(_stage)}-{pad_zero(level)}")
 
 
+def tough_stage_search(_stage):
+    for level in range(1, max_level.get(_stage, 0) + 1):
+        search(f"tough_{pad_zero(_stage)}-{pad_zero(level)}")
+
+
 if not os.path.exists(f'./download/主线'):
     os.makedirs(f'./download/主线')
 for stage in all_stage:
     if not os.path.exists(f'./download/主线/第{stage}章'):
         os.makedirs(f'./download/主线/第{stage}章')
 # search("main_14-01")
-bat_search()
+# bat_search()
+tough_stage_search(14)
