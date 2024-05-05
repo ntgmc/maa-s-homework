@@ -146,18 +146,21 @@ def search(keyword):
                     break
 
 
-def bat_search():
-    for _stage in tough:
-        for level in range(1, max_level.get(_stage, 0) + 1):
-            search(f"tough_{pad_zero(_stage)}-{pad_zero(level)}")
-    for _stage in main:
-        for level in range(1, max_level.get(_stage, 0) + 1):
-            search(f"main_{pad_zero(_stage)}-{pad_zero(level)}")
-
-
 def tough_stage_search(_stage):
     for level in range(1, max_level.get(_stage, 0) + 1):
         search(f"tough_{pad_zero(_stage)}-{pad_zero(level)}")
+
+
+def main_stage_search(_stage):
+    for level in range(1, max_level.get(_stage, 0) + 1):
+        search(f"main_{pad_zero(_stage)}-{pad_zero(level)}")
+
+
+def bat_search():
+    for _stage in tough:
+        tough_stage_search(_stage)
+    for _stage in main:
+        main_stage_search(_stage)
 
 
 if not os.path.exists(f'./download/主线'):

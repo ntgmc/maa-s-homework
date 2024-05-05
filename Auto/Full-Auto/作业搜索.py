@@ -87,6 +87,8 @@ def search(keyword, search_mode):
         order_by = "id"
     elif search_mode == 3:
         order_by = "views"
+    else:
+        order_by = "hot"
     url = f"https://prts.maa.plus/copilot/query?desc=true&limit=50&page=1&order_by={order_by}&level_keyword={keyword}"
     headers = {
         "Origin": "https://prts.plus",
@@ -138,6 +140,9 @@ def searches(keyword_prefix, range_max, mode):
                     return menu()
                 _searches(_range_max, i + 1)
             return menu()
+        else:
+            print("未知选项，请重新选择，返回请输入back")
+            return menu()
         print(f"保存目录：{path}")
         if not os.path.exists(path):
             os.makedirs(path)
@@ -177,7 +182,7 @@ def configure_download_settings():
     print("2. 标题 - 作者.json")
     print("3. 关卡代号-干员1+干员2.json")
     stitle = input("选择文件名格式（默认为1）：").replace(" ", "")
-    if stitle.replace(" ", "") not in ["1", "2", "3"]:
+    if stitle.replace(" ", "") not in range(1, 4):
         stitle = "1"
     print(f"设定值：{stitle}")
     path = input("设置保存文件夹（为空默认当前目录\\download）：").replace(" ", "")
@@ -250,6 +255,9 @@ def generate_filename(content, stitle, uploader, keyword):
         file_name = content["doc"]["title"] + " - " + uploader
     elif stitle == "3":
         file_name = generate_filename_mode3(keyword, content)
+    else:
+        print('文件名格式错误')
+        file_name = None
     return file_name
 
 
@@ -326,7 +334,7 @@ def mode2():
         print("5. MO关")
         print("6. 全部关")
         mode = input("请选择批量下载的关卡：").replace(" ", "")
-        if mode in ["1", "2", "3", "4", "5", "6"]:
+        if mode in range(1, 7):
             mode = int(mode)
             break
         elif mode.lower() == "back":
@@ -342,13 +350,13 @@ def mode2():
     else:
         while True:
             range_max = input("请输入最大关卡：").replace(" ", "")
-            if range_max in ["1", "2", "3", "4", "5", "6", "7", "8", "9"]:
+            if range_max in range(1, 11):
                 range_max = int(range_max)
                 break
             elif range_max.lower() == "back":
                 return menu()
             else:
-                print("尚不支持，请重新输入(1-9)")
+                print("尚不支持，请重新输入(1-10)")
                 continue
     searches(keyword, range_max, mode)
     return menu()

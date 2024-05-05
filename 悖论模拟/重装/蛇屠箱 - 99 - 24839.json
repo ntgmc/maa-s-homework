@@ -1,0 +1,47 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_snakek_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "蛇屠箱",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                4,
+                1
+            ],
+            "costs": 58
+        },
+        {
+            "type": "Skill",
+            "kills": 17,
+            "name": "蛇屠箱",
+            "location": [
+                4,
+                1
+            ]
+        }
+    ],
+    "doc": {
+        "title": "蛇屠箱 悖论模拟 关键球员",
+        "details": "统计日期：2024-05-05\n好评率：99.0%  浏览量：5155\n来源：子猫OuO  ID：24839\n自动战斗作者：子猫OuO\n7级技能，精240级已通过测试，无需模组\n理论上来说技能等级不影响回转，但技能过低可能会扛不住\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "蛇屠箱",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
