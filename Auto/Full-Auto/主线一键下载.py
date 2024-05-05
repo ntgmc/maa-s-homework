@@ -85,7 +85,7 @@ def extract_info(text):  # TODO: 增加sub适配
         level = int(match.group(3))
         return name, _stage, level
     else:
-        return None
+        return None, None, None
 
 
 def generate_stage_name(stage_name):
@@ -127,7 +127,7 @@ def search(keyword):
             download_amount = 0
             score_threshold = download_score_threshold
             view_threshold = download_view_threshold
-            while True:
+            while not download_amount:
                 for item in data['data']['data']:
                     percent = calculate_percent(item)
                     view = item.get('views', 0)
@@ -138,12 +138,14 @@ def search(keyword):
                         print(f"{file_path} {percent}% {view} 成功下载")
                         write_to_file(file_path, content)
                         download_amount += 1
-                if download_amount == 0:
+                if not download_amount:
                     score_threshold -= 5
                     view_threshold -= 200
                     print(f"{keyword} 无符合条件的数据，降低阈值为{score_threshold}% {view_threshold}重试")
-                else:
-                    break
+        else:
+            print(f"{keyword} 无数据")
+    else:
+        print(f"请求 {keyword} 失败")
 
 
 def tough_stage_search(_stage):

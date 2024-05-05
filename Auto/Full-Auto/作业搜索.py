@@ -49,14 +49,10 @@ def calculate_percent(item):
 
 
 def configuration():
-    print("1. 默认配置")
-    print("2. 用户配置")
-    print("3. 自定义模式（单次）")
-    mode1 = input("请选择配置：")
-    if mode1.lower() == "back":
-        return menu()
-    if mode1 == "1":
-        st = {
+    print("1. 默认配置\n2. 用户配置\n3. 自定义模式（单次）")
+    _mode = input("请选择配置：")
+    if _mode == "1":
+        return {
             'stitle': "1",
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)), "download"),
             'order_by': 1,
@@ -66,18 +62,17 @@ def configuration():
             'soperater': [],
             'suploader': []
         }
-    elif mode1 == "2":
+    elif _mode == "2":
         if not load_settings():
             print("未找到用户配置，请先设置")
             input()
             return menu()
-        st = setting["download"]
-    elif mode1 == "3":
-        st = configure_download_settings()
+        return setting["download"]
+    elif _mode == "3":
+        return configure_download_settings()
     else:
         print("未知选项，请重新选择，返回请输入back")
         return configuration()
-    return st
 
 
 def search(keyword, search_mode):
@@ -94,33 +89,39 @@ def search(keyword, search_mode):
         "Origin": "https://prts.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
-    response = requests.get(url, headers=headers)
-    return response.text
+    try:
+        response = requests.get(url, headers=headers)
+        return response.text
+    except requests.exceptions.SSLError:
+        print("=" * 60)
+        input("!!!SSL证书验证失败，请关闭系统代理!!!\n")
+        return menu()
+
+
+def process_and_save_content(keyword, _member, st, _percent=0, _view=0, _uploader="", _id=""):
+    content = json.loads(_member["content"])
+    content['doc']['details'] = f"统计日期：{date}\n好评率：{_percent}%  浏览量：{_view}\n来源：{_uploader}  ID：{_id}\n" + content['doc']['details']
+    names = [oper.get('name', '') for oper in content.get('opers', '')]
+    opers_bool = False
+    for opers in st["soperater"]:
+        if opers in names:
+            opers_bool = True
+            break
+    if opers_bool:
+        return False
+    file_name = generate_filename(content, st["stitle"], _member["uploader"], keyword)
+    file_path = os.path.join(st["path"], f"{file_name}.json")
+    _ = 1
+    while os.path.exists(file_path):
+        file_path = os.path.join(st["path"], f"{file_name} ({_}).json")
+        _ = _ + 1
+    write_to_file(file_path, content)
+    print(f"成功写出文件：{file_path}")
+    return True
 
 
 def searches(keyword_prefix, range_max, mode):
-    def _searches(_range_max, _mode):
-        def __searches(_member, _percent=0, _view=0, _uploader="", _id=""):
-            content = json.loads(_member["content"])
-            content['doc']['details'] = f"统计日期：{date}\n好评率：{_percent}%  浏览量：{_view}\n来源：{_uploader}  ID：{_id}\n" + content['doc']['details']
-            names = [oper.get('name', '') for oper in content.get('opers', '')]
-            opers_bool = False
-            for opers in st["soperater"]:
-                if opers in names:
-                    opers_bool = True
-                    break
-            if opers_bool:
-                return False
-            file_name = generate_filename(content, st["stitle"], _member["uploader"], keyword)
-            file_path = os.path.join(path, f"{file_name}.json")
-            i = 1
-            while os.path.exists(file_path):
-                file_path = os.path.join(path, f"{file_name} ({i}).json")
-                i = i + 1
-            write_to_file(file_path, content)
-            print(f"成功写出文件：{file_path}")
-            return True
-
+    def _searches(st, _range_max, _mode):
         if _mode == 1:  # 普通关
             keyword_concatenate = f"-"
         elif _mode == 2:  # EX
@@ -133,23 +134,23 @@ def searches(keyword_prefix, range_max, mode):
             keyword_concatenate = f"-MO-"
         elif _mode == 6:  # 全部
             for i in range(5):
-                if load_settings() and setting["range"] is not None:
-                    _range_max = setting["range"][f"{i + 1}_range"]
+                if load_settings() and _setting["range"] is not None:
+                    _range_max = _setting["range"][f"{i + 1}_range"]
                 else:
                     input("请先设置【批量设置】再使用下载【全部关】\n")
                     return menu()
-                _searches(_range_max, i + 1)
+                _searches(st, _range_max, i + 1)
             return menu()
         else:
             print("未知选项，请重新选择，返回请输入back")
             return menu()
-        print(f"保存目录：{path}")
-        if not os.path.exists(path):
-            os.makedirs(path)
+        print(f"保存目录：{st['path']}")
+        if not os.path.exists(st['path']):
+            os.makedirs(st['path'])
         now = time.time()
         if _range_max == 0:
-            if setting["range"][f"{_mode}_range"]:
-                _range_max = setting["range"][f"{_mode}_range"]
+            if _setting["range"][f"{_mode}_range"]:
+                _range_max = _setting["range"][f"{_mode}_range"]
         for i in range(_range_max):
             keyword = f"{keyword_prefix}{keyword_concatenate}{i + 1}"
             data = json.loads(search(keyword, st["order_by"]))
@@ -163,7 +164,7 @@ def searches(keyword_prefix, range_max, mode):
                     point = 0
                 if member["views"] >= st["sview"] and point >= st["spoint"] and amount < st["samount"]:
                     if st["suploader"] == [] or member["uploader"] in st["suploader"]:
-                        if __searches(member, point, member["views"], member["uploader"], member["id"]):
+                        if process_and_save_content(keyword, member, st, point, member["views"], member["uploader"], member["id"]):
                             amount = amount + 1
                     if amount >= st["samount"]:
                         break
@@ -172,54 +173,40 @@ def searches(keyword_prefix, range_max, mode):
         last = time.time()
         input(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
 
-    st = configuration()
-    path = st["path"]
-    _searches(range_max, mode)
+    _setting = configuration()
+    _searches(_setting, range_max, mode)
+
+
+def get_input(prompt, default, min_value=None, max_value=None):
+    try:
+        value = input(prompt).strip()
+        value = int(value) if value else default
+        if min_value is not None and value < min_value:
+            value = default
+        if max_value is not None and value > max_value:
+            value = default
+        print(f"设定值：{value}")  # 打印设定值
+        return value
+    except ValueError:
+        print(f"输入无效，设置为默认值：{default}")
+        return default
 
 
 def configure_download_settings():
     print("1. 标题.json")
     print("2. 标题 - 作者.json")
     print("3. 关卡代号-干员1+干员2.json")
-    stitle = input("选择文件名格式（默认为1）：").replace(" ", "")
-    if stitle.replace(" ", "") not in range(1, 4):
-        stitle = "1"
-    print(f"设定值：{stitle}")
+    stitle = get_input("选择文件名格式（默认为1）：", 1, 1, 3)
     path = input("设置保存文件夹（为空默认当前目录\\download）：").replace(" ", "")
-    if path == "" or not os.path.isdir(path):
-        path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "download")
+    path = path if path and os.path.isdir(path) else os.path.join(os.path.dirname(os.path.abspath(__file__)), "download")
     print(f"成功设置保存文件夹为：{path}")
     print("1. 热度")
     print("2. 最新")
     print("3. 浏览量")
-    order_by = input("设置排序方式（为空默认为1）：").replace(" ", "")
-    try:
-        order_by = int(order_by)
-        if order_by > 3 or order_by < 1:
-            order_by = 1
-    except:
-        order_by = 1
-    print(f"设定值：{order_by}")
-    spoint = input("设置好评率限制(0-100)（为空不限制）：").replace(" ", "")
-    try:
-        spoint = int(spoint)
-        if spoint > 99 or spoint < 0:
-            spoint = 0
-    except:
-        spoint = 0
-    print(f"设定值：{spoint}")
-    sview = input("设置浏览量限制（大于你设置的值）（为空不限制）：").replace(" ", "")
-    try:
-        sview = int(sview)
-    except:
-        sview = 0
-    print(f"设定值：{sview}")
-    samount = input("设置下载数量(1-5)（为空默认为1）：").replace(" ", "")
-    try:
-        samount = int(samount)
-    except:
-        samount = 1
-    print(f"设定值：{samount}")
+    order_by = get_input("设置排序方式（为空默认为1）：", 1, 1, 3)
+    spoint = get_input("设置好评率限制(0-100)（为空不限制）：", 0, 0, 100)
+    sview = get_input("设置浏览量限制（大于你设置的值）（为空不限制）：", 0)
+    samount = get_input("设置下载数量(1-5)（为空默认为1）：", 1, 1, 5)
     soperater = input("设置禁用干员（空格分隔）（为空不限制）：").split()
     print(f"设定值：{soperater}")
     suploader = input("设置只看作者（空格分隔）（为空不限制）：").split()
@@ -262,28 +249,6 @@ def generate_filename(content, stitle, uploader, keyword):
 
 
 def mode1():
-    def _search(_member, _percent=0, _view=0, _uploader="", _id=""):
-        content = json.loads(_member["content"])
-        content['doc'][
-            'details'] = f"统计日期：{date}\n好评率：{_percent}%  浏览量：{_view}\n来源：{_uploader}  ID：{_id}\n" + content['doc']['details']
-        names = [oper["name"] for oper in content["opers"]]
-        opers_bool = False
-        for opers in st["soperater"]:
-            if opers in names:
-                opers_bool = True
-                break
-        if opers_bool:
-            return False
-        file_name = generate_filename(content, st["stitle"], _member["uploader"], keyword)
-        file_path = os.path.join(st["path"], f"{file_name}.json")
-        i = 1
-        while os.path.exists(file_path):
-            file_path = os.path.join(st["path"], f"{file_name} ({i}).json")
-            i = i + 1
-        write_to_file(file_path, content)
-        print(f"成功写出文件：{file_path}")
-        return True
-
     os.system("cls")
     print("已进入单次搜索并下载模式，（输入back返回）")
     keyword = input("请输入关卡代号：").replace(" ", "")
@@ -303,7 +268,7 @@ def mode1():
         point = calculate_percent(member)
         if member["views"] >= st["sview"] and point >= st["spoint"] and amount < st["samount"]:
             if st["suploader"] == [] or member["uploader"] in st["suploader"]:
-                if _search(member, point, member["views"], member["uploader"], member["id"]):
+                if process_and_save_content(keyword, member, st, point, member["views"], member["uploader"], member["id"]):
                     amount = amount + 1
             if amount >= st["samount"]:
                 break
@@ -333,8 +298,8 @@ def mode2():
         print("4. TR关")
         print("5. MO关")
         print("6. 全部关")
-        mode = input("请选择批量下载的关卡：").replace(" ", "")
-        if mode in range(1, 7):
+        mode = input("请选择批量下载的关卡(back返回)：").replace(" ", "")
+        if mode.isdigit() and 1 <= int(mode) <= 7:
             mode = int(mode)
             break
         elif mode.lower() == "back":
@@ -350,13 +315,13 @@ def mode2():
     else:
         while True:
             range_max = input("请输入最大关卡：").replace(" ", "")
-            if range_max in range(1, 11):
+            if range_max.isdigit() and 1 <= int(range_max) <= 11:
                 range_max = int(range_max)
                 break
             elif range_max.lower() == "back":
                 return menu()
             else:
-                print("尚不支持，请重新输入(1-10)")
+                print("尚不支持，请重新输入(1-10)，back返回")
                 continue
     searches(keyword, range_max, mode)
     return menu()
@@ -385,38 +350,24 @@ def download_set():
     return menu()
 
 
+def input_level_range(note, default):
+    try:
+        value = input(f"输入{note}关最大关卡（默认{default}）：").strip()
+        value = int(value) if value else default
+        print(f"设定值：{value}")
+        return value
+    except ValueError:
+        print(f"输入无效，设置为默认值：{default}")
+        return default
+
+
 def level_set():
     global setting
-    normal_range = input("输入普通关最大关卡（默认9）：").replace(" ", "")
-    try:
-        normal_range = int(normal_range)
-    except:
-        normal_range = 9
-    print(f"设定值：{normal_range}")
-    ex_range = input("输入EX关最大关卡（默认8）：").replace(" ", "")
-    try:
-        ex_range = int(ex_range)
-    except:
-        ex_range = 8
-    print(f"设定值：{ex_range}")
-    s_range = input("输入S关最大关卡（默认5）：").replace(" ", "")
-    try:
-        s_range = int(s_range)
-    except:
-        s_range = 5
-    print(f"设定值：{s_range}")
-    tr_range = input("输入TR关最大关卡（默认3）：").replace(" ", "")
-    try:
-        tr_range = int(tr_range)
-    except:
-        tr_range = 3
-    print(f"设定值：{tr_range}")
-    mo_range = input("输入MO关最大关卡（默认1）：").replace(" ", "")
-    try:
-        mo_range = int(mo_range)
-    except:
-        mo_range = 1
-    print(f"设定值：{mo_range}")
+    normal_range = input_level_range("普通", 9)
+    ex_range = input_level_range("EX", 8)
+    s_range = input_level_range("S", 5)  # TODO: 适配S-A/B的情况
+    tr_range = input_level_range("TR", 3)
+    mo_range = input_level_range("MO", 1)
     load_settings()
     setting["range"] = {
         "1_range": normal_range,
@@ -425,16 +376,14 @@ def level_set():
         "4_range": tr_range,
         "5_range": mo_range,
     }
-    if save_data(setting):
-        input("保存成功，按下回车键返回\n")
-    else:
-        input("保存失败，按下回车键返回\n")
+    save_data(setting)
+    input("保存成功，按下回车键返回\n")
     return menu()
 
 
 def menu():
     os.system("cls")
-    print("-" * 60)
+    print("=" * 60)
     print("1. 单次搜索并下载")
     print("2. 批量搜索并下载")
     print("3. 设置")
@@ -445,7 +394,10 @@ def menu():
         return mode2()
     elif choose == "3":
         return mode3()
+    elif choose.lower() == "exit":
+        return True
 
 
-while True:
-    menu()
+menu_result = False
+while not menu_result:
+    menu_result = menu()
