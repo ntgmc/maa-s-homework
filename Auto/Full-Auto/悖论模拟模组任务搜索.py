@@ -249,8 +249,8 @@ def main_paradox():
             output_lines_user.append('\n')
         elif result[0] == 'no-paradox':
             result_keyword = result[1]
-            output_lines_develop.append(f"{result_keyword}\t\t\n")
-            output_lines_user.append(f"{result_keyword}\t\t\n")
+            output_lines_develop.append(f"{result_keyword}\t-\t-\n")
+            output_lines_user.append(f"{result_keyword}\t-\t-\n")
         else:
             result_keyword, id_count_develop, id_count_user, str_ids_develop, str_ids_user = result
             output_lines_develop.append(f"{result_keyword}\t{id_count_develop}\t{str_ids_develop}\n")
