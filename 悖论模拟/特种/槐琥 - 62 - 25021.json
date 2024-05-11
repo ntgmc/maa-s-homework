@@ -1,0 +1,162 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_waaifu_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "布丁",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "槐琥",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "槐琥",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 5
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "槐琥",
+            "location": [
+                8,
+                3
+            ],
+            "cooling": 0,
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "槐琥",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "布丁",
+            "location": [
+                4,
+                4
+            ],
+            "costs": 40
+        },
+        {
+            "type": "Deploy",
+            "name": "槐琥",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "槐琥",
+            "location": [
+                4,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "槐琥",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "槐琥",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "槐琥",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "槐琥",
+            "location": [
+                8,
+                3
+            ],
+            "rear_delay": 10
+        },
+        {
+            "type": "Deploy",
+            "name": "槐琥",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "槐琥",
+            "location": [
+                4,
+                5
+            ]
+        }
+    ],
+    "doc": {
+        "title": "特种 - 槐琥 - 诛邪义举 悖论模拟",
+        "details": "统计日期：2024-05-11\n好评率：62.5%  浏览量：1059\n来源：MAA666  ID：25021\n槐琥 二技能 7级（测试用的是精二20级）\n参考https://www.bilibili.com/video/BV1uF411s75R/"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "槐琥",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

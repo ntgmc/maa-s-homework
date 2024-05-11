@@ -73,7 +73,7 @@ def check_file_exists2(name, stage, _id):  # 判断是否存在相同id但评分
             print(f"Removed {file_name}")
 
 
-def search_paradox(keyword, _job=None):
+def search_paradox(keyword, _job=None):  # TODO: 先使用levelKeyword=悖论模拟，搜索错误再改成document=悖论模拟
     if keyword == "W":
         print(f"成功搜索 {_job} - {keyword}")
         return "W", 0, 0, "None", "None"

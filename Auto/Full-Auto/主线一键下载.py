@@ -8,7 +8,6 @@ import os
 download_score_threshold = 80  # 好评率阈值
 download_view_threshold = 1000  # 浏览量阈值
 # 设置stage_name
-all_stage = range(15)
 tough = [10, 11, 12, 13, 14]
 main = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 sub = [2, 3, 4, 5, 6, 7, 9]  # TODO: 增加sub适配
@@ -191,7 +190,7 @@ def bat_search():
 
 if not os.path.exists(f'./download/主线'):
     os.makedirs(f'./download/主线')
-for stage in all_stage:
+for stage in max_level:
     if not os.path.exists(f'./download/主线/第{stage}章'):
         os.makedirs(f'./download/主线/第{stage}章')
 

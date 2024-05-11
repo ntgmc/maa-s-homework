@@ -1,0 +1,76 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "罗德岛临时雇员",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "cost_changes": 10,
+            "name": "调香师",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "波登可",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "kills": 9,
+            "name": "波登可",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "技能",
+            "kills": 15,
+            "name": "波登可",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "技能",
+            "kills": 20,
+            "name": "波登可",
+            "location": [
+                7,
+                2
+            ]
+        }
+    ],
+    "doc": {
+        "title": "波登可悖论模拟",
+        "details": "统计日期：2024-05-11\n好评率：95.12%  浏览量：778\n来源：作业代传——有问题联系原作者  ID：22764\n作者：雪\n测试干员：波登可 精2 70级 2技能7级 无模"
+    },
+    "stage_name": "mem_podego_1",
+    "opers": [
+        {
+            "name": "波登可",
+            "skill": 2
+        }
+    ],
+    "minimum_required": "v4.0.0"
+}
