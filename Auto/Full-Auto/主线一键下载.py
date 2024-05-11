@@ -41,6 +41,9 @@ max_level = {
     13: 19,
     14: 19
 }
+max_hard_level = {
+    14: 4
+}  # TODO：适配其他章节
 
 
 def get_current_date():
@@ -77,7 +80,7 @@ def find_position(lst, level):
 
 
 def extract_info(text):  # TODO: 增加sub适配
-    pattern = r"(main|tough)_([0-9]+)-([0-9]+)"
+    pattern = r"(main|tough|hard)_([0-9]+)-([0-9]+)"
     match = re.match(pattern, text)
     if match:
         name = match.group(1)
@@ -90,7 +93,10 @@ def extract_info(text):  # TODO: 增加sub适配
 
 def generate_stage_name(stage_name):
     name, _stage, level = extract_info(stage_name)
-    if _stage in tough:
+    if name == 'hard':
+        prefix = 'H'
+        return f"{prefix}{_stage}-{level}", _stage
+    elif _stage in tough:
         if name == 'main':
             prefix = "标准"
         elif name == 'tough':
@@ -158,6 +164,11 @@ def main_stage_search(_stage):
         search(f"main_{pad_zero(_stage)}-{pad_zero(level)}")
 
 
+def hard_stage_search(_stage):
+    for level in range(1, max_hard_level.get(_stage, 0) + 1):
+        search(f"hard_{pad_zero(_stage)}-{pad_zero(level)}")
+
+
 def bat_search():
     for _stage in tough:
         tough_stage_search(_stage)
@@ -172,4 +183,4 @@ for stage in all_stage:
         os.makedirs(f'./download/主线/第{stage}章')
 # search("main_14-01")
 # bat_search()
-tough_stage_search(14)
+hard_stage_search(14)
