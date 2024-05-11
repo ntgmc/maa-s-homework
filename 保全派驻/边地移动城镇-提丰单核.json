@@ -1,0 +1,1265 @@
+{
+  "minimum_required": "v5.2.0",
+  "stage_name": "tower_n_13",
+  "actions": [],
+  "doc": {
+    "title": "边地移动城镇，提丰单核，可一命过应急6，术士、近卫招募任务  看完描述！！！",
+    "title_color": "dark",
+    "details": "提丰单核边地移动城，澄闪伪核，可一命过应急6，术士、近卫任务\n其余则是按明日方舟干员职业列表里从上到下排列，即(旁边是装备)\n先锋：2   A  （推荐挡二尖兵  风笛也可以）\n近卫：3   A  （推荐上一个锏，更快）\n重装：3   A  （推荐奶盾）\n狙击：4   A    \n术士：4   B  （推荐有个澄闪2或者点燃羊，更稳）（标准的话装备可以选择A，应急没试过）\n医疗：3   A  （推荐奶羊1 华法林1 流明）\n辅助：1   A    （虽然只是用来过手牌的，但是有图图也不错）\n特种：0   A\n装置选择：可充能督战音响  第四关推荐手选B更稳，A也行（我的maa就默认选A了，该做的步骤也有了，就是不选B）\n----------------------------------------------\n第六关 奶、提丰沉底可以重开了\n----------------------------------------------\nb站视频：【提丰单核移动城】https://www.bilibili.com/video/BV1Vw4m1U7AE/\n有问题群找“无忧”   萨拉托加的作业裙（545928846）\n",
+    "details_color": "dark"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "提丰",
+      "skill": 2,
+      "skill_usage": 1
+    }
+  ],
+  "type": "SSS",
+  "buff": "可充能督战音响",
+  "equipment": [
+    "A",
+    "A",
+    "B",
+    "A",
+    "A",
+    "A",
+    "A",
+    "A"
+  ],
+  "strategy": "优选策略",
+  "tool_men": {
+    "vanguard": 2,
+    "guard": 3,
+    "defender": 3,
+    "sniper": 4,
+    "caster": 4,
+    "medic": 3,
+    "supporter": 1,
+    "specialist": 0
+  },
+  "drops": [
+    "术师",
+    "近卫",
+    "无需增调干员",
+    "狙击",
+    "医疗",
+    "辅助",
+    "重装",
+    "先锋",
+    "战备激活阀",
+    "“装配协同”磁带"
+  ],
+  "blacklist": [
+    "罗比菈塔",
+    "掠风",
+    "白铁",
+    "桃金娘",
+    "极境",
+    "琴柳",
+    "伺夜",
+    "豆苗",
+    "夜半",
+    "缪尔赛思",
+    "森蚺",
+    "极光",
+    "梅尔",
+    "U-Official",
+    "玛恩纳",
+    "龙舌兰",
+    "耀骑士临光",
+    "幽灵鲨",
+    "海蒂",
+    "极境",
+    "焰影苇草"
+  ],
+  "stages": [
+    {
+      "stage_name": "痛心的快板",
+      "strategies": [
+        {
+          "tool_men": {
+            "vanguard": 2
+          },
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Up"
+        },
+        {
+          "tool_men": {
+            "caster": 1
+          },
+          "location": [
+            3,
+            3
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "sniper": 1
+          },
+          "location": [
+            3,
+            3
+          ],
+          "direction": "Right"
+        },
+        {
+          "core": "提丰",
+          "tool_men": {
+            "sniper": 2,
+            "caster": 1
+          },
+          "location": [
+            3,
+            3
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "defender": 2,
+            "guard": 2
+          },
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Up"
+        },
+        {
+          "tool_men": {
+            "medic": 2
+          },
+          "location": [
+            3,
+            4
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "medic": 3
+          },
+          "location": [
+            3,
+            4
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "defender": 2,
+            "guard": 2
+          },
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Up"
+        }
+      ],
+      "draw_as_possible": true,
+      "actions": [
+        {
+          "type": "二倍速"
+        },
+        {
+          "type": "Deploy",
+          "costs": 50,
+          "name": "可充能督战音响",
+          "location": [
+            2,
+            3
+          ],
+          "direction": "Right"
+        }
+      ],
+      "retry_times": 6
+    },
+    {
+      "stage_name": "心伤的奏鸣曲",
+      "strategies": [
+        {
+          "tool_men": {
+            "vanguard": 2
+          },
+          "location": [
+            4,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "caster": 1
+          },
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "sniper": 1
+          },
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "defender": 1,
+            "guard": 1,
+            "vanguard": 1
+          },
+          "location": [
+            4,
+            5
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "medic": 1
+          },
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Left"
+        },
+        {
+          "core": "提丰",
+          "tool_men": {
+            "sniper": 2,
+            "caster": 1
+          },
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "medic": 1
+          },
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "caster": 3,
+            "sniper": 2
+          },
+          "location": [
+            5,
+            4
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "medic": 3
+          },
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "defender": 2,
+            "guard": 2
+          },
+          "location": [
+            4,
+            3
+          ],
+          "direction": "Left"
+        }
+      ],
+      "draw_as_possible": true,
+      "actions": [
+        {
+          "type": "二倍速"
+        },
+        {
+          "type": "Deploy",
+          "costs": 60,
+          "name": "可充能督战音响",
+          "location": [
+            7,
+            3
+          ],
+          "direction": "Left"
+        }
+      ],
+      "retry_times": 6
+    },
+    {
+      "stage_name": "伤悲的慢板",
+      "strategies": [
+        {
+          "tool_men": {
+            "vanguard": 1
+          },
+          "location": [
+            5,
+            2
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "caster": 1
+          },
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "vanguard": 1
+          },
+          "location": [
+            5,
+            4
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "sniper": 1
+          },
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "defender": 1,
+            "guard": 1
+          },
+          "location": [
+            5,
+            4
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "supporter": 2
+          },
+          "location": [
+            5,
+            5
+          ],
+          "direction": "Up"
+        },
+        {
+          "tool_men": {
+            "medic": 1
+          },
+          "location": [
+            8,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "core": "提丰",
+          "tool_men": {
+            "sniper": 2,
+            "caster": 1
+          },
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "medic": 1
+          },
+          "location": [
+            8,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "caster": 3,
+            "sniper": 2
+          },
+          "location": [
+            5,
+            5
+          ],
+          "direction": "Up"
+        },
+        {
+          "tool_men": {
+            "medic": 3
+          },
+          "location": [
+            8,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "defender": 2,
+            "guard": 2
+          },
+          "location": [
+            5,
+            2
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "defender": 2,
+            "guard": 2
+          },
+          "location": [
+            5,
+            4
+          ],
+          "direction": "Left"
+        }
+      ],
+      "draw_as_possible": true,
+      "actions": [
+        {
+          "type": "二倍速"
+        },
+        {
+          "type": "Deploy",
+          "costs": 60,
+          "name": "可充能督战音响",
+          "location": [
+            6,
+            2
+          ],
+          "direction": "Down"
+        }
+      ],
+      "retry_times": 6
+    },
+    {
+      "stage_name": "悲愁的小步舞曲",
+      "strategies": [
+        {
+          "tool_men": {
+            "vanguard": 1
+          },
+          "location": [
+            1,
+            1
+          ],
+          "direction": "Down"
+        },
+        {
+          "tool_men": {
+            "caster": 1
+          },
+          "location": [
+            6,
+            2
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "vanguard": 1
+          },
+          "location": [
+            7,
+            1
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "sniper": 1
+          },
+          "location": [
+            6,
+            2
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "defender": 1
+          },
+          "location": [
+            1,
+            4
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "supporter": 2
+          },
+          "location": [
+            2,
+            4
+          ],
+          "direction": "Right"
+        },
+        {
+          "core": "提丰",
+          "tool_men": {
+            "sniper": 1,
+            "caster": 1
+          },
+          "location": [
+            6,
+            2
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "medic": 1
+          },
+          "location": [
+            3,
+            2
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "defender": 1,
+            "guard": 1
+          },
+          "location": [
+            1,
+            1
+          ],
+          "direction": "Down"
+        },
+        {
+          "tool_men": {
+            "caster": 3,
+            "sniper": 2
+          },
+          "location": [
+            2,
+            4
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "medic": 3
+          },
+          "location": [
+            3,
+            2
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "defender": 2
+          },
+          "location": [
+            1,
+            4
+          ],
+          "direction": "Righ"
+        }
+      ],
+      "draw_as_possible": true,
+      "actions": [
+        {
+          "type": "二倍速"
+        },
+        {
+          "type": "Deploy",
+          "costs": 65,
+          "name": "可充能督战音响",
+          "location": [
+            6,
+            1
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 10,
+          "name": "战备激活阀",
+          "location": [
+            6,
+            1
+          ],
+          "direction": "Down"
+        }
+      ],
+      "retry_times": 6
+    },
+    {
+      "stage_name": "愁苦的行板",
+      "strategies": [
+        {
+          "tool_men": {
+            "vanguard": 1
+          },
+          "location": [
+            4,
+            4
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "vanguard": 1
+          },
+          "location": [
+            5,
+            4
+          ],
+          "direction": "Up"
+        },
+        {
+          "tool_men": {
+            "defender": 1,
+            "guard": 1
+          },
+          "location": [
+            5,
+            3
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "medic": 1
+          },
+          "location": [
+            4,
+            2
+          ],
+          "direction": "Down"
+        },
+        {
+          "tool_men": {
+            "caster": 1,
+            "sniper": 1
+          },
+          "location": [
+            3,
+            2
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "defender": 1,
+            "guard": 1
+          },
+          "location": [
+            5,
+            4
+          ],
+          "direction": "Up"
+        },
+        {
+          "tool_men": {
+            "supporter": 2
+          },
+          "location": [
+            5,
+            5
+          ],
+          "direction": "Left"
+        },
+        {
+          "core": "提丰",
+          "tool_men": {
+            "sniper": 1,
+            "caster": 1
+          },
+          "location": [
+            3,
+            2
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "medic": 1
+          },
+          "location": [
+            4,
+            2
+          ],
+          "direction": "Down"
+        },
+        {
+          "tool_men": {
+            "defender": 2
+          },
+          "location": [
+            5,
+            3
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "caster": 5,
+            "sniper": 2
+          },
+          "location": [
+            5,
+            5
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "medic": 5
+          },
+          "location": [
+            4,
+            2
+          ],
+          "direction": "Down"
+        },
+        {
+          "tool_men": {
+            "defender": 1,
+            "guard": 1
+          },
+          "location": [
+            4,
+            4
+          ],
+          "direction": "Right"
+        },
+        {
+          "tool_men": {
+            "defender": 5,
+            "guard": 5
+          },
+          "location": [
+            5,
+            4
+          ],
+          "direction": "Up"
+        }
+      ],
+      "draw_as_possible": true,
+      "actions": [
+        {
+          "type": "二倍速"
+        },
+        {
+          "type": "Deploy",
+          "costs": 55,
+          "name": "可充能督战音响",
+          "location": [
+            3,
+            1
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 10,
+          "name": "战备激活阀",
+          "location": [
+            3,
+            1
+          ],
+          "direction": "Down"
+        }
+      ],
+      "retry_times": 6
+    },
+    {
+      "stage_name": "苦痛的回旋曲",
+      "strategies": [
+        {
+          "tool_men": {
+            "vanguard": 2
+          },
+          "location": [
+            8,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "sniper": 1
+          },
+          "location": [
+            9,
+            4
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "medic": 1
+          },
+          "location": [
+            8,
+            2
+          ],
+          "direction": "Down"
+        },
+        {
+          "tool_men": {
+            "defender": 5,
+            "guard": 1
+          },
+          "location": [
+            9,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "supporter": 2
+          },
+          "location": [
+            7,
+            2
+          ],
+          "direction": "Down"
+        },
+        {
+          "core": "提丰",
+          "tool_men": {
+            "sniper": 1,
+            "caster": 2
+          },
+          "location": [
+            9,
+            4
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "medic": 1
+          },
+          "location": [
+            10,
+            4
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "defender": 1,
+            "guard": 3
+          },
+          "location": [
+            8,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "core": "澄闪",
+          "tool_men": {
+            "caster": 3,
+            "sniper": 2
+          },
+          "location": [
+            7,
+            2
+          ],
+          "direction": "Down"
+        },
+        {
+          "tool_men": {
+            "medic": 1
+          },
+          "location": [
+            8,
+            2
+          ],
+          "direction": "Down"
+        },
+        {
+          "tool_men": {
+            "guard": 5
+          },
+          "location": [
+            7,
+            3
+          ],
+          "direction": "Left"
+        },
+        {
+          "tool_men": {
+            "medic": 1
+          },
+          "location": [
+            10,
+            4
+          ],
+          "direction": "Left"
+        }
+      ],
+      "draw_as_possible": true,
+      "actions": [
+        {
+          "type": "二倍速"
+        },
+        {
+          "type": "Deploy",
+          "kills": 9,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 10,
+          "name": "啸叫音响",
+          "location": [
+            7,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 13,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "costs": 20,
+          "name": "可充能督战音响",
+          "location": [
+            9,
+            5
+          ],
+          "direction": "Up"
+        },
+        {
+          "type": "Deploy",
+          "kills": 15,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 17,
+          "name": "啸叫音响",
+          "location": [
+            7,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 20,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 23,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 26,
+          "name": "啸叫音响",
+          "location": [
+            7,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 29,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 33,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 35,
+          "name": "啸叫音响",
+          "location": [
+            7,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 37,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 39,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 41,
+          "name": "啸叫音响",
+          "location": [
+            7,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 43,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 45,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 47,
+          "name": "啸叫音响",
+          "location": [
+            7,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 49,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 51,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 53,
+          "name": "啸叫音响",
+          "location": [
+            7,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 55,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 57,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 59,
+          "name": "啸叫音响",
+          "location": [
+            7,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 61,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 63,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 65,
+          "name": "啸叫音响",
+          "location": [
+            7,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 10,
+          "name": "战备激活阀",
+          "location": [
+            10,
+            3
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 66,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            3
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 67,
+          "name": "啸叫音响",
+          "location": [
+            6,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "kills": 68,
+          "name": "啸叫音响",
+          "location": [
+            7,
+            4
+          ],
+          "direction": "Down"
+        },
+        {
+          "type": "Deploy",
+          "costs": 20,
+          "name": "可充能督战音响",
+          "location": [
+            9,
+            5
+          ],
+          "direction": "Up"
+        }
+      ],
+      "retry_times": 9
+    }
+  ]
+}
