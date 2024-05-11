@@ -1,0 +1,87 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-7（磨难） - 执行反制作战",
+        "details": "统计日期：2024-05-11\n好评率：99.8%  浏览量：28059\n来源：萨拉托加  ID：36703\nJSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业"
+    },
+    "groups": [
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

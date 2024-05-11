@@ -1,0 +1,72 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-12",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-14（磨难） - 高空拒阻行动",
+        "details": "统计日期：2024-05-11\n好评率：99.78%  浏览量：24633\n来源：萨拉托加  ID：36743\n原作者萧然Q JSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业\n【【慈悲灯塔】磨难险地14章主线全关卡 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1at421c7NY/?p=13&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_08-04",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第八章 怒号光明 - R8-4 - 火种，一触即灭",
+        "details": "统计日期：2024-05-11\n好评率：97.71%  浏览量：4349\n来源：Shigure  ID：21935\nBV1b341177PU 作者：祈星_Estrellayc"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

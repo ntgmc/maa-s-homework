@@ -1,0 +1,75 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_11-16",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十一章 淬火尘霾 - 11-18（磨难） - 非我所愿",
+        "details": "统计日期：2024-05-11\n好评率：93.23%  浏览量：3603\n来源：萨拉托加  ID：28618\n11-18磨难 2603\n【【淬火尘霾】明日方舟 主线第十一章 磨难环境 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1cG411J7Mu/?p=19&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

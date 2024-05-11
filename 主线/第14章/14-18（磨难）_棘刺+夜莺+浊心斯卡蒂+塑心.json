@@ -1,0 +1,192 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-16",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                9,
+                1
+            ],
+            "kills": 3
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                9,
+                5
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                7,
+                4
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                9,
+                1
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                7,
+                4
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                9,
+                1
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                7,
+                4
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-18（磨难） - 在炽燃间咆哮",
+        "details": "统计日期：2024-05-11\n好评率：92.81%  浏览量：5147\n来源：Dr_MO  ID：36759\n建议最后打boss四个桩子（核心增幅器）手点开技能\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

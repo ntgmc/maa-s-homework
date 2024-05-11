@@ -1,0 +1,119 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-17",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                3,
+                3
+            ],
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "华法琳",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 48
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 49
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 76
+        },
+        {
+            "type": "Retreat",
+            "name": "玛恩纳",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 84
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-19（磨难） - 晶簇之内",
+        "details": "统计日期：2024-05-11\n好评率：89.54%  浏览量：3065\n来源：Dr_MO  ID：36765\n第十四章 慈悲灯塔 - 14-19（磨难） - 晶簇之内"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "华法琳",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

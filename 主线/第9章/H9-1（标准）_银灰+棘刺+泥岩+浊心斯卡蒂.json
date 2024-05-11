@@ -1,0 +1,82 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "H9-1四人稳定乱杀",
+        "details": "统计日期：2024-05-11\n好评率：88.8%  浏览量：3104\n来源：一只摆烂的42  ID：22187\n原视频：https://www.bilibili.com/video/BV1WM4y137u3\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "hard_09-01",
+    "opers": [
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "kills": 1,
+            "name": "银灰"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "技能",
+            "kills": 78,
+            "name": "银灰"
+        }
+    ]
+}

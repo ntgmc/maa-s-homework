@@ -1,0 +1,140 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_10-12",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left",
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                8,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left",
+            "kills": 8,
+            "pre_delay": 0
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                8,
+                5
+            ],
+            "kills": 14
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left",
+            "kills": 14,
+            "pre_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                2
+            ],
+            "kills": 20,
+            "pre_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                8,
+                5
+            ],
+            "kills": 14
+        }
+    ],
+    "doc": {
+        "title": "第十章 破碎日冕 - 10-14（磨难） - 瞄准",
+        "details": "统计日期：2024-05-11\n好评率：84.29%  浏览量：2030\n来源：汐宝さん  ID：25428\n令单核，记得带个德克萨斯减费更稳定"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

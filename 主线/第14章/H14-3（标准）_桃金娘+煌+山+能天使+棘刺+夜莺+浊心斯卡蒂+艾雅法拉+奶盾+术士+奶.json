@@ -1,0 +1,428 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_14-03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "kills": 8
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "skill_usage": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "pre_delay": 1000,
+            "skill_usage": 1
+        },
+        {
+            "type": "Retreat",
+            "name": "奶",
+            "location": [
+                7,
+                5
+            ],
+            "costs": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "术士",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "costs": 25,
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "能天使",
+            "location": [
+                7,
+                1
+            ],
+            "cooling": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "幻影",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left",
+            "pre_delay": 75000
+        },
+        {
+            "type": "Retreat",
+            "name": "奶",
+            "location": [
+                8,
+                3
+            ],
+            "kills": 21
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Output",
+            "doc_color": "#d63384",
+            "doc": "建议手动轮流点灯"
+        },
+        {
+            "type": "Skill",
+            "name": "",
+            "location": [
+                9,
+                4
+            ],
+            "pre_delay": 4500
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                1
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                5
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                4
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                4
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                1
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                5
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                4
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                4
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                1
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                5
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                4
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                2
+            ],
+            "pre_delay": 3000
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - H14-3（标准） - 灯塔行动-3",
+        "details": "统计日期：2024-05-11\n好评率：89.74%  浏览量：1451\n来源：JYu0828  ID：37378\n2603 本作业极限最低练度，个别干员可能暴毙\nBOSS阶段手动轮流点灯即可\n夜莺必须开模组\n搬运自up主：夏和爱喝粥\n原视频：https://www.bilibili.com/video/BV1Fb421h7yg/"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "术士",
+            "opers": [
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

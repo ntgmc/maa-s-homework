@@ -1,0 +1,286 @@
+{
+    "id": "20313",
+    "copilot_id": 20313,
+    "stage_name": "tough_11-08",
+    "uploader": "Hobart",
+    "uploader_id": "63da286efb8943674a419ad7",
+    "views": 7,
+    "hot_score": 0.0,
+    "difficulty": 0,
+    "minimum_required": "v4.0.0",
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "华法琳",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": null,
+            "location": null,
+            "direction": "None",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "煌",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "棘刺",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "夜莺",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "华法琳",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "闪灵",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "塞雷娅",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "拉普兰德",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "SkillDaemon",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": null,
+            "location": null,
+            "direction": "None",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        }
+    ],
+    "doc": {
+        "title": "第十一章 淬火尘霾 - 11-9（磨难） - 以命换命",
+        "title_color": "Gray",
+        "details": "统计日期：2024-05-11\n好评率：95.41%  浏览量：4199\n来源：Hobart  ID：20313\n作业 tough_11-08",
+        "details_color": "Gray"
+    },
+    "first_upload_time": 1675996778537,
+    "upload_time": 1675996778537,
+    "content": null
+}

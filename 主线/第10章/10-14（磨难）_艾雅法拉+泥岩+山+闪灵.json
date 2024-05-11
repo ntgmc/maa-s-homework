@@ -1,0 +1,75 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_10-12",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十章 破碎日冕 - 10-14（磨难） - 瞄准",
+        "details": "统计日期：2024-05-11\n好评率：98.56%  浏览量：3055\n来源：萨拉托加  ID：28937\n10-14磨难 2603\n【【破碎日冕】明日方舟 主线第十章 磨难险境 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1GY411j72u/?p=16&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e UP萧然Q 萨拉托加搬运"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

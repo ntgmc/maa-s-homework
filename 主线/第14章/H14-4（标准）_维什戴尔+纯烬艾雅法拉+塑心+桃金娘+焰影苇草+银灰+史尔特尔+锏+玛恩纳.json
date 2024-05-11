@@ -1,0 +1,208 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_14-04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                2,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                1,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "skill_usage": 0
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 7
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "kills": 9
+        },
+        {
+            "type": "Deploy",
+            "name": "锏",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down",
+            "kills": 11
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "焰影苇草",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 1000,
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left",
+            "kills": 14
+        },
+        {
+            "type": "Skill",
+            "name": "焰影苇草"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "H14-4不稳定",
+        "details": "统计日期：2024-05-11\n好评率：86.41%  浏览量：3848\n来源：萨拉托加  ID：37337\n不稳定，如果使用可以多试几次，现在不耗理智\njson作者萨拉托加\n作业交流群群号216314927，有问题进群，作业站消息没提醒看不到"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "焰影苇草",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "锏",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

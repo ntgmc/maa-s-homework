@@ -1,0 +1,100 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_08-06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down",
+            "costs": 35
+        },
+        {
+            "type": "Deploy",
+            "name": "群奶",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "群奶",
+            "kills": 52
+        }
+    ],
+    "doc": {
+        "title": "第八章 怒号光明 - R8-6 - 战场，蔓延不止",
+        "details": "统计日期：2024-05-11\n好评率：96.71%  浏览量：3214\n来源：Chiho  ID：27245\nup:侬无言以对\nlink:【【明日方舟】R8-6突袭摆完挂机】 https://www.bilibili.com/video/BV1hb4y167Zs/?share_source=copy_web&vd_source=dcc7ddeba31e59bccd51d29a07ff1565\n精二60"
+    },
+    "groups": [
+        {
+            "name": "群奶",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

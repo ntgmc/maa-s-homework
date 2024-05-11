@@ -1,0 +1,83 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "11-18磨难四人",
+        "details": "统计日期：2024-05-11\n好评率：94.83%  浏览量：5797\n来源：一只摆烂的42  ID：20601\nhttps://www.bilibili.com/video/av388886641/"
+    },
+    "stage_name": "tough_11-16",
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

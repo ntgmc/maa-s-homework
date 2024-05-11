@@ -1,0 +1,191 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-18",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "先锋",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "kills": 1,
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "术师",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "守护者",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 13,
+            "doc_color": "#d63384",
+            "doc": "建议之后的LOGOS技能手动开启，好了就开"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 33,
+            "pre_delay": 15000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 49,
+            "pre_delay": 15000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 51,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Output",
+            "doc_color": "#d63384",
+            "doc": "如果觉得实用，请赏个好评吧~"
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-20（磨难） - 列王行迹",
+        "details": "统计日期：2024-05-11\n好评率：98.92%  浏览量：1147\n来源：Issuing2890  ID：36991\n萧然Q，https://www.bilibili.com/video/BV1at421c7NY?p=19"
+    },
+    "groups": [
+        {
+            "name": "守护者",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "术师",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "先锋",
+            "opers": [
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
