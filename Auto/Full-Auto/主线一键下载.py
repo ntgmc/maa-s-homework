@@ -42,8 +42,17 @@ max_level = {
     14: 19
 }
 max_hard_level = {
+    5: 4,
+    6: 4,
+    7: 4,
+    8: 4,
+    9: 6,
+    10: 3,
+    11: 4,
+    12: 4,
+    13: 4,
     14: 4
-}  # TODO：适配其他章节
+}
 
 
 def get_current_date():
@@ -145,8 +154,10 @@ def search(keyword):
                         write_to_file(file_path, content)
                         download_amount += 1
                 if not download_amount:
-                    score_threshold -= 5
-                    view_threshold -= 200
+                    if score_threshold > 50:
+                        score_threshold -= 5
+                    else:
+                        view_threshold -= 200
                     print(f"{keyword} 无符合条件的数据，降低阈值为{score_threshold}% {view_threshold}重试")
         else:
             print(f"{keyword} 无数据")
@@ -174,6 +185,8 @@ def bat_search():
         tough_stage_search(_stage)
     for _stage in main:
         main_stage_search(_stage)
+    for _stage in max_hard_level:
+        hard_stage_search(_stage)
 
 
 if not os.path.exists(f'./download/主线'):
@@ -181,6 +194,6 @@ if not os.path.exists(f'./download/主线'):
 for stage in all_stage:
     if not os.path.exists(f'./download/主线/第{stage}章'):
         os.makedirs(f'./download/主线/第{stage}章')
-# search("main_14-01")
-# bat_search()
-hard_stage_search(14)
+
+bat_search()
+# hard_stage_search(14)
