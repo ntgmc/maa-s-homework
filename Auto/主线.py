@@ -6,6 +6,9 @@ import zipfile
 source_folder_base = r"D:\GITHOME\maa\主线"
 destination_folder = r"D:\GITHOME\maa\主线\压缩包"
 
+if not os.path.exists(destination_folder):
+    os.makedirs(destination_folder)
+
 # 遍历需要压缩的文件夹并进行压缩
 for i in range(15):
     # 构造源文件夹和目标压缩包文件路径
@@ -32,4 +35,3 @@ with zipfile.ZipFile(destination_all_zip_path, 'w', zipfile.ZIP_DEFLATED) as zip
 destination_all_folder = r"D:\GITHOME\maa\【下载看这里】合集下载"
 shutil.move(destination_all_zip_path, os.path.join(destination_all_folder, "主线.zip"))
 
-input('程序执行完毕，请按任意键继续...')

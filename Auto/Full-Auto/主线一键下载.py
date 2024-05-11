@@ -11,17 +11,6 @@ download_view_threshold = 1000  # 浏览量阈值
 tough = [10, 11, 12, 13, 14]
 main = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 sub = [2, 3, 4, 5, 6, 7, 9]  # TODO: 增加sub适配
-# 设置剧情关 第二个数据为实际-1
-plot = {
-    6: [6, 12],
-    7: [1, 6],
-    9: [1, 7],
-    10: [1, 12],
-    11: [4, 9],
-    12: [1, 10],
-    13: [1, 8],
-    14: [1, 12]
-}
 # 设置最大关卡数
 max_level = {
     0: 11,
@@ -70,6 +59,26 @@ def pad_zero(i):
     return str(i).zfill(2)
 
 
+def build_dict(data, key: str):  # key为生成的字典的键
+    _dict = {}
+    for member in data:
+        _key = member[key]
+        if _key in _dict:
+            _dict[_key].append(member)
+        else:
+            _dict[_key] = [member]
+    return _dict
+
+
+def get_level_data():
+    url = 'https://prts.maa.plus/arknights/level'
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()['data']
+    else:
+        return []
+
+
 def calculate_percent(item):
     like = item.get('like', 0)
     dislike = item.get('dislike', 0)
@@ -80,44 +89,21 @@ def calculate_percent(item):
         return round(like / total * 100, 2)
 
 
-def find_position(lst, level):
-    for i, num in enumerate(lst):
-        if level < num:
-            return level + i
-    return level + len(lst)
+def get_level_name(stage_id):
+    return stage_dict.get(stage_id, [{}])[0].get('cat_three', '')
 
 
 def extract_info(text):  # TODO: 增加sub适配
-    pattern = r"(main|tough|hard)_([0-9]+)-([0-9]+)"
-    match = re.match(pattern, text)
+    match = re.search(r"(\d+)-", text)
     if match:
-        name = match.group(1)
-        _stage = int(match.group(2))
-        level = int(match.group(3))
-        return name, _stage, level
+        return int(match.group(1))
     else:
-        return None, None, None
-
-
-def generate_stage_name(stage_name):
-    name, _stage, level = extract_info(stage_name)
-    if name == 'hard':
-        prefix = 'H'
-        return f"{prefix}{_stage}-{level}", _stage
-    elif _stage in tough:
-        if name == 'main':
-            prefix = "标准"
-        elif name == 'tough':
-            prefix = "磨难"
-        else:
-            prefix = "剧情"
-    else:
-        prefix = ""
-    return f"{prefix}{_stage}-{find_position(plot.get(_stage, []), level)}", _stage
+        return None
 
 
 def generate_filename_mode3(data):
-    stage_name, _stage = generate_stage_name(data.get('stage_name', ''))
+    stage_name = get_level_name(data.get('stage_name', ''))
+    _stage = extract_info(stage_name)
     opers = data.get('opers', [])
     groups = data.get('groups', [])
     names_parts = ['+'.join(oper.get('name', '') for oper in opers),
@@ -127,7 +113,7 @@ def generate_filename_mode3(data):
 
 
 def search(keyword):
-    url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={keyword}&desc=true&orderBy=hot"
+    url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={keyword}&desc=true&orderBy=views"
     _headers = {
         "Origin": "https://prts.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
@@ -193,6 +179,5 @@ if not os.path.exists(f'./download/主线'):
 for stage in max_level:
     if not os.path.exists(f'./download/主线/第{stage}章'):
         os.makedirs(f'./download/主线/第{stage}章')
-
+stage_dict = build_dict(get_level_data(), 'stage_id')
 bat_search()
-# hard_stage_search(14)
