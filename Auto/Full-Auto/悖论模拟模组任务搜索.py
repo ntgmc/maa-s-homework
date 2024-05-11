@@ -232,7 +232,10 @@ def main_paradox():
                     future = executor.submit(search_paradox, keyword, stage_id, job_categories[job_now])
                     futures.append((index, future))
                 else:
-                    futures.append((index, executor.submit(lambda: ('no-paradox', keyword))))
+                    def create_no_paradox_task(_keyword):
+                        return lambda: ('no-paradox', _keyword)
+                    no_paradox_task = create_no_paradox_task(keyword)
+                    futures.append((index, executor.submit(no_paradox_task)))
             for index, future in futures:
                 result = future.result()
                 # 将结果和序号一起存储
