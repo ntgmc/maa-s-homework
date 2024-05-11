@@ -24,6 +24,38 @@ def write_to_file(file_path, content):
         json.dump(content, file, ensure_ascii=False, indent=4)
 
 
+def build_dict(data, key: str):  # key为生成的字典的键
+    _dict = {}
+    for member in data:
+        _key = member[key]
+        if _key in _dict:
+            _dict[_key].append(member)
+        else:
+            _dict[_key] = [member]
+    return _dict
+
+
+def built_paradox_dict(data):
+    _dict = {}
+    for member in data:
+        if member['cat_one'] == '悖论模拟':
+            _key = member['cat_three']
+            if _key in _dict:
+                _dict[_key].append(member)
+            else:
+                _dict[_key] = [member]
+    return _dict
+
+
+def get_level_data():
+    url = 'https://prts.maa.plus/arknights/level'
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()['data']
+    else:
+        return []
+
+
 def calculate_percent(item):
     like = item.get('like', 0)
     dislike = item.get('dislike', 0)
@@ -73,11 +105,8 @@ def check_file_exists2(name, stage, _id):  # 判断是否存在相同id但评分
             print(f"Removed {file_name}")
 
 
-def search_paradox(keyword, _job=None):  # TODO: 先使用levelKeyword=悖论模拟，搜索错误再改成document=悖论模拟
-    if keyword == "W":
-        print(f"成功搜索 {_job} - {keyword}")
-        return "W", 0, 0, "None", "None"
-    url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword=悖论模拟&document={keyword}&desc=true&orderBy=hot"
+def search_paradox(name, stage_id, _job=None):
+    url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage_id}&document=&desc=true&orderBy=views"
     _headers = {
         "Origin": "https://prts.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
@@ -105,24 +134,24 @@ def search_paradox(keyword, _job=None):  # TODO: 先使用levelKeyword=悖论模
 
                 # 只下载评分最高的三个项目
                 for percent, item in items_to_download[:3]:
-                    file_path = f"./download/悖论模拟/{_job}/{keyword} - {int(percent)} - {item['id']}.json"
+                    file_path = f"./download/悖论模拟/{_job}/{name} - {int(percent)} - {item['id']}.json"
                     if not os.path.exists(file_path):
-                        check_file_exists(_job, keyword, item['id'])
+                        check_file_exists(_job, name, item['id'])
                         content = json.loads(item['content'])
                         content['doc']['details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
                         write_to_file(file_path, content)
-            print(f"成功搜索 {_job} - {keyword}")
-            return keyword, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
+            print(f"成功搜索 {_job} - {name}")
+            return name, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
         else:
-            return keyword, 0, 0, "None", "None"
+            return name, 0, 0, "None", "None"
     else:
-        print(f"请求失败！ERR_CONNECTION_REFUSED in search({keyword})")
-        return keyword, 0, 0, "None", "None"
+        print(f"请求失败！ERR_CONNECTION_REFUSED in search({name})")
+        return name, 0, 0, "None", "None"
 
 
 def search_module(name, stage):
     global ids
-    url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage}&document={name}&desc=true&orderBy=hot"
+    url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage}&document={name}&desc=true&orderBy=views"
     _headers = {
         "Origin": "https://prts.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
@@ -185,6 +214,7 @@ def main_paradox():
     output_file_user = './paradox_user.txt'
     results = []
     job_now = -1
+    paradox_dict = built_paradox_dict(get_level_data())
     with open(keywords_file, 'r', encoding='utf-8') as f:
         with ThreadPoolExecutor() as executor:
             futures = []
@@ -197,8 +227,12 @@ def main_paradox():
                 if job_now + 1 < len(job_categories) and keyword == job_categories[job_now + 1]:
                     job_now += 1
                     continue
-                future = executor.submit(search_paradox, keyword, job_categories[job_now])
-                futures.append((index, future))
+                stage_id = paradox_dict.get(keyword, [{}])[0].get('stage_id')
+                if stage_id:
+                    future = executor.submit(search_paradox, keyword, stage_id, job_categories[job_now])
+                    futures.append((index, future))
+                else:
+                    futures.append((index, executor.submit(lambda: ('no-paradox', keyword))))
             for index, future in futures:
                 result = future.result()
                 # 将结果和序号一起存储
@@ -213,6 +247,10 @@ def main_paradox():
         if result[0] == 'empty_line':
             output_lines_develop.append('\n')
             output_lines_user.append('\n')
+        elif result[0] == 'no-paradox':
+            result_keyword = result[1]
+            output_lines_develop.append(f"{result_keyword}\t\t\n")
+            output_lines_user.append(f"{result_keyword}\t\t\n")
         else:
             result_keyword, id_count_develop, id_count_user, str_ids_develop, str_ids_user = result
             output_lines_develop.append(f"{result_keyword}\t{id_count_develop}\t{str_ids_develop}\n")
@@ -220,40 +258,6 @@ def main_paradox():
     with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w', encoding='utf-8') as output_user:
         output_develop.writelines(output_lines_develop)
         output_user.writelines(output_lines_user)
-    print("输出Paradox完成！")
-    headers = {
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0',
-    }
-    params = {
-        'title': '属性:悖论模拟对象',
-        'limit': '500',
-        'offset': '0',
-        'filter': '',
-    }
-    response = requests.get('https://prts.wiki/index.php', params=params, headers=headers)
-    # 提取HTML中的角色名
-    character_names = extract_character_names(response.text)
-    for file_name in ['paradox_develop.txt', 'paradox_user.txt']:
-        # 处理txt文件
-        with open(file_name, 'r', encoding='utf-8') as txt_file:
-            lines = txt_file.readlines()
-        # 处理每一行
-        output_lines = []
-        for line in lines:
-            # 如果是空行，保留空行并继续下一行的处理
-            if not line.strip():
-                output_lines.append(line)
-                continue
-            parts = line.split('\t')
-            name = parts[0]
-            if name in character_names:
-                output_lines.append(line)
-            else:
-                # 如果角色名不存在，将后面两个内容都变为"-"
-                output_lines.append(name + '\t-\t-\n')
-        # 写入处理后的内容到原来的txt文件中
-        with open(file_name, 'w', encoding='utf-8') as output_file:
-            output_file.writelines(output_lines)
     print("输出Paradox完成！")
 
 
