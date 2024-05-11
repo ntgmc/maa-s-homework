@@ -1,0 +1,288 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-19",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "先锋-执旗手",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗-群愈师",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "术师-中坚术师",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "重装-守护者",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫-无畏者",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫-解放者",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "近卫-无畏者",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 26,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Skill",
+            "name": "近卫-解放者",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 26
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-21（磨难） - 万千愿景",
+        "details": "统计日期：2024-05-11\n好评率：98.48%  浏览量：1076\n来源：备胎拯救方舟  ID：37087\n这关要求带阿米娅，目前maa只能自动编队术士阿米娅，如果你阿米娅不是术士maa无法自动编队，需要手动改阿米娅的职业或者手动带\n把特蕾西娅打至半血即可通关\nJSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业"
+    },
+    "groups": [
+        {
+            "name": "先锋-执旗手",
+            "opers": [
+                {
+                    "name": "桃金娘",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "极境",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "万顷",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "琴柳",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "近卫-无畏者",
+            "opers": [
+                {
+                    "name": "赫德雷",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "斯卡蒂",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "史尔特尔",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 3,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "近卫-解放者",
+            "opers": [
+                {
+                    "name": "银灰",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "耀骑士临光",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "锏",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "仇白",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "玛恩纳",
+                    "skill": 3,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "重装-守护者",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光"
+                }
+            ]
+        },
+        {
+            "name": "术师-中坚术师",
+            "opers": [
+                {
+                    "name": "刻俄柏",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "医疗-群愈师",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "山",
+            "opers": [
+                {
+                    "skill_times": 1,
+                    "name": "山",
+                    "skill": 2,
+                    "skill_usage": 2
+                }
+            ]
+        },
+        {
+            "name": "澄闪",
+            "opers": [
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "伊芙利特",
+            "opers": [
+                {
+                    "name": "伊芙利特",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "阿米娅",
+            "opers": [
+                {
+                    "name": "阿米娅",
+                    "skill": 3,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": []
+}

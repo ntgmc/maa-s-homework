@@ -1,0 +1,190 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_08-04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left",
+            "costs": 12
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                11,
+                3
+            ],
+            "direction": "Left",
+            "costs": 8,
+            "cost_changes": 8
+        },
+        {
+            "type": "Retreat",
+            "name": "玛恩纳",
+            "kills": 11
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Down",
+            "costs": 24
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Down",
+            "costs": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left",
+            "costs": 22
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left",
+            "costs": 16
+        },
+        {
+            "type": "Deploy",
+            "name": "流明",
+            "location": [
+                11,
+                4
+            ],
+            "direction": "Left",
+            "costs": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Left",
+            "costs": 22
+        },
+        {
+            "type": "Deploy",
+            "name": "林",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Left",
+            "costs": 24
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left",
+            "costs": 12
+        },
+        {
+            "type": "SkillDaemon"
+        },
+        {
+            "type": "Deploy",
+            "rear_delay": 130000,
+            "name": "塞雷娅",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "第八章 怒号光明 - H8-4 稳定摆完挂机",
+        "details": "统计日期：2024-05-11\n好评率：93.88%  浏览量：1551\n来源：Hantai可拘  ID：33170\nB站作者Lomarone 视频 BV11K421b72L 视频简介 参考练度:玛恩纳专三，煌专三，黍专三三级模组，塞雷娅专三一级模组，夜莺专三技能一级模组，奶羊七级技能，流明七级技能一级模组，红蒂专三，林不用技能。\n已测试通过 练度不够记得第一波火雨后把干员补回来即可 视频 BV1ax4y1k7dH"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "流明",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "林",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

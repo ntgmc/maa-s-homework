@@ -1,0 +1,67 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_12-15",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down",
+            "costs": 14
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down",
+            "costs": 22
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down",
+            "kills": 7,
+            "pre_delay": 4700
+        },
+        {
+            "type": "Output",
+            "doc_color": "DeepSkyBlue",
+            "doc": "摆完挂机，给个好评喵~"
+        }
+    ],
+    "doc": {
+        "title": "第十二章 惊霆无声 - 12-17（磨难） - 三人挂机",
+        "details": "统计日期：2024-05-11\n好评率：81.82%  浏览量：1081\n来源：Li.zip  ID：24347\nhttps://www.bilibili.com/video/av397150431\n磨难 摆完挂机\n参考视频练度\n能天使1级模组伤害测试通过，击杀稍慢蒂蒂有暴毙可能\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
