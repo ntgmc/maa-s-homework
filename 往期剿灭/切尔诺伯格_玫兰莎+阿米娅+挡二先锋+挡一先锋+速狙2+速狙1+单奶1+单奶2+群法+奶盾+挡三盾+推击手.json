@@ -1,0 +1,728 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "挡二先锋",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "挡一先锋",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "速狙1",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "群法",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "单奶1",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "推击手",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "单奶2",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "挡一先锋",
+            "location": [
+                4,
+                4
+            ],
+            "kills": 96,
+            "pre_delay": 1500
+        },
+        {
+            "type": "Retreat",
+            "name": "挡一先锋",
+            "location": [
+                4,
+                4
+            ],
+            "pre_delay": 3500
+        },
+        {
+            "type": "Deploy",
+            "name": "挡三盾",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "挡二先锋",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 300
+        },
+        {
+            "type": "Skill",
+            "name": "阿米娅",
+            "location": [
+                9,
+                3
+            ],
+            "kills": 335
+        },
+        {
+            "type": "Skill",
+            "name": "挡三盾",
+            "location": [
+                8,
+                4
+            ],
+            "kills": 346
+        },
+        {
+            "type": "Skill",
+            "name": "单奶1",
+            "location": [
+                8,
+                6
+            ]
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 350
+        },
+        {
+            "type": "Skill",
+            "name": "阿米娅",
+            "location": [
+                9,
+                3
+            ],
+            "kills": 350
+        },
+        {
+            "type": "Deploy",
+            "name": "速狙2",
+            "location": [
+                3,
+                2
+            ],
+            "kills": 352,
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "阿米娅",
+            "location": [
+                9,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "玫兰莎",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "kills": 372,
+            "name": "挡二先锋",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "速狙2",
+            "location": [
+                3,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "挡一先锋",
+            "location": [
+                7,
+                6
+            ],
+            "kills": 374,
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "挡三盾",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "单奶1",
+            "location": [
+                8,
+                6
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "群法",
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "挡一先锋",
+            "location": [
+                7,
+                6
+            ],
+            "pre_delay": 1500
+        },
+        {
+            "type": "Retreat",
+            "name": "挡一先锋",
+            "location": [
+                7,
+                6
+            ],
+            "pre_delay": 4500
+        },
+        {
+            "type": "Skill",
+            "name": "单奶1",
+            "location": [
+                8,
+                6
+            ],
+            "kills": 389
+        },
+        {
+            "type": "Skill",
+            "name": "群法",
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "挡三盾",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "玫兰莎",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "阿米娅",
+            "location": [
+                9,
+                3
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "玫兰莎",
+            "location": [
+                8,
+                3
+            ],
+            "kills": 395
+        },
+        {
+            "type": "Deploy",
+            "name": "挡二先锋",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "乌萨斯 - 切尔诺伯格 - 切尔诺伯格 [低配 无核 通用]",
+        "details": "统计日期：2024-05-12\n好评率：85.11%  浏览量：2283\n来源：无忧无虑啦  ID：26669\n参考视频：\"【【明日方舟】剿灭作战1 切尔诺伯格 400杀攻略 低练度低稀有无助战【小狼XF】】https://www.bilibili.com/video/BV1W4411a7Wf/\"\n注意！！推击手必须是“中等力度的推开”比如阿消，则一技能必须是4级，推击手所带技能必须是一技能回转块\n速狙和群法、单奶1最好是精一的，等级越高越好，剩下的至少也是没有精一满级的   [低配 无核 通用]\n玫兰莎精一满级的话，需要在打死往上面篮筐走的敌人打完之后手动撤退一下，其他时间可完全挂机。可根据自己需求更改。"
+    },
+    "groups": [
+        {
+            "name": "挡二先锋",
+            "opers": [
+                {
+                    "name": "德克萨斯",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "讯使",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "芬",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "青枳",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "清道夫",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "香草",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "凛冬",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "贾维",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "焰尾",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "挡一先锋",
+            "opers": [
+                {
+                    "name": "红豆",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "翎羽",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苇草",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "格拉尼",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "野鬃",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "速狙2",
+            "opers": [
+                {
+                    "name": "梅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "灰喉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "能天使",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "安德切尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "四月",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流星",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "速狙1",
+            "opers": [
+                {
+                    "name": "隐现",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "杰西卡",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "空弦",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "红云",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "单奶1",
+            "opers": [
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "图耶",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "亚叶",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "凯尔希",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "单奶2",
+            "opers": [
+                {
+                    "name": "蜜莓",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "桑葚",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "群法",
+            "opers": [
+                {
+                    "name": "炎熔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "寒檀",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "天火",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夕",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "莫斯提马",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "炎狱炎熔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "格雷伊",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "远山",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "卡缇",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "斑点",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "角峰",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "挡三盾",
+            "opers": [
+                {
+                    "name": "米格鲁",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "车尔尼",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "星熊",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "石棉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "雷蛇",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "推击手",
+            "opers": [
+                {
+                    "name": "阿消",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "食铁兽",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "温蒂",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "见行者",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "玫兰莎",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

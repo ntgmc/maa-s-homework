@@ -1,0 +1,251 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "sub_03-2-2",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down",
+            "costs": 10
+        },
+        {
+            "type": "Deploy",
+            "name": "讯使",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left",
+            "costs": 9
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Up",
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down",
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "杰西卡",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up",
+            "costs": 11
+        },
+        {
+            "type": "Retreat",
+            "name": "讯使",
+            "location": [
+                5,
+                5
+            ],
+            "costs": 9
+        },
+        {
+            "type": "Deploy",
+            "name": "翎羽",
+            "location": [
+                5,
+                5
+            ],
+            "costs": 9,
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "对空单体狙",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up",
+            "costs": 11
+        },
+        {
+            "type": "Deploy",
+            "name": "玫兰莎",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left",
+            "kills": 10,
+            "costs": 14
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up",
+            "costs": 19
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "location": [
+                4,
+                4
+            ],
+            "costs": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                4,
+                4
+            ],
+            "costs": 13,
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "玫兰莎",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 38,
+            "costs": 17
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 38,
+            "costs": 17,
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "翎羽",
+            "location": [
+                5,
+                5
+            ],
+            "kills": 39,
+            "costs": 17
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                5,
+                1
+            ],
+            "kills": 39,
+            "costs": 17,
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第三章 二次呼吸 - S3-4 - 侦察-2",
+        "details": "统计日期：2024-05-12\n好评率：80.0%  浏览量：217\n来源：東嶽的岳  ID：28232\n攻略来自UP: 小狼XF\nhttps://www.bilibili.com/video/BV1g4411V7b8\n\n改改自己用\n抄作业前请在演习尝试,能过不漏怪再抄"
+    },
+    "groups": [
+        {
+            "name": "对空单体狙",
+            "opers": [
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流星",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "杰西卡",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "讯使",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "翎羽",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "玫兰莎",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

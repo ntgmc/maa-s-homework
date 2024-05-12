@@ -1,0 +1,212 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_20",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "地面",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "地刺",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "高台",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "补输出（练度高可不带）",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Up",
+            "kills": 345
+        },
+        {
+            "type": "Skill",
+            "name": "补输出（练度高可不带）",
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "补输出（练度高可不带）",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Up",
+            "kills": 368
+        },
+        {
+            "type": "Skill",
+            "name": "补输出（练度高可不带）",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "炎国 - 千嶂边城 - 千嶂边城 单澄闪版",
+        "details": "统计日期：2024-05-12\n好评率：92.31%  浏览量：1013\n来源：半雨烟城  ID：31602\n修改于maa://31579，将小羊改为澄闪\n\n歌蒂最低只需要技能四级\n原作者柠檬味的小小猪 JSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业\n【【千嶂边城】8人10步纯老干员新剿灭摆完挂机 无提丰简单好抄 不过是小猪！】 https://www.bilibili.com/video/BV1dT4y1H7TG/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "地面",
+            "opers": [
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "号角",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "高台",
+            "opers": [
+                {
+                    "name": "伊芙利特",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "菲亚梅塔",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "地刺",
+            "opers": [
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "玛恩纳",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "补输出（练度高可不带）",
+            "opers": [
+                {
+                    "name": "史尔特尔",
+                    "skill": 3,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

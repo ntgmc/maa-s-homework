@@ -1,0 +1,244 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_18",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "向日葵",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "后方清场",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "提丰",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right",
+            "kills": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "号角",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "无敌位置",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 34,
+            "costs": 50
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "Lancet-2",
+            "location": [
+                1,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "萨尔贡 - “特制小水坑” - “特制小水坑”",
+        "details": "统计日期：2024-05-12\n好评率：100.0%  浏览量：1319\n来源：近水楼台  ID：27627\n参考练度精二60，摆完挂机"
+    },
+    "groups": [
+        {
+            "name": "向日葵",
+            "opers": [
+                {
+                    "name": "推进之王",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "讯使",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "后方清场",
+            "opers": [
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "无敌位置",
+            "opers": [
+                {
+                    "name": "阿消",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "伊芙利特",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "提丰",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "号角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "Lancet-2",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

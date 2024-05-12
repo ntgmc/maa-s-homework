@@ -1,0 +1,49 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "S9-2高配挂机",
+        "details": "统计日期：2024-05-12\n好评率：91.67%  浏览量：3705\n来源：一只摆烂的42  ID：22307\nUP：刻俄柏_\n原视频：https://www.bilibili.com/video/BV1Z14y177sE/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "sub_09-1-2",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "kills": 16,
+            "name": "泥岩",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

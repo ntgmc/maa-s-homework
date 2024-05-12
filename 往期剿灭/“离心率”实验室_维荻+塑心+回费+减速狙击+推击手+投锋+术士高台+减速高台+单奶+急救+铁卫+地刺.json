@@ -1,0 +1,389 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_22",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "投锋",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 500
+        },
+        {
+            "type": "Deploy",
+            "name": "回费",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "维荻",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "急救",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "减速高台",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "推击手",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "回费"
+        },
+        {
+            "type": "Deploy",
+            "name": "减速狙击",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "单奶",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "地刺",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "术士高台",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Output",
+            "kills": 62,
+            "doc_color": "Gray",
+            "doc": "第二阶段"
+        },
+        {
+            "type": "Retreat",
+            "name": "投锋",
+            "costs": 25
+        },
+        {
+            "type": "Deploy",
+            "name": "回费",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Output",
+            "kills": 350,
+            "doc_color": "Gray",
+            "doc": "第三阶段"
+        },
+        {
+            "type": "Retreat",
+            "name": "回费"
+        },
+        {
+            "type": "Deploy",
+            "name": "铁卫",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "塑心",
+            "pre_delay": 17000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "术士高台",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "减速高台",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "减速狙击",
+            "skill_usage": 1
+        },
+        {
+            "type": "Skill",
+            "name": "塑心",
+            "pre_delay": 50000
+        },
+        {
+            "type": "Retreat",
+            "name": "维荻",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "回费",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 390
+        },
+        {
+            "type": "Retreat",
+            "name": "减速狙击"
+        },
+        {
+            "type": "Deploy",
+            "name": "投锋",
+            "location": [
+                6,
+                5
+            ],
+            "kills": 395,
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "哥伦比亚 - “离心率”实验室 - “离心率”实验室 塑心单核",
+        "details": "统计日期：2024-05-12\n好评率：80.0%  浏览量：1048\n来源：木木天宁  ID：36594\nhttps://www.bilibili.com/video/BV1di42117Eg\n\n塑心带3技能，至少精二60级专三\n\n作业要求\n1. 地刺不接敌，伊桑带1技能，等级无要求\n2. 核心输出是塑心，次之是“减速高台”\n3. 术士输出卡达可以换其他的高质量单法\n4. 单奶是挂机奶，群奶范围小，不能选\n5. 推击手的技能至少4级，保证中等推力\n6. 维荻也不接敌，大概精一20级就行，技能4级以上。"
+    },
+    "groups": [
+        {
+            "name": "回费",
+            "opers": [
+                {
+                    "name": "芬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "讯使",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "减速狙击",
+            "opers": [
+                {
+                    "name": "梅"
+                },
+                {
+                    "name": "寒芒克洛丝"
+                }
+            ]
+        },
+        {
+            "name": "推击手",
+            "opers": [
+                {
+                    "name": "温蒂"
+                },
+                {
+                    "name": "阿消"
+                }
+            ]
+        },
+        {
+            "name": "投锋",
+            "opers": [
+                {
+                    "name": "桃金娘",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "极境",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "术士高台",
+            "opers": [
+                {
+                    "name": "卡达"
+                }
+            ]
+        },
+        {
+            "name": "减速高台",
+            "opers": [
+                {
+                    "name": "布丁"
+                },
+                {
+                    "name": "惊蛰"
+                },
+                {
+                    "name": "格雷伊",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "单奶",
+            "opers": [
+                {
+                    "name": "末药"
+                },
+                {
+                    "name": "嘉维尔"
+                },
+                {
+                    "name": "絮雨"
+                },
+                {
+                    "name": "桑葚"
+                },
+                {
+                    "name": "闪灵"
+                },
+                {
+                    "name": "流明"
+                },
+                {
+                    "name": "清流"
+                }
+            ]
+        },
+        {
+            "name": "急救",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "铁卫",
+            "opers": [
+                {
+                    "name": "年"
+                },
+                {
+                    "name": "星熊"
+                },
+                {
+                    "name": "蛇屠箱"
+                },
+                {
+                    "name": "泡泡"
+                },
+                {
+                    "name": "米格鲁"
+                }
+            ]
+        },
+        {
+            "name": "地刺",
+            "opers": [
+                {
+                    "name": "伊桑"
+                },
+                {
+                    "name": "狮蝎"
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维荻"
+        },
+        {
+            "name": "塑心",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

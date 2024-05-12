@@ -1,0 +1,280 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_15",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "先锋",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "kills": 3,
+            "name": "棘刺",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "kills": 14,
+            "name": "棘刺",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "指挥终端",
+            "location": [
+                8,
+                1
+            ],
+            "costs": 20,
+            "kills": 17
+        },
+        {
+            "type": "Skill",
+            "name": "指挥终端",
+            "location": [
+                9,
+                1
+            ],
+            "costs": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "菲亚梅塔",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "术士",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "指挥终端",
+            "location": [
+                2,
+                1
+            ],
+            "costs": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                11,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "指挥终端",
+            "location": [
+                3,
+                1
+            ],
+            "costs": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "幻影",
+            "kills": 160,
+            "location": [
+                2,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "先锋",
+            "pre_delay": 20000,
+            "skill_usage": 0
+        }
+    ],
+    "doc": {
+        "title": "龙门商业街 菲亚核 摆完挂机（不稳",
+        "details": "统计日期：2024-05-12\n好评率：87.5%  浏览量：1053\n来源：cenfusheng  ID：21346\n先锋生命值需要是全场最低，且先锋+塞+棘刺 结算天赋后的等效费用不超过50！\n请手动选择！！尽量选回费快的（指投降），太慢会翻车！！\n——\n小鬼卡比\n锂/fs"
+    },
+    "groups": [
+        {
+            "name": "术士",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夕",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "先锋",
+            "opers": [
+                {
+                    "name": "桃金娘",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "极境",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "琴柳",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "香草",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "焰尾",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "嵯峨",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "贾维",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "推进之王",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "凛冬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "清道夫",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "讯使",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "芬",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "菲亚梅塔",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

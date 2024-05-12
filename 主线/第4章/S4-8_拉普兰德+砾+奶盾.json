@@ -1,0 +1,70 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "sub_04-3-2",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left",
+            "kills": 31
+        }
+    ],
+    "doc": {
+        "title": "第四章 急性衰竭 - S4-8 - 狂怒-2",
+        "details": "统计日期：2024-05-12\n好评率：100.0%  浏览量：123\n来源：Chiho  ID：28148\n精二603"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "砾",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

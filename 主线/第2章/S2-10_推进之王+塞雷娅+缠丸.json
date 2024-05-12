@@ -1,0 +1,63 @@
+{
+    "minimum_required": "v4.0.0",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "推进之王",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "缠丸",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Output",
+            "doc_color": "#6f42c1",
+            "doc": "给个好评吧，亲~"
+        }
+    ],
+    "doc": {
+        "title": "缠丸模组摆完挂机-断竹插花作品",
+        "details": "统计日期：2024-05-12\n好评率：100.0%  浏览量：164\n来源：作业代传——有问题联系原作者  ID：20857\n侬无言以对模组任务摆完挂机合集:BV1wU4y177Qu\n3星通关主题曲S2-10；必须编入非助战缠丸并上场，且使用缠丸歼灭至少2个高阶术师\n筱竹聽雨"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "缠丸",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "stage_name": "sub_02-10"
+}

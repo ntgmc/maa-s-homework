@@ -1,0 +1,173 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_20",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "投锋",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "提丰",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "菲亚梅塔",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗",
+            "location": [
+                4,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "投锋",
+            "location": [
+                1,
+                2
+            ],
+            "costs": 99
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "炎国 - 千嶂边城 - 千嶂边城 - 新剿灭【ZC】",
+        "details": "统计日期：2024-05-12\n好评率：91.67%  浏览量：1797\n来源：小卡拉帕鲁灰🐖  ID：31582\nZC -【明日方舟】剿灭“千嶂边城”摆完挂机攻略！操作轻松+语音详解的愉悦攻略\n歌蒂精一1级、7级一技能即可\n平均练度精二42级专3，泥岩和提丰精二60级专3\nhttps://www.bilibili.com/video/BV1st4y1d7V7/?spm_id_from=333.1365.list.card_archive.click&vd_source=10857a8c905c104ca2eab27415c72ffc"
+    },
+    "groups": [
+        {
+            "name": "投锋",
+            "opers": [
+                {
+                    "name": "桃金娘",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "极境",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "琴柳",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "菲亚梅塔",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "skill_times": 2,
+            "name": "提丰",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

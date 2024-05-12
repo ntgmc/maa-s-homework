@@ -1,0 +1,240 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "投降先锋 一名",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "重岳",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "较高练盾或高抗盾一名",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "中等练盾 一名",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "指挥终端",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 15,
+            "doc": "15",
+            "doc_color": "DarkRed"
+        },
+        {
+            "type": "Deploy",
+            "name": "慕斯",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "重岳",
+            "skill_usage": 1
+        },
+        {
+            "type": "Skill",
+            "name": "指挥终端",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 40,
+            "doc": "40",
+            "doc_color": "DarkRed"
+        },
+        {
+            "type": "Deploy",
+            "name": "调香师",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "指挥终端",
+            "location": [
+                2,
+                1
+            ],
+            "kills": 50,
+            "doc": "50",
+            "doc_color": "DarkRed"
+        },
+        {
+            "type": "Deploy",
+            "name": "高练盾或高抗盾一名（压力位）",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 90,
+            "doc": "90",
+            "direction": "Right",
+            "doc_color": "DarkRed"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "重岳",
+            "skill_usage": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "投降先锋 一名",
+            "location": [
+                3,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 310,
+            "doc": "310",
+            "direction": "Right",
+            "doc_color": "DarkRed"
+        },
+        {
+            "type": "Output",
+            "doc_color": "#6f42c1",
+            "doc": "给个好评吧，亲~"
+        }
+    ],
+    "doc": {
+        "title": "潮没海滨双核",
+        "details": "统计日期：2024-05-12\n好评率：81.25%  浏览量：1141\n来源：老头环坐牢  ID：24953\n参考视频：福哥宅BV1BG4y1K7FR\n基于筱竹聽雨大佬的改良版 感谢大佬\n费用较为宽松、盾位要求并不严格，可看自身情况任意调整"
+    },
+    "groups": [
+        {
+            "name": "群奶 一名",
+            "opers": [
+                {
+                    "name": "调香师",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "高练盾或高抗盾一名（压力位）",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "投降先锋 一名",
+            "opers": [
+                {
+                    "name": "极境",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "桃金娘",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "较高练盾或高抗盾一名",
+            "opers": [
+                {
+                    "name": "蛇屠箱",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "中等练盾 一名",
+            "opers": [
+                {
+                    "name": "米格鲁",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "重岳",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "慕斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "提丰",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "kills": 12,
+            "name": "提丰"
+        },
+        {
+            "type": "Skill",
+            "kills": 30,
+            "name": "提丰"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "伊比利亚 - 积水潮窟 - 积水潮窟",
+        "details": "统计日期：2024-05-12\n好评率：96.43%  浏览量：1342\n来源：萨拉托加  ID：29598\n【【明日方舟】积水潮窟五人挂机】 https://www.bilibili.com/video/BV1eu411n7ea/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "提丰",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
