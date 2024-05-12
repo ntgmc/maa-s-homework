@@ -51,13 +51,8 @@ max_sub_level = {
 }
 # 设置空列表
 no_result = []
-
-
-def get_current_date():
-    return datetime.now().strftime('%Y-%m-%d')
-
-
-date = get_current_date()
+# 设置日期
+date = datetime.now().strftime('%Y-%m-%d')
 
 
 def write_to_file(file_path, content):
@@ -116,7 +111,7 @@ def get_level_name(stage_id):  # 通过stage_id获取关卡名称
     return stage_dict.get(stage_id, [{}])[0].get('cat_three', '')
 
 
-def get_stage_info(text):
+def get_stage_info(text):  # 返回第一个-前的整数
     match = re.search(r"(\d+)-", text)
     if match:
         return int(match.group(1))

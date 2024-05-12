@@ -7,16 +7,11 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 from module import extract_tr_contents
 
-
-def get_current_date():
-    return datetime.now().strftime('%Y-%m-%d')
-
-
 download_mode = True
 download_score_threshold = 50
 job_categories = ['先锋', '近卫', '重装', '狙击', '术士', '医疗', '辅助', '特种']
 ids = []
-date = get_current_date()
+date = datetime.now().strftime('%Y-%m-%d')
 
 
 def write_to_file(file_path, content):
@@ -67,7 +62,7 @@ def calculate_percent(item):
 
 
 def code_output(percent, _id, mode):
-    if mode == 1:
+    if mode == 1:  # Develop
         if percent <= 30:
             return f"***maa://{_id} ({percent})"
         elif percent <= 50:
@@ -76,7 +71,7 @@ def code_output(percent, _id, mode):
             return f"*maa://{_id} ({percent})"
         else:
             return f"maa://{_id} ({percent})"
-    else:
+    else:  # User
         if percent <= 30:
             return f"***maa://{_id}"
         elif percent <= 50:
