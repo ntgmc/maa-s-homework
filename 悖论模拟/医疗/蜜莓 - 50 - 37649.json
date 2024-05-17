@@ -1,0 +1,80 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_glider_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "蜜莓",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "空爆",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "蜜莓",
+            "kills": 17,
+            "rear_delay": 4000,
+            "doc_color": "Gray",
+            "doc": "蜜莓技能17杀后开，空爆18杀"
+        },
+        {
+            "type": "Skill",
+            "name": "空爆",
+            "kills": 18
+        },
+        {
+            "type": "Skill",
+            "name": "玫兰莎",
+            "location": [
+                2,
+                1
+            ],
+            "kills": 18
+        }
+    ],
+    "doc": {
+        "title": "医疗 - 蜜莓 - 紧急救护 - 悖论模拟",
+        "details": "统计日期：2024-05-17\n好评率：50.0%  浏览量：42\n来源：kmmumukl  ID：37649\nB站up主：焦炭_Coke\nhttps://www.bilibili.com/video/BV1dg411Y7XF/?spm_id_from=333.337.search-card.all.click&vd_source=a30f0454778fd102b26de739dc02c610\n无需专精\n弹幕有人说40级6级技能也可以，本人60级，无法测试。60时不稳定，多试几次可以过。\n蜜莓的悖论模拟与蜜莓练度有关，蜜莓练度越高应当越稳定"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "蜜莓",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "空爆",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

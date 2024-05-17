@@ -1,0 +1,67 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "下",
+            "name": "角峰"
+        },
+        {
+            "type": "部署",
+            "name": "嘉维尔",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "末药",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "kills": 8,
+            "name": "角峰",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "技能",
+            "kills": 34,
+            "name": "角峰",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "摆完挂机",
+            "kills": 40
+        }
+    ],
+    "stage_name": "mem_yak_1",
+    "doc": {
+        "title": "角峰悖论模拟",
+        "details": "统计日期：2024-05-17\n好评率：85.0%  浏览量：557\n来源：作业代传——有问题联系原作者  ID：22757\n作者：雪\n测试干员：角峰 精2 50级 2技能7级"
+    },
+    "opers": [
+        {
+            "name": "角峰"
+        }
+    ],
+    "minimum_required": "v4.0.0"
+}
