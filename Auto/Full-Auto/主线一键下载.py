@@ -3,6 +3,7 @@ import json
 import re
 from datetime import datetime
 import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # 设置阈值(好评率和浏览量)(不满足条件则降低阈值，但最低不低于50% 0)
 download_score_threshold = 80  # 好评率阈值
@@ -252,7 +253,28 @@ level_data = get_level_data()
 stage_dict = build_dict(level_data, 'stage_id')
 sub_dict = build_sub_dict(level_data)
 cat_one_dict = build_dict(level_data, 'cat_one')
-main_bat_search()
-camp_stage_search()
-resource_stage_search()
+now = datetime.now().timestamp()
+# 创建一个线程池
+with ThreadPoolExecutor(max_workers=10) as executor:
+    futures = []
+    # 添加任务到线程池
+    for stage in tough:
+        futures.append(executor.submit(tough_stage_search, stage))
+    for stage in main:
+        futures.append(executor.submit(main_stage_search, stage))
+    for stage in max_hard_level:
+        futures.append(executor.submit(hard_stage_search, stage))
+    for stage in max_sub_level:
+        futures.append(executor.submit(sub_stage_search, stage))
+    futures.append(executor.submit(camp_stage_search))
+    futures.append(executor.submit(resource_stage_search))
+
+    # 等待所有任务完成
+    for future in as_completed(futures):
+        try:
+            future.result()
+        except Exception as e:
+            print(f"Task generated an exception: {e}")
+last = datetime.now().timestamp()
+print(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
 print('No_result: ', no_result)
