@@ -9,9 +9,10 @@ jobs:
   download_and_push:
     runs-on: ubuntu-latest
     steps:
-      - name: 配置Git
+      - name: 配置 Git 允许长文件路径
         run: |
           git config --system core.longpaths true
+        shell: bash
       
       - name: 检出仓库
         uses: actions/checkout@v2
