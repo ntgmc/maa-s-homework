@@ -1,0 +1,39 @@
+name: 每日自动下载及推送
+
+on:
+  schedule:
+    - cron: '0 5 * * *'  # 每天的05:00 UTC运行
+
+jobs:
+  download_and_push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v2
+      
+      - name: 设置Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+      
+      - name: 运行 主线一键下载.py
+        run: python Auto/Full-Auto/主线一键下载.py
+      
+      - name: 运行 悖论模拟模组任务搜索.py
+        run: python Auto/Full-Auto/悖论模拟模组任务搜索.py
+      
+      - name: 配置 Git 用户信息
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+      
+      - name: 推送下载的文件到仓库
+        run: |
+          git add download/
+          git commit -m "自动更新下载文件夹"
+          git push
