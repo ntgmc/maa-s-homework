@@ -10,6 +10,7 @@ download_view_threshold = 1000  # 浏览量阈值
 # 设置stage_name
 tough = [10, 11, 12, 13, 14]
 main = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+resource_level = ["wk_toxic_5", "wk_armor_5", "wk_fly_5", "wk_kc_5", "wk_kc_6", "wk_melee_5", "wk_melee_6", "pro_a_1", "pro_a_2", "pro_b_1", "pro_b_2", "pro_c_1", "pro_c_2", "pro_d_1", "pro_d_2"]
 # 设置最大关卡数
 max_level = {
     0: 11,
@@ -53,6 +54,16 @@ max_sub_level = {
 no_result = []
 # 设置日期
 date = datetime.now().strftime('%Y-%m-%d')
+
+
+def makedir():
+    if not os.path.exists(f'./download/往期剿灭'):
+        os.makedirs(f'./download/往期剿灭')
+    if not os.path.exists(f'./download/资源关'):
+        os.makedirs(f'./download/资源关')
+    for stage in max_level:
+        if not os.path.exists(f'./download/主线/第{stage}章'):
+            os.makedirs(f'./download/主线/第{stage}章')
 
 
 def write_to_file(file_path, content):
@@ -143,6 +154,8 @@ def generate_filename(name, data, mode):
         return f'./download/主线/第{_stage}章/{stage_name}_{replace_special_char(names)}.json'
     elif mode == 2:
         return f'./download/往期剿灭/{stage_name}_{replace_special_char(names)}.json'
+    elif mode == 4:
+        return f'./download/资源关/{stage_name}_{replace_special_char(names)}.json'
     else:
         return f'./download/{stage_name}_{replace_special_char(names)}.json'
 
@@ -217,6 +230,12 @@ def camp_stage_search():
         search(f"camp_r_{pad_zero(level)}", 2)
 
 
+# TODO: 优化筛选逻辑
+def resource_stage_search():
+    for level in resource_level:
+        search(level, 4)
+
+
 def main_bat_search():
     for _stage in tough:
         tough_stage_search(_stage)
@@ -228,15 +247,12 @@ def main_bat_search():
         sub_stage_search(_stage)
 
 
-if not os.path.exists(f'./download/往期剿灭'):
-    os.makedirs(f'./download/往期剿灭')
-for stage in max_level:
-    if not os.path.exists(f'./download/主线/第{stage}章'):
-        os.makedirs(f'./download/主线/第{stage}章')
+makedir()
 level_data = get_level_data()
 stage_dict = build_dict(level_data, 'stage_id')
 sub_dict = build_sub_dict(level_data)
 cat_one_dict = build_dict(level_data, 'cat_one')
 main_bat_search()
 camp_stage_search()
+resource_stage_search()
 print('No_result: ', no_result)
