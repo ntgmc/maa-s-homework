@@ -62,9 +62,9 @@ def makedir():
         os.makedirs(f'./download/往期剿灭')
     if not os.path.exists(f'./download/资源关'):
         os.makedirs(f'./download/资源关')
-    for stage in max_level:
-        if not os.path.exists(f'./download/主线/第{stage}章'):
-            os.makedirs(f'./download/主线/第{stage}章')
+    for _stage in max_level:
+        if not os.path.exists(f'./download/主线/第{_stage}章'):
+            os.makedirs(f'./download/主线/第{_stage}章')
 
 
 def write_to_file(file_path, content):
@@ -235,17 +235,6 @@ def camp_stage_search():
 def resource_stage_search():
     for level in resource_level:
         search(level, 4)
-
-
-def main_bat_search():
-    for _stage in tough:
-        tough_stage_search(_stage)
-    for _stage in main:
-        main_stage_search(_stage)
-    for _stage in max_hard_level:
-        hard_stage_search(_stage)
-    for _stage in max_sub_level:
-        sub_stage_search(_stage)
 
 
 makedir()
