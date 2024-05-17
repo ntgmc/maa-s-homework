@@ -9,6 +9,10 @@ jobs:
   download_and_push:
     runs-on: ubuntu-latest
     steps:
+      - name: 配置Git
+        run: |
+          git config --system core.longpaths true
+      
       - name: 检出仓库
         uses: actions/checkout@v2
       
