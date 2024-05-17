@@ -3,6 +3,7 @@ name: 每日自动下载及推送
 on:
   schedule:
     - cron: '0 5 * * *'  # 每天的05:00 UTC运行
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   download_and_push:
