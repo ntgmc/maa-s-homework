@@ -39,6 +39,6 @@ jobs:
       
       - name: 推送下载的文件到仓库
         run: |
-          git add download/
+          git add .
           git commit -m "Auto update"
           git push
