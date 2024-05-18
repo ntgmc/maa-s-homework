@@ -153,7 +153,7 @@ def process_level(level, st):
 def searches(activity_list):
     st = configuration()
     print(f"保存目录：{st['path']}")
-    os.makedirs(st['path'])
+    os.makedirs(st['path'], exist_ok=True)
     now = time.time()
 
     with ThreadPoolExecutor(max_workers=10) as executor:
@@ -254,7 +254,7 @@ def mode1():
     os.system("cls")
     now = time.time()
     print(f'保存目录：{st["path"]}')
-    os.makedirs(st["path"])
+    os.makedirs(st["path"], exist_ok=True)
     data = search(keyword, st["order_by"])
     total = data["data"]["total"]
     print(f"搜索 {keyword} 共获得 {total} 个数据")

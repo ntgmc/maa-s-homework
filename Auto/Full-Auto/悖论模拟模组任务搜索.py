@@ -310,10 +310,8 @@ def main_module():
 
 if download_mode:
     for job in job_categories:
-        if not os.path.exists(f'./download/悖论模拟/{job}'):
-            os.makedirs(f'./download/悖论模拟/{job}')
-    if not os.path.exists(f'./download/模组任务'):
-        os.makedirs(f'./download/模组任务')
+        os.makedirs(f'./download/悖论模拟/{job}', exist_ok=True)
+    os.makedirs(f'./download/模组任务', exist_ok=True)
 # search("缪尔赛思", '先锋')
 main_paradox()
 main_module()

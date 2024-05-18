@@ -6,8 +6,7 @@ import zipfile
 source_folder_base = r"D:\GITHOME\maa\主线"
 destination_folder = r"D:\GITHOME\maa\主线\压缩包"
 
-if not os.path.exists(destination_folder):
-    os.makedirs(destination_folder)
+os.makedirs(destination_folder, exist_ok=True)
 
 # 遍历需要压缩的文件夹并进行压缩
 for i in range(15):

@@ -91,9 +91,7 @@ folders = [
 # 指定目标文件夹路径
 target_dir = r"D:\GITHOME\maa\【下载看这里】合集下载"
 
-# 创建目标文件夹
-if not os.path.exists(target_dir):
-    os.makedirs(target_dir)
+os.makedirs(target_dir, exist_ok=True)
 
 # 生成压缩文件名
 zip_file_name = "ALL-" + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + ".zip"

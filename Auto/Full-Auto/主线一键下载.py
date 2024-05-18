@@ -59,13 +59,10 @@ date = datetime.now().strftime('%Y-%m-%d')
 
 
 def makedir():
-    if not os.path.exists(f'./download/往期剿灭'):
-        os.makedirs(f'./download/往期剿灭')
-    if not os.path.exists(f'./download/资源关'):
-        os.makedirs(f'./download/资源关')
+    os.makedirs(f'./download/往期剿灭', exist_ok=True)
+    os.makedirs(f'./download/资源关', exist_ok=True)
     for _stage in max_level:
-        if not os.path.exists(f'./download/主线/第{_stage}章'):
-            os.makedirs(f'./download/主线/第{_stage}章')
+        os.makedirs(f'./download/主线/第{_stage}章', exist_ok=True)
 
 
 def write_to_file(file_path, content):
