@@ -2,6 +2,7 @@ import requests
 import json
 import time
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
@@ -26,28 +27,20 @@ def get_level_data():
     return response.json()['data'] if response.ok else []
 
 
-def build_dict(data, key: str):  # key为生成的字典的键
-    _dict = {}
+def build_dict(data):
+    complex_dict = {}
     for member in data:
-        _key = member[key]
-        if _key in _dict:
-            _dict[_key].append(member)
-        else:
-            _dict[_key] = [member]
-    return _dict
-
-
-def build_activity_dict(data):
-    _dict = {}
-    for member in data:
-        if member['cat_one'] != '活动关卡':  # 只处理活动关卡
-            continue
-        _key = member['cat_two']
-        if _key in _dict:
-            _dict[_key].append(member)
-        else:
-            _dict[_key] = [member]
-    return _dict
+        category = member['cat_one']  # 获取分类
+        key = member['cat_two']  # 获取子分类
+        # 确保每个主分类下有一个字典，用于存储子分类的列表
+        if category not in complex_dict:
+            complex_dict[category] = {}
+        # 确保子分类下有一个列表，用于存储成员的JSON对象
+        if key not in complex_dict[category]:
+            complex_dict[category][key] = []
+        # 将成员添加到对应的列表中
+        complex_dict[category][key].append(member)
+    return complex_dict
 
 
 def load_settings():
@@ -198,10 +191,10 @@ def configure_download_settings():
     order_by = get_input("设置排序方式（默认为3. 浏览量）：", 3, 1, 3)
     point = get_input("设置好评率限制(0-100)（为空不限制）：", 0, 0, 100)
     view = get_input("设置浏览量限制（大于你设置的值）（为空不限制）：", 0)
-    amount = get_input("设置下载数量(1-5)（为空默认为1）：", 1, 1, 5)
+    amount = get_input("设置下载数量(1-5)（为空默认为1）：", 1, 1, 10)
     operator = input("设置禁用干员（空格分隔）（为空不限制）：").split()
     print(f"设定值：{operator}")
-    uploader = input("设置只看作者（空格分隔）（为空不限制）：").split()
+    uploader = input("设置只看作业站作者（空格分隔）（为空不限制）：").split()
     print(f"设定值：{uploader}")
     return {
         'title': title,
@@ -228,7 +221,7 @@ def generate_filename_mode3(stage_name, data):
     names = replace_dir_char(names)
     if len(names) > 220:
         names = "文件名过长不予显示"
-    return f'{stage_name}_{names}.json'
+    return f'{stage_name}_{names}'
 
 
 def generate_filename(content, title, uploader, keyword):
@@ -276,16 +269,15 @@ def mode1():
 
 def input_level():
     print("1. 活动关卡")
-    # print("2. 主线关卡")
-    # print("3. 剿灭作战")
-    # print("4. 资源关卡")
-    # print("5. 全部")
+    print("2. 主题曲")
+    print("3. 剿灭作战")
+    print("4. 资源收集")
     print("b. 返回")
     choose = input("请选择要搜索的关卡类型：").replace(" ", "")
     if choose.isdigit() and 1 <= int(choose) <= 5:
-        if choose == "1":
-            activity = input_activity(activity_dict)
-            return searches(activity_dict[activity])
+        key = ["活动关卡", "主题曲", "剿灭作战", "资源收集"][int(choose) - 1]
+        activity = select_from_list(all_dict, key)
+        return searches(all_dict[key][activity])
     elif "b" in choose.lower():
         return menu()
     else:
@@ -293,17 +285,32 @@ def input_level():
         return input_level()
 
 
-def input_activity(_activity_dict):  # 返回活动关卡中文名
-    matching_keys = list(_activity_dict.keys())  # 初始匹配所有keys
+def extract_integer_from_stage_id(stage_id):
+    # 从 stage_id 中提取数字
+    match = re.search(r'_(\d+)-', stage_id)
+    if match:
+        return int(match.group(1))
+    return 0
+
+
+def select_from_list(_activity_dict, key_one):  # 返回二级中文名
+    if key_one == "主题曲":
+        stage_dict = {}
+        for stage_name, item in _activity_dict[key_one].items():
+            key = extract_integer_from_stage_id(item[0]['stage_id'])
+            stage_dict[key] = stage_name
+        matching_keys = [value for key, value in sorted(stage_dict.items())]
+    else:
+        matching_keys = list(_activity_dict[key_one].keys())  # 初始匹配所有keys
     while True:
-        print("请选择活动关卡：")
+        print("请选择关卡：")
         for i, key in enumerate(matching_keys):
-            print(f"{i + 1}. {key}")
-        user_input = input("请输入活动关卡名称或序号：").replace(" ", "")
+            print(f"{i}. {key}")
+        user_input = input("请输入关卡名称或序号：").replace(" ", "")
 
         # 如果用户输入是数字且在范围内，直接返回对应的活动关卡
-        if user_input.isdigit() and 1 <= int(user_input) <= len(matching_keys):
-            return matching_keys[int(user_input) - 1]
+        if user_input.isdigit() and 0 <= int(user_input) <= len(matching_keys):
+            return matching_keys[int(user_input)]
 
         # 更新匹配的keys列表
         new_matching_keys = [key for key in matching_keys if user_input.lower() in key.lower()]
@@ -316,8 +323,8 @@ def input_activity(_activity_dict):  # 返回活动关卡中文名
                 matching_keys = new_matching_keys
                 continue
 
-        elif "back" in user_input.lower():
-            return menu()
+        elif "b" in user_input.lower():
+            return input_level()
 
         else:
             print("未找到匹配项，请重新选择")
@@ -358,7 +365,7 @@ def menu():
         return True
 
 
-activity_dict = build_activity_dict(get_level_data())
+all_dict = build_dict(get_level_data())
 menu_result = False
 while not menu_result:
     menu_result = menu()
