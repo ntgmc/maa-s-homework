@@ -25,12 +25,11 @@ jobs:
       - name: 运行 主线一键下载.py
         run: |
           cd Auto/Full-Auto
-          python Auto/Full-Auto/主线一键下载.py
+          python 主线一键下载.py
       
       - name: 运行 悖论模拟模组任务搜索.py
         run: |
-          cd Auto/Full-Auto
-          python Auto/Full-Auto/悖论模拟模组任务搜索.py
+          python 悖论模拟模组任务搜索.py
       
       - name: 配置 Git 用户信息
         run: |
@@ -40,5 +39,5 @@ jobs:
       - name: 推送下载的文件到仓库
         run: |
           git add download/
-          git commit -m "自动更新下载文件夹"
+          git commit -m "Auto update"
           git push
