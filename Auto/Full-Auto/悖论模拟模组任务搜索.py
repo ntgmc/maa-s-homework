@@ -5,7 +5,6 @@ import os
 import glob
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
-from module import extract_tr_contents
 
 download_mode = True
 download_score_threshold = 50
@@ -200,6 +199,20 @@ def extract_character_names(html_content):
         _name = cell.find('a').text.strip()
         _character_names.add(_name)
     return _character_names
+
+
+def extract_tr_contents(html_content):
+    soup = BeautifulSoup(html_content, 'html.parser')
+    tr_contents = []
+
+    for tr in soup.find_all('tr'):
+        td_contents = [td.get_text().strip() for td in tr.find_all('td')]
+        if len(td_contents) == 3:  # 确保td_contents包含两个元素，即干员名和关卡
+            tr_contents.append((td_contents[0], td_contents[1], td_contents[2]))
+        else:
+            print(f"Warning: {td_contents}")
+
+    return tr_contents
 
 
 def main_paradox():
