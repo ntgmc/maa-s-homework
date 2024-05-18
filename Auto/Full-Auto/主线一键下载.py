@@ -11,7 +11,8 @@ download_view_threshold = 1000  # 浏览量阈值
 # 设置stage_name
 tough = [10, 11, 12, 13, 14]
 main = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-resource_level = ["wk_toxic_5", "wk_armor_5", "wk_fly_5", "wk_kc_5", "wk_kc_6", "wk_melee_5", "wk_melee_6", "pro_a_1", "pro_a_2", "pro_b_1", "pro_b_2", "pro_c_1", "pro_c_2", "pro_d_1", "pro_d_2"]
+resource_level = ["wk_toxic_5", "wk_armor_5", "wk_fly_5", "wk_kc_5", "wk_kc_6", "wk_melee_5", "wk_melee_6", "pro_a_1",
+                  "pro_a_2", "pro_b_1", "pro_b_2", "pro_c_1", "pro_c_2", "pro_d_1", "pro_d_2"]
 # 设置最大关卡数
 max_level = {
     0: 11,
@@ -151,14 +152,18 @@ def generate_filename(name, data, mode):
     names_parts = ['+'.join(oper.get('name', '') for oper in opers),
                    '+'.join(group.get('name', '') for group in groups)]
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
+    names = replace_special_char(names)
+    if len(names) > 220:
+        names = "文件名过长不予显示"
     if mode == 1 or mode == 3:
-        return f'./download/主线/第{_stage}章/{stage_name}_{replace_special_char(names)}.json'
+        file_path = f'./download/主线/第{_stage}章/{stage_name}_{names}.json'
     elif mode == 2:
-        return f'./download/往期剿灭/{stage_name}_{replace_special_char(names)}.json'
+        file_path = f'./download/往期剿灭/{stage_name}_{names}.json'
     elif mode == 4:
-        return f'./download/资源关/{stage_name}_{replace_special_char(names)}.json'
+        file_path = f'./download/资源关/{stage_name}_{names}.json'
     else:
-        return f'./download/{stage_name}_{replace_special_char(names)}.json'
+        file_path = f'./download/{stage_name}_{names}.json'
+    return file_path
 
 
 def search(keyword, mode=1):
@@ -184,7 +189,9 @@ def search(keyword, mode=1):
                     if percent >= score_threshold and view >= view_threshold:
                         content = json.loads(item['content'])
                         file_path = generate_filename(keyword, content, mode)
-                        content['doc']['details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
+                        content['doc'][
+                            'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
+                                         content['doc']['details']
                         print(f"{file_path} {percent}% {view} 成功下载")
                         write_to_file(file_path, content)
                         download_amount += 1

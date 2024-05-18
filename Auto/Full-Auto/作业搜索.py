@@ -250,7 +250,10 @@ def generate_filename_mode3(stage_name, data):
     names_parts = ['+'.join(oper.get('name', '') for oper in opers),
                    '+'.join(group.get('name', '') for group in groups)]
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
-    return f'{stage_name}_{replace_special_char(names)}.json'
+    names = replace_special_char(names)
+    if len(names) > 220:
+        names = "文件名过长不予显示"
+    return f'{stage_name}_{names}.json'
 
 
 def generate_filename(content, title, uploader, keyword):
