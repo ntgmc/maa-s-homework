@@ -1,0 +1,246 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_kc_5",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "香草",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "翎羽",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "史都华德",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "月见夜",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "群奶",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "香草",
+            "location": [
+                5,
+                4
+            ],
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 16
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "月见夜",
+            "location": [
+                3,
+                3
+            ],
+            "costs": 29,
+            "kills": 77
+        },
+        {
+            "type": "Deploy",
+            "name": "炎熔",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "翎羽",
+            "location": [
+                3,
+                4
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "史都华德",
+            "location": [
+                3,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "香草",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "LS-5自用",
+        "details": "统计日期：2024-05-18\n好评率：60.0%  浏览量：415\n来源：小陈小陈天天吃尘  ID：32889\n攻略来自UP主: Recorder桃子\nhttps://www.bilibili.com/video/BV1144y1V7So"
+    },
+    "groups": [
+        {
+            "name": "群奶",
+            "opers": [
+                {
+                    "name": "调香师",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "翎羽",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "香草",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "月见夜",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "史都华德",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "炎熔",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

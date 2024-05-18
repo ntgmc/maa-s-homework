@@ -1,32 +1,6 @@
 {
-    "minimum_required": "v4.0",
-    "doc": {
-        "title": "战术演习 - LS-6 - 运动战演习",
-        "details": "BV11L411D7uR\nup：星枫染榭泓\n视频练度：2603，令2级Y模组\n已测试"
-    },
+    "minimum_required": "v4.0.0",
     "stage_name": "wk_kc_6",
-    "opers": [
-        {
-            "name": "令",
-            "skill": 3,
-            "skill_usage": 0
-        },
-        {
-            "name": "能天使",
-            "skill": 3,
-            "skill_usage": 0
-        },
-        {
-            "name": "桃金娘",
-            "skill": 1,
-            "skill_usage": 1
-        },
-        {
-            "name": "伊芙利特",
-            "skill": 2,
-            "skill_usage": 0
-        }
-    ],
     "actions": [
         {
             "type": "Deploy",
@@ -119,16 +93,42 @@
             "direction": "Right"
         },
         {
-            "type": "SpeedUp",
-            "name": ""
+            "type": "SpeedUp"
         },
         {
             "type": "SkillUsage",
-            "name": "令"
+            "name": "令",
+            "skill_usage": 1
         },
         {
-            "type": "SkillDaemon",
-            "name": ""
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "战术演习 - LS-6 - 运动战演习",
+        "details": "统计日期：2024-05-18\n好评率：92.86%  浏览量：1834\n来源：_ 蘿卜卜  ID：22526\nBV11L411D7uR\nup：星枫染榭泓\n视频练度：2603，令2级Y模组\n已测试"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
         }
     ]
 }

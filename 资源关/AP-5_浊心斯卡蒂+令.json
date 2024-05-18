@@ -3,6 +3,9 @@
     "stage_name": "wk_toxic_5",
     "actions": [
         {
+            "type": "SpeedUp"
+        },
+        {
             "type": "Deploy",
             "name": "令",
             "location": [
@@ -18,10 +21,7 @@
                 6,
                 4
             ],
-            "direction": "Right"
-        },
-        {
-            "type": "SpeedUp"
+            "direction": "Left"
         },
         {
             "type": "Deploy",
@@ -61,7 +61,6 @@
         },
         {
             "type": "Retreat",
-            "name": "“弦惊”",
             "location": [
                 5,
                 5
@@ -76,11 +75,6 @@
                 6
             ],
             "direction": "Up"
-        },
-        {
-            "type": "SkillUsage",
-            "name": "令",
-            "skill_usage": 1
         },
         {
             "type": "Retreat",
@@ -107,8 +101,18 @@
                 7,
                 5
             ],
-            "direction": "None",
-            "cost_changes": 12
+            "kills": 33,
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                6,
+                2
+            ],
+            "kills": 35,
+            "pre_delay": 0
         },
         {
             "type": "Retreat",
@@ -127,25 +131,22 @@
                 1
             ],
             "direction": "Left"
-        },
-        {
-            "type": "SkillDaemon"
         }
     ],
     "doc": {
-        "title": "AP-5 红票本 采购凭证本 浊蒂令双人107s信赖速刷",
-        "details": "统计日期：2024-05-18\n好评率：88.64%  浏览量：3264\n来源：鱼丸不是鱼van  ID：20804\n攻略作者：化学老施  BV1B3411L7XM  思路：清风徐来\n自动战斗作者：鱼丸 有问题请联系qq2877734958 \nmaa问题就别联系了 臭写作业的搞不懂maa（）\n练度：浊蒂2603 令2303 令无需模组\n已通过测试 测试人鱼丸"
+        "title": "粉碎防御 - AP-5 - 精炼工厂保全",
+        "details": "统计日期：2024-05-18\n好评率：88.56%  浏览量：8600\n来源：白夜Hakuyo  ID：21342\n攻略作者：化学老施 BV1B3411L7XM\n自动战斗作者：白夜\n平均练度：2603 不带模组\n可刷信赖, 令, 浊心斯卡蒂双人作业\n已过测试, 不带模组, 带模组均可"
     },
     "groups": [],
     "opers": [
         {
-            "name": "令",
-            "skill": 3,
+            "name": "浊心斯卡蒂",
+            "skill": 2,
             "skill_usage": 0
         },
         {
-            "name": "浊心斯卡蒂",
-            "skill": 2,
+            "name": "令",
+            "skill": 3,
             "skill_usage": 0
         }
     ]

@@ -1,0 +1,45 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_a_1",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "pre_delay": 200
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "固若金汤 - PR-A-1 - 防守",
+        "details": "统计日期：2024-05-18\n好评率：91.3%  浏览量：739\n来源：xf22cn@qq.com  ID：21264\n侬无言以对 https://www.bilibili.com/video/BV1RR4y1E7dF/\n煌 90级2技能7级  塞雷娅  90级1技能7级"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_fly_5",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "焰影苇草",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right",
+            "costs": 44
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                4
+            ],
+            "costs": 36
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up",
+            "costs": 38
+        },
+        {
+            "type": "Skill",
+            "name": "焰影苇草",
+            "location": [
+                7,
+                4
+            ],
+            "costs": 95
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 44
+        },
+        {
+            "type": "Skill",
+            "name": "焰影苇草",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 46
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 48
+        }
+    ],
+    "doc": {
+        "title": "空中威胁 - CA-5 - 战略要道净空 可刷信赖",
+        "details": "统计日期：2024-05-18\n好评率：75.86%  浏览量：825\n来源：hdkk  ID：27021\n化学老施\nBV1Pe4y1c7bc\n可能会受苇草潜能影响\n自用（苇草0潜专三80级 能天使满潜满练）"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "焰影苇草",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

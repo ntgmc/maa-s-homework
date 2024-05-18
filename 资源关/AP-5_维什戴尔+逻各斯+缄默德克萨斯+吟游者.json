@@ -1,0 +1,90 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_toxic_5",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "吟游者",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 34
+        },
+        {
+            "type": "Deploy",
+            "name": "缄默德克萨斯",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "粉碎防御 - AP-5 - 精炼工厂保全 自用速刷",
+        "details": "统计日期：2024-05-18\n好评率：100.0%  浏览量：1328\n来源：萨拉托加  ID：37072\n自用速刷\n【【明日方舟】AP-5 慈悲灯塔当期三人五步最速刷红票】 https://www.bilibili.com/video/BV1Vi421y7GD/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "吟游者",
+            "opers": [
+                {
+                    "name": "浊心斯卡蒂",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "缄默德克萨斯",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

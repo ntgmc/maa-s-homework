@@ -1,0 +1,98 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_melee_5",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "羽毛笔",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "讯使",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "炎熔",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "白雪",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "货物运送 - CE-5 - 机密情报押运(自)",
+        "details": "统计日期：2024-05-18\n好评率：100.0%  浏览量：24\n来源：luka  ID：37517\n参考\n【【明日方舟】CE-5 羽毛笔单核  简单好抄 绝对低练 摆完挂机】 https://www.bilibili.com/video/BV1n5411m7s3/?share_source=copy_web&vd_source=15e04e76ced7dd62d3b84a6a68f586b2"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "羽毛笔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "讯使",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "白雪",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "炎熔"
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

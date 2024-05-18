@@ -1,30 +1,14 @@
 {
-    "minimum_required": "v4.0",
-    "doc": {
-        "title": "势不可挡 - PR-C-2 - 冲锋",
-        "details": "空音无意 先锋辅助芯片2 https://www.bilibili.com/video/BV1yK4y1S7Yq/\n艾雅法拉2技能，能天使3技能\n建议练度：90级技能专三"
-    },
+    "minimum_required": "v4.0.0",
     "stage_name": "pro_c_2",
-    "opers": [
-        {
-            "name": "艾雅法拉",
-            "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "能天使",
-            "skill": 3,
-            "skill_usage": 0
-        }
-    ],
     "actions": [
         {
             "type": "SpeedUp",
-            "name": "",
             "pre_delay": 100
         },
         {
             "type": "Deploy",
+            "costs": 21,
             "name": "艾雅法拉",
             "location": [
                 4,
@@ -39,7 +23,25 @@
                 4,
                 2
             ],
-            "direction": "Down"
+            "direction": "Down",
+            "costs": 16
+        }
+    ],
+    "doc": {
+        "title": "势不可挡 - PR-C-2 - 冲锋",
+        "details": "统计日期：2024-05-18\n好评率：96.55%  浏览量：1147\n来源：xf22cn@qq.com  ID：21152\n空音无意 先锋辅助芯片2 https://www.bilibili.com/video/BV1yK4y1S7Yq/\n艾雅法拉2技能，能天使3技能\n建议练度：90级技能专三"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
         }
     ]
 }

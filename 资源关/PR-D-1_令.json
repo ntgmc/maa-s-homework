@@ -1,79 +1,76 @@
 {
-  "minimum_required": "v4.0.0",
-  "stage_name": "pro_d_1",
-  "actions": [
-    {
-      "type": "SpeedUp"
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_d_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right",
+            "costs": 30
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right",
+            "costs": 42
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 2,
+            "kills": 36
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 2,
+            "kills": 68
+        }
+    ],
+    "doc": {
+        "title": "【明日方舟】令单人PR-D-1信赖速刷，低等级需模组，无需专精",
+        "details": "统计日期：2024-05-18\n好评率：83.33%  浏览量：1618\n来源：einal  ID：21149\n作者：夏之婿\n【明日方舟】令单人PR-D-1信赖速刷，低等级需模组，无需专精\nhttps://www.bilibili.com/video/BV1Zr4y1H7Wv/?spm_id_from=333.337.search-card.all.click&vd_source=1d9f937cf839eebf2c2a69fa764c3a7c\n十分简单的一张图，没有技术含量，令等级不够可能会漏怪\n不要带影响费用的角色\n有问题私信B站号：河蟹Ein-albtraum "
     },
-    {
-      "type": "Deploy",
-      "name": "令",
-      "location": [
-        2,
-        3
-      ],
-      "direction": "Down"
-    },
-    {
-      "type": "SkillUsage",
-      "name": "令",
-      "skill_usage": 1
-    },
-    {
-      "type": "Deploy",
-      "name": "“弦惊”",
-      "location": [
-        9,
-        6
-      ],
-      "direction": "Left"
-    },
-    {
-      "type": "Deploy",
-      "name": "“弦惊”",
-      "location": [
-        4,
-        4
-      ],
-      "direction": "Right",
-      "costs": 24
-    },
-    {
-      "type": "Deploy",
-      "name": "“弦惊”",
-      "location": [
-        3,
-        6
-      ],
-      "direction": "Right",
-      "costs": 27
-    },
-    {
-      "type": "SkillUsage",
-      "name": "令",
-      "skill_usage": 2,
-      "kills": 36
-    },
-    {
-      "type": "SkillUsage",
-      "name": "令",
-      "skill_usage": 2,
-      "kills": 68
-    },
-    {
-      "type": "SkillDaemon"
-    }
-  ],
-  "doc": {
-    "title": "【明日方舟】令单人PR-D-1信赖速刷，低等级需模组，无需专精",
-    "details": "【明日方舟】令单人PR-D-1信赖速刷，低等级需模组，无需专精"
-  },
-  "groups": [],
-  "opers": [
-    {
-      "name": "令",
-      "skill": 3,
-      "skill_usage": 1
-    }
-  ]
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
 }
