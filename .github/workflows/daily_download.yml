@@ -9,11 +9,6 @@ jobs:
   download_and_push:
     runs-on: ubuntu-latest
     steps:
-      - name: 配置 Git 允许长文件路径
-        run: |
-          git config --global core.longpaths true
-        shell: bash
-      
       - name: 检出仓库
         uses: actions/checkout@v2
       
@@ -28,10 +23,14 @@ jobs:
           pip install requests beautifulsoup4
       
       - name: 运行 主线一键下载.py
-        run: python Auto/Full-Auto/主线一键下载.py
+        run: |
+          cd Auto/Full-Auto
+          python 主线一键下载.py
       
       - name: 运行 悖论模拟模组任务搜索.py
-        run: python Auto/Full-Auto/悖论模拟模组任务搜索.py
+        run: |
+          cd Auto/Full-Auto
+          python 悖论模拟模组任务搜索.py
       
       - name: 配置 Git 用户信息
         run: |
@@ -40,6 +39,6 @@ jobs:
       
       - name: 推送下载的文件到仓库
         run: |
-          git add download/
-          git commit -m "自动更新下载文件夹"
+          git add .
+          git commit -m "Auto update"
           git push
