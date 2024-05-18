@@ -99,22 +99,13 @@ def build_sub_dict(data):  # key为章节整数
 
 
 def get_level_data():
-    url = 'https://prts.maa.plus/arknights/level'
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.json()['data']
-    else:
-        return []
+    response = requests.get('https://prts.maa.plus/arknights/level')
+    return response.json()['data'] if response.ok else []
 
 
 def calculate_percent(item):
-    like = item.get('like', 0)
-    dislike = item.get('dislike', 0)
-    total = like + dislike
-    if total == 0:
-        return 0
-    else:
-        return round(like / total * 100, 2)
+    like, dislike = item.get('like', 0), item.get('dislike', 0)
+    return round(like / (like + dislike) * 100, 2) if like + dislike > 0 else 0
 
 
 def get_level_name(stage_id):  # 通过stage_id获取关卡名称

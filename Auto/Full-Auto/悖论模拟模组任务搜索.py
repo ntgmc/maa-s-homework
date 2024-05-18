@@ -18,17 +18,6 @@ def write_to_file(file_path, content):
         json.dump(content, file, ensure_ascii=False, indent=4)
 
 
-def build_dict(data, key: str):  # key为生成的字典的键
-    _dict = {}
-    for member in data:
-        _key = member[key]
-        if _key in _dict:
-            _dict[_key].append(member)
-        else:
-            _dict[_key] = [member]
-    return _dict
-
-
 def built_paradox_dict(data):
     _dict = {}
     for member in data:
@@ -42,22 +31,13 @@ def built_paradox_dict(data):
 
 
 def get_level_data():
-    url = 'https://prts.maa.plus/arknights/level'
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.json()['data']
-    else:
-        return []
+    response = requests.get('https://prts.maa.plus/arknights/level')
+    return response.json()['data'] if response.ok else []
 
 
 def calculate_percent(item):
-    like = item.get('like', 0)
-    dislike = item.get('dislike', 0)
-    total = like + dislike
-    if total == 0:
-        return 0
-    else:
-        return round(like / total * 100, 2)
+    like, dislike = item.get('like', 0), item.get('dislike', 0)
+    return round(like / (like + dislike) * 100, 2) if like + dislike > 0 else 0
 
 
 def code_output(percent, _id, mode):
@@ -150,7 +130,6 @@ def search_module(name, stage):
         "Origin": "https://prts.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
-
     _response = requests.get(url, headers=_headers)
     if _response.status_code == 200:
         data = _response.json()
@@ -188,17 +167,6 @@ def search_module(name, stage):
     else:
         print(f"请求失败！ERR_CONNECTION_REFUSED in search({name} - {stage})")
         return name, stage, 0, 0, "None", "None"
-
-
-# 解析HTML并提取角色名
-def extract_character_names(html_content):
-    _character_names = set()
-    soup = BeautifulSoup(html_content, 'html.parser')
-    prop_cells = soup.find_all('div', class_='smw-table-cell smwprops')
-    for cell in prop_cells:
-        _name = cell.find('a').text.strip()
-        _character_names.add(_name)
-    return _character_names
 
 
 def extract_tr_contents(html_content):
