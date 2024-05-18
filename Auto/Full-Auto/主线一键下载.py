@@ -11,7 +11,7 @@ download_view_threshold = 1000  # 浏览量阈值
 # 设置stage_name
 tough = [10, 11, 12, 13, 14]
 main = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-resource_level = ["wk_toxic_5", "wk_armor_5", "wk_fly_5", "wk_kc_5", "wk_kc_6", "wk_melee_5", "wk_melee_6", "pro_a_1",
+resource_level = ["wk_toxic_5", "wk_armor_5", "wk_fly_5", "wk_kc_6", "wk_melee_6", "pro_a_1",
                   "pro_a_2", "pro_b_1", "pro_b_2", "pro_c_1", "pro_c_2", "pro_d_1", "pro_d_2"]
 # 设置最大关卡数
 max_level = {
@@ -163,49 +163,55 @@ def generate_filename(name, data, mode):
     return file_path
 
 
-def search(keyword, mode=1):
-    global no_result
+def search(keyword, path_mode=1, filter_mode=0):
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={keyword}&desc=true&orderBy=views"
     _headers = {
         "Origin": "https://prts.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
-
     _response = requests.get(url, headers=_headers)
-    if _response.status_code == 200:
-        data = _response.json()
-        total = data['data'].get('total', 0)
-        if total > 0:
-            download_amount = 0
-            score_threshold = download_score_threshold
-            view_threshold = download_view_threshold
-            while not download_amount:
-                for item in data['data']['data']:
-                    percent = calculate_percent(item)
-                    view = item.get('views', 0)
-                    if percent >= score_threshold and view >= view_threshold:
-                        content = json.loads(item['content'])
-                        file_path = generate_filename(keyword, content, mode)
-                        content['doc'][
-                            'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
-                                         content['doc']['details']
-                        print(f"{file_path} {percent}% {view} 成功下载")
-                        write_to_file(file_path, content)
-                        download_amount += 1
-                if not download_amount:
-                    if score_threshold > 50:
-                        score_threshold -= 5
-                    else:
-                        view_threshold -= 200
-                    if view_threshold < 0:
-                        print(f"{keyword} 无符合50% 0的数据 不再重试")
-                        no_result.append(keyword)
-                        break
-                    print(f"{keyword} 无符合条件的数据，降低阈值为{score_threshold}% {view_threshold}重试")
-        else:
-            print(f"{keyword} 无数据")
+    if _response.ok:
+        filter_data(_response.json(), keyword, path_mode, filter_mode)
     else:
         print(f"请求 {keyword} 失败")
+
+
+def filter_data(data, keyword, path_mode, filter_mode):
+    global no_result
+    total = data['data'].get('total', 0)
+    if total > 0:
+        download_amount = 0
+        if filter_mode == 0:
+            score_threshold = download_score_threshold
+            view_threshold = download_view_threshold
+        else:
+            score_threshold = 80
+            view_threshold = -1  # 保证只搜索一次
+        while not download_amount:
+            for item in data['data']['data']:
+                percent = calculate_percent(item)
+                view = item.get('views', 0)
+                if percent >= score_threshold and view >= view_threshold:
+                    content = json.loads(item['content'])
+                    file_path = generate_filename(keyword, content, path_mode)
+                    content['doc'][
+                        'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
+                                     content['doc']['details']
+                    print(f"{file_path} {percent}% {view} 成功下载")
+                    write_to_file(file_path, content)
+                    download_amount += 1
+            if not download_amount:
+                if score_threshold > 50:
+                    score_threshold -= 5
+                else:
+                    view_threshold -= 200
+                if view_threshold < 0:
+                    print(f"{keyword} 无符合50% 0的数据 不再重试")
+                    no_result.append(keyword)
+                    break
+                print(f"{keyword} 无符合条件的数据，降低阈值为{score_threshold}% {view_threshold}重试")
+    else:
+        print(f"{keyword} 无数据")
 
 
 def tough_stage_search(_stage):
@@ -235,10 +241,9 @@ def camp_stage_search():
         search(f"camp_r_{pad_zero(level)}", 2)
 
 
-# TODO: 优化筛选逻辑
 def resource_stage_search():
     for level in resource_level:
-        search(level, 4)
+        search(level, 4, 1)
 
 
 makedir()
