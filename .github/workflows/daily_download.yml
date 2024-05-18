@@ -29,6 +29,7 @@ jobs:
       
       - name: 运行 悖论模拟模组任务搜索.py
         run: |
+          cd Auto/Full-Auto
           python 悖论模拟模组任务搜索.py
       
       - name: 配置 Git 用户信息
