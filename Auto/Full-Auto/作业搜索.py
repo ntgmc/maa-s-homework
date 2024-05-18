@@ -2,18 +2,15 @@ import requests
 import json
 import time
 import os
-from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
 setting = {}
-date = datetime.now().strftime('%Y-%m-%d')
+date = time.strftime('%Y-%m-%d', time.localtime())
 
 
 def save_data(data):
-    user_data_dir = os.path.dirname(SETTING_PATH)
-    if not os.path.exists(user_data_dir):
-        os.makedirs(user_data_dir)
+    os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
     with open(SETTING_PATH, 'w') as file:
         json.dump(data, file)
     return True
@@ -25,12 +22,8 @@ def write_to_file(file_path, content):
 
 
 def get_level_data():
-    url = 'https://prts.maa.plus/arknights/level'
-    response = requests.get(url)
-    if response.status_code == 200:
-        return response.json()['data']
-    else:
-        return []
+    response = requests.get('https://prts.maa.plus/arknights/level')
+    return response.json()['data'] if response.ok else []
 
 
 def build_dict(data, key: str):  # key为生成的字典的键
@@ -67,13 +60,8 @@ def load_settings():
 
 
 def calculate_percent(item):
-    like = item.get('like', 0)
-    dislike = item.get('dislike', 0)
-    total = like + dislike
-    if total == 0:
-        return 0
-    else:
-        return round(like / total * 100, 2)
+    like, dislike = item.get('like', 0), item.get('dislike', 0)
+    return round(like / (like + dislike) * 100, 2) if like + dislike > 0 else 0
 
 
 def configuration():
@@ -103,15 +91,8 @@ def configuration():
         return configuration()
 
 
-def search(keyword, search_mode):
-    if search_mode == 1:
-        order_by = "hot"
-    elif search_mode == 2:
-        order_by = "id"
-    elif search_mode == 3:
-        order_by = "views"
-    else:
-        order_by = "hot"
+def search(keyword, search_mode):  # 返回json
+    order_by = {1: "hot", 2: "id", 3: "views"}.get(search_mode, "views")
     url = f"https://prts.maa.plus/copilot/query?desc=true&limit=50&page=1&order_by={order_by}&level_keyword={keyword}"
     headers = {
         "Origin": "https://prts.plus",
@@ -119,7 +100,7 @@ def search(keyword, search_mode):
     }
     try:
         response = requests.get(url, headers=headers)
-        return response.text
+        return response.json()
     except requests.exceptions.SSLError:
         print("=" * 60)
         input("!!!SSL证书验证失败，请关闭系统代理!!!\n")
@@ -153,15 +134,12 @@ def process_level(level, st):
     name = level['cat_three']
     if '#f#' in keyword:
         return
-    data = json.loads(search(keyword, st["order_by"]))
+    data = search(keyword, st["order_by"])
     total = data["data"]["total"]
     print(f"搜索 {keyword} 共获得 {total} 个数据")
     amount = 0
     for member in data["data"]["data"]:
-        if member["like"] + member["dislike"] != 0:
-            point = calculate_percent(member)
-        else:
-            point = 0
+        point = calculate_percent(member)
         if member["views"] >= st["view"] and point >= st["point"] and amount < st["amount"]:
             if st["uploader"] == [] or member["uploader"] in st["uploader"]:
                 if process_and_save_content(name, member, st, point, member["views"], member["uploader"], member["id"]):
@@ -175,13 +153,11 @@ def process_level(level, st):
 def searches(activity_list):
     st = configuration()
     print(f"保存目录：{st['path']}")
-    if not os.path.exists(st['path']):
-        os.makedirs(st['path'])
+    os.makedirs(st['path'])
     now = time.time()
 
     with ThreadPoolExecutor(max_workers=10) as executor:
         futures = [executor.submit(process_level, level, st) for level in activity_list]
-
         for future in as_completed(futures):
             try:
                 future.result()
@@ -219,7 +195,7 @@ def configure_download_settings():
     print("1. 热度")
     print("2. 最新")
     print("3. 浏览量")
-    order_by = get_input("设置排序方式（为空默认为3）：", 3, 1, 3)
+    order_by = get_input("设置排序方式（默认为3. 浏览量）：", 3, 1, 3)
     point = get_input("设置好评率限制(0-100)（为空不限制）：", 0, 0, 100)
     view = get_input("设置浏览量限制（大于你设置的值）（为空不限制）：", 0)
     amount = get_input("设置下载数量(1-5)（为空默认为1）：", 1, 1, 5)
@@ -227,7 +203,6 @@ def configure_download_settings():
     print(f"设定值：{operator}")
     uploader = input("设置只看作者（空格分隔）（为空不限制）：").split()
     print(f"设定值：{uploader}")
-    input("按下Enter返回\n")
     return {
         'title': title,
         'path': path,
@@ -240,7 +215,7 @@ def configure_download_settings():
     }
 
 
-def replace_special_char(text):
+def replace_dir_char(text):
     return text.replace('/', '').replace('\\', '')
 
 
@@ -250,7 +225,7 @@ def generate_filename_mode3(stage_name, data):
     names_parts = ['+'.join(oper.get('name', '') for oper in opers),
                    '+'.join(group.get('name', '') for group in groups)]
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
-    names = replace_special_char(names)
+    names = replace_dir_char(names)
     if len(names) > 220:
         names = "文件名过长不予显示"
     return f'{stage_name}_{names}.json'
@@ -265,7 +240,7 @@ def generate_filename(content, title, uploader, keyword):
         file_name = generate_filename_mode3(keyword, content)
     else:
         print('文件名格式错误')
-        file_name = None
+        file_name = f"ERROR{time.time()}"
     return file_name
 
 
@@ -279,9 +254,8 @@ def mode1():
     os.system("cls")
     now = time.time()
     print(f'保存目录：{st["path"]}')
-    if not os.path.exists(st["path"]):
-        os.makedirs(st["path"])
-    data = json.loads(search(keyword, st["order_by"]))
+    os.makedirs(st["path"])
+    data = search(keyword, st["order_by"])
     total = data["data"]["total"]
     print(f"搜索 {keyword} 共获得 {total} 个数据")
     amount = 0
@@ -302,15 +276,18 @@ def mode1():
 
 def input_level():
     print("1. 活动关卡")
-    print("2. 活动剿灭")
-    print("3. 活动资源")
-    print("4. 主线关卡")
-    print("5. 剿灭")
-    print("6. 资源关卡")
-    print("7. 全部")
+    # print("2. 主线关卡")
+    # print("3. 剿灭作战")
+    # print("4. 资源关卡")
+    # print("5. 全部")
+    print("b. 返回")
     choose = input("请选择要搜索的关卡类型：").replace(" ", "")
-    if choose.isdigit() and 1 <= int(choose) <= 7:
-        return int(choose)
+    if choose.isdigit() and 1 <= int(choose) <= 5:
+        if choose == "1":
+            activity = input_activity(activity_dict)
+            return searches(activity_dict[activity])
+    elif "b" in choose.lower():
+        return menu()
     else:
         print("未知选项，请重新选择")
         return input_level()
@@ -352,9 +329,7 @@ def input_activity(_activity_dict):  # 返回活动关卡中文名
 def mode2():
     os.system("cls")
     print("已进入批量搜索并下载模式，（输入back返回）")
-    activity = input_activity(activity_dict)
-    searches(activity_dict[activity])
-    return menu()
+    return input_level()
 
 
 def download_set():
@@ -363,17 +338,6 @@ def download_set():
     setting["download"] = configure_download_settings()
     save_data(setting)
     return menu()
-
-
-def input_level_range(note, default):
-    try:
-        value = input(f"输入{note}关最大关卡（默认{default}）：").strip()
-        value = int(value) if value else default
-        print(f"设定值：{value}")
-        return value
-    except ValueError:
-        print(f"输入无效，设置为默认值：{default}")
-        return default
 
 
 def menu():
