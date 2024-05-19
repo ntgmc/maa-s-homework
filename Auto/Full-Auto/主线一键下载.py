@@ -92,8 +92,9 @@ def replace_special_char(text):
     return text.replace('/', '').replace('\\', '')
 
 
-def generate_filename(name, data, mode):
-    stage_name = get_level_name(name)
+def generate_filename(name, data, mode, stage_name):
+    if not stage_name:
+        stage_name = get_level_name(name)
     _stage = get_stage_info(stage_name)
     opers = data.get('opers', [])
     groups = data.get('groups', [])
@@ -114,7 +115,7 @@ def generate_filename(name, data, mode):
     return file_path
 
 
-def search(keyword, path_mode=1, filter_mode=0):
+def search(keyword, path_mode=1, filter_mode=0, cat_three=None):
     if any(substring in keyword for substring in ['#f#', 'easy']):
         return
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={keyword}&desc=true&orderBy=views"
@@ -124,12 +125,12 @@ def search(keyword, path_mode=1, filter_mode=0):
     }
     _response = requests.get(url, headers=_headers)
     if _response.ok:
-        filter_data(_response.json(), keyword, path_mode, filter_mode)
+        filter_data(_response.json(), keyword, path_mode, filter_mode, cat_three)
     else:
         print(f"请求 {keyword} 失败")
 
 
-def filter_data(data, keyword, path_mode, filter_mode):
+def filter_data(data, keyword, path_mode, filter_mode, cat_three):
     global no_result
     total = data['data'].get('total', 0)
     if total > 0:
@@ -146,7 +147,7 @@ def filter_data(data, keyword, path_mode, filter_mode):
                 view = item.get('views', 0)
                 if percent >= score_threshold and view >= view_threshold:
                     content = json.loads(item['content'])
-                    file_path = generate_filename(keyword, content, path_mode)
+                    file_path = generate_filename(keyword, content, path_mode, cat_three)
                     content['doc'][
                         'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
                                      content['doc']['details']
@@ -170,12 +171,12 @@ def filter_data(data, keyword, path_mode, filter_mode):
 
 def search_stage(keyword):
     for level in all_dict['主题曲'][keyword]:
-        search(level['stage_id'])
+        search(level['stage_id'], cat_three=level['cat_three'])
 
 
 def search_camp(keyword):
     for level in all_dict['剿灭作战'][keyword]:
-        search(level['stage_id'], 2)
+        search(level['stage_id'], 2, cat_three=level['cat_three'])
 
 
 def resource_stage_search():
@@ -185,7 +186,6 @@ def resource_stage_search():
 
 level_data = get_level_data()
 stage_dict = build_dict(level_data, 'stage_id')
-cat_one_dict = build_dict(level_data, 'cat_one')
 all_dict = build_complex_dict(level_data)
 makedir()
 now = datetime.now().timestamp()
