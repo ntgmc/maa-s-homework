@@ -27,7 +27,7 @@ def get_level_data():
     return response.json()['data'] if response.ok else []
 
 
-def build_dict(data):
+def build_complex_dict(data):
     complex_dict = {}
     for member in data:
         category = member['cat_one']  # 获取分类
@@ -365,7 +365,7 @@ def menu():
         return True
 
 
-all_dict = build_dict(get_level_data())
+all_dict = build_complex_dict(get_level_data())
 menu_result = False
 while not menu_result:
     menu_result = menu()

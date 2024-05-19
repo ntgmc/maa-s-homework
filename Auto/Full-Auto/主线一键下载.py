@@ -8,50 +8,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # 设置阈值(好评率和浏览量)(不满足条件则降低阈值，但最低不低于50% 0)
 download_score_threshold = 80  # 好评率阈值
 download_view_threshold = 1000  # 浏览量阈值
-# 设置stage_name
-tough = [10, 11, 12, 13, 14]
-main = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# 设置资源关
 resource_level = ["wk_toxic_5", "wk_armor_5", "wk_fly_5", "wk_kc_6", "wk_melee_6", "pro_a_1",
                   "pro_a_2", "pro_b_1", "pro_b_2", "pro_c_1", "pro_c_2", "pro_d_1", "pro_d_2"]
-# 设置最大关卡数
-max_level = {
-    0: 11,
-    1: 12,
-    2: 10,
-    3: 8,
-    4: 10,
-    5: 10,
-    6: 14,
-    7: 16,
-    8: 17,
-    9: 17,
-    10: 15,
-    11: 18,
-    12: 18,
-    13: 19,
-    14: 19
-}
-max_hard_level = {
-    5: 4,
-    6: 4,
-    7: 4,
-    8: 4,
-    9: 6,
-    10: 3,
-    11: 4,
-    12: 4,
-    13: 4,
-    14: 4
-}
-max_sub_level = {
-    2: 12,
-    3: 7,
-    4: 10,
-    5: 9,
-    6: 4,
-    7: 2,
-    9: 2
-}
+# 设置要搜索的类型
+# search_list = ["主题曲", "剿灭作战", "资源收集"]
 # 设置空列表
 no_result = []
 # 设置日期
@@ -61,17 +22,13 @@ date = datetime.now().strftime('%Y-%m-%d')
 def makedir():
     os.makedirs(f'./download/往期剿灭', exist_ok=True)
     os.makedirs(f'./download/资源关', exist_ok=True)
-    for _stage in max_level:
+    for _stage in range(len(all_dict['主题曲'])):
         os.makedirs(f'./download/主线/第{_stage}章', exist_ok=True)
 
 
 def write_to_file(file_path, content):
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
-
-
-def pad_zero(i):
-    return str(i).zfill(2)
 
 
 def build_dict(data, key: str):  # key为生成的字典的键
@@ -85,17 +42,20 @@ def build_dict(data, key: str):  # key为生成的字典的键
     return _dict
 
 
-def build_sub_dict(data):  # key为章节整数
-    _dict = {}
+def build_complex_dict(data):
+    complex_dict = {}
     for member in data:
-        if 'obt/main/level_sub_' not in member['level_id']:  # 只处理sub关卡
-            continue
-        _key = get_sub_stage_info(member['stage_id'])
-        if _key in _dict:
-            _dict[_key].append(member)
-        else:
-            _dict[_key] = [member]
-    return _dict
+        category = member['cat_one']  # 获取分类
+        key = member['cat_two']  # 获取子分类
+        # 确保每个主分类下有一个字典，用于存储子分类的列表
+        if category not in complex_dict:
+            complex_dict[category] = {}
+        # 确保子分类下有一个列表，用于存储成员的JSON对象
+        if key not in complex_dict[category]:
+            complex_dict[category][key] = []
+        # 将成员添加到对应的列表中
+        complex_dict[category][key].append(member)
+    return complex_dict
 
 
 def get_level_data():
@@ -143,11 +103,11 @@ def generate_filename(name, data, mode):
     names = replace_special_char(names)
     if len(names) > 220:
         names = "文件名过长不予显示"
-    if mode == 1 or mode == 3:
+    if mode == 1:
         file_path = f'./download/主线/第{_stage}章/{stage_name}_{names}.json'
     elif mode == 2:
         file_path = f'./download/往期剿灭/{stage_name}_{names}.json'
-    elif mode == 4:
+    elif mode == 3:
         file_path = f'./download/资源关/{stage_name}_{names}.json'
     else:
         file_path = f'./download/{stage_name}_{names}.json'
@@ -155,6 +115,8 @@ def generate_filename(name, data, mode):
 
 
 def search(keyword, path_mode=1, filter_mode=0):
+    if any(substring in keyword for substring in ['#f#', 'easy']):
+        return
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={keyword}&desc=true&orderBy=views"
     _headers = {
         "Origin": "https://prts.plus",
@@ -202,60 +164,39 @@ def filter_data(data, keyword, path_mode, filter_mode):
                     break
                 print(f"{keyword} 无符合条件的数据，降低阈值为{score_threshold}% {view_threshold}重试")
     else:
+        # no_result.append(keyword)
         print(f"{keyword} 无数据")
 
 
-def tough_stage_search(_stage):
-    for level in range(1, max_level.get(_stage, 0) + 1):
-        search(f"tough_{pad_zero(_stage)}-{pad_zero(level)}")
+def search_stage(keyword):
+    for level in all_dict['主题曲'][keyword]:
+        search(level['stage_id'])
 
 
-def main_stage_search(_stage):
-    for level in range(1, max_level.get(_stage, 0) + 1):
-        search(f"main_{pad_zero(_stage)}-{pad_zero(level)}")
-
-
-def hard_stage_search(_stage):
-    for level in range(1, max_hard_level.get(_stage, 0) + 1):
-        search(f"hard_{pad_zero(_stage)}-{pad_zero(level)}")
-
-
-def sub_stage_search(_stage):
-    for member in sub_dict.get(_stage, []):
-        search(f"{member['stage_id']}", 3)
-
-
-def camp_stage_search():
-    for level in range(1, 4):
-        search(f"camp_{pad_zero(level)}", 2)
-    for level in range(1, len(cat_one_dict.get('剿灭作战', [])) - 2):
-        search(f"camp_r_{pad_zero(level)}", 2)
+def search_camp(keyword):
+    for level in all_dict['剿灭作战'][keyword]:
+        search(level['stage_id'], 2)
 
 
 def resource_stage_search():
     for level in resource_level:
-        search(level, 4, 1)
+        search(level, 3, 1)
 
 
-makedir()
 level_data = get_level_data()
 stage_dict = build_dict(level_data, 'stage_id')
-sub_dict = build_sub_dict(level_data)
 cat_one_dict = build_dict(level_data, 'cat_one')
+all_dict = build_complex_dict(level_data)
+makedir()
 now = datetime.now().timestamp()
 # 创建一个线程池
 with ThreadPoolExecutor(max_workers=10) as executor:
     futures = []
     # 添加任务到线程池
-    for stage in tough:
-        futures.append(executor.submit(tough_stage_search, stage))
-    for stage in main:
-        futures.append(executor.submit(main_stage_search, stage))
-    for stage in max_hard_level:
-        futures.append(executor.submit(hard_stage_search, stage))
-    for stage in max_sub_level:
-        futures.append(executor.submit(sub_stage_search, stage))
-    futures.append(executor.submit(camp_stage_search))
+    for stage in all_dict['主题曲']:
+        futures.append(executor.submit(search_stage, stage))
+    for place in all_dict['剿灭作战']:
+        futures.append(executor.submit(search_camp, place))
     futures.append(executor.submit(resource_stage_search))
 
     # 等待所有任务完成
