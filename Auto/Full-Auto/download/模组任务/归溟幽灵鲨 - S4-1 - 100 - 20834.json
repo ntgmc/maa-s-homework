@@ -1,0 +1,44 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "归溟幽灵鲨模组-未竟之美",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：101\n来源：作业代传——有问题联系原作者  ID：20834\n侬无言以对:BV11B4y167m5\n筱竹聽雨"
+    },
+    "stage_name": "S4-1",
+    "opers": [
+        {
+            "name": "归溟幽灵鲨",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "归溟幽灵鲨",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        }
+    ]
+}

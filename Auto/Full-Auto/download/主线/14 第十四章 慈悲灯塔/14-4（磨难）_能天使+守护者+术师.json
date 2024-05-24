@@ -1,0 +1,94 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "守护者",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "术师",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Output",
+            "doc_color": "#d63384",
+            "doc": "如果觉得实用，请赏个好评吧~"
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-4（磨难） - 通讯静默解除",
+        "details": "统计日期：2024-05-24\n好评率：97.94%  浏览量：1005\n来源：Issuing2890  ID：36898\n萧然Q，https://www.bilibili.com/video/BV1at421c7NY?p=4"
+    },
+    "groups": [
+        {
+            "name": "守护者",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "瑕光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "术师",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塑心",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "5-10 突袭",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：1424\n来源：一只摆烂的42  ID：21823\nUP：侬无言以对\n原视频：https://www.bilibili.com/video/BV1nQ4y1a7HJ/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "main_05-10",
+    "opers": [
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "右"
+        }
+    ]
+}

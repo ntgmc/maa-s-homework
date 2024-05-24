@@ -1,0 +1,106 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_09-03",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "华法琳",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "costs": 53
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down",
+            "costs": 41
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第九章 风暴瞭望 - 9-4（标准） - 暗火四起 - 突袭",
+        "details": "统计日期：2024-05-24\n好评率：98.9%  浏览量：2137\n来源：_ 蘿卜卜  ID：22465\nBV1QQ4y1r7Ni\nup：萧然Q\n视频练度：260(?)\n已测试"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "华法琳",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 2
+}

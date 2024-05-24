@@ -1,0 +1,50 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_a_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        },
+        {
+            "type": "Output"
+        }
+    ],
+    "doc": {
+        "title": "PR-A-1 棘刺单核刷信赖",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：317\n来源：Cclcc  ID：24537\n固若金汤 - PR-A-1 - 防守\n攻略作者：零-ktk\n链接：https://www.bilibili.com/video/BV1KK4y1o7ZE\n感谢up提供的方法\n已测试"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

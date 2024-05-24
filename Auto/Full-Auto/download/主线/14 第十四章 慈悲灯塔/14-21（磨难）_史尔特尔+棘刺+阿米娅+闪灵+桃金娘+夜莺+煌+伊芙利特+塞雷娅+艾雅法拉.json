@@ -1,0 +1,169 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-19",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down",
+            "kills": 25
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "kills": 30,
+            "costs": 80
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left",
+            "kills": 34
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "kills": 39
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-21（磨难） - 万千愿景",
+        "details": "统计日期：2024-05-24\n好评率：98.29%  浏览量：4071\n来源：新手做图  ID：36947\n塞雷娅2803 y模 小火龙2701 x模 术士阿米娅"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

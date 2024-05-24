@@ -1,0 +1,183 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "sub_05-2-1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "安德切尔",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "月见夜",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "史都华德",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "location": [
+                8,
+                2
+            ],
+            "kills": 11
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "月见夜",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "泡普卡",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "安德切尔",
+            "location": [
+                10,
+                1
+            ],
+            "kills": 29,
+            "costs": 66
+        },
+        {
+            "type": "Skill",
+            "name": "斑点",
+            "location": [
+                8,
+                2
+            ],
+            "kills": 36,
+            "costs": 83
+        },
+        {
+            "type": "Skill",
+            "name": "月见夜",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 42,
+            "rear_delay": 5500
+        },
+        {
+            "type": "Skill",
+            "name": "泡普卡",
+            "location": [
+                4,
+                2
+            ],
+            "kills": 44
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "【苏咕咕】明日方舟 S5-3 攻略 简单 无脑 抄作业",
+        "details": "统计日期：2024-05-24\n好评率：73.91%  浏览量：846\n来源：NyaNyaHua  ID：24637\n参考BV1vC4y1872M"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "史都华德",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "月见夜",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "泡普卡",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

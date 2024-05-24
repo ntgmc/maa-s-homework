@@ -1,0 +1,98 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "11-8磨难五人纯艾自用",
+        "details": "统计日期：2024-05-24\n好评率：97.73%  浏览量：2157\n来源：是我时光哒  ID：25334\n参考https://www.bilibili.com/video/av303949123/"
+    },
+    "stage_name": "tough_11-07",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "SkillDaemon",
+            "name": ""
+        }
+    ]
+}

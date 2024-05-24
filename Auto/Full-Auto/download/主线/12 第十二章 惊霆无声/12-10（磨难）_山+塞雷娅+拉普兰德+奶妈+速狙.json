@@ -1,0 +1,113 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_12-09",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "速狙",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left",
+            "costs": 15
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶妈",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc": "给个好评吧 宝贝",
+            "doc_color": "#d63384"
+        }
+    ],
+    "doc": {
+        "title": "12-10（磨难）纯艾、空弦替换",
+        "details": "统计日期：2024-05-24\n好评率：97.94%  浏览量：3415\n来源：Dayheart  ID：28393\n这是磨难难度 普通难度地图不一样 别用磨难的打普通\n攻略作者：萧然Q BV1oL411m7bL 记得去b站给萧然宝贝点赞三连\n原json作者：鱼丸"
+    },
+    "groups": [
+        {
+            "name": "奶妈",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "速狙",
+            "opers": [
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "空弦",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

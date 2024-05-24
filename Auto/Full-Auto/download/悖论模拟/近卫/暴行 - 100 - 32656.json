@@ -1,0 +1,170 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_savage_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "暴行",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "便携式补给站",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "Lancet-2",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "BulletTime",
+            "name": "暴行",
+            "costs": 19
+        },
+        {
+            "type": "Skill",
+            "name": "暴行",
+            "costs": 20,
+            "doc_color": "Gray",
+            "doc": "1"
+        },
+        {
+            "type": "BulletTime",
+            "name": "暴行",
+            "costs": 39
+        },
+        {
+            "type": "Skill",
+            "name": "暴行",
+            "costs": 40,
+            "doc_color": "Gray",
+            "doc": "2"
+        },
+        {
+            "type": "BulletTime",
+            "name": "暴行",
+            "costs": 65
+        },
+        {
+            "type": "Skill",
+            "name": "暴行",
+            "costs": 66,
+            "doc_color": "Gray",
+            "doc": "3"
+        },
+        {
+            "type": "BulletTime",
+            "name": "暴行",
+            "costs": 82
+        },
+        {
+            "type": "Skill",
+            "name": "暴行",
+            "costs": 83,
+            "doc_color": "Gray",
+            "doc": "4"
+        },
+        {
+            "type": "BulletTime",
+            "name": "暴行",
+            "pre_delay": 17000
+        },
+        {
+            "type": "Skill",
+            "name": "暴行",
+            "pre_delay": 1000,
+            "doc_color": "Gray",
+            "doc": "5"
+        },
+        {
+            "type": "BulletTime",
+            "name": "暴行",
+            "pre_delay": 13000
+        },
+        {
+            "type": "Skill",
+            "name": "暴行",
+            "pre_delay": 1000,
+            "doc_color": "Gray",
+            "doc": "6"
+        },
+        {
+            "type": "BulletTime",
+            "name": "暴行",
+            "pre_delay": 14000
+        },
+        {
+            "type": "Skill",
+            "name": "暴行",
+            "pre_delay": 1000,
+            "doc_color": "Gray",
+            "doc": "7"
+        },
+        {
+            "type": "BulletTime",
+            "name": "暴行",
+            "pre_delay": 25000
+        },
+        {
+            "type": "Skill",
+            "name": "暴行",
+            "pre_delay": 1000,
+            "doc_color": "Gray",
+            "doc": "8"
+        },
+        {
+            "type": "BulletTime",
+            "name": "暴行",
+            "pre_delay": 12000
+        },
+        {
+            "type": "Skill",
+            "name": "暴行",
+            "pre_delay": 1000,
+            "doc_color": "Gray",
+            "doc": "9"
+        },
+        {
+            "type": "BulletTime",
+            "name": "暴行",
+            "pre_delay": 19000
+        },
+        {
+            "type": "Skill",
+            "name": "暴行",
+            "pre_delay": 1000,
+            "doc_color": "Gray",
+            "doc": "10"
+        }
+    ],
+    "doc": {
+        "title": "勿用",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：141\n来源：萨拉托加  ID：32656\n近卫 - 暴行 - 哈！一线贯通！测试中，勿用"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "暴行",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "Lancet-2",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

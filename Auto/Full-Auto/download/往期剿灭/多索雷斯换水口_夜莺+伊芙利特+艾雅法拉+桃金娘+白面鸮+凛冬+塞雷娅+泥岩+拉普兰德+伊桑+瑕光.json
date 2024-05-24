@@ -1,0 +1,232 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                8,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "瑕光",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down",
+            "costs": 22
+        },
+        {
+            "type": "Deploy",
+            "name": "凛冬",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left",
+            "costs": 22
+        },
+        {
+            "type": "Deploy",
+            "costs": 17,
+            "name": "白面鸮",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Left",
+            "costs": 36
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left",
+            "costs": 23
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "costs": 8
+        },
+        {
+            "type": "Deploy",
+            "name": "特制水上平台",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "None",
+            "costs": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left",
+            "costs": 19
+        },
+        {
+            "type": "Deploy",
+            "name": "特制水上平台",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "None",
+            "costs": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "特制水上平台",
+            "location": [
+                5,
+                7
+            ],
+            "direction": "None",
+            "costs": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "特制水上平台",
+            "location": [
+                2,
+                7
+            ],
+            "direction": "None",
+            "costs": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Left",
+            "costs": 34
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                7
+            ],
+            "direction": "Left",
+            "costs": 22
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                8,
+                7
+            ],
+            "name": "桃金娘",
+            "costs": 70
+        },
+        {
+            "type": "Deploy",
+            "name": "伊桑",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left",
+            "costs": 19
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "玻利瓦尔 - 多索雷斯换水口 - 多索雷斯换水口-{手残自用}",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：1072\n来源：滑稽七号  ID：22708\n抄的b站“自在道爷”的作业，因为自身box和手残（作业编辑器比自己摆简单）and有修改\n原视频链接：https://www.bilibili.com/video/BV1R3411k7Je?share_source=copy_web\n\n与视频的不同处：1.增加了桃金娘回费；2.因为box修改了部分干员：【推进之王】=【瑕光】，【临光】=【凛冬】，【断罪者】=【泥岩】，【狮蝎】=【伊桑】\n\n部分box不符合的使用方法：【下载json/复制神秘链接】→【创建作业】→【编辑json】→【导入本地文件/神秘链接】→【修改左边对应干员名为平替干员】（修改后记得保存）→【修改右边对应干员名为平替干员】（修改后记得保存）→【编辑json】→【导出下载】→【maa选择刚才的下载的文件使用】\n\n注1：如果修改后干员有技能和技能使用方式的变化，请在左边的干员替换时进行修改，（否则会导致maa不自动释放技能等问题）\n注2：若干员替换前后部署费用有较大变化，请在右边的执行条件处更改费用条件，（否则可能会导致maa操作异常）——（不过一般不会有问题）"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "凛冬",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊桑",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "瑕光",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

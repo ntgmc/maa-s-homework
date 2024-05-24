@@ -1,0 +1,57 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_03-01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "夜半",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "眠兽",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第三章 二次呼吸 - 3-1 - 会合【夜半模组任务】",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：78\n来源：小卡拉帕鲁灰🐖  ID：35952\n任务要求：3星通关主题曲3-1；必须编入非助战夜半并上场，且至少使用3次安眠\n测试通过"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "夜半",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 1
+}

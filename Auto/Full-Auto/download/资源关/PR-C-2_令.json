@@ -1,0 +1,134 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "PR-C-2",
+        "details": "统计日期：2024-05-24\n好评率：84.62%  浏览量：892\n来源：tang  ID：28219\n如遇到无法识别“弦惊”“清平”“逍遥”，删除cache/avatars 下的头像重新启动MMA\n测试为90级三模专6令\n作者-唐"
+    },
+    "stage_name": "pro_c_2",
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "cost_changes": 4,
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "技能",
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "撤退",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "kills": 47,
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

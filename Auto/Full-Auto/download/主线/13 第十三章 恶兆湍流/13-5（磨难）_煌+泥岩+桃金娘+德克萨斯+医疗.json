@@ -1,0 +1,94 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_13-04",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left",
+            "cooling": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc": "有帮助的话 给个好评吧~",
+            "doc_color": "#d63384"
+        }
+    ],
+    "doc": {
+        "title": "第十三章 恶兆湍流 - 13-5（磨难） - 苦厄盘桓",
+        "details": "统计日期：2024-05-24\n好评率：85.86%  浏览量：4014\n来源：NyaNyaHua  ID：28788\n13-5磨难，2603\n【【恶兆湍流】磨难险地13章主线全关卡 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1Hw411A7iG/?p=4&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "流明",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

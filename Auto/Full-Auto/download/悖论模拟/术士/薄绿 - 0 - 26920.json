@@ -1,0 +1,98 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_mint_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "薄绿",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "蛇屠箱",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "薄绿",
+            "location": [
+                5,
+                5
+            ],
+            "pre_delay": 3500
+        },
+        {
+            "type": "Skill",
+            "name": "薄绿",
+            "location": [
+                5,
+                5
+            ],
+            "cost_changes": 61
+        },
+        {
+            "type": "SkillUsage",
+            "name": "薄绿",
+            "skill_usage": 1
+        },
+        {
+            "type": "Skill",
+            "name": "米格鲁",
+            "pre_delay": 10000,
+            "location": [
+                6,
+                7
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "蛇屠箱",
+            "location": [
+                7,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "卡缇",
+            "location": [
+                6,
+                7
+            ],
+            "cooling": 1,
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "薄绿悖论模拟 - 过来吧你！",
+        "details": "统计日期：2024-05-24\n好评率：0.0%  浏览量：426\n来源：薄荷喵喵小高兴  ID：26920\n作者：倾九_Komy\n作业：【明日方舟】薄绿 悖论模拟/无需专精/看一遍就过/简单操作\n作业链接：https://www.bilibili.com/video/BV1Ld4y137DC/?spm_id_from=333.1007.top_right_bar_window_history.content.click"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "薄绿",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

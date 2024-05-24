@@ -1,0 +1,58 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_13-05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Up",
+            "costs": 11
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down",
+            "costs": 19
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Down",
+            "costs": 36
+        }
+    ],
+    "doc": {
+        "title": "第十三章 恶兆湍流 - 13-6（标准） - 典范之名",
+        "details": "统计日期：2024-05-24\n好评率：88.89%  浏览量：254\n来源：baichuan  ID：29172\n陈曦的13-6标准作业，看到没标准的来做一个，毕竟好像和磨难地图不一样"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

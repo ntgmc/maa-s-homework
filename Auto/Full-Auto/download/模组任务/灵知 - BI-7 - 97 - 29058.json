@@ -1,0 +1,86 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act14side_07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "灵知",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up",
+            "costs": 25
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "白面鸮",
+            "kills": 32
+        },
+        {
+            "type": "Skill",
+            "name": "灵知",
+            "kills": 33
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "风雪过境·复刻 - BI-7 - 破冰 灵知模组“誓言”解锁任务",
+        "details": "统计日期：2024-05-24\n好评率：97.44%  浏览量：1355\n来源：萨拉托加  ID：29058\n灵知模组任务“誓言”\n条件：3星通关别传BI-7，必须编入非助战灵知并上场，且不编入其他辅助干员\n【[明日方舟]灵知模组任务挂机一遍过，简单好抄】 https://www.bilibili.com/video/BV1LL411a7Br/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "灵知",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

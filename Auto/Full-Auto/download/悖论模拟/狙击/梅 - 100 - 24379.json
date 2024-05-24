@@ -1,0 +1,47 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_mm_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "梅",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "costs": 49,
+            "name": "梅"
+        },
+        {
+            "type": "Skill",
+            "name": "梅",
+            "kills": 17,
+            "pre_delay": 5500
+        },
+        {
+            "type": "Skill",
+            "name": "梅",
+            "kills": 32,
+            "pre_delay": 15500
+        }
+    ],
+    "doc": {
+        "title": "狙击 - 梅 - “不许靠近！” - 二技能版本",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：531\n来源：一只摆烂的42  ID：24379\nhttps://www.bilibili.com/video/BV1pM411U7G9/\n练度精二40级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n评论区说精二一级一级技能就行，但是要用刻刀，不清楚轴，下次再说"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "梅",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

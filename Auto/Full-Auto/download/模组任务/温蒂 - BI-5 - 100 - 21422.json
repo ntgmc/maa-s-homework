@@ -1,0 +1,62 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act14side_05",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "kills": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "温蒂",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "温蒂 模组任务  BI-5",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：962\n来源：xf22cn@qq.com  ID：21422\n温蒂模组任务\n侬无言以对   https://www.bilibili.com/video/BV1h24y1G7Ai/\n温蒂  煌   塞雷娅  均 精二60级  技能7级 \n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "温蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

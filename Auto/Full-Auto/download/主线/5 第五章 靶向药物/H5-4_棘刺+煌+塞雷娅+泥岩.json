@@ -1,0 +1,76 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "H5-4 四人摆完挂机",
+        "details": "统计日期：2024-05-24\n好评率：84.29%  浏览量：2093\n来源：一只摆烂的42  ID：22282\n原视频：https://www.bilibili.com/video/BV1pA411F7Le/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "hard_05-04",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

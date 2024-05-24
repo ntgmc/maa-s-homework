@@ -1,0 +1,148 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "特种-推击手",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "枯朽祭坛",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "特种-推击手",
+            "kills": 2,
+            "pre_delay": 3000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "特种-推击手",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "特种-推击手",
+            "skill_usage": 0,
+            "pre_delay": 3000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "特种-推击手",
+            "kills": 3,
+            "skill_usage": 1
+        },
+        {
+            "type": "Retreat",
+            "name": "特种-推击手",
+            "location": [
+                10,
+                4
+            ],
+            "kills": 15,
+            "costs": 30
+        },
+        {
+            "type": "Deploy",
+            "name": "术师-轰击术师",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-8（磨难） - 抵近支援作战",
+        "details": "统计日期：2024-05-24\n好评率：97.12%  浏览量：1089\n来源：备胎拯救方舟  ID：37004\nJSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "术师-轰击术师",
+            "opers": [
+                {
+                    "name": "伊芙利特",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "提丰",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "维什戴尔",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "特种-推击手",
+            "opers": [
+                {
+                    "name": "温蒂",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "食铁兽",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "灰烬",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "莱伊",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": []
+}

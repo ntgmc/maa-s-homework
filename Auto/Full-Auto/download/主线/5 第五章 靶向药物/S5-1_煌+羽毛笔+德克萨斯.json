@@ -1,0 +1,49 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "S5-1",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：68\n来源：Chiho  ID：35856\nUP：侬无言以对\n原视频：https://www.bilibili.com/video/BV14L4y1e7Qm/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "sub_05-1-1",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "羽毛笔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "羽毛笔",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Left"
+        }
+    ]
+}
