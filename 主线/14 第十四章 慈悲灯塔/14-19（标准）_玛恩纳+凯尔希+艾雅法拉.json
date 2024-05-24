@@ -1,0 +1,130 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_14-17",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "玛恩纳",
+            "skill_usage": 2
+        },
+        {
+            "type": "Retreat",
+            "name": "玛恩纳",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 32
+        },
+        {
+            "type": "Deploy",
+            "name": "凯尔希",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "Mon3tr",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "凯尔希",
+            "location": [
+                2,
+                4
+            ],
+            "kills": 50
+        },
+        {
+            "type": "SkillUsage",
+            "name": "玛恩纳",
+            "skill_usage": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "凯尔希",
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "cost_changes": 46,
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "艾雅法拉",
+            "location": [
+                1,
+                3
+            ],
+            "kills": 64,
+            "pre_delay": 400
+        }
+    ],
+    "doc": {
+        "title": "速刷 第十四章 慈悲灯塔 - 14-19（标准） - 晶簇之内",
+        "details": "统计日期：2024-05-25\n好评率：65.38%  浏览量：890\n来源：apricotoil  ID：36910\n原作者@化学老施\n视频地址：https://www.bilibili.com/video/BV1tm421p7r3/\n实测代理稳定，干员均精二90级，技能专三，1级以上模组，无需潜能"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "凯尔希",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

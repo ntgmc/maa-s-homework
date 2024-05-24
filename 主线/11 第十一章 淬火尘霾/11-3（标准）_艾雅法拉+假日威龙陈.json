@@ -1,0 +1,91 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_11-03",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 19
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 29
+        },
+        {
+            "type": "Deploy",
+            "name": "假日威龙陈",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "海蒂",
+            "location": [
+                5,
+                5
+            ],
+            "kills": 9,
+            "pre_delay": 1000
+        },
+        {
+            "type": "BulletTime",
+            "name": "假日威龙陈",
+            "costs": 25
+        },
+        {
+            "type": "Skill",
+            "name": "假日威龙陈",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 17,
+            "pre_delay": 10000
+        }
+    ],
+    "doc": {
+        "title": "第十一章 淬火尘霾 - 11-3（标准）转质盐速刷",
+        "details": "统计日期：2024-05-25\n好评率：81.82%  浏览量：413\n来源：Issuing2890  ID：25417\n化学老施，https://www.bilibili.com/video/BV1oe4y1v7WN/"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "假日威龙陈",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

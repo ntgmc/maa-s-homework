@@ -1,0 +1,221 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_10-10",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "异客",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 13
+        },
+        {
+            "type": "SkillUsage",
+            "name": "德克萨斯",
+            "skill_usage": 2
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 25
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                6
+            ],
+            "costs": 26
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 100
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Up",
+            "doc_color": "Gray",
+            "doc": "合成大龙于8，3"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "异客",
+            "skill_usage": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Up",
+            "doc_color": "Gray",
+            "doc": "合成大龙"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 62
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                3
+            ],
+            "costs": 63
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up",
+            "doc": ""
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Up",
+            "doc_color": "Gray",
+            "doc": "合成大龙"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "异客",
+            "skill_usage": 1,
+            "costs": 69
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down",
+            "doc_color": "Gray",
+            "doc": "保险"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Right",
+            "doc_color": "Gray",
+            "doc": "保险2"
+        },
+        {
+            "type": "Output",
+            "doc_color": "#d63384",
+            "doc": "宝钡给个好评叭O.o"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "主线异铁最优10-11（标准） 令、异客、；德克萨斯 三人 异铁信赖速刷（已优化）",
+        "details": "统计日期：2024-05-25\n好评率：83.33%  浏览量：1929\n来源：陈雨亦七  ID：24111\n对鱼丸写的作业（目前搁浅）的一个尝试性完善\n10-11（标准磨难掉落差距不大）为刷取 异铁 理智收益最高的主线关卡（长期短期均为最优）（结论来自一图流https://yituliu.site/）\n视频作者：化学老施 BV1CR4y1N7GL\njson原作者以及主要作者：鱼丸 有问题请联系qq2877734958\nmaa问题就别联系了 哥们臭写作业的真不懂maa\n接手作者：亦七 有问题请联系qq295199593\n推荐练度：全2603以上，令需要开模组 异客最好有模组 最好只打标准 术士伤害不够带个艾雅法拉\n每个人练度不同 可能轴和视频不一样或者会乱 多余位置请自行添加需要刷信赖的干员"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "异客",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_10-15",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "流明",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left",
+            "kills": 17
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Output",
+            "kills": 23,
+            "rear_delay": 10000,
+            "doc": "撤退延迟",
+            "doc_color": "DeepSkyBlue"
+        },
+        {
+            "type": "Retreat",
+            "name": "山",
+            "location": [
+                3,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十章 破碎日冕 - 10-17（磨难） - 坚城高墙",
+        "details": "统计日期：2024-05-25\n好评率：89.94%  浏览量：5335\n来源：qsh970423@163.com  ID：24970\nBV1GY411j72u\nup：萧然Q\n！标准和磨难地图不一样，务必确认难度！\n视频练度：260(?)\n已测试"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

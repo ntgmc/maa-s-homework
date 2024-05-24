@@ -1,0 +1,49 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "S5-2",
+        "details": "统计日期：2024-05-25\n好评率：95.0%  浏览量：374\n来源：一只摆烂的42  ID：21874\nUP：刻俄柏\n原视频：https://www.bilibili.com/video/BV1aF41137Na/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "sub_05-1-2",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "cost_changes": 10,
+            "name": "山"
+        },
+        {
+            "type": "部署",
+            "name": "泥岩",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "右"
+        }
+    ]
+}

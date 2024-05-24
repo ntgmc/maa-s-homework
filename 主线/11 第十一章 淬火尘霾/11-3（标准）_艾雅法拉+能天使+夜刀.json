@@ -1,0 +1,81 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_11-03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "艾雅法拉",
+            "skill_usage": 2
+        },
+        {
+            "type": "Retreat",
+            "name": "夜刀",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 5
+        },
+        {
+            "type": "Deploy",
+            "kills": 5,
+            "name": "能天使",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "kills": 17,
+            "location": [
+                5,
+                3
+            ]
+        }
+    ],
+    "doc": {
+        "title": "第十一章 淬火尘霾 - 11-3（标准） - 蒸汽升腾",
+        "details": "统计日期：2024-05-25\n好评率：53.85%  浏览量：523\n来源：柠檬yyds  ID：22226\nhttps://www.bilibili.com/video/BV1QN4y1c7S2/?spm_id_from=333.337.search-card.all.click"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "H8-2 摆完挂机",
+        "details": "统计日期：2024-05-25\n好评率：95.58%  浏览量：2869\n来源：一只摆烂的42  ID：22303\n原视频：https://www.bilibili.com/video/BV1NS4y1Y7c1/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "hard_08-02",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "闪灵",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "下"
+        }
+    ]
+}

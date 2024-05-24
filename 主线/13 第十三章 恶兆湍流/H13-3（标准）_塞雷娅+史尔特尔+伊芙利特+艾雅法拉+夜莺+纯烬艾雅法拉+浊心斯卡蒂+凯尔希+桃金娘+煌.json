@@ -1,0 +1,301 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_13-03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                2
+            ],
+            "costs": 10,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Left",
+            "kills": 6
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                1
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                2
+            ],
+            "kills": 9
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                2
+            ],
+            "kills": 11
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                4
+            ],
+            "kills": 15,
+            "pre_delay": 10000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                2
+            ],
+            "kills": 24
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "幻影",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                1,
+                5
+            ],
+            "kills": 26,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                4
+            ],
+            "pre_delay": 10000
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "location": [
+                1,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "凯尔希",
+            "location": [
+                10,
+                4
+            ],
+            "pre_delay": 70000,
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "Mon3tr",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                4
+            ],
+            "pre_delay": 6000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 70000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        }
+    ],
+    "doc": {
+        "title": "第十三章 恶兆湍流 - H13-3（10人稳定挂机）",
+        "details": "统计日期：2024-05-25\n好评率：88.67%  浏览量：7427\n来源：小卡拉帕鲁灰🐖  ID：29097\n作者：灰bao_\n塞妈用的是90级一级x模组（当然y模更好），为了保证她不暴毙增加了浊蒂\n凯尔希是用来加速的，夜莺和羊练度越高越稳\n我先测试一波，没有备注就先别用\n备注：测试通过，奶妈和塞妈练度高点就行\n\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "凯尔希",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

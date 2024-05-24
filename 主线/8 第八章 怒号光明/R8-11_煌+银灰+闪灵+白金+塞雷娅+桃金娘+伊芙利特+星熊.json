@@ -1,0 +1,151 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_08-13",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "BulletTime",
+            "name": "桃金娘",
+            "location": [
+                9,
+                5
+            ],
+            "pre_delay": 8000
+        },
+        {
+            "type": "Skill",
+            "name": "桃金娘",
+            "location": [
+                9,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "白金",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Up",
+            "costs": 99,
+            "kills": 29
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第八章 怒号光明 - R8-11  突袭",
+        "details": "统计日期：2024-05-25\n好评率：91.27%  浏览量：3305\n来源：Issuing2890  ID：24938\n功课姬，https://www.bilibili.com/video/BV1VU4y1G7xp/?p=2\n用上了真银斩来清场，这样塔露拉的血量不会那么极限"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白金",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 2
+}

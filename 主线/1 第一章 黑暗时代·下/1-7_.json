@@ -1,0 +1,16 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_01-07",
+    "actions": [
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第一章 黑暗时代·下 - 1-7 - 暴君",
+        "details": "统计日期：2024-05-25\n好评率：97.44%  浏览量：2728\n来源：3218825050@qq.com  ID：21097\n刷信赖，用自己的挂机打法。注：取消（maa）自动编队，勾选（方舟）代理指挥"
+    },
+    "groups": [],
+    "opers": [],
+    "difficulty": 1
+}

@@ -1,0 +1,143 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "S4-10",
+        "details": "统计日期：2024-05-25\n好评率：70.0%  浏览量：629\n来源：作业代传——有问题联系原作者  ID：22249\n作者：YueShen"
+    },
+    "stage_name": "sub_04-4-1",
+    "opers": [
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "翎羽",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "翎羽",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "芬",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "令",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "撤退",
+            "name": "翎羽"
+        },
+        {
+            "type": "撤退",
+            "name": "芬"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "翎羽",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "左"
+        }
+    ]
+}

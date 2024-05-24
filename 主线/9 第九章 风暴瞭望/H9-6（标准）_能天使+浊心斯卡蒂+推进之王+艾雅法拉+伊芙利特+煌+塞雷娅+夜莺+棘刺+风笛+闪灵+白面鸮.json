@@ -1,0 +1,299 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_09-06",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "推进之王",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up",
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                9,
+                7
+            ],
+            "direction": "Left",
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "rear_delay": 0
+        },
+        {
+            "type": "SpeedUp",
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                10,
+                7
+            ],
+            "direction": "Left",
+            "rear_delay": 0
+        },
+        {
+            "type": "SpeedUp",
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right",
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "kills": 23,
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left",
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left",
+            "cooling": 1,
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "rear_delay": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "风笛",
+            "location": [
+                9,
+                7
+            ],
+            "kills": 84,
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "推进之王",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up",
+            "rear_delay": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "推进之王",
+            "location": [
+                2,
+                4
+            ],
+            "kills": 91,
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "幻影",
+            "location": [
+                1,
+                4
+            ],
+            "kills": 92,
+            "rear_delay": 5000,
+            "direction": "None"
+        },
+        {
+            "type": "Retreat",
+            "name": "幻影",
+            "location": [
+                1,
+                4
+            ],
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up",
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                3,
+                6
+            ],
+            "kills": 111,
+            "cooling": 1,
+            "direction": "Up",
+            "rear_delay": 0
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 113
+        },
+        {
+            "type": "Retreat",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                5
+            ],
+            "rear_delay": 0,
+            "kills": 115
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                9,
+                7
+            ],
+            "direction": "Left",
+            "rear_delay": 0
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Output",
+            "kills": 120,
+            "rear_delay": 5000
+        },
+        {
+            "type": "Skill",
+            "name": "白面鸮",
+            "location": [
+                9,
+                6
+            ]
+        }
+    ],
+    "doc": {
+        "title": "第九章 风暴瞭望 - H9-6（标准） - 急雨行动-3",
+        "details": "统计日期：2024-05-25\n好评率：84.89%  浏览量：3834\n来源：_ 蘿卜卜  ID：22455\nBV1P3411L7rK\nup：侬无言以对\n视频练度：2-60-3(?)，潜1+，风笛X模组\n2903已测试"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+{
+    "id": "20311",
+    "copilot_id": 20311,
+    "stage_name": "tough_11-06",
+    "uploader": "Hobart",
+    "uploader_id": "63da286efb8943674a419ad7",
+    "views": 9,
+    "hot_score": 0.0,
+    "difficulty": 0,
+    "minimum_required": "v4.0.0",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": null,
+            "location": null,
+            "direction": "None",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "能天使",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 20,
+            "cooling": -1,
+            "name": "煌",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "山",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "夜莺",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "史尔特尔",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "SkillDaemon",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": null,
+            "location": null,
+            "direction": "None",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        }
+    ],
+    "doc": {
+        "title": "第十一章 淬火尘霾 - 11-7（磨难） - 卷入洪流",
+        "title_color": "Gray",
+        "details": "统计日期：2024-05-25\n好评率：96.1%  浏览量：3324\n来源：Hobart  ID：20311\nhttps://www.bilibili.com/video/BV1cG411J7Mu?p=8",
+        "details_color": "Gray"
+    },
+    "first_upload_time": 1675996772377,
+    "upload_time": 1675996772377,
+    "content": null
+}

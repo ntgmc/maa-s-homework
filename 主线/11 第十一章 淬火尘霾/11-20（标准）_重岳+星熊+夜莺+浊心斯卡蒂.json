@@ -1,0 +1,80 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_11-18",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "重岳",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "重岳",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十一章 淬火尘霾 - 11-20（标准） - 最后的蒸汽骑士",
+        "details": "统计日期：2024-05-25\n好评率：50.0%  浏览量：734\n来源：柠檬yyds  ID：22262\nhttps://www.bilibili.com/video/BV1f84y1M7Zb/?spm_id_from=333.337.search-card.all.click\n红蒂可能会死，再给她重新部署一下就行\n星熊一定要有模组"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "重岳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "sub_02-12",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "kills": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "推进之王",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                3,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "第二章 异卵同生 - S2-12 - 窒息-3",
+        "details": "统计日期：2024-05-25\n好评率：50.0%  浏览量：143\n来源：luoshuitianyi  ID：24965\n第二章 异卵同生 - S2-12 - 窒息-3\n(自用）"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "能天使",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

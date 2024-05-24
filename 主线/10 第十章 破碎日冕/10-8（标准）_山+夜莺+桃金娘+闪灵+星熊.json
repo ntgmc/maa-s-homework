@@ -1,0 +1,91 @@
+{
+    "actions": [
+        {
+            "direction": "Up",
+            "kills": 0,
+            "location": [
+                5,
+                6
+            ],
+            "name": "桃金娘",
+            "type": "Deploy"
+        },
+        {
+            "cost_changes": 4,
+            "direction": "Left",
+            "kills": 0,
+            "location": [
+                7,
+                2
+            ],
+            "name": "山",
+            "type": "Deploy"
+        },
+        {
+            "direction": "Left",
+            "kills": 0,
+            "location": [
+                2,
+                5
+            ],
+            "name": "星熊",
+            "type": "Deploy"
+        },
+        {
+            "direction": "Down",
+            "kills": 0,
+            "location": [
+                2,
+                2
+            ],
+            "name": "闪灵",
+            "type": "Deploy"
+        },
+        {
+            "cost_changes": 0,
+            "direction": "Up",
+            "kills": 0,
+            "location": [
+                6,
+                4
+            ],
+            "name": "夜莺",
+            "type": "Deploy",
+            "costs": 0
+        }
+    ],
+    "doc": {
+        "details": "统计日期：2024-05-25\n好评率：100.0%  浏览量：179\n来源：LegendNoTitle  ID：25195\nhttps://www.bilibili.com/video/BV12S4y1w7kW\n基于自身情况适当修改\n",
+        "title": "无暇哀悼 自用"
+    },
+    "minimum_required": "v4.0.0",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "stage_name": "main_10-07",
+    "groups": []
+}
