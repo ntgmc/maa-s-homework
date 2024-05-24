@@ -42,8 +42,12 @@ jobs:
           git add .
           git commit -m "Auto update" -a
           
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Update data"
+          title: "Data update"
+          body: "Automatic pull request created to update data"
+          branch: "auto-update-branch"
       
