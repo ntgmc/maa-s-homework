@@ -32,15 +32,10 @@ jobs:
           cd Auto/Full-Auto
           python 悖论模拟模组任务搜索.py
       
-      - name: 配置 Git 用户信息
-        run: |
-          git config --global user.email 2586582719@qq.com
-          git config --global user.name ntgmc
-      
       - name: 推送下载的文件到仓库
         run: |
-          git add .
-          git commit -m "Auto update" -a
+          git add . -f
+          git commit -m "Github Action Auto Update" -a
           
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
