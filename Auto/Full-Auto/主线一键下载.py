@@ -5,6 +5,7 @@ from datetime import datetime
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+os.chdir(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 # 设置阈值(好评率和浏览量)(不满足条件则降低阈值，但最低不低于50% 0)
 download_score_threshold = 80  # 好评率阈值
 download_view_threshold = 1000  # 浏览量阈值
@@ -20,11 +21,11 @@ date = datetime.now().strftime('%Y-%m-%d')
 
 
 def makedir():
-    os.makedirs(f'./download/往期剿灭', exist_ok=True)
-    os.makedirs(f'./download/资源关', exist_ok=True)
+    os.makedirs('往期剿灭', exist_ok=True)
+    os.makedirs('资源关', exist_ok=True)
     for _stage, item in all_dict['主题曲'].items():
         i = get_stage_info(item[0]['stage_id'])
-        os.makedirs(f'./download/主线/{i} {_stage}', exist_ok=True)
+        os.makedirs(f'主线/{i} {_stage}', exist_ok=True)
 
 
 def write_to_file(file_path, content):
@@ -98,13 +99,13 @@ def generate_filename(name, data, mode, cat_two, stage_name):
     if len(names) > 220:
         names = "文件名过长不予显示"
     if mode == 1:
-        file_path = f'./download/主线/{_stage} {cat_two}/{stage_name}_{names}.json'
+        file_path = f'主线/{_stage} {cat_two}/{stage_name}_{names}.json'
     elif mode == 2:
-        file_path = f'./download/往期剿灭/{stage_name}_{names}.json'
+        file_path = f'往期剿灭/{stage_name}_{names}.json'
     elif mode == 3:
-        file_path = f'./download/资源关/{stage_name}_{names}.json'
+        file_path = f'资源关/{stage_name}_{names}.json'
     else:
-        file_path = f'./download/{stage_name}_{names}.json'
+        file_path = f'{stage_name}_{names}.json'
     return file_path
 
 

@@ -2,10 +2,11 @@ import os
 import shutil
 import zipfile
 
+os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 # 定义源文件夹和目标压缩包文件夹路径
-source_folder_base = r"D:\GITHOME\maa\主线"
-destination_folder = r"D:\GITHOME\maa\主线\压缩包"
-destination_folder2 = r"D:\GITHOME\maa\【下载看这里】合集下载"
+source_folder_base = "主线"
+destination_folder = r"主线\压缩包"
+destination_folder2 = r"【下载看这里】合集下载"
 
 os.makedirs(destination_folder, exist_ok=True)
 

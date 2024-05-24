@@ -4,6 +4,8 @@ import datetime
 import shutil
 import glob
 
+os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 
 def zip_json_files(_source_folder, _destination_file):
     with zipfile.ZipFile(_destination_file, "w", zipfile.ZIP_DEFLATED) as zipf:
@@ -22,8 +24,8 @@ source_list = ["插曲", "别传"]
 
 for source in source_list:
 
-    source_folder_base = fr"D:\GITHOME\maa\插曲&别传\{source}"
-    destination_folder = fr"D:\GITHOME\maa\插曲&别传\{source}\压缩包"
+    source_folder_base = fr"插曲&别传\{source}"
+    destination_folder = fr"插曲&别传\{source}\压缩包"
 
     # 遍历需要压缩的文件夹并进行压缩
     for folder_name in os.listdir(source_folder_base):
@@ -44,17 +46,16 @@ for source in source_list:
 
     # 压缩整个压缩包文件夹，并移动到目标文件夹中
     shutil.make_archive(os.path.join(destination_folder, source), 'zip', destination_folder)
-    file_path = fr"D:\GITHOME\maa\【下载看这里】合集下载\{source}.zip"
+    file_path = fr"【下载看这里】合集下载\{source}.zip"
     if os.path.exists(file_path):
         os.remove(file_path)
     shutil.move(os.path.join(destination_folder, f"{source}.zip"), r"D:\GITHOME\maa\【下载看这里】合集下载")
 
 source2_list = ["往期剿灭", "模组任务", "悖论模拟", "资源关"]
 
-for source in source2_list:
-    source_folder = os.path.join(r"D:\GITHOME\maa", source)
+for source_folder in source2_list:
     total_files = count_files_in_directory(source_folder)
-    destination_file = os.path.join(r"D:\GITHOME\maa\【下载看这里】合集下载",
+    destination_file = os.path.join("【下载看这里】合集下载",
                                     os.path.basename(source_folder) + "-" + str(total_files) + ".zip")
     # 如果目标文件存在，就删除它
     if os.path.exists(destination_file):
@@ -64,11 +65,11 @@ for source in source2_list:
     zip_json_files(source_folder, destination_file)
     print(f"成功压缩{destination_file}")
 # 当前活动
-now_activity_folders = glob.glob(r"D:\GITHOME\maa\【当前活动】*")
+now_activity_folders = glob.glob("【当前活动】*")
 # 遍历所有匹配的文件夹
 for folder in now_activity_folders:
     # 构造目标压缩文件的路径
-    destination_file = os.path.join(r"D:\GITHOME\maa\【下载看这里】合集下载", os.path.basename(folder) + ".zip")
+    destination_file = os.path.join("【下载看这里】合集下载", os.path.basename(folder) + ".zip")
 
     # 如果目标文件存在，就删除它
     if os.path.exists(destination_file):
@@ -80,16 +81,16 @@ for folder in now_activity_folders:
     print(f"成功压缩{folder}为{destination_file}")
 # ALL
 folders = [
-    r"D:\GITHOME\maa\资源关",
-    r"D:\GITHOME\maa\主线",
-    r"D:\GITHOME\maa\往期剿灭",
-    r"D:\GITHOME\maa\模组任务",
-    r"D:\GITHOME\maa\插曲&别传",
-    r"D:\GITHOME\maa\悖论模拟"
+    "资源关",
+    "主线",
+    "往期剿灭",
+    "模组任务",
+    "插曲&别传",
+    "悖论模拟"
 ]
 
 # 指定目标文件夹路径
-target_dir = r"D:\GITHOME\maa\【下载看这里】合集下载"
+target_dir = "【下载看这里】合集下载"
 
 os.makedirs(target_dir, exist_ok=True)
 
