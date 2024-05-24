@@ -1,0 +1,65 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_phenxi_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "菲亚梅塔",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "调香师",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿消",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "见行者",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "菲亚梅塔",
+            "skill_usage": 2
+        }
+    ],
+    "doc": {
+        "title": "狙击 - 菲亚梅塔 - 午后时光",
+        "details": "统计日期：2024-05-24\n好评率：70.0%  浏览量：605\n来源：jiy2  ID：21239\n菲亚梅塔 三技能\nZC作业https://www.bilibili.com/video/BV1Zh411Z7KB?p=2&vd_source=76946918b78f9d4edf1cd65c979bd42e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "菲亚梅塔",
+            "skill": 3,
+            "skill_usage": 2
+        }
+    ]
+}

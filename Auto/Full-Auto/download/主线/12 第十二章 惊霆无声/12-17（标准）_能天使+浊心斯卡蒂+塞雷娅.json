@@ -1,0 +1,67 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_12-15",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down",
+            "costs": 14
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "costs": 22,
+            "name": "塞雷娅",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down",
+            "kills": 5,
+            "pre_delay": 22000
+        },
+        {
+            "type": "Output",
+            "doc_color": "DeepSkyBlue",
+            "doc": "摆完挂机，给个好评谢谢喵~"
+        }
+    ],
+    "doc": {
+        "title": "第十二章 惊霆无声 - 12-17（标准） - 三人挂机 切削液",
+        "details": "统计日期：2024-05-24\n好评率：85.71%  浏览量：703\n来源：Li.zip  ID：24348\nhttps://www.bilibili.com/video/av397150431\n标准 摆完挂机\n参考视频练度"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

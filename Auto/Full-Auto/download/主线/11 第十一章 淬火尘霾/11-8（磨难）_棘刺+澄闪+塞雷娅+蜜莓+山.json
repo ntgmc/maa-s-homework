@@ -1,0 +1,98 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "11-8磨难五人",
+        "details": "统计日期：2024-05-24\n好评率：84.62%  浏览量：3292\n来源：一只摆烂的42  ID：20576\nhttps://www.bilibili.com/video/av303949123/"
+    },
+    "stage_name": "tough_11-07",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "蜜莓",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "山",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "右",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "部署",
+            "name": "棘刺",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "澄闪",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "蜜莓",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc": "制作者2586582719",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

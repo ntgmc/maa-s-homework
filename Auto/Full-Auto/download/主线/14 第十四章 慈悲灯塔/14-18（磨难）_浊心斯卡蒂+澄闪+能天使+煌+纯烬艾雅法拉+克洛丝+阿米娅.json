@@ -1,0 +1,228 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-16",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                9,
+                1
+            ],
+            "pre_delay": 100000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                4
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                5
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "核心增幅器",
+            "location": [
+                9,
+                1
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                4
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                1
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                4
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                4
+            ],
+            "pre_delay": 1000
+        }
+    ],
+    "doc": {
+        "title": "（高练注意）（隐藏解锁注意）第十四章 慈悲灯塔 - 14-18（磨难） - 在炽燃间咆哮",
+        "details": "统计日期：2024-05-24\n好评率：98.09%  浏览量：23316\n来源：landgranf  ID：36755\n注意 需要限定浊心斯卡蒂   克洛丝可换其它速狙 \n请手动携带任意职介阿米娅\n原作者：爱吃鱼的阿欠  https://www.bilibili.com/video/BV1tH4y1V766/\nJSON作者landgranf"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿米娅",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

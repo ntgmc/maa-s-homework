@@ -1,0 +1,134 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_kc_6",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "rear_delay": 4000
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                5,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left",
+            "rear_delay": 7000
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                2,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "战术演习 - LS-6 - 运动战演习",
+        "details": "统计日期：2024-05-24\n好评率：92.86%  浏览量：1874\n来源：_ 蘿卜卜  ID：22526\nBV11L411D7uR\nup：星枫染榭泓\n视频练度：2603，令2级Y模组\n已测试"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

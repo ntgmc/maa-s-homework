@@ -1,0 +1,72 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "H5-1 四人稳定挂机",
+        "details": "统计日期：2024-05-24\n好评率：82.61%  浏览量：892\n来源：一只摆烂的42  ID：22289\n侬无言以对\n原视频：https://www.bilibili.com/video/BV14P4y1Y7Vs/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "hard_05-01",
+    "opers": [
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "白金",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "白金",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "左"
+        }
+    ]
+}

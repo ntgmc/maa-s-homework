@@ -1,0 +1,78 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_fly_5",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "速狙",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 43
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "空中威胁 - CA-5 - 战略要道净空",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：676\n来源：萨拉托加  ID：37274\n【维什戴尔logos双人CA-5    啊？投掷手？啊？】 https://www.bilibili.com/video/BV181421X7EU/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "速狙",
+            "opers": [
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "能天使",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

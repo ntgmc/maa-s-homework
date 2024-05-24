@@ -1,0 +1,159 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_14-19",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "凯尔希",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "Mon3tr",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "凯尔希",
+            "location": [
+                9,
+                4
+            ],
+            "pre_delay": 4000
+        },
+        {
+            "type": "Deploy",
+            "name": "鸿雪",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                5,
+                5
+            ],
+            "cost_changes": 18
+        },
+        {
+            "type": "Retreat",
+            "name": "Mon3tr",
+            "location": [
+                9,
+                3
+            ],
+            "kills": 26
+        },
+        {
+            "type": "Deploy",
+            "name": "Mon3tr",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                5,
+                5
+            ],
+            "cost_changes": 16
+        },
+        {
+            "type": "Deploy",
+            "name": "“打字机”",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "鸿雪",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "凯尔希",
+            "location": [
+                9,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "location": [
+                5,
+                4
+            ]
+        }
+    ],
+    "doc": {
+        "title": "【速刷】第十四章 慈悲灯塔 - 14-21（标准） - 万千愿景",
+        "details": "统计日期：2024-05-24\n好评率：52.63%  浏览量：1095\n来源：Miaoyako  ID：36928\n是标准！！！\n是标准！！！\n是标准！！！\n\n攻略参考\nhttps://www.bilibili.com/video/av1003820455/\n攻略up：肝折直\n作业作者：滨路\n练度参考视频\n为了保证稳定加了个42奶奶，要去除的可以参照视频去打"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "鸿雪",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "凯尔希",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

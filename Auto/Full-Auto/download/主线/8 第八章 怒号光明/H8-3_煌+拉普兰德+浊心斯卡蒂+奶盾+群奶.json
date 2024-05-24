@@ -1,0 +1,113 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "H8-3 摆完挂机",
+        "details": "统计日期：2024-05-24\n好评率：84.07%  浏览量：2943\n来源：Chiho  ID：28123\nup:侬无言以对\nlink：【【明日方舟】h8-3摆完挂机（替代思路）】 https://www.bilibili.com/video/BV1Sq4y1r7x2/?share_source=copy_web&vd_source=dcc7ddeba31e59bccd51d29a07ff1565\n精二603\n白面鸮替换了夜莺  塞雷娅可过 临光替换未测试 \n坐标主线14章 我以前没夜莺的小号也抽到夜莺啦 有夜莺的博士还是使用夜莺吧~视频里煌跟拉普兰德都没带模组"
+    },
+    "stage_name": "hard_08-03",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "群奶",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "白面鸮",
+            "kills": 41
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "群奶",
+            "opers": [
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ]
+}

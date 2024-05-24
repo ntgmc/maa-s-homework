@@ -1,0 +1,119 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_sunbr_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "流星",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "杰西卡",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "安德切尔",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "costs": 11
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "costs": 18
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 6,
+            "pre_delay": 4000,
+            "rear_delay": 0
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 15,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Skill",
+            "kills": 15,
+            "pre_delay": 5500,
+            "location": [
+                1,
+                2
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "重装 - 古米 - 战场烹调师",
+        "details": "统计日期：2024-05-24\n好评率：91.67%  浏览量：1041\n来源：Fr0zzen  ID：28624\n参考视频：【【明日方舟】古米 悖论模拟/无需专精/看一遍就过/简单操作/长夜临光】 https://www.bilibili.com/video/BV17h411t7Lh/?share_source=copy_web&vd_source=d367282aa767b38fef0fe88494c1921c\nup主：倾九_Komy\n对站位稍微做了调整，按照原视频克洛丝在前会出现古米来不及奶的情况导致克洛丝被烧死，所以将杰西卡放到了克洛丝前面"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "古米",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "流星",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "杰西卡",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

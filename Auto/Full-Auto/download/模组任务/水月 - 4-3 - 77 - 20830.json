@@ -1,0 +1,58 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "水月模组-使者之约",
+        "details": "统计日期：2024-05-24\n好评率：77.78%  浏览量：478\n来源：作业代传——有问题联系原作者  ID：20830\n侬无言以对:BV14S4y1s7vy\n本作业未验证，有问题请找我。\n筱竹聽雨"
+    },
+    "stage_name": "4-3",
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "水月",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "水月",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        }
+    ]
+}

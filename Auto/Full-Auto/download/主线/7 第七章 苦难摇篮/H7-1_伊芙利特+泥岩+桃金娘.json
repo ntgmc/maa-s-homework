@@ -1,0 +1,85 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_07-01",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "第七章 苦难摇篮 - H7-1 - 星火行动-1",
+        "details": "统计日期：2024-05-24\n好评率：97.74%  浏览量：3664\n来源：yc.exe  ID：21491\n参考视频：BV16T4y1Y7DG 作者：祈星_Estrella\nyc.exe"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

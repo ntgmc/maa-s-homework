@@ -1,0 +1,105 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_judge_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伺夜",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "狼群",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "costs": 26,
+            "name": "德克萨斯",
+            "location": [
+                5,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "斥罪",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "斥罪",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 28
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                2
+            ],
+            "costs": 97
+        },
+        {
+            "type": "Skill",
+            "name": "斥罪",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "德克萨斯",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "斥罪",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "重装 - 斥罪 - 坚如信念  悖论模拟",
+        "details": "统计日期：2024-05-24\n好评率：93.55%  浏览量：6150\n来源：fantuan  ID：35926\n   自打作业  本人斥罪2907  三级模组（自测试无模组也能过）  200信赖  无潜能\n\n  所以不具备低练的参考意义    具体等级和模组可以压到多低请自行探索   感谢"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "斥罪",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

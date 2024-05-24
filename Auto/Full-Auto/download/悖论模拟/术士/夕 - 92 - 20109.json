@@ -1,0 +1,43 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_dusk_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "嵯峨",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "夕",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "夕 悖论模拟 无需专精 有一定等级需求",
+        "details": "统计日期：2024-05-24\n好评率：92.36%  浏览量：5424\n来源：鱼丸不是鱼van  ID：20109\n攻略作者：鱼丸 视频没有捏\n自动战斗作者：鱼丸\n请使用 夕 一技能\n夕技能无需专精、模组。 对夕等级可能有一定要求\n测试时 夕 为60级七级技能"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "嵯峨",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 0
+}

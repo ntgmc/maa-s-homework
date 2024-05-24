@@ -1,0 +1,127 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act12d0_ex04",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "洛洛",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "铃兰",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "洛洛",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 10
+        },
+        {
+            "type": "Skill",
+            "name": "铃兰",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "洛洛",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "铃兰",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "密林悍将归来·复刻 - RI-EX-4 - 顾此失彼【洛洛模组任务】未命名的无人机",
+        "details": "统计日期：2024-05-24\n好评率：83.33%  浏览量：120\n来源：小卡拉帕鲁灰🐖  ID：30674\n洛洛模组任务：未命名的无人机\n任务要求：3星通关别传RI-EX-4;必须编入非助战洛洛并上场，且使用洛洛歼灭至少2名提亚卡乌冠军\n练度：泥岩和山练度要高点2903\n"
+    },
+    "groups": [
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "洛洛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

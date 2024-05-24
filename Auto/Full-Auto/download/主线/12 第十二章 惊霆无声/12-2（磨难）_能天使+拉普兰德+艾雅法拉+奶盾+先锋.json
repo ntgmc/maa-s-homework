@@ -1,0 +1,107 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_12-01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "先锋",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "第十二章 惊霆无声 - 12-2（磨难） - 静候驾临",
+        "details": "统计日期：2024-05-24\n好评率：89.47%  浏览量：3922\n来源：Chiho  ID：28388\nup:侬无言以对\nlink：【【明日方舟】12-2摆完挂机（惊霆无声-磨难险地）】 https://www.bilibili.com/video/BV1Ra4y1M7Y6/?share_source=copy_web&vd_source=dcc7ddeba31e59bccd51d29a07ff1565\n精二603"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "先锋",
+            "opers": [
+                {
+                    "name": "山",
+                    "skill": 2,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "推进之王",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
