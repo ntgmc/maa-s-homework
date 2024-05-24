@@ -32,8 +32,8 @@ source_list = ["插曲", "别传"]
 
 for source in source_list:
 
-    source_folder_base = fr"插曲&别传\{source}"
-    destination_folder = fr"插曲&别传\{source}\压缩包"
+    source_folder_base = f"插曲&别传/{source}"
+    destination_folder = f"插曲&别传/{source}/压缩包"
 
     # 遍历需要压缩的文件夹并进行压缩
     for folder_name in os.listdir(source_folder_base):
@@ -97,9 +97,7 @@ folders = [
 
 # 指定目标文件夹路径
 target_dir = "【下载看这里】合集下载"
-
-os.makedirs(target_dir, exist_ok=True)
-
+check_file_exists("【下载看这里】合集下载/ALL-*")
 # 生成压缩文件名
 zip_file_name = "ALL-" + datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S") + ".zip"
 
