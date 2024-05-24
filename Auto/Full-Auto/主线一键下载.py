@@ -22,8 +22,9 @@ date = datetime.now().strftime('%Y-%m-%d')
 def makedir():
     os.makedirs(f'./download/往期剿灭', exist_ok=True)
     os.makedirs(f'./download/资源关', exist_ok=True)
-    for _stage in range(len(all_dict['主题曲'])):
-        os.makedirs(f'./download/主线/第{_stage}章', exist_ok=True)
+    for _stage, item in all_dict['主题曲'].items():
+        i = get_stage_info(item[0]['stage_id'])
+        os.makedirs(f'./download/主线/{i} {_stage}', exist_ok=True)
 
 
 def write_to_file(file_path, content):
@@ -84,7 +85,7 @@ def replace_special_char(text):
     return text.replace('/', '').replace('\\', '')
 
 
-def generate_filename(name, data, mode, stage_name):
+def generate_filename(name, data, mode, cat_two, stage_name):
     if not stage_name:
         stage_name = get_level_name(name)
     _stage = get_stage_info(stage_name)
@@ -97,7 +98,7 @@ def generate_filename(name, data, mode, stage_name):
     if len(names) > 220:
         names = "文件名过长不予显示"
     if mode == 1:
-        file_path = f'./download/主线/第{_stage}章/{stage_name}_{names}.json'
+        file_path = f'./download/主线/{_stage} {cat_two}/{stage_name}_{names}.json'
     elif mode == 2:
         file_path = f'./download/往期剿灭/{stage_name}_{names}.json'
     elif mode == 3:
@@ -107,7 +108,7 @@ def generate_filename(name, data, mode, stage_name):
     return file_path
 
 
-def search(keyword, path_mode=1, filter_mode=0, cat_three=None):
+def search(keyword, path_mode=1, filter_mode=0, cat_two=None, cat_three=None):
     if any(substring in keyword for substring in ['#f#', 'easy']):
         return
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={keyword}&desc=true&orderBy=views"
@@ -117,12 +118,12 @@ def search(keyword, path_mode=1, filter_mode=0, cat_three=None):
     }
     _response = requests.get(url, headers=_headers)
     if _response.ok:
-        filter_data(_response.json(), keyword, path_mode, filter_mode, cat_three)
+        filter_data(_response.json(), keyword, path_mode, filter_mode, cat_two, cat_three)
     else:
         print(f"请求 {keyword} 失败")
 
 
-def filter_data(data, keyword, path_mode, filter_mode, cat_three):
+def filter_data(data, keyword, path_mode, filter_mode, cat_two, cat_three):
     global no_result
     total = data['data'].get('total', 0)
     if total > 0:
@@ -139,7 +140,7 @@ def filter_data(data, keyword, path_mode, filter_mode, cat_three):
                 view = item.get('views', 0)
                 if percent >= score_threshold and view >= view_threshold:
                     content = json.loads(item['content'])
-                    file_path = generate_filename(keyword, content, path_mode, cat_three)
+                    file_path = generate_filename(keyword, content, path_mode, cat_two, cat_three)
                     content['doc'][
                         'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
                                      content['doc']['details']
@@ -163,7 +164,7 @@ def filter_data(data, keyword, path_mode, filter_mode, cat_three):
 
 def search_stage(keyword):
     for level in all_dict['主题曲'][keyword]:
-        search(level['stage_id'], cat_three=level['cat_three'])
+        search(level['stage_id'], cat_two=keyword, cat_three=level['cat_three'])
 
 
 def search_camp(keyword):
