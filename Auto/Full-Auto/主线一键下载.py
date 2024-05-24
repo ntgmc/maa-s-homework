@@ -80,14 +80,6 @@ def get_stage_info(text):  # 返回第一个-前的整数
         return None
 
 
-def get_sub_stage_info(text):
-    match = re.search(r"sub_(\d+)-", text)
-    if match:
-        return int(match.group(1))
-    else:
-        return None
-
-
 def replace_special_char(text):
     return text.replace('/', '').replace('\\', '')
 

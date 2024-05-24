@@ -1,0 +1,54 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "a001_05",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "推进之王",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "棘刺",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "棘刺",
+      "kills": 11
+    },
+    {
+      "type": "Skill",
+      "name": "棘刺",
+      "kills": 33
+    }
+  ],
+  "doc": {
+    "title": "【扭转醇速刷】骑兵与猎人·复刻 - GT-5 - 各抒己见",
+    "details": "化学老施的2人速刷作业\nhttps://www.bilibili.com/video/BV1UK4y187zC/\n如果因练度不够导致不能三星，建议更换其他作业\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "棘刺",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "推进之王",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

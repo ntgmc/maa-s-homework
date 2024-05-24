@@ -1,0 +1,88 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act31side_s01",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "塑心",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "号角",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Left",
+      "kills": 1
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        2,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "夜莺",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Left"
+    }
+  ],
+  "doc": {
+    "title": "HS-S-1 - 作物种质库 无林",
+    "details": "UP：不艾特浑身难受\nhttps://www.bilibili.com/video/BV1jj421X7rv/\n原来蚊子是这样解决的，塑心牛逼\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "号角",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塑心",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "夜莺",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

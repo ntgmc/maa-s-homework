@@ -1,0 +1,60 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "tough_14-17",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SpeedUp",
+      "costs": 20
+    },
+    {
+      "type": "Deploy",
+      "name": "维什戴尔",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Output",
+      "doc_color": "SpringGreen",
+      "doc": "[1] 35杀 关技能"
+    },
+    {
+      "type": "Skill",
+      "name": "维什戴尔",
+      "kills": 35
+    },
+    {
+      "type": "Output",
+      "doc_color": "SpringGreen",
+      "doc": "[2] 59杀 关技能"
+    },
+    {
+      "type": "Skill",
+      "kills": 59,
+      "name": "维什戴尔"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "第十四章 慈悲灯塔 - 14-19（磨难） - 晶簇之内",
+    "details": "无聊于是进行一个作业的写\nUP：冰海孤魂\n原视频：https://www.bilibili.com/video/BV1zM4m1Z7RW/\n练度60级专三1级模组\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ\n"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "维什戴尔",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}

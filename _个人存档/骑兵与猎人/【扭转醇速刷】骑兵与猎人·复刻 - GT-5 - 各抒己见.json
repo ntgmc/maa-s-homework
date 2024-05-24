@@ -1,0 +1,52 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "a001_05",
+  "actions": [
+    {
+      "type": "BulletTime",
+      "name": "能天使"
+    },
+    {
+      "type": "Deploy",
+      "name": "银灰",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "costs": 27,
+      "name": "能天使",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【扭转醇速刷】骑兵与猎人·复刻 - GT-5 - 各抒己见",
+    "details": "化学老施的2人速刷作业\nhttps://www.bilibili.com/video/BV1UK4y187zC?p=2\n！！！需要银灰减一费/德克萨斯！！！\n如果因练度不够导致不能三星，建议更换其他作业\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "银灰",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "能天使",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}

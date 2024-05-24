@@ -60,8 +60,7 @@
   "actions": [
     {
       "type": "二倍速",
-      "name": "",
-      "rear_delay": 0
+      "name": ""
     },
     {
       "type": "Deploy",
@@ -70,8 +69,7 @@
         6,
         5
       ],
-      "direction": "Up",
-      "rear_delay": 0
+      "direction": "Up"
     },
     {
       "type": "部署",
@@ -80,8 +78,7 @@
         5,
         5
       ],
-      "direction": "左",
-      "rear_delay": 0
+      "direction": "左"
     },
     {
       "type": "部署",
@@ -90,8 +87,7 @@
         7,
         5
       ],
-      "direction": "右",
-      "rear_delay": 0
+      "direction": "右"
     },
     {
       "type": "部署",
@@ -100,8 +96,7 @@
         2,
         7
       ],
-      "direction": "上",
-      "rear_delay": 0
+      "direction": "上"
     },
     {
       "type": "部署",
@@ -110,8 +105,7 @@
         8,
         7
       ],
-      "direction": "上",
-      "rear_delay": 0
+      "direction": "上"
     },
     {
       "type": "部署",
@@ -120,8 +114,7 @@
         5,
         4
       ],
-      "direction": "右",
-      "rear_delay": 0
+      "direction": "右"
     },
     {
       "type": "部署",
@@ -130,8 +123,7 @@
         3,
         2
       ],
-      "direction": "右",
-      "rear_delay": 0
+      "direction": "右"
     },
     {
       "type": "部署",
@@ -140,30 +132,26 @@
         6,
         4
       ],
-      "direction": "右",
-      "rear_delay": 0
+      "direction": "右"
     },
     {
       "type": "撤退",
-      "name": "推进之王",
-      "rear_delay": 2000
+      "name": "推进之王"
     },
     {
       "type": "技能",
       "kills": 24,
       "name": "艾雅法拉",
-      "rear_delay": 0
+      "pre_delay": 2000
     },
     {
       "type": "撤退",
       "kills": 30,
-      "name": "德克萨斯",
-      "rear_delay": 0
+      "name": "德克萨斯"
     },
     {
       "type": "撤退",
-      "name": "艾雅法拉",
-      "rear_delay": 0
+      "name": "艾雅法拉"
     },
     {
       "type": "部署",
@@ -172,8 +160,7 @@
         11,
         5
       ],
-      "direction": "左",
-      "rear_delay": 0
+      "direction": "左"
     },
     {
       "type": "部署",
@@ -182,8 +169,7 @@
         11,
         4
       ],
-      "direction": "上",
-      "rear_delay": 0
+      "direction": "上"
     },
     {
       "type": "部署",
@@ -192,14 +178,13 @@
         11,
         3
       ],
-      "direction": "上",
-      "rear_delay": 7000
+      "direction": "上"
     },
     {
       "type": "技能",
       "kills": 36,
       "name": "闪灵",
-      "rear_delay": 5000
+      "pre_delay": 7000
     },
     {
       "type": "Deploy",
@@ -209,19 +194,17 @@
         2
       ],
       "direction": "Down",
-      "rear_delay": 0
+      "pre_delay": 5000
     },
     {
       "type": "SkillUsage",
       "name": "艾雅法拉",
-      "skill_usage": 1,
-      "rear_delay": 0
+      "skill_usage": 1
     },
     {
       "type": "Output",
       "doc_color": "DeepSkyBlue",
-      "doc": "如果艾雅法拉因为早下死了，等回转再部署即可",
-      "rear_delay": 0
+      "doc": "如果艾雅法拉因为早下死了，等回转再部署即可"
     },
     {
       "type": "部署",
@@ -230,8 +213,7 @@
         5,
         3
       ],
-      "direction": "右",
-      "rear_delay": 0
+      "direction": "右"
     },
     {
       "type": "部署",
@@ -240,13 +222,13 @@
         10,
         5
       ],
-      "direction": "上",
-      "rear_delay": 0
+      "direction": "上"
     },
     {
       "type": "摆完挂机",
       "name": ""
     }
   ],
-  "groups": []
+  "groups": [],
+  "difficulty": 3
 }
