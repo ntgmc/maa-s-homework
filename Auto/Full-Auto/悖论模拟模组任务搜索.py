@@ -6,6 +6,7 @@ import glob
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 
+os.chdir(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 download_mode = True
 download_score_threshold = 50
 job_categories = ['先锋', '近卫', '重装', '狙击', '术士', '医疗', '辅助', '特种']
@@ -62,7 +63,7 @@ def code_output(percent, _id, mode):
 
 
 def check_file_exists(_job, keyword, _id):  # 判断是否存在相同id但评分不同的文件
-    pattern = f"./download/悖论模拟/{_job}/{keyword} - * - {_id}.json"
+    pattern = f"悖论模拟/{_job}/{keyword} - * - {_id}.json"
     matching_files = glob.glob(pattern)
     if len(matching_files) > 0:
         for file_name in matching_files:
@@ -71,7 +72,7 @@ def check_file_exists(_job, keyword, _id):  # 判断是否存在相同id但评�
 
 
 def check_file_exists2(name, stage, _id):  # 判断是否存在相同id但评分不同的文件
-    pattern = f"./download/模组任务/{name} - {stage} - * - {_id}.json"
+    pattern = f"模组任务/{name} - {stage} - * - {_id}.json"
     matching_files = glob.glob(pattern)
     if len(matching_files) > 0:
         for file_name in matching_files:
@@ -108,7 +109,7 @@ def search_paradox(name, stage_id, _job=None):
 
                 # 只下载评分最高的三个项目
                 for percent, item in items_to_download[:3]:
-                    file_path = f"./download/悖论模拟/{_job}/{name} - {int(percent)} - {item['id']}.json"
+                    file_path = f"悖论模拟/{_job}/{name} - {int(percent)} - {item['id']}.json"
                     if not os.path.exists(file_path):
                         check_file_exists(_job, name, item['id'])
                         content = json.loads(item['content'])
@@ -154,7 +155,7 @@ def search_module(name, stage):
 
                 # 只下载评分最高的三个项目
                 for percent, item in items_to_download[:3]:
-                    file_path = f"./download/模组任务/{name} - {stage} - {int(percent)} - {item['id']}.json"
+                    file_path = f"模组任务/{name} - {stage} - {int(percent)} - {item['id']}.json"
                     if not os.path.exists(file_path):
                         check_file_exists2(name, stage, item['id'])
                         content = json.loads(item['content'])
@@ -185,9 +186,9 @@ def extract_tr_contents(html_content):
 
 def main_paradox():
     # 读取关键字文件
-    keywords_file = './keywords.txt'
-    output_file_develop = './paradox_develop.txt'
-    output_file_user = './paradox_user.txt'
+    keywords_file = 'Auto/Full-Auto/keywords.txt'
+    output_file_develop = 'Auto/Full-Auto/paradox_develop.txt'
+    output_file_user = 'Auto/Full-Auto/paradox_user.txt'
     results = []
     job_now = -1
     paradox_dict = built_paradox_dict(get_level_data())
@@ -241,8 +242,8 @@ def main_paradox():
 
 
 def main_module():
-    output_file_develop = './module_develop.txt'
-    output_file_user = './module_user.txt'
+    output_file_develop = 'Auto/Full-Auto/module_develop.txt'
+    output_file_user = 'Auto/Full-Auto/module_user.txt'
     results = []
     headers = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0',
@@ -278,8 +279,8 @@ def main_module():
 
 if download_mode:
     for job in job_categories:
-        os.makedirs(f'./download/悖论模拟/{job}', exist_ok=True)
-    os.makedirs(f'./download/模组任务', exist_ok=True)
+        os.makedirs(f'悖论模拟/{job}', exist_ok=True)
+    os.makedirs(f'模组任务', exist_ok=True)
 # search("缪尔赛思", '先锋')
 main_paradox()
 main_module()

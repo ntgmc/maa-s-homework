@@ -16,6 +16,14 @@ def zip_json_files(_source_folder, _destination_file):
                     zipf.write(file_path, arcname=os.path.relpath(file_path, _source_folder))
 
 
+def check_file_exists(pattern):
+    matching_files = glob.glob(pattern)
+    if len(matching_files) > 0:
+        for file_name in matching_files:
+            os.remove(file_name)
+            print(f"Removed {file_name}")
+
+
 def count_files_in_directory(directory):
     return sum([len(files) for r, d, files in os.walk(directory)])
 
@@ -54,16 +62,15 @@ for source in source_list:
 source2_list = ["往期剿灭", "模组任务", "悖论模拟", "资源关"]
 
 for source_folder in source2_list:
+    check_file_exists(f"【下载看这里】合集下载/{source_folder}-*")
     total_files = count_files_in_directory(source_folder)
     destination_file = os.path.join("【下载看这里】合集下载",
                                     os.path.basename(source_folder) + "-" + str(total_files) + ".zip")
-    # 如果目标文件存在，就删除它
-    if os.path.exists(destination_file):
-        os.remove(destination_file)
-
     # 压缩指定类型文件
     zip_json_files(source_folder, destination_file)
     print(f"成功压缩{destination_file}")
+
+check_file_exists("【下载看这里】合集下载/【当前活动】*")
 # 当前活动
 now_activity_folders = glob.glob("【当前活动】*")
 # 遍历所有匹配的文件夹
