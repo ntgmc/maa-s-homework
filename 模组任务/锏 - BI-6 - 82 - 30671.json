@@ -1,0 +1,94 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act14side_06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "推进之王",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "锏",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "锏",
+            "kills": 21,
+            "pre_delay": 8000
+        },
+        {
+            "type": "Skill",
+            "name": "锏",
+            "kills": 31,
+            "pre_delay": 8000
+        },
+        {
+            "type": "Skill",
+            "name": "锏",
+            "kills": 40,
+            "pre_delay": 5000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "风雪过境·复刻 - BI-6 - 歧路 锏模组“过往的注脚”任务",
+        "details": "统计日期：2024-05-18\n好评率：82.08%  浏览量：4219\n来源：萨拉托加  ID：30671\n锏模组任务“过往的注脚”\n完成5次战斗;必须编入非助战锏并上场，且每次战斗至少释放1次归于宁静\n3星通关别传BI-6;必须编入非助战锏并上场，且使用锏至少歼灭10个敌人\n原作者是涂绘天菜 JSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业\n【【明日方舟】黑骑士锏 模组任务 四人半挂机打法 极其好抄】 https://www.bilibili.com/video/BV1pw411b7iX/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "锏",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 0
+}

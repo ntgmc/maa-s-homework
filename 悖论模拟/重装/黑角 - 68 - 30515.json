@@ -1,0 +1,183 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_noirc_1",
+    "actions": [
+        {
+            "type": "Output",
+            "doc_color": "Gold",
+            "doc": "子弹时间期间请勿操作"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "安德切尔",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "BulletTime",
+            "name": "克洛丝",
+            "location": [
+                2,
+                2
+            ],
+            "costs": 23
+        },
+        {
+            "type": "Deploy",
+            "name": "杜林",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left",
+            "costs": 26
+        },
+        {
+            "type": "BulletTime",
+            "name": "杜林",
+            "location": [
+                4,
+                2
+            ],
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "史都华德",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left",
+            "costs": 19
+        },
+        {
+            "type": "BulletTime",
+            "name": "杜林",
+            "location": [
+                4,
+                2
+            ],
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "BulletTime",
+            "name": "夜刀",
+            "location": [
+                6,
+                3
+            ],
+            "pre_delay": 10000
+        },
+        {
+            "type": "Retreat",
+            "name": "夜刀",
+            "location": [
+                6,
+                3
+            ],
+            "costs": 13,
+            "pre_delay": 2300
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 22
+        },
+        {
+            "type": "Skill",
+            "kills": 23,
+            "name": "安德切尔",
+            "location": [
+                2,
+                4
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "安德切尔",
+            "skill_usage": 1
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 37
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "重装 - 黑角 - 最速防线-【黑角悖论模拟】",
+        "details": "统计日期：2024-05-25\n好评率：68.75%  浏览量：2051\n来源：小卡拉帕鲁灰🐖  ID：30515\n黑角悖论模拟\n悖论模拟需要在MAA中关闭“自动编队”，\n处于红色ui的“开始模拟”界面，maa就可以按开始了\n子弹时间期间，不要碰屏幕不然会翻车\n有极小概率左边漏怪，重开一边就好了\n其余作业不稳定，我补一个；"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "杜林",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "史都华德",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
