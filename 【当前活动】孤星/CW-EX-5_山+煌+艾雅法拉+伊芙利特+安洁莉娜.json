@@ -1,0 +1,91 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act25side_ex05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "安洁莉娜",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Output",
+            "doc_color": "#6f42c1",
+            "doc": "亲~给个好评吧~"
+        }
+    ],
+    "doc": {
+        "title": "CW-EX-5 摆完挂机 自用",
+        "details": "统计日期：2024-05-24\n好评率：96.67%  浏览量：1031\n来源：空桑不放夜风回  ID：23508\n萧然：BV1ch4y1J7x2\n突袭&任务（重力方向改变最多3次）\n筱竹聽雨\n洁哥替换铃兰"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "安洁莉娜",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

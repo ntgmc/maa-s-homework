@@ -1,0 +1,107 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_kc_6",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 2
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 6,
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 19,
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "kills": 22,
+            "name": "逻各斯",
+            "location": [
+                5,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 33,
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                3,
+                3
+            ],
+            "pre_delay": 25000
+        },
+        {
+            "type": "Skill",
+            "name": "逻各斯",
+            "location": [
+                5,
+                4
+            ],
+            "pre_delay": 2000
+        }
+    ],
+    "doc": {
+        "title": "LS-6 二人速刷（自用）",
+        "details": "统计日期：2024-05-25\n好评率：95.65%  浏览量：1196\n来源：于羽TyX  ID：37060\n维什戴尔 三技能专三\n逻各斯 三技能7级"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

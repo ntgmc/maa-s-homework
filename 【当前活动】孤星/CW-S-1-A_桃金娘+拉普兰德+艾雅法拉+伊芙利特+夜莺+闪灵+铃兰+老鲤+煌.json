@@ -1,0 +1,151 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act25side_s01_a",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "BulletTime",
+            "name": "桃金娘",
+            "location": [
+                10,
+                1
+            ],
+            "costs": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "铃兰",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "老鲤",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Up"
+        }
+    ],
+    "doc": {
+        "title": "孤星 - CW-S-1-A - 花式滑冰·α",
+        "details": "统计日期：2024-05-24\n好评率：88.89%  浏览量：1959\n来源：晚霞再美不及你  ID：23495\nhttps://www.bilibili.com/video/BV1gs4y1M7Dm/?vd_source=47fc46e6fbc608bce830943ab74f60ef\nUP自在道爷，视频中干员等级全员精2，60级，1级模组，技能专3\n本作业下德狗需要17费，不然会漏狗。\n建议全部挂机作业都手动加入风笛和先锋德狗增加下干员容错率。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "老鲤",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

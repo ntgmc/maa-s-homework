@@ -1,0 +1,50 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_c_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "BulletTime",
+            "name": "能天使",
+            "costs": 9
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                4,
+                2
+            ],
+            "kills": 4,
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "势不可挡 - PR-C-1 - 急行【德克萨斯+能天使】",
+        "details": "统计日期：2024-05-25\n好评率：100.0%  浏览量：160\n来源：竟然不能小于4位  ID：34650\n参考视频：https://www.bilibili.com/BV1sK4y197K8\n德克萨斯部署费用最高10cost，再高了放不下漏怪\n能天使3技能专三"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

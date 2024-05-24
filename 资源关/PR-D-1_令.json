@@ -1,76 +1,71 @@
 {
     "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "PR-D-1",
+        "details": "统计日期：2024-05-25\n好评率：100.0%  浏览量：106\n来源：tang  ID：28218\n如遇到无法识别“弦惊”“清平”“逍遥”，删除cache/avatars 下的头像重新启动MMA\n测试为90级三模专6令\n作者-唐"
+    },
     "stage_name": "pro_d_1",
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
     "actions": [
         {
-            "type": "SpeedUp"
+            "type": "二倍速",
+            "name": ""
         },
         {
-            "type": "Deploy",
+            "type": "部署",
             "name": "令",
             "location": [
                 2,
                 3
             ],
-            "direction": "Down"
+            "direction": "下"
         },
         {
-            "type": "SkillUsage",
-            "name": "令",
-            "skill_usage": 1
-        },
-        {
-            "type": "Deploy",
+            "type": "部署",
             "name": "“弦惊”",
             "location": [
                 9,
-                3
+                6
             ],
-            "direction": "Down"
+            "direction": "左"
         },
         {
-            "type": "Deploy",
+            "type": "部署",
             "name": "“弦惊”",
             "location": [
                 4,
                 4
             ],
-            "direction": "Right",
-            "costs": 30
+            "direction": "右"
         },
         {
-            "type": "Deploy",
+            "type": "部署",
             "name": "“弦惊”",
             "location": [
                 3,
                 6
             ],
-            "direction": "Right",
-            "costs": 42
+            "direction": "右"
         },
         {
-            "type": "SkillUsage",
+            "type": "技能",
+            "kills": 59,
             "name": "令",
-            "skill_usage": 2,
-            "kills": 36
+            "location": [
+                2,
+                3
+            ],
+            "direction": "下"
         },
         {
-            "type": "SkillUsage",
-            "name": "令",
-            "skill_usage": 2,
-            "kills": 68
-        }
-    ],
-    "doc": {
-        "title": "【明日方舟】令单人PR-D-1信赖速刷，低等级需模组，无需专精",
-        "details": "统计日期：2024-05-18\n好评率：83.33%  浏览量：1618\n来源：einal  ID：21149\n作者：夏之婿\n【明日方舟】令单人PR-D-1信赖速刷，低等级需模组，无需专精\nhttps://www.bilibili.com/video/BV1Zr4y1H7Wv/?spm_id_from=333.337.search-card.all.click&vd_source=1d9f937cf839eebf2c2a69fa764c3a7c\n十分简单的一张图，没有技术含量，令等级不够可能会漏怪\n不要带影响费用的角色\n有问题私信B站号：河蟹Ein-albtraum "
-    },
-    "groups": [],
-    "opers": [
-        {
-            "name": "令",
-            "skill": 3,
-            "skill_usage": 1
+            "type": "摆完挂机",
+            "name": ""
         }
     ]
 }

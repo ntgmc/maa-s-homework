@@ -1,0 +1,139 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_c_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Up",
+            "costs": 9
+        },
+        {
+            "type": "Deploy",
+            "name": "翎羽",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Up",
+            "costs": 9
+        },
+        {
+            "type": "Deploy",
+            "name": "梓兰",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right",
+            "costs": 8
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left",
+            "costs": 10
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up",
+            "costs": 19
+        },
+        {
+            "type": "Deploy",
+            "name": "安德切尔",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up",
+            "costs": 10
+        },
+        {
+            "type": "Deploy",
+            "name": "空爆",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "costs": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "讯使",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Up",
+            "costs": 8
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "势不可挡 - PR-C-1 - 急行",
+        "details": "统计日期：2024-05-25\n好评率：100.0%  浏览量：275\n来源：CKBC  ID：28160\n攻略来自UP主: 白熊Yome\nhttps://www.bilibili.com/video/BV1zG411W7N3\n\n自用测试"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "空爆",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "翎羽",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "讯使",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "梓兰",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}
