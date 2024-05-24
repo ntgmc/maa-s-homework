@@ -37,10 +37,10 @@ jobs:
           cd Auto
           python 主线.py
       
-      - name: 运行 ALL.py
-        run: |
-          cd Auto
-          python ALL.py
+      # - name: 运行 ALL.py
+      #   run: |
+      #     cd Auto
+      #     python ALL.py
           
       - name: 配置 Git 用户信息
         run: |
