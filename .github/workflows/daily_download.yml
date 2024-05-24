@@ -56,8 +56,8 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Update data"
-          title: "Data update"
-          body: "Automatic pull request created to update data"
+          commit-message: "Auto Update By Github Action"
+          title: "Auto Update By Github Action"
+          body: "Auto Update By Github Action"
           branch: "auto-update-branch"
       
