@@ -1,0 +1,193 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_13-16",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "“打字机”",
+            "location": [
+                10,
+                3
+            ],
+            "costs": 9
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "“打字机”",
+            "location": [
+                7,
+                2
+            ],
+            "costs": 9
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left",
+            "costs": 28
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                6,
+                5
+            ],
+            "costs": 23
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Left",
+            "costs": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                4
+            ],
+            "costs": 0,
+            "kills": 23
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                4,
+                1
+            ],
+            "costs": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Up",
+            "costs": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                1
+            ],
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right",
+            "costs": 0
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                6,
+                5
+            ],
+            "costs": 34
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                4,
+                1
+            ],
+            "kills": 32
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十三章 恶兆湍流 - 13-18（标准） - 挺起胸膛",
+        "details": "统计日期：2024-05-24\n好评率：83.33%  浏览量：409\n来源：Dayheart  ID：31882\n测试中....\n【【明日方舟】13-18 2人110秒 速刷炽合金】 https://www.bilibili.com/video/BV1nN4y1C75v/?share_source=copy_web&vd_source=cd91394ea743aa4106bdb38b56e52772"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

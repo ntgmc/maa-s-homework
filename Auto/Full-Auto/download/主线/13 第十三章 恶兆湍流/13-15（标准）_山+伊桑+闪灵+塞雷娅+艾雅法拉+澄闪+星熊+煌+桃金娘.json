@@ -1,0 +1,184 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_13-13",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊桑",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "炸弹载荷点",
+            "location": [
+                1,
+                1
+            ],
+            "kills": 8,
+            "costs": 11
+        },
+        {
+            "type": "Skill",
+            "name": "炸弹载荷点",
+            "location": [
+                1,
+                1
+            ],
+            "kills": 15,
+            "costs": 11
+        },
+        {
+            "type": "Skill",
+            "name": "炸弹载荷点",
+            "location": [
+                8,
+                3
+            ],
+            "kills": 16
+        },
+        {
+            "type": "Skill",
+            "name": "炸弹载荷点",
+            "location": [
+                8,
+                3
+            ],
+            "kills": 21
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "13-15（标准）多人快刷",
+        "details": "统计日期：2024-05-24\n好评率：87.5%  浏览量：253\n来源：Dayheart  ID：34231\n好用请给原视频作者三连\n［夜墨］明日方舟主线13-15 新材料环烃聚质 摆完挂机速刷<不↑死↘之↗身↓>】 https://www.bilibili.com/video/BV1HG411m7UB/?share_source=copy_web&vd_source=cd91394ea743aa4106bdb38b56e52772"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "伊桑",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

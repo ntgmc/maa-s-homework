@@ -1,0 +1,74 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act15d0_ex03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "术士",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "孤岛风云·复刻 - MB-EX-3 - 施工漏洞【山模组任务】",
+        "details": "统计日期：2024-05-24\n好评率：99.6%  浏览量：7926\n来源：小卡拉帕鲁灰🐖  ID：32418\n任务要求：3星通关别传MB-EX-3;必须编入非助战山并上场，且不编入其他近卫千员\nJSON作者：灰bao_\n建了个q群（789724611），有啥问题可以进来问"
+    },
+    "groups": [
+        {
+            "name": "术士",
+            "opers": [
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}

@@ -1,0 +1,77 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_fly_5",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "林",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "蓝毒",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up",
+            "kills": 14
+        },
+        {
+            "type": "Skill",
+            "costs": 67,
+            "name": "澄闪",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "澄闪",
+            "kills": 44,
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "空中威胁 - CA-5 技能书 3人闷杀 省时、刷信赖",
+        "details": "统计日期：2024-05-24\n好评率：93.75%  浏览量：605\n来源：陈雨亦七  ID：24339\n不吃练度，精二，7级技能\n蓝毒使用极为先进的尿分叉法伤技能，最好专精能闷杀\n澄闪伤害不够带个艾雅法拉\n林雨霞的技能不需要专精，但是轴会乱，但但是不影响通关（应该）\n改进，bug联系方式QQ：295199593\n低练不行或者什么作业要我写都可以联系我"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "林",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "蓝毒",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

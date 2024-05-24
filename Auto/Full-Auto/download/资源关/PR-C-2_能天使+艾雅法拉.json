@@ -1,0 +1,52 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_c_2",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left",
+            "costs": 21,
+            "pre_delay": 0,
+            "rear_delay": 300
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Output",
+            "doc_color": "DeepSkyBlue",
+            "doc": "摆完挂机，给个好评喵~"
+        }
+    ],
+    "doc": {
+        "title": "PR-C-2  辅助/先锋芯片组 能天使小羊",
+        "details": "统计日期：2024-05-24\n好评率：92.59%  浏览量：919\n来源：Li.zip  ID：24585\nPR-C-2 辅助/先锋芯片组  能羊 刷信赖\nhttps://www.bilibili.com/video/av415141007\n摆完挂机"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

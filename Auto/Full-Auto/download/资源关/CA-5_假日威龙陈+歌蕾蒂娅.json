@@ -1,0 +1,66 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_fly_5",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "假日威龙陈",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "假日威龙陈",
+            "kills": 9,
+            "rear_delay": 0
+        },
+        {
+            "type": "Skill",
+            "name": "假日威龙陈",
+            "kills": 18,
+            "rear_delay": 0
+        },
+        {
+            "type": "Skill",
+            "name": "歌蕾蒂娅",
+            "kills": 35
+        },
+        {
+            "type": "Skill",
+            "name": "假日威龙陈",
+            "kills": 43
+        }
+    ],
+    "doc": {
+        "title": "空中威胁 - CA-5 - 战略要道净空",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：131\n来源：liyu-kun  ID：31197\n歌蕾蒂娅练度应该需要至少精二60，水陈满练，参考视频好像被删除了，有问题请反馈"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "假日威龙陈",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

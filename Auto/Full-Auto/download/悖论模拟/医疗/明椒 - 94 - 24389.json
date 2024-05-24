@@ -1,0 +1,115 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_peper_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "明椒",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "菲亚梅塔",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "costs": 27,
+            "name": "菲亚梅塔"
+        },
+        {
+            "type": "Skill",
+            "name": "米格鲁",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 35
+        },
+        {
+            "type": "Skill",
+            "name": "铎铃",
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "石英",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "明椒",
+            "costs": 59
+        },
+        {
+            "type": "Skill",
+            "name": "明椒",
+            "pre_delay": 12500
+        },
+        {
+            "type": "Skill",
+            "name": "铎铃",
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "石英",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "米格鲁",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "菲亚梅塔"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "菲亚梅塔",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "医疗 - 明椒 - “别动我的同伴！”",
+        "details": "统计日期：2024-05-24\n好评率：94.44%  浏览量：328\n来源：一只摆烂的42  ID：24389\nhttps://www.bilibili.com/video/BV1YV4y1d7Fi/\n练度精二1级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "明椒",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_c_2",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "势不可挡 - PR-C-2 - 冲锋 自用",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：58\n来源：huifu  ID：37489\n势不可挡 - PR-C-2 - 冲锋 自用"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,177 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_b_2",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left",
+            "costs": 28
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "能天使",
+            "kills": 7
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "银灰",
+            "kills": 14
+        },
+        {
+            "type": "Retreat",
+            "name": "银灰",
+            "kills": 34
+        },
+        {
+            "type": "Deploy",
+            "name": "任意地面",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right",
+            "pre_delay": 16000
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down",
+            "rear_delay": 6500
+        },
+        {
+            "type": "Skill",
+            "name": "银灰",
+            "location": [
+                0,
+                0
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "摧枯拉朽 - PR-B-2 - 打击【银灰3+羊2+能3+地面干员】",
+        "details": "统计日期：2024-05-24\n好评率：88.89%  浏览量：376\n来源：竟然不能小于4位  ID：31486\n参考视频：化学老施，https://www.bilibili.com/BV1CC4y1t7EP\n【！！地面干员要求！！】\n最少挡2，而且要有点输出\n（像重装小车虽然挡3，但是输出不够，会漏怪，我跟着原视频用黑角也偶尔会漏怪）\n反正选择很多，可以自己拿着作业去改"
+    },
+    "groups": [
+        {
+            "name": "任意地面",
+            "opers": [
+                {
+                    "name": "月见夜",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "泡普卡",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "拉普兰德",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "幽灵鲨",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "锏",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "skill_times": 1,
+                    "name": "山",
+                    "skill": 2,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "推进之王",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "星熊",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

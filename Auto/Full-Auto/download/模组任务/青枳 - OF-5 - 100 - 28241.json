@@ -1,0 +1,74 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "a003_05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "青枳",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left",
+            "costs": 0,
+            "cost_changes": 0
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "火蓝之心·复刻 - OF-5 - 别阻止我 青枳模组",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：75\n来源：归墟海#5915  ID：28241\n自建"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "青枳",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}

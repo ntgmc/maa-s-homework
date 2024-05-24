@@ -1,0 +1,741 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_16",
+    "actions": [
+        {
+            "type": "Output",
+            "doc": "休止符街道 令菲双核400杀\n作者：冰海孤魂\n\n-------------\n如果在开始后战斗过程中出现调香师技能CD没好就提前准备释放技能是因为我不能精确控制技能释放时间，属于正常现象请无视，因为我不想改了免得出新的BUG\n-----------",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "pre_delay": 0,
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                6
+            ],
+            "kills": 1,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "调香师",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "kills": 22,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "kills": 42,
+            "pre_delay": 0
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Down",
+            "costs": 27
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "kills": 72
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "location": [
+                6,
+                1
+            ],
+            "kills": 91
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "location": [
+                6,
+                1
+            ],
+            "kills": 121
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 145
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "location": [
+                6,
+                1
+            ],
+            "kills": 153,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "location": [
+                6,
+                1
+            ],
+            "kills": 177,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "location": [
+                6,
+                1
+            ],
+            "kills": 195,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "kills": 200,
+            "doc_color": "Gray",
+            "doc": "200杀",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ],
+            "pre_delay": 3000,
+            "kills": 207
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 2
+        },
+        {
+            "type": "SkillUsage",
+            "name": "调香师",
+            "skill_usage": 2
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ],
+            "pre_delay": 2500,
+            "kills": 231
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                6,
+                7
+            ],
+            "kills": 234
+        },
+        {
+            "type": "Deploy",
+            "name": "菲亚梅塔",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "pre_delay": 1000,
+            "rear_delay": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                6
+            ],
+            "kills": 240
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "菲亚梅塔",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ],
+            "pre_delay": 8000,
+            "kills": 244
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                6
+            ],
+            "kills": 254
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 255
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                6
+            ],
+            "kills": 269,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 2
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "location": [
+                6,
+                1
+            ],
+            "pre_delay": 2000,
+            "kills": 284
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                6
+            ],
+            "kills": 287
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                6
+            ],
+            "kills": 293,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Output",
+            "kills": 300,
+            "doc_color": "Gray",
+            "doc": "300杀"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ],
+            "kills": 309
+        },
+        {
+            "type": "Deploy",
+            "kills": 309,
+            "name": "“弦惊”",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "kills": 323,
+            "pre_delay": 5000,
+            "name": "“弦惊”",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ],
+            "kills": 326,
+            "pre_delay": 7000
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                6
+            ],
+            "kills": 329
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                6
+            ],
+            "kills": 0,
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 2
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                6
+            ],
+            "kills": 347
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "location": [
+                6,
+                1
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                2
+            ],
+            "kills": 350
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ],
+            "kills": 359,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                11,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                11,
+                6
+            ],
+            "kills": 365
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 365,
+            "pre_delay": 100,
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "location": [
+                6,
+                1
+            ],
+            "kills": 367
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                6
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "调香师",
+            "skill_usage": 2
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                1
+            ],
+            "kills": 376
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "kills": 386
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                6
+            ],
+            "kills": 391
+        },
+        {
+            "type": "Skill",
+            "kills": 0,
+            "doc_color": "Gray",
+            "doc": "400杀",
+            "name": "令"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                7
+            ],
+            "kills": 397,
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "⌈剿灭-休止符街道⌋ 令+菲亚梅塔 双核 4人 低配（存疑）修正版",
+        "details": "统计日期：2024-05-24\n好评率：84.62%  浏览量：4457\n来源：土豆雷优香  ID：23120\n原作业作者：pallas-bot\n因为MAA内测版（不知道其他版本有没有问题）出了新的BUG导致桃金娘无法自动开启第一次技能导致作业无法正常运行，我试了一下只要把技能初始改成不自动使用，然后在下桃子以后切换行为模式变成自动使用就可以正常运行了。然后原作者貌似是自动生成+少量修改制作的作业导致作业出了挺多的问题，我还以为只是一点小小的BUG结果真正修改以后才发现问题这么多，难怪差评那么多我还以为是因为桃金娘BUG才让人点的差评，这破剿灭还不能演习一直测试了好几次理智血亏（）\n顺带一提现在如果带着玫拉和缪缪自动战斗会卡无限部署的BUG，没修复前不要带他们刷信赖了吧，等修了以后再带吧！（没写嗨呀是因为我没抽到）\n作者：冰海孤魂\n作业视频：BV1gg4y1j74T\n干员：令 菲亚梅塔 调香师 桃金娘\n-----------\n硬性要求：\n1.调香师和桃金娘必须满潜满信赖，精一满级，技能7级即可  \n2.菲亚梅塔：原视频是精二60专三三技能+一级Y模组1级Y模组   *注：我自己很早就把肥鸭升到专三90了，不过原视频好像对肥鸭输出要求不高只是补伤和打定点靶子应该不要紧\n3.令：精二60级以上，3级Y模组（宁作吾）  *注：我自己很早就把令升到专三90了，不知道60级或者7级会怎么样\n4.调香师：2技能\n-------\n*这个简介和标题是用的原作者的简介和标题，低配不低配我不知道，反正相对培养一堆黄金大队来说感觉确实是用的少了，只要求一个专三肥鸭一个令（调香师和桃子满潜能满信赖这点来说调香师的更重要，毕竟潜能加快召唤物的回血。桃子主要是下得快这个没有满潜我不确定有没有影响，不过就都是4星来说作为抽卡的副产物满潜能应该挺容易。），如果缺一个的话可以借了以后用每周挂机打几次来解决，毕竟也是挂机自动打，短时间内想办法拉一个角色还是相对养一大堆角色来说比较容易吧大概（）\n絮絮叨叨了那么多没想到这作业一改就是几个小时，有点感慨，明明初衷只是想利用一下剿灭刷信赖，后面就变成改好它让它能正常运行让大家抄抄作业，这也算是我的第一个发布的作业吧（虽然是别人的基础上修改的），祝大家抄作业顺利，計算通り，完璧～~~~\n**有时候会技能CD没好但是提前点开技能是因为我没微调使用技能的时机让它提前点开了，这是正常现象这时候让它自动点开技能就好不用管它，有时候MAA还会顶着肥鸭的技能发呆，大概是比较喜欢肥鸭吧，你自己手动点一下外面不要让她看肥鸭就好，可能那时候是识别调香师或者令的技能识别错了，手动开一下他们技能就行，不过理论上只有最后一段会这样，应该不会导致漏怪吧（雾）\n有什么问题请评论留言，缘分到了会看一下……吧（）"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "菲亚梅塔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "调香师",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

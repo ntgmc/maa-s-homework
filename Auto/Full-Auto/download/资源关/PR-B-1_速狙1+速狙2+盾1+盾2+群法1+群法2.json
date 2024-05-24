@@ -1,0 +1,130 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_b_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "速狙1",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "速狙2",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "盾1",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "盾2",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "群法1",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "群法2",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        }
+    ],
+    "doc": {
+        "title": "PR-B-1低配6人挂机打法|资源收集",
+        "details": "统计日期：2024-05-24\n好评率：80.0%  浏览量：350\n来源：骛风而行  ID：21662\n援引B站up主“该账号已注销_CX”的相关视频\n干员均为三星及以下\n干员均建组，如需进行上位替代则请复制神秘代码-启动作业编辑器-在添加干员一栏中输入上位干员名称、要替代的下位干员的干员组、选择技能（请保持技能主被动一致）"
+    },
+    "groups": [
+        {
+            "name": "速狙1",
+            "opers": [
+                {
+                    "name": "巡林者",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "速狙2",
+            "opers": [
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "盾1",
+            "opers": [
+                {
+                    "name": "黑角",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "盾2",
+            "opers": [
+                {
+                    "name": "卡缇",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "群法1",
+            "opers": [
+                {
+                    "name": "炎熔",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "群法2",
+            "opers": [
+                {
+                    "name": "12F",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": []
+}

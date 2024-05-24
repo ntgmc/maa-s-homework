@@ -1,0 +1,90 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "S5-4",
+        "details": "统计日期：2024-05-24\n好评率：80.0%  浏览量：438\n来源：一只摆烂的42  ID：21832\nUP：刻俄柏\n原视频：https://www.bilibili.com/video/BV1KT4y1Y7CX/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "sub_05-2-2",
+    "opers": [
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白金",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "风笛",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "白金",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "干扰装置",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "无"
+        },
+        {
+            "type": "部署",
+            "name": "干扰装置",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "无"
+        }
+    ]
+}

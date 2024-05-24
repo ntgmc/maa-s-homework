@@ -1,0 +1,57 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_melee_6",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "kills": 4,
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 31
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "本作业有bug，如果使用需手动开技能",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：657\n来源：萨拉托加  ID：37174\n本作业有bug，如果使用需手动开技能\n【【明日方舟作业】益达小罗双人钱本CE-6】 https://www.bilibili.com/video/BV1qT42197mQ/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

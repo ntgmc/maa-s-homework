@@ -1,0 +1,196 @@
+{
+    "id": "20314",
+    "copilot_id": 20314,
+    "stage_name": "tough_11-09",
+    "uploader": "Hobart",
+    "uploader_id": "63da286efb8943674a419ad7",
+    "views": 10,
+    "hot_score": 0.0,
+    "difficulty": 0,
+    "minimum_required": "v4.0.0",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": null,
+            "location": null,
+            "direction": "None",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "山",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "煌",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Up",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "夜莺",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "塞雷娅",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "cost_changes": 0,
+            "cooling": -1,
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up",
+            "skill_usage": 0,
+            "pre_delay": 0,
+            "post_delay": 0,
+            "timeout": 0,
+            "doc": "",
+            "doc_color": "Gray"
+        }
+    ],
+    "doc": {
+        "title": "第十一章 淬火尘霾 - 11-11（磨难） - 立场不同",
+        "title_color": "Gray",
+        "details": "统计日期：2024-05-24\n好评率：95.35%  浏览量：5049\n来源：Hobart  ID：20314\nhttps://www.bilibili.com/video/BV1cG411J7Mu?p=11",
+        "details_color": "Gray"
+    },
+    "first_upload_time": 1675997183194,
+    "upload_time": 1675997183194,
+    "content": null
+}

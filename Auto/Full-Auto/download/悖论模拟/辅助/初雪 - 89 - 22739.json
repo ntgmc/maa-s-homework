@@ -1,0 +1,78 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "安哲拉",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "初雪",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "阿米娅",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "安赛尔",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "kills": 5,
+            "name": "初雪"
+        },
+        {
+            "type": "技能",
+            "name": "阿米娅"
+        },
+        {
+            "type": "技能",
+            "kills": 14,
+            "name": "初雪"
+        },
+        {
+            "type": "技能",
+            "name": "阿米娅"
+        }
+    ],
+    "stage_name": "mem_slbell_1",
+    "doc": {
+        "title": "风雪将至",
+        "details": "统计日期：2024-05-24\n好评率：89.47%  浏览量：803\n来源：作业代传——有问题联系原作者  ID：22739\n干员等级：初雪精二40，二技能7级\n测试版本：395b2\n"
+    },
+    "opers": [
+        {
+            "name": "初雪"
+        },
+        {
+            "name": "安哲拉",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "groups": [],
+    "minimum_required": "v4.0.0"
+}

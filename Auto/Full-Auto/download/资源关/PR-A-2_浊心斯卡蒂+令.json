@@ -1,0 +1,130 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "PR-A-2",
+        "details": "统计日期：2024-05-24\n好评率：81.25%  浏览量：776\n来源：tang  ID：28223\n如遇到无法识别“弦惊”“清平”“逍遥”，删除cache/avatars 下的头像重新启动MMA\n测试为90级三模专6令\n作者-唐"
+    },
+    "stage_name": "pro_a_2",
+    "opers": [
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "令",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "斯卡蒂的海嗣",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "kills": 27,
+            "name": "令",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "摆完挂机",
+            "name": ""
+        }
+    ]
+}

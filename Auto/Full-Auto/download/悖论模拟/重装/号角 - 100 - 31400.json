@@ -1,0 +1,73 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_horn_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "华法琳",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "号角",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "华法琳",
+            "costs": 22
+        },
+        {
+            "type": "Skill",
+            "name": "号角",
+            "costs": 24
+        },
+        {
+            "type": "Skill",
+            "name": "号角",
+            "costs": 38
+        },
+        {
+            "type": "Skill",
+            "name": "华法琳",
+            "costs": 80
+        },
+        {
+            "type": "Skill",
+            "name": "号角",
+            "costs": 81
+        },
+        {
+            "type": "Skill",
+            "name": "华法琳",
+            "pre_delay": 31000
+        },
+        {
+            "type": "Skill",
+            "name": "号角"
+        }
+    ],
+    "doc": {
+        "title": "号角悖论",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：1953\n来源：政委同志  ID：31400\n三技能\n我的是2651的号角，2010也是没问题的\n这次操作没有流明那集多，MAA99.9%一次过\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "号角",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

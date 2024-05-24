@@ -1,0 +1,94 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_09-01",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "假日威龙陈",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "假日威龙陈",
+            "kills": 79
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第九章 风暴瞭望 - H9-1（标准） - 暴风行动-1",
+        "details": "统计日期：2024-05-24\n好评率：98.35%  浏览量：2391\n来源：萨拉托加  ID：28367\n2023.10.7重新优化轴\n【【第九章风暴瞭望】突袭全关卡 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1QQ4y1r7Ni/?p=24&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e UP萧然Q  萨拉托加搬运\n六星精二60专三"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "假日威龙陈",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_00-02#f#",
+    "actions": [
+        {
+            "type": "Output",
+            "rear_delay": 5000,
+            "doc_color": "DarkRed",
+            "doc": "如果关卡内有剧情，请立即手动跳过！！！\n如果你没有缓存干员头像，请携带本次作战的所有干员再打一次上一关！！！"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "巡林者",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        }
+    ],
+    "doc": {
+        "title": "序章 黑暗时代·上 - 0-2 - 守卫",
+        "details": "统计日期：2024-05-24\n好评率：100.0%  浏览量：203\n来源：yc.exe  ID：22267\n如果关卡内有剧情，请立即手动跳过！！！\n如果你没有缓存干员头像，请携带本次作战的所有干员再打一次上一关！！！\nyc.exe"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "巡林者",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

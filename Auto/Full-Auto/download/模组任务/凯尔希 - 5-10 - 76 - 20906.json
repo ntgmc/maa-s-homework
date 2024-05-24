@@ -1,0 +1,106 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_05-10",
+    "doc": {
+        "title": "凯尔希模组解锁",
+        "details": "统计日期：2024-05-24\n好评率：76.47%  浏览量：907\n来源：作业代传——有问题联系原作者  ID：20906\n·up：侬无言以对\n·代理有问题请在群里@碎蜂"
+    },
+    "opers": [
+        {
+            "name": "拉普兰德",
+            "skill": 2
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2
+        },
+        {
+            "name": "凯尔希",
+            "skill": 3,
+            "skill_usage": 1,
+            "id": "70f4238e-1373-4b3f-841e-875895d34ba9"
+        },
+        {
+            "name": "煌",
+            "skill": 2
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Output",
+            "doc_color": "#198754",
+            "doc": "代理有问题请在群里@碎蜂"
+        },
+        {
+            "type": "Deploy",
+            "doc_color": "#198754",
+            "doc": "",
+            "name": "煌",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right",
+            "id": "15d466d2-6746-4d5e-b32b-b925465a59f0"
+        },
+        {
+            "type": "Deploy",
+            "doc_color": "#198754",
+            "doc": "",
+            "name": "拉普兰德",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right",
+            "id": "15d466d2-6746-4d5e-b32b-b925465a59f0"
+        },
+        {
+            "type": "Deploy",
+            "doc_color": "#198754",
+            "doc": "",
+            "name": "白面鸮",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "id": "15d466d2-6746-4d5e-b32b-b925465a59f0"
+        },
+        {
+            "type": "Deploy",
+            "doc_color": "#198754",
+            "doc": "",
+            "name": "凯尔希",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right",
+            "id": "15d466d2-6746-4d5e-b32b-b925465a59f0"
+        },
+        {
+            "type": "Deploy",
+            "doc_color": "#198754",
+            "doc": "",
+            "name": "Mon3tr",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down",
+            "id": "15d466d2-6746-4d5e-b32b-b925465a59f0"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "#198754",
+            "doc": "",
+            "id": "15d466d2-6746-4d5e-b32b-b925465a59f0"
+        }
+    ]
+}
