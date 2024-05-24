@@ -96,7 +96,7 @@ def generate_filename(name, data, mode, cat_two, stage_name):
                    '+'.join(group.get('name', '') for group in groups)]
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
     names = replace_special_char(names)
-    if len(names) > 220:
+    if len(names) > 100:
         names = "文件名过长不予显示"
     if mode == 1:
         file_path = f'主线/{_stage} {cat_two}/{stage_name}_{names}.json'

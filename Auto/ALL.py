@@ -77,7 +77,6 @@ now_activity_folders = glob.glob("【当前活动】*")
 for folder in now_activity_folders:
     # 构造目标压缩文件的路径
     destination_file = os.path.join("【下载看这里】合集下载", os.path.basename(folder) + ".zip")
-
     # 如果目标文件存在，就删除它
     if os.path.exists(destination_file):
         os.remove(destination_file)
