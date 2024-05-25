@@ -18,7 +18,7 @@ def save_data(data):
 
 
 def write_to_file(file_path, content):
-    with open(file_path.replace('/', ''), 'w', encoding='utf-8') as file:
+    with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
 
 
@@ -73,12 +73,13 @@ def configuration():
         }
     elif _mode == "2":
         if not load_settings():
-            print("未找到用户配置，请先设置")
-            input()
+            input("未找到用户配置，请先设置\n")
             return menu()
         return setting["download"]
     elif _mode == "3":
         return configure_download_settings()
+    elif "back" in _mode.lower():
+        return menu()
     else:
         print("未知选项，请重新选择，返回请输入back")
         return configuration()
@@ -86,7 +87,7 @@ def configuration():
 
 def search(keyword, search_mode):  # 返回json
     order_by = {1: "hot", 2: "id", 3: "views"}.get(search_mode, "views")
-    url = f"https://prts.maa.plus/copilot/query?desc=true&limit=50&page=1&order_by={order_by}&level_keyword={keyword}"
+    url = f"https://prts.maa.plus/copilot/query?desc=true&limit=99&page=1&order_by={order_by}&level_keyword={keyword}"
     headers = {
         "Origin": "https://prts.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
@@ -143,26 +144,40 @@ def process_level(level, st):
             break
 
 
-def searches(activity_list):
+def searches(activity_list, mode=0):
     st = configuration()
     print(f"保存目录：{st['path']}")
     os.makedirs(st['path'], exist_ok=True)
     now = time.time()
 
-    with ThreadPoolExecutor(max_workers=10) as executor:
-        futures = [executor.submit(process_level, level, st) for level in activity_list]
-        for future in as_completed(futures):
-            try:
-                future.result()
-            except Exception as e:
-                print(f"Task generated an exception: {e}")
+    if mode == 0:
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            futures = [executor.submit(process_level, level, st) for level in activity_list]
+            for future in as_completed(futures):
+                try:
+                    future.result()
+                except Exception as e:
+                    print(f"Task generated an exception: {e}")
+    else:
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            futures = []
+            for sub, sub_list in activity_list.items():
+                for level in sub_list:
+                    if any(substring in level['stage_id'] for substring in ['#f#', 'easy']):
+                        continue
+                    futures.append(executor.submit(process_level, level, st))
+                for future in as_completed(futures):
+                    try:
+                        future.result()
+                    except Exception as e:
+                        print(f"Task generated an exception: {e}")
 
     last = time.time()
     input(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
     return menu()
 
 
-def get_input(prompt, default, min_value=None, max_value=None):
+def int_input(prompt, default, min_value=None, max_value=None):
     try:
         value = input(prompt).strip()
         value = int(value) if value else default
@@ -181,17 +196,17 @@ def configure_download_settings():
     print("1. 标题.json")
     print("2. 标题 - 作者.json")
     print("3. 关卡代号-干员1+干员2.json")
-    title = get_input("选择文件名格式（默认为1）：", 1, 1, 3)
+    title = int_input("选择文件名格式（默认为1）：", 1, 1, 3)
     path = input("设置保存文件夹（为空默认当前目录\\download）：").replace(" ", "")
     path = path if path and os.path.isdir(path) else os.path.join(os.path.dirname(os.path.abspath(__file__)), "download")
     print(f"成功设置保存文件夹为：{path}")
     print("1. 热度")
     print("2. 最新")
     print("3. 浏览量")
-    order_by = get_input("设置排序方式（默认为3. 浏览量）：", 3, 1, 3)
-    point = get_input("设置好评率限制(0-100)（为空不限制）：", 0, 0, 100)
-    view = get_input("设置浏览量限制（大于你设置的值）（为空不限制）：", 0)
-    amount = get_input("设置下载数量(1-5)（为空默认为1）：", 1, 1, 10)
+    order_by = int_input("设置排序方式（默认为3. 浏览量）：", 3, 1, 3)
+    point = int_input("设置好评率限制(0-100)（为空不限制）：", 0, 0, 100)
+    view = int_input("设置浏览量限制（大于你设置的值）（为空不限制）：", 0)
+    amount = int_input("设置下载数量(1-5)（为空全部下载）：", 99, 1, 5)
     operator = input("设置禁用干员（空格分隔）（为空不限制）：").split()
     print(f"设定值：{operator}")
     uploader = input("设置只看作业站作者（空格分隔）（为空不限制）：").split()
@@ -219,7 +234,7 @@ def generate_filename_mode3(stage_name, data):
                    '+'.join(group.get('name', '') for group in groups)]
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
     names = replace_dir_char(names)
-    if len(names) > 220:
+    if len(names) > 100:
         names = "文件名过长不予显示"
     return f'{stage_name}_{names}'
 
@@ -241,7 +256,7 @@ def mode1():
     os.system("cls")
     print("已进入单次搜索并下载模式，（输入back返回）")
     keyword = input("请输入关卡代号：").replace(" ", "")
-    if keyword.lower() == "back":
+    if "back" in keyword.lower():
         return menu()
     st = configuration()
     os.system("cls")
@@ -268,16 +283,18 @@ def mode1():
 
 
 def input_level():
-    print("1. 活动关卡")
-    print("2. 主题曲")
-    print("3. 剿灭作战")
-    print("4. 资源收集")
+    keys = ["活动关卡", "主题曲", "剿灭作战", "资源收集"]
+    for i, key in enumerate(keys):
+        print(f"{i + 1}. {key}")
     print("b. 返回")
     choose = input("请选择要搜索的关卡类型：").replace(" ", "")
-    if choose.isdigit() and 1 <= int(choose) <= 5:
-        key = ["活动关卡", "主题曲", "剿灭作战", "资源收集"][int(choose) - 1]
+    if choose.isdigit() and 1 <= int(choose) <= len(keys):
+        key = keys[int(choose) - 1]
         activity = select_from_list(all_dict, key)
-        return searches(all_dict[key][activity])
+        if activity == "全部":
+            return searches(all_dict[key], mode=1)
+        else:
+            return searches(all_dict[key][activity])
     elif "b" in choose.lower():
         return menu()
     else:
@@ -302,6 +319,7 @@ def select_from_list(_activity_dict, key_one):  # 返回二级中文名
         matching_keys = [value for key, value in sorted(stage_dict.items())]
     else:
         matching_keys = list(_activity_dict[key_one].keys())  # 初始匹配所有keys
+    matching_keys.append("全部")
     while True:
         print("请选择关卡：")
         for i, key in enumerate(matching_keys):
@@ -309,7 +327,7 @@ def select_from_list(_activity_dict, key_one):  # 返回二级中文名
         user_input = input("请输入关卡名称或序号：").replace(" ", "")
 
         # 如果用户输入是数字且在范围内，直接返回对应的活动关卡
-        if user_input.isdigit() and 0 <= int(user_input) <= len(matching_keys):
+        if user_input.isdigit() and 0 <= int(user_input) <= len(matching_keys) - 1:
             return matching_keys[int(user_input)]
 
         # 更新匹配的keys列表

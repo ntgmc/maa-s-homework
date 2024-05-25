@@ -12,8 +12,6 @@ download_view_threshold = 1000  # 浏览量阈值
 # 设置资源关
 resource_level = ["wk_toxic_5", "wk_armor_5", "wk_fly_5", "wk_kc_6", "wk_melee_6", "pro_a_1",
                   "pro_a_2", "pro_b_1", "pro_b_2", "pro_c_1", "pro_c_2", "pro_d_1", "pro_d_2"]
-# 设置要搜索的类型
-# search_list = ["主题曲", "剿灭作战", "资源收集"]
 # 设置空列表
 no_result = []
 # 设置日期

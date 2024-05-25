@@ -62,17 +62,7 @@ def code_output(percent, _id, mode):
             return f"maa://{_id}"
 
 
-def check_file_exists(_job, keyword, _id):  # 判断是否存在相同id但评分不同的文件
-    pattern = f"悖论模拟/{_job}/{keyword} - * - {_id}.json"
-    matching_files = glob.glob(pattern)
-    if len(matching_files) > 0:
-        for file_name in matching_files:
-            os.remove(file_name)
-            print(f"Removed {file_name}")
-
-
-def check_file_exists2(name, stage, _id):  # 判断是否存在相同id但评分不同的文件
-    pattern = f"模组任务/{name} - {stage} - * - {_id}.json"
+def check_file_exists(pattern):  # 判断是否存在相同id但评分不同的文件
     matching_files = glob.glob(pattern)
     if len(matching_files) > 0:
         for file_name in matching_files:
@@ -111,7 +101,7 @@ def search_paradox(name, stage_id, _job=None):
                 for percent, item in items_to_download[:3]:
                     file_path = f"悖论模拟/{_job}/{name} - {int(percent)} - {item['id']}.json"
                     if not os.path.exists(file_path):
-                        check_file_exists(_job, name, item['id'])
+                        check_file_exists(f"悖论模拟/{_job}/{name} - * - {item['id']}.json")
                         content = json.loads(item['content'])
                         content['doc']['details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
                         write_to_file(file_path, content)
@@ -157,7 +147,7 @@ def search_module(name, stage):
                 for percent, item in items_to_download[:3]:
                     file_path = f"模组任务/{name} - {stage} - {int(percent)} - {item['id']}.json"
                     if not os.path.exists(file_path):
-                        check_file_exists2(name, stage, item['id'])
+                        check_file_exists(f"模组任务/{name} - {stage} - * - {item['id']}.json")
                         content = json.loads(item['content'])
                         content['doc']['details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
                         write_to_file(file_path, content)
