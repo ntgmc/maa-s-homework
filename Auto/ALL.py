@@ -5,7 +5,7 @@ import shutil
 import glob
 
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
+destination_folder2 = "【下载看这里】合集下载"
 
 def zip_json_files(_source_folder, _destination_file):
     with zipfile.ZipFile(_destination_file, "w", zipfile.ZIP_DEFLATED) as zipf:
@@ -52,12 +52,22 @@ for source in source_list:
             # 输出提示信息
             print(f"成功压缩文件夹{source_folder_path}为压缩包{destination_zip_path}")
 
-    # 压缩整个压缩包文件夹，并移动到目标文件夹中
-    shutil.make_archive(os.path.join(destination_folder, source), 'zip', destination_folder)
-    file_path = f"【下载看这里】合集下载/{source}.zip"
-    if os.path.exists(file_path):
-        os.remove(file_path)
-    shutil.move(os.path.join(destination_folder, f"{source}.zip"), "【下载看这里】合集下载")
+    # 创建一个临时目录来存放要压缩的文件夹
+    temp_dir = os.path.join(destination_folder, "temp")
+    os.makedirs(temp_dir, exist_ok=True)
+
+    subfolders = [f.path for f in os.scandir(source_folder_base) if f.is_dir() and f.name != '压缩包']
+    # 将所有要压缩的文件夹复制到临时目录
+    for subfolder in subfolders:
+        shutil.copytree(subfolder, os.path.join(temp_dir, os.path.basename(subfolder)))
+
+    # 创建压缩文件
+    shutil.make_archive(os.path.join(destination_folder2, source), 'zip', temp_dir)
+
+    # 删除临时目录
+    shutil.rmtree(temp_dir)
+
+    print(f"成功压缩文件夹到 '{os.path.join(destination_folder2, f'{source}.zip')}'")
 
 source2_list = ["往期剿灭", "模组任务", "悖论模拟", "资源关"]
 
