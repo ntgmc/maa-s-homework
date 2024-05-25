@@ -1,0 +1,281 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act25side_06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "7级技能及以上推人特种",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "狙击",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "单法",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶1",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶2",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc": "有帮助的话 点个好评吧~",
+            "doc_color": "DarkRed"
+        }
+    ],
+    "doc": {
+        "title": "孤星 CW-6 小鬼卡比攻略 摆完挂机",
+        "details": "统计日期：2024-05-25\n好评率：93.62%  浏览量：4519\n来源：鱼丸不是鱼van  ID：23096\n攻略作者：小鬼卡比 https://www.bilibili.com/video/BV1sm4y1C76w 记得去b站给卡比宝贝点赞三连\njson作者：鱼丸 有问题请点踩 然后在评论区反馈\n平均练度 2603 \n已测试"
+    },
+    "groups": [
+        {
+            "name": "狙击",
+            "opers": [
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "能天使",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "空弦",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白金",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "杰西卡",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "单法",
+            "opers": [
+                {
+                    "name": "卡达",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "至简",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "刻俄柏",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "阿米娅",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "7级技能及以上推人特种",
+            "opers": [
+                {
+                    "name": "阿消",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "见行者",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "温蒂",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "食铁兽",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶1",
+            "opers": [
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶2",
+            "opers": [
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

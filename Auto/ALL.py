@@ -54,10 +54,10 @@ for source in source_list:
 
     # 压缩整个压缩包文件夹，并移动到目标文件夹中
     shutil.make_archive(os.path.join(destination_folder, source), 'zip', destination_folder)
-    file_path = fr"【下载看这里】合集下载\{source}.zip"
+    file_path = f"【下载看这里】合集下载/{source}.zip"
     if os.path.exists(file_path):
         os.remove(file_path)
-    shutil.move(os.path.join(destination_folder, f"{source}.zip"), r"D:\GITHOME\maa\【下载看这里】合集下载")
+    shutil.move(os.path.join(destination_folder, f"{source}.zip"), "【下载看这里】合集下载")
 
 source2_list = ["往期剿灭", "模组任务", "悖论模拟", "资源关"]
 
