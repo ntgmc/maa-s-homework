@@ -1,0 +1,437 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_05-07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "【冲锋手】精一满级及以上练度",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "【尖兵】精一满级及以上练度",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "【凝滞师】精一满级及以上练度",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "【强攻手】精一满级及以上练度",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "【领主】精一满级及以上练度",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "【守护者】精一满级及以上练度",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "【医师】精一满级及以上练度",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰装置",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第五章 靶向药物 - 5-7 - 生死与共 单核",
+        "details": "统计日期：2024-06-01\n好评率：92.31%  浏览量：532\n来源：小卡拉帕鲁灰🐖  ID：35548\nhttps://www.bilibili.com/video/BV14P411u72z/?spm_id_from=333.337.search-card.all.click&vd_source=10857a8c905c104ca2eab27415c72ffc"
+    },
+    "groups": [
+        {
+            "name": "【强攻手】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "暴行",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "布洛卡",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "导火索",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "幽灵鲨",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "艾丝黛尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "泡普卡",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "【医师】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "图耶",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "亚叶",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "【尖兵】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "嵯峨",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "推进之王",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "焰尾",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "德克萨斯",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "红隼",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "贾维",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "凛冬",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "青枳",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "讯使",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "芬",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "【冲锋手】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "风笛",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "格拉尼",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "苇草",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "野鬃",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "红豆",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "翎羽",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "【领主】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "仇白",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "银灰",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "断崖",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "拉普兰德",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "烈夏",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "芳汀",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "霜叶",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "月见夜",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "【凝滞师】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "安洁莉娜",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "铃兰",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "但书",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "格劳克斯",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "小满",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "真理",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "波登可",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "地灵",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "梓兰",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "【守护者】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "瑕光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "吽",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "深律",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "斑点",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}

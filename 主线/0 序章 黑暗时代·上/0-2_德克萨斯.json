@@ -1,0 +1,27 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_00-02",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "序章 黑暗时代·上 - 0-2 - 守卫",
+        "details": "统计日期：2024-06-01\n好评率：100.0%  浏览量：9\n来源：Linisdjxm  ID：38096\n列表测试2"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "5-7 突袭",
+        "details": "统计日期：2024-06-01\n好评率：87.5%  浏览量：580\n来源：一只摆烂的42  ID：21814\nUP：侬无言以对\n原视频：https://www.bilibili.com/video/BV1Tg411V7nb/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "main_05-07",
+    "opers": [
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安洁莉娜",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "推进之王",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "浊心斯卡蒂",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "拉普兰德",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "安洁莉娜",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "干扰装置",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "无"
+        }
+    ]
+}
