@@ -12,9 +12,14 @@
 
 自动下载的Python脚本位于 `Auto\Full-Auto` 目录。
 
-- `作业搜索.py`: 搜索活动关卡
-- `主线一键下载.py`: 搜索主线关卡（包括H关和S关）
-- `悖论模拟模组任务搜索.py`: 搜索悖论模拟和模组任务关卡，可以实现不重不漏
+- `作业搜索.py`: 供用户使用，批量搜索各种关卡
+- `主线一键下载.py`: 自动搜索主线关卡（包括H关和S关）、剿灭作战、资源关
+- `悖论模拟模组任务搜索.py`: 自动搜索悖论模拟和模组任务关卡
+
+### GitHub Actions
+
+[daily_download.yml](https://github.com/ntgmc/maa-s-homework/blob/master/.github/workflows/daily_download.yml)  
+此工作流程每日自动执行`主线一键下载.py`和`悖论模拟模组任务搜索.py`，生成json文件并创建Pull Request。
 
 ## 命名规则
 
@@ -43,9 +48,14 @@
 
 The automatic download Python scripts are located in `Auto\Full-Auto` directory.
 
-- `作业搜索.py`: Searches for event levels.
-- `主线一键下载.py`: Searches for mainline levels (including Hard and Sub levels).
-- `悖论模拟模组任务搜索.py`: Searches for Paradox Simulation and Module Task levels, ensuring no repetition or omission.
+- `作业搜索.py`: For users to use, batch search various levels.
+- `主线一键下载.py`: Automatically search for main levels (including Hard and Sub levels), annihilation operations, and resource levels.
+- `悖论模拟模组任务搜索.py`: Automatic Search Paradox Simulation and Module Task Levels.
+
+### GitHub Actions
+
+[daily_download.yml](https://github.com/ntgmc/maa-s-homework/blob/master/.github/workflows/daily_download.yml)  
+This workflow automatically executes the `主线一键下载.py` and `悖论模拟模组任务搜索.py` daily, generates JSON files, and creates Pull Requests.
 
 ## Naming Rules
 
