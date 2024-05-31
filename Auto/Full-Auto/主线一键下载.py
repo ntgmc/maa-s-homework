@@ -68,6 +68,18 @@ def build_dict(data, key: str):  # key为生成的字典的键
     return _dict
 
 
+def build_dict2(data, key: str):  # key为生成的字典的键
+    _dict = {}
+    for member in data:
+        content = json.loads(member['content'])
+        _key = get_cat_three_info(content[key], "stage_id")
+        if _key in _dict:
+            _dict[_key].append(member)
+        else:
+            _dict[_key] = [member]
+    return _dict
+
+
 def build_complex_dict(data):
     complex_dict = {}
     for member in data:
@@ -94,8 +106,12 @@ def calculate_percent(item):
     return round(like / (like + dislike) * 100, 2) if like + dislike > 0 else 0
 
 
-def get_level_name(stage_id):  # 通过stage_id获取关卡名称
-    return stage_dict.get(stage_id, [{}])[0].get('cat_three', '')
+def get_stage_id_info(stage_id, key):  # 通过stage_id获取信息,失败返回stage_id
+    return stage_dict.get(stage_id, [{}])[0].get(key, stage_id)
+
+
+def get_cat_three_info(cat_three, key):  # 通过cat_three获取信息,失败返回cat_three
+    return cat_three_dict.get(cat_three, [{}])[0].get(key, cat_three)
 
 
 def get_stage_info(text):  # 返回第一个-前的整数
@@ -110,9 +126,9 @@ def replace_special_char(text):
     return text.replace('/', '').replace('\\', '')
 
 
-def generate_filename(name, data, mode, cat_two, stage_name):
+def generate_filename(stage_id, data, mode, cat_two, stage_name=None):
     if not stage_name:
-        stage_name = get_level_name(name)
+        stage_name = get_stage_id_info(stage_id, "cat_three")
     _stage = get_stage_info(stage_name)
     opers = data.get('opers', [])
     groups = data.get('groups', [])
@@ -144,6 +160,19 @@ def search(keyword, path_mode=1, filter_mode=0, cat_two=None, cat_three=None):
     _response = requests.get(url, headers=_headers)
     if _response.ok:
         filter_data(_response.json(), keyword, path_mode, filter_mode, cat_two, cat_three)
+    else:
+        print(f"请求 {keyword} 失败")
+
+
+def less_search(keyword):
+    url = f"https://prts.maa.plus/copilot/query?page=1&limit=999&levelKeyword={keyword}&desc=true&orderBy=views"
+    _headers = {
+        "Origin": "https://prts.plus",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
+    }
+    _response = requests.get(url, headers=_headers)
+    if _response.ok:
+        return build_dict2(_response.json()['data']['data'], "stage_name")
     else:
         print(f"请求 {keyword} 失败")
 
@@ -192,9 +221,63 @@ def filter_data(data, keyword, path_mode, filter_mode, cat_two, cat_three):
         print(f"{keyword} 无数据")
 
 
+def less_filter_data(data, stage_id, path_mode, filter_mode):
+    global no_result, cache_dict
+    if any(substring in stage_id for substring in ['#f#', 'easy']):
+        return
+    all_data = data.get(stage_id)
+    if all_data:
+        download_amount = 0
+        cat_three = get_stage_id_info(stage_id, "cat_three")
+        cat_two = get_stage_id_info(stage_id, "cat_two")
+        if filter_mode == 0:
+            score_threshold = download_score_threshold
+            view_threshold = download_view_threshold
+        else:
+            score_threshold = 80
+            view_threshold = -1  # 保证只搜索一次
+        while not download_amount:
+            for item in all_data:
+                percent = calculate_percent(item)
+                view = item.get('views', 0)
+                if percent >= score_threshold and view >= view_threshold:
+                    if compare_cache(cache_dict, item['id'], item['upload_time'], cat_three):
+                        print(f"{item['id']} 未改变数据，无需更新")
+                        download_amount += 1
+                        continue
+                    content = json.loads(item['content'])
+                    file_path = generate_filename(stage_id, content, path_mode, cat_two, cat_three)
+                    content['doc'][
+                        'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
+                                     content['doc']['details']
+                    print(f"{file_path} {percent}% {view} 成功下载")
+                    write_to_file(file_path, content)
+                    cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], cat_three)
+                    download_amount += 1
+            if not download_amount:
+                if score_threshold > 50:
+                    score_threshold -= 5
+                else:
+                    view_threshold -= 200
+                if view_threshold < 0:
+                    print(f"{stage_id} 无符合50% 0的数据 不再重试")
+                    no_result.append(stage_id)
+                    break
+                print(f"{stage_id} 无符合条件的数据，降低阈值为{score_threshold}% {view_threshold}重试")
+    else:
+        # no_result.append(keyword)
+        print(f"{stage_id} 无数据")
+
+
 def search_stage(keyword):
     for level in all_dict['主题曲'][keyword]:
         search(level['stage_id'], cat_two=keyword, cat_three=level['cat_three'])
+
+
+def less_search_stage(key1):
+    less_dict = less_search(key1)
+    for key2 in less_dict:
+        less_filter_data(less_dict, key2, 1, 0)
 
 
 def search_camp(keyword):
@@ -209,6 +292,7 @@ def resource_stage_search():
 
 level_data = get_level_data()
 stage_dict = build_dict(level_data, 'stage_id')
+cat_three_dict = build_dict(level_data, 'cat_three')
 all_dict = build_complex_dict(level_data)
 makedir()
 if os.path.exists(cache):
@@ -221,7 +305,7 @@ with ThreadPoolExecutor(max_workers=10) as executor:
     futures = []
     # 添加任务到线程池
     for stage in all_dict['主题曲']:
-        futures.append(executor.submit(search_stage, stage))
+        futures.append(executor.submit(less_search_stage, stage))
     for place in all_dict['剿灭作战']:
         futures.append(executor.submit(search_camp, place))
     futures.append(executor.submit(resource_stage_search))
