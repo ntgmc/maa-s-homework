@@ -44,6 +44,17 @@ def compare_cache(_cache_dict, _id, now_upload_time: str, others: str):  # 最�
         return False
 
 
+def build_dict(data, key: str):  # key为生成的字典的键
+    _dict = {}
+    for member in data:
+        _key = member[key]
+        if _key in _dict:
+            _dict[_key].append(member)
+        else:
+            _dict[_key] = [member]
+    return _dict
+
+
 def built_paradox_dict(data):
     _dict = {}
     for member in data:
@@ -56,9 +67,25 @@ def built_paradox_dict(data):
     return _dict
 
 
+def build_dict2(data, key: str):  # key为生成的字典的键
+    _dict = {}
+    for member in data:
+        content = json.loads(member['content'])
+        _key = get_stage_id_info(content[key], "cat_three")
+        if _key in _dict:
+            _dict[_key].append(member)
+        else:
+            _dict[_key] = [member]
+    return _dict
+
+
 def get_level_data():
     response = requests.get('https://prts.maa.plus/arknights/level')
     return response.json()['data'] if response.ok else []
+
+
+def get_stage_id_info(stage_id, key):  # 通过stage_id获取信息,失败返回stage_id
+    return stage_dict.get(stage_id, [{}])[0].get(key, stage_id)
 
 
 def calculate_percent(item):
@@ -146,6 +173,60 @@ def search_paradox(name, stage_id, _job=None):
         return name, 0, 0, "None", "None"
 
 
+def less_search_paradox():
+    url = "https://prts.maa.plus/copilot/query?page=1&limit=999&levelKeyword=mem_&document=&desc=true&orderBy=views"
+    _headers = {
+        "Origin": "https://prts.plus",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
+    }
+
+    _response = requests.get(url, headers=_headers)
+    if _response.status_code == 200:
+        return build_dict2(_response.json()['data']['data'], 'stage_name')
+    else:
+        raise Exception("请求失败！ERR_CONNECTION_REFUSED in less_search_paradox")
+
+
+def filter_paradox(data, name, stage_id, _job):
+    global cache_dict
+    all_data = data.get(name)
+    if all_data:
+        total = len(all_data)
+        ids_develop = []
+        ids_user = []
+        items_to_download = []
+        for item in all_data:
+            percent = calculate_percent(item)
+            if percent > 0:
+                ids_develop.append(code_output(percent, item['id'], 1))
+                if percent >= 20:
+                    ids_user.append(code_output(percent, item['id'], 2))
+            if total > 1 and percent >= download_score_threshold or total == 1:
+                items_to_download.append((percent, item))
+        if download_mode and _job:
+            # 对列表按照评分进行排序，评分最高的在前面
+            items_to_download.sort(key=lambda x: x[0], reverse=True)
+
+            # 只下载评分最高的三个项目
+            for percent, item in items_to_download[:3]:
+                if compare_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论"):
+                    print(f"{item['id']} 未改变数据，无需更新")
+                    continue
+                file_path = f"悖论模拟/{_job}/{name} - {int(percent)} - {item['id']}.json"
+                if not os.path.exists(file_path):
+                    check_file_exists(f"悖论模拟/{_job}/{name} - * - {item['id']}.json")
+                content = json.loads(item['content'])
+                content['doc'][
+                    'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
+                                 content['doc']['details']
+                write_to_file(file_path, content)
+                cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论")
+        print(f"成功搜索 {_job} - {name}")
+        return name, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
+    else:
+        return name, 0, 0, "None", "None"
+
+
 def search_module(name, stage):
     global ids, cache_dict
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage}&document={name}&desc=true&orderBy=views"
@@ -219,7 +300,7 @@ def main_paradox():
     output_file_user = 'Auto/Full-Auto/paradox_user.txt'
     results = []
     job_now = -1
-    paradox_dict = built_paradox_dict(get_level_data())
+    paradox_all_dict = less_search_paradox()
     with open(keywords_file, 'r', encoding='utf-8') as f:
         with ThreadPoolExecutor() as executor:
             futures = []
@@ -234,7 +315,7 @@ def main_paradox():
                     continue
                 stage_id = paradox_dict.get(keyword, [{}])[0].get('stage_id')
                 if stage_id:
-                    future = executor.submit(search_paradox, keyword, stage_id, job_categories[job_now])
+                    future = executor.submit(filter_paradox, paradox_all_dict, keyword, stage_id, job_categories[job_now])
                     futures.append((index, future))
                 else:
                     def create_no_paradox_task(_keyword):
@@ -308,6 +389,10 @@ def main_module():
     print("输出Module完成！")
 
 
+level_data = get_level_data()
+stage_dict = build_dict(level_data, 'stage_id')
+paradox_dict = built_paradox_dict(level_data)
+# cat_three_dict = build_dict(level_data, 'cat_three')
 if download_mode:
     for job in job_categories:
         os.makedirs(f'悖论模拟/{job}', exist_ok=True)
@@ -318,7 +403,10 @@ if os.path.exists(cache):
 else:
     cache_dict = {}
 # search("缪尔赛思", '先锋')
+now = datetime.now().timestamp()
 main_paradox()
 main_module()
+last = datetime.now().timestamp()
 save_data(cache_dict)
+print(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
 print(ids)
