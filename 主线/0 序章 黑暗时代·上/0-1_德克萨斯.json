@@ -1,0 +1,27 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_00-01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "第一章 黑暗时代·下 - 1-1 - 孤岛",
+        "details": "统计日期：2024-05-31\n好评率：100.0%  浏览量：28\n来源：Linisdjxm  ID：37809\n测试"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}
