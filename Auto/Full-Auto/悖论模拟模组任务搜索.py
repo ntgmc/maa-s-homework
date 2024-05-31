@@ -12,11 +12,36 @@ download_score_threshold = 50
 job_categories = ['先锋', '近卫', '重装', '狙击', '术士', '医疗', '辅助', '特种']
 ids = []
 date = datetime.now().strftime('%Y-%m-%d')
+# 设置缓存路径
+cache = 'Auto/Full-auto/cache/cache.json'
 
 
 def write_to_file(file_path, content):
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
+
+
+def save_data(data):
+    with open(cache, 'w', encoding='utf-8') as file:
+        json.dump(data, file, ensure_ascii=False, indent=4)
+
+
+def load_data():
+    with open(cache, 'r', encoding='utf-8') as file:
+        return json.load(file)
+
+
+def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
+    _cache_dict[f"{_id}-{others}"] = now_upload_time
+    return _cache_dict
+
+
+def compare_cache(_cache_dict, _id, now_upload_time: str, others: str):  # 最新返回True，需更新返回False
+    before_upload_time = _cache_dict.get(f"{_id}-{others}", '')
+    if before_upload_time == now_upload_time:
+        return True
+    else:
+        return False
 
 
 def built_paradox_dict(data):
@@ -71,6 +96,7 @@ def check_file_exists(pattern):  # 判断是否存在相同id但评分不同的�
 
 
 def search_paradox(name, stage_id, _job=None):
+    global cache_dict
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage_id}&document=&desc=true&orderBy=views"
     _headers = {
         "Origin": "https://prts.plus",
@@ -99,12 +125,18 @@ def search_paradox(name, stage_id, _job=None):
 
                 # 只下载评分最高的三个项目
                 for percent, item in items_to_download[:3]:
+                    if compare_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论"):
+                        print(f"{item['id']} 未改变数据，无需更新")
+                        continue
                     file_path = f"悖论模拟/{_job}/{name} - {int(percent)} - {item['id']}.json"
                     if not os.path.exists(file_path):
                         check_file_exists(f"悖论模拟/{_job}/{name} - * - {item['id']}.json")
-                        content = json.loads(item['content'])
-                        content['doc']['details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
-                        write_to_file(file_path, content)
+                    content = json.loads(item['content'])
+                    content['doc'][
+                        'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
+                                     content['doc']['details']
+                    write_to_file(file_path, content)
+                    cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论")
             print(f"成功搜索 {_job} - {name}")
             return name, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
         else:
@@ -115,7 +147,7 @@ def search_paradox(name, stage_id, _job=None):
 
 
 def search_module(name, stage):
-    global ids
+    global ids, cache_dict
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage}&document={name}&desc=true&orderBy=views"
     _headers = {
         "Origin": "https://prts.plus",
@@ -145,12 +177,18 @@ def search_module(name, stage):
 
                 # 只下载评分最高的三个项目
                 for percent, item in items_to_download[:3]:
+                    if compare_cache(cache_dict, item['id'], item['upload_time'], name + "-模组"):
+                        print(f"{item['id']} 未改变数据，无需更新")
+                        continue
                     file_path = f"模组任务/{name} - {stage} - {int(percent)} - {item['id']}.json"
                     if not os.path.exists(file_path):
                         check_file_exists(f"模组任务/{name} - {stage} - * - {item['id']}.json")
-                        content = json.loads(item['content'])
-                        content['doc']['details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
-                        write_to_file(file_path, content)
+                    content = json.loads(item['content'])
+                    content['doc'][
+                        'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
+                                     content['doc']['details']
+                    write_to_file(file_path, content)
+                    cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-模组")
             print(f"成功搜索 {name} - {stage}")
             return name, stage, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
         else:
@@ -201,6 +239,7 @@ def main_paradox():
                 else:
                     def create_no_paradox_task(_keyword):
                         return lambda: ('no-paradox', _keyword)
+
                     no_paradox_task = create_no_paradox_task(keyword)
                     futures.append((index, executor.submit(no_paradox_task)))
             for index, future in futures:
@@ -225,7 +264,8 @@ def main_paradox():
             result_keyword, id_count_develop, id_count_user, str_ids_develop, str_ids_user = result
             output_lines_develop.append(f"{result_keyword}\t{id_count_develop}\t{str_ids_develop}\n")
             output_lines_user.append(f"{result_keyword}\t{id_count_user}\t{str_ids_user}\n")
-    with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w', encoding='utf-8') as output_user:
+    with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w',
+                                                                                  encoding='utf-8') as output_user:
         output_develop.writelines(output_lines_develop)
         output_user.writelines(output_lines_user)
     print("输出Paradox完成！")
@@ -261,7 +301,8 @@ def main_module():
         result_name, result_stage, id_count_develop, id_count_user, str_ids_develop, str_ids_user = result
         output_lines_develop.append(f"{result_name}\t{result_stage}\t{id_count_develop}\t{str_ids_develop}\n")
         output_lines_user.append(f"{result_name}\t{result_stage}\t{id_count_user}\t{str_ids_user}\n")
-    with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w', encoding='utf-8') as output_user:
+    with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w',
+                                                                                  encoding='utf-8') as output_user:
         output_develop.writelines(output_lines_develop)
         output_user.writelines(output_lines_user)
     print("输出Module完成！")
@@ -271,7 +312,13 @@ if download_mode:
     for job in job_categories:
         os.makedirs(f'悖论模拟/{job}', exist_ok=True)
     os.makedirs(f'模组任务', exist_ok=True)
+os.makedirs('Auto/Full-auto/cache', exist_ok=True)
+if os.path.exists(cache):
+    cache_dict = load_data()
+else:
+    cache_dict = {}
 # search("缪尔赛思", '先锋')
 main_paradox()
 main_module()
+save_data(cache_dict)
 print(ids)

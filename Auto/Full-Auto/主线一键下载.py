@@ -16,9 +16,12 @@ resource_level = ["wk_toxic_5", "wk_armor_5", "wk_fly_5", "wk_kc_6", "wk_melee_6
 no_result = []
 # 设置日期
 date = datetime.now().strftime('%Y-%m-%d')
+# 设置缓存路径
+cache = 'Auto/Full-auto/cache/cache.json'
 
 
 def makedir():
+    os.makedirs('Auto/Full-auto/cache', exist_ok=True)
     os.makedirs('往期剿灭', exist_ok=True)
     os.makedirs('资源关', exist_ok=True)
     for _stage, item in all_dict['主题曲'].items():
@@ -29,6 +32,29 @@ def makedir():
 def write_to_file(file_path, content):
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
+
+
+def save_data(data):
+    with open(cache, 'w', encoding='utf-8') as file:
+        json.dump(data, file, ensure_ascii=False, indent=4)
+
+
+def load_data():
+    with open(cache, 'r', encoding='utf-8') as file:
+        return json.load(file)
+
+
+def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
+    _cache_dict[f"{_id}-{others}"] = now_upload_time
+    return _cache_dict
+
+
+def compare_cache(_cache_dict, _id, now_upload_time: str, others: str):  # 最新返回True，需更新返回False
+    before_upload_time = _cache_dict.get(f"{_id}-{others}", '')
+    if before_upload_time == now_upload_time:
+        return True
+    else:
+        return False
 
 
 def build_dict(data, key: str):  # key为生成的字典的键
@@ -123,7 +149,7 @@ def search(keyword, path_mode=1, filter_mode=0, cat_two=None, cat_three=None):
 
 
 def filter_data(data, keyword, path_mode, filter_mode, cat_two, cat_three):
-    global no_result
+    global no_result, cache_dict
     total = data['data'].get('total', 0)
     if total > 0:
         download_amount = 0
@@ -138,6 +164,10 @@ def filter_data(data, keyword, path_mode, filter_mode, cat_two, cat_three):
                 percent = calculate_percent(item)
                 view = item.get('views', 0)
                 if percent >= score_threshold and view >= view_threshold:
+                    if compare_cache(cache_dict, item['id'], item['upload_time'], cat_three):
+                        print(f"{item['id']} 未改变数据，无需更新")
+                        download_amount += 1
+                        continue
                     content = json.loads(item['content'])
                     file_path = generate_filename(keyword, content, path_mode, cat_two, cat_three)
                     content['doc'][
@@ -145,6 +175,7 @@ def filter_data(data, keyword, path_mode, filter_mode, cat_two, cat_three):
                                      content['doc']['details']
                     print(f"{file_path} {percent}% {view} 成功下载")
                     write_to_file(file_path, content)
+                    cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], cat_three)
                     download_amount += 1
             if not download_amount:
                 if score_threshold > 50:
@@ -180,6 +211,10 @@ level_data = get_level_data()
 stage_dict = build_dict(level_data, 'stage_id')
 all_dict = build_complex_dict(level_data)
 makedir()
+if os.path.exists(cache):
+    cache_dict = load_data()
+else:
+    cache_dict = {}
 now = datetime.now().timestamp()
 # 创建一个线程池
 with ThreadPoolExecutor(max_workers=10) as executor:
@@ -198,5 +233,6 @@ with ThreadPoolExecutor(max_workers=10) as executor:
         except Exception as e:
             print(f"Task generated an exception: {e}")
 last = datetime.now().timestamp()
+save_data(cache_dict)
 print(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
 print('No_result: ', no_result)
