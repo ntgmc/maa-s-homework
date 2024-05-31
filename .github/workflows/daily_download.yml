@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出仓库
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       
       - name: 设置Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
+          python-version: '3.6'
       
       - name: 安装依赖
         run: |
