@@ -1,0 +1,94 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_irene_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾丽妮",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "流明",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "艾丽妮",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 7
+        },
+        {
+            "type": "Skill",
+            "name": "刻刀",
+            "location": [
+                3,
+                1
+            ],
+            "kills": 14
+        },
+        {
+            "type": "Skill",
+            "name": "艾丽妮",
+            "location": [
+                2,
+                2
+            ],
+            "costs": 77
+        },
+        {
+            "type": "Skill",
+            "name": "刻刀",
+            "location": [
+                3,
+                1
+            ],
+            "kills": 40
+        },
+        {
+            "type": "Skill",
+            "name": "艾丽妮",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 44
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 艾丽妮 - 细剑的重量  悖论模拟",
+        "details": "统计日期：2024-05-31\n好评率：94.08%  浏览量：7032\n来源：fantuan  ID：35931\n本人小鸟2753 二级模组  应该可以压到60级，参考链接 BV16z421k74t"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "艾丽妮",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "刻刀",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

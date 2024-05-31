@@ -1,0 +1,91 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_11-06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Up",
+            "costs": 50
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "伊芙利特",
+            "location": [
+                10,
+                5
+            ],
+            "kills": 35
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "11-7（标准）泥岩模组任务速刷",
+        "details": "统计日期：2024-05-31\n好评率：92.03%  浏览量：5916\n来源：5959  ID：29627\n参考：https://www.bilibili.com/video/BV15w411B7wY/\n测试练度四人均为精2 60级，仅泥岩专三"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

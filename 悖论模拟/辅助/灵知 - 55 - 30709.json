@@ -1,0 +1,82 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_gnosis_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "灵知",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "崖心",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "灵知",
+            "location": [
+                3,
+                2
+            ],
+            "kills": 6,
+            "pre_delay": 10000
+        },
+        {
+            "type": "Skill",
+            "name": "崖心",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 16,
+            "pre_delay": 6000
+        },
+        {
+            "type": "Skill",
+            "name": "灵知",
+            "location": [
+                3,
+                2
+            ],
+            "kills": 18,
+            "pre_delay": 2000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "崖心",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "辅助 - 灵知 - 俯瞰风雪【灵知悖论模拟】",
+        "details": "统计日期：2024-05-31\n好评率：55.05%  浏览量：6631\n来源：小卡拉帕鲁灰🐖  ID：30709\n灵知悖论模拟：俯瞰风雪\n练度：精二1级、专1的三技能 - 测试通过\n悖论模拟需要在MAA中关闭“自动编队”，\n选好三技能后处于红色ui“开始模拟”界面，maa就可以按开始了"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "灵知",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "崖心",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
