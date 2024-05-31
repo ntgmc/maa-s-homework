@@ -17,7 +17,7 @@ no_result = []
 # 设置日期
 date = datetime.now().strftime('%Y-%m-%d')
 # 设置缓存路径
-cache = os.path.join('Auto/Full-auto', "cache", 'cache.json')
+cache = os.path.join('Auto/Full-auto', 'cache.json')
 
 
 def makedir():
@@ -34,13 +34,13 @@ def write_to_file(file_path, content):
         json.dump(content, file, ensure_ascii=False, indent=4)
 
 
-def save_data(data):
-    with open(cache, 'w', encoding='utf-8') as file:
+def save_data(path, data):
+    with open(path, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
 
 
-def load_data():
-    with open(cache, 'r', encoding='utf-8') as file:
+def load_data(path):
+    with open(path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
 
@@ -298,7 +298,7 @@ cat_three_dict = build_dict(level_data, 'cat_three')
 all_dict = build_complex_dict(level_data)
 makedir()
 if os.path.exists(cache):
-    cache_dict = load_data()
+    cache_dict = load_data(cache)
 else:
     cache_dict = {}
 now = datetime.now().timestamp()
@@ -318,6 +318,6 @@ with ThreadPoolExecutor(max_workers=10) as executor:
         except Exception as e:
             print(f"Task generated an exception: {e}")
 last = datetime.now().timestamp()
-save_data(cache_dict)
+save_data(cache, cache_dict)
 print(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
 print('No_result: ', no_result)
