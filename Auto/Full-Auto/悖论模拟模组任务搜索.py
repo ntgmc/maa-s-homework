@@ -21,13 +21,13 @@ def write_to_file(file_path, content):
         json.dump(content, file, ensure_ascii=False, indent=4)
 
 
-def save_data(data):
-    with open(cache, 'w', encoding='utf-8') as file:
+def save_data(path, data):
+    with open(path, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
 
 
-def load_data():
-    with open(cache, 'r', encoding='utf-8') as file:
+def load_data(path):
+    with open(path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
 
@@ -399,7 +399,7 @@ if download_mode:
     os.makedirs(f'模组任务', exist_ok=True)
 os.makedirs('Auto/Full-auto/cache', exist_ok=True)
 if os.path.exists(cache):
-    cache_dict = load_data()
+    cache_dict = load_data(cache)
 else:
     cache_dict = {}
 # search("缪尔赛思", '先锋')
@@ -407,6 +407,6 @@ now = datetime.now().timestamp()
 main_paradox()
 main_module()
 last = datetime.now().timestamp()
-save_data(cache_dict)
+save_data(cache, cache_dict)
 print(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
 print(ids)
