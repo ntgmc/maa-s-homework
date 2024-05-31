@@ -1,0 +1,47 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act25side_04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "[孤星] CW-4 - 一波又起 任务 阻止起飞",
+        "details": "统计日期：2024-06-01\n好评率：95.31%  浏览量：1736\n来源：slience  ID：23415\nCW-4 堵门无起飞\n能天使： 90 三技能专三 X模组拉满\n棘刺：90 三技能专三\n练度应该可以低一点，没试过，如果练度比我低过了可以在评论区分享一下练度。\n参考文献：\n[1] 大哥上分绊脚石. CW-4，两人，挂机，无起飞[EB/OL]. 哔哩哔哩. https://www.bilibili.com/video/BV14s4y1X7vg"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

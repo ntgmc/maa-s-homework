@@ -1,0 +1,73 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act25side_08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 8,
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 16,
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                1
+            ],
+            "kills": 22,
+            "pre_delay": 1000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "孤星 - CW-8 - 过去与现在的交会",
+        "details": "统计日期：2024-06-01\n好评率：99.44%  浏览量：1048\n来源：蛋卷小炒肉  ID：38008\n60级益达 3模 专三"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

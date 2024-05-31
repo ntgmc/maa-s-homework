@@ -1,0 +1,41 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act25side_10",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down"
+        }
+    ],
+    "doc": {
+        "title": "孤星 - CW-10 - 堵门速刷 测试",
+        "details": "统计日期：2024-06-01\n好评率：87.5%  浏览量：1343\n来源：momo123  ID：38067\nBV19i421U7Cs 半禺心 \n这关MAA无法自动开启技能，玛恩纳放2次技能后基本不用动了，维什戴尔技能好了直接释放"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

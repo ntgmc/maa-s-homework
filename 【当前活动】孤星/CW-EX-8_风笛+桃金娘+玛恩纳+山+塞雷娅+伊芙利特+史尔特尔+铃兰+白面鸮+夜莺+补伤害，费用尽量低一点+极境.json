@@ -1,0 +1,424 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "CW-EX-8",
+    "actions": [
+        {
+            "type": "Output",
+            "doc_color": "#6f42c1",
+            "doc": "请使用MAA tuoch触控模式并开启暂停下干员！！！\n请使用MAA tuoch触控模式并开启暂停下干员！！！\n请使用MAA tuoch触控模式并开启暂停下干员！！！"
+        },
+        {
+            "type": "Output",
+            "doc_color": "DarkGoldenrod",
+            "doc": "风笛，塞雷娅，铃兰要带x模组！别问为什么右侧漏怪了╯︿╰\n原视频除了夜莺专1以外，其他干员技能均专3"
+        },
+        {
+            "type": "Output",
+            "doc_color": "#d63384",
+            "doc": "作业改一天啦\n不求点个赞，只求有问题请在作业站评论区说一声"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "极境",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "doc": "",
+            "pre_delay": 2500,
+            "name": "极境"
+        },
+        {
+            "type": "Output",
+            "doc_color": "DarkRed",
+            "doc": "标记#1"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillUsage",
+            "doc": "",
+            "name": "极境",
+            "skill_usage": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "铃兰",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "补伤害，费用尽量低一点",
+            "location": [
+                11,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "doc": "",
+            "name": "极境",
+            "location": [
+                9,
+                5
+            ],
+            "pre_delay": 3200
+        },
+        {
+            "type": "Retreat",
+            "name": "补伤害，费用尽量低一点",
+            "location": [
+                11,
+                6
+            ],
+            "pre_delay": 3200
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Output",
+            "kills": 8,
+            "rear_delay": 1800,
+            "doc_color": "DarkRed",
+            "doc": "标记#2"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "铃兰"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "补伤害，费用尽量低一点",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "极境",
+            "location": [
+                9,
+                5
+            ],
+            "pre_delay": 5500
+        },
+        {
+            "type": "SkillUsage",
+            "name": "极境",
+            "skill_usage": 1
+        },
+        {
+            "type": "Output",
+            "doc_color": "DarkRed",
+            "doc": "标记#3"
+        },
+        {
+            "type": "Retreat",
+            "costs": 50,
+            "name": "桃金娘",
+            "location": [
+                9,
+                4
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "极境"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Output",
+            "doc_color": "DarkRed",
+            "doc": "标记#4",
+            "kills": 23
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 12200,
+            "name": "铃兰",
+            "location": [
+                4,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 1000,
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Output",
+            "doc_color": "DarkRed",
+            "doc": "标记#5"
+        },
+        {
+            "type": "Skill",
+            "kills": 38,
+            "pre_delay": 5000,
+            "name": "铃兰",
+            "location": [
+                4,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                6,
+                3
+            ],
+            "pre_delay": 11500
+        },
+        {
+            "type": "Output",
+            "doc_color": "DarkRed",
+            "doc": "标记#6"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left",
+            "kills": 52
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                6,
+                3
+            ],
+            "pre_delay": 30000
+        },
+        {
+            "type": "Skill",
+            "name": "铃兰"
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔"
+        },
+        {
+            "type": "Output",
+            "doc_color": "#6f42c1",
+            "doc": "作业改一天啦\n不求点个赞，只求有问题请在作业站评论区说一声"
+        }
+    ],
+    "doc": {
+        "title": "[优化完毕！]【化学老施】孤星 - CW-EX-8 普通/突袭- 寂寥的光 修改自用",
+        "details": "统计日期：2024-06-01\n好评率：90.05%  浏览量：4512\n来源：小黑子的几脚  ID：38068\n原视频 化学老施 BV1vM4y147rf\n\n请使用MAA tuoch触控模式并开启暂停下干员！！！\n\nminitouch触控的轴太难对，换成MAA tuoch+暂停下干员了\n如果你使用本作业漏怪，技能晚放。快去升级电脑吧🤷‍♂️\n\n又优化了一下轴，这次用 minitouch + Adb Lite 也能过了 （5/10-23:36)\n又又测试了一遍，连Adb lnput都能过（说打不过的，升级 v4.16.5-alpha.1.d044.g10bc322f 内测版再试一遍）\n**提示就不删了，免得还有人继续使用Adb input**\n\n本作业测试干员史尔特尔2903，玛恩纳2903（不过练度稍微低一些好像没事）\n“补伤害，费用尽量低一点”里的干员只需要带能落地输出的（伤害低一点没关系），再部署时间小于40秒的干员（比如麒麟X夜刀也能用，但我忘记怎么加进作业了😂）\n山推荐75级左右 风笛至少70级以上（不然塞妈没及时放会暴毙）\n风笛，塞雷娅，铃兰要带x模组！别问为什么右侧漏怪了╯︿╰\n原视频除了夜莺专1以外，其他干员技能均专3\n\n作业改两天啦\n不求点个赞，只求有问题请在作业站评论区说一声\n\nyc.exe"
+    },
+    "groups": [
+        {
+            "name": "补伤害，费用尽量低一点",
+            "opers": [
+                {
+                    "name": "缄默德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "傀影",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "红",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "晓歌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "麒麟X夜刀",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "极境",
+            "opers": [
+                {
+                    "name": "琴柳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "极境",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

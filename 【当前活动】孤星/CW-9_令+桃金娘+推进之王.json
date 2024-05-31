@@ -1,0 +1,210 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act25side_09",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "推进之王",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "桃金娘",
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                1
+            ],
+            "kills": 2,
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "桃金娘",
+            "location": [
+                6,
+                1
+            ],
+            "kills": 4
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left",
+            "kills": 6
+        },
+        {
+            "type": "Retreat",
+            "name": "推进之王",
+            "location": [
+                10,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "kills": 8
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "桃金娘",
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "kills": 22
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                5
+            ],
+            "kills": 28
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "kills": 33
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                6
+            ],
+            "kills": 33
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "孤星 cw-9 少人信赖速刷",
+        "details": "统计日期：2024-06-01\n好评率：82.05%  浏览量：2405\n来源：阿月月月月月  ID：23112\n参考攻略：BV1Um4y1C7cK B站UP主：海川海川\n亲测70级令没有问题，需要专三二模\n建议打开设置中的maaTouch和AdbLite \n现在已经可以正常使用了，要多带一个推王，其他位置可以自己带干员刷信赖\n修好了 好像是因为maa没更新缪缪和新五星，带这两只刷信赖会一直点来点去导致下干员变慢漏第一只狗\n有问题可以评论反馈，好用的话记得点个好评！\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

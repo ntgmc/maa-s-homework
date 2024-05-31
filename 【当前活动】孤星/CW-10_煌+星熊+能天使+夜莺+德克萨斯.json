@@ -1,0 +1,80 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "【孤星】CW-10 含任务 星熊挡4",
+        "details": "统计日期：2024-06-01\n好评率：97.89%  浏览量：3240\n来源：一只摆烂的42  ID：38037\n侬无言以对\n原视频：https://www.bilibili.com/video/BV1Gk4y1E7WN/?p=1&t=79\n——————\n复刻任务改成了6个球，所以能完成\n星熊一定要带Y模（挡4）！！！\n怕一次过不了就带德狗\n——————\n【任务】：静滞所（第四个）\n第一阶段任务——以三星评价通关1次CW-10\n第二阶段任务——以三星评价通关1次CW-10，且克丽斯腾夺取的“行星碎屑”数量最多6个\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "act25side_10",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "部署",
+            "name": "星熊",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "能天使",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "上",
+            "doc": "如果能天使下慢了导致漏怪了带德狗补费用",
+            "doc_color": "DarkRed"
+        },
+        {
+            "type": "二倍速",
+            "name": ""
+        },
+        {
+            "type": "部署",
+            "name": "煌",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "部署",
+            "name": "夜莺",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "上"
+        }
+    ],
+    "groups": []
+}

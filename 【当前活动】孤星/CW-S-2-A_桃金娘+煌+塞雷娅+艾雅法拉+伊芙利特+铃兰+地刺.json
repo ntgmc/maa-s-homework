@@ -1,0 +1,133 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act25side_s02_a",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "铃兰",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "地刺",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "skill_usage": 0
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "孤星 - CW-S-2-A B - 战壕·α β通用",
+        "details": "统计日期：2024-06-01\n好评率：90.99%  浏览量：7489\n来源：萨拉托加  ID：37967\n战壕·α β通用\n原作者萧然Q json作者萨拉托加\n作业交流群群号216314927，有问题进群，作业站消息没提醒看不到\n【【孤星】CW全关卡 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1ch4y1J7x2/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "地刺",
+            "opers": [
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
