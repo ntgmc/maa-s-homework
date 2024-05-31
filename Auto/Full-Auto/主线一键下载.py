@@ -194,7 +194,7 @@ def filter_data(data, keyword, path_mode, filter_mode, cat_two, cat_three):
                 view = item.get('views', 0)
                 if percent >= score_threshold and view >= view_threshold:
                     if compare_cache(cache_dict, item['id'], item['upload_time'], cat_three):
-                        print(f"{item['id']} 未改变数据，无需更新")
+                        # print(f"{item['id']} 未改变数据，无需更新")
                         download_amount += 1
                         continue
                     content = json.loads(item['content'])
@@ -221,10 +221,8 @@ def filter_data(data, keyword, path_mode, filter_mode, cat_two, cat_three):
         print(f"{keyword} 无数据")
 
 
-def less_filter_data(data, stage_id, path_mode, filter_mode):
+def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
     global no_result, cache_dict
-    if any(substring in stage_id for substring in ['#f#', 'easy']):
-        return
     all_data = data.get(stage_id)
     if all_data:
         download_amount = 0
@@ -242,7 +240,7 @@ def less_filter_data(data, stage_id, path_mode, filter_mode):
                 view = item.get('views', 0)
                 if percent >= score_threshold and view >= view_threshold:
                     if compare_cache(cache_dict, item['id'], item['upload_time'], cat_three):
-                        print(f"{item['id']} 未改变数据，无需更新")
+                        # print(f"{item['id']} 未改变数据，无需更新")
                         download_amount += 1
                         continue
                     content = json.loads(item['content'])
@@ -269,15 +267,12 @@ def less_filter_data(data, stage_id, path_mode, filter_mode):
         print(f"{stage_id} 无数据")
 
 
-def search_stage(keyword):
-    for level in all_dict['主题曲'][keyword]:
-        search(level['stage_id'], cat_two=keyword, cat_three=level['cat_three'])
-
-
 def less_search_stage(key1):
     less_dict = less_search(key1)
     for key2 in less_dict:
-        less_filter_data(less_dict, key2, 1, 0)
+        if any(substring in key2 for substring in ['#f#', 'easy']):
+            continue
+        less_filter_data(less_dict, key2)
 
 
 def search_camp(keyword):
@@ -285,9 +280,16 @@ def search_camp(keyword):
         search(level['stage_id'], 2, cat_three=level['cat_three'])
 
 
+def less_search_camp():
+    less_dict = less_search('剿灭作战')
+    for key2 in less_dict:
+        less_filter_data(less_dict, key2, 2)
+
+
 def resource_stage_search():
     for level in resource_level:
-        search(level, 3, 1)
+        cat_three = get_stage_id_info(level, "cat_three")
+        search(level, 3, 1, cat_three=cat_three)
 
 
 level_data = get_level_data()
@@ -306,8 +308,7 @@ with ThreadPoolExecutor(max_workers=10) as executor:
     # 添加任务到线程池
     for stage in all_dict['主题曲']:
         futures.append(executor.submit(less_search_stage, stage))
-    for place in all_dict['剿灭作战']:
-        futures.append(executor.submit(search_camp, place))
+    futures.append(executor.submit(less_search_camp))
     futures.append(executor.submit(resource_stage_search))
 
     # 等待所有任务完成

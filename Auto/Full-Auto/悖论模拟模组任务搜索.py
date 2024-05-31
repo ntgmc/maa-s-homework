@@ -210,7 +210,7 @@ def filter_paradox(data, name, stage_id, _job):
             # 只下载评分最高的三个项目
             for percent, item in items_to_download[:3]:
                 if compare_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论"):
-                    print(f"{item['id']} 未改变数据，无需更新")
+                    # print(f"{item['id']} 未改变数据，无需更新")
                     continue
                 file_path = f"悖论模拟/{_job}/{name} - {int(percent)} - {item['id']}.json"
                 if not os.path.exists(file_path):
@@ -259,7 +259,7 @@ def search_module(name, stage):
                 # 只下载评分最高的三个项目
                 for percent, item in items_to_download[:3]:
                     if compare_cache(cache_dict, item['id'], item['upload_time'], name + "-模组"):
-                        print(f"{item['id']} 未改变数据，无需更新")
+                        # print(f"{item['id']} 未改变数据，无需更新")
                         continue
                     file_path = f"模组任务/{name} - {stage} - {int(percent)} - {item['id']}.json"
                     if not os.path.exists(file_path):
