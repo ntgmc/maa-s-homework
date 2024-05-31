@@ -2,7 +2,7 @@
     "minimum_required": "v4.0.0",
     "doc": {
         "title": "PR-A-2",
-        "details": "统计日期：2024-06-01\n好评率：81.25%  浏览量：778\n来源：tang  ID：28223\n如遇到无法识别“弦惊”“清平”“逍遥”，删除cache/avatars 下的头像重新启动MMA\n测试为90级三模专6令\n作者-唐"
+        "details": "统计日期：2024-05-31\n好评率：81.25%  浏览量：778\n来源：tang  ID：28223\n如遇到无法识别“弦惊”“清平”“逍遥”，删除cache/avatars 下的头像重新启动MMA\n测试为90级三模专6令\n作者-唐"
     },
     "stage_name": "pro_a_2",
     "opers": [
