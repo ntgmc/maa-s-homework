@@ -268,6 +268,7 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
 
 
 def less_search_stage(key1):
+    # 搜索主线关卡
     less_dict = less_search(key1)
     for key2 in less_dict:
         if any(substring in key2 for substring in ['#f#', 'easy']):
@@ -275,28 +276,27 @@ def less_search_stage(key1):
         less_filter_data(less_dict, key2)
 
 
-def search_camp(keyword):
-    for level in all_dict['剿灭作战'][keyword]:
-        search(level['stage_id'], 2, cat_three=level['cat_three'])
-
-
 def less_search_camp():
+    # 搜索剿灭作战
     less_dict = less_search('剿灭作战')
     for key2 in less_dict:
         less_filter_data(less_dict, key2, 2)
 
 
 def resource_stage_search():
+    # 搜索资源关
     for level in resource_level:
         cat_three = get_stage_id_info(level, "cat_three")
         search(level, 3, 1, cat_three=cat_three)
 
 
+# 获取关卡数据，构建字典
 level_data = get_level_data()
 stage_dict = build_dict(level_data, 'stage_id')
 cat_three_dict = build_dict(level_data, 'cat_three')
 all_dict = build_complex_dict(level_data)
 makedir()
+# 读取缓存
 if os.path.exists(cache):
     cache_dict = load_data(cache)
 else:
@@ -318,6 +318,7 @@ with ThreadPoolExecutor(max_workers=10) as executor:
         except Exception as e:
             print(f"Task generated an exception: {e}")
 last = datetime.now().timestamp()
+# 保存缓存
 save_data(cache, cache_dict)
 print(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
 print('No_result: ', no_result)
