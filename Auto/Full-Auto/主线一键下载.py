@@ -17,11 +17,11 @@ no_result = []
 # 设置日期
 date = datetime.now().strftime('%Y-%m-%d')
 # 设置缓存路径
-cache = 'Auto/Full-auto/cache/cache.json'
+cache = 'Auto/Full-Auto/cache/cache.json'
 
 
 def makedir():
-    os.makedirs('Auto/Full-auto/cache', exist_ok=True)
+    os.makedirs('Auto/Full-Auto/cache', exist_ok=True)
     os.makedirs('往期剿灭', exist_ok=True)
     os.makedirs('资源关', exist_ok=True)
     for _stage, item in all_dict['主题曲'].items():

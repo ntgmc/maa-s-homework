@@ -13,7 +13,7 @@ job_categories = ['先锋', '近卫', '重装', '狙击', '术士', '医疗', '�
 ids = []
 date = datetime.now().strftime('%Y-%m-%d')
 # 设置缓存路径
-cache = 'Auto/Full-auto/cache/cache.json'
+cache = 'Auto/Full-Auto/cache/cache.json'
 
 
 def write_to_file(file_path, content):
@@ -397,7 +397,7 @@ if download_mode:
     for job in job_categories:
         os.makedirs(f'悖论模拟/{job}', exist_ok=True)
     os.makedirs(f'模组任务', exist_ok=True)
-os.makedirs('Auto/Full-auto/cache', exist_ok=True)
+os.makedirs('Auto/Full-Auto/cache', exist_ok=True)
 if os.path.exists(cache):
     cache_dict = load_data(cache)
 else:
