@@ -1,0 +1,33 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-1 - 第一次接触",
+        "details": "统计日期：2024-06-07\n好评率：95.12%  浏览量：1111\n来源：线条黑猫猫  ID：38329\n生路 - BP-1 - 第一次接触"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

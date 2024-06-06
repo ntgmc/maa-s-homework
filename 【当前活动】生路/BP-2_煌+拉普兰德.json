@@ -1,0 +1,47 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_02",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-2 - 评议式迎接",
+        "details": "统计日期：2024-06-07\n好评率：99.71%  浏览量：19135\n来源：萨拉托加  ID：38301\n原作者萧然Q json作者萨拉托加\n作业交流群群号216314927，有问题进群，作业站消息没提醒看不到\n【【生路】BP-1至BP-9 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1ky411h7Uj/?p=3&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
