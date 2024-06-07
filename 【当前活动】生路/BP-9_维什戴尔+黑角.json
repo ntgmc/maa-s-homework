@@ -1,0 +1,115 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_09",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                1
+            ],
+            "kills": 1
+        },
+        {
+            "type": "Retreat",
+            "name": "黑角",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                1
+            ],
+            "kills": 3
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                1
+            ],
+            "kills": 41,
+            "pre_delay": 4000
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 105
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                1
+            ],
+            "kills": 110
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down",
+            "kills": 120
+        },
+        {
+            "type": "Skill",
+            "kills": 130,
+            "name": "维什戴尔",
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-9 - 文明的壁垒 - 单核",
+        "details": "统计日期：2024-06-08\n好评率：91.67%  浏览量：1082\n来源：小卡拉帕鲁灰🐖  ID：38359\n维神满配"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

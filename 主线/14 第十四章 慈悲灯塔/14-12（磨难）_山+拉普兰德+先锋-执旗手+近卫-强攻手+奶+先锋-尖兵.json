@@ -1,0 +1,216 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-11",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "先锋-执旗手",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫-强攻手",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "先锋-执旗手",
+            "skill_usage": 0
+        },
+        {
+            "type": "Skill",
+            "location": [
+                10,
+                5
+            ],
+            "kills": 22
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                5
+            ],
+            "kills": 23,
+            "pre_delay": 4000
+        },
+        {
+            "type": "Deploy",
+            "name": "先锋-尖兵",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                5
+            ],
+            "kills": 96,
+            "pre_delay": 4000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-12（磨难） - 使徒",
+        "details": "统计日期：2024-06-08\n好评率：97.32%  浏览量：1006\n来源：备胎拯救方舟  ID：37008\nJSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业"
+    },
+    "groups": [
+        {
+            "name": "先锋-执旗手",
+            "opers": [
+                {
+                    "name": "桃金娘",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "极境",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "万顷",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "琴柳",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "近卫-强攻手",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "暴行",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "先锋-尖兵",
+            "opers": [
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "推进之王"
+                },
+                {
+                    "name": "凛冬"
+                },
+                {
+                    "name": "焰尾"
+                },
+                {
+                    "name": "青枳"
+                },
+                {
+                    "name": "红隼",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "贾维"
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
