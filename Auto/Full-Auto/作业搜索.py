@@ -101,7 +101,12 @@ def search(keyword, search_mode):  # 返回json
         return menu()
 
 
-def process_and_save_content(keyword, _member, st, _percent=0, _view=0, _uploader="", _id=""):
+def process_and_save_content(keyword, _member, st, key, activity, _percent=0, _view=0, _uploader="", _id=""):
+    if key != "" and activity != "":
+        path = os.path.join(st["path"], key, activity)
+    else:
+        print(key, activity)
+        path = st["path"]
     content = json.loads(_member["content"])
     content['doc']['details'] = f"统计日期：{date}\n好评率：{_percent}%  浏览量：{_view}\n来源：{_uploader}  ID：{_id}\n" + content['doc']['details']
     names = [oper.get('name', '') for oper in content.get('opers', '')]
@@ -113,20 +118,20 @@ def process_and_save_content(keyword, _member, st, _percent=0, _view=0, _uploade
     if opers_bool:
         return False
     file_name = generate_filename(content, st["title"], _member["uploader"], keyword)
-    file_path = os.path.join(st["path"], f"{file_name}.json")
+    file_path = os.path.join(path, f"{file_name}.json")
     _ = 1
     while os.path.exists(file_path):
-        file_path = os.path.join(st["path"], f"{file_name} ({_}).json")
+        file_path = os.path.join(path, f"{file_name} ({_}).json")
         _ = _ + 1
     write_to_file(file_path, content)
     print(f"成功写出文件：{file_path}")
     return True
 
 
-def process_level(level, st):
+def process_level(level, st, key, activity):
     keyword = level['stage_id']
     name = level['cat_three']
-    if '#f#' in keyword:
+    if any(substring in keyword for substring in ['#f#', 'easy']):
         return
     data = search(keyword, st["order_by"])
     total = data["data"]["total"]
@@ -136,7 +141,7 @@ def process_level(level, st):
         point = calculate_percent(member)
         if member["views"] >= st["view"] and point >= st["point"] and amount < st["amount"]:
             if st["uploader"] == [] or member["uploader"] in st["uploader"]:
-                if process_and_save_content(name, member, st, point, member["views"], member["uploader"], member["id"]):
+                if process_and_save_content(name, member, st, key, activity, point, member["views"], member["uploader"], member["id"]):
                     amount += 1
             if amount >= st["amount"]:
                 break
@@ -144,28 +149,28 @@ def process_level(level, st):
             break
 
 
-def searches(activity_list, mode=0):
+def searches(activity_list, mode=0, keyword="", activity=""):
     st = configuration()
     print(f"保存目录：{st['path']}")
-    os.makedirs(st['path'], exist_ok=True)
     now = time.time()
 
     if mode == 0:
         with ThreadPoolExecutor(max_workers=10) as executor:
-            futures = [executor.submit(process_level, level, st) for level in activity_list]
+            futures = [executor.submit(process_level, level, st, keyword, activity) for level in activity_list if
+                       not any(substring in level['stage_id'] for substring in ['#f#', 'easy'])]
             for future in as_completed(futures):
                 try:
                     future.result()
                 except Exception as e:
                     print(f"Task generated an exception: {e}")
-    else:
+    else:  # 下载全部
         with ThreadPoolExecutor(max_workers=10) as executor:
             futures = []
             for sub, sub_list in activity_list.items():
                 for level in sub_list:
                     if any(substring in level['stage_id'] for substring in ['#f#', 'easy']):
                         continue
-                    futures.append(executor.submit(process_level, level, st))
+                    futures.append(executor.submit(process_level, level, st, keyword, activity))
                 for future in as_completed(futures):
                     try:
                         future.result()
@@ -291,10 +296,11 @@ def input_level():
     if choose.isdigit() and 1 <= int(choose) <= len(keys):
         key = keys[int(choose) - 1]
         activity = select_from_list(all_dict, key)
+        os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), "download", key, activity), exist_ok=True)
         if activity == "全部":
-            return searches(all_dict[key], mode=1)
+            return searches(all_dict[key], mode=1, keyword=key, activity=activity)
         else:
-            return searches(all_dict[key][activity])
+            return searches(all_dict[key][activity], keyword=key, activity=activity)
     elif "b" in choose.lower():
         return menu()
     else:
