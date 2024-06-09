@@ -122,57 +122,6 @@ def check_file_exists(pattern):  # 判断是否存在相同id但评分不同的�
             print(f"Removed {file_name}")
 
 
-def search_paradox(name, stage_id, _job=None):
-    global cache_dict
-    url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage_id}&document=&desc=true&orderBy=views"
-    _headers = {
-        "Origin": "https://prts.plus",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
-    }
-
-    _response = requests.get(url, headers=_headers)
-    if _response.status_code == 200:
-        data = _response.json()
-        total = data['data'].get('total', 0)
-        if total > 0:
-            ids_develop = []
-            ids_user = []
-            items_to_download = []
-            for item in data['data']['data']:
-                percent = calculate_percent(item)
-                if percent > 0:
-                    ids_develop.append(code_output(percent, item['id'], 1))
-                    if percent >= 20:
-                        ids_user.append(code_output(percent, item['id'], 2))
-                if total > 1 and percent >= download_score_threshold or total == 1:
-                    items_to_download.append((percent, item))
-            if download_mode and _job:
-                # 对列表按照评分进行排序，评分最高的在前面
-                items_to_download.sort(key=lambda x: x[0], reverse=True)
-
-                # 只下载评分最高的三个项目
-                for percent, item in items_to_download[:3]:
-                    if compare_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论"):
-                        print(f"{item['id']} 未改变数据，无需更新")
-                        continue
-                    file_path = f"悖论模拟/{_job}/{name} - {int(percent)} - {item['id']}.json"
-                    if not os.path.exists(file_path):
-                        check_file_exists(f"悖论模拟/{_job}/{name} - * - {item['id']}.json")
-                    content = json.loads(item['content'])
-                    content['doc'][
-                        'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
-                                     content['doc']['details']
-                    write_to_file(file_path, content)
-                    cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论")
-            print(f"成功搜索 {_job} - {name}")
-            return name, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
-        else:
-            return name, 0, 0, "None", "None"
-    else:
-        print(f"请求失败！ERR_CONNECTION_REFUSED in search({name})")
-        return name, 0, 0, "None", "None"
-
-
 def less_search_paradox():
     url = "https://prts.maa.plus/copilot/query?page=1&limit=999&levelKeyword=mem_&document=&desc=true&orderBy=views"
     _headers = {
@@ -217,7 +166,7 @@ def filter_paradox(data, name, stage_id, _job):
                     check_file_exists(f"悖论模拟/{_job}/{name} - * - {item['id']}.json")
                 content = json.loads(item['content'])
                 content['doc'][
-                    'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
+                    'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
                                  content['doc']['details']
                 write_to_file(file_path, content)
                 cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论")
@@ -266,7 +215,7 @@ def search_module(name, stage):
                         check_file_exists(f"模组任务/{name} - {stage} - * - {item['id']}.json")
                     content = json.loads(item['content'])
                     content['doc'][
-                        'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
+                        'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
                                      content['doc']['details']
                     write_to_file(file_path, content)
                     cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-模组")

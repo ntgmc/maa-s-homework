@@ -101,14 +101,14 @@ def search(keyword, search_mode):  # 返回json
         return menu()
 
 
-def process_and_save_content(keyword, _member, st, key, activity, _percent=0, _view=0, _uploader="", _id=""):
+def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
     if key != "" and activity != "":
         path = os.path.join(st["path"], key, activity)
     else:
         print(key, activity)
         path = st["path"]
     content = json.loads(_member["content"])
-    content['doc']['details'] = f"统计日期：{date}\n好评率：{_percent}%  浏览量：{_view}\n来源：{_uploader}  ID：{_id}\n" + content['doc']['details']
+    content['doc']['details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n" + content['doc']['details']
     names = [oper.get('name', '') for oper in content.get('opers', '')]
     opers_bool = False
     for opers in st["operator"]:
@@ -141,7 +141,7 @@ def process_level(level, st, key, activity):
         point = calculate_percent(member)
         if member["views"] >= st["view"] and point >= st["point"] and amount < st["amount"]:
             if st["uploader"] == [] or member["uploader"] in st["uploader"]:
-                if process_and_save_content(name, member, st, key, activity, point, member["views"], member["uploader"], member["id"]):
+                if process_and_save_content(name, member, st, key, activity, point):
                     amount += 1
             if amount >= st["amount"]:
                 break

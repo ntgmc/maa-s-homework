@@ -200,7 +200,7 @@ def filter_data(data, keyword, path_mode, filter_mode, cat_two, cat_three):
                     content = json.loads(item['content'])
                     file_path = generate_filename(keyword, content, path_mode, cat_two, cat_three)
                     content['doc'][
-                        'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
+                        'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
                                      content['doc']['details']
                     print(f"{file_path} {percent}% {view} 成功下载")
                     write_to_file(file_path, content)
@@ -246,7 +246,7 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
                     content = json.loads(item['content'])
                     file_path = generate_filename(stage_id, content, path_mode, cat_two, cat_three)
                     content['doc'][
-                        'details'] = f"统计日期：{date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
+                        'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
                                      content['doc']['details']
                     print(f"{file_path} {percent}% {view} 成功下载")
                     write_to_file(file_path, content)
