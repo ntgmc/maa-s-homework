@@ -51,8 +51,8 @@ for user in amount_sorted_dict.keys():
         '作业数': amount_dict[user],
         '浏览量': views_dict[user],
         '好评数': likes_dict[user],
-        '每作业浏览量': views_dict[user] / amount_dict[user] if amount_dict[user] != 0 else 0,
-        '每作业好评数': likes_dict[user] / amount_dict[user] if amount_dict[user] != 0 else 0,
+        '每作业浏览量': round(views_dict[user] / amount_dict[user], 2) if amount_dict[user] != 0 else 0,
+        '每作业好评数': round(likes_dict[user] / amount_dict[user], 2) if amount_dict[user] != 0 else 0,
         '每作业好评率': round(likes_dict[user] / (likes_dict[user] + dislikes_dict[user]) * 100, 2) if likes_dict[user] + dislikes_dict[user] != 0 else 0,
     }
 # 保存整合数据
