@@ -34,11 +34,6 @@ def write_to_file(file_path, content):
         json.dump(content, file, ensure_ascii=False, indent=4)
 
 
-def save_data(path, data):
-    with open(path, 'w', encoding='utf-8') as file:
-        json.dump(data, file, ensure_ascii=False, indent=4)
-
-
 def load_data(path):
     with open(path, 'r', encoding='utf-8') as file:
         return json.load(file)
@@ -122,8 +117,10 @@ def get_stage_info(text):  # 返回第一个-前的整数
         return None
 
 
-def replace_special_char(text):
-    return text.replace('/', '').replace('\\', '')
+def replace_dir_char(text):
+    for char in ['/', '\\', ':', '*', '?', '"', '<', '>', '|']:
+        text = text.replace(char, '')
+    return text
 
 
 def generate_filename(stage_id, data, mode, cat_two, stage_name=None):
@@ -135,7 +132,7 @@ def generate_filename(stage_id, data, mode, cat_two, stage_name=None):
     names_parts = ['+'.join(oper.get('name', '') for oper in opers),
                    '+'.join(group.get('name', '') for group in groups)]
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
-    names = replace_special_char(names)
+    names = replace_dir_char(names)
     if len(names) > 100:
         names = "文件名过长不予显示"
     if mode == 1:
@@ -199,9 +196,7 @@ def filter_data(data, keyword, path_mode, filter_mode, cat_two, cat_three):
                         continue
                     content = json.loads(item['content'])
                     file_path = generate_filename(keyword, content, path_mode, cat_two, cat_three)
-                    content['doc'][
-                        'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
-                                     content['doc']['details']
+                    content['doc']['details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
                     print(f"{file_path} {percent}% {view} 成功下载")
                     write_to_file(file_path, content)
                     cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], cat_three)
@@ -319,6 +314,6 @@ with ThreadPoolExecutor(max_workers=10) as executor:
             print(f"Task generated an exception: {e}")
 last = datetime.now().timestamp()
 # 保存缓存
-save_data(cache, cache_dict)
+write_to_file(cache, cache_dict)
 print(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
 print('No_result: ', no_result)
