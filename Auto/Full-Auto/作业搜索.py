@@ -63,6 +63,7 @@ def configuration():
     if _mode == "1":
         return {
             'title': 1,
+            'save': 2,
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)), "download"),
             'order_by': 3,
             'point': 0,
@@ -119,10 +120,17 @@ def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
         return False
     file_name = generate_filename(content, st["title"], _member["uploader"], keyword)
     file_path = os.path.join(path, f"{file_name}.json")
-    _ = 1
-    while os.path.exists(file_path):
-        file_path = os.path.join(path, f"{file_name} ({_}).json")
-        _ = _ + 1
+    if st["save"] == 1:
+        if os.path.exists(file_path):
+            os.remove(file_path)
+    elif st["save"] == 2:
+        _ = 1
+        while os.path.exists(file_path):
+            file_path = os.path.join(path, f"{file_name} ({_}).json")
+            _ = _ + 1
+    elif st["save"] == 3:
+        print(f"跳过文件：{file_path}")
+        return False
     write_to_file(file_path, content)
     print(f"成功写出文件：{file_path}")
     return True
@@ -202,6 +210,10 @@ def configure_download_settings():
     print("2. 标题 - 作者.json")
     print("3. 关卡代号-干员1+干员2.json")
     title = int_input("选择文件名格式（默认为1）：", 1, 1, 3)
+    print("1. 替换原来的文件")
+    print("2. 保存到新文件并加上序号如 (1)")
+    print("3. 跳过，不保存")
+    save = int_input("设置文件名冲突时的处理方式（默认为2）：", 2, 1, 3)
     path = input("设置保存文件夹（为空默认当前目录\\download）：").replace(" ", "")
     path = path if path and os.path.isdir(path) else os.path.join(os.path.dirname(os.path.abspath(__file__)), "download")
     print(f"成功设置保存文件夹为：{path}")
@@ -218,6 +230,7 @@ def configure_download_settings():
     print(f"设定值：{uploader}")
     return {
         'title': title,
+        'save': save,
         'path': path,
         'order_by': order_by,
         'point': point,
@@ -276,7 +289,7 @@ def mode1():
         point = calculate_percent(member)
         if member["views"] >= st["view"] and point >= st["point"] and amount < st["amount"]:
             if st["uploader"] == [] or member["uploader"] in st["uploader"]:
-                if process_and_save_content(keyword, member, st, point, member["views"], member["uploader"], member["id"]):
+                if process_and_save_content(keyword, member, st, keyword, "单次下载", point):
                     amount = amount + 1
             if amount >= st["amount"]:
                 break
