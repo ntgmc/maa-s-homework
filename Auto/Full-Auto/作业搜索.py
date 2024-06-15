@@ -242,7 +242,9 @@ def configure_download_settings():
 
 
 def replace_dir_char(text):
-    return text.replace('/', '').replace('\\', '')
+    for char in ['/', '\\', ':', '*', '?', '"', '<', '>', '|']:
+        text = text.replace(char, '')
+    return text
 
 
 def generate_filename_mode3(stage_name, data):
