@@ -1,0 +1,83 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ],
+            "kills": 1,
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ],
+            "kills": 5
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 9
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ],
+            "kills": 9
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 10
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-6 - 阿戈尔失格 - 单核",
+        "details": "作业更新日期: 2024-06-05T12:48:02Z\n统计更新日期: 2024-06-15\n好评率：100.0%  浏览量：1104\n来源：小卡拉帕鲁灰🐖  ID：38352\n维神满配\n为了稳定加了一个地面"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
