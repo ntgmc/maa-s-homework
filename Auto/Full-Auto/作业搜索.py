@@ -7,6 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
 setting = {}
+setting_version = "20240621"
 date = time.strftime('%Y-%m-%d', time.localtime())
 
 
@@ -48,7 +49,8 @@ def load_settings():
     if os.path.exists(SETTING_PATH):
         with open(SETTING_PATH, 'r') as file:
             setting = json.load(file)
-        return True
+        if "download" in setting and setting["download"].get("version", "") == setting_version:
+            return True
     return False
 
 
@@ -58,7 +60,7 @@ def calculate_percent(item):
 
 
 def configuration():
-    print("1. 默认配置\n2. 用户配置\n3. 自定义模式（单次）")
+    print("1. 默认设置\n2. 用户设置\n3. 自定义设置（单次）")
     _mode = input("请选择配置：")
     if _mode == "1":
         return {
@@ -74,7 +76,7 @@ def configuration():
         }
     elif _mode == "2":
         if not load_settings():
-            input("未找到用户配置，请先设置\n")
+            input("未找到用户设置或用户设置已过期，请设置\n")
             return menu()
         return setting["download"]
     elif _mode == "3":
@@ -229,6 +231,7 @@ def configure_download_settings():
     uploader = input("设置只看作业站作者（空格分隔）（为空不限制）：").split()
     print(f"设定值：{uploader}")
     return {
+        'version': setting_version,
         'title': title,
         'save': save,
         'path': path,
@@ -380,9 +383,19 @@ def mode2():
 
 def download_set():
     global setting
-    load_settings()
-    setting["download"] = configure_download_settings()
-    save_data(setting)
+    zt = load_settings()
+    if zt:
+        print("1. 重新设置")
+        print("2. 查看当前设置")
+    else:
+        print("1. 设置")
+    choose = input("请选择操作：")
+    if choose == "1":
+        setting["download"] = configure_download_settings()
+        save_data(setting)
+    elif choose == "2" and zt:
+        print(json.dumps(setting["download"], ensure_ascii=False, indent=4))
+        input("按任意键返回")
     return menu()
 
 
