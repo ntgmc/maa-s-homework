@@ -123,7 +123,10 @@ def load_settings():
         with open(SETTING_PATH, 'r') as file:
             setting = json.load(file)
         if "download" in setting and setting["download"].get("version", "") == setting_version:
+            log_message(f"成功加载设置", console_output=False)
             return True
+        else:
+            log_message(f"设置版本不匹配", logging.ERROR, False)
     return False
 
 
@@ -208,7 +211,6 @@ def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
         log_message(f"跳过文件：{file_path}", logging.WARNING)
         return False
     write_to_file(file_path, content)
-    log_message(f"成功写出文件：{file_path}")
     return True
 
 
@@ -263,6 +265,7 @@ def searches(activity_list, mode=0, keyword="", activity=""):
                         log_message(f"{e}", logging.ERROR)
 
     last = time.time()
+    log_message(f"搜索完毕，共耗时 {round(last - now, 2)} s.", logging.INFO, False)
     input(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
     return menu()
 
@@ -271,7 +274,6 @@ def less_search(stage_dict, st, search_key, activity, keyword):
     os.makedirs(os.path.join(st["path"], search_key, activity), exist_ok=True)
     data = search(keyword, st["order_by"])
     data_dict = build_data_dict(stage_dict, data)
-
     for key, value in data_dict.items():
         key1, key2 = key.split("<<")
         #  key1为stage_id，key2为name
@@ -295,6 +297,7 @@ def less_search(stage_dict, st, search_key, activity, keyword):
 def int_input(prompt, default, min_value=None, max_value=None):
     try:
         value = input(prompt).strip()
+        log_message(f"输入：{value}", logging.INFO, False)
         value = int(value) if value else default
         if min_value is not None and value < min_value:
             value = default
@@ -308,6 +311,7 @@ def int_input(prompt, default, min_value=None, max_value=None):
 
 
 def configure_download_settings():
+    log_message("设置", logging.INFO, False)
     print("1. 标题.json")
     print("2. 标题 - 作者.json")
     print("3. 关卡代号-干员1+干员2.json")
@@ -330,6 +334,7 @@ def configure_download_settings():
     print(f"设定值：{operator}")
     uploader = input("设置只看作业站作者（空格分隔）（为空不限制）：").split()
     print(f"设定值：{uploader}")
+    log_message(f"设置：{title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {operator}, {uploader}", logging.INFO, False)
     return {
         'version': setting_version,
         'title': title,
@@ -376,6 +381,7 @@ def generate_filename(content, title, uploader, keyword):
 
 
 def mode1():
+    log_message("单次搜索", logging.INFO, False)
     os.system("cls")
     print("已进入单次搜索并下载模式，（输入back返回）")
     keyword = input("请输入关卡代号：").replace(" ", "")
@@ -406,6 +412,7 @@ def mode1():
 
 
 def input_level():
+    log_message("选择类型", logging.INFO, False)
     keys = ["活动关卡", "主题曲", "剿灭作战", "资源收集"]
     for i, key in enumerate(keys):
         print(f"{i + 1}. {key}")
@@ -432,18 +439,21 @@ def input_level():
                             future.result()
                         except Exception as e:
                             log_message(f"{e}", logging.ERROR)
+                log_message(f"搜索{key}-{activity}完毕，共耗时 {round(time.time() - now, 2)} s.", logging.INFO, False)
                 input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n")
                 return menu()
             else:
                 st = configuration()
                 now = time.time()
                 less_search(stage_dict, st, key, activity, extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id']))
+                log_message(f"搜索{key}-{activity}完毕，共耗时 {round(time.time() - now, 2)} s.", logging.INFO, False)
                 input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n")
                 return menu()
         elif key == "剿灭作战" and activity == "全部":
             st = configuration()
             now = time.time()
             less_search(stage_dict, st, "剿灭作战", activity, "camp_")
+            log_message(f"搜索{key}-{activity}完毕，共耗时 {round(time.time() - now, 2)} s.", logging.INFO, False)
             input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n")
             return menu()
         if activity == "全部":
@@ -474,6 +484,7 @@ def extract_activity_from_stage_id(stage_id):
 
 
 def select_from_list(_activity_dict, key_one):  # 返回二级中文名
+    log_message("选择关卡", logging.INFO, False)
     if key_one == "主题曲":
         stage_dict = {}
         for stage_name, item in _activity_dict[key_one].items():
@@ -515,6 +526,7 @@ def select_from_list(_activity_dict, key_one):  # 返回二级中文名
 
 
 def mode2():
+    log_message("批量下载", logging.INFO, False)
     os.system("cls")
     print("已进入批量搜索并下载模式，（输入back返回）")
     return input_level()
@@ -522,7 +534,9 @@ def mode2():
 
 def download_set():
     global setting
+    log_message("设置", logging.INFO, False)
     zt = load_settings()
+    log_message(f"设置：{zt}", logging.INFO, False)
     if zt:
         print("1. 重新设置")
         print("2. 查看当前设置")
@@ -539,6 +553,7 @@ def download_set():
 
 
 def menu():
+    log_message("菜单", logging.INFO, False)
     os.system("cls")
     print("=" * 60)
     print("1. 单次搜索并下载")
@@ -563,3 +578,4 @@ all_dict = build_complex_dict(get_level_data())
 menu_result = False
 while not menu_result:
     menu_result = menu()
+log_message("程序结束", logging.INFO)
