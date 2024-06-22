@@ -4,8 +4,10 @@ import time
 import os
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import logging
 
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
+log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log", "app.log")
 setting = {}
 setting_version = "20240621"
 date = time.strftime('%Y-%m-%d', time.localtime())
@@ -21,10 +23,58 @@ def save_data(data):
 def write_to_file(file_path, content):
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
+        log_message(f"写出文件：{file_path}", console_output=False)
+
+
+def delete_log_file():
+    if os.path.exists(log_path):
+        os.remove(log_path)
+
+
+def log_message(message, level=logging.INFO, console_output=True):
+    # 创建一个logger
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.DEBUG)  # 设置日志级别
+
+    # 创建一个handler，用于写入日志文件
+    file_handler = logging.FileHandler(log_path)
+    file_handler.setLevel(logging.DEBUG)
+
+    # 定义handler的输出格式
+    formatter = logging.Formatter('[%(asctime)s][%(levelname)s] %(message)s')
+    file_handler.setFormatter(formatter)
+
+    # 给logger添加handler
+    logger.addHandler(file_handler)
+
+    # 如果console_output为True，则创建一个handler，用于输出到控制台
+    if console_output:
+        console_handler = logging.StreamHandler()
+        console_handler.setLevel(logging.DEBUG)
+        console_handler.setFormatter(formatter)
+        logger.addHandler(console_handler)
+
+    # 根据日志级别，记录日志
+    if level == logging.DEBUG:
+        logger.debug(message)
+    elif level == logging.INFO:
+        logger.info(message)
+    elif level == logging.WARNING:
+        logger.warning(message)
+    elif level == logging.ERROR:
+        logger.error(message)
+    elif level == logging.CRITICAL:
+        logger.critical(message)
+
+    # 移除handler，防止日志重复
+    logger.removeHandler(file_handler)
+    if console_output:
+        logger.removeHandler(console_handler)
 
 
 def get_level_data():
     response = requests.get('https://prts.maa.plus/arknights/level')
+    log_message(f"成功获取关卡数据", console_output=False)
     return response.json()['data'] if response.ok else []
 
 
@@ -42,6 +92,29 @@ def build_complex_dict(data):
         # 将成员添加到对应的列表中
         complex_dict[category][key].append(member)
     return complex_dict
+
+
+def build_dict(data, key: str, _dict=None):  # key为生成的字典的键
+    if _dict is None:
+        _dict = {}
+    for member in data:
+        _key = member[key]
+        if _key in _dict:
+            _dict[_key].append(member)
+        else:
+            _dict[_key] = [member]
+    return _dict
+
+
+def build_data_dict(level_dict, data):
+    data_dict = {}
+    for member in data['data']['data']:
+        stage = json.loads(member['content'])['stage_name']
+        key = stage + "<<" + level_dict[stage][0]['cat_three']
+        if key not in data_dict:
+            data_dict[key] = []
+        data_dict[key].append(member)
+    return data_dict
 
 
 def load_settings():
@@ -64,6 +137,7 @@ def configuration():
     _mode = input("请选择配置：")
     if _mode == "1":
         return {
+            'version': setting_version,
             'title': 1,
             'save': 2,
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)), "download"),
@@ -108,7 +182,7 @@ def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
     if key != "" and activity != "":
         path = os.path.join(st["path"], key, activity)
     else:
-        print(key, activity)
+        log_message(f"{key}, {activity}", logging.ERROR)
         path = st["path"]
     content = json.loads(_member["content"])
     content['doc']['details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n" + content['doc']['details']
@@ -131,10 +205,10 @@ def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
             file_path = os.path.join(path, f"{file_name} ({_}).json")
             _ = _ + 1
     elif st["save"] == 3:
-        print(f"跳过文件：{file_path}")
+        log_message(f"跳过文件：{file_path}", logging.WARNING)
         return False
     write_to_file(file_path, content)
-    print(f"成功写出文件：{file_path}")
+    log_message(f"成功写出文件：{file_path}")
     return True
 
 
@@ -145,7 +219,7 @@ def process_level(level, st, key, activity):
         return
     data = search(keyword, st["order_by"])
     total = data["data"]["total"]
-    print(f"搜索 {keyword} 共获得 {total} 个数据")
+    log_message(f"搜索 {keyword} 共获得 {total} 个数据")
     amount = 0
     for member in data["data"]["data"]:
         point = calculate_percent(member)
@@ -161,7 +235,8 @@ def process_level(level, st, key, activity):
 
 def searches(activity_list, mode=0, keyword="", activity=""):
     st = configuration()
-    print(f"保存目录：{st['path']}")
+    os.makedirs(st["path"], exist_ok=True)
+    log_message(f"保存目录：{st['path']}")
     now = time.time()
 
     if mode == 0:
@@ -172,7 +247,7 @@ def searches(activity_list, mode=0, keyword="", activity=""):
                 try:
                     future.result()
                 except Exception as e:
-                    print(f"Task generated an exception: {e}")
+                    log_message(f"{e}", logging.ERROR)
     else:  # 下载全部
         with ThreadPoolExecutor(max_workers=10) as executor:
             futures = []
@@ -185,11 +260,36 @@ def searches(activity_list, mode=0, keyword="", activity=""):
                     try:
                         future.result()
                     except Exception as e:
-                        print(f"Task generated an exception: {e}")
+                        log_message(f"{e}", logging.ERROR)
 
     last = time.time()
     input(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
     return menu()
+
+
+def less_search(stage_dict, st, search_key, activity, keyword):
+    os.makedirs(os.path.join(st["path"], search_key, activity), exist_ok=True)
+    data = search(keyword, st["order_by"])
+    data_dict = build_data_dict(stage_dict, data)
+
+    for key, value in data_dict.items():
+        key1, key2 = key.split("<<")
+        #  key1为stage_id，key2为name
+        total = len(value)
+        log_message(f"搜索 {key1} {key2} 共获得 {total} 个数据")
+        amount = 0
+        for member in value:
+            if any(substring in member['content'] for substring in ['#f#', 'easy']):
+                continue
+            point = calculate_percent(member)
+            if member["views"] >= st["view"] and point >= st["point"] and amount < st["amount"]:
+                if st["uploader"] == [] or member["uploader"] in st["uploader"]:
+                    if process_and_save_content(key2, member, st, search_key, activity, point):
+                        amount = amount + 1
+                if amount >= st["amount"]:
+                    break
+            elif amount >= st["amount"]:
+                break
 
 
 def int_input(prompt, default, min_value=None, max_value=None):
@@ -270,7 +370,7 @@ def generate_filename(content, title, uploader, keyword):
     elif title == 3:
         file_name = generate_filename_mode3(keyword, content)
     else:
-        print('文件名格式错误')
+        log_message(f'文件名格式错误, {content}, {title}, {uploader}, {keyword}', logging.ERROR)
         file_name = f"ERROR{time.time()}"
     return file_name
 
@@ -284,11 +384,11 @@ def mode1():
     st = configuration()
     os.system("cls")
     now = time.time()
-    print(f'保存目录：{st["path"]}')
+    log_message(f'保存目录：{st["path"]}')
     os.makedirs(st["path"], exist_ok=True)
     data = search(keyword, st["order_by"])
     total = data["data"]["total"]
-    print(f"搜索 {keyword} 共获得 {total} 个数据")
+    log_message(f"搜索 {keyword} 共获得 {total} 个数据")
     amount = 0
     for member in data["data"]["data"]:
         point = calculate_percent(member)
@@ -314,7 +414,38 @@ def input_level():
     if choose.isdigit() and 1 <= int(choose) <= len(keys):
         key = keys[int(choose) - 1]
         activity = select_from_list(all_dict, key)
-        os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), "download", key, activity), exist_ok=True)
+        if activity == "全部":
+            stage_dict = {}
+            for sub_key, sub_dict in all_dict[key].items():
+                stage_dict = build_dict(sub_dict, "stage_id", stage_dict)
+        else:
+            stage_dict = build_dict(all_dict[key][activity], "stage_id")
+        if key == "活动关卡":
+            if activity == "全部":
+                st = configuration()
+                now = time.time()
+                with ThreadPoolExecutor(max_workers=10) as executor:
+                    futures = [executor.submit(less_search, stage_dict, st, key, activity, extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id'])) for activity in all_dict[key]
+                               if activity != "全部" and activity != ""]
+                    for future in as_completed(futures):
+                        try:
+                            future.result()
+                        except Exception as e:
+                            log_message(f"{e}", logging.ERROR)
+                input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n")
+                return menu()
+            else:
+                st = configuration()
+                now = time.time()
+                less_search(stage_dict, st, key, activity, extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id']))
+                input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n")
+                return menu()
+        elif key == "剿灭作战" and activity == "全部":
+            st = configuration()
+            now = time.time()
+            less_search(stage_dict, st, "剿灭作战", activity, "camp_")
+            input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n")
+            return menu()
         if activity == "全部":
             return searches(all_dict[key], mode=1, keyword=key, activity=activity)
         else:
@@ -332,6 +463,14 @@ def extract_integer_from_stage_id(stage_id):
     if match:
         return int(match.group(1))
     return 0
+
+
+def extract_activity_from_stage_id(stage_id):
+    # 从 stage_id 中提取数字
+    match = re.search(r'(.+?)_', stage_id)
+    if match:
+        return match.group(1) + '_'
+    return None
 
 
 def select_from_list(_activity_dict, key_one):  # 返回二级中文名
@@ -417,6 +556,9 @@ def menu():
         return True
 
 
+delete_log_file()
+os.makedirs("log", exist_ok=True)
+log_message("程序启动", logging.INFO)
 all_dict = build_complex_dict(get_level_data())
 menu_result = False
 while not menu_result:
