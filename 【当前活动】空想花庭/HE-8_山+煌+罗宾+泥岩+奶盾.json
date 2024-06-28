@@ -1,0 +1,211 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act26side_08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "BulletTime",
+            "name": "罗宾",
+            "costs": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "BulletTime",
+            "name": "罗宾",
+            "costs": 14
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "None",
+            "kills": 10
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "罗宾",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "“夹子”",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "“夹子”",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "“夹子”",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "HE-8 - 愿跟随主",
+        "details": "作业更新日期: 2024-06-25T08:26:01Z\n统计更新日期: 2024-06-28\n好评率：97.62%  浏览量：8891\n来源：萨拉托加  ID：38840\n罗宾不需要练度\n原作者萧然Q json作者萨拉托加\n作业交流群群号216314927，有问题进群找我，作业站消息没提醒看不到\n【【空想花庭】HE全关卡 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV13P411Q74r/?p=10&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "罗宾",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,233 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act26side_ex08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Up",
+            "costs": 24
+        },
+        {
+            "type": "Deploy",
+            "name": "流明",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Up",
+            "costs": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Left",
+            "costs": 20
+        },
+        {
+            "type": "Retreat",
+            "name": "星熊",
+            "location": [
+                9,
+                2
+            ],
+            "kills": 11
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "costs": 19
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up",
+            "costs": 40
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left",
+            "costs": 23
+        },
+        {
+            "type": "Retreat",
+            "name": "奶盾",
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Left",
+            "costs": 35
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯",
+            "location": [
+                3,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                5
+            ],
+            "costs": 22,
+            "direction": "Up"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "skill_usage": 0
+        },
+        {
+            "type": "SkillDaemon",
+            "doc": "有帮助的话 点个好评吧~",
+            "doc_color": "DarkRed"
+        }
+    ],
+    "doc": {
+        "title": "空想花庭 HE-EX-8突袭 萧然Q攻略 摆完挂机",
+        "details": "作业更新日期: 2023-06-15T16:08:37Z\n统计更新日期: 2024-06-28\n好评率：92.18%  浏览量：7781\n来源：1145de逝灬  ID：24021\n攻略作者：萧然Q https://www.bilibili.com/video/BV13P411Q74r/ 记得去b站给萧然宝贝点赞三连\njson作者：\n测了 过了"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "流明",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

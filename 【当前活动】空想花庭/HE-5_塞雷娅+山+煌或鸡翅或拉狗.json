@@ -1,0 +1,95 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act26side_05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌或鸡翅或拉狗",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "【柠檬味の小小猪】HE-5 空想花庭",
+        "details": "作业更新日期: 2023-06-08T11:24:13Z\n统计更新日期: 2024-06-28\n好评率：83.33%  浏览量：1120\n来源：土豆雷优香  ID：23855\n原视频 https://www.bilibili.com/video/BV1qk4y1p7v3?p=7\n\n原作者 柠檬味の小小猪\n\n默认练度精2 70级\n\n原作者虽然都有理论上可替换但是都没有经过测试，替换有概率会炸，因为涉及人员数量变动和需要进行替换的测试太麻烦我就不重复写作业了\n\n祝大家抄作业顺利，計算通り，完璧～~~~有什么问题请评论留言，缘分到了会看一下……吧（）"
+    },
+    "groups": [
+        {
+            "name": "煌或鸡翅或拉狗",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "拉普兰德",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ]
+}
