@@ -11,6 +11,7 @@ log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log", "app.
 setting = {}
 setting_version = "20240621"
 date = time.strftime('%Y-%m-%d', time.localtime())
+use_local_level = True
 
 
 def save_data(data):
@@ -37,7 +38,7 @@ def log_message(message, level=logging.INFO, console_output=True):
     logger.setLevel(logging.DEBUG)  # 设置日志级别
 
     # 创建一个handler，用于写入日志文件
-    file_handler = logging.FileHandler(log_path)
+    file_handler = logging.FileHandler(log_path, encoding='utf-8')
     file_handler.setLevel(logging.DEBUG)
 
     # 定义handler的输出格式
@@ -74,6 +75,7 @@ def log_message(message, level=logging.INFO, console_output=True):
 
 def get_level_data():
     response = requests.get('https://prts.maa.plus/arknights/level')
+    write_to_file("log/level_data_temp.json", response.json())
     log_message(f"成功获取关卡数据", console_output=False)
     return response.json()['data'] if response.ok else []
 
@@ -110,6 +112,9 @@ def build_data_dict(level_dict, data):
     data_dict = {}
     for member in data['data']['data']:
         stage = json.loads(member['content'])['stage_name']
+        if any(substring in stage for substring in ['#f#', 'easy']):
+            continue
+        log_message("Build data dict: " + stage + "<<" + level_dict[stage][0]['cat_three'], logging.DEBUG, False)
         key = stage + "<<" + level_dict[stage][0]['cat_three']
         if key not in data_dict:
             data_dict[key] = []
@@ -187,6 +192,7 @@ def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
     else:
         log_message(f"{key}, {activity}", logging.ERROR)
         path = st["path"]
+    os.makedirs(path, exist_ok=True)
     content = json.loads(_member["content"])
     content['doc']['details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n" + content['doc']['details']
     names = [oper.get('name', '') for oper in content.get('opers', '')]
@@ -427,6 +433,8 @@ def input_level():
                 stage_dict = build_dict(sub_dict, "stage_id", stage_dict)
         else:
             stage_dict = build_dict(all_dict[key][activity], "stage_id")
+            log_message(f"stage_dict: {stage_dict}", logging.DEBUG, False)
+        write_to_file("log/stage_dict_temp.json", stage_dict)
         if key == "活动关卡":
             if activity == "全部":
                 st = configuration()
@@ -574,7 +582,13 @@ def menu():
 delete_log_file()
 os.makedirs("log", exist_ok=True)
 log_message("程序启动", logging.INFO)
-all_dict = build_complex_dict(get_level_data())
+if use_local_level:
+    with open("cache/level_data.json", 'r', encoding='utf-8') as file:
+        all_dict = build_complex_dict(json.load(file)['data'])
+    log_message("成功加载本地关卡数据")
+else:
+    all_dict = build_complex_dict(get_level_data())
+    log_message("成功获取在线关卡数据")
 menu_result = False
 while not menu_result:
     menu_result = menu()
