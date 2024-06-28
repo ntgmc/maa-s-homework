@@ -18,13 +18,14 @@ def save_data(data):
     os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
     with open(SETTING_PATH, 'w') as file:
         json.dump(data, file)
+    log_message(f"Data saved successfully 数据保存成功", logging.INFO, False)
     return True
 
 
 def write_to_file(file_path, content):
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
-        log_message(f"写出文件：{file_path}", console_output=False)
+        log_message(f"write_to_file 写出文件: {file_path}", console_output=False)
 
 
 def delete_log_file():
@@ -70,13 +71,14 @@ def log_message(message, level=logging.INFO, console_output=True):
     # 移除handler，防止日志重复
     logger.removeHandler(file_handler)
     if console_output:
+        # noinspection PyUnboundLocalVariable
         logger.removeHandler(console_handler)
 
 
 def get_level_data():
     response = requests.get('https://prts.maa.plus/arknights/level')
     write_to_file("log/level_data_temp.json", response.json())
-    log_message(f"成功获取关卡数据", console_output=False)
+    log_message(f"Successfully obtained level data 成功获取关卡数据", console_output=False)
     return response.json()['data'] if response.ok else []
 
 
@@ -128,10 +130,10 @@ def load_settings():
         with open(SETTING_PATH, 'r') as file:
             setting = json.load(file)
         if "download" in setting and setting["download"].get("version", "") == setting_version:
-            log_message(f"成功加载设置", console_output=False)
+            log_message(f"Settings loaded successfully 成功加载设置", console_output=False)
             return True
         else:
-            log_message(f"设置版本不匹配", logging.ERROR, False)
+            log_message(f"Version mismatch set 设置版本不匹配", logging.ERROR, False)
     return False
 
 
@@ -143,6 +145,7 @@ def calculate_percent(item):
 def configuration():
     print("1. 默认设置\n2. 用户设置\n3. 自定义设置（单次）")
     _mode = input("请选择配置：")
+    log_message(f"Configuration 配置: {_mode}", logging.DEBUG, False)
     if _mode == "1":
         return {
             'version': setting_version,
@@ -181,6 +184,7 @@ def search(keyword, search_mode):  # 返回json
         response = requests.get(url, headers=headers)
         return response.json()
     except requests.exceptions.SSLError:
+        log_message("SSL certificate verification failed SSL证书验证失败", logging.ERROR)
         print("=" * 60)
         input("!!!SSL证书验证失败，请关闭系统代理!!!\n")
         return menu()
@@ -190,7 +194,7 @@ def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
     if key != "" and activity != "":
         path = os.path.join(st["path"], key, activity)
     else:
-        log_message(f"{key}, {activity}", logging.ERROR)
+        log_message(f"ERROR 错误: {key}, {activity}", logging.ERROR)
         path = st["path"]
     os.makedirs(path, exist_ok=True)
     content = json.loads(_member["content"])
@@ -302,8 +306,9 @@ def less_search(stage_dict, st, search_key, activity, keyword):
 
 def int_input(prompt, default, min_value=None, max_value=None):
     try:
+        log_message(f"Function 函数: int_input({prompt}, {default}, {min_value}, {max_value})", logging.DEBUG, False)
         value = input(prompt).strip()
-        log_message(f"输入：{value}", logging.INFO, False)
+        log_message(f"Input 输入: {value}", logging.DEBUG, False)
         value = int(value) if value else default
         if min_value is not None and value < min_value:
             value = default
@@ -317,7 +322,7 @@ def int_input(prompt, default, min_value=None, max_value=None):
 
 
 def configure_download_settings():
-    log_message("设置", logging.INFO, False)
+    log_message("Page: SETTING 设置", logging.INFO, False)
     print("1. 标题.json")
     print("2. 标题 - 作者.json")
     print("3. 关卡代号-干员1+干员2.json")
@@ -340,7 +345,7 @@ def configure_download_settings():
     print(f"设定值：{operator}")
     uploader = input("设置只看作业站作者（空格分隔）（为空不限制）：").split()
     print(f"设定值：{uploader}")
-    log_message(f"设置：{title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {operator}, {uploader}", logging.INFO, False)
+    log_message(f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {operator}, {uploader}", logging.INFO, False)
     return {
         'version': setting_version,
         'title': title,
@@ -369,6 +374,7 @@ def generate_filename_mode3(stage_name, data):
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
     names = replace_dir_char(names)
     if len(names) > 100:
+        log_message(f"File name too long 文件名过长: {names}, {stage_name}", logging.WARNING)
         names = "文件名过长不予显示"
     return f'{stage_name}_{names}'
 
@@ -381,13 +387,13 @@ def generate_filename(content, title, uploader, keyword):
     elif title == 3:
         file_name = generate_filename_mode3(keyword, content)
     else:
-        log_message(f'文件名格式错误, {content}, {title}, {uploader}, {keyword}', logging.ERROR)
+        log_message(f'File name format error 文件名格式错误, {content}, {title}, {uploader}, {keyword}', logging.ERROR)
         file_name = f"ERROR{time.time()}"
     return file_name
 
 
 def mode1():
-    log_message("单次搜索", logging.INFO, False)
+    log_message("Single search 单次搜索", logging.INFO, False)
     os.system("cls")
     print("已进入单次搜索并下载模式，（输入back返回）")
     keyword = input("请输入关卡代号：").replace(" ", "")
@@ -418,7 +424,7 @@ def mode1():
 
 
 def input_level():
-    log_message("选择类型", logging.INFO, False)
+    log_message("Select type 选择类型", logging.DEBUG, False)
     keys = ["活动关卡", "主题曲", "剿灭作战", "资源收集"]
     for i, key in enumerate(keys):
         print(f"{i + 1}. {key}")
@@ -534,7 +540,7 @@ def select_from_list(_activity_dict, key_one):  # 返回二级中文名
 
 
 def mode2():
-    log_message("批量下载", logging.INFO, False)
+    log_message("Batch download 批量下载", logging.DEBUG, False)
     os.system("cls")
     print("已进入批量搜索并下载模式，（输入back返回）")
     return input_level()
@@ -542,9 +548,9 @@ def mode2():
 
 def download_set():
     global setting
-    log_message("设置", logging.INFO, False)
+    log_message("Page: SETTING 设置", logging.DEBUG, False)
     zt = load_settings()
-    log_message(f"设置：{zt}", logging.INFO, False)
+    log_message(f"SETTING 设置: {zt}", logging.DEBUG, False)
     if zt:
         print("1. 重新设置")
         print("2. 查看当前设置")
@@ -556,12 +562,13 @@ def download_set():
         save_data(setting)
     elif choose == "2" and zt:
         print(json.dumps(setting["download"], ensure_ascii=False, indent=4))
+        log_message(f"当前设置：{setting['download']}", logging.DEBUG, False)
         input("按任意键返回")
     return menu()
 
 
 def menu():
-    log_message("菜单", logging.INFO, False)
+    log_message("Page: MENU 菜单", logging.DEBUG, False)
     os.system("cls")
     print("=" * 60)
     print("1. 单次搜索并下载")
@@ -581,15 +588,15 @@ def menu():
 
 delete_log_file()
 os.makedirs("log", exist_ok=True)
-log_message("程序启动", logging.INFO)
+log_message("Program start 程序启动", logging.INFO)
 if use_local_level:
-    with open("cache/level_data.json", 'r', encoding='utf-8') as file:
-        all_dict = build_complex_dict(json.load(file)['data'])
-    log_message("成功加载本地关卡数据")
+    with open("cache/level_data.json", 'r', encoding='utf-8') as f:
+        all_dict = build_complex_dict(json.load(f)['data'])
+    log_message("Successfully loaded local level data. 成功加载本地关卡数据")
 else:
     all_dict = build_complex_dict(get_level_data())
-    log_message("成功获取在线关卡数据")
+    log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
 menu_result = False
 while not menu_result:
     menu_result = menu()
-log_message("程序结束", logging.INFO)
+log_message("Program end 程序结束", logging.INFO)
