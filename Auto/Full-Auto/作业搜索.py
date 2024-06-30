@@ -9,7 +9,7 @@ import logging
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
 log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log", "app.log")
 setting = {}
-setting_version = "20240621"
+setting_version = "20240630"
 date = time.strftime('%Y-%m-%d', time.localtime())
 use_local_level = True
 
@@ -22,7 +22,7 @@ def save_data(data):
     return True
 
 
-def load_data(path):
+def load_data(path) -> any:
     if os.path.exists(path):
         with open(path, 'r', encoding='utf-8') as file:
             return json.load(file)
@@ -131,13 +131,6 @@ def build_data_dict(level_dict, data):
     return data_dict
 
 
-def build_operators_list(data):  # TODO: 练度判断
-    _list = []
-    for member in data:
-        _list.append(member['name'])
-    return _list
-
-
 def load_settings():
     global setting
     if os.path.exists(SETTING_PATH):
@@ -170,6 +163,10 @@ def configuration():
             'point': 0,
             'view': 0,
             'amount': 1,
+            'completeness': False,
+            'completeness_mode': 1,
+            'train_degree': False,
+            'train_degree_mode': 1,
             'operator': [],
             'uploader': []
         }
@@ -238,7 +235,7 @@ def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
     return True
 
 
-def process_level(level, st, key, activity):
+def process_level(level, st, key, activity):  # TODO: 干员完备度检测，练度判断
     keyword = level['stage_id']
     name = level['cat_three']
     if any(substring in keyword for substring in ['#f#', 'easy']):
@@ -294,7 +291,7 @@ def searches(activity_list, mode=0, keyword="", activity=""):
     return menu()
 
 
-def less_search(stage_dict, st, search_key, activity, keyword):
+def less_search(stage_dict, st, search_key, activity, keyword):  # TODO: 干员完备度检测，练度判断
     os.makedirs(os.path.join(st["path"], search_key, activity), exist_ok=True)
     data = search(keyword, st["order_by"])
     data_dict = build_data_dict(stage_dict, data)
@@ -335,31 +332,39 @@ def int_input(prompt, default, min_value=None, max_value=None):
         return default
 
 
+def bool_input(question):
+    user_input = input(question + " (yes/no): ").lower()
+    return user_input in ["yes", "y", "true", "t", "1", "是", "对", "真", "要"]
+
+
 def configure_download_settings():
     log_message("Page: SETTING 设置", logging.INFO, False)
-    print("1. 标题.json")
-    print("2. 标题 - 作者.json")
-    print("3. 关卡代号-干员1+干员2.json")
+    print("1. 标题.json\n2. 标题 - 作者.json\n3. 关卡代号-干员1+干员2.json")
     title = int_input("选择文件名格式（默认为1）：", 1, 1, 3)
-    print("1. 替换原来的文件")
-    print("2. 保存到新文件并加上序号如 (1)")
-    print("3. 跳过，不保存")
+    print("1. 替换原来的文件\n2. 保存到新文件并加上序号如 (1)\n3. 跳过，不保存")
     save = int_input("设置文件名冲突时的处理方式（默认为2）：", 2, 1, 3)
     path = input("设置保存文件夹（为空默认当前目录\\download）：").replace(" ", "")
     path = path if path and os.path.isdir(path) else os.path.join(os.path.dirname(os.path.abspath(__file__)), "download")
-    print(f"成功设置保存文件夹为：{path}")
-    print("1. 热度")
-    print("2. 最新")
-    print("3. 浏览量")
-    order_by = int_input("设置排序方式（默认为3. 浏览量）：", 3, 1, 3)
+    print(f"保存文件夹：{path}")
+    order_by = int_input("1. 热度\n2. 最新\n3. 浏览量\n设置排序方式（默认为3. 浏览量）：", 3, 1, 3)
     point = int_input("设置好评率限制(0-100)（为空不限制）：", 0, 0, 100)
     view = int_input("设置浏览量限制（大于你设置的值）（为空不限制）：", 0)
     amount = int_input("设置下载数量(1-5)（为空全部下载）：", 99, 1, 5)
-    operator = input("设置禁用干员（空格分隔）（为空不限制）：").split()
+    completeness = bool_input("是否启用干员完备度检测？")
+    if completeness:
+        completeness_mode = int_input("1. 所有干员都有\n2. 缺少干员不超过1个\n设置检测条件（默认为1）：", 1, 1, 2)
+    else:
+        completeness_mode = 1
+    train_degree = bool_input("是否启用练度判断？")
+    if train_degree:
+        train_degree_mode = int_input("1. 仅下载练度满足条件的作业\n2. 下载时/完后提示练度不满足的作业\n3. 在作业文件Detail中提示练度不满足的干员\n设置处理方式（默认为1）：", 1, 1, 3)
+    else:
+        train_degree_mode = 1
+    operator = input("设置禁用干员（多个用空格分隔）（为空不禁用）：").split()
     print(f"设定值：{operator}")
-    uploader = input("设置只看作业站作者（空格分隔）（为空不限制）：").split()
+    uploader = input("设置只看作业站作者（多个用空格分隔）（为空不设置）：").split()
     print(f"设定值：{uploader}")
-    log_message(f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {operator}, {uploader}", logging.INFO, False)
+    log_message(f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {completeness}, {completeness_mode}, {train_degree}, {train_degree_mode}, {operator}, {uploader}", logging.DEBUG, False)
     return {
         'version': setting_version,
         'title': title,
@@ -369,6 +374,10 @@ def configure_download_settings():
         'point': point,
         'view': view,
         'amount': amount,
+        'completeness': completeness,
+        'completeness_mode': completeness_mode,
+        'train_degree': train_degree,
+        'train_degree_mode': train_degree_mode,
         'operator': operator,
         'uploader': uploader
     }
@@ -611,6 +620,10 @@ else:
     all_dict = build_complex_dict(get_level_data())
     log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
 operator_list = load_data("cache/operator.json")
+if operator_list:
+    log_message("Successfully loaded operator data. 成功加载干员数据")
+    operator_dict = build_dict(operator_list, "name")
+    # log_message(operator_dict, logging.DEBUG, False)
 menu_result = False
 while not menu_result:
     menu_result = menu()
