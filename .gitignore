@@ -1,6 +1,8 @@
 Auto/Full-Auto/download
 Auto/Full-Auto/settings
 Auto/Full-Auto/log
+Auto/Full-Auto/cache/level_data.json
+Auto/Full-Auto/cache/operator.json
 Auto/自动删除前缀.py
 Auto/自动删除前缀-nt.py
 .idea
