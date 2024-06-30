@@ -27,8 +27,11 @@ def save_data(path, data):
 
 
 def load_data(path):
-    with open(path, 'r', encoding='utf-8') as file:
-        return json.load(file)
+    if os.path.exists(cache):
+        with open(path, 'r', encoding='utf-8') as file:
+            return json.load(file)
+    else:
+        return {}
 
 
 def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
@@ -347,11 +350,7 @@ if download_mode:
         os.makedirs(f'悖论模拟/{job}', exist_ok=True)
     os.makedirs(f'模组任务', exist_ok=True)
 os.makedirs('Auto/Full-Auto/cache', exist_ok=True)
-if os.path.exists(cache):
-    cache_dict = load_data(cache)
-else:
-    cache_dict = {}
-# search("缪尔赛思", '先锋')
+cache_dict = load_data(cache)
 now = datetime.now().timestamp()
 main_paradox()
 main_module()
