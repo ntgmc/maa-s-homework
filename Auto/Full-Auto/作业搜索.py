@@ -22,6 +22,13 @@ def save_data(data):
     return True
 
 
+def load_data(path):
+    if os.path.exists(path):
+        with open(path, 'r', encoding='utf-8') as file:
+            return json.load(file)
+    return False
+
+
 def write_to_file(file_path, content):
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
@@ -122,6 +129,13 @@ def build_data_dict(level_dict, data):
             data_dict[key] = []
         data_dict[key].append(member)
     return data_dict
+
+
+def build_operators_list(data):  # TODO: 练度判断
+    _list = []
+    for member in data:
+        _list.append(member['name'])
+    return _list
 
 
 def load_settings():
@@ -596,6 +610,7 @@ if use_local_level:
 else:
     all_dict = build_complex_dict(get_level_data())
     log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
+operator_list = load_data("cache/operator.json")
 menu_result = False
 while not menu_result:
     menu_result = menu()
