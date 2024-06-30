@@ -44,20 +44,20 @@ jobs:
           
       - name: 配置 Git 用户信息
         run: |
-          git config --global user.email github-actions[bot]@users.noreply.github.com
-          git config --global user.name github-actions[bot]
+          git config --global user.email ntgmc@users.noreply.github.com
+          git config --global user.name ntgmc
       
       - name: 推送下载的文件到仓库
         run: |
           git add . -f
-          git commit -m "Github Action Auto Update" -a
+          git commit -m "Auto Update Data" -a
           
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Auto Update By Github Action"
-          title: "Auto Update By Github Action"
-          body: "Auto Update By Github Action"
+          commit-message: "Auto Update Data"
+          title: "Auto Update Data"
+          body: "Auto Update Data"
           branch: "auto-update-branch"
       
