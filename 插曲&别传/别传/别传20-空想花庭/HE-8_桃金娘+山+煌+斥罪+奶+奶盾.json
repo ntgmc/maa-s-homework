@@ -1,0 +1,221 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act26side_08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                10,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "costs": 12
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Down",
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Up",
+            "costs": 26
+        },
+        {
+            "type": "Deploy",
+            "name": "斥罪",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Down",
+            "costs": 40
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "None",
+            "kills": 11,
+            "costs": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "None",
+            "costs": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "skill_usage": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "None",
+            "costs": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "None",
+            "costs": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "None",
+            "costs": 13,
+            "kills": 16
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "None",
+            "costs": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "备用木材",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "None",
+            "kills": 24
+        },
+        {
+            "type": "SkillDaemon",
+            "doc": "有帮助的话 点个好评吧~",
+            "doc_color": "DarkRed"
+        }
+    ],
+    "doc": {
+        "title": "空想花庭 HE-8  自用（修改加黍版）",
+        "details": "作业更新日期: 2024-06-25T10:27:37Z\n统计更新日期: 2024-07-06\n好评率：97.5%  浏览量：1052\n来源：秋风灬梧桐  ID：38877\n攻略作者：柠檬味の小小猪 https://www.bilibili.com/video/BV1xW4y1X7cT 记得去b站给柠檬味の小小猪点赞三连\njson作者：鱼丸 有问题请点踩然后在评论区反馈\n连接模式请使用minitouch或者maatouch，本json不兼容兼容模式:-)\n平均练度 2703 \n进行了一些魔改 加了个奶和先锋增加稳定性\n 斥罪无模组测试通过"
+    },
+    "groups": [
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 2
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "斥罪",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}
