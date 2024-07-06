@@ -643,7 +643,7 @@ def mode2():
 
 
 def download_set():
-    global setting
+    global setting, operator_dict
     log_message("Page: SETTING 设置", logging.DEBUG, False)
     zt = load_settings()
     log_message(f"SETTING 设置: {zt}", logging.DEBUG, False)
@@ -663,9 +663,12 @@ def download_set():
         os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
         clipboard_content = pyperclip.paste()
         if is_valid_json(clipboard_content):
-            with open(os.path.join(os.path.dirname(__file__), "settings", "operator.json"), 'w') as fi:
+            clipboard_content = json.loads(clipboard_content)
+            with open(os.path.join(os.path.dirname(__file__), "settings", "operator.json"), 'w', encoding='utf-8') as fi:
                 json.dump(clipboard_content, fi, ensure_ascii=False, indent=4)
-            log_message(f"干员设置已保存 共有{len(json.loads(clipboard_content))}个干员", logging.INFO)
+            operator_dict = build_dict(clipboard_content, "name")
+            log_message(operator_dict, logging.DEBUG, False)
+            log_message(f"干员设置已保存 共有{len(clipboard_content)}个干员", logging.INFO)
         else:
             log_message("无效的JSON数据,请重新设置", logging.ERROR)
             input("\n按回车键返回")
