@@ -131,6 +131,52 @@ def build_data_dict(level_dict, data):
     return data_dict
 
 
+def build_op_list(data):
+    op_list = []
+    for member in data:
+        if member.get('name'):
+            op_list.append(member.get('name'))
+    return op_list
+
+
+def ban_operator(a, b):  # 禁用干员检测
+    set1 = set(a)
+    set2 = set(b)
+    r1 = set1 - set2
+    r2 = set1 - r1
+    print(r1, r2)
+    return len(r2) > 0
+
+
+def completeness_check(list1, opers, groups):
+    def check_group():
+        for t in groups_set:
+            if not any(member in list1_set for member in t):
+                result.append(t)
+        if len(result) == 0:
+            # print("完备")
+            return True
+        elif len(result) == 1:
+            # print("缺少一个", result[0])
+            return result[0]
+        else:
+            # print("缺少多个", result)
+            return False
+    result = []  # 缺少的干员
+    list1_set = set(list1)
+    opers_set = set([oper['name'] for oper in opers])
+    groups_set = {tuple(member['name'] for member in group['opers']) for group in groups}
+    if opers_set.issubset(list1_set):
+        list1_set -= opers_set
+        return check_group()
+    elif len(opers_set - list1_set) == 1:
+        new_set = opers_set - list1_set
+        result.append(new_set.pop())
+        return check_group()
+    else:
+        return False
+
+
 def load_settings():
     global setting
     if os.path.exists(SETTING_PATH):
@@ -201,7 +247,7 @@ def search(keyword, search_mode):  # 返回json
         return menu()
 
 
-def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
+def process_and_save_content(keyword, _member, st, key, activity, _percent=0):  # TODO: 练度判断
     if key != "" and activity != "":
         path = os.path.join(st["path"], key, activity)
     else:
@@ -209,33 +255,51 @@ def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
         path = st["path"]
     os.makedirs(path, exist_ok=True)
     content = json.loads(_member["content"])
-    content['doc']['details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n" + content['doc']['details']
     names = [oper.get('name', '') for oper in content.get('opers', '')]
-    opers_bool = False
-    for opers in st["operator"]:
-        if opers in names:
-            opers_bool = True
-            break
-    if opers_bool:
-        return False
     file_name = generate_filename(content, st["title"], _member["uploader"], keyword)
-    file_path = os.path.join(path, f"{file_name}.json")
-    if st["save"] == 1:
-        if os.path.exists(file_path):
-            os.remove(file_path)
-    elif st["save"] == 2:
-        _ = 1
-        while os.path.exists(file_path):
-            file_path = os.path.join(path, f"{file_name} ({_}).json")
-            _ = _ + 1
-    elif st["save"] == 3:
-        log_message(f"跳过文件：{file_path}", logging.WARNING)
-        return False
-    write_to_file(file_path, content)
+    # 禁用干员检测
+    if st["operator"]:
+        if ban_operator(names, st["operator"]):
+            log_message(f"{file_name} 禁用干员检测不通过", logging.WARNING)
+            return False
+    # 完备度检测
+    if st["completeness"]:
+        result = completeness_check(list(operator_dict.keys()), content.get('opers', []), content.get('groups', []))
+        if result is True:
+            content['doc'][
+                'details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n" + \
+                             content['doc']['details']
+        elif result is False:
+            log_message(f"{file_name} 完备度检测不通过", logging.INFO, False)
+            return False
+        else:
+            if st['completeness_mode'] == 1:
+                log_message(f"{file_name} 缺少干员：{result} 不下载", logging.INFO, False)
+                return False
+            else:
+                log_message(f"{file_name} 缺少干员：{result}", logging.INFO, False)
+                content = json.loads(_member["content"])
+                content['doc'][
+                    'details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n缺少干员(组):  {result}\n\n" + \
+                                 content['doc']['details']
+        file_path = os.path.join(path, f"{file_name}.json")
+        if st["save"] == 1:
+            if os.path.exists(file_path):
+                os.remove(file_path)
+        elif st["save"] == 2:
+            _ = 1
+            while os.path.exists(file_path):
+                file_path = os.path.join(path, f"{file_name} ({_}).json")
+                _ = _ + 1
+        elif st["save"] == 3:
+            if os.path.exists(file_path):
+                log_message(f"跳过文件：{file_path}", logging.INFO)
+                return False
+        write_to_file(file_path, content)
     return True
 
 
-def process_level(level, st, key, activity):  # TODO: 干员完备度检测，练度判断
+def process_level(level, st, key, activity):  # TODO: 练度判断
     keyword = level['stage_id']
     name = level['cat_three']
     if any(substring in keyword for substring in ['#f#', 'easy']):
@@ -291,7 +355,7 @@ def searches(activity_list, mode=0, keyword="", activity=""):
     return menu()
 
 
-def less_search(stage_dict, st, search_key, activity, keyword):  # TODO: 干员完备度检测，练度判断
+def less_search(stage_dict, st, search_key, activity, keyword):  # TODO: 练度判断
     os.makedirs(os.path.join(st["path"], search_key, activity), exist_ok=True)
     data = search(keyword, st["order_by"])
     data_dict = build_data_dict(stage_dict, data)
@@ -619,11 +683,11 @@ if use_local_level:
 else:
     all_dict = build_complex_dict(get_level_data())
     log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
-operator_list = load_data("cache/operator.json")
-if operator_list:
+operator_data = load_data("settings/operator.json")
+if operator_data:
     log_message("Successfully loaded operator data. 成功加载干员数据")
-    operator_dict = build_dict(operator_list, "name")
-    # log_message(operator_dict, logging.DEBUG, False)
+    operator_dict = build_dict(operator_data, "name")
+    log_message(operator_dict, logging.DEBUG, False)
 menu_result = False
 while not menu_result:
     menu_result = menu()
