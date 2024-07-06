@@ -5,6 +5,7 @@ import os
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
+import pyperclip
 
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
 log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log", "app.log")
@@ -12,6 +13,14 @@ setting = {}
 setting_version = "20240630"
 date = time.strftime('%Y-%m-%d', time.localtime())
 use_local_level = True
+
+
+def is_valid_json(test_string):
+    try:
+        json.loads(test_string)
+        return True
+    except json.JSONDecodeError:
+        return False
 
 
 def save_data(data):
@@ -650,12 +659,20 @@ def download_set():
         setting["download"] = configure_download_settings()
         save_data(setting)
     elif choose == "2":
+        input("请使用MAA干员识别工具并复制到剪贴板\n按回车键读取剪贴板内容并保存到干员设置\n")
         os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
-        input("请手动创建setting/operator.json文件,并将MAA干员识别导出数据粘贴到文件中保存.")
+        clipboard_content = pyperclip.paste()
+        if is_valid_json(clipboard_content):
+            with open(os.path.join(os.path.dirname(__file__), "settings", "operator.json"), 'w') as fi:
+                json.dump(clipboard_content, fi, ensure_ascii=False, indent=4)
+            log_message(f"干员设置已保存 共有{len(json.loads(clipboard_content))}个干员", logging.INFO)
+        else:
+            log_message("无效的JSON数据,请重新设置", logging.ERROR)
+            input("\n按回车键返回")
     elif choose == "3" and zt:
         print(json.dumps(setting["download"], ensure_ascii=False, indent=4))
         log_message(f"当前设置：{setting['download']}", logging.DEBUG, False)
-        input("按任意键返回")
+        input("按回车键返回")
     return menu()
 
 
