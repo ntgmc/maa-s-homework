@@ -639,15 +639,20 @@ def download_set():
     zt = load_settings()
     log_message(f"SETTING 设置: {zt}", logging.DEBUG, False)
     if zt:
-        print("1. 重新设置")
-        print("2. 查看当前设置")
+        print("1. 重新设置下载设置")
+        print("2. 干员设置")
+        print("3. 查看当前下载设置")
     else:
-        print("1. 设置")
+        print("1. 下载设置")
+        print("2. 干员设置")
     choose = input("请选择操作：")
     if choose == "1":
         setting["download"] = configure_download_settings()
         save_data(setting)
-    elif choose == "2" and zt:
+    elif choose == "2":
+        os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
+        input("请手动创建setting/operator.json文件,并将MAA干员识别导出数据粘贴到文件中保存.")
+    elif choose == "3" and zt:
         print(json.dumps(setting["download"], ensure_ascii=False, indent=4))
         log_message(f"当前设置：{setting['download']}", logging.DEBUG, False)
         input("按任意键返回")
@@ -683,7 +688,7 @@ if use_local_level:
 else:
     all_dict = build_complex_dict(get_level_data())
     log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
-operator_data = load_data("settings/operator.json")
+operator_data = load_data(os.path.join(os.path.abspath(__file__), "settings", "operator.json"))
 if operator_data:
     log_message("Successfully loaded operator data. 成功加载干员数据")
     operator_dict = build_dict(operator_data, "name")
