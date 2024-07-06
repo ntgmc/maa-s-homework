@@ -10,7 +10,7 @@ import pyperclip
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
 log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log", "app.log")
 setting = {}
-setting_version = "20240630"
+setting_version = "20240706"
 date = time.strftime('%Y-%m-%d', time.localtime())
 use_local_level = True
 
@@ -220,8 +220,6 @@ def configuration():
             'amount': 1,
             'completeness': False,
             'completeness_mode': 1,
-            'train_degree': False,
-            'train_degree_mode': 1,
             'operator': [],
             'uploader': []
         }
@@ -256,7 +254,7 @@ def search(keyword, search_mode):  # 返回json
         return menu()
 
 
-def process_and_save_content(keyword, _member, st, key, activity, _percent=0):  # TODO: 练度判断
+def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
     if key != "" and activity != "":
         path = os.path.join(st["path"], key, activity)
     else:
@@ -274,18 +272,18 @@ def process_and_save_content(keyword, _member, st, key, activity, _percent=0):  
     # 完备度检测
     if st["completeness"]:
         result = completeness_check(list(operator_dict.keys()), content.get('opers', []), content.get('groups', []))
-        if result is True:
+        if result is True:  # 完备
             content['doc'][
                 'details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n" + \
                              content['doc']['details']
-        elif result is False:
+        elif result is False:  # 缺少多个
             log_message(f"{file_name} 完备度检测不通过", logging.INFO, False)
             return False
-        else:
-            if st['completeness_mode'] == 1:
+        else:  # 缺少一个
+            if st['completeness_mode'] == 1:  # 所有干员都有
                 log_message(f"{file_name} 缺少干员：{result} 不下载", logging.INFO, False)
                 return False
-            else:
+            else:  # 缺少干员不超过1个
                 log_message(f"{file_name} 缺少干员：{result}", logging.INFO, False)
                 content = json.loads(_member["content"])
                 content['doc'][
@@ -308,7 +306,7 @@ def process_and_save_content(keyword, _member, st, key, activity, _percent=0):  
     return True
 
 
-def process_level(level, st, key, activity):  # TODO: 练度判断
+def process_level(level, st, key, activity):
     keyword = level['stage_id']
     name = level['cat_three']
     if any(substring in keyword for substring in ['#f#', 'easy']):
@@ -364,7 +362,7 @@ def searches(activity_list, mode=0, keyword="", activity=""):
     return menu()
 
 
-def less_search(stage_dict, st, search_key, activity, keyword):  # TODO: 练度判断
+def less_search(stage_dict, st, search_key, activity, keyword):
     os.makedirs(os.path.join(st["path"], search_key, activity), exist_ok=True)
     data = search(keyword, st["order_by"])
     data_dict = build_data_dict(stage_dict, data)
@@ -428,16 +426,16 @@ def configure_download_settings():
         completeness_mode = int_input("1. 所有干员都有\n2. 缺少干员不超过1个\n设置检测条件（默认为1）：", 1, 1, 2)
     else:
         completeness_mode = 1
-    train_degree = bool_input("是否启用练度判断？")
-    if train_degree:
-        train_degree_mode = int_input("1. 仅下载练度满足条件的作业\n2. 下载时/完后提示练度不满足的作业\n3. 在作业文件Detail中提示练度不满足的干员\n设置处理方式（默认为1）：", 1, 1, 3)
-    else:
-        train_degree_mode = 1
+    # train_degree = bool_input("是否启用练度判断？")
+    # if train_degree:
+    #     train_degree_mode = int_input("1. 仅下载练度满足条件的作业\n2. 下载时/完后提示练度不满足的作业\n3. 在作业文件Detail中提示练度不满足的干员\n设置处理方式（默认为1）：", 1, 1, 3)
+    # else:
+    #     train_degree_mode = 1
     operator = input("设置禁用干员（多个用空格分隔）（为空不禁用）：").split()
     print(f"设定值：{operator}")
     uploader = input("设置只看作业站作者（多个用空格分隔）（为空不设置）：").split()
     print(f"设定值：{uploader}")
-    log_message(f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {completeness}, {completeness_mode}, {train_degree}, {train_degree_mode}, {operator}, {uploader}", logging.DEBUG, False)
+    log_message(f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {completeness}, {completeness_mode}, {operator}, {uploader}", logging.DEBUG, False)
     return {
         'version': setting_version,
         'title': title,
@@ -449,8 +447,6 @@ def configure_download_settings():
         'amount': amount,
         'completeness': completeness,
         'completeness_mode': completeness_mode,
-        'train_degree': train_degree,
-        'train_degree_mode': train_degree_mode,
         'operator': operator,
         'uploader': uploader
     }
