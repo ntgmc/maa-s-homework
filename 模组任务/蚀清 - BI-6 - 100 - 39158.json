@@ -1,0 +1,111 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act14side_06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "蚀清",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "蚀清模组任务 - BI-6 - 无可抹消",
+        "details": "作业更新日期: 2024-07-07T00:43:36Z\n统计更新日期: 2024-07-07\n好评率：100.0%  浏览量：1\n来源：一只摆烂的42  ID：39158\n蚀清「无可抹消」模组任务\n3星通关别传BI-6；必须编入非助战蚀清并上场，且至少使用2次传导蚀滞弹\n原视频：https://www.bilibili.com/video/BV1So4y1J7TE/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "groups": [
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "蚀清",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

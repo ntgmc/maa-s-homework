@@ -1,0 +1,98 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "九色鹿模组任务 - IW-3 - “仙药”",
+        "details": "作业更新日期: 2024-07-07T02:07:16Z\n统计更新日期: 2024-07-07\n好评率：100.0%  浏览量：1\n来源：一只摆烂的42  ID：39160\n九色鹿「“仙药”」模组任务\n3星通关别传IW-3；必须编入非助战九色鹿并上场，且不编入其他辅助干员\n萧然Q\n原视频：https://www.bilibili.com/video/BV1XD4y157mc?p=3\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "stage_name": "act15side_03",
+    "opers": [
+        {
+            "name": "九色鹿",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "速狙",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "九色鹿",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Up"
+        }
+    ],
+    "groups": [
+        {
+            "name": "速狙",
+            "opers": [
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "能天使",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ]
+}

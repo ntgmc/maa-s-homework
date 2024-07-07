@@ -1,0 +1,94 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_03-01",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "破隐",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "露托",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "速狙",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up"
+        }
+    ],
+    "doc": {
+        "title": "露托模组任务 - 3-1 - 生还的人与物",
+        "details": "作业更新日期: 2024-07-07T01:50:59Z\n统计更新日期: 2024-07-07\n好评率：100.0%  浏览量：1\n来源：一只摆烂的42  ID：39180\n露托「生还的人与物」模组任务\n3星通关主题曲3-1；必须编入非助战露托并上场，且不编入其他重装干员\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "groups": [
+        {
+            "name": "破隐",
+            "opers": [
+                {
+                    "name": "伊内丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "银灰",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "速狙",
+            "opers": [
+                {
+                    "name": "能天使",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "空弦",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "艾拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "露托",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
