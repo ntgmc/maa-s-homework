@@ -55,7 +55,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
           commit-message: "Auto Update Data"
           title: "Auto Update Data"
           body: "Auto Update Data"
