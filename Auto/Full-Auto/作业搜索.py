@@ -211,7 +211,7 @@ def calculate_percent(item):
 
 
 def configuration():
-    print("1. 默认设置\n2. 用户设置\n3. 自定义设置（单次）")
+    print("1. 默认设置\n2. 用户设置(默认)\n3. 用户设置(其他)\n4. 自定义设置(单次)")
     _mode = input("请选择配置：")
     log_message(f"Configuration 配置: {_mode}", logging.DEBUG, False)
     if _mode == "1":
@@ -233,8 +233,18 @@ def configuration():
     elif _mode == "2":
         if not load_settings():
             return menu("未找到用户设置或用户设置已过期，请设置")
+        setting["download"]["0"] = setting["download"]["1"]
         return setting
     elif _mode == "3":
+        if not load_settings():
+            return menu("未找到用户设置或用户设置已过期，请设置")
+        while True:
+            choose = ask3('download')
+            if choose in setting["download"]:
+                setting["download"]["0"] = setting["download"][choose]
+                break
+        return setting
+    elif _mode == "4":
         st = configure_download_settings()
         return {"download": st}
     elif "back" in _mode.lower():
@@ -377,7 +387,7 @@ def searches(activity_list, mode=0, keyword="", activity=""):
 
 
 def less_search(stage_dict, _setting, search_key, activity, keyword):
-    st = _setting["download"]
+    st = _setting["download"]["0"]
     os.makedirs(os.path.join(st["path"], search_key, activity), exist_ok=True)
     data = search(keyword, st["order_by"])
     data_dict = build_data_dict(stage_dict, data)
@@ -534,7 +544,7 @@ def mode1():
     for member in data["data"]["data"]:
         point = calculate_percent(member)
         if member["views"] >= st["view"] and point >= st["point"] and amount < st["amount"]:
-            if st["uploader"] == [] or member["uploader"] in st["uploader"]:
+            if st["only_uploader"] == [] or member["uploader"] in st["only_uploader"]:
                 if process_and_save_content(keyword, member, st, keyword, "单次下载", point):
                     amount = amount + 1
             if amount >= st["amount"]:
@@ -672,14 +682,15 @@ def mode2():
     return input_level()
 
 
+def ask3(key):
+    for n in range(1, 10):
+        print(
+            f"{n}: {'已存在' if key in setting and str(n) in setting[key] and len(setting[key][str(n)]) > 0 else '无'}")
+    return str(int_input("b: 返回\n请选择配置序号：", 1, 1, 9, True))
+
+
 def download_set():
     global setting
-
-    def ask3():
-        for n in range(1, 10):
-            print(
-                f"{n}: {'已存在' if 'operator' in setting and str(n) in setting['operator'] and len(setting['operator'][str(n)]) > 0 else '无'}")
-        return str(int_input("b: 返回\n请选择配置序号：", 1, 1, 9, True))
     log_message("Page: SETTING 设置", logging.DEBUG, False)
     load_settings()
     return_info = ""
@@ -689,14 +700,19 @@ def download_set():
     if choose1 == "1":
         choose2 = input("下载设置：\n1. 设置\n2. 查看设置\n请选择操作：")
         if choose2 == "1":
-            setting["download"] = configure_download_settings()
+            choose3 = ask3('download')
+            setting["download"][choose3] = configure_download_settings()
             save_setting(setting)
-        elif choose2 == "2" and setting.get("download"):
-            return_info = json.dumps(setting["download"], ensure_ascii=False, indent=4)
+        elif choose2 == "2" and "download" in setting:
+            choose3 = ask3('operator')
+            if choose3 in setting["download"]:
+                return_info = json.dumps(setting["download"][choose3], ensure_ascii=False, indent=4)
+            else:
+                return_info = "选择的配置不存在"
     elif choose1 == "2":
         choose2 = input("干员设置：\n1. 设置\n2. 查看设置\n请选择操作：")
         if choose2 == "1":
-            choose3 = ask3()
+            choose3 = ask3('operator')
             input(f"正在设置配置{choose3},请使用MAA干员识别工具并复制到剪贴板\n按回车键继续\n")
             os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
             clipboard_content = pyperclip.paste()
@@ -709,7 +725,7 @@ def download_set():
             else:
                 return_info = menu("无效的JSON数据,请重新设置")
         elif choose2 == "2" and "operator" in setting:
-            choose3 = ask3()
+            choose3 = ask3('operator')
             return_info = menu(f"配置 {choose3} 当前共有 {len(setting['operator'][choose3])} 个干员")
     return menu(return_info)
 
