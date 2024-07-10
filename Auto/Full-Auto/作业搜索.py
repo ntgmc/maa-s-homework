@@ -289,6 +289,10 @@ def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
                 content['doc'][
                     'details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n缺少干员(组):  {result}\n\n" + \
                                  content['doc']['details']
+    else:
+        content['doc'][
+            'details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n" + \
+                         content['doc']['details']
     file_path = os.path.join(path, f"{file_name}.json")
     if st["save"] == 1:
         if os.path.exists(file_path):
