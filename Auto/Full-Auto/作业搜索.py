@@ -215,7 +215,7 @@ def configuration():
     _mode = input("请选择配置：")
     log_message(f"Configuration 配置: {_mode}", logging.DEBUG, False)
     if _mode == "1":
-        return {"download": {
+        return {"download": {"0": {
             'version': setting_version,
             'title': 1,
             'save': 2,
@@ -229,7 +229,7 @@ def configuration():
             'operator_num': 1,
             'ban_operator': [],
             'only_uploader': []
-        }}
+        }}}
     elif _mode == "2":
         if not load_settings():
             return menu("未找到用户设置或用户设置已过期，请设置")
@@ -272,7 +272,7 @@ def search(keyword, search_mode):  # 返回json
 
 
 def process_and_save_content(keyword, _member, _setting, key, activity, _percent=0):
-    st = _setting["download"]
+    st = _setting["download"]["0"]
     if key != "" and activity != "":
         path = os.path.join(st["path"], key, activity)
     else:
@@ -352,7 +352,7 @@ def process_level(level, st, key, activity):
 
 def searches(activity_list, mode=0, keyword="", activity=""):
     _setting = configuration()
-    st = _setting["download"]
+    st = _setting["download"]["0"]
     os.makedirs(st["path"], exist_ok=True)
     log_message(f"保存目录：{st['path']}")
     now = time.time()
