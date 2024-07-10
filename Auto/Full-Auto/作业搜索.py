@@ -10,7 +10,7 @@ import pyperclip
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
 log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log", "app.log")
 setting = {}
-setting_version = "20240706"
+setting_version = "20240710"
 date = time.strftime('%Y-%m-%d', time.localtime())
 use_local_level = False
 
@@ -23,11 +23,11 @@ def is_valid_json(test_string):
         return False
 
 
-def save_data(data):
+def save_setting(data):
     os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
-    with open(SETTING_PATH, 'w') as file:
-        json.dump(data, file)
-    log_message(f"Data saved successfully 数据保存成功", logging.INFO, False)
+    with open(SETTING_PATH, 'w', encoding='utf-8') as file:
+        json.dump(data, file, ensure_ascii=False, indent=4)
+    log_message(f"Setting saved successfully 设置保存成功", logging.INFO, False)
     return True
 
 
@@ -141,12 +141,16 @@ def build_data_dict(level_dict, data):
     return data_dict
 
 
-def build_op_list(data):
-    op_list = []
-    for member in data:
-        if member.get('name'):
-            op_list.append(member.get('name'))
-    return op_list
+def build_operator_dict(data: dict, num: int):  # num为配置序号
+    op_dict = {}
+    item = data[str(num)]
+    for member in item:
+        key = member['name']
+        if key in op_dict:
+            op_dict[key].append(member)
+        else:
+            op_dict[key] = [member]
+    return op_dict
 
 
 def ban_operator(a, b):  # 禁用干员检测
@@ -172,6 +176,7 @@ def completeness_check(list1, opers, groups):
         else:
             # print("缺少多个", result)
             return False
+
     result = []  # 缺少的干员
     list1_set = set(list1)
     opers_set = set([oper['name'] for oper in opers])
@@ -187,10 +192,10 @@ def completeness_check(list1, opers, groups):
         return False
 
 
-def load_settings():
+def load_settings():  # 自动加载设置到全局变量
     global setting
     if os.path.exists(SETTING_PATH):
-        with open(SETTING_PATH, 'r') as file:
+        with open(SETTING_PATH, 'r', encoding='utf-8') as file:
             setting = json.load(file)
         if "download" in setting and setting["download"].get("version", "") == setting_version:
             log_message(f"Settings loaded successfully 成功加载设置", console_output=False)
@@ -210,7 +215,7 @@ def configuration():
     _mode = input("请选择配置：")
     log_message(f"Configuration 配置: {_mode}", logging.DEBUG, False)
     if _mode == "1":
-        return {
+        return {"download": {
             'version': setting_version,
             'title': 1,
             'save': 2,
@@ -221,16 +226,17 @@ def configuration():
             'amount': 1,
             'completeness': False,
             'completeness_mode': 1,
-            'operator': [],
-            'uploader': []
-        }
+            'operator_num': 1,
+            'ban_operator': [],
+            'only_uploader': []
+        }}
     elif _mode == "2":
         if not load_settings():
-            input("未找到用户设置或用户设置已过期，请设置\n")
-            return menu()
-        return setting["download"]
+            return menu("未找到用户设置或用户设置已过期，请设置")
+        return setting
     elif _mode == "3":
-        return configure_download_settings()
+        st = configure_download_settings()
+        return {"download": st}
     elif "back" in _mode.lower():
         return menu()
     else:
@@ -255,7 +261,8 @@ def search(keyword, search_mode):  # 返回json
         return menu()
 
 
-def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
+def process_and_save_content(keyword, _member, _setting, key, activity, _percent=0):
+    st = _setting["download"]
     if key != "" and activity != "":
         path = os.path.join(st["path"], key, activity)
     else:
@@ -266,13 +273,14 @@ def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
     names = [oper.get('name', '') for oper in content.get('opers', '')]
     file_name = generate_filename(content, st["title"], _member["uploader"], keyword)
     # 禁用干员检测
-    if st["operator"]:
-        if ban_operator(names, st["operator"]):
+    if st["ban_operator"]:
+        if ban_operator(names, st["ban_operator"]):
             log_message(f"{file_name} 禁用干员检测不通过", logging.WARNING)
             return False
     # 完备度检测
     if st["completeness"]:
-        result = completeness_check(list(operator_dict.keys()), content.get('opers', []), content.get('groups', []))
+        result = completeness_check(list(_setting["operator_dict"].keys()), content.get('opers', []),
+                                    content.get('groups', []))
         if result is True:  # 完备
             content['doc'][
                 'details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n" + \
@@ -323,7 +331,7 @@ def process_level(level, st, key, activity):
     for member in data["data"]["data"]:
         point = calculate_percent(member)
         if member["views"] >= st["view"] and point >= st["point"] and amount < st["amount"]:
-            if st["uploader"] == [] or member["uploader"] in st["uploader"]:
+            if st["only_uploader"] == [] or member["uploader"] in st["only_uploader"]:
                 if process_and_save_content(name, member, st, key, activity, point):
                     amount += 1
             if amount >= st["amount"]:
@@ -333,7 +341,8 @@ def process_level(level, st, key, activity):
 
 
 def searches(activity_list, mode=0, keyword="", activity=""):
-    st = configuration()
+    _setting = configuration()
+    st = _setting["download"]
     os.makedirs(st["path"], exist_ok=True)
     log_message(f"保存目录：{st['path']}")
     now = time.time()
@@ -367,10 +376,12 @@ def searches(activity_list, mode=0, keyword="", activity=""):
     return menu()
 
 
-def less_search(stage_dict, st, search_key, activity, keyword):
+def less_search(stage_dict, _setting, search_key, activity, keyword):
+    st = _setting["download"]
     os.makedirs(os.path.join(st["path"], search_key, activity), exist_ok=True)
     data = search(keyword, st["order_by"])
     data_dict = build_data_dict(stage_dict, data)
+    _setting["operator_dict"] = build_operator_dict(_setting["operator"], st["operator_num"])
     for key, value in data_dict.items():
         key1, key2 = key.split("<<")
         #  key1为stage_id，key2为name
@@ -382,8 +393,8 @@ def less_search(stage_dict, st, search_key, activity, keyword):
                 continue
             point = calculate_percent(member)
             if member["views"] >= st["view"] and point >= st["point"] and amount < st["amount"]:
-                if st["uploader"] == [] or member["uploader"] in st["uploader"]:
-                    if process_and_save_content(key2, member, st, search_key, activity, point):
+                if st["only_uploader"] == [] or member["uploader"] in st["only_uploader"]:
+                    if process_and_save_content(key2, member, _setting, search_key, activity, point):
                         amount = amount + 1
                 if amount >= st["amount"]:
                     break
@@ -391,11 +402,13 @@ def less_search(stage_dict, st, search_key, activity, keyword):
                 break
 
 
-def int_input(prompt, default, min_value=None, max_value=None):
+def int_input(prompt, default, min_value=None, max_value=None, allow_return=False):
     try:
         log_message(f"Function 函数: int_input({prompt}, {default}, {min_value}, {max_value})", logging.DEBUG, False)
         value = input(prompt).strip()
         log_message(f"Input 输入: {value}", logging.DEBUG, False)
+        if allow_return and "b" in value.lower():
+            return menu()
         value = int(value) if value else default
         if min_value is not None and value < min_value:
             value = default
@@ -420,7 +433,8 @@ def configure_download_settings():
     print("1. 替换原来的文件\n2. 保存到新文件并加上序号如 (1)\n3. 跳过，不保存")
     save = int_input("设置文件名冲突时的处理方式（默认为2）：", 2, 1, 3)
     path = input("设置保存文件夹（为空默认当前目录\\download）：").replace(" ", "")
-    path = path if path and os.path.isdir(path) else os.path.join(os.path.dirname(os.path.abspath(__file__)), "download")
+    path = path if path and os.path.isdir(path) else os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                                                  "download")
     print(f"保存文件夹：{path}")
     order_by = int_input("1. 热度\n2. 最新\n3. 浏览量\n设置排序方式（默认为3. 浏览量）：", 3, 1, 3)
     point = int_input("设置好评率限制(0-100)（为空不限制）：", 0, 0, 100)
@@ -429,8 +443,10 @@ def configure_download_settings():
     completeness = bool_input("是否启用干员完备度检测？")
     if completeness:
         completeness_mode = int_input("1. 所有干员都有\n2. 缺少干员不超过1个\n设置检测条件（默认为1）：", 1, 1, 2)
+        operator_num = int_input("设置干员配置序号（1-9默认为1）：", 1, 1, 9)
     else:
         completeness_mode = 1
+        operator_num = 1
     # train_degree = bool_input("是否启用练度判断？")
     # if train_degree:
     #     train_degree_mode = int_input("1. 仅下载练度满足条件的作业\n2. 下载时/完后提示练度不满足的作业\n3. 在作业文件Detail中提示练度不满足的干员\n设置处理方式（默认为1）：", 1, 1, 3)
@@ -440,7 +456,9 @@ def configure_download_settings():
     print(f"设定值：{operator}")
     uploader = input("设置只看作业站作者（多个用空格分隔）（为空不设置）：").split()
     print(f"设定值：{uploader}")
-    log_message(f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {completeness}, {completeness_mode}, {operator}, {uploader}", logging.DEBUG, False)
+    log_message(
+        f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {completeness}, {completeness_mode}, {operator}, {uploader}",
+        logging.DEBUG, False)
     return {
         'version': setting_version,
         'title': title,
@@ -452,8 +470,9 @@ def configure_download_settings():
         'amount': amount,
         'completeness': completeness,
         'completeness_mode': completeness_mode,
-        'operator': operator,
-        'uploader': uploader
+        'operator_num': operator_num,
+        'ban_operator': operator,
+        'only_uploader': uploader
     }
 
 
@@ -489,7 +508,8 @@ def generate_filename(content, title, uploader, keyword):
         file_name += generate_filename_mode3(keyword, content)
     else:
         t = time.time()
-        log_message(f'File name format error 文件名格式错误, {t}, {content}, {title}, {uploader}, {keyword}', logging.ERROR)
+        log_message(f'File name format error 文件名格式错误, {t}, {content}, {title}, {uploader}, {keyword}',
+                    logging.ERROR)
         file_name = f"ERROR{t}"
     return file_name
 
@@ -501,7 +521,8 @@ def mode1():
     keyword = input("请输入关卡代号：").replace(" ", "")
     if "back" in keyword.lower():
         return menu()
-    st = configuration()
+    _setting = configuration()
+    st = _setting["download"]
     os.system("cls")
     now = time.time()
     log_message(f'保存目录：{st["path"]}')
@@ -548,7 +569,9 @@ def input_level():
                 st = configuration()
                 now = time.time()
                 with ThreadPoolExecutor(max_workers=10) as executor:
-                    futures = [executor.submit(less_search, stage_dict, st, key, activity, extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id'])) for activity in all_dict[key]
+                    futures = [executor.submit(less_search, stage_dict, st, key, activity,
+                                               extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id']))
+                               for activity in all_dict[key]
                                if activity != "全部" and activity != ""]
                     for future in as_completed(futures):
                         try:
@@ -561,7 +584,8 @@ def input_level():
             else:
                 st = configuration()
                 now = time.time()
-                less_search(stage_dict, st, key, activity, extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id']))
+                less_search(stage_dict, st, key, activity,
+                            extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id']))
                 log_message(f"搜索{key}-{activity}完毕，共耗时 {round(time.time() - now, 2)} s.", logging.INFO, False)
                 input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n")
                 return menu()
@@ -649,45 +673,53 @@ def mode2():
 
 
 def download_set():
-    global setting, operator_dict
+    global setting
+
+    def ask3():
+        for n in range(1, 10):
+            print(
+                f"{n}: {'已存在' if 'operator' in setting and str(n) in setting['operator'] and len(setting['operator'][str(n)]) > 0 else '无'}")
+        return str(int_input("b: 返回\n请选择配置序号：", 1, 1, 9, True))
     log_message("Page: SETTING 设置", logging.DEBUG, False)
-    zt = load_settings()
-    log_message(f"SETTING 设置: {zt}", logging.DEBUG, False)
-    if zt:
-        print("1. 重新设置下载设置")
-        print("2. 干员设置")
-        print("3. 查看当前下载设置")
-    else:
-        print("1. 下载设置")
-        print("2. 干员设置")
-    choose = input("请选择操作：")
-    if choose == "1":
-        setting["download"] = configure_download_settings()
-        save_data(setting)
-    elif choose == "2":
-        input("请使用MAA干员识别工具并复制到剪贴板\n按回车键读取剪贴板内容并保存到干员设置\n")
-        os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
-        clipboard_content = pyperclip.paste()
-        if is_valid_json(clipboard_content):
-            clipboard_content = json.loads(clipboard_content)
-            with open(os.path.join(os.path.dirname(__file__), "settings", "operator.json"), 'w', encoding='utf-8') as fi:
-                json.dump(clipboard_content, fi, ensure_ascii=False, indent=4)
-            operator_dict = build_dict(clipboard_content, "name")
-            log_message(operator_dict, logging.DEBUG, False)
-            log_message(f"干员设置已保存 共有{len(clipboard_content)}个干员", logging.INFO)
-        else:
-            log_message("无效的JSON数据,请重新设置", logging.ERROR)
-            input("\n按回车键返回")
-    elif choose == "3" and zt:
-        print(json.dumps(setting["download"], ensure_ascii=False, indent=4))
-        log_message(f"当前设置：{setting['download']}", logging.DEBUG, False)
-        input("按回车键返回")
-    return menu()
+    load_settings()
+    return_info = ""
+    print("1. 下载设置")
+    print("2. 干员设置")
+    choose1 = input("请选择操作：")
+    if choose1 == "1":
+        choose2 = input("下载设置：\n1. 设置\n2. 查看设置\n请选择操作：")
+        if choose2 == "1":
+            setting["download"] = configure_download_settings()
+            save_setting(setting)
+        elif choose2 == "2" and setting.get("download"):
+            return_info = json.dumps(setting["download"], ensure_ascii=False, indent=4)
+    elif choose1 == "2":
+        choose2 = input("干员设置：\n1. 设置\n2. 查看设置\n请选择操作：")
+        if choose2 == "1":
+            choose3 = ask3()
+            input(f"正在设置配置{choose3},请使用MAA干员识别工具并复制到剪贴板\n按回车键继续\n")
+            os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
+            clipboard_content = pyperclip.paste()
+            if is_valid_json(clipboard_content):
+                if "operator" not in setting:
+                    setting["operator"] = {}
+                setting["operator"][choose3] = json.loads(clipboard_content)
+                save_setting(setting)
+                return_info = menu(f"干员设置已保存,共有 {len(setting['operator'][choose3])} 个干员")
+            else:
+                return_info = menu("无效的JSON数据,请重新设置")
+        elif choose2 == "2" and "operator" in setting:
+            choose3 = ask3()
+            return_info = menu(f"配置 {choose3} 当前共有 {len(setting['operator'][choose3])} 个干员")
+    return menu(return_info)
 
 
-def menu():
+def menu(info=""):
     log_message("Page: MENU 菜单", logging.DEBUG, False)
     os.system("cls")
+    if info != "":
+        log_message(f"info: {info}", logging.INFO, False)
+        print(info)
     print("=" * 60)
     print("1. 单次搜索并下载")
     print("2. 批量搜索并下载")
@@ -714,12 +746,7 @@ if use_local_level:
 else:
     all_dict = build_complex_dict(get_level_data())
     log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
-operator_data = load_data(os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "operator.json"))
-if operator_data:
-    log_message("Successfully loaded operator data. 成功加载干员数据")
-    operator_dict = build_dict(operator_data, "name")
-    log_message(operator_dict, logging.DEBUG, False)
-menu_result = False
-while not menu_result:
-    menu_result = menu()
+while True:
+    if menu():
+        break
 log_message("Program end 程序结束", logging.INFO)
