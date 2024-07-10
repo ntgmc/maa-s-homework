@@ -33,6 +33,7 @@ def save_data(data):
 
 def load_data(path) -> any:
     if os.path.exists(path):
+        log_message(f"Load data from {path}", logging.INFO, False)
         with open(path, 'r', encoding='utf-8') as file:
             return json.load(file)
     return False
@@ -713,7 +714,7 @@ if use_local_level:
 else:
     all_dict = build_complex_dict(get_level_data())
     log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
-operator_data = load_data(os.path.join(os.path.abspath(__file__), "settings", "operator.json"))
+operator_data = load_data(os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "operator.json"))
 if operator_data:
     log_message("Successfully loaded operator data. 成功加载干员数据")
     operator_dict = build_dict(operator_data, "name")
