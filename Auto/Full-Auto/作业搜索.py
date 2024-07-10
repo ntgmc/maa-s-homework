@@ -12,7 +12,7 @@ log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log", "app.
 setting = {}
 setting_version = "20240706"
 date = time.strftime('%Y-%m-%d', time.localtime())
-use_local_level = True
+use_local_level = False
 
 
 def is_valid_json(test_string):
@@ -289,20 +289,20 @@ def process_and_save_content(keyword, _member, st, key, activity, _percent=0):
                 content['doc'][
                     'details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n缺少干员(组):  {result}\n\n" + \
                                  content['doc']['details']
-        file_path = os.path.join(path, f"{file_name}.json")
-        if st["save"] == 1:
-            if os.path.exists(file_path):
-                os.remove(file_path)
-        elif st["save"] == 2:
-            _ = 1
-            while os.path.exists(file_path):
-                file_path = os.path.join(path, f"{file_name} ({_}).json")
-                _ = _ + 1
-        elif st["save"] == 3:
-            if os.path.exists(file_path):
-                log_message(f"跳过文件：{file_path}", logging.INFO)
-                return False
-        write_to_file(file_path, content)
+    file_path = os.path.join(path, f"{file_name}.json")
+    if st["save"] == 1:
+        if os.path.exists(file_path):
+            os.remove(file_path)
+    elif st["save"] == 2:
+        _ = 1
+        while os.path.exists(file_path):
+            file_path = os.path.join(path, f"{file_name} ({_}).json")
+            _ = _ + 1
+    elif st["save"] == 3:
+        if os.path.exists(file_path):
+            log_message(f"跳过文件：{file_path}", logging.INFO)
+            return False
+    write_to_file(file_path, content)
     return True
 
 
