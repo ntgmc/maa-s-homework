@@ -1,0 +1,83 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_11-14",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left",
+            "costs": 13
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 30
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "琳琅诗怀雅",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十一章 淬火尘霾 - 11-16（标准） - 荣光猎场 - 琳琅诗怀雅模组任务（二模）",
+        "details": "作业更新日期: 2024-07-09T04:59:09Z\n统计更新日期: 2024-07-10\n好评率：100.0%  浏览量：20\n来源：小卡拉帕鲁灰🐖  ID：39239\n我有无限复活币"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "琳琅诗怀雅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
