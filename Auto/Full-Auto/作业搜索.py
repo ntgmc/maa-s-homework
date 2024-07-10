@@ -408,7 +408,7 @@ def int_input(prompt, default, min_value=None, max_value=None):
 
 
 def bool_input(question):
-    user_input = input(question + " (yes/no): ").lower()
+    user_input = input(question + " (yes/no, 为空no): ").lower()
     return user_input in ["yes", "y", "true", "t", "1", "是", "对", "真", "要"]
 
 
@@ -476,15 +476,20 @@ def generate_filename_mode3(stage_name, data):
 
 
 def generate_filename(content, title, uploader, keyword):
-    if title == 1:
-        file_name = content["doc"]["title"]
-    elif title == 2:
-        file_name = content["doc"]["title"] + " - " + uploader
-    elif title == 3:
-        file_name = generate_filename_mode3(keyword, content)
+    if content.get("difficulty", 0) == 1:
+        file_name = "(仅普通)"
     else:
-        log_message(f'File name format error 文件名格式错误, {content}, {title}, {uploader}, {keyword}', logging.ERROR)
-        file_name = f"ERROR{time.time()}"
+        file_name = ""
+    if title == 1:
+        file_name += content["doc"]["title"]
+    elif title == 2:
+        file_name += content["doc"]["title"] + " - " + uploader
+    elif title == 3:
+        file_name += generate_filename_mode3(keyword, content)
+    else:
+        t = time.time()
+        log_message(f'File name format error 文件名格式错误, {t}, {content}, {title}, {uploader}, {keyword}', logging.ERROR)
+        file_name = f"ERROR{t}"
     return file_name
 
 
