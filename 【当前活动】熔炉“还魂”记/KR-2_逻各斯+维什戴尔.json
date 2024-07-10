@@ -1,0 +1,48 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act17mini_02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "熔炉“还魂”记 - KR-2 - 天际城：地下奇旅",
+        "details": "测试干员：练度拉到满"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}

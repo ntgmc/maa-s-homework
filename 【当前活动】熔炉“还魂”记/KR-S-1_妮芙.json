@@ -1,0 +1,84 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act17mini_s01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "妮芙",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "妮芙",
+            "costs": 5
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "调香师",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "妮芙",
+            "kills": 21,
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "调香师"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "熔炉“还魂”记 - KR-S-1 - 卡兹戴尔：温饱之后",
+        "details": "妮芙换三技能\n原作者萧然Q json作者萨拉托加\n作业交流群群号216314927，有问题进群找我，作业站消息没提醒看不到\n【【熔炉“还魂”记】KR-1至KR-8突袭 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1vf421z7bP/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "妮芙",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

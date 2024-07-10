@@ -1,0 +1,98 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act17mini_05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "kills": 4,
+            "skill_usage": 0
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 6,
+            "location": [
+                4,
+                5
+            ]
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 12
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                3,
+                5
+            ],
+            "kills": 12
+        },
+        {
+            "type": "Skill",
+            "location": [
+                4,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 18
+        },
+        {
+            "type": "Retreat",
+            "kills": 20,
+            "location": [
+                3,
+                4
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "熔炉“还魂”记 - KR-5 - 海布里：民兵演习",
+        "details": "https://www.bilibili.com/video/BV1HS421R7NZ/\n维什戴尔60级专三三模\n已测试"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}
