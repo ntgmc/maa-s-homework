@@ -136,6 +136,8 @@ def generate_filename(stage_id, data, mode, cat_two, stage_name=None):
                    '+'.join(group.get('name', '') for group in groups)]
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
     names = replace_dir_char(names)
+    if data.get("difficulty", 0) == 1:
+        stage_name = "(仅普通)" + stage_name
     if len(names) > 100:
         names = "文件名过长不予显示"
     if mode == 1:

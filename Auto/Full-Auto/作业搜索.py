@@ -31,14 +31,6 @@ def save_setting(data):
     return True
 
 
-def load_data(path) -> any:
-    if os.path.exists(path):
-        log_message(f"Load data from {path}", logging.INFO, False)
-        with open(path, 'r', encoding='utf-8') as file:
-            return json.load(file)
-    return False
-
-
 def write_to_file(file_path, content):
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
@@ -246,7 +238,7 @@ def configuration():
         return setting
     elif _mode == "4":
         st = configure_download_settings()
-        return {"download": st}
+        return {"download": {"0": st}}
     elif "back" in _mode.lower():
         return menu()
     else:
