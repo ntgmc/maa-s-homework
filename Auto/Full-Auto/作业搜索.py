@@ -189,7 +189,7 @@ def load_settings(num="1"):  # 自动加载设置到全局变量
     if os.path.exists(SETTING_PATH):
         with open(SETTING_PATH, 'r', encoding='utf-8') as file:
             setting = json.load(file)
-        if "download" in setting and setting["download"].get(str(num), {}).get("version", "") == setting_version:
+        if "download" in setting and setting["download"].get(num, {}).get("version", "") == setting_version:
             log_message(f"Settings loaded successfully 成功加载设置", console_output=False)
             return True
         else:
@@ -435,7 +435,7 @@ def configure_download_settings():
     title = int_input("选择文件名格式（默认为1）：", 1, 1, 3)
     print("1. 替换原来的文件\n2. 保存到新文件并加上序号如 (1)\n3. 跳过，不保存")
     save = int_input("设置文件名冲突时的处理方式（默认为2）：", 2, 1, 3)
-    path = input("设置保存文件夹（为空默认当前目录\\download）：").replace(" ", "")
+    path = input("设置保存文件夹（为空默认当前目录\\download）：").strip()
     path = path if path and os.path.isdir(path) else os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                                                   "download")
     print(f"保存文件夹：{path}")
@@ -450,11 +450,6 @@ def configure_download_settings():
     else:
         completeness_mode = 1
         operator_num = 1
-    # train_degree = bool_input("是否启用练度判断？")
-    # if train_degree:
-    #     train_degree_mode = int_input("1. 仅下载练度满足条件的作业\n2. 下载时/完后提示练度不满足的作业\n3. 在作业文件Detail中提示练度不满足的干员\n设置处理方式（默认为1）：", 1, 1, 3)
-    # else:
-    #     train_degree_mode = 1
     operator = input("设置禁用干员（多个用空格分隔）（为空不禁用）：").split()
     print(f"设定值：{operator}")
     uploader = input("设置只看作业站作者（多个用空格分隔）（为空不设置）：").split()
@@ -521,7 +516,7 @@ def mode1():
     log_message("Single search 单次搜索", logging.INFO, False)
     os.system("cls")
     print("已进入单次搜索并下载模式，（输入back返回）")
-    keyword = input("请输入关卡代号：").replace(" ", "")
+    keyword = input("请输入关卡代号：").strip()
     if "back" in keyword.lower():
         return menu()
     _setting = configuration()
@@ -555,7 +550,7 @@ def input_level():
     for i, key in enumerate(keys):
         print(f"{i + 1}. {key}")
     print("b. 返回")
-    choose = input("请选择要搜索的关卡类型：").replace(" ", "")
+    choose = input("请选择要搜索的关卡类型：").strip()
     if choose.isdigit() and 1 <= int(choose) <= len(keys):
         key = keys[int(choose) - 1]
         activity = select_from_list(all_dict, key)
@@ -641,7 +636,7 @@ def select_from_list(_activity_dict, key_one):  # 返回二级中文名
         print("请选择关卡：")
         for i, key in enumerate(matching_keys):
             print(f"{i}. {key}")
-        user_input = input("请输入关卡名称或序号：").replace(" ", "")
+        user_input = input("请输入关卡名称或序号：").strip()
 
         # 如果用户输入是数字且在范围内，直接返回对应的活动关卡
         if user_input.isdigit() and 0 <= int(user_input) <= len(matching_keys) - 1:
