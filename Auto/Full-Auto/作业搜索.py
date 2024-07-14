@@ -184,12 +184,12 @@ def completeness_check(list1, opers, groups):
         return False
 
 
-def load_settings():  # 自动加载设置到全局变量
+def load_settings(num="1"):  # 自动加载设置到全局变量
     global setting
     if os.path.exists(SETTING_PATH):
         with open(SETTING_PATH, 'r', encoding='utf-8') as file:
             setting = json.load(file)
-        if "download" in setting and setting["download"].get("version", "") == setting_version:
+        if "download" in setting and setting["download"].get(str(num), {}).get("version", "") == setting_version:
             log_message(f"Settings loaded successfully 成功加载设置", console_output=False)
             return True
         else:
@@ -223,18 +223,19 @@ def configuration():
             'only_uploader': []
         }}}
     elif _mode == "2":
-        if not load_settings():
+        if not load_settings("1"):
             return menu("未找到用户设置或用户设置已过期，请设置")
         setting["download"]["0"] = setting["download"]["1"]
         return setting
     elif _mode == "3":
-        if not load_settings():
-            return menu("未找到用户设置或用户设置已过期，请设置")
         while True:
             choose = ask3('download')
             if choose in setting["download"]:
-                setting["download"]["0"] = setting["download"][choose]
-                break
+                if not load_settings(choose):
+                    print("未找到用户设置或用户设置已过期，请设置")
+                else:
+                    setting["download"]["0"] = setting["download"][choose]
+                    break
         return setting
     elif _mode == "4":
         st = configure_download_settings()
