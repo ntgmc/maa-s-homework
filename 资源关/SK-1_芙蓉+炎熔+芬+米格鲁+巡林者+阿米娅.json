@@ -1,0 +1,103 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_armor_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "巡林者",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "炎熔",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "资源保障 - SK-1 - 废墟清剿（新人养成）",
+        "details": "作业更新日期: 2023-12-03T12:26:08Z\n统计更新日期: 2024-07-14\n好评率：100.0%  浏览量：147\n来源：胖头🐟  ID：30630\n碳本第一关，\n练度全员精0一级\n如果关卡内有剧情，请快速跳过"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "炎熔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "巡林者",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

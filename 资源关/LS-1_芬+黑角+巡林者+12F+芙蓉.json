@@ -1,0 +1,86 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_kc_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "巡林者",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "12F",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "战术演习 - LS-1 - 遭遇战演习",
+        "details": "作业更新日期: 2023-09-20T13:33:47Z\n统计更新日期: 2024-07-14\n好评率：100.0%  浏览量：134\n来源：APCHE  ID：28128\nhttps://www.bilibili.com/video/BV1xt4y197bL/?spm_id_from=333.337.search-card.all.click&vd_source=c785c4e3ab8def8d8ad6e69b520e6a9f"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "巡林者",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "12F",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

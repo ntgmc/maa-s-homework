@@ -1,0 +1,122 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_kc_1",
+    "actions": [
+        {
+            "type": "Output",
+            "doc": "如果关卡内有剧情，请快速跳过",
+            "doc_color": "Gold"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "翎羽",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "炎熔",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "杰西卡",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "战术演习 - LS-1 - 遭遇战演习（新人养成）",
+        "details": "作业更新日期: 2023-12-03T13:03:34Z\n统计更新日期: 2024-07-14\n好评率：100.0%  浏览量：145\n来源：胖头🐟  ID：30635\n经验书本第一关，\n练度全员精0一级\n如果关卡内有剧情，请快速跳过"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "翎羽",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "炎熔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "杰西卡",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

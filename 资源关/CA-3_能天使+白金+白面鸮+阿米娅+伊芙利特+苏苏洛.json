@@ -1,0 +1,98 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_fly_3",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "白金",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "苏苏洛",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down"
+        }
+    ],
+    "doc": {
+        "title": "空中威胁 - CA-3 - 巡逻路线净空",
+        "details": "作业更新日期: 2023-10-31T04:45:26Z\n统计更新日期: 2024-07-14\n好评率：100.0%  浏览量：42\n来源：Ryan  ID：29590\n小六\\\\"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "白金",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "苏苏洛",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}
