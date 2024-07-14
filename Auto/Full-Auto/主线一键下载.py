@@ -9,9 +9,6 @@ os.chdir(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file_
 # 设置阈值(好评率和浏览量)(不满足条件则降低阈值，但最低不低于50% 0)
 download_score_threshold = 80  # 好评率阈值
 download_view_threshold = 1000  # 浏览量阈值
-# 设置资源关
-resource_level = ["wk_toxic_5", "wk_armor_5", "wk_fly_5", "wk_kc_6", "wk_melee_6", "pro_a_1",
-                  "pro_a_2", "pro_b_1", "pro_b_2", "pro_c_1", "pro_c_2", "pro_d_1", "pro_d_2"]
 # 设置空列表
 no_result = []
 # 设置日期
@@ -151,21 +148,6 @@ def generate_filename(stage_id, data, mode, cat_two, stage_name=None):
     return file_path
 
 
-def search(keyword, path_mode=1, filter_mode=0, cat_two=None, cat_three=None):
-    if any(substring in keyword for substring in ['#f#', 'easy']):
-        return
-    url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={keyword}&desc=true&orderBy=views"
-    _headers = {
-        "Origin": "https://prts.plus",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
-    }
-    _response = requests.get(url, headers=_headers)
-    if _response.ok:
-        filter_data(_response.json(), keyword, path_mode, filter_mode, cat_two, cat_three)
-    else:
-        print(f"请求 {keyword} 失败")
-
-
 def less_search(keyword):
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=999&levelKeyword={keyword}&desc=true&orderBy=views"
     _headers = {
@@ -177,48 +159,6 @@ def less_search(keyword):
         return build_dict2(_response.json()['data']['data'], "stage_name")
     else:
         print(f"请求 {keyword} 失败")
-
-
-def filter_data(data, keyword, path_mode, filter_mode, cat_two, cat_three):
-    global no_result, cache_dict
-    total = data['data'].get('total', 0)
-    if total > 0:
-        download_amount = 0
-        if filter_mode == 0:
-            score_threshold = download_score_threshold
-            view_threshold = download_view_threshold
-        else:
-            score_threshold = 80
-            view_threshold = -1  # 保证只搜索一次
-        while not download_amount:
-            for item in data['data']['data']:
-                percent = calculate_percent(item)
-                view = item.get('views', 0)
-                if percent >= score_threshold and view >= view_threshold:
-                    if compare_cache(cache_dict, item['id'], item['upload_time'], cat_three):
-                        # print(f"{item['id']} 未改变数据，无需更新")
-                        download_amount += 1
-                        continue
-                    content = json.loads(item['content'])
-                    file_path = generate_filename(keyword, content, path_mode, cat_two, cat_three)
-                    content['doc']['details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
-                    print(f"{file_path} {percent}% {view} 成功下载")
-                    write_to_file(file_path, content)
-                    cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], cat_three)
-                    download_amount += 1
-            if not download_amount:
-                if score_threshold > 50:
-                    score_threshold -= 5
-                else:
-                    view_threshold -= 200
-                if view_threshold < 0:
-                    print(f"{keyword} 无符合50% 0的数据 不再重试")
-                    no_result.append(keyword)
-                    break
-                print(f"{keyword} 无符合条件的数据，降低阈值为{score_threshold}% {view_threshold}重试")
-    else:
-        # no_result.append(keyword)
-        print(f"{keyword} 无数据")
 
 
 def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
@@ -283,9 +223,9 @@ def less_search_camp():
 
 def resource_stage_search():
     # 搜索资源关
-    for level in resource_level:
-        cat_three = get_stage_id_info(level, "cat_three")
-        search(level, 3, 1, cat_three=cat_three)
+    less_dict = less_search('资源收集')
+    for key2 in less_dict:
+        less_filter_data(less_dict, key2, 3, 1)
 
 
 # 获取关卡数据，构建字典
