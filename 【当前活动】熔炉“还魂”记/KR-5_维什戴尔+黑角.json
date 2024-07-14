@@ -1,0 +1,75 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act17mini_05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Retreat",
+            "name": "祖宗",
+            "location": [
+                5,
+                5
+            ],
+            "kills": 13
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 18
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 19
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Up",
+            "kills": 20
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 22
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "熔炉“还魂”记 - KR-5 - 海布里：民兵演习 - 单核",
+        "details": "作业更新日期: 2024-07-09T12:30:01Z\n统计更新日期: 2024-07-14\n好评率：87.8%  浏览量：3110\n来源：小卡拉帕鲁灰🐖  ID：39296\n\n兼容突袭\n维什戴尔单核\n多带一个黑角增加容错"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
