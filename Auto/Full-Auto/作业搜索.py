@@ -16,6 +16,11 @@ use_local_level = False
 
 
 def is_valid_json(test_string):
+    """
+    检查字符串是否为有效的JSON
+    :param test_string: 要检查的字符串
+    :return: True or False
+    """
     try:
         json.loads(test_string)
         return True
@@ -24,6 +29,11 @@ def is_valid_json(test_string):
 
 
 def save_setting(data):
+    """
+    保存设置
+    :param data: 要保存的数据
+    :return: True
+    """
     os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
     with open(SETTING_PATH, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
@@ -32,17 +42,34 @@ def save_setting(data):
 
 
 def write_to_file(file_path, content):
+    """
+    将内容写入文件
+    :param file_path: 文件路径
+    :param content: 要写入的内容
+    :return: 无返回值
+    """
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
         log_message(f"write_to_file 写出文件: {file_path}", console_output=False)
 
 
 def delete_log_file():
+    """
+    删除旧日志文件
+    :return: 无返回值
+    """
     if os.path.exists(log_path):
         os.remove(log_path)
 
 
 def log_message(message, level=logging.INFO, console_output=True):
+    """
+    记录日志
+    :param message: 要记录的消息
+    :param level: 日志级别
+    :param console_output: 是否输出到控制台
+    :return: 无返回值
+    """
     # 创建一个logger
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)  # 设置日志级别
@@ -85,6 +112,10 @@ def log_message(message, level=logging.INFO, console_output=True):
 
 
 def get_level_data():
+    """
+    获取关卡数据
+    :return: 关卡数据
+    """
     response = requests.get('https://prts.maa.plus/arknights/level')
     write_to_file("log/level_data_temp.json", response.json())
     log_message(f"Successfully obtained level data 成功获取关卡数据", console_output=False)
@@ -92,6 +123,11 @@ def get_level_data():
 
 
 def build_complex_dict(data):
+    """
+    构建复杂字典，将数据按分类和子分类分类
+    :param data: 要分类的数据
+    :return: 复杂字典，格式为{主分类: {子分类: [成员1, 成员2, ...]}}
+    """
     complex_dict = {}
     for member in data:
         category = member['cat_one']  # 获取分类
@@ -107,7 +143,14 @@ def build_complex_dict(data):
     return complex_dict
 
 
-def build_dict(data, key: str, _dict=None):  # key为生成的字典的键
+def build_dict(data, key: str, _dict=None):
+    """
+    构建字典，将数据按关键分类
+    :param data: 要分类的数据
+    :param key: 生成的字典的键
+    :param _dict: 字典，如果传入则在此基础上添加
+    :return: 生成的字典，格式为{key: [成员1, 成员2, ...]}
+    """
     if _dict is None:
         _dict = {}
     for member in data:
@@ -120,6 +163,12 @@ def build_dict(data, key: str, _dict=None):  # key为生成的字典的键
 
 
 def build_data_dict(level_dict, data):
+    """
+    构建数据字典，将数据按关卡分类
+    :param level_dict: 当前活动的关卡字典
+    :param data: 该活动全部作业数据
+    :return: 数据字典，格式为{关卡名: [作业1, 作业2, ...]}，关卡名为关卡ID<<关卡名
+    """
     data_dict = {}
     for member in data['data']['data']:
         stage = json.loads(member['content'])['stage_name']
@@ -133,7 +182,13 @@ def build_data_dict(level_dict, data):
     return data_dict
 
 
-def build_operator_dict(data: dict, num: int):  # num为配置序号
+def build_operator_dict(data: dict, num: int):
+    """
+    构建干员字典，将干员数据按配置序号分类
+    :param data: 干员数据
+    :param num: 配置序号
+    :return: 干员字典，格式为{配置序号: [干员1, 干员2, ...]}
+    """
     op_dict = {}
     item = data[str(num)]
     for member in item:
@@ -145,7 +200,13 @@ def build_operator_dict(data: dict, num: int):  # num为配置序号
     return op_dict
 
 
-def ban_operator(a, b):  # 禁用干员检测
+def ban_operator(a: list, b: list):  # 禁用干员检测
+    """
+    检查是否有禁用的干员
+    :param a: 作业干员列表
+    :param b: 禁用干员列表
+    :return: True or False
+    """
     set1 = set(a)
     set2 = set(b)
     r1 = set1 - set2
@@ -155,18 +216,22 @@ def ban_operator(a, b):  # 禁用干员检测
 
 
 def completeness_check(list1, opers, groups):
+    """
+    完备度检测
+    :param list1: 拥有的干员
+    :param opers: 作业干员列表
+    :param groups: 作业干员组列表
+    :return: True or False or 缺少的干员
+    """
     def check_group():
         for t in groups_set:
             if not any(member in list1_set for member in t):
                 result.append(t)
-        if len(result) == 0:
-            # print("完备")
+        if len(result) == 0:  # 完备
             return True
-        elif len(result) == 1:
-            # print("缺少一个", result[0])
+        elif len(result) == 1:  # 缺少一个
             return result[0]
-        else:
-            # print("缺少多个", result)
+        else:  # 缺少多个
             return False
 
     result = []  # 缺少的干员
@@ -180,11 +245,16 @@ def completeness_check(list1, opers, groups):
         new_set = opers_set - list1_set
         result.append(new_set.pop())
         return check_group()
-    else:
+    else:  # 缺少多个
         return False
 
 
-def load_settings(num="1"):  # 自动加载设置到全局变量
+def load_settings(num="1"):
+    """
+    判断设置版本并加载设置到全局变量
+    :param num: 下载设置序号
+    :return: True or False
+    """
     global setting
     if os.path.exists(SETTING_PATH):
         with open(SETTING_PATH, 'r', encoding='utf-8') as file:
@@ -198,11 +268,20 @@ def load_settings(num="1"):  # 自动加载设置到全局变量
 
 
 def calculate_percent(item):
+    """
+    计算好评率
+    :param item: 作业数据
+    :return: 好评率，保留两位小数
+    """
     like, dislike = item.get('like', 0), item.get('dislike', 0)
     return round(like / (like + dislike) * 100, 2) if like + dislike > 0 else 0
 
 
 def configuration():
+    """
+    选择配置
+    :return: 配置
+    """
     print("1. 默认设置\n2. 用户设置(默认)\n3. 用户设置(其他)\n4. 自定义设置(单次)")
     _mode = input("请选择配置：")
     log_message(f"Configuration 配置: {_mode}", logging.DEBUG, False)
@@ -247,7 +326,13 @@ def configuration():
         return configuration()
 
 
-def search(keyword, search_mode):  # 返回json
+def search(keyword: str, search_mode: int) -> dict:
+    """
+    单次搜索
+    :param keyword: 搜索level_keyword
+    :param search_mode: 排序方式
+    :return: 搜索结果json
+    """
     order_by = {1: "hot", 2: "id", 3: "views"}.get(search_mode, "views")
     url = f"https://prts.maa.plus/copilot/query?desc=true&limit=99&page=1&order_by={order_by}&level_keyword={keyword}"
     headers = {
@@ -265,6 +350,16 @@ def search(keyword, search_mode):  # 返回json
 
 
 def process_and_save_content(keyword, _member, _setting, key, activity, _percent=0):
+    """
+    处理并保存作业内容
+    :param keyword: 关卡stage_name
+    :param _member: 作业数据
+    :param _setting: 用户设置
+    :param key: 关卡类型，如活动关卡
+    :param activity: 活动中文名，如生路
+    :param _percent: 好评率
+    :return: True or False
+    """
     st = _setting["download"]["0"]
     if key != "" and activity != "":
         path = os.path.join(st["path"], key, activity)
@@ -292,29 +387,29 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
             log_message(f"{file_name} 完备度检测不通过", logging.INFO, False)
             return False
         else:  # 缺少一个
-            if st['completeness_mode'] == 1:  # 所有干员都有
+            if st['completeness_mode'] == 1:  # 仅下载所有干员都有
                 log_message(f"{file_name} 缺少干员：{result} 不下载", logging.INFO, False)
                 return False
-            else:  # 缺少干员不超过1个
+            else:  # 仅下载缺少干员不超过1个
                 log_message(f"{file_name} 缺少干员：{result}", logging.INFO, False)
                 content = json.loads(_member["content"])
                 content['doc'][
                     'details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n缺少干员(组):  {result}\n\n" + \
                                  content['doc']['details']
-    else:
+    else:  # 未启用完备度检测
         content['doc'][
             'details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n" + \
                          content['doc']['details']
     file_path = os.path.join(path, f"{file_name}.json")
-    if st["save"] == 1:
+    if st["save"] == 1:  # 替换原来的文件
         if os.path.exists(file_path):
             os.remove(file_path)
-    elif st["save"] == 2:
+    elif st["save"] == 2:  # 保存到新文件并加上序号如 (1)
         _ = 1
-        while os.path.exists(file_path):
+        while os.path.exists(file_path):  # 文件已存在
             file_path = os.path.join(path, f"{file_name} ({_}).json")
             _ = _ + 1
-    elif st["save"] == 3:
+    elif st["save"] == 3:  # 跳过，不保存
         if os.path.exists(file_path):
             log_message(f"跳过文件：{file_path}", logging.INFO)
             return False
@@ -323,11 +418,19 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
 
 
 def process_level(level, st, key, activity):
+    """
+    进行一次搜索并处理关卡
+    :param level: 关卡数据
+    :param st: 用户download设置
+    :param key: 关卡类型，如活动关卡
+    :param activity: 活动中文名，如生路
+    :return: 无返回值
+    """
     keyword = level['stage_id']
     name = level['cat_three']
     if any(substring in keyword for substring in ['#f#', 'easy']):
         return
-    data = search(keyword, st["order_by"])
+    data = search(keyword, st["order_by"])  # 搜索
     total = data["data"]["total"]
     log_message(f"搜索 {keyword} 共获得 {total} 个数据")
     amount = 0
@@ -344,6 +447,14 @@ def process_level(level, st, key, activity):
 
 
 def searches(activity_list, mode=0, keyword="", activity=""):
+    """
+    多线程搜索并下载
+    :param activity_list: 当前活动的关卡列表
+    :param mode: 是否下载全部，0为否
+    :param keyword: 关卡类型，如活动关卡
+    :param activity: 活动中文名，如生路
+    :return: 无返回值
+    """
     _setting = configuration()
     st = _setting["download"]["0"]
     os.makedirs(st["path"], exist_ok=True)
@@ -379,13 +490,22 @@ def searches(activity_list, mode=0, keyword="", activity=""):
     return menu()
 
 
-def less_search(stage_dict, _setting, search_key, activity, keyword):
+def less_search(stage_dict, _setting, search_key, activity, keyword):  # 搜索并下载
+    """
+    仅搜索一次并下载
+    :param stage_dict: 当前活动的关卡字典
+    :param _setting: 用户设置
+    :param search_key: 关卡类型，如活动关卡
+    :param activity: 活动中文名，如生路
+    :param keyword: 活动ID，如act34side
+    :return: 无返回值
+    """
     st = _setting["download"]["0"]
     os.makedirs(os.path.join(st["path"], search_key, activity), exist_ok=True)
-    data = search(keyword, st["order_by"])
-    data_dict = build_data_dict(stage_dict, data)
+    data = search(keyword, st["order_by"])  # 仅搜索一次
+    data_dict = build_data_dict(stage_dict, data)  # 构建关卡字典，将数据按关卡分类
     _setting["operator_dict"] = build_operator_dict(_setting["operator"], st["operator_num"])
-    for key, value in data_dict.items():
+    for key, value in data_dict.items():  # 遍历关卡字典
         key1, key2 = key.split("<<")
         #  key1为stage_id，key2为name
         total = len(value)
@@ -405,7 +525,16 @@ def less_search(stage_dict, _setting, search_key, activity, keyword):
                 break
 
 
-def int_input(prompt, default, min_value=None, max_value=None, allow_return=False):
+def int_input(prompt: str, default: int, min_value=None, max_value=None, allow_return=False):
+    """
+    支持默认值输入整数
+    :param prompt: 问题
+    :param default: 默认值
+    :param min_value: 最小值
+    :param max_value: 最大值
+    :param allow_return: 是否允许b返回menu
+    :return: 输入的整数
+    """
     try:
         log_message(f"Function 函数: int_input({prompt}, {default}, {min_value}, {max_value})", logging.DEBUG, False)
         value = input(prompt).strip()
@@ -425,11 +554,20 @@ def int_input(prompt, default, min_value=None, max_value=None, allow_return=Fals
 
 
 def bool_input(question):
+    """
+    询问问题，返回布尔值
+    :param question: 问题
+    :return: True or False
+    """
     user_input = input(question + " (yes/no, 为空no): ").lower()
     return user_input in ["yes", "y", "true", "t", "1", "是", "对", "真", "要"]
 
 
 def configure_download_settings():
+    """
+    设置下载参数
+    :return: 下载参数
+    """
     log_message("Page: SETTING 设置", logging.INFO, False)
     print("1. 标题.json\n2. 标题 - 作者.json\n3. 关卡代号-干员1+干员2.json")
     title = int_input("选择文件名格式（默认为1）：", 1, 1, 3)
@@ -475,12 +613,23 @@ def configure_download_settings():
 
 
 def replace_dir_char(text):
+    """
+    替换文件名中的非法字符
+    :param text: 要替换的文本
+    :return: 替换后的文本
+    """
     for char in ['/', '\\', ':', '*', '?', '"', '<', '>', '|']:
         text = text.replace(char, '')
     return text
 
 
 def generate_filename_mode3(stage_name, data):
+    """
+    生成模式3的文件名，如关卡代号-干员1+干员2
+    :param stage_name: 关卡代号
+    :param data: 作业数据
+    :return: 文件名
+    """
     opers = data.get('opers', [])
     groups = data.get('groups', [])
     names_parts = ['+'.join(oper.get('name', '') for oper in opers),
@@ -494,17 +643,25 @@ def generate_filename_mode3(stage_name, data):
 
 
 def generate_filename(content, title, uploader, keyword):
-    if content.get("difficulty", 0) == 1:
+    """
+    生成文件名
+    :param content: 作业数据
+    :param title: 文件名格式
+    :param uploader: 作业作者
+    :param keyword: 关卡代号
+    :return: 文件名
+    """
+    if content.get("difficulty", 0) == 1:  # 普通
         file_name = "(仅普通)"
-    else:
+    else:  # 其他
         file_name = ""
-    if title == 1:
+    if title == 1:  # 标题
         file_name += content["doc"]["title"]
-    elif title == 2:
+    elif title == 2:  # 标题 - 作者
         file_name += content["doc"]["title"] + " - " + uploader
-    elif title == 3:
+    elif title == 3:  # 关卡代号-干员1+干员2
         file_name += generate_filename_mode3(keyword, content)
-    else:
+    else:  # 错误
         t = time.time()
         log_message(f'File name format error 文件名格式错误, {t}, {content}, {title}, {uploader}, {keyword}',
                     logging.ERROR)
@@ -513,6 +670,10 @@ def generate_filename(content, title, uploader, keyword):
 
 
 def mode1():
+    """
+    单次搜索
+    :return: 无返回值
+    """
     log_message("Single search 单次搜索", logging.INFO, False)
     os.system("cls")
     print("已进入单次搜索并下载模式，（输入back返回）")
@@ -544,7 +705,12 @@ def mode1():
     return menu()
 
 
+# TODO: 重构，减少搜索次数
 def input_level():
+    """
+    选择关卡类型
+    :return: 无返回值
+    """
     log_message("Select type 选择类型", logging.DEBUG, False)
     keys = ["活动关卡", "主题曲", "剿灭作战", "资源收集"]
     for i, key in enumerate(keys):
@@ -605,23 +771,38 @@ def input_level():
         return input_level()
 
 
-def extract_integer_from_stage_id(stage_id):
-    # 从 stage_id 中提取数字
+def extract_integer_from_stage_id(stage_id: str):
+    """
+    从 stage_id 中提取章节数字
+    :param stage_id: 关卡ID
+    :return: 章节数字
+    """
     match = re.search(r'_(\d+)-', stage_id)
     if match:
         return int(match.group(1))
     return 0
 
 
-def extract_activity_from_stage_id(stage_id):
-    # 从 stage_id 中提取数字
+def extract_activity_from_stage_id(stage_id: str):
+    """
+    从 stage_id 中提取activity_id，如act34side
+    :param stage_id: 关卡ID
+    :return: activity_id
+    """
     match = re.search(r'(.+?)_', stage_id)
     if match:
+        log_message(f"Extract activity from stage_id: {match.group(1)}", logging.DEBUG, False)
         return match.group(1) + '_'
     return None
 
 
-def select_from_list(_activity_dict, key_one):  # 返回二级中文名
+def select_from_list(_activity_dict, key_one):
+    """
+    选择关卡
+    :param _activity_dict: 活动字典
+    :param key_one: 关卡类型
+    :return: 二级中文名
+    """
     log_message("选择关卡", logging.INFO, False)
     if key_one == "主题曲":
         stage_dict = {}
@@ -664,13 +845,22 @@ def select_from_list(_activity_dict, key_one):  # 返回二级中文名
 
 
 def mode2():
+    """
+    批量搜索
+    :return: 无返回值
+    """
     log_message("Batch download 批量下载", logging.DEBUG, False)
     os.system("cls")
     print("已进入批量搜索并下载模式，（输入back返回）")
     return input_level()
 
 
-def ask3(key):
+def ask3(key: str):
+    """
+    选择配置
+    :param key: 配置类型
+    :return: 配置序号
+    """
     for n in range(1, 10):
         print(
             f"{n}: {'已存在' if key in setting and str(n) in setting[key] and len(setting[key][str(n)]) > 0 else '无'}")
@@ -678,6 +868,10 @@ def ask3(key):
 
 
 def download_set():
+    """
+    设置下载设置或干员设置
+    :return: 无返回值
+    """
     global setting
     log_message("Page: SETTING 设置", logging.DEBUG, False)
     load_settings()
@@ -719,6 +913,11 @@ def download_set():
 
 
 def menu(info=""):
+    """
+    菜单
+    :param info: 要显示的信息
+    :return: 对应操作
+    """
     log_message("Page: MENU 菜单", logging.DEBUG, False)
     os.system("cls")
     if info != "":
