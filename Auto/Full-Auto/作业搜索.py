@@ -3,7 +3,6 @@ import json
 import time
 import os
 import re
-from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
 import pyperclip
 
@@ -181,7 +180,7 @@ def build_data_dict(level_dict, data):
                 data_dict[key] = []
             data_dict[key].append(member)
         except KeyError:
-            log_message(f"stage_name is not stage_id. Details: {stage} {member}", logging.ERROR)
+            log_message(f"stage_name is not stage_id. Details: {stage} {member}", logging.WARNING)
     return data_dict
 
 
@@ -337,12 +336,13 @@ def search(keyword: str, search_mode: int) -> dict:
     :return: 搜索结果json
     """
     order_by = {1: "hot", 2: "id", 3: "views"}.get(search_mode, "views")
-    url = f"https://prts.maa.plus/copilot/query?desc=true&limit=99&page=1&order_by={order_by}&level_keyword={keyword}"
+    url = f"https://prts.maa.plus/copilot/query?desc=true&limit=99999&page=1&order_by={order_by}&level_keyword={keyword}"
     headers = {
         "Origin": "https://prts.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
     try:
+        log_message(f"Search URL: {url}", logging.DEBUG, False)
         response = requests.get(url, headers=headers)
         return response.json()
     except requests.exceptions.SSLError:
@@ -442,50 +442,6 @@ def process_level(level, st, key, activity):
             break
 
 
-def searches(activity_list, mode=0, keyword="", activity=""):
-    """
-    多线程搜索并下载
-    :param activity_list: 当前活动的关卡列表
-    :param mode: 是否下载全部，0为否
-    :param keyword: 关卡类型，如活动关卡
-    :param activity: 活动中文名，如生路
-    :return: 无返回值
-    """
-    _setting = configuration()
-    st = _setting["download"]["0"]
-    os.makedirs(st["path"], exist_ok=True)
-    log_message(f"保存目录：{st['path']}")
-    now = time.time()
-
-    if mode == 0:
-        with ThreadPoolExecutor(max_workers=10) as executor:
-            futures = [executor.submit(process_level, level, st, keyword, activity) for level in activity_list if
-                       not any(substring in level['stage_id'] for substring in ['#f#', 'easy'])]
-            for future in as_completed(futures):
-                try:
-                    future.result()
-                except Exception as e:
-                    log_message(f"{e}", logging.ERROR)
-    else:  # 下载全部
-        with ThreadPoolExecutor(max_workers=10) as executor:
-            futures = []
-            for sub, sub_list in activity_list.items():
-                for level in sub_list:
-                    if any(substring in level['stage_id'] for substring in ['#f#', 'easy']):
-                        continue
-                    futures.append(executor.submit(process_level, level, st, keyword, activity))
-                for future in as_completed(futures):
-                    try:
-                        future.result()
-                    except Exception as e:
-                        log_message(f"{e}", logging.ERROR)
-
-    last = time.time()
-    log_message(f"搜索完毕，共耗时 {round(last - now, 2)} s.", logging.INFO, False)
-    input(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
-    return menu()
-
-
 def less_search(stage_dict, _setting, search_key, activity, keyword):  # 搜索并下载
     """
     仅搜索一次并下载
@@ -493,7 +449,7 @@ def less_search(stage_dict, _setting, search_key, activity, keyword):  # 搜索�
     :param _setting: 用户设置
     :param search_key: 关卡类型，如活动关卡
     :param activity: 活动中文名，如生路
-    :param keyword: 活动ID，如act34side
+    :param keyword: 搜索词，一般为活动ID，如act34side
     :return: 无返回值
     """
     st = _setting["download"]["0"]
@@ -587,9 +543,7 @@ def configure_download_settings():
     print(f"设定值：{operator}")
     uploader = input("设置只看作业站作者（多个用空格分隔）（为空不设置）：").split()
     print(f"设定值：{uploader}")
-    log_message(
-        f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {completeness}, {completeness_mode}, {operator}, {uploader}",
-        logging.DEBUG, False)
+    log_message(f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {completeness}, {completeness_mode}, {operator}, {uploader}", logging.DEBUG, False)
     return {
         'version': setting_version,
         'title': title,
@@ -627,8 +581,7 @@ def generate_filename_mode3(stage_name, data):
     """
     opers = data.get('opers', [])
     groups = data.get('groups', [])
-    names_parts = ['+'.join(oper.get('name', '') for oper in opers),
-                   '+'.join(group.get('name', '') for group in groups)]
+    names_parts = ['+'.join(oper.get('name', '') for oper in opers), '+'.join(group.get('name', '') for group in groups)]
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
     if len(names) > 100:
         log_message(f"File name too long 文件名过长: {names}, {stage_name}", logging.WARNING)
@@ -657,8 +610,7 @@ def generate_filename(content, title, uploader, keyword):
         file_name += generate_filename_mode3(keyword, content)
     else:  # 错误
         t = time.time()
-        log_message(f'File name format error 文件名格式错误, {t}, {content}, {title}, {uploader}, {keyword}',
-                    logging.ERROR)
+        log_message(f'File name format error 文件名格式错误, {t}, {content}, {title}, {uploader}, {keyword}', logging.ERROR)
         file_name = f"ERROR{t}"
     return replace_dir_char(file_name)
 
@@ -695,11 +647,10 @@ def mode1():
         elif amount >= st["amount"]:
             break
     last = time.time()
-    input(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
+    input(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n按回车键返回")
     return menu()
 
 
-# TODO: 重构，减少搜索次数
 def input_level():
     """
     选择关卡类型
@@ -713,7 +664,7 @@ def input_level():
     choose = input("请选择要搜索的关卡类型：").strip()
     if choose.isdigit() and 1 <= int(choose) <= len(keys):
         key = keys[int(choose) - 1]
-        activity = select_from_list(all_dict, key)
+        activity = select_from_list(all_dict, key)  # 选择活动（二级）
         log_message(f"已选择 {key}-{activity}", logging.INFO, False)
         print(f"已选择 {key}-{activity}")
         if activity == "全部":
@@ -724,38 +675,21 @@ def input_level():
             stage_dict = build_dict(all_dict[key][activity], "stage_id")
             log_message(f"stage_dict: {stage_dict}", logging.DEBUG, False)
         write_to_file("log/stage_dict_temp.json", stage_dict)
-        if key == "活动关卡":
-            if activity == "全部":
-                st = configuration()
-                now = time.time()
-                with ThreadPoolExecutor(max_workers=10) as executor:
-                    futures = [executor.submit(less_search, stage_dict, st, key, activity, extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id'])) for activity in all_dict[key] if activity != "全部" and activity != ""]
-                    for future in as_completed(futures):
-                        try:
-                            future.result()
-                        except Exception as e:
-                            log_message(f"{e}", logging.ERROR)
-                log_message(f"搜索{key}-{activity}完毕，共耗时 {round(time.time() - now, 2)} s.", logging.INFO, False)
-                input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n")
-                return menu()
-            else:
-                st = configuration()
-                now = time.time()
-                less_search(stage_dict, st, key, activity, extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id']))
-                log_message(f"搜索{key}-{activity}完毕，共耗时 {round(time.time() - now, 2)} s.", logging.INFO, False)
-                input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n")
-                return menu()
-        elif key == "剿灭作战" and activity == "全部":
-            st = configuration()
-            now = time.time()
-            less_search(stage_dict, st, "剿灭作战", activity, "camp_")
-            log_message(f"搜索{key}-{activity}完毕，共耗时 {round(time.time() - now, 2)} s.", logging.INFO, False)
-            input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n")
-            return menu()
-        if activity == "全部":
-            return searches(all_dict[key], mode=1, keyword=key, activity=activity)
+        st = configuration()
+        now = time.time()
+        if activity == "全部":  # 搜索全部
+            less_search(stage_dict, st, key, "全部", key)
+        elif key == "活动关卡":  # 搜索活动关卡使用extract_activity_from_stage_id
+            less_search(stage_dict, st, key, activity, extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id']))
+        elif key == "主题曲":  # 搜索主题曲使用extract_integer_from_stage_id
+            less_search(stage_dict, st, key, activity, extract_integer_from_stage_id(all_dict[key][activity][0]['stage_id']) + "-")
+        elif key == "剿灭作战" or key == "资源收集":  # 搜索剿灭作战或资源收集直接搜索activity
+            less_search(stage_dict, st, key, activity, activity)
         else:
-            return searches(all_dict[key][activity], keyword=key, activity=activity)
+            log_message(f"不知道你怎么点进来的", logging.ERROR)
+        log_message(f"搜索{key}-{activity}完毕，共耗时 {round(time.time() - now, 2)} s.", logging.INFO, False)
+        input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n按回车键返回")
+        return menu()
     elif "b" in choose.lower():
         return menu()
     else:
@@ -767,19 +701,19 @@ def extract_integer_from_stage_id(stage_id: str):
     """
     从 stage_id 中提取章节数字
     :param stage_id: 关卡ID
-    :return: 章节数字
+    :return: 章节数字str
     """
     match = re.search(r'_(\d+)-', stage_id)
     if match:
-        return int(match.group(1))
-    return 0
+        return match.group(1)
+    return "0"
 
 
 def extract_activity_from_stage_id(stage_id: str):
     """
     从 stage_id 中提取activity_id，如act34side
     :param stage_id: 关卡ID
-    :return: activity_id
+    :return: [activity_id]_
     """
     match = re.search(r'(.+?)_', stage_id)
     if match:
@@ -790,7 +724,7 @@ def extract_activity_from_stage_id(stage_id: str):
 
 def select_from_list(_activity_dict, key_one):
     """
-    选择活动（二级）
+    选择活动（二级）可输入数字或关键字，支持模糊匹配，若匹配多个则继续选择
     :param _activity_dict: 活动字典
     :param key_one: 关卡类型
     :return: 二级中文名
@@ -799,7 +733,7 @@ def select_from_list(_activity_dict, key_one):
     if key_one == "主题曲":
         stage_dict = {}
         for stage_name, item in _activity_dict[key_one].items():
-            key = extract_integer_from_stage_id(item[0]['stage_id'])
+            key = int(extract_integer_from_stage_id(item[0]['stage_id']))
             stage_dict[key] = stage_name
         matching_keys = [value for key, value in sorted(stage_dict.items())]
     else:
@@ -832,7 +766,8 @@ def select_from_list(_activity_dict, key_one):
         else:
             print("未找到匹配项，请重新选择")
             # 如果没有匹配项，重置匹配列表为所有keys并继续循环
-            matching_keys = list(_activity_dict.keys())
+            matching_keys = list(_activity_dict[key_one].keys())
+            matching_keys.append("全部")
             continue
 
 
@@ -854,8 +789,7 @@ def ask3(key: str):
     :return: 配置序号
     """
     for n in range(1, 10):
-        print(
-            f"{n}: {'已存在' if key in setting and str(n) in setting[key] and len(setting[key][str(n)]) > 0 else '无'}")
+        print(f"{n}: {'已存在' if key in setting and str(n) in setting[key] and len(setting[key][str(n)]) > 0 else '无'}")
     return str(int_input("b: 返回\n请选择配置序号：", 1, 1, 9, True))
 
 
