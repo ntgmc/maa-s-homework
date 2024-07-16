@@ -167,18 +167,21 @@ def build_data_dict(level_dict, data):
     构建数据字典，将数据按关卡分类
     :param level_dict: 当前活动的关卡字典
     :param data: 该活动全部作业数据
-    :return: 数据字典，格式为{关卡名: [作业1, 作业2, ...]}，关卡名为关卡ID<<关卡名
+    :return: 数据字典，格式为{关卡名: [作业1, 作业2, ...]}，关卡名为stage_id<<关卡代号
     """
     data_dict = {}
     for member in data['data']['data']:
         stage = json.loads(member['content'])['stage_name']
         if any(substring in stage for substring in ['#f#', 'easy']):
             continue
-        log_message("Build data dict: " + stage + "<<" + level_dict[stage][0]['cat_three'], logging.DEBUG, False)
-        key = stage + "<<" + level_dict[stage][0]['cat_three']
-        if key not in data_dict:
-            data_dict[key] = []
-        data_dict[key].append(member)
+        try:
+            log_message("Build data dict: " + stage + "<<" + level_dict[stage][0]['cat_three'], logging.DEBUG, False)
+            key = stage + "<<" + level_dict[stage][0]['cat_three']
+            if key not in data_dict:
+                data_dict[key] = []
+            data_dict[key].append(member)
+        except KeyError:
+            log_message(f"stage_name is not stage_id. Details: {stage} {member}", logging.ERROR)
     return data_dict
 
 
@@ -377,12 +380,9 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
             return False
     # 完备度检测
     if st["completeness"]:
-        result = completeness_check(list(_setting["operator_dict"].keys()), content.get('opers', []),
-                                    content.get('groups', []))
+        result = completeness_check(list(_setting["operator_dict"].keys()), content.get('opers', []), content.get('groups', []))
         if result is True:  # 完备
-            content['doc'][
-                'details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n" + \
-                             content['doc']['details']
+            content['doc']['details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n" + content['doc']['details']
         elif result is False:  # 缺少多个
             log_message(f"{file_name} 完备度检测不通过", logging.INFO, False)
             return False
@@ -393,13 +393,9 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
             else:  # 仅下载缺少干员不超过1个
                 log_message(f"{file_name} 缺少干员：{result}", logging.INFO, False)
                 content = json.loads(_member["content"])
-                content['doc'][
-                    'details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n缺少干员(组):  {result}\n\n" + \
-                                 content['doc']['details']
+                content['doc']['details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n缺少干员(组):  {result}\n\n" + content['doc']['details']
     else:  # 未启用完备度检测
-        content['doc'][
-            'details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n" + \
-                         content['doc']['details']
+        content['doc']['details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n" + content['doc']['details']
     file_path = os.path.join(path, f"{file_name}.json")
     if st["save"] == 1:  # 替换原来的文件
         if os.path.exists(file_path):
@@ -504,7 +500,8 @@ def less_search(stage_dict, _setting, search_key, activity, keyword):  # 搜索�
     os.makedirs(os.path.join(st["path"], search_key, activity), exist_ok=True)
     data = search(keyword, st["order_by"])  # 仅搜索一次
     data_dict = build_data_dict(stage_dict, data)  # 构建关卡字典，将数据按关卡分类
-    _setting["operator_dict"] = build_operator_dict(_setting["operator"], st["operator_num"])
+    if st["completeness"]:
+        _setting["operator_dict"] = build_operator_dict(_setting["operator"], st["operator_num"])
     for key, value in data_dict.items():  # 遍历关卡字典
         key1, key2 = key.split("<<")
         #  key1为stage_id，key2为name
@@ -512,8 +509,6 @@ def less_search(stage_dict, _setting, search_key, activity, keyword):  # 搜索�
         log_message(f"搜索 {key1} {key2} 共获得 {total} 个数据")
         amount = 0
         for member in value:
-            if any(substring in member['content'] for substring in ['#f#', 'easy']):
-                continue
             point = calculate_percent(member)
             if member["views"] >= st["view"] and point >= st["point"] and amount < st["amount"]:
                 if st["only_uploader"] == [] or member["uploader"] in st["only_uploader"]:
@@ -635,7 +630,6 @@ def generate_filename_mode3(stage_name, data):
     names_parts = ['+'.join(oper.get('name', '') for oper in opers),
                    '+'.join(group.get('name', '') for group in groups)]
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
-    names = replace_dir_char(names)
     if len(names) > 100:
         log_message(f"File name too long 文件名过长: {names}, {stage_name}", logging.WARNING)
         names = "文件名过长不予显示"
@@ -666,7 +660,7 @@ def generate_filename(content, title, uploader, keyword):
         log_message(f'File name format error 文件名格式错误, {t}, {content}, {title}, {uploader}, {keyword}',
                     logging.ERROR)
         file_name = f"ERROR{t}"
-    return file_name
+    return replace_dir_char(file_name)
 
 
 def mode1():
@@ -720,6 +714,8 @@ def input_level():
     if choose.isdigit() and 1 <= int(choose) <= len(keys):
         key = keys[int(choose) - 1]
         activity = select_from_list(all_dict, key)
+        log_message(f"已选择 {key}-{activity}", logging.INFO, False)
+        print(f"已选择 {key}-{activity}")
         if activity == "全部":
             stage_dict = {}
             for sub_key, sub_dict in all_dict[key].items():
@@ -733,10 +729,7 @@ def input_level():
                 st = configuration()
                 now = time.time()
                 with ThreadPoolExecutor(max_workers=10) as executor:
-                    futures = [executor.submit(less_search, stage_dict, st, key, activity,
-                                               extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id']))
-                               for activity in all_dict[key]
-                               if activity != "全部" and activity != ""]
+                    futures = [executor.submit(less_search, stage_dict, st, key, activity, extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id'])) for activity in all_dict[key] if activity != "全部" and activity != ""]
                     for future in as_completed(futures):
                         try:
                             future.result()
@@ -748,8 +741,7 @@ def input_level():
             else:
                 st = configuration()
                 now = time.time()
-                less_search(stage_dict, st, key, activity,
-                            extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id']))
+                less_search(stage_dict, st, key, activity, extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id']))
                 log_message(f"搜索{key}-{activity}完毕，共耗时 {round(time.time() - now, 2)} s.", logging.INFO, False)
                 input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n")
                 return menu()
@@ -798,7 +790,7 @@ def extract_activity_from_stage_id(stage_id: str):
 
 def select_from_list(_activity_dict, key_one):
     """
-    选择关卡
+    选择活动（二级）
     :param _activity_dict: 活动字典
     :param key_one: 关卡类型
     :return: 二级中文名
@@ -949,6 +941,7 @@ if use_local_level:
 else:
     all_dict = build_complex_dict(get_level_data())
     log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
+write_to_file("log/all_dict_temp.json", all_dict)
 while True:
     if menu():
         break
