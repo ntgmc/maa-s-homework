@@ -1,0 +1,103 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act19side_08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "绿野幻梦 - DV-8 - 连接内心 镀层",
+        "details": "作业更新日期: 2023-08-27T05:07:12Z\n统计更新日期: 2024-07-16\n好评率：100.0%  浏览量：83\n来源：sy秋梧  ID：26961\n\n参考萧然Q https://www.bilibili.com/video/BV1KZ4y1v7gZ?p=12&vd_source=8f191e1e374df24e4d76ca2070893cfe"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,135 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act19side_ex07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right",
+            "cooling": 0,
+            "costs": 12,
+            "cost_changes": 12
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "costs": 18,
+            "cost_changes": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up",
+            "costs": 18,
+            "cost_changes": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Right",
+            "costs": 18,
+            "cost_changes": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "costs": 18,
+            "cost_changes": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up",
+            "costs": 18,
+            "cost_changes": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right",
+            "kills": 15,
+            "costs": 18,
+            "cost_changes": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up",
+            "costs": 18,
+            "cost_changes": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Right",
+            "kills": 19,
+            "costs": 18,
+            "cost_changes": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Up",
+            "costs": 18,
+            "cost_changes": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Right",
+            "costs": 18
+        }
+    ],
+    "doc": {
+        "title": "绿野幻梦 - DV-EX-7 - 筛选方法",
+        "details": "作业更新日期: 2023-07-25T04:50:52Z\n统计更新日期: 2024-07-16\n好评率：100.0%  浏览量：84\n来源：2672451579@qq.com  ID：24852\n\n绿野幻梦 - DV-EX-7 - 筛选方法"
+    },
+    "groups": [],
+    "opers": []
+}

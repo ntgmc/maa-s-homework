@@ -1,0 +1,109 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act19side_06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "山",
+            "kills": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "假日威龙陈",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "推进之王",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up",
+            "kills": 16
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "绿野幻梦 - DV-6 - 挣脱美梦  堵门速刷",
+        "details": "作业更新日期: 2023-07-19T05:36:25Z\n统计更新日期: 2024-07-16\n好评率：80.0%  浏览量：242\n来源：努力学会偷懒  ID：24725\n\n自用，堵门速刷【绿野幻梦】DV-6 挣脱美梦 【黄金大队速刷材料】对干员练度有一定要求，建议开模组专一下技能！【不过应该影响也不大】\n【测试完成】无潜山，放下就能用，有六个空位可以带角色刷信任~"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "假日威龙陈",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

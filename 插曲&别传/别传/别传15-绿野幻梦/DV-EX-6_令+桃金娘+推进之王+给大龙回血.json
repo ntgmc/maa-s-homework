@@ -1,0 +1,187 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act19side_ex06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "推进之王",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "给大龙回血",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "推进之王",
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                5,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Up"
+        }
+    ],
+    "doc": {
+        "title": "【已测试】绿野幻梦 - DV-EX-6 - 容许限",
+        "details": "作业更新日期: 2023-07-24T09:16:51Z\n统计更新日期: 2024-07-16\n好评率：77.78%  浏览量：474\n来源：添柴山山  ID：24840\n\n自用令单核 抄自浅歌何以相予 不确定普通能不能用因为只测试了突袭捏\n令满配 安洁至少精二（调香师高配不确定能不能代替因为我的调香师只有精二一级）先锋练度都不用强求 \n"
+    },
+    "groups": [
+        {
+            "name": "给大龙回血",
+            "opers": [
+                {
+                    "name": "安洁莉娜",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "调香师",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 2
+}

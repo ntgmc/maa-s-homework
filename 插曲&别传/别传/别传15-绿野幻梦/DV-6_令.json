@@ -1,0 +1,120 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act19side_06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“清平”",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“清平”",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“清平”",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“清平”",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Retreat",
+            "name": "“清平”",
+            "location": [
+                4,
+                1
+            ],
+            "kills": 12
+        },
+        {
+            "type": "Deploy",
+            "name": "“清平”",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“清平”",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "“清平”",
+            "location": [
+                8,
+                3
+            ],
+            "kills": 31
+        },
+        {
+            "type": "Deploy",
+            "name": "“清平”",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "绿野幻梦 - DV-6 - 挣脱美梦 令单人（1技能）（待测试）",
+        "details": "作业更新日期: 2023-07-19T18:53:42Z\n统计更新日期: 2024-07-16\n好评率：75.0%  浏览量：169\n来源：koloc  ID：24680\n\nhttps://www.bilibili.com/video/BV1Su4y1S7qw/\n我令1技能没专完所以没测（\n！！！！！注意需要令1技能专3！！！！！\n如果MAA不识别清平，删除MAA文件夹下的cache文件夹并重启MAA"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

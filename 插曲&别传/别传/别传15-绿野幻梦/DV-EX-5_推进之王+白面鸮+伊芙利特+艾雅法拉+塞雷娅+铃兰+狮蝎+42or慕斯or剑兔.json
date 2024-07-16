@@ -1,0 +1,148 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act19side_ex05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "推进之王",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "42or慕斯or剑兔",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "铃兰",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "狮蝎",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "【自在道爷】绿野幻梦 - DV-EX-5",
+        "details": "作业更新日期: 2023-07-20T14:36:40Z\n统计更新日期: 2024-07-16\n好评率：93.23%  浏览量：5165\n来源：status102  ID：24668\n\n“平均60，基本专三，模组1级”\nBV1yS4y1E7h2/?p=5\n！！！若使用阿米娅，仔细检查是否为近卫"
+    },
+    "groups": [
+        {
+            "name": "42or慕斯or剑兔",
+            "opers": [
+                {
+                    "name": "史尔特尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "慕斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "阿米娅",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "狮蝎",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
