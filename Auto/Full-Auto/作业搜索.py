@@ -164,8 +164,8 @@ def build_dict(data, key: str, _dict=None):
 def build_data_dict(level_dict, data):
     """
     构建数据字典，将数据按关卡分类
-    :param level_dict: 当前活动的关卡字典
-    :param data: 该活动全部作业数据
+    :param level_dict: 需要下载的关卡字典
+    :param data: 作业数据
     :return: 数据字典，格式为{关卡名: [作业1, 作业2, ...]}，关卡名为stage_id<<关卡代号
     """
     data_dict = {}
@@ -180,7 +180,14 @@ def build_data_dict(level_dict, data):
                 data_dict[key] = []
             data_dict[key].append(member)
         except KeyError:
-            log_message(f"stage_name is not stage_id. Details: {stage} {member}", logging.WARNING)
+            new_stage = cat_three_dict.get(stage, [])[0].get('stage_id', '')
+            if new_stage in level_dict:
+                key = new_stage + "<<" + stage
+                if key not in data_dict:
+                    data_dict[key] = []
+                data_dict[key].append(member)
+            else:
+                log_message(f"stage_name is not stage_id. Details: {stage} {member}", logging.WARNING)
     return data_dict
 
 
@@ -213,7 +220,6 @@ def ban_operator(a: list, b: list):  # 禁用干员检测
     set2 = set(b)
     r1 = set1 - set2
     r2 = set1 - r1
-    print(r1, r2)
     return len(r2) > 0
 
 
@@ -870,12 +876,15 @@ os.makedirs("log", exist_ok=True)
 log_message("Program start 程序启动", logging.INFO)
 if use_local_level:
     with open("cache/level_data.json", 'r', encoding='utf-8') as f:
-        all_dict = build_complex_dict(json.load(f)['data'])
+        level_data = json.load(f)['data']
     log_message("Successfully loaded local level data. 成功加载本地关卡数据")
 else:
-    all_dict = build_complex_dict(get_level_data())
+    level_data = get_level_data()
     log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
-write_to_file("log/all_dict_temp.json", all_dict)
+all_dict = build_complex_dict(level_data)
+cat_three_dict = build_dict(level_data, "cat_three")
+# write_to_file("log/cat_three_dict_temp.json", cat_three_dict)
+# write_to_file("log/all_dict_temp.json", all_dict)
 while True:
     if menu():
         break
