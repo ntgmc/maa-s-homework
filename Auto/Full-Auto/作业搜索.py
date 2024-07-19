@@ -209,9 +209,9 @@ def build_operator_dict(data: dict, num: int):
     return op_dict
 
 
-def ban_operator(a: list, b: list):  # 禁用干员检测
+def ban_operator(a: list, b: list):
     """
-    检查是否有禁用的干员
+    禁用干员检测，检查作业是否有禁用的干员
     :param a: 作业干员列表
     :param b: 禁用干员列表
     :return: True or False
@@ -225,7 +225,7 @@ def ban_operator(a: list, b: list):  # 禁用干员检测
 
 def completeness_check(list1, opers, groups):
     """
-    完备度检测
+    完备度检测，检查作业所需干员是否完备
     :param list1: 拥有的干员
     :param opers: 作业干员列表
     :param groups: 作业干员组列表
@@ -275,14 +275,14 @@ def load_settings(num="1"):
     return False
 
 
-def calculate_percent(item):
+def calculate_percent(item) -> float:
     """
-    计算好评率
+    计算好评率，保留两位小数
     :param item: 作业数据
     :return: 好评率，保留两位小数
     """
     like, dislike = item.get('like', 0), item.get('dislike', 0)
-    return round(like / (like + dislike) * 100, 2) if like + dislike > 0 else 0
+    return round(like / (like + dislike) * 100, 2) if like + dislike > 0 else 0.00
 
 
 def configuration():
@@ -290,7 +290,7 @@ def configuration():
     选择配置
     :return: 配置
     """
-    print("1. 默认设置\n2. 用户设置(默认)\n3. 用户设置(其他)\n4. 自定义设置(单次)")
+    print("1. 默认设置\n2. 用户设置(默认)\n3. 用户设置(其他)\n4. 自定义设置(单次)\nb. 返回")
     _mode = input("请选择配置：")
     log_message(f"Configuration 配置: {_mode}", logging.DEBUG, False)
     if _mode == "1":
@@ -327,10 +327,10 @@ def configuration():
     elif _mode == "4":
         st = configure_download_settings()
         return {"download": {"0": st}}
-    elif "back" in _mode.lower():
-        return menu()
+    elif "b" in _mode.lower():
+        return False
     else:
-        print("未知选项，请重新选择，返回请输入back")
+        print("未知选项，请重新选择.")
         return configuration()
 
 
@@ -358,9 +358,9 @@ def search(keyword: str, search_mode: int) -> dict:
         return menu()
 
 
-def process_and_save_content(keyword, _member, _setting, key, activity, _percent=0):
+def process_and_save_content(keyword, _member, _setting, key, activity, _percent=0.00):
     """
-    处理并保存作业内容
+    进行禁用干员检测、完备度检测并写出文件
     :param keyword: 关卡stage_name
     :param _member: 作业数据
     :param _setting: 用户设置
@@ -419,38 +419,9 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
     return True
 
 
-def process_level(level, st, key, activity):
-    """
-    进行一次搜索并处理关卡
-    :param level: 关卡数据
-    :param st: 用户download设置
-    :param key: 关卡类型，如活动关卡
-    :param activity: 活动中文名，如生路
-    :return: 无返回值
-    """
-    keyword = level['stage_id']
-    name = level['cat_three']
-    if any(substring in keyword for substring in ['#f#', 'easy']):
-        return
-    data = search(keyword, st["order_by"])  # 搜索
-    total = data["data"]["total"]
-    log_message(f"搜索 {keyword} 共获得 {total} 个数据")
-    amount = 0
-    for member in data["data"]["data"]:
-        point = calculate_percent(member)
-        if member["views"] >= st["view"] and point >= st["point"] and amount < st["amount"]:
-            if st["only_uploader"] == [] or member["uploader"] in st["only_uploader"]:
-                if process_and_save_content(name, member, st, key, activity, point):
-                    amount += 1
-            if amount >= st["amount"]:
-                break
-        elif amount >= st["amount"]:
-            break
-
-
 def less_search(stage_dict, _setting, search_key, activity, keyword):  # 搜索并下载
     """
-    仅搜索一次并下载
+    批量搜索，仅搜索一次
     :param stage_dict: 当前活动的关卡字典
     :param _setting: 用户设置
     :param search_key: 关卡类型，如活动关卡
@@ -484,11 +455,11 @@ def less_search(stage_dict, _setting, search_key, activity, keyword):  # 搜索�
 
 def int_input(prompt: str, default: int, min_value=None, max_value=None, allow_return=False):
     """
-    支持默认值输入整数
+    输入整数，如果输入为空或非整数则返回默认值。若填写最小值和最大值则超出范围返回默认值
     :param prompt: 问题
     :param default: 默认值
-    :param min_value: 最小值
-    :param max_value: 最大值
+    :param min_value: 允许的最小值
+    :param max_value: 允许的最大值
     :param allow_return: 是否允许b返回menu
     :return: 输入的整数
     """
@@ -523,7 +494,7 @@ def bool_input(question):
 def configure_download_settings():
     """
     设置下载参数
-    :return: 下载参数
+    :return: 下载参数dict
     """
     log_message("Page: SETTING 设置", logging.INFO, False)
     print("1. 标题.json\n2. 标题 - 作者.json\n3. 关卡代号-干员1+干员2.json")
@@ -633,7 +604,9 @@ def mode1():
     if "back" in keyword.lower():
         return menu()
     _setting = configuration()
-    st = _setting["download"]
+    if not _setting:
+        return menu()
+    st = _setting["download"]["0"]
     os.system("cls")
     now = time.time()
     log_message(f'保存目录：{st["path"]}')
@@ -677,20 +650,24 @@ def input_level():
             stage_dict = {}
             for sub_key, sub_dict in all_dict[key].items():
                 stage_dict = build_dict(sub_dict, "stage_id", stage_dict)
+        elif not activity:
+            return menu()
         else:
             stage_dict = build_dict(all_dict[key][activity], "stage_id")
             log_message(f"stage_dict: {stage_dict}", logging.DEBUG, False)
         write_to_file("log/stage_dict_temp.json", stage_dict)
-        st = configuration()
+        _setting = configuration()
+        if not _setting:
+            return menu()
         now = time.time()
         if activity == "全部":  # 搜索全部
-            less_search(stage_dict, st, key, "全部", key)
+            less_search(stage_dict, _setting, key, "全部", key)
         elif key == "活动关卡":  # 搜索活动关卡使用extract_activity_from_stage_id
-            less_search(stage_dict, st, key, activity, extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id']))
+            less_search(stage_dict, _setting, key, activity, extract_activity_from_stage_id(all_dict[key][activity][0]['stage_id']))
         elif key == "主题曲":  # 搜索主题曲使用extract_integer_from_stage_id
-            less_search(stage_dict, st, key, activity, extract_integer_from_stage_id(all_dict[key][activity][0]['stage_id']) + "-")
+            less_search(stage_dict, _setting, key, activity, extract_integer_from_stage_id(all_dict[key][activity][0]['stage_id']) + "-")
         elif key == "剿灭作战" or key == "资源收集":  # 搜索剿灭作战或资源收集直接搜索activity
-            less_search(stage_dict, st, key, activity, activity)
+            less_search(stage_dict, _setting, key, activity, activity)
         else:
             log_message(f"不知道你怎么点进来的", logging.ERROR)
         log_message(f"搜索{key}-{activity}完毕，共耗时 {round(time.time() - now, 2)} s.", logging.INFO, False)
@@ -767,7 +744,7 @@ def select_from_list(_activity_dict, key_one):
                 continue
 
         elif "b" in user_input.lower():
-            return input_level()
+            return False
 
         else:
             print("未找到匹配项，请重新选择")
@@ -784,7 +761,7 @@ def mode2():
     """
     log_message("Batch download 批量下载", logging.DEBUG, False)
     os.system("cls")
-    print("已进入批量搜索并下载模式，（输入back返回）")
+    print("已进入批量搜索并下载模式，（输入b返回）")
     return input_level()
 
 
