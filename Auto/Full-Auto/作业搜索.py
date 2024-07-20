@@ -52,15 +52,6 @@ def write_to_file(file_path, content):
         log_message(f"write_to_file 写出文件: {file_path}", console_output=False)
 
 
-def delete_log_file():
-    """
-    删除旧日志文件
-    :return: 无返回值
-    """
-    if os.path.exists(log_path):
-        os.remove(log_path)
-
-
 def log_message(message, level=logging.INFO, console_output=True):
     """
     记录日志
@@ -754,17 +745,6 @@ def select_from_list(_activity_dict, key_one):
             continue
 
 
-def mode2():
-    """
-    批量搜索
-    :return: 无返回值
-    """
-    log_message("Batch download 批量下载", logging.DEBUG, False)
-    os.system("cls")
-    print("已进入批量搜索并下载模式，（输入b返回）")
-    return input_level()
-
-
 def ask3(key: str):
     """
     选择配置
@@ -841,14 +821,18 @@ def menu(info=""):
     if choose == "1":
         return mode1()
     elif choose == "2":
-        return mode2()
+        log_message("Batch download 批量下载", logging.DEBUG, False)
+        os.system("cls")
+        print("已进入批量搜索并下载模式，（输入b返回）")
+        return input_level()
     elif choose == "3":
         return download_set()
     elif "e" in choose.lower():
         return True
 
 
-delete_log_file()
+if os.path.exists(log_path):
+    os.remove(log_path)
 os.makedirs("log", exist_ok=True)
 log_message("Program start 程序启动", logging.INFO)
 if use_local_level:
