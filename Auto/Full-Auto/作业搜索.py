@@ -45,11 +45,14 @@ def write_to_file(file_path, content):
     将内容写入文件
     :param file_path: 文件路径
     :param content: 要写入的内容
-    :return: 无返回值
+    :return: True or False
     """
+    if os.path.exists(file_path):
+        return False
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
         log_message(f"write_to_file 写出文件: {file_path}", console_output=False)
+    return True
 
 
 def log_message(message, level=logging.INFO, console_output=True):
@@ -406,6 +409,9 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
         if os.path.exists(file_path):
             log_message(f"跳过文件：{file_path}", logging.INFO)
             return False
+    else:
+        log_message(f"ERROR 错误: {st['save']}", logging.ERROR)
+        return False
     write_to_file(file_path, content)
     return True
 
