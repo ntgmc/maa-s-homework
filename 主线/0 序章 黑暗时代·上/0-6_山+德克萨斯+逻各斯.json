@@ -1,0 +1,60 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_00-06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        }
+    ],
+    "doc": {
+        "title": "序章 黑暗时代·上 - 0-6 - 强击",
+        "details": "作业更新日期: 2024-05-16T02:26:59Z\n统计更新日期: 2024-07-22\n好评率：50.0%  浏览量：35\n来源：Chiho  ID：37703\n精二603"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
