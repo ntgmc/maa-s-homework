@@ -1,0 +1,90 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_02-02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "泡普卡",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "史都华德",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "杜林",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "Lancet-2",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第二章 异卵同生 - 2-2 - 兵不接刃",
+        "details": "作业更新日期: 2023-08-02T13:54:19Z\n统计更新日期: 2024-07-23\n好评率：55.56%  浏览量：200\n来源：lssastar  ID：25059\nup:瓦姬Official\nhttps://www.bilibili.com/video/BV1584y1z7Tm?p=3"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "史都华德",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "泡普卡",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "杜林",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "Lancet-2",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
