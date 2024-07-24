@@ -615,7 +615,7 @@ def mode1():
     log_message("Single search 单次搜索", logging.INFO, False)
     os.system("cls")
     print("已进入单次搜索并下载模式，（输入back返回）")
-    keyword = input("请输入关卡代号：").strip()
+    keyword = input("请输入关卡代号：").strip().upper()
     if "back" in keyword.lower():
         return menu()
     _setting = configuration(setting)
@@ -634,7 +634,7 @@ def mode1():
         point = calculate_percent(member)
         if member["views"] >= st["view"] and point >= st["point"] and amount < st["amount"]:
             if st["only_uploader"] == [] or member["uploader"] in st["only_uploader"]:
-                if process_and_save_content(keyword, member, st, keyword, "单次下载", point):
+                if process_and_save_content(keyword, member, _setting, keyword, "单次下载", point):
                     amount = amount + 1
             if amount >= st["amount"]:
                 break
