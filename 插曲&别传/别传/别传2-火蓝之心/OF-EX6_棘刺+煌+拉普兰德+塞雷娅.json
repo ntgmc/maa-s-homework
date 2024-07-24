@@ -1,8 +1,8 @@
 {
-    "minimum_required": "v4.0",
+    "minimum_required": "v4.0.0",
     "doc": {
         "title": "【火蓝之心】OF-EX6突袭四人",
-        "details": "UP主：雨落情初\n原视频：https://www.bilibili.com/video/av839367640/\n有问题联系制作者QQ2586582719"
+        "details": "作业更新日期: 2024-07-24T10:04:42Z\n统计更新日期: 2024-07-24\n好评率：37.5%  浏览量：549\n来源：一只摆烂的42  ID：22937\n\nUP主：雨落情初\n原视频：https://www.bilibili.com/video/av839367640/\n有问题联系制作者QQ2586582719"
     },
     "stage_name": "a003_ex06",
     "opers": [
@@ -101,5 +101,7 @@
             "doc": "有问题联系制作者QQ2586582719",
             "doc_color": "SpringGreen"
         }
-    ]
+    ],
+    "difficulty": 3,
+    "groups": []
 }

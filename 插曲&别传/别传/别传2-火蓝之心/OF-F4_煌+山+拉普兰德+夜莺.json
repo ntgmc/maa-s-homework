@@ -1,8 +1,8 @@
 {
-    "minimum_required": "v4.0",
+    "minimum_required": "v4.0.0",
     "doc": {
-        "title": "【火蓝之心】OF-F4四人",
-        "details": "UP主：刻俄柏_\n原视频：https://www.bilibili.com/video/av468730230/\n有问题联系制作者QQ2586582719"
+        "title": "【火蓝之心】OF-F4四人 优化版",
+        "details": "作业更新日期: 2024-07-24T10:04:00Z\n统计更新日期: 2024-07-24\n好评率：0.0%  浏览量：1\n来源：一只摆烂的42  ID：39602\n\nUP主：刻俄柏_\n原视频：https://www.bilibili.com/video/av468730230/\n有问题联系制作者QQ2586582719"
     },
     "stage_name": "a003_f04",
     "opers": [
@@ -43,18 +43,18 @@
         },
         {
             "type": "部署",
-            "name": "拉普兰德",
+            "name": "煌",
             "location": [
-                4,
+                3,
                 4
             ],
             "direction": "左"
         },
         {
             "type": "部署",
-            "name": "煌",
+            "name": "拉普兰德",
             "location": [
-                3,
+                4,
                 4
             ],
             "direction": "左"
@@ -74,5 +74,6 @@
             "doc": "有问题联系制作者QQ2586582719",
             "doc_color": "SpringGreen"
         }
-    ]
+    ],
+    "groups": []
 }
