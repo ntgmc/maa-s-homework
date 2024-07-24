@@ -1,0 +1,96 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act5d0_09",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                1
+            ],
+            "kills": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "喧闹法则·复刻 - CB-9 - 0:01A.M.",
+        "details": "作业更新日期: 2024-01-28T10:46:41Z\n统计更新日期: 2024-07-24\n好评率：100.0%  浏览量：286\n来源：小卡拉帕鲁灰🐖  ID：32321\n\nCB-令"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

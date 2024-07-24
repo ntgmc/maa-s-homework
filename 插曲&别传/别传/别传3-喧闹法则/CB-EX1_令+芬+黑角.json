@@ -1,0 +1,125 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act5d0_ex01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Left",
+            "costs": 31
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "喧闹法则·复刻 - CB-EX1 - 群架诀窍",
+        "details": "作业更新日期: 2024-01-28T12:17:59Z\n统计更新日期: 2024-07-24\n好评率：91.3%  浏览量：621\n来源：小卡拉帕鲁灰🐖  ID：32323\n\nCB-令\n令30费和龙一起下别急\n低星要满级"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

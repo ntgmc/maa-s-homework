@@ -1,0 +1,151 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act5d0_10",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "location": [
+                6,
+                5
+            ],
+            "costs": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Up",
+            "kills": 28
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "喧闹法则·复刻 - CB-10 - 1:11A.M.",
+        "details": "作业更新日期: 2024-01-30T12:20:58Z\n统计更新日期: 2024-07-24\n好评率：80.95%  浏览量：368\n来源：小卡拉帕鲁灰🐖  ID：32322\n\nCB-令\n这关需要手动跳过关内剧情"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

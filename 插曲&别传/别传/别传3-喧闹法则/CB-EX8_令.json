@@ -1,0 +1,151 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act5d0_ex08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                7,
+                3
+            ],
+            "costs": 4
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                3,
+                7
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                7,
+                3
+            ],
+            "kills": 18
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "Skill",
+            "name": "香槟炸弹",
+            "location": [
+                9,
+                3
+            ],
+            "kills": 35
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 40
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "喧闹法则·复刻 - CB-EX8 - 日常",
+        "details": "作业更新日期: 2024-02-01T02:00:24Z\n统计更新日期: 2024-07-24\n好评率：90.57%  浏览量：1376\n来源：小卡拉帕鲁灰🐖  ID：32385\n\nCB-令\n比7容易"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

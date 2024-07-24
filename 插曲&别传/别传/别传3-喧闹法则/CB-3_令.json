@@ -1,0 +1,110 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act5d0_03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "BulletTime",
+            "name": "令",
+            "location": [
+                3,
+                6
+            ],
+            "costs": 16
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "BulletTime",
+            "name": "令",
+            "location": [
+                3,
+                6
+            ],
+            "pre_delay": 8000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "BulletTime",
+            "name": "令",
+            "location": [
+                3,
+                6
+            ],
+            "pre_delay": 8000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "BulletTime",
+            "name": "令",
+            "location": [
+                3,
+                6
+            ],
+            "pre_delay": 8000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "喧闹法则·复刻 - CB-3 - 7:22P.M.",
+        "details": "作业更新日期: 2024-01-28T07:45:57Z\n统计更新日期: 2024-07-24\n好评率：100.0%  浏览量：97\n来源：小卡拉帕鲁灰🐖  ID：32313\n\nCB-令\n令默认3级模组"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}
