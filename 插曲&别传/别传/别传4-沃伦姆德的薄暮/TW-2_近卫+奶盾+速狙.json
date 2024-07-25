@@ -1,0 +1,114 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "【沃伦姆德的薄暮】TW-2三人",
+        "details": "作业更新日期: 2024-07-24T15:40:45Z\n统计更新日期: 2024-07-24\n好评率：100.0%  浏览量：66\n来源：一只摆烂的42  ID：22715\n\nUP：萧然Q\n原视频：https://www.bilibili.com/video/BV1dg411g7np?p=2\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "stage_name": "act11d0_02",
+    "opers": [],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫",
+            "direction": "Left",
+            "location": [
+                3,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "速狙",
+            "direction": "Up",
+            "location": [
+                2,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "direction": "Left",
+            "location": [
+                4,
+                6
+            ]
+        }
+    ],
+    "groups": [
+        {
+            "name": "近卫",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "幽灵鲨",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "速狙",
+            "opers": [
+                {
+                    "name": "能天使",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "空弦",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "艾拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ]
+}
