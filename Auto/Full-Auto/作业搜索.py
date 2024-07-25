@@ -168,28 +168,26 @@ def completeness_check(list1, opers, groups):
     :param groups: 作业干员组列表
     :return: True or False or 缺少的干员
     """
-    def check_group():
-        for t in groups_set:
-            if not any(member in list1_set for member in t):
-                result.append(t)
-        if len(result) == 0:  # 完备
-            return True
-        elif len(result) == 1:  # 缺少一个
-            return result[0]
-        else:  # 缺少多个
-            return False
-
     result = []  # 缺少的干员
     list1_set = set(list1)
     opers_set = set([oper['name'] for oper in opers])
     groups_set = {tuple(member['name'] for member in group['opers']) for group in groups}
+    # 检查干员
     if opers_set.issubset(list1_set):
         list1_set -= opers_set
-        return check_group()
     elif len(opers_set - list1_set) == 1:
         new_set = opers_set - list1_set
         result.append(new_set.pop())
-        return check_group()
+    else:  # 缺少多个
+        return False
+    # 检查干员组
+    for t in groups_set:
+        if not any(member in list1_set for member in t):
+            result.append(t)
+    if len(result) == 0:  # 完备
+        return True
+    elif len(result) == 1:  # 缺少一个
+        return result[0]
     else:  # 缺少多个
         return False
 
