@@ -1,8 +1,8 @@
 {
-    "minimum_required": "v4.0",
+    "minimum_required": "v4.0.0",
     "doc": {
         "title": "【孤岛风云】MB-EX-8突袭七人",
-        "details": "UP：萧然Q\n原视频：https://www.bilibili.com/video/av849683238/\n有问题联系制作者QQ2586582719"
+        "details": "作业更新日期: 2024-07-25T06:02:23Z\n统计更新日期: 2024-07-25\n好评率：98.31%  浏览量：1890\n来源：一只摆烂的42  ID：21065\n\nUP：萧然Q\n原视频：https://www.bilibili.com/video/BV17L4y1H776?p=19\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
     },
     "stage_name": "act15d0_ex08",
     "opers": [
@@ -35,11 +35,6 @@
             "name": "铃兰",
             "skill": 2,
             "skill_usage": 0
-        },
-        {
-            "name": "安洁莉娜",
-            "skill": 1,
-            "skill_usage": 0
         }
     ],
     "actions": [
@@ -66,13 +61,13 @@
             "direction": "上"
         },
         {
-            "type": "部署",
-            "name": "安洁莉娜",
+            "type": "Deploy",
+            "name": "第二辅助",
+            "direction": "Down",
             "location": [
                 4,
                 3
-            ],
-            "direction": "下"
+            ]
         },
         {
             "type": "部署",
@@ -111,6 +106,24 @@
             ],
             "direction": "下",
             "pre_delay": 7000
+        }
+    ],
+    "difficulty": 3,
+    "groups": [
+        {
+            "name": "第二辅助",
+            "opers": [
+                {
+                    "name": "安洁莉娜",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塑心",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
         }
     ]
 }
