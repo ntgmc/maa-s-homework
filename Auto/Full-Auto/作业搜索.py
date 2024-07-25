@@ -326,8 +326,11 @@ def generate_filename(content, title, uploader, keyword):
     :param keyword: 关卡代号
     :return: 文件名
     """
-    if content.get("difficulty", 0) == 1:  # 普通
+    diff = content.get("difficulty", 0)
+    if diff == 1:  # 普通
         file_name = "(仅普通)"
+    elif diff == 2:  # 突袭
+        file_name = "(仅突袭)"
     else:  # 其他
         file_name = ""
     if title == 1:  # 标题
