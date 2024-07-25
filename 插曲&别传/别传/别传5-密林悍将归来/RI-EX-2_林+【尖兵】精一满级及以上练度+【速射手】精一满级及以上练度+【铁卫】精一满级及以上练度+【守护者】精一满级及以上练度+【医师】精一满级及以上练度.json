@@ -1,0 +1,387 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act12d0_ex02",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "【尖兵】精一满级及以上练度",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "林",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "【速射手】精一满级及以上练度",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "林",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 7
+        },
+        {
+            "type": "Deploy",
+            "name": "【医师】精一满级及以上练度",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "【守护者】精一满级及以上练度",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "【铁卫】精一满级及以上练度",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "林",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 21
+        },
+        {
+            "type": "Skill",
+            "name": "林",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 40
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "密林悍将归来·复刻 - RI-EX-2 - 徘徊 -林单核",
+        "details": "作业更新日期: 2024-04-03T17:12:11Z\n统计更新日期: 2024-07-24\n好评率：100.0%  浏览量：135\n来源：小卡拉帕鲁灰🐖  ID：35632\n\n林专三90级，3级模组（不然突袭充能不够）"
+    },
+    "groups": [
+        {
+            "name": "【尖兵】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "嵯峨",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "推进之王",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "焰尾",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "德克萨斯",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "红隼",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "贾维",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "凛冬",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "青枳",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "讯使",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "芬",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "【速射手】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "灰烬",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "空弦",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白金",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "灰喉",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "隐现",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "杰西卡",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流星",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "梅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "安德切尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "【铁卫】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "年",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "拜松",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "暴雨",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "可颂",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "角峰",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "泡泡",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "卡缇",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "米格鲁",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "【守护者】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "瑕光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "吽",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "深律",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "斑点",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "【医师】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "图耶",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "亚叶",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "林",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}
