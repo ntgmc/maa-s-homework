@@ -10,21 +10,28 @@ import requests
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
 LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log", "app.log")
 setting = {}
-setting_version = "20240710"
+setting_version = "20240727"
 date = time.strftime('%Y-%m-%d', time.localtime())
 use_local_level = False
 
 
-def ask_setting_num(_setting, key: str, exist=False):
+def ask_setting_num(_setting, key: str, exist=False, show_name=True):
     """
     列出全部{key}配置的存在情况并选择配置
     :param _setting: 设置
     :param key: 配置类型
     :param exist: 是否判断存在，True仅返回已存在的配置，False不判断
+    :param show_name: 是否显示配置名称
     :return: 配置序号
     """
     for n in range(1, 10):
-        print(f"{n}: {'已存在' if key in _setting and str(n) in _setting[key] and len(_setting[key][str(n)]) > 0 else '无'}")
+        if show_name:
+            try:
+                print(f"{n}: {_setting[key][str(n)]['name'] if key in _setting and str(n) in _setting[key] and len(_setting[key][str(n)]) > 0 else '无'}")
+            except KeyError:
+                print(f"{n}: {'已存在' if key in _setting and str(n) in _setting[key] and len(_setting[key][str(n)]) > 0 else '无'}")
+        else:
+            print(f"{n}: {'已存在' if key in _setting and str(n) in _setting[key] and len(_setting[key][str(n)]) > 0 else '无'}")
     choose = str(int_input("b: 返回\n请选择配置序号：", 1, 1, 9, True, False))
     if choose == "b":
         return "b"
@@ -202,10 +209,11 @@ def configuration(_setting):
     print("1. 默认设置\n2. 用户设置(默认)\n3. 用户设置(其他)\n4. 自定义设置(单次)\nb. 返回")
     _mode = input("请选择配置：")
     log_message(f"Configuration 配置: {_mode}", logging.DEBUG, False)
-    if _mode == "1":
+    if _mode == "1":  # 默认设置
         return {"download": {
             "default": "0",
             "0": {
+                'name': "默认设置",
                 'version': setting_version,
                 'title': 1,
                 'save': 2,
@@ -220,12 +228,12 @@ def configuration(_setting):
                 'ban_operator': [],
                 'only_uploader': []
             }}}
-    elif _mode == "2":
+    elif _mode == "2":  # 用户设置(默认)
         if not judge_setting(_setting, "1"):
             return False
         _setting["download"]["default"] = "1"
         return _setting
-    elif _mode == "3":
+    elif _mode == "3":  # 用户设置(其他)
         while True:
             choose = ask_setting_num(_setting, 'download')
             if choose == "b":
@@ -233,10 +241,10 @@ def configuration(_setting):
             _setting["download"]["default"] = choose
             break
         return _setting
-    elif _mode == "4":
+    elif _mode == "4":  # 自定义设置(单次)
         st = configure_download_settings()
         return {"download": {"default": "0", "0": st}}
-    elif "b" in _mode.lower():
+    elif "b" in _mode.lower():  # 返回
         return False
     else:
         print("未知选项，请重新选择.")
@@ -249,6 +257,8 @@ def configure_download_settings():
     :return: 下载参数dict
     """
     log_message("Page: SETTING 设置", logging.INFO, False)
+    setting_name = input("设置配置名称：").strip()
+    setting_name = setting_name if setting_name else "Name"
     print("1. 标题.json\n2. 标题 - 作者.json\n3. 关卡代号-干员1+干员2.json")
     title = int_input("选择文件名格式（默认为1）：", 1, 1, 3)
     print("1. 替换原来的文件\n2. 保存到新文件并加上序号如 (1)\n3. 跳过，不保存")
@@ -274,6 +284,7 @@ def configure_download_settings():
     print(f"设定值：{uploader}")
     log_message(f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {completeness}, {completeness_mode}, {operator}, {uploader}", logging.DEBUG, False)
     return {
+        'name': setting_name,
         'version': setting_version,
         'title': title,
         'save': save,
@@ -589,7 +600,10 @@ def menu(info=""):
         print(info)
     print("=" * 60)
     if "download" in setting and setting.get("use_default") and "default" in setting["download"]:
-        print(f"当前默认配置: 配置 {setting['download']['default']}")  # 显示当前下载设置
+        try:
+            print(f"当前默认配置: 配置 {setting['download']['default']} {setting['download'][setting['download']['default']]['name']}")  # 显示当前下载设置
+        except KeyError:
+            print(f"当前默认配置: 配置 {setting['download']['default']}")  # 显示当前下载设置
     print("1. 单次搜索并下载")
     print("2. 批量搜索并下载")
     print("3. 设置")
@@ -823,9 +837,9 @@ def settings_set():
     print("3. 干员配置")
     print("b. 返回并保存")
     choose1 = input("请选择操作：")
-    if choose1 == "0":
+    if choose1 == "0":  # 是否使用默认配置
         setting['use_default'] = not setting.get('use_default', False)
-    elif choose1 == "1":
+    elif choose1 == "1":  # 设置默认配置
         if "download" in setting and setting.get("use_default") and "default" in setting["download"]:
             print(f"当前默认配置: 配置 {setting['download']['default']}")  # 显示当前下载设置
         choose2 = ask_setting_num(setting, 'download', True)
@@ -834,42 +848,42 @@ def settings_set():
                 setting["download"] = {}
             setting["download"]["default"] = choose2
             print(f"已设置默认配置为: 配置 {choose2}")
-    elif choose1 == "2":
+    elif choose1 == "2":  # 下载配置
         choose2 = str(int_input("下载配置：\n1. 设置\n2. 查看配置\n请选择操作：", "b", 1, 2))
-        if choose2 == "1":
+        if choose2 == "1":  # 设置下载配置
             choose3 = ask_setting_num(setting, 'download')
             if "download" not in setting:
                 setting["download"] = {}
             setting["download"][choose3] = configure_download_settings()
-        elif choose2 == "2":
+        elif choose2 == "2":  # 查看下载配置
             if "download" in setting:
-                choose3 = ask_setting_num(setting, 'operator', True)
+                choose3 = ask_setting_num(setting, 'download', True)
                 if choose3 != "b":
                     print(f"配置{choose3}: " + json.dumps(setting["download"][choose3], ensure_ascii=False, indent=4))
             else:
                 print("未找到下载配置, 请先设置")
-    elif choose1 == "3":
+    elif choose1 == "3":  # 干员配置
         choose2 = str(int_input("干员配置：\n1. 设置\n2. 查看配置\n请选择操作：", "b", 1, 2))
-        if choose2 == "1":
-            choose3 = ask_setting_num(setting, 'operator')
+        if choose2 == "1":  # 设置干员配置
+            choose3 = ask_setting_num(setting, 'operator', show_name=False)
             input(f"正在设置: 配置 {choose3} , 请使用MAA干员识别工具并复制到剪贴板\n按回车键继续\n")
             os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
             clipboard_content = pyperclip.paste()
-            if is_valid_json(clipboard_content):
+            if is_valid_json(clipboard_content):  # 检查是否为有效的JSON
                 if "operator" not in setting:
                     setting["operator"] = {}
                 setting["operator"][choose3] = json.loads(clipboard_content)
                 print(f"干员配置 {choose3} 已保存, 共有 {len(setting['operator'][choose3])} 个干员")
             else:
                 print("无效的JSON数据, 请重新设置")
-        elif choose2 == "2":
+        elif choose2 == "2":  # 查看干员配置
             if "operator" in setting:
-                choose3 = ask_setting_num(setting, 'operator', True)
+                choose3 = ask_setting_num(setting, 'operator', True, False)
                 if choose3 != "b":
                     print(f"配置 {choose3} 当前共有 {len(setting['operator'][choose3])} 个干员")
             else:
                 print("未找到干员配置, 请先设置")
-    elif choose1 == "b":
+    elif choose1 == "b":  # 返回并保存
         save_setting(setting)
         return menu("设置保存成功")
     return settings_set()
