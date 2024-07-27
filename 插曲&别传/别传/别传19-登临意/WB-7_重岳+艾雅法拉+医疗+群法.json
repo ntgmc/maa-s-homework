@@ -1,0 +1,112 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act23side_07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "重岳",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "群法",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "登临意 - WB-7 - “屏风卫”【重岳模组任务】",
+        "details": "作业更新日期: 2024-02-01T03:47:22Z\n统计更新日期: 2024-07-27\n好评率：98.25%  浏览量：6592\n来源：小卡拉帕鲁灰🐖  ID：32414\n\n任务要求：3星通关别传WB-7;必须携带并部署非助战重岳，其他成员仅可编入4名干员\n"
+    },
+    "groups": [
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "群法",
+            "opers": [
+                {
+                    "name": "夕",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "远山",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "炎熔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "skill_times": 5,
+            "name": "重岳",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

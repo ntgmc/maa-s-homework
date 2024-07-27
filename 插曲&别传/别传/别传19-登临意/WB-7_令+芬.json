@@ -1,0 +1,155 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act23side_07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "BulletTime",
+            "name": "令",
+            "location": [
+                4,
+                2
+            ],
+            "costs": 16
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                2
+            ],
+            "pre_delay": 5000
+        },
+        {
+            "type": "BulletTime",
+            "name": "令",
+            "location": [
+                4,
+                2
+            ],
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "BulletTime",
+            "name": "令",
+            "location": [
+                4,
+                2
+            ],
+            "pre_delay": 8000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                2
+            ],
+            "pre_delay": 6000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                2
+            ],
+            "kills": 48
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "登临意 - WB-7 - “屏风卫” - 令 - 堵门速刷",
+        "details": "作业更新日期: 2024-01-18T11:58:12Z\n统计更新日期: 2024-07-27\n好评率：88.04%  浏览量：3456\n来源：小卡拉帕鲁灰🐖  ID：31761\n\n搜索关键词：登临意-令\n有些人用国家地理那个皮肤，无法识别龙和干员，更换皮肤可以解决，\n或者清一下maa根目录 cache avatars 里面的缓存图片\n作业作者：Ke_lin\nJSON作者：灰bao_\n令：精二90级专3、三级模组\n建了个q群（789724611），有啥问题可以进来问"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act23side_ex07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "BulletTime",
+            "name": "令",
+            "location": [
+                1,
+                4
+            ],
+            "costs": 16
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                1,
+                4
+            ],
+            "costs": 13
+        },
+        {
+            "type": "BulletTime",
+            "name": "令",
+            "location": [
+                1,
+                4
+            ],
+            "costs": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Right",
+            "costs": 31
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                1,
+                4
+            ],
+            "kills": 10,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                1
+            ],
+            "kills": 21
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                1,
+                4
+            ],
+            "kills": 23
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right",
+            "kills": 24
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "登临意 - WB-EX-7 - 鼓声尽 - 单核",
+        "details": "作业更新日期: 2024-01-21T01:57:53Z\n统计更新日期: 2024-07-27\n好评率：80.65%  浏览量：1014\n来源：小卡拉帕鲁灰🐖  ID：32003\n\n兼容突袭、普通。EX6打不了一点，自己去手抄一下作业吧\n求稳全程单倍速了，给萌新用的，高配玩家最好用挂机\n作业作者：浅歌何以相予\nJSON作者：灰bao_\n令：精二90级专3、三级模组\n建了个q群（789724611），有啥问题可以进来问"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
