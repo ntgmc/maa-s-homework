@@ -1,0 +1,218 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act16d5_07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "术士",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "玛恩纳",
+            "skill_usage": 0
+        },
+        {
+            "type": "SkillUsage",
+            "name": "斑点",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "单奶1",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "单奶2",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿消",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "单奶1",
+            "location": [
+                4,
+                1
+            ],
+            "kills": 40
+        },
+        {
+            "type": "SkillUsage",
+            "name": "玛恩纳",
+            "skill_usage": 1,
+            "kills": 42
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "画中人·复刻 - WR-7 - 好坏 单核",
+        "details": "作业更新日期: 2024-03-02T08:06:03Z\n统计更新日期: 2024-07-27\n好评率：100.0%  浏览量：210\n来源：小卡拉帕鲁灰🐖  ID：34287\n\nWR-令\n令这关3技能不好打"
+    },
+    "groups": [
+        {
+            "name": "单奶1",
+            "opers": [
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛"
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "亚叶",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "单奶2",
+            "opers": [
+                {
+                    "name": "嘉维尔"
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳"
+                },
+                {
+                    "name": "末药"
+                },
+                {
+                    "name": "图耶"
+                },
+                {
+                    "name": "纯烬艾雅法拉"
+                }
+            ]
+        },
+        {
+            "name": "术士",
+            "opers": [
+                {
+                    "name": "史都华德",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "刻俄柏",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "阿米娅",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "阿消"
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
