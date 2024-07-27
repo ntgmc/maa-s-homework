@@ -1,0 +1,178 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act22side_ex01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "costs": 6
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "术士",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "kills": 6
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "kills": 17
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 29
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "照我以火 - FC-EX-1 - 泥泞道路 - 令单",
+        "details": "作业更新日期: 2023-12-22T10:41:29Z\n统计更新日期: 2024-07-27\n好评率：90.48%  浏览量：1701\n来源：小卡拉帕鲁灰🐖  ID：31218\n\n突袭带厉害点的术士，德华和克洛丝会极限杀不死\n作业作者：Ke_lin\nJSON作者：灰bao_\n令：精二90级专3、三级模组\nhttps://www.bilibili.com/video/BV1X8411n7kA/?spm_id_from=333.337.search-card.all.click&vd_source=10857a8c905c104ca2eab27415c72ffc"
+    },
+    "groups": [
+        {
+            "name": "术士",
+            "opers": [
+                {
+                    "name": "史都华德",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "卡达",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

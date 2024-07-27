@@ -1,0 +1,121 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act22side_06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "玛恩纳",
+            "location": [
+                3,
+                3
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                8,
+                4
+            ],
+            "kills": 14,
+            "pre_delay": 800
+        },
+        {
+            "type": "Deploy",
+            "name": "任意地面阻挡",
+            "location": [
+                8,
+                2
+            ],
+            "kills": 15,
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "照我以火 - FC-6 - 无人知晓 - 少人速刷",
+        "details": "作业更新日期: 2023-12-22T10:48:36Z\n统计更新日期: 2024-07-27\n好评率：91.78%  浏览量：6870\n来源：小卡拉帕鲁灰🐖  ID：31214\n\n注意：这是异铁速刷作业，不包含刻章任务，如果你去年没打，先去用萧然的作业，再用这个作业存记录\n作业作者：化学老施\nJSON作者：灰bao_\n无限定【照我以火】FC-6 3人堵门速刷 97秒 异铁组 明日方舟 信赖攻略\nhttps://www.bilibili.com/video/BV1HD4y187QT/?spm_id_from=333.337.search-card.all.click&vd_source=10857a8c905c104ca2eab27415c72ffc"
+    },
+    "groups": [
+        {
+            "name": "任意地面阻挡",
+            "opers": [
+                {
+                    "name": "谜图",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "达格达",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "砾",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}
