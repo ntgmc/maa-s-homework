@@ -1,0 +1,152 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act20side_ex04",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "盾",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "点燃",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "自走车单行道",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "自走车出发点",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "自走车单行道",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "自走车单行道",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "理想城：长夏狂欢季 - IC-EX-4 - 争夺场地",
+        "details": "作业更新日期: 2023-09-01T06:26:16Z\n统计更新日期: 2024-07-27\n好评率：82.14%  浏览量：1472\n来源：1668925488@qq.com  ID：27501\n\n带任务\n小车配件：扩音器，钻头有什么带什么，浓缩蘑菇精2个，无尽之拳，转向驱动\n后放的奶尽量练度高点带法抗\n澄闪小羊专三推荐小羊"
+    },
+    "groups": [
+        {
+            "name": "盾",
+            "opers": [
+                {
+                    "name": "蛇屠箱",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黑角",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "米格鲁",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "角峰",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "泡泡",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "星熊",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "斑点",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "点燃",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [],
+    "difficulty": 3
+}

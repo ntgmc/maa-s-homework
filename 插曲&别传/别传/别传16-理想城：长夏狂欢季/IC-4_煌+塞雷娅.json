@@ -1,6 +1,6 @@
 {
     "minimum_required": "v4.0.0",
-    "stage_name": "act20side_02",
+    "stage_name": "act20side_04",
     "actions": [
         {
             "type": "SpeedUp"
@@ -12,14 +12,14 @@
                 3,
                 2
             ],
-            "direction": "Down"
+            "direction": "Right"
         },
         {
             "type": "Deploy",
-            "name": "拉普兰德",
+            "name": "塞雷娅",
             "location": [
                 2,
-                4
+                2
             ],
             "direction": "Right"
         },
@@ -28,8 +28,8 @@
         }
     ],
     "doc": {
-        "title": "【自在道爷】理想城 IC-2 摆烂挂机",
-        "details": "作业更新日期: 2023-08-28T05:33:18Z\n统计更新日期: 2024-07-27\n好评率：98.31%  浏览量：2226\n来源：status102  ID：27056\n\n“平均60，基本专三，模组1级”\nav386904822/?p=2\nJson制作：status102"
+        "title": "【自在道爷】理想城 IC-4 摆烂挂机",
+        "details": "作业更新日期: 2023-08-28T05:33:23Z\n统计更新日期: 2024-07-27\n好评率：94.34%  浏览量：2097\n来源：status102  ID：27058\n\n“平均60，基本专三，模组1级”\nav386904822/?p=4\nJson制作：status102"
     },
     "groups": [],
     "opers": [
@@ -39,8 +39,8 @@
             "skill_usage": 0
         },
         {
-            "name": "拉普兰德",
-            "skill": 2,
+            "name": "塞雷娅",
+            "skill": 1,
             "skill_usage": 0
         }
     ]

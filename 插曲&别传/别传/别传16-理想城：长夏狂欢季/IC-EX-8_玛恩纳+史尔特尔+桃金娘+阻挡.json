@@ -1,0 +1,201 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act20side_ex08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                4
+            ],
+            "costs": 0,
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                11,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                11,
+                1
+            ],
+            "doc_color": "Gray",
+            "doc": "自走车出发点",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "自走车单行道",
+            "location": [
+                4,
+                2
+            ],
+            "doc_color": "Gray",
+            "doc": "自走车单行道",
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                4,
+                4
+            ],
+            "doc": "",
+            "name": "史尔特尔",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "自走车单行道",
+            "location": [
+                4,
+                7
+            ],
+            "doc_color": "Gray",
+            "doc": "自走车单行道",
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "自走车单行道",
+            "location": [
+                8,
+                7
+            ],
+            "doc_color": "Gray",
+            "doc": "自走车单行道",
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "自走车单行道",
+            "location": [
+                1,
+                7
+            ],
+            "doc_color": "Gray",
+            "doc": "自走车单行道",
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                9,
+                2
+            ],
+            "kills": 8
+        },
+        {
+            "type": "Deploy",
+            "name": "阻挡",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left",
+            "kills": 0
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                9,
+                2
+            ],
+            "kills": 64
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                4
+            ],
+            "kills": 76,
+            "pre_delay": 4000,
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                4
+            ],
+            "kills": 0,
+            "pre_delay": 2000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "理想城：长夏狂欢季 - IC-EX-8 - 理想之城 ",
+        "details": "作业更新日期: 2023-09-03T23:40:55Z\n统计更新日期: 2024-07-27\n好评率：85.35%  浏览量：18548\n来源：近水楼台  ID：27504\n\n测试完毕（超强制冷机、突击保险杠、浓缩蘑菇精、提纯薄荷油、无尽之拳、爆压充能程序）\n【小史带着老玛拆飞机 IC-EX-8突袭双核低配】 https://www.bilibili.com/video/BV1o8411z7Cv/?share_source=copy_web&vd_source=68b77acc817c8e01ef24ea48e7b1abae\n喜欢可以去给原视频作者点赞\nPS:不要点左上角的发车，会乱"
+    },
+    "groups": [
+        {
+            "name": "阻挡",
+            "opers": [
+                {
+                    "name": "Castle-3",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夜刀",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}

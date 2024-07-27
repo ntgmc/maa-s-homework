@@ -1,0 +1,230 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act20side_s03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Left",
+            "costs": 10
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "群疗",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                2,
+                4
+            ],
+            "costs": 23
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "自走车单行道",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "自走车单行道",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                6
+            ]
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                3
+            ],
+            "pre_delay": 6000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                2,
+                2
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "pre_delay": 0,
+            "name": "艾雅法拉",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "银灰",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "重装2",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left",
+            "kills": 39
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "理想城：长夏狂欢季 - IC-S-3 - 越帮越忙（测试完成）练度低比较极限 【慎用】（改进版经过测试练度不是太低很稳）",
+        "details": "作业更新日期: 2023-09-02T09:54:52Z\n统计更新日期: 2024-07-27\n好评率：83.33%  浏览量：2495\n来源：yeah~  ID：27581\n\n改自maa://27530，稍稍降低了一点练度要求，偶尔还是会出现第一次银灰技能暴毙的问题，加了个盾（有年稳过，其余大概率能过）\n萧然Q突袭半挂机作业\nhttps://www.bilibili.com/video/BV1dT411w72G?p=31&vd_source=1eee290f91470d2b69f5fdc41a25321c\n车顶：超强制冷机   车头：突击保险杠\n液罐舱：浓缩蘑菇精  / 提纯薄荷油\n插槽：无尽之拳/爆压充能程序   "
+    },
+    "groups": [
+        {
+            "name": "群疗",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "重装2",
+            "opers": [
+                {
+                    "name": "年",
+                    "skill": 3,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "泥岩",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 2,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "雷蛇",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
