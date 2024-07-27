@@ -1,19 +1,14 @@
 {
-    "minimum_required": "v4.0",
+    "minimum_required": "v4.0.0",
     "doc": {
         "title": "【将进酒-萧然】IW-5五人",
-        "details": "原视频：https://www.bilibili.com/video/av295975180?p=5\nUP：萧然Q\n————————\n该版本为蓝毒1技能替换能天使1技能版本\n————————\n有问题联系制作者QQ2586582719"
+        "details": "作业更新日期: 2023-05-27T08:56:50Z\n统计更新日期: 2024-07-27\n好评率：96.67%  浏览量：525\n来源：一只摆烂的42  ID：22998\n\n原视频：https://www.bilibili.com/video/av295975180?p=5\nUP：萧然Q\n有问题联系制作者QQ2586582719"
     },
     "stage_name": "act15side_05",
     "opers": [
         {
             "name": "煌",
             "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "蓝毒",
-            "skill": 1,
             "skill_usage": 0
         },
         {
@@ -56,8 +51,8 @@
             "direction": "左"
         },
         {
-            "type": "部署",
-            "name": "蓝毒",
+            "type": "Deploy",
+            "name": "速狙",
             "location": [
                 6,
                 3
@@ -87,6 +82,23 @@
             "name": "",
             "doc": "有问题联系制作者QQ2586582719",
             "doc_color": "SpringGreen"
+        }
+    ],
+    "groups": [
+        {
+            "name": "速狙",
+            "opers": [
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "能天使",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
         }
     ]
 }

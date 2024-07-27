@@ -1,8 +1,8 @@
 {
-    "minimum_required": "v4.0",
+    "minimum_required": "v4.0.0",
     "doc": {
         "title": "【将进酒】IW-EX-7突袭八人",
-        "details": "原视频：https://www.bilibili.com/video/av893643464?p=12\nUP：萧然Q\n有问题联系制作者QQ2586582719"
+        "details": "作业更新日期: 2024-07-27T10:11:07Z\n统计更新日期: 2024-07-27\n好评率：100.0%  浏览量：1239\n来源：一只摆烂的42  ID：23015\n\n原视频：https://www.bilibili.com/video/BV1CP4y1N7ji?p=12\nUP：萧然Q\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
     },
     "stage_name": "act15side_ex07",
     "opers": [
@@ -10,11 +10,6 @@
             "name": "桃金娘",
             "skill": 1,
             "skill_usage": 1
-        },
-        {
-            "name": "推进之王",
-            "skill": 2,
-            "skill_usage": 0
         },
         {
             "name": "煌",
@@ -29,11 +24,6 @@
         {
             "name": "伊芙利特",
             "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "塞雷娅",
-            "skill": 1,
             "skill_usage": 0
         },
         {
@@ -62,13 +52,13 @@
             "direction": "上"
         },
         {
-            "type": "部署",
-            "name": "推进之王",
+            "type": "Deploy",
+            "name": "先锋",
+            "direction": "左",
             "location": [
                 5,
                 1
-            ],
-            "direction": "左"
+            ]
         },
         {
             "type": "部署",
@@ -89,13 +79,13 @@
             "direction": "右"
         },
         {
-            "type": "部署",
-            "name": "塞雷娅",
+            "type": "Deploy",
+            "name": "奶盾",
+            "direction": "右",
             "location": [
                 3,
                 1
-            ],
-            "direction": "右"
+            ]
         },
         {
             "type": "部署",
@@ -129,6 +119,39 @@
             "name": "",
             "doc": "有问题联系制作者QQ2586582719",
             "doc_color": "SpringGreen"
+        }
+    ],
+    "difficulty": 3,
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "先锋",
+            "opers": [
+                {
+                    "name": "推进之王",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "风笛",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
         }
     ]
 }

@@ -1,0 +1,160 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act15side_06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "BulletTime",
+            "name": "令",
+            "location": [
+                6,
+                2
+            ],
+            "costs": 16
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                6,
+                2
+            ],
+            "costs": 12
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                6,
+                2
+            ],
+            "kills": 10,
+            "pre_delay": 8000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Up",
+            "kills": 13
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                2
+            ],
+            "kills": 16
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                6,
+                2
+            ],
+            "kills": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Up"
+        }
+    ],
+    "doc": {
+        "title": "将进酒·复刻 - IW-6 - 传说",
+        "details": "作业更新日期: 2024-01-21T07:05:22Z\n统计更新日期: 2024-07-27\n好评率：66.67%  浏览量：304\n来源：小卡拉帕鲁灰🐖  ID：32182\n\nhttps://www.bilibili.com/video/BV1NY411m7w9?p=6&vd_source=10857a8c905c104ca2eab27415c72ffc"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

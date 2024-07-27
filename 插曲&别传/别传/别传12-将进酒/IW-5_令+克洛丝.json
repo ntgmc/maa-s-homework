@@ -1,0 +1,141 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act15side_05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                2,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                2,
+                5
+            ],
+            "kills": 18
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                5
+            ],
+            "costs": 23
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "将进酒·复刻 - IW-5 - 货与人",
+        "details": "作业更新日期: 2024-01-21T06:48:21Z\n统计更新日期: 2024-07-27\n好评率：71.43%  浏览量：220\n来源：小卡拉帕鲁灰🐖  ID：32180\n\nhttps://www.bilibili.com/video/BV1NY411m7w9?p=5&vd_source=10857a8c905c104ca2eab27415c72ffc"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

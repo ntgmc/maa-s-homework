@@ -1,0 +1,107 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act15side_08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 8
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 24
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "将进酒·复刻 - IW-8 - 执念",
+        "details": "作业更新日期: 2024-01-21T07:28:28Z\n统计更新日期: 2024-07-27\n好评率：66.67%  浏览量：286\n来源：小卡拉帕鲁灰🐖  ID：32184\n\nhttps://www.bilibili.com/video/BV1NY411m7w9?p=8&vd_source=10857a8c905c104ca2eab27415c72ffc"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
