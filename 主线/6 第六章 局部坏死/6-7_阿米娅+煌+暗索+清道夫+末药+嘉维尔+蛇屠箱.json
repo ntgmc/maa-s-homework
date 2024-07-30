@@ -1,0 +1,124 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_06-06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "清道夫",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "末药",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "暗索",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "嘉维尔",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "蛇屠箱",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "煌",
+            "kills": 32
+        },
+        {
+            "type": "Skill",
+            "name": "阿米娅",
+            "kills": 39
+        }
+    ],
+    "doc": {
+        "title": "第六章 局部坏死 - 6-7 - 断弦",
+        "details": "作业更新日期: 2023-03-19T06:13:16Z\n统计更新日期: 2024-07-30\n好评率：84.62%  浏览量：1002\n来源：YueShen  ID：21669\n作者：YueShen"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "阿米娅",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "暗索",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "清道夫",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "末药",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "嘉维尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "蛇屠箱",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}
