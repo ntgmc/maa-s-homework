@@ -1,0 +1,85 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_07-16",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "None",
+            "kills": 0
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 4
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "None",
+            "kills": 12
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 18
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第七章 苦难摇篮 - 7-18 - 爱国者之死",
+        "details": "作业更新日期: 2024-05-10T13:22:24Z\n统计更新日期: 2024-07-31\n好评率：88.46%  浏览量：1007\n来源：Hath  ID：37456\n【双人7-18突袭维神单人两轮技能过大爹全阶段】https://www.bilibili.com/video/BV16C41177gs\n异格W 2903 三级模组，山2603 无需模组\n无需潜能"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        }
+    ],
+    "difficulty": 2
+}
