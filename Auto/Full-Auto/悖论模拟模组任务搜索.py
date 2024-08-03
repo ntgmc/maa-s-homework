@@ -161,12 +161,13 @@ def filter_paradox(data, name, stage_id, _job):
 
             # 只下载评分最高的三个项目
             for percent, item in items_to_download[:3]:
-                if compare_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论"):
-                    # print(f"{item['id']} 未改变数据，无需更新")
-                    continue
                 file_path = f"悖论模拟/{_job}/{name} - {int(percent)} - {item['id']}.json"
-                if not os.path.exists(file_path):
-                    check_file_exists(f"悖论模拟/{_job}/{name} - * - {item['id']}.json")
+                if compare_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论"):  # 如果未改变数据
+                    # print(f"{item['id']} 未改变数据，无需更新")
+                    if os.path.exists(file_path):  # 如果文件存在（评分相同）
+                        continue
+                # 数据改变或评分改变
+                check_file_exists(f"悖论模拟/{_job}/{name} - * - {item['id']}.json")
                 content = json.loads(item['content'])
                 content['doc'][
                     'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
@@ -215,12 +216,12 @@ def search_module(name, stage):
 
                 # 只下载评分最高的三个项目
                 for percent, item in items_to_download[:3]:
+                    file_path = f"模组任务/{name} - {stage} - {int(percent)} - {item['id']}.json"
                     if compare_cache(cache_dict, item['id'], item['upload_time'], name + "-模组"):
                         # print(f"{item['id']} 未改变数据，无需更新")
-                        continue
-                    file_path = f"模组任务/{name} - {stage} - {int(percent)} - {item['id']}.json"
-                    if not os.path.exists(file_path):
-                        check_file_exists(f"模组任务/{name} - {stage} - * - {item['id']}.json")
+                        if os.path.exists(file_path):
+                            continue
+                    check_file_exists(f"模组任务/{name} - {stage} - * - {item['id']}.json")
                     content = json.loads(item['content'])
                     content['doc'][
                         'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
