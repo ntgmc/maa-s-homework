@@ -1,0 +1,169 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_nian_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "年",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "史都华德",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "铸铁",
+            "location": [
+                3,
+                5
+            ],
+            "costs": 22
+        },
+        {
+            "type": "Deploy",
+            "name": "炎熔",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "年",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "星极",
+            "location": [
+                3,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "炎熔"
+        },
+        {
+            "type": "Deploy",
+            "name": "改良型二踢脚",
+            "location": [
+                7,
+                3
+            ],
+            "costs": 16,
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "改良型二踢脚",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "None",
+            "costs": 31
+        },
+        {
+            "type": "Deploy",
+            "name": "改良型二踢脚",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "None",
+            "costs": 42
+        },
+        {
+            "type": "Deploy",
+            "name": "改良型二踢脚",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "None",
+            "costs": 57
+        },
+        {
+            "type": "Deploy",
+            "name": "改良型二踢脚",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "None",
+            "costs": 84
+        },
+        {
+            "type": "Skill",
+            "name": "年",
+            "location": [
+                3,
+                3
+            ],
+            "costs": 94
+        },
+        {
+            "type": "Skill",
+            "name": "铸铁",
+            "location": [
+                3,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "星极",
+            "location": [
+                3,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "炎熔",
+            "location": [
+                2,
+                2
+            ]
+        }
+    ],
+    "doc": {
+        "title": "重装 - 年 - “除夕”",
+        "details": "作业更新日期: 2023-04-09T14:34:18Z\n统计更新日期: 2024-08-03\n好评率：88.33%  浏览量：4293\n来源：Theae  ID：22466\n重装 - 年 - “除夕”"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "年",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}
