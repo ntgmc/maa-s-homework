@@ -189,7 +189,12 @@ def search_module(name, stage):
     _response = requests.get(url, headers=_headers)
     if _response.status_code == 200:
         data = _response.json()
-        total = data['data'].get('total', 0)
+        try:
+            total = data['data'].get('total', 0)
+        except KeyError:
+            print(f"请求失败！ERR_CONNECTION_REFUSED in search({name} - {stage})")
+            print(data)
+            total = 0
         if total > 0:
             ids_develop = []
             ids_user = []
@@ -319,8 +324,9 @@ def main_module():
     with ThreadPoolExecutor() as executor:
         futures = []
         for index, (name, stage, task) in enumerate(tr_contents):
-            future = executor.submit(search_module, name, stage)
-            futures.append((index, future))
+            if stage != "[[]]":
+                future = executor.submit(search_module, name, stage)
+                futures.append((index, future))
         for index, future in futures:
             result = future.result()
             # 将结果和序号一起存储
