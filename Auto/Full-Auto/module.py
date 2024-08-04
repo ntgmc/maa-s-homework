@@ -26,5 +26,7 @@ response = requests.get(
 tr_contents = extract_tr_contents(response.text)
 with open('module.txt', 'w', encoding='utf-8') as f:
     for tr_content in tr_contents:
+        if tr_content[1] == '[[]]':
+            continue
         line = '\t'.join(tr_content)
         f.write(line + '\n')
