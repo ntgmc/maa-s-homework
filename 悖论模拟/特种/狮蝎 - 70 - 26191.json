@@ -1,0 +1,137 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_mantic_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "狮蝎",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜烟",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down",
+            "costs": 25
+        },
+        {
+            "type": "Skill",
+            "name": "夜烟",
+            "location": [
+                7,
+                5
+            ],
+            "costs": 12
+        },
+        {
+            "type": "Skill",
+            "name": "阿米娅",
+            "location": [
+                6,
+                2
+            ],
+            "costs": 17
+        },
+        {
+            "type": "Skill",
+            "name": "阿米娅",
+            "location": [
+                6,
+                2
+            ],
+            "costs": 60
+        },
+        {
+            "type": "SkillUsage",
+            "name": "夜烟",
+            "rear_delay": 27000,
+            "skill_usage": 0
+        },
+        {
+            "type": "Skill",
+            "costs": 99,
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "阿米娅",
+            "skill_usage": 0,
+            "rear_delay": 4000
+        },
+        {
+            "type": "Skill",
+            "name": "阿米娅",
+            "location": [
+                6,
+                2
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "夜烟",
+            "skill_usage": 1
+        },
+        {
+            "type": "Skill",
+            "name": "蛇屠箱",
+            "pre_delay": 3000,
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                5
+            ],
+            "pre_delay": 7000
+        },
+        {
+            "type": "Skill",
+            "name": "阿米娅",
+            "location": [
+                6,
+                2
+            ],
+            "pre_delay": 4500
+        },
+        {
+            "type": "Skill",
+            "name": "夜烟",
+            "location": [
+                7,
+                5
+            ]
+        }
+    ],
+    "doc": {
+        "title": "狮蝎 悖论模拟-看见她",
+        "details": "作业更新日期: 2023-08-20T14:48:48Z\n统计更新日期: 2024-08-10\n好评率：70.77%  浏览量：1949\n来源：和泉纱雾  ID：26191\n狮蝎选择1技能，七级也能过\n作者：https://www.bilibili.com/video/BV1oP4y137M4/\n已测试，稳过\n新人第一次制作作业，有问题欢迎评论区指正╰(*°▽°*)╯\n"
+    },
+    "groups": [],
+    "opers": []
+}
