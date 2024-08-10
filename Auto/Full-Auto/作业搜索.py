@@ -10,7 +10,7 @@ import requests
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
 LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log", "app.log")
 setting = {}
-setting_version = "20240727"
+setting_version = "20240810"
 date = time.strftime('%Y-%m-%d', time.localtime())
 use_local_level = False
 
@@ -226,7 +226,8 @@ def configuration(_setting):
                 'completeness_mode': 1,
                 'operator_num': 1,
                 'ban_operator': [],
-                'only_uploader': []
+                'only_uploader': [],
+                'prefer_uploader': []
             }}}
     elif _mode == "2":  # 用户设置(默认)
         if not judge_setting(_setting, "1"):
@@ -273,16 +274,22 @@ def configure_download_settings():
     amount = int_input("设置下载数量(1-5)（为空全部下载）：", 99, 1, 5)
     completeness = bool_input("是否启用干员完备度检测？")
     if completeness:
+        print(f"设定值：{completeness}")
         completeness_mode = int_input("1. 所有干员都有\n2. 缺少干员不超过1个\n设置检测条件（默认为1）：", 1, 1, 2)
+        print(f"设定值：{completeness_mode}")
         operator_num = int_input("设置干员配置序号（1-9默认为1）：", 1, 1, 9)
+        print(f"设定值：{operator_num}")
     else:
+        print(f"设定值：{completeness}")
         completeness_mode = 1
         operator_num = 1
     operator = input("设置禁用干员（多个用空格分隔）（为空不禁用）：").split()
     print(f"设定值：{operator}")
-    uploader = input("设置只看作业站作者（多个用空格分隔）（为空不设置）：").split()
-    print(f"设定值：{uploader}")
-    log_message(f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {completeness}, {completeness_mode}, {operator}, {uploader}", logging.DEBUG, False)
+    only_uploader = input("设置只看作业站作者（多个用空格分隔）（为空不设置）：").split()
+    print(f"设定值：{only_uploader}")
+    prefer_uploader = input("设置优先显示作者（多个用空格分隔）（为空不设置）：").split()
+    print(f"设定值：{prefer_uploader}")
+    log_message(f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {completeness}, {completeness_mode}, {operator_num}, {operator}, {only_uploader}", logging.DEBUG, False)
     return {
         'name': setting_name,
         'version': setting_version,
@@ -297,7 +304,8 @@ def configure_download_settings():
         'completeness_mode': completeness_mode,
         'operator_num': operator_num,
         'ban_operator': operator,
-        'only_uploader': uploader
+        'only_uploader': only_uploader,
+        'prefer_uploader': prefer_uploader
     }
 
 
@@ -326,13 +334,14 @@ def extract_integer_from_stage_id(stage_id: str):
     return "0"
 
 
-def generate_filename(content, title, uploader, keyword):
+def generate_filename(content, title, uploader, keyword, prefer):
     """
     生成文件名
     :param content: 作业数据
     :param title: 文件名格式
     :param uploader: 作业作者
     :param keyword: 关卡代号
+    :param prefer: 是否优先显示作者
     :return: 文件名
     """
     diff = content.get("difficulty", 0)
@@ -342,6 +351,8 @@ def generate_filename(content, title, uploader, keyword):
         file_name = "(仅突袭)"
     else:  # 其他
         file_name = ""
+    if prefer:
+        file_name += f"({uploader})"
     if title == 1:  # 标题
         file_name += content["doc"]["title"]
     elif title == 2:  # 标题 - 作者
@@ -680,7 +691,8 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
     os.makedirs(path, exist_ok=True)
     content = json.loads(_member["content"])
     names = [oper.get('name', '') for oper in content.get('opers', '')]
-    file_name = generate_filename(content, st["title"], _member["uploader"], keyword)
+    prefer = _member["uploader"] in st["prefer_uploader"]
+    file_name = generate_filename(content, st["title"], _member["uploader"], keyword, prefer)
     # 禁用干员检测
     if st["ban_operator"]:
         if ban_operator(names, st["ban_operator"]):
