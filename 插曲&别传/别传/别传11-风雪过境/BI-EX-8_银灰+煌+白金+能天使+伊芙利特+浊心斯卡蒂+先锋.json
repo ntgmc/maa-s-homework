@@ -1,17 +1,12 @@
 {
-    "minimum_required": "v4.0",  
+    "minimum_required": "v4.0.0",
     "difficulty": 3,
     "doc": {
         "title": "【风雪过境】BI-EX-8突袭七人",
-        "details": "原视频：https://www.bilibili.com/video/av295224718/\nUP：侬无言以对\n有问题联系制作者QQ2586582719"
+        "details": "作业更新日期: 2024-08-11T01:43:29Z\n统计更新日期: 2024-08-11\n好评率：99.21%  浏览量：1382\n来源：一只摆烂的42  ID：22981\n\n原视频：https://www.bilibili.com/video/av295224718/\nUP：侬无言以对\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
     },
-    "stage_name": "act14side_ex08",
+    "stage_name": "act14side_ex08#f#",
     "opers": [
-        {
-            "name": "推进之王",
-            "skill": 2,
-            "skill_usage": 0
-        },
         {
             "name": "银灰",
             "skill": 1,
@@ -45,13 +40,15 @@
     ],
     "actions": [
         {
-            "type": "部署",
-            "name": "推进之王",
+            "type": "Deploy",
+            "doc_color": "SpringGreen",
+            "doc": "有问题联系制作者QQ2586582719",
+            "name": "先锋",
+            "direction": "Up",
             "location": [
                 5,
                 6
-            ],
-            "direction": "上"
+            ]
         },
         {
             "type": "二倍速",
@@ -118,12 +115,23 @@
             "name": "",
             "doc": "能天使应该是锏刚开始动落地，不是寄了请换作业",
             "doc_color": "#6f42c1"
-        },
+        }
+    ],
+    "groups": [
         {
-            "type": "打印",
-            "name": "",
-            "doc": "有问题联系制作者QQ2586582719",
-            "doc_color": "SpringGreen"
+            "name": "先锋",
+            "opers": [
+                {
+                    "name": "推进之王",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "风笛",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
         }
     ]
 }

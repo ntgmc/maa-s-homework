@@ -1,19 +1,19 @@
 {
-    "minimum_required": "v4.0",  
+    "minimum_required": "v4.0.0",
     "difficulty": 3,
     "doc": {
         "title": "【风雪过境】BI-EX-6突袭七人",
-        "details": "原视频：https://www.bilibili.com/video/av592662013/\nUP：侬无言以对\n优化：2586582719\n有问题联系制作者QQ2586582719"
+        "details": "作业更新日期: 2024-08-11T02:00:08Z\n统计更新日期: 2024-08-11\n好评率：94.64%  浏览量：1652\n来源：一只摆烂的42  ID：22977\n\n原视频：https://www.bilibili.com/video/av592662013/\nUP：侬无言以对\n优化：一只摆烂的42\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
     },
     "stage_name": "act14side_ex06",
     "opers": [
         {
-            "name": "推进之王",
+            "name": "风笛",
             "skill": 2,
             "skill_usage": 0
         },
         {
-            "name": "风笛",
+            "name": "推进之王",
             "skill": 2,
             "skill_usage": 0
         },
@@ -28,43 +28,38 @@
             "skill_usage": 0
         },
         {
-            "name": "伊芙利特",
+            "name": "夜莺",
             "skill": 2,
             "skill_usage": 0
         },
         {
-            "name": "塞雷娅",
-            "skill": 1,
-            "skill_usage": 0
-        },
-        {
-            "name": "夜莺",
+            "name": "伊芙利特",
             "skill": 2,
             "skill_usage": 0
         }
     ],
     "actions": [
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "推进之王",
             "location": [
                 4,
                 5
             ],
-            "direction": "右"
+            "direction": "Right"
         },
         {
             "type": "二倍速",
             "name": ""
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "夜莺",
             "location": [
                 3,
                 4
             ],
-            "direction": "上"
+            "direction": "Up"
         },
         {
             "type": "部署",
@@ -103,19 +98,30 @@
             "direction": "右"
         },
         {
-            "type": "部署",
-            "name": "塞雷娅",
+            "type": "Deploy",
+            "name": "奶盾",
+            "direction": "右",
             "location": [
                 3,
                 3
-            ],
-            "direction": "右"
-        },
+            ]
+        }
+    ],
+    "groups": [
         {
-            "type": "打印",
-            "name": "",
-            "doc": "有问题联系制作者QQ2586582719",
-            "doc_color": "SpringGreen"
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
         }
     ]
 }
