@@ -100,8 +100,10 @@ def build_data_dict(level_dict, data):
     data_dict = {}
     for member in data['data']['data']:
         stage = json.loads(member['content'])['stage_name']
-        if any(substring in stage for substring in ['#f#', 'easy']):
+        if 'easy' in stage:
             continue
+        elif "#f#" in stage:
+            stage = stage.split("#f#")[0]
         try:
             log_message("Build data dict: " + stage + "<<" + level_dict[stage][0]['cat_three'], logging.DEBUG, False)
             key = stage + "<<" + level_dict[stage][0]['cat_three']
