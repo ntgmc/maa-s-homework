@@ -1,0 +1,115 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_07-02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "治疗",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right",
+            "doc": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第七章 苦难摇篮 - H7-2 - 星火行动-2",
+        "details": "作业更新日期: 2024-02-26T03:55:34Z\n统计更新日期: 2024-08-11\n好评率：97.44%  浏览量：1004\n来源：kevinkax  ID：33791\n参考视频：BV16T4y1Y7DG 作者：祈星_Estrella\nyc.exe"
+    },
+    "groups": [
+        {
+            "name": "治疗",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
