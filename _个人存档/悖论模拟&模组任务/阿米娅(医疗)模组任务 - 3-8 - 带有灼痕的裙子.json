@@ -6,8 +6,8 @@
       "type": "Deploy",
       "name": "能天使",
       "location": [
-        5,
-        2
+        6,
+        3
       ],
       "direction": "Left"
     },
@@ -99,5 +99,6 @@
       "skill": 2,
       "skill_usage": 0
     }
-  ]
+  ],
+  "difficulty": 1
 }
