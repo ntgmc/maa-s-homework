@@ -1,0 +1,75 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_plosis_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "芳汀",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "蛇屠箱",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "慕斯",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                1
+            ],
+            "costs": 42
+        },
+        {
+            "type": "Skill",
+            "name": "蛇屠箱",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 20,
+            "costs": 50
+        }
+    ],
+    "doc": {
+        "title": "医疗 - 白面鸮 - 量化治疗 - 悖论模拟",
+        "details": "作业更新日期: 2023-03-08T08:34:05Z\n统计更新日期: 2024-08-17\n好评率：96.04%  浏览量：8129\n来源：Xiao  ID：21411\n白面鸮 精二 60级 带模组更稳\nhttps://www.bilibili.com/video/BV1ZU4y1u7w4/"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
