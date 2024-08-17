@@ -6,6 +6,7 @@ import time
 
 import pyperclip
 import requests
+from bs4 import BeautifulSoup
 
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
 LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log", "app.log")
@@ -201,15 +202,16 @@ def completeness_check(list1, opers, groups):
         return False
 
 
-def configuration(_setting):
+def configuration(_setting, _mode="0"):
     """
     选择配置，False则返回menu
     :return: 配置 or False
     """
     if _setting.get("use_default") and judge_setting(_setting, _setting['download']['default']):
         return _setting
-    print("1. 默认设置\n2. 用户设置(默认)\n3. 用户设置(其他)\n4. 自定义设置(单次)\nb. 返回")
-    _mode = input("请选择配置：")
+    if _mode == "0":
+        print("1. 默认设置\n2. 用户设置(默认)\n3. 用户设置(其他)\n4. 自定义设置(单次)\nb. 返回")
+        _mode = input("请选择配置：")
     log_message(f"Configuration 配置: {_mode}", logging.DEBUG, False)
     if _mode == "1":  # 默认设置
         return {"download": {
@@ -233,6 +235,7 @@ def configuration(_setting):
             }}}
     elif _mode == "2":  # 用户设置(默认)
         if not judge_setting(_setting, "1"):
+            print("未找到默认用户设置或默认用户设置已过期，请设置")
             return False
         _setting["download"]["default"] = "1"
         return _setting
@@ -267,8 +270,7 @@ def configure_download_settings():
     print("1. 替换原来的文件\n2. 保存到新文件并加上序号如 (1)\n3. 跳过，不保存")
     save = int_input("设置文件名冲突时的处理方式（默认为2）：", 2, 1, 3)
     path = input("设置保存文件夹（为空默认当前目录\\download）：").strip()
-    path = path if path and os.path.isdir(path) else os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                                                  "download")
+    path = path if path and os.path.isdir(path) else os.path.join(os.path.dirname(os.path.abspath(__file__)), "download")
     print(f"保存文件夹：{path}")
     order_by = int_input("1. 热度\n2. 最新\n3. 浏览量\n设置排序方式（默认为3. 浏览量）：", 3, 1, 3)
     point = int_input("设置好评率限制(0-100)（为空不限制）：", 0, 0, 100)
@@ -309,6 +311,20 @@ def configure_download_settings():
         'only_uploader': only_uploader,
         'prefer_uploader': prefer_uploader
     }
+
+
+def download_current_activity(activity):
+    stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
+    log_message(f"stage_dict: {stage_dict}", logging.DEBUG, False)
+    write_to_file("log/stage_dict_temp.json", stage_dict)
+    _setting = configuration(setting, "2")
+    if not _setting:
+        return menu("未找到用户设置或用户设置已过期，请设置")
+    now = time.time()
+    less_search(stage_dict, _setting, "活动关卡", activity, extract_activity_from_stage_id(all_dict["活动关卡"][activity][0]['stage_id']))
+    log_message(f"搜索活动关卡-{activity}完毕，共耗时 {round(time.time() - now, 2)} s.", logging.INFO, False)
+    input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n按回车键返回")
+    return menu()
 
 
 def extract_activity_from_stage_id(stage_id: str):
@@ -394,6 +410,45 @@ def get_level_data():
     write_to_file("log/level_data_temp.json", response.json())
     log_message(f"Successfully obtained level data 成功获取关卡数据", console_output=False)
     return response.json()['data'] if response.ok else []
+
+
+def get_activity_data():
+    """
+    获取活动数据，格式为{'name': 活动名, 'status': 状态}
+    :return: 活动数据, 进行中的活动
+    """
+    response = requests.get('https://prts.wiki/w/%E6%B4%BB%E5%8A%A8%E4%B8%80%E8%A7%88')
+    soup = BeautifulSoup(response.text, 'html.parser')
+    activities = []
+    ongoing_activities = []
+
+    # Find the table containing the activity data
+    table = soup.find('table', {'class': 'wikitable mw-collapsible mw-collapsible-title-center'})
+    if not table:
+        return False, False
+
+    # Iterate through the rows of the table
+    rows = table.find_all('tr')
+    for row in rows[1:]:  # Skip the header row
+        cols = row.find_all('td')
+        if len(cols) < 3:
+            continue
+
+        start_time = cols[0].text.strip()
+        activity_page = cols[1].find('a')
+        category = cols[2].text.strip()
+        status_span = cols[1].find('span', {'class': 'TLDcontainer'})
+        if "支线故事" in category and activity_page:
+            activity_name = activity_page.text.strip()
+            status = "已结束"
+            if status_span and "进行中" in status_span.text:
+                status = "进行中"
+                ongoing_activities.append(activity_name)
+            elif status_span and "未开始" in status_span.text:
+                status = "未开始"
+            activities.append({'name': activity_name, 'status': status})
+    log_message(f"Successfully obtained activity data. 成功获取活动数据")
+    return activities, ongoing_activities
 
 
 def input_level():
@@ -619,7 +674,11 @@ def menu(info=""):
             print(f"当前默认配置: 配置 {setting['download']['default']}")  # 显示当前下载设置
     print("1. 单次搜索并下载")
     print("2. 批量搜索并下载")
-    print("3. 设置")
+    if now_activities:
+        print(f"3. 以默认用户配置下载当前活动: {now_activities[0]}")
+    else:
+        print("3. 网络错误或当前无正在进行的活动")
+    print("4. 设置")
     print("e. 退出")
     choose = input("请选择操作：")
     if choose == "1":
@@ -629,7 +688,11 @@ def menu(info=""):
         os.system("cls")
         print("已进入批量搜索并下载模式，（输入b返回）")
         return input_level()
-    elif choose == "3":
+    elif choose == "3" and now_activities:
+        log_message("Download current activity 下载当前活动", logging.DEBUG, False)
+        os.system("cls")
+        return download_current_activity(now_activities[0])
+    elif choose == "4":
         return settings_set()
     elif "e" in choose.lower():
         return True
@@ -934,6 +997,7 @@ if use_local_level:
 else:
     level_data = get_level_data()
     log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
+activity_data, now_activities = get_activity_data()
 all_dict = build_complex_dict(level_data)
 cat_three_dict = build_dict(level_data, "cat_three")
 if load_settings():
