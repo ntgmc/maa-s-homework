@@ -1,0 +1,133 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_sddrag_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "苇草",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "苇草",
+            "kills": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "苇草",
+            "kills": 60,
+            "pre_delay": 25000
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "kills": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "None",
+            "kills": 0
+        }
+    ],
+    "doc": {
+        "title": "先锋 - 苇草 - 生命的重量",
+        "details": "作业更新日期: 2023-12-06T05:21:16Z\n统计更新日期: 2024-08-17\n好评率：85.0%  浏览量：1093\n来源：Leave  ID：30764\n精二20，技能7级测试已过"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "苇草",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
