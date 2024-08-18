@@ -600,6 +600,24 @@ def less_search(stage_dict, _setting, search_key, activity, keyword):  # 搜索�
                 break
 
 
+def load_level_data():
+    """
+    判断是否存在本地关卡数据并加载，否则获取在线关卡数据
+    :return: 关卡数据
+    """
+    if use_local_level:
+        if os.path.exists("cache/level_data.json"):
+            with open("cache/level_data.json", 'r', encoding='utf-8') as f:
+                _level_data = json.load(f)['data']
+            log_message("Successfully loaded local level data. 成功加载本地关卡数据")
+            return _level_data
+        else:
+            log_message("Local level data not found. 未找到本地关卡数据", logging.ERROR)
+    _level_data = get_level_data()
+    log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
+    return _level_data
+
+
 def load_settings():
     """
     加载设置到全局变量
@@ -612,20 +630,6 @@ def load_settings():
         log_message("Setting loaded successfully 设置加载成功", logging.INFO, False)
         return True
     return False
-
-
-def load_level_data():
-    if use_local_level:
-        if os.path.exists("cache/level_data.json"):
-            with open("cache/level_data.json", 'r', encoding='utf-8') as f:
-                _level_data = json.load(f)['data']
-            log_message("Successfully loaded local level data. 成功加载本地关卡数据")
-            return _level_data
-        else:
-            log_message("Local level data not found. 未找到本地关卡数据", logging.ERROR)
-    _level_data = get_level_data()
-    log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
-    return _level_data
 
 
 def log_message(message, level=logging.INFO, console_output=True):
