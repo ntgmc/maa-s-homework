@@ -313,11 +313,20 @@ def configure_download_settings():
     }
 
 
-def download_current_activity(activity):
+def download_current_activity(activity, mode):
+    """
+    下载当前活动
+    :param activity: 活动名
+    :param mode: 下载模式，1为默认设置，2为其他设置
+    :return: 无返回值
+    """
     stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
     log_message(f"stage_dict: {stage_dict}", logging.DEBUG, False)
     write_to_file("log/stage_dict_temp.json", stage_dict)
-    _setting = configuration(setting, "2")
+    if mode == 1:
+        _setting = configuration(setting, "2")
+    else:
+        _setting = configuration(setting, "3")
     if not _setting:
         return menu("未找到用户设置或用户设置已过期，请设置")
     now = time.time()
@@ -434,7 +443,6 @@ def get_activity_data():
         if len(cols) < 3:
             continue
 
-        start_time = cols[0].text.strip()
         activity_page = cols[1].find('a')
         category = cols[2].text.strip()
         status_span = cols[1].find('span', {'class': 'TLDcontainer'})
@@ -675,10 +683,12 @@ def menu(info=""):
     print("1. 单次搜索并下载")
     print("2. 批量搜索并下载")
     if now_activities:
-        print(f"3. 以默认用户配置下载当前活动: {now_activities[0]}")
+        print(f"3. 以 用户配置(默认) 下载: {now_activities[0]}")
+        print(f"4. 以 用户配置(其他) 下载: {now_activities[0]}")
     else:
         print("3. 网络错误或当前无正在进行的活动")
-    print("4. 设置")
+        print("4. 网络错误或当前无正在进行的活动")
+    print("5. 设置")
     print("e. 退出")
     choose = input("请选择操作：")
     if choose == "1":
@@ -689,10 +699,14 @@ def menu(info=""):
         print("已进入批量搜索并下载模式，（输入b返回）")
         return input_level()
     elif choose == "3" and now_activities:
-        log_message("Download current activity 下载当前活动", logging.DEBUG, False)
+        log_message("Download current activity 默认配置下载当前活动", logging.DEBUG, False)
         os.system("cls")
-        return download_current_activity(now_activities[0])
-    elif choose == "4":
+        return download_current_activity(now_activities[0], 1)
+    elif choose == "4" and now_activities:
+        log_message("Download current activity 其他配置下载当前活动", logging.DEBUG, False)
+        os.system("cls")
+        return download_current_activity(now_activities[0], 2)
+    elif choose == "5":
         return settings_set()
     elif "e" in choose.lower():
         return True
