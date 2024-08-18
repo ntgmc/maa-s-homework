@@ -205,9 +205,12 @@ def completeness_check(list1, opers, groups):
 def configuration(_setting, _mode="0"):
     """
     选择配置，False则返回menu
+    :param _setting: 设置
+    :param _mode: 是否询问，0为询问，其他为直接选择用户设置(默认)
     :return: 配置 or False
     """
     if _setting.get("use_default") and judge_setting(_setting, _setting['download']['default']):
+        log_message(f"Use Default Configuration 使用默认配置: {_setting['download']['default']}", logging.DEBUG, False)
         return _setting
     if _mode == "0":
         print("1. 默认设置\n2. 用户设置(默认)\n3. 用户设置(其他)\n4. 自定义设置(单次)\nb. 返回")
