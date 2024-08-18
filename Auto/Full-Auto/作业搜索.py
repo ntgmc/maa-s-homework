@@ -614,6 +614,20 @@ def load_settings():
     return False
 
 
+def load_level_data():
+    if use_local_level:
+        if os.path.exists("cache/level_data.json"):
+            with open("cache/level_data.json", 'r', encoding='utf-8') as f:
+                _level_data = json.load(f)['data']
+            log_message("Successfully loaded local level data. 成功加载本地关卡数据")
+            return _level_data
+        else:
+            log_message("Local level data not found. 未找到本地关卡数据", logging.ERROR)
+    _level_data = get_level_data()
+    log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
+    return _level_data
+
+
 def log_message(message, level=logging.INFO, console_output=True):
     """
     记录日志
@@ -999,18 +1013,7 @@ if os.path.exists(LOG_PATH):
     os.remove(LOG_PATH)
 os.makedirs("log", exist_ok=True)
 log_message("Program start 程序启动", logging.INFO)
-if use_local_level:
-    if os.path.exists("cache/level_data.json"):
-        with open("cache/level_data.json", 'r', encoding='utf-8') as f:
-            level_data = json.load(f)['data']
-        log_message("Successfully loaded local level data. 成功加载本地关卡数据")
-    else:
-        log_message("Local level data not found. 未找到本地关卡数据", logging.ERROR)
-        level_data = get_level_data()
-        log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
-else:
-    level_data = get_level_data()
-    log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
+level_data = load_level_data()
 activity_data, now_activities = get_activity_data()
 all_dict = build_complex_dict(level_data)
 cat_three_dict = build_dict(level_data, "cat_three")
