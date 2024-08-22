@@ -1,0 +1,271 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act27side_08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "None",
+            "costs": 9
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                4,
+                2
+            ],
+            "costs": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                1
+            ],
+            "kills": 12,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "玛恩纳",
+            "location": [
+                4,
+                2
+            ],
+            "costs": 20
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "能天使",
+            "location": [
+                6,
+                2
+            ],
+            "costs": 34
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 25,
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                6,
+                4
+            ],
+            "costs": 55
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                4
+            ],
+            "kills": 29
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                5,
+                2
+            ],
+            "costs": 88,
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                2,
+                5
+            ],
+            "costs": 88
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                3,
+                5
+            ],
+            "costs": 93,
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "None",
+            "kills": 43
+        },
+        {
+            "type": "Retreat",
+            "name": "玛恩纳",
+            "location": [
+                2,
+                5
+            ],
+            "pre_delay": 2700
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                4
+            ],
+            "pre_delay": 13500,
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "#d63384",
+            "doc": "有帮助的话 点个赞吧~"
+        }
+    ],
+    "doc": {
+        "title": "火山旅梦 SL-8 155s堵门速刷 化学老施攻略",
+        "details": "作业更新日期: 2023-08-02T03:51:34Z\n统计更新日期: 2024-08-23\n好评率：80.47%  浏览量：7006\n来源：鱼丸不是鱼van  ID：25028\n\n这份json很难做 通过率估计也很低 建议先演习一遍或者直接去萧然的速刷 应该比这个通过率高\n攻略作者：化学老施 https://www.bilibili.com/video/BV1Mh4y1C7LZ 记得去b站给化学老施点赞三连\njson作者：鱼丸 有问题请点踩然后在评论区反馈 评论区不解决maa问题\n需要上下位替代可自行下载json进行修改\n平均练度 2903 能天使一级模组 令2级模组 已测试 做了很多修改"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

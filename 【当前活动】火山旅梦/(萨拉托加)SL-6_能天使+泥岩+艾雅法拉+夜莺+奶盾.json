@@ -1,0 +1,118 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act27side_06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "火山旅梦 - SL-6 - 林中小木屋",
+        "details": "作业更新日期: 2024-08-22T02:19:21Z\n统计更新日期: 2024-08-23\n好评率：99.85%  浏览量：2482\n来源：萨拉托加  ID：40507\n\n原作者自在道爷 JSON作者萨拉托加\n作业交流群群号1003478193，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【火山旅梦】SL-1至8挂机流，P关任务都不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(含SL-6，SL-8，SL-P-1至3等)】 https://www.bilibili.com/video/BV1U94y1e7ZV/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

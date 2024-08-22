@@ -1,0 +1,156 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act27side_08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left",
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "假日威龙陈",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "None",
+            "costs": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "#d63384",
+            "doc": "有帮助的话 点个赞吧"
+        }
+    ],
+    "doc": {
+        "title": "火山旅梦 SL-8速刷 萧然Q攻略 玛恩纳替换为水陈",
+        "details": "作业更新日期: 2023-08-03T09:24:07Z\n统计更新日期: 2024-08-23\n好评率：86.87%  浏览量：3956\n来源：ArchangelsBlade  ID：25111\n\n原攻略作者：萧然Q https://www.bilibili.com/video/BV1Wh4y1C712 \n原json作者：鱼丸 \n修改自用，夏活怎么能没有水陈呢~\n替换玛恩纳为水陈，多加了几瓶汽水防止大羊跑了。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "假日威龙陈",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}

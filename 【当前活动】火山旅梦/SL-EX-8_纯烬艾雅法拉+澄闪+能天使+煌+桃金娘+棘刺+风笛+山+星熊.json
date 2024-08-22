@@ -1,0 +1,433 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act27side_ex08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "风笛",
+            "location": [
+                2,
+                4
+            ],
+            "kills": 1,
+            "cost_changes": 0,
+            "pre_delay": 800,
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                11,
+                2
+            ],
+            "direction": "Down",
+            "cost_changes": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                11,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "水汽汽水瓶",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "None"
+        }
+    ],
+    "doc": {
+        "title": "火山旅梦 SL-EX-8 突袭普通（通用",
+        "details": "作业更新日期: 2023-08-11T17:08:20Z\n统计更新日期: 2024-08-23\n好评率：94.52%  浏览量：2774\n来源：022.  ID：25326\n\n已测试（修改过了练度低点的风笛也不会出错）\n干员2603以上，除纯烬羊和星熊以外都得是专三"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

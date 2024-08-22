@@ -1,0 +1,108 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act27side_ex06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down",
+            "doc": "作业的棘刺精二60，血条有些极限",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Right",
+            "doc_color": "Gray",
+            "doc": "塞爹扛不住的多带干员或者手动摆汽水瓶"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "SL-EX-6 普通+突袭 老干员摆完挂机（无水月无铃兰）",
+        "details": "作业更新日期: 2023-08-11T14:25:47Z\n统计更新日期: 2024-08-23\n好评率：86.86%  浏览量：4749\n来源：Rebekah  ID：25370\n\n二十三号半（平均练度精二60带模组，塞爹扛不住就多带点重装补上，或者手动摆汽水瓶。实测精二60一级模组，带个年当挂件能扛住）\nhttps://www.bilibili.com/video/BV1fX4y1L7z2/?spm_id_from=333.337.search-card.all.click&vd_source=3afb1088d355432f259ab695e193ba44"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
