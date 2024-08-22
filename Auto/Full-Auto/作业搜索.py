@@ -323,7 +323,11 @@ def download_current_activity(activity, mode):
     :param mode: 下载模式，1为默认设置，2为其他设置
     :return: 无返回值
     """
-    stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
+    try:
+        stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
+    except KeyError:
+        activity = activity.replace("·复刻", "")
+        stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
     log_message(f"stage_dict: {stage_dict}", logging.DEBUG, False)
     write_to_file("log/stage_dict_temp.json", stage_dict)
     if mode == 1:
