@@ -25,6 +25,7 @@ def ask_setting_num(_setting, key: str, exist=False, show_name=True):
     :param show_name: 是否显示配置名称
     :return: 配置序号
     """
+    log_message(f"Function 函数: ask_setting_num({_setting}, {key}, {exist}, {show_name})", logging.DEBUG, False)
     for n in range(1, 10):
         if show_name:
             try:
@@ -76,6 +77,7 @@ def build_complex_dict(data):
     :param data: 要分类的数据
     :return: 复杂字典，格式为{主分类: {子分类: [成员1, 成员2, ...]}}
     """
+    log_message("Function 函数: build_complex_dict", logging.DEBUG, False)
     complex_dict = {}
     for member in data:
         category = member['cat_one']  # 获取分类
@@ -98,6 +100,7 @@ def build_data_dict(level_dict, data):
     :param data: 作业数据
     :return: 数据字典，格式为{关卡名: [作业1, 作业2, ...]}，关卡名为stage_id<<关卡代号
     """
+    log_message("Function 函数: build_data_dict", logging.DEBUG, False)
     data_dict = {}
     for member in data['data']['data']:
         stage = json.loads(member['content'])['stage_name']
@@ -131,6 +134,7 @@ def build_dict(data, key: str, _dict=None):
     :param _dict: 字典，如果传入则在此基础上添加
     :return: 生成的字典，格式为{key: [成员1, 成员2, ...]}
     """
+    log_message("Function 函数: build_dict", logging.DEBUG, False)
     if _dict is None:
         _dict = {}
     for member in data:
@@ -149,6 +153,7 @@ def build_operator_dict(data: dict, num: int):
     :param num: 配置序号
     :return: 干员字典，格式为{配置序号: [干员1, 干员2, ...]}
     """
+    log_message("Function 函数: build_operator_dict", logging.DEBUG, False)
     op_dict = {}
     item = data[str(num)]
     for member in item:
@@ -209,6 +214,7 @@ def configuration(_setting, _mode="0"):
     :param _mode: 是否询问，0为询问，其他为直接选择用户设置(默认)
     :return: 配置 or False
     """
+    log_message("Page: CONFIGURATION 配置", logging.INFO, False)
     if _setting.get("use_default") and judge_setting(_setting, _setting['download']['default']):
         log_message(f"Use Default Configuration 使用默认配置: {_setting['download']['default']}", logging.DEBUG, False)
         return _setting
@@ -283,9 +289,7 @@ def configure_download_settings():
     if completeness:
         print(f"设定值：{completeness}")
         completeness_mode = int_input("1. 所有干员都有\n2. 缺少干员不超过1个\n设置检测条件（默认为1）：", 1, 1, 2)
-        print(f"设定值：{completeness_mode}")
         operator_num = int_input("设置干员配置序号（1-9默认为1）：", 1, 1, 9)
-        print(f"设定值：{operator_num}")
     else:
         print(f"设定值：{completeness}")
         completeness_mode = 1
@@ -323,6 +327,7 @@ def download_current_activity(activity, mode):
     :param mode: 下载模式，1为默认设置，2为其他设置
     :return: 无返回值
     """
+    log_message(f"Function 函数: download_current_activity({activity}, {mode})", logging.DEBUG, False)
     try:
         stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
     except KeyError:
