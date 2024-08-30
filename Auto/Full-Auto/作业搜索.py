@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 SETTING_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "settings", "settings.json")
 LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log", "app.log")
 setting = {}
-setting_version = "20240810"
+setting_version = "20240830"
 date = time.strftime('%Y-%m-%d', time.localtime())
 use_local_level = False
 
@@ -289,10 +289,15 @@ def configure_download_settings():
     if completeness:
         print(f"设定值：{completeness}")
         completeness_mode = int_input("1. 所有干员都有\n2. 缺少干员不超过1个\n设置检测条件（默认为1）：", 1, 1, 2)
+        if completeness_mode == 2:
+            completeness_filename = int_input("1. 仅在作业详情中显示缺少干员\n2. 在文件名前显示\"(缺)\"\n3. 在文件名前显示\"(缺[干员名])\"\n设置提示信息（默认为1）：", 1, 1, 3)
+        else:
+            completeness_filename = 1
         operator_num = int_input("设置干员配置序号（1-9默认为1）：", 1, 1, 9)
     else:
         print(f"设定值：{completeness}")
         completeness_mode = 1
+        completeness_filename = 1
         operator_num = 1
     operator = input("设置禁用干员（多个用空格分隔）（为空不禁用）：").split()
     print(f"设定值：{operator}")
@@ -300,7 +305,7 @@ def configure_download_settings():
     print(f"设定值：{only_uploader}")
     prefer_uploader = input("设置优先显示作者（多个用空格分隔）（为空不设置）：").split()
     print(f"设定值：{prefer_uploader}")
-    log_message(f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {completeness}, {completeness_mode}, {operator_num}, {operator}, {only_uploader}", logging.DEBUG, False)
+    log_message(f"Setting 设置: {title}, {save}, {path}, {order_by}, {point}, {view}, {amount}, {completeness}, {completeness_mode}, {completeness_filename}, {operator_num}, {operator}, {only_uploader}", logging.DEBUG, False)
     return {
         'name': setting_name,
         'version': setting_version,
@@ -313,6 +318,7 @@ def configure_download_settings():
         'amount': amount,
         'completeness': completeness,
         'completeness_mode': completeness_mode,
+        'completeness_filename': completeness_filename,
         'operator_num': operator_num,
         'ban_operator': operator,
         'only_uploader': only_uploader,
@@ -821,6 +827,10 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
                 return False
             else:  # 仅下载缺少干员不超过1个
                 log_message(f"{file_name} 缺少干员：{result}", logging.INFO, False)
+                if st['completeness_filename'] == 2:
+                    file_name = f"(缺) " + file_name
+                elif st['completeness_filename'] == 3:
+                    file_name = f"(缺{result})" + file_name
                 content = json.loads(_member["content"])
                 content['doc']['details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n缺少干员(组):  {result}\n\n" + content['doc']['details']
     else:  # 未启用完备度检测
