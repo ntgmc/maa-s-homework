@@ -334,6 +334,7 @@ def download_current_activity(activity, mode):
     :param mode: 下载模式，1为默认设置，2为其他设置
     :return: 无返回值
     """
+    global info
     log_message(f"Function 函数: download_current_activity({activity}, {mode})", logging.DEBUG, False)
     try:
         stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
@@ -347,7 +348,8 @@ def download_current_activity(activity, mode):
     else:
         _setting = configuration(setting, "3")
     if not _setting:
-        return menu("未找到用户设置或用户设置已过期，请设置")
+        info = "未找到用户设置或用户设置已过期，请设置"
+        return menu()
     now = time.time()
     less_search(stage_dict, _setting, "活动关卡", activity, extract_activity_from_stage_id(all_dict["活动关卡"][activity][0]['stage_id']))
     log_message(f"搜索活动关卡-{activity}完毕，共耗时 {round(time.time() - now, 2)} s.", logging.INFO, False)
@@ -483,6 +485,7 @@ def input_level():
     选择关卡类型
     :return: 无返回值
     """
+    global info
     log_message("Select type 选择类型", logging.DEBUG, False)
     keys = ["活动关卡", "主题曲", "剿灭作战", "资源收集"]
     for i, key in enumerate(keys):
@@ -506,7 +509,8 @@ def input_level():
         write_to_file("log/stage_dict_temp.json", stage_dict)
         _setting = configuration(setting)
         if not _setting:
-            return menu("未找到用户设置或用户设置已过期，请设置")
+            info = "未找到用户设置或用户设置已过期，请设置"
+            return menu()
         now = time.time()
         if activity == "全部":  # 搜索全部
             less_search(stage_dict, _setting, key, "全部", key)
@@ -642,13 +646,17 @@ def load_settings():
     加载设置到全局变量
     :return: True or False
     """
-    global setting
-    if os.path.exists(SETTING_PATH):
-        with open(SETTING_PATH, 'r', encoding='utf-8') as file:
-            setting = json.load(file)
-        log_message("Setting loaded successfully 设置加载成功", logging.INFO, False)
-        return True
-    return False
+    global setting, info
+    try:
+        if os.path.exists(SETTING_PATH):
+            with open(SETTING_PATH, 'r', encoding='utf-8') as file:
+                setting = json.load(file)
+            log_message("Setting loaded successfully 设置加载成功", logging.INFO, False)
+            return True
+    except json.JSONDecodeError:
+        log_message("Setting file is not valid JSON 设置文件不是有效的JSON", logging.ERROR)
+        info = "设置文件不是有效的JSON"
+        return False
 
 
 def log_message(message, level=logging.INFO, console_output=True):
@@ -700,10 +708,9 @@ def log_message(message, level=logging.INFO, console_output=True):
         logger.removeHandler(console_handler)
 
 
-def menu(info=""):
+def menu():
     """
-    菜单
-    :param info: 要显示的信息
+    菜单，info为全局变量
     :return: 对应操作
     """
     log_message("Page: MENU 菜单", logging.DEBUG, False)
@@ -754,6 +761,7 @@ def mode1():
     单次搜索
     :return: 无返回值
     """
+    global info
     log_message("Single search 单次搜索", logging.INFO, False)
     os.system("cls")
     print("已进入单次搜索并下载模式，（输入back返回）")
@@ -762,7 +770,8 @@ def mode1():
         return menu()
     _setting = configuration(setting)
     if not _setting:
-        return menu("未找到用户设置或用户设置已过期，请设置")
+        info = "未找到用户设置或用户设置已过期，请设置"
+        return menu()
     st = _setting["download"][_setting["download"]["default"]]
     os.system("cls")
     now = time.time()
@@ -958,7 +967,7 @@ def settings_set():
     设置下载设置或干员设置
     :return: 无返回值
     """
-    global setting
+    global setting, info
     os.system("cls")
     log_message("Page: SETTING 设置", logging.DEBUG, False)
     if "download" in setting and setting.get("use_default") and "default" in setting["download"]:
@@ -1017,7 +1026,8 @@ def settings_set():
                 print("未找到干员配置, 请先设置")
     elif choose1 == "b":  # 返回并保存
         save_setting(setting)
-        return menu("设置保存成功")
+        info = "设置保存成功"
+        return menu()
     return settings_set()
 
 
@@ -1040,6 +1050,7 @@ if os.path.exists(LOG_PATH):
     os.remove(LOG_PATH)
 os.makedirs("log", exist_ok=True)
 log_message("Program start 程序启动", logging.INFO)
+info = ""
 level_data = load_level_data()
 activity_data, now_activities = get_activity_data()
 all_dict = build_complex_dict(level_data)
