@@ -181,23 +181,23 @@ def completeness_check(list1, opers, groups):
     :param list1: 拥有的干员
     :param opers: 作业干员列表
     :param groups: 作业干员组列表
-    :return: True or False or 缺少的干员
+    :return: True or False or 缺少的干员(仅一个)
     """
     result = []  # 缺少的干员
     list1_set = set(list1)
     opers_set = set([oper['name'] for oper in opers])
     groups_set = {tuple(member['name'] for member in group['opers']) for group in groups}
     # 检查干员
-    if opers_set.issubset(list1_set):
+    if opers_set.issubset(list1_set):  # 干员完备
         list1_set -= opers_set
-    elif len(opers_set - list1_set) == 1:
+    elif len(opers_set - list1_set) == 1:  # 缺少一个
         new_set = opers_set - list1_set
         result.append(new_set.pop())
-    else:  # 缺少多个
+    else:  # 缺少多个，直接返回False
         return False
     # 检查干员组
     for t in groups_set:
-        if not any(member in list1_set for member in t):
+        if not any(member in list1_set for member in t):  # 缺少干员组
             result.append(t)
     if len(result) == 0:  # 完备
         return True
@@ -237,6 +237,7 @@ def configuration(_setting, _mode="0"):
                 'amount': 1,
                 'completeness': False,
                 'completeness_mode': 1,
+                'completeness_filename': 1,
                 'operator_num': 1,
                 'ban_operator': [],
                 'only_uploader': [],
@@ -430,7 +431,7 @@ def generate_filename_mode3(stage_name, data):
 
 def get_level_data():
     """
-    获取关卡数据
+    访问 https://prts.maa.plus/arknights/level 获取关卡数据
     :return: 关卡数据
     """
     response = requests.get('https://prts.maa.plus/arknights/level')
@@ -441,7 +442,7 @@ def get_level_data():
 
 def get_activity_data():
     """
-    获取活动数据，格式为{'name': 活动名, 'status': 状态}
+    访问 https://prts.wiki/w/%E6%B4%BB%E5%8A%A8%E4%B8%80%E8%A7%88 获取活动数据，格式为{'name': 活动名, 'status': 状态}
     :return: 活动数据, 进行中的活动
     """
     response = requests.get('https://prts.wiki/w/%E6%B4%BB%E5%8A%A8%E4%B8%80%E8%A7%88')
@@ -823,13 +824,13 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
             return False
         else:  # 缺少一个
             if st['completeness_mode'] == 1:  # 仅下载所有干员都有
-                log_message(f"{file_name} 缺少干员：{result} 不下载", logging.INFO, False)
+                log_message(f"模式1 {file_name} 缺少干员(组)：{result} 不下载", logging.INFO, False)
                 return False
             else:  # 仅下载缺少干员不超过1个
-                log_message(f"{file_name} 缺少干员：{result}", logging.INFO, False)
-                if st['completeness_filename'] == 2:
+                log_message(f"{file_name} 缺少干员(组)：{result}", logging.INFO, False)
+                if st['completeness_filename'] == 2:  # 在文件名前显示"(缺)"
                     file_name = f"(缺) " + file_name
-                elif st['completeness_filename'] == 3:
+                elif st['completeness_filename'] == 3:  # 在文件名前显示"(缺[干员名])"
                     file_name = f"(缺{result})" + file_name
                 content = json.loads(_member["content"])
                 content['doc']['details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n缺少干员(组):  {result}\n\n" + content['doc']['details']
