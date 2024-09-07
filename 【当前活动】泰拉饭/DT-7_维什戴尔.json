@@ -1,0 +1,135 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act36side_07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                3,
+                3
+            ],
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "kills": 5,
+            "name": "维什戴尔",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "闪亮果实",
+            "location": [
+                7,
+                2
+            ],
+            "kills": 7,
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "很大的锅",
+            "location": [
+                7,
+                2
+            ],
+            "kills": 9
+        },
+        {
+            "type": "Deploy",
+            "name": "闪亮果实",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "香甜烤果子",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪亮果实",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "None",
+            "kills": 21,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "闪亮果实",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪亮果实",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 22
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "ew单人 泰拉饭 - DT-7 - 健康零食",
+        "details": "作业更新日期: 2024-09-02T16:27:46Z\n统计更新日期: 2024-09-07\n好评率：90.91%  浏览量：3630\n来源：晓丶梦丶仁  ID：40996\n\n@晓丶梦丶仁\n2903+3\nloop:\n  可能有凹点，没过就再打一遍\nloop end\nhttps://www.bilibili.com/video/BV1kiHyekEri/"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

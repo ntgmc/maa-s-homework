@@ -1,0 +1,34 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act36side_01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "泰拉饭 - DT-1 - 源石虫农家乐",
+        "details": "作业更新日期: 2024-09-02T08:10:57Z\n统计更新日期: 2024-09-07\n好评率：99.52%  浏览量：30515\n来源：萨拉托加  ID：40961\n\n JSON作者萨拉托加\n作业交流群群号1003478193，可蹲作业，有问题进群找我，作业站消息没提醒看不到"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ]
+}
