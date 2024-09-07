@@ -1,0 +1,15 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act36side_tr01",
+    "actions": [
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "泰拉饭 - DT-TR-1 - 美食指南",
+        "details": "作业更新日期: 2024-09-02T10:02:05Z\n统计更新日期: 2024-09-07\n好评率：66.97%  浏览量：6190\n来源：萨拉托加  ID：40992\n不用操作，但是需要点对话"
+    },
+    "groups": [],
+    "opers": []
+}
