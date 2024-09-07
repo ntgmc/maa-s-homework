@@ -1,0 +1,142 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_toxic_5",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "costs": 27
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up",
+            "cost_changes": 24,
+            "doc": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "cost_changes": 24
+        },
+        {
+            "type": "Deploy",
+            "cost_changes": 33,
+            "name": "“弦惊”",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up",
+            "cost_changes": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Left",
+            "kills": 22,
+            "cost_changes": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down",
+            "cost_changes": 23
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Right",
+            "cost_changes": 22
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down",
+            "cost_changes": 26
+        }
+    ],
+    "doc": {
+        "title": "【自用令奶双人】粉碎防御 - AP-5 - 精炼工厂保全",
+        "details": "作业更新日期: 2024-09-06T10:20:04Z\n统计更新日期: 2024-09-07\n好评率：100.0%  浏览量：46\n来源：用户名已注销  ID：41119\n未测试不要使用未测试不要使用未测试不要使用未测试不要使用\n参考视频：\nhttps://www.bilibili.com/video/BV1qF41147Aq/?spm_id_from=333.337.search-card.all.click&vd_source=64493e17dc001f846bcc3148fd381cc4"
+    },
+    "groups": [
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}
