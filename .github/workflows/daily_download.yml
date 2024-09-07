@@ -36,7 +36,12 @@ jobs:
         run: |
           cd Auto
           python 主线.py
-      
+
+      - name: 运行 活动一键下载.py
+        run: |
+          cd Auto
+          python 活动一键下载.py
+
       # - name: 运行 ALL.py
       #   run: |
       #     cd Auto
