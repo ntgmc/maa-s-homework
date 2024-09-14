@@ -1,0 +1,86 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_agoat2_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right",
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                1,
+                5
+            ],
+            "costs": 38
+        },
+        {
+            "type": "Skill",
+            "name": "龙舌兰",
+            "location": [
+                4,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                4
+            ],
+            "pre_delay": 4000
+        },
+        {
+            "type": "Skill",
+            "name": "龙舌兰",
+            "location": [
+                4,
+                5
+            ],
+            "costs": 93
+        },
+        {
+            "type": "Output",
+            "doc_color": "DeepSkyBlue",
+            "doc": "求各位 DOCTOR 给我一点反馈吧 (*σ´∀`)σ"
+        }
+    ],
+    "doc": {
+        "title": "【低配二倍速】 - 纯烬艾雅法拉悖论模拟 - 学者的实力",
+        "details": "作业更新日期: 2024-08-13T02:04:08Z\n统计更新日期: 2024-09-14\n好评率：85.92%  浏览量：3104\n来源：542B  ID：39929\n很简单，应该都能过\n小修了一下，龙舌兰和艾雅法拉同一波打的话，纯艾练度不够就会晕晕了\n有问题请留言，希望对你有帮助\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "作者 542B",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "求反馈",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "(*σ´∀`)σ",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}
