@@ -337,6 +337,7 @@ def download_current_activity(activity, mode):
     global info
     log_message(f"Function 函数: download_current_activity({activity}, {mode})", logging.DEBUG, False)
     try:
+        # TODO: 创建stage_dict根据stage_id而不是cat_two
         stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
     except KeyError:
         activity = activity.replace("·复刻", "")
@@ -504,6 +505,7 @@ def input_level():
         elif not activity:
             return menu()
         else:
+            # TODO: 创建stage_dict根据stage_id而不是cat_two
             stage_dict = build_dict(all_dict[key][activity], "stage_id")
             log_message(f"stage_dict: {stage_dict}", logging.DEBUG, False)
         write_to_file("log/stage_dict_temp.json", stage_dict)
@@ -715,7 +717,11 @@ def menu():
     :return: 对应操作
     """
     log_message("Page: MENU 菜单", logging.DEBUG, False)
+    choice_dict = {1: "单次搜索并下载", 2: "批量搜索并下载", 999: "设置"}
     os.system("cls")
+    if now_activities:
+        choice_dict[11] = f"以 用户配置(默认) 下载: {now_activities[0]}"
+        choice_dict[12] = f"以 用户配置(其他) 下载: {now_activities[0]}"
     if info != "":
         log_message(f"info: {info}", logging.INFO, False)
         print(info)
@@ -725,34 +731,32 @@ def menu():
             print(f"当前默认配置: 配置 {setting['download']['default']} {setting['download'][setting['download']['default']]['name']}")  # 显示当前下载设置
         except KeyError:
             print(f"当前默认配置: 配置 {setting['download']['default']}")  # 显示当前下载设置
-    print("1. 单次搜索并下载")
-    print("2. 批量搜索并下载")
-    if now_activities:
-        print(f"3. 以 用户配置(默认) 下载: {now_activities[0]}")
-        print(f"4. 以 用户配置(其他) 下载: {now_activities[0]}")
-    else:
-        print("3. 网络错误或当前无正在进行的活动")
-        print("4. 网络错误或当前无正在进行的活动")
-    print("5. 设置")
+    choice_dict = dict(sorted(choice_dict.items()))  # 根据数字排序dict
+    new_list = [value for i, (key, value) in enumerate(choice_dict.items(), start=1)]
+    for i, value in enumerate(new_list, start=1):
+        print(f"{i}. {value}")
     print("e. 退出")
     choose = input("请选择操作：")
-    if choose == "1":
-        return mode1()
-    elif choose == "2":
-        log_message("Batch download 批量下载", logging.DEBUG, False)
-        os.system("cls")
-        print("已进入批量搜索并下载模式，（输入b返回）")
-        return input_level()
-    elif choose == "3" and now_activities:
-        log_message("Download current activity 默认配置下载当前活动", logging.DEBUG, False)
-        os.system("cls")
-        return download_current_activity(now_activities[0], 1)
-    elif choose == "4" and now_activities:
-        log_message("Download current activity 其他配置下载当前活动", logging.DEBUG, False)
-        os.system("cls")
-        return download_current_activity(now_activities[0], 2)
-    elif choose == "5":
-        return settings_set()
+    if choose.isdigit() and 1 <= int(choose) <= len(new_list):
+        key = new_list[int(choose) - 1]
+        print(f"已选择 {key}")
+        if key == "单次搜索并下载":
+            return mode1()
+        elif key == "批量搜索并下载":
+            log_message("Batch download 批量下载", logging.DEBUG, False)
+            os.system("cls")
+            print("已进入批量搜索并下载模式，（输入b返回）")
+            return input_level()
+        elif "以 用户配置(默认) 下载: " in key:
+            log_message("Download current activity 默认配置下载当前活动", logging.DEBUG, False)
+            os.system("cls")
+            return download_current_activity(now_activities[0], 1)
+        elif "以 用户配置(其他) 下载: " in key:
+            log_message("Download current activity 其他配置下载当前活动", logging.DEBUG, False)
+            os.system("cls")
+            return download_current_activity(now_activities[0], 2)
+        elif key == "设置":
+            return settings_set()
     elif "e" in choose.lower():
         return True
 
