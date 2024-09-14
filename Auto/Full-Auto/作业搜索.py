@@ -13,7 +13,7 @@ LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log", "app.
 setting = {}
 setting_version = "20240830"
 date = time.strftime('%Y-%m-%d', time.localtime())
-use_local_level = False
+use_local_level = True
 
 
 def ask_setting_num(_setting, key: str, exist=False, show_name=True):
@@ -631,12 +631,13 @@ def load_level_data():
     if use_local_level:
         if os.path.exists("cache/level_data.json"):
             with open("cache/level_data.json", 'r', encoding='utf-8') as f:
-                _level_data = json.load(f)['data']
+                _level_data = json.load(f)
             log_message("Successfully loaded local level data. 成功加载本地关卡数据")
             return _level_data
         else:
             log_message("Local level data not found. 未找到本地关卡数据", logging.ERROR)
     _level_data = get_level_data()
+    # write_to_file("log/level_data_temp.json", _level_data)
     log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
     return _level_data
 
