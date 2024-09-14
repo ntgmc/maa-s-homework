@@ -1,0 +1,180 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act36side_ex08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                11,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "妮芙",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "妮芙",
+            "location": [
+                9,
+                2
+            ],
+            "cost_changes": 45
+        },
+        {
+            "type": "Retreat",
+            "name": "妮芙",
+            "location": [
+                9,
+                2
+            ],
+            "costs": 65
+        },
+        {
+            "type": "Retreat",
+            "name": "塑心",
+            "location": [
+                10,
+                2
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "夜莺",
+            "location": [
+                11,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "群奶",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "妮芙",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "妮芙",
+            "location": [
+                3,
+                2
+            ],
+            "costs": 50
+        },
+        {
+            "type": "Skill",
+            "name": "夜莺",
+            "location": [
+                2,
+                2
+            ],
+            "pre_delay": 47500
+        },
+        {
+            "type": "Skill",
+            "name": "妮芙",
+            "location": [
+                3,
+                2
+            ],
+            "pre_delay": 5000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "DT-EX-8 - 谁是大胃王（1技能塑心版本）",
+        "details": "作业更新日期: 2024-09-10T05:16:51Z\n统计更新日期: 2024-09-14\n好评率：86.67%  浏览量：3347\n来源：Keze  ID：41173\n\nDT-EX-8 - 谁是大胃王\n补充：\n如果塑心一技能没有专精三可能会比较难爆条可以使用三技能那个版本\n夜莺作用是提供法抗，第三次打小刻的时候如果妮芙和塑心练度不够要开技能防止庞贝和小刻打死妮芙和塑心；\n塑心和妮芙练度要尽量高一点，塑心如果爆条慢了可能会伤害不够；\n补一个奶妈是防止塑心和妮芙暴毙\n\n思路参考【DT-EX-8突袭三人逃课打法】 https://www.bilibili.com/video/BV1dgpEetE3f/?share_source=copy_web&vd_source=8703feef98e286d17c7deaa8beff6ba3\n\n作者的话：\n作者第一次写作业，可能会有很多不足之处，还希望大家批评指正\n甚至第一次写出来的时候忘了要写开两倍速（悲）"
+    },
+    "groups": [
+        {
+            "name": "群奶",
+            "opers": [
+                {
+                    "name": "调香师",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "妮芙",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
