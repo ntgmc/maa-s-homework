@@ -1,6 +1,6 @@
 {
     "minimum_required": "v4.0.0",
-    "stage_name": "act36side_ex06",
+    "stage_name": "act36side_ex06#f#",
     "actions": [
         {
             "type": "SpeedUp"
@@ -48,7 +48,7 @@
                 8,
                 1
             ],
-            "direction": "Up"
+            "direction": "Left"
         },
         {
             "type": "Deploy",
@@ -58,15 +58,6 @@
                 4
             ],
             "direction": "Up"
-        },
-        {
-            "type": "Deploy",
-            "name": "医疗-医师",
-            "location": [
-                7,
-                2
-            ],
-            "direction": "Right"
         },
         {
             "type": "Deploy",
@@ -119,7 +110,7 @@
     ],
     "doc": {
         "title": "泰拉饭 - DT-EX-6",
-        "details": "作业更新日期: 2024-09-13T08:58:57Z\n统计更新日期: 2024-09-15\n好评率：99.77%  浏览量：2054\n来源：作业超大杯  ID：41223\nJSON作者萨拉托加\n作业交流群群号1003478193，可蹲作业，有问题进群找我，作业站消息没提醒看不到"
+        "details": "作业更新日期: 2024-09-10T14:26:53Z\n统计更新日期: 2024-09-15\n好评率：100.0%  浏览量：118\n来源：3261861498@qq.com  ID：41236\nJSON作者萨拉托加\n作业交流群群号1003478193，可蹲作业，有问题进群找我，作业站消息没提醒看不到"
     },
     "groups": [
         {
@@ -136,8 +127,13 @@
                     "skill_usage": 0
                 },
                 {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
                     "name": "塑心",
-                    "skill": 1,
+                    "skill": 2,
                     "skill_usage": 0
                 }
             ]
@@ -154,11 +150,6 @@
                     "name": "百炼嘉维尔",
                     "skill": 2,
                     "skill_usage": 1
-                },
-                {
-                    "name": "佩佩",
-                    "skill": 2,
-                    "skill_usage": 1
                 }
             ]
         },
@@ -172,8 +163,8 @@
                 },
                 {
                     "name": "黍",
-                    "skill": 1,
-                    "skill_usage": 0
+                    "skill": 3,
+                    "skill_usage": 1
                 }
             ]
         },
@@ -207,63 +198,24 @@
                     "skill_times": 2
                 },
                 {
-                    "name": "妮芙",
+                    "name": "维什戴尔",
                     "skill": 3,
                     "skill_usage": 1
                 }
             ]
         },
         {
+            "name": "特种-伏击客",
             "opers": [
                 {
-                    "name": "阿斯卡纶",
-                    "skill": 1,
-                    "skill_usage": 0
+                    "name": "阿斯卡纶"
                 },
                 {
-                    "name": "水月",
-                    "skill": 1,
-                    "skill_usage": 0
+                    "name": "水月"
                 },
                 {
                     "name": "伊桑",
                     "skill": 2,
-                    "skill_usage": 1
-                },
-                {
-                    "name": "狮蝎",
-                    "skill": 1,
-                    "skill_usage": 0
-                },
-                {
-                    "name": "玛恩纳",
-                    "skill": 3,
-                    "skill_usage": 1
-                }
-            ],
-            "name": "特种-伏击客"
-        },
-        {
-            "name": "医疗-医师",
-            "opers": [
-                {
-                    "name": "闪灵",
-                    "skill": 2,
-                    "skill_usage": 0
-                },
-                {
-                    "name": "华法琳",
-                    "skill": 1,
-                    "skill_usage": 0
-                },
-                {
-                    "name": "纯烬艾雅法拉",
-                    "skill": 1,
-                    "skill_usage": 0
-                },
-                {
-                    "name": "流明",
-                    "skill": 3,
                     "skill_usage": 1
                 }
             ]
