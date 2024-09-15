@@ -13,7 +13,7 @@ LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "log", "app.
 setting = {}
 setting_version = "20240830"
 date = time.strftime('%Y-%m-%d', time.localtime())
-use_local_level = True
+use_local_level = False
 
 
 def ask_setting_num(_setting, key: str, exist=False, show_name=True):
@@ -69,6 +69,27 @@ def bool_input(question):
     """
     user_input = input(question + " (yes/no, 为空no): ").lower()
     return user_input in ["yes", "y", "true", "t", "1", "是", "对", "真", "要"]
+
+
+def build_activity_dict(data, key, _dict=None):
+    """
+    构建活动字典，将数据按活动分类
+    :param data: 要分类的数据
+    :param key: 活动ID，如act34side
+    :param _dict: 字典，如果传入则在此基础上添加
+    :return: 活动字典，格式为{活动名: [成员1, 成员2, ...]}
+    """
+    log_message("Function 函数: build_activity_dict", logging.DEBUG, False)
+    if _dict is None:
+        _dict = {}
+    for member in data:
+        _key = member["stage_id"]
+        if key in _key:
+            if _key in _dict:
+                _dict[_key].append(member)
+            else:
+                _dict[_key] = [member]
+    return _dict
 
 
 def build_complex_dict(data):
@@ -337,11 +358,12 @@ def download_current_activity(activity, mode):
     global info
     log_message(f"Function 函数: download_current_activity({activity}, {mode})", logging.DEBUG, False)
     try:
-        # TODO: 创建stage_dict根据stage_id而不是cat_two
         stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
     except KeyError:
         activity = activity.replace("·复刻", "")
         stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
+    activity_id = extract_activity_from_stage_id(all_dict["活动关卡"][activity][0]['stage_id'])
+    stage_dict = build_activity_dict(all_dict["活动关卡"][""], activity_id, _dict=stage_dict)
     log_message(f"stage_dict: {stage_dict}", logging.DEBUG, False)
     write_to_file("log/stage_dict_temp.json", stage_dict)
     if mode == 1:
@@ -438,7 +460,7 @@ def get_level_data():
     :return: 关卡数据
     """
     response = requests.get('https://prts.maa.plus/arknights/level')
-    write_to_file("log/level_data_temp.json", response.json())
+    # write_to_file("log/level_data_temp.json", response.json(), True)
     log_message(f"Successfully obtained level data 成功获取关卡数据", console_output=False)
     return response.json()['data'] if response.ok else []
 
@@ -505,8 +527,10 @@ def input_level():
         elif not activity:
             return menu()
         else:
-            # TODO: 创建stage_dict根据stage_id而不是cat_two
             stage_dict = build_dict(all_dict[key][activity], "stage_id")
+            if key == "活动关卡":
+                activity_id = extract_activity_from_stage_id(all_dict["活动关卡"][activity][0]['stage_id'])
+                stage_dict = build_activity_dict(all_dict["活动关卡"][""], activity_id, _dict=stage_dict)
             log_message(f"stage_dict: {stage_dict}", logging.DEBUG, False)
         write_to_file("log/stage_dict_temp.json", stage_dict)
         _setting = configuration(setting)
@@ -639,7 +663,7 @@ def load_level_data():
         else:
             log_message("Local level data not found. 未找到本地关卡数据", logging.ERROR)
     _level_data = get_level_data()
-    # write_to_file("log/level_data_temp.json", _level_data)
+    # write_to_file("log/level_data_temp.json", _level_data, True)
     log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
     return _level_data
 
@@ -1036,14 +1060,15 @@ def settings_set():
     return settings_set()
 
 
-def write_to_file(file_path, content):
+def write_to_file(file_path, content, overwrite=False):
     """
     将内容写入文件
     :param file_path: 文件路径
     :param content: 要写入的内容
+    :param overwrite: 是否覆盖
     :return: True or False
     """
-    if os.path.exists(file_path):
+    if not overwrite and os.path.exists(file_path):
         return False
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
@@ -1062,8 +1087,8 @@ all_dict = build_complex_dict(level_data)
 cat_three_dict = build_dict(level_data, "cat_three")
 if load_settings():
     log_message("Successfully loaded settings. 成功加载设置")
-# write_to_file("log/cat_three_dict_temp.json", cat_three_dict)
-# write_to_file("log/all_dict_temp.json", all_dict)
+# write_to_file("log/cat_three_dict_temp.json", cat_three_dict, True)
+# write_to_file("log/all_dict_temp.json", all_dict, True)
 while True:
     if menu():
         break
