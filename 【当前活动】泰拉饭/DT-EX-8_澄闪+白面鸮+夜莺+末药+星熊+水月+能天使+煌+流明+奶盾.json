@@ -1,7 +1,10 @@
 {
     "minimum_required": "v4.0.0",
-    "stage_name": "act36side_ex08",
+    "stage_name": "act36side_ex08#f#",
     "actions": [
+        {
+            "type": "SpeedUp"
+        },
         {
             "type": "Deploy",
             "name": "煌",
@@ -13,7 +16,6 @@
         },
         {
             "type": "Deploy",
-            "costs": 20,
             "name": "能天使",
             "location": [
                 10,
@@ -32,7 +34,7 @@
         },
         {
             "type": "Deploy",
-            "name": "纯烬艾雅法拉",
+            "name": "流明",
             "location": [
                 2,
                 3
@@ -68,6 +70,15 @@
         },
         {
             "type": "Deploy",
+            "name": "末药",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
             "name": "澄闪",
             "location": [
                 11,
@@ -76,19 +87,19 @@
             "direction": "Left"
         },
         {
-            "type": "SpeedUp"
-        },
-        {
             "type": "Skill",
             "location": [
                 11,
                 4
             ],
-            "costs": 60
+            "pre_delay": 32000
         },
         {
             "type": "Retreat",
-            "name": "奶盾"
+            "location": [
+                8,
+                2
+            ]
         },
         {
             "type": "Deploy",
@@ -105,15 +116,18 @@
                 11,
                 4
             ],
-            "pre_delay": 30000
+            "pre_delay": 40000
         },
         {
             "type": "Retreat",
-            "name": "星熊"
+            "location": [
+                1,
+                2
+            ]
         },
         {
             "type": "Deploy",
-            "name": "孑",
+            "name": "水月",
             "location": [
                 10,
                 1
@@ -121,39 +135,37 @@
             "direction": "Right"
         },
         {
-            "type": "Deploy",
-            "name": "幻影",
+            "type": "Skill",
             "location": [
                 11,
                 4
             ],
-            "pre_delay": 2000,
-            "direction": "None"
-        },
-        {
-            "type": "SkillUsage",
-            "name": "幻影",
-            "skill_usage": 1
+            "pre_delay": 40000
         },
         {
             "type": "SkillDaemon"
         }
     ],
     "doc": {
-        "title": "DT-EX-8 - 谁是大胃王 喂饱版",
-        "details": "作业更新日期: 2024-09-10T10:56:32Z\n统计更新日期: 2024-09-15\n好评率：98.92%  浏览量：23631\n来源：萨拉托加  ID：41201\n只要能天使轴和开饭轴能对上就行，用的2603一级模组练度（白面鸮三级模组，孑精一满级）测试通过\n原作者自在道爷 json作者萨拉托加\n作业交流群群号1003478193，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【泰拉饭】DT-EX-1至DT-EX-8挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(含DT-EX-8突袭等)】 https://www.bilibili.com/video/BV1UppjerEaf/?p=8&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+        "title": "DT-EX-8 - 谁是大胃王（自用改版）",
+        "details": "作业更新日期: 2024-09-10T10:56:18Z\n统计更新日期: 2024-09-15\n好评率：91.67%  浏览量：445\n来源：vista98  ID：41230\n自用改版 改自maa://41196\n狮蝎换水月，调香师换末药，这两个加上流明都60级没专\n剩余干员专三且开模组（星熊带Y模 挡4那个）\n中间等技能启动会点到那个锅等半天应该是正常的\n原作者：自在道爷\nJSON作者：星之海.\n二改：vista98\n原视频：https://www.bilibili.com/video/BV1UppjerEaf"
     },
     "groups": [
         {
             "name": "奶盾",
             "opers": [
                 {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
                     "name": "黍",
                     "skill": 1,
                     "skill_usage": 0
                 },
                 {
-                    "name": "塞雷娅",
+                    "name": "临光",
                     "skill": 1,
                     "skill_usage": 0
                 }
@@ -162,22 +174,12 @@
     ],
     "opers": [
         {
-            "name": "煌",
-            "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "星熊",
-            "skill": 2,
-            "skill_usage": 0
-        },
-        {
-            "name": "能天使",
-            "skill": 3,
-            "skill_usage": 0
-        },
-        {
             "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
             "skill": 2,
             "skill_usage": 0
         },
@@ -187,18 +189,33 @@
             "skill_usage": 0
         },
         {
-            "name": "纯烬艾雅法拉",
+            "name": "末药",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "水月",
             "skill": 1,
             "skill_usage": 0
         },
         {
-            "name": "白面鸮",
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
             "skill": 2,
             "skill_usage": 0
         },
         {
-            "name": "孑",
-            "skill": 2,
+            "name": "流明",
+            "skill": 1,
             "skill_usage": 0
         }
     ],
