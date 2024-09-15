@@ -416,22 +416,24 @@ def generate_filename(content, title, uploader, keyword, prefer):
     :param prefer: 是否优先显示作者
     :return: 文件名
     """
-    diff = content.get("difficulty", 0)
-    if diff == 1:  # 普通
-        file_name = "(仅普通)"
-    elif diff == 2:  # 突袭
-        file_name = "(仅突袭)"
-    else:  # 其他
-        file_name = ""
-    if prefer:
-        file_name += f"({uploader})"
-    if title == 1:  # 标题
-        file_name += content["doc"]["title"]
-    elif title == 2:  # 标题 - 作者
-        file_name += content["doc"]["title"] + " - " + uploader
-    elif title == 3:  # 关卡代号-干员1+干员2
-        file_name += generate_filename_mode3(keyword, content)
-    else:  # 错误
+    file_name = ""
+    try:
+        if prefer:  # 优先显示作者
+            file_name += f"({uploader})"
+        diff = content.get("difficulty", 0)
+        if diff == 1:  # 仅普通
+            file_name += "(仅普通)"
+        elif diff == 2:  # 仅突袭
+            file_name += "(仅突袭)"
+        if title == 1:  # 标题
+            file_name += content["doc"]["title"]
+        elif title == 2:  # 标题 - 作者
+            file_name += content["doc"]["title"] + " - " + uploader
+        elif title == 3:  # 关卡代号-干员1+干员2
+            file_name += generate_filename_mode3(keyword, content)
+        else:
+            input("未知文件名格式，请联系开发者")
+    except:  # 错误
         t = time.time()
         log_message(f'File name format error 文件名格式错误, {t}, {content}, {title}, {uploader}, {keyword}', logging.ERROR)
         file_name = f"ERROR{t}"
