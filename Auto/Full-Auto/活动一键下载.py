@@ -244,6 +244,7 @@ def download_current_activity(activity):
     stage_dict = build_activity_dict(all_dict["活动关卡"][""], activity_id, _dict=stage_dict)
     cat_three_dict = build_activity_dict(all_dict["活动关卡"][""], activity_id, _dict=cat_three_dict, key="cat_three")
     # write_to_file('Auto/Full-Auto/log/stage_dict_temp.json', stage_dict)
+    # write_to_file('Auto/Full-Auto/log/cat_three_dict_temp.json', cat_three_dict)
     less_dict = less_search(cat_three_dict, now_activities[0])
     for key2 in less_dict:
         less_filter_data(stage_dict, less_dict, key2)
@@ -271,7 +272,8 @@ def build_activity_dict(data, act_id, _dict=None, key="stage_id"):
         _dict = {}
     for member in data:
         _key = member[key]
-        if act_id in _key:
+        _stage_id = member["stage_id"]
+        if act_id in _stage_id:
             if _key in _dict:
                 _dict[_key].append(member)
             else:
