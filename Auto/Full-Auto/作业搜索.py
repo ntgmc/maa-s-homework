@@ -71,20 +71,21 @@ def bool_input(question):
     return user_input in ["yes", "y", "true", "t", "1", "是", "对", "真", "要"]
 
 
-def build_activity_dict(data, key, _dict=None):
+def build_activity_dict(data, act_id, _dict=None, key="stage_id"):
     """
     构建活动字典，将数据按活动分类
     :param data: 要分类的数据，一般为all_dict["活动关卡"][""]
-    :param key: 活动ID，如act34side
+    :param act_id: 活动ID，如act34side
     :param _dict: 字典，如果传入则在此基础上添加
+    :param key: 生成字典的键，默认为stage_id
     :return: 活动字典，格式为{活动名: [成员1, 成员2, ...]}
     """
     log_message("Function 函数: build_activity_dict", logging.DEBUG, False)
     if _dict is None:
         _dict = {}
     for member in data:
-        _key = member["stage_id"]
-        if key in _key:
+        _key = member[key]
+        if act_id in _key:
             if _key in _dict:
                 _dict[_key].append(member)
             else:
