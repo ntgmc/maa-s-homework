@@ -74,7 +74,7 @@ def bool_input(question):
 def build_activity_dict(data, key, _dict=None):
     """
     构建活动字典，将数据按活动分类
-    :param data: 要分类的数据
+    :param data: 要分类的数据，一般为all_dict["活动关卡"][""]
     :param key: 活动ID，如act34side
     :param _dict: 字典，如果传入则在此基础上添加
     :return: 活动字典，格式为{活动名: [成员1, 成员2, ...]}
@@ -532,7 +532,7 @@ def input_level():
                 activity_id = extract_activity_from_stage_id(all_dict["活动关卡"][activity][0]['stage_id'])
                 stage_dict = build_activity_dict(all_dict["活动关卡"][""], activity_id, _dict=stage_dict)
             log_message(f"stage_dict: {stage_dict}", logging.DEBUG, False)
-        write_to_file("log/stage_dict_temp.json", stage_dict)
+        # write_to_file("log/stage_dict_temp.json", stage_dict, True)
         _setting = configuration(setting)
         if not _setting:
             info = "未找到用户设置或用户设置已过期，请设置"

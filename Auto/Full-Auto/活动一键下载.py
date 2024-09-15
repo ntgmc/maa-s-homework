@@ -240,6 +240,9 @@ def download_current_activity(activity):
         activity = activity.replace("·复刻", "")
         stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
         cat_three_dict = build_dict(all_dict["活动关卡"][activity], "cat_three")
+    activity_id = extract_activity_from_stage_id(all_dict["活动关卡"][activity][0]['stage_id'])
+    stage_dict = build_activity_dict(all_dict["活动关卡"][""], activity_id, _dict=stage_dict)
+    # write_to_file('Auto/Full-Auto/log/stage_dict_temp.json', stage_dict)
     less_dict = less_search(cat_three_dict, now_activities[0])
     for key2 in less_dict:
         less_filter_data(stage_dict, less_dict, key2)
@@ -252,6 +255,26 @@ def get_level_data():
     """
     response = requests.get('https://prts.maa.plus/arknights/level')
     return response.json()['data'] if response.ok else []
+
+
+def build_activity_dict(data, key, _dict=None):
+    """
+    构建活动字典，将数据按活动分类
+    :param data: 要分类的数据
+    :param key: 活动ID，如act34side
+    :param _dict: 字典，如果传入则在此基础上添加
+    :return: 活动字典，格式为{活动名: [成员1, 成员2, ...]}
+    """
+    if _dict is None:
+        _dict = {}
+    for member in data:
+        _key = member["stage_id"]
+        if key in _key:
+            if _key in _dict:
+                _dict[_key].append(member)
+            else:
+                _dict[_key] = [member]
+    return _dict
 
 
 def build_complex_dict(data):
@@ -283,6 +306,7 @@ makedir(now_activities[0])
 # 获取关卡数据，构建字典
 level_data = get_level_data()
 all_dict = build_complex_dict(level_data)
+# write_to_file('Auto/Full-Auto/log/activity_dict_temp.json', all_dict)
 # 读取缓存
 cache_dict = load_data(cache)
 now = datetime.now().timestamp()
