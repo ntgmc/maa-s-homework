@@ -305,7 +305,10 @@ def build_complex_dict(data):
 activity_data, now_activities = get_activity_data()
 if not activity_data:
     print("Fail to get activity data.")
-    exit(1)
+    exit(0)
+if not now_activities:
+    print("No ongoing activities.")
+    exit(0)
 makedir(now_activities[0])
 # 获取关卡数据，构建字典
 level_data = get_level_data()
