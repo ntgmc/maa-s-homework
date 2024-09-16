@@ -5,7 +5,9 @@ from datetime import datetime
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-os.chdir(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+print(base_path)
+os.chdir(base_path)
 # 设置阈值(好评率和浏览量)(不满足条件则降低阈值，但最低不低于50% 0)
 download_score_threshold = 80  # 好评率阈值
 download_view_threshold = 1000  # 浏览量阈值
