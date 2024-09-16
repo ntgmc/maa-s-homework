@@ -6,17 +6,19 @@ import glob
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 
-os.chdir(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+print(base_path)
+os.chdir(base_path)
 download_mode = True
 download_score_threshold = 50
-job_categories = ['先锋', '近卫', '重装', '狙击', '术士', '医疗', '辅助', '特种']
+job_categories = ['先锋', '近卫', '重装', '狙击', '术师', '医疗', '辅助', '特种']
 ids = []
 date = datetime.now().strftime('%Y-%m-%d')
 # 设置缓存路径
 cache = 'Auto/Full-Auto/cache/cache.json'
 
 
-def write_to_file(file_path, content):
+def write_json_to_file(file_path, content):
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(content, file, ensure_ascii=False, indent=4)
 
@@ -139,7 +141,7 @@ def less_search_paradox():
         raise Exception("请求失败！ERR_CONNECTION_REFUSED in less_search_paradox")
 
 
-def filter_paradox(data, name, stage_id, _job):
+def filter_paradox(data, name, _job):
     global cache_dict
     all_data = data.get(name)
     if all_data:
@@ -158,7 +160,6 @@ def filter_paradox(data, name, stage_id, _job):
         if download_mode and _job:
             # 对列表按照评分进行排序，评分最高的在前面
             items_to_download.sort(key=lambda x: x[0], reverse=True)
-
             # 只下载评分最高的三个项目
             for percent, item in items_to_download[:3]:
                 file_path = f"悖论模拟/{_job}/{name} - {int(percent)} - {item['id']}.json"
@@ -172,7 +173,7 @@ def filter_paradox(data, name, stage_id, _job):
                 content['doc'][
                     'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
                                  content['doc']['details']
-                write_to_file(file_path, content)
+                write_json_to_file(file_path, content)
                 cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论")
         print(f"成功搜索 {_job} - {name}")
         return name, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
@@ -226,7 +227,7 @@ def search_module(name, stage):
                     content['doc'][
                         'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
                                      content['doc']['details']
-                    write_to_file(file_path, content)
+                    write_json_to_file(file_path, content)
                     cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-模组")
             print(f"成功搜索 {name} - {stage}")
             return name, stage, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
@@ -251,11 +252,47 @@ def extract_tr_contents(html_content):
     return tr_contents
 
 
+def get_operators():
+    url = "https://prts.wiki/w/%E5%B9%B2%E5%91%98%E4%B8%80%E8%A7%88"
+    headers = {
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0',
+    }
+    response = requests.get(url, headers=headers)
+    soup = BeautifulSoup(response.text, 'html.parser')
+    divs = soup.find_all('div')
+    table_data = []
+    for div in divs:
+        row_data = []
+        for attr in div.attrs.values():
+            if isinstance(attr, str):
+                row_data.append(attr)
+            elif isinstance(attr, list):
+                row_data.append(','.join(attr))
+            else:
+                row_data.append('')
+        table_data.append(row_data)
+    operators = {}
+    for row in table_data:
+        if len(row) > 30:
+            name = row[0].strip()
+            profession = row[1].strip()
+            sort_id = int(row[30].strip())  # Assuming data_sort_id is the third element
+            if profession not in operators:
+                operators[profession] = []
+            operators[profession].append((name, sort_id))
+    sorted_operators = {k: sorted(operators[k], key=lambda x: x[1]) for k in job_categories if k in operators}
+    text = ''
+    for profession, names in sorted_operators.items():
+        text += f"{profession}\n" + '\n'.join([name for name, _ in names]) + "\n\n"
+    with open(f"Auto/Full-Auto/CI/keywords.txt", "w", encoding='utf-8') as f:
+        f.write(text)
+
+
 def main_paradox():
     # 读取关键字文件
-    keywords_file = 'Auto/Full-Auto/keywords.txt'
-    output_file_develop = 'Auto/Full-Auto/paradox_develop.txt'
-    output_file_user = 'Auto/Full-Auto/paradox_user.txt'
+    keywords_file = 'Auto/Full-Auto/CI/keywords.txt'
+    output_file_develop = 'Auto/Full-Auto/CI/paradox_develop.txt'
+    output_file_user = 'Auto/Full-Auto/CI/paradox_user.txt'
     results = []
     job_now = -1
     paradox_all_dict = less_search_paradox()
@@ -273,7 +310,7 @@ def main_paradox():
                     continue
                 stage_id = paradox_dict.get(keyword, [{}])[0].get('stage_id')
                 if stage_id:
-                    future = executor.submit(filter_paradox, paradox_all_dict, keyword, stage_id, job_categories[job_now])
+                    future = executor.submit(filter_paradox, paradox_all_dict, keyword, job_categories[job_now])
                     futures.append((index, future))
                 else:
                     def create_no_paradox_task(_keyword):
@@ -311,8 +348,8 @@ def main_paradox():
 
 
 def main_module():
-    output_file_develop = 'Auto/Full-Auto/module_develop.txt'
-    output_file_user = 'Auto/Full-Auto/module_user.txt'
+    output_file_develop = 'Auto/Full-Auto/CI/module_develop.txt'
+    output_file_user = 'Auto/Full-Auto/CI/module_user.txt'
     results = []
     headers = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0',
@@ -359,6 +396,7 @@ if download_mode:
 os.makedirs('Auto/Full-Auto/cache', exist_ok=True)
 cache_dict = load_data(cache)
 now = datetime.now().timestamp()
+get_operators()
 main_paradox()
 main_module()
 last = datetime.now().timestamp()
