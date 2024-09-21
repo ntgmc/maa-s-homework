@@ -76,7 +76,7 @@ class DoTxt:
         return data
 
     def read_module_task_lines(self):
-        data = [['干员', '关卡', '内容']]
+        data = [[f'更新日期：{date}'], ['干员', '关卡', '内容']]
         with open(self.file_name, "r", encoding="utf-8") as f:
             lines = f.readlines()
         for line in lines:
