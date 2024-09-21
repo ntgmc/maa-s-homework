@@ -31,7 +31,12 @@ jobs:
         run: |
           cd Auto/Full-Auto/CI
           python 悖论模拟模组任务搜索.py
-      
+
+      - name: 运行 module.py
+        run: |
+          cd Auto/Full-Auto/CI
+          python module.py
+
       - name: 运行 主线.py
         run: |
           cd Auto
