@@ -10,16 +10,32 @@
 
 ## 自动下载
 
-自动下载的Python脚本位于 `Auto\Full-Auto` 目录。
+自动下载的Python程序位于 `Auto\Full-Auto` 目录。
 
-- `作业搜索.py`: 供用户使用，批量搜索各种关卡
+- `作业搜索.py`: 批量搜索各种关卡  
+
+### Auto\Full-Auto\CI
+
 - `主线一键下载.py`: 自动搜索主线关卡（包括H关和S关）、剿灭作战、资源关
 - `悖论模拟模组任务搜索.py`: 自动搜索悖论模拟和模组任务关卡
+- `module.py`: 自动生成全部模组任务
+- `活动一键下载.py`: 自动判断当前开启活动并下载
+- `excel.py`: 自动生成excel文件
 
 ### CI
 
 [daily_download.yml](https://github.com/ntgmc/maa-s-homework/blob/master/.github/workflows/daily_download.yml)  
-此工作流程每日自动执行`主线一键下载.py`和`悖论模拟模组任务搜索.py`，生成 `json` 文件并创建Pull Request。
+此工作流程每日自动执行以下程序：
+
+- [`主线一键下载.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/%E4%B8%BB%E7%BA%BF%E4%B8%80%E9%94%AE%E4%B8%8B%E8%BD%BD.py)
+- [`悖论模拟模组任务搜索.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/%E6%82%96%E8%AE%BA%E6%A8%A1%E6%8B%9F%E6%A8%A1%E7%BB%84%E4%BB%BB%E5%8A%A1%E6%90%9C%E7%B4%A2.py)
+- [`module.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/module.py)
+- [`主线.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/%E4%B8%BB%E7%BA%BF.py)
+- [`活动一键下载.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/%E6%B4%BB%E5%8A%A8%E4%B8%80%E9%94%AE%E4%B8%8B%E8%BD%BD.py)
+- [`ALL.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/ALL.py)
+- [`excel.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/excel.py)
+
+生成 `json`, `zip` 文件并创建 Pull Request。
 
 ## 命名规则
 
@@ -58,13 +74,29 @@
 The automatic download Python scripts are located in `Auto\Full-Auto` directory.
 
 - `作业搜索.py`: For users to use, batch search various levels.
-- `主线一键下载.py`: Automatically search for main levels (including Hard and Sub levels), annihilation operations, and resource levels.
-- `悖论模拟模组任务搜索.py`: Automatic Search Paradox Simulation and Module Task Levels.
+
+### Auto\Full-Auto\CI
+
+- `主线一键下载.py`: Automatically search for mainline stages (including H and S stages), Annihilation stages, and resource stages.
+- `悖论模拟模组任务搜索.py`: Automatically search for Contingency Contract and module tasks.
+- `module.py`: Automatically generate all module tasks.
+- `活动一键下载.py`: Automatically determine the currently open event and download.
+- `excel.py`: Automatically generate excel files.
 
 ### CI
 
 [daily_download.yml](https://github.com/ntgmc/maa-s-homework/blob/master/.github/workflows/daily_download.yml)  
-This workflow automatically executes the `主线一键下载.py` and `悖论模拟模组任务搜索.py` daily, generates JSON files, and creates Pull Requests.
+This workflow automatically executes the following programs daily: 
+
+- [`主线一键下载.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/%E4%B8%BB%E7%BA%BF%E4%B8%80%E9%94%AE%E4%B8%8B%E8%BD%BD.py)
+- [`悖论模拟模组任务搜索.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/%E6%82%96%E8%AE%BA%E6%A8%A1%E6%8B%9F%E6%A8%A1%E7%BB%84%E4%BB%BB%E5%8A%A1%E6%90%9C%E7%B4%A2.py)
+- [`module.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/module.py)
+- [`主线.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/%E4%B8%BB%E7%BA%BF.py)
+- [`活动一键下载.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/%E6%B4%BB%E5%8A%A8%E4%B8%80%E9%94%AE%E4%B8%8B%E8%BD%BD.py)
+- [`ALL.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/ALL.py)
+- [`excel.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/excel.py)
+
+then generates JSON files, and creates Pull Requests.
 
 ## Naming Rules
 
