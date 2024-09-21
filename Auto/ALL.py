@@ -7,6 +7,7 @@ import glob
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 destination_folder2 = "【下载看这里】合集下载"
 
+
 def zip_json_files(_source_folder, _destination_file):
     with zipfile.ZipFile(_destination_file, "w", zipfile.ZIP_DEFLATED) as zipf:
         for root, dirs, files in os.walk(_source_folder):

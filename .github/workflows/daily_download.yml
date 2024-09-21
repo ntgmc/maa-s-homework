@@ -42,10 +42,10 @@ jobs:
           cd Auto/Full-Auto/CI
           python 活动一键下载.py
 
-      # - name: 运行 ALL.py
-      #   run: |
-      #     cd Auto
-      #     python ALL.py
+      - name: 运行 ALL.py
+        run: |
+          cd Auto
+          python ALL.py
           
       - name: 配置 Git 用户信息
         run: |
