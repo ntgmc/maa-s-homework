@@ -20,7 +20,7 @@ jobs:
       - name: 安装依赖
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          pip install requests beautifulsoup4 openpyxl
       
       - name: 运行 主线一键下载.py
         run: |
@@ -46,6 +46,11 @@ jobs:
         run: |
           cd Auto
           python ALL.py
+
+      - name: 运行 excel.py
+        run: |
+          cd Auto/Full-Auto/CI
+          python excel.py
           
       - name: 配置 Git 用户信息
         run: |
@@ -61,8 +66,8 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GH_PAT }}
-          commit-message: "Auto Update Data"
-          title: "Auto Update Data"
-          body: "Auto Update Data"
+          commit-message: "CI: Auto Update Data"
+          title: "CI: Auto Update Data"
+          body: "CI: Auto Update Data"
           branch: "auto-update-branch"
       
