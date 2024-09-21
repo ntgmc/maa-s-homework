@@ -1,0 +1,216 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act28side_ex08#f#",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                1,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "name": "斯卡蒂的海嗣",
+            "location": [
+                2,
+                6
+            ],
+            "pre_delay": 0,
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up",
+            "kills": 18,
+            "costs": 78
+        },
+        {
+            "type": "Deploy",
+            "name": "淬羽赫默",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "重装",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "耀骑士临光",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "kills": 22,
+            "pre_delay": 28000
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 24
+        },
+        {
+            "type": "Skill",
+            "kills": 24,
+            "name": "淬羽赫默",
+            "location": [
+                7,
+                4
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "name": "斯卡蒂的海嗣",
+            "location": [
+                2,
+                6
+            ],
+            "pre_delay": 0,
+            "direction": "None"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "DarkRed",
+            "doc": "有帮助的话 给个好评吧~"
+        }
+    ],
+    "doc": {
+        "title": "CV-EX-8 - 正中目标",
+        "details": "作业更新日期: 2023-09-13T22:05:11Z\n统计更新日期: 2024-09-21\n好评率：91.3%  浏览量：3684\n来源：022.  ID：27936\n稳定过图加镀层！煌必须三模"
+    },
+    "groups": [
+        {
+            "name": "重装",
+            "opers": [
+                {
+                    "name": "年",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "淬羽赫默",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "耀骑士临光",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 2
+}
