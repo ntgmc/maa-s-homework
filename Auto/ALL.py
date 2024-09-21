@@ -104,7 +104,7 @@ folders = [
     "模组任务",
     "插曲&别传",
     "悖论模拟"
-]
+] + [folder for folder in now_activity_folders]
 
 # 指定目标文件夹路径
 target_dir = "【下载看这里】合集下载"
