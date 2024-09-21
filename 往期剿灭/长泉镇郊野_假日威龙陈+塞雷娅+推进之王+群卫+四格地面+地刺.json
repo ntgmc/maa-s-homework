@@ -1,0 +1,232 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "推进之王",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "群卫",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "假日威龙陈",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left",
+            "costs": 31
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Right",
+            "costs": 25
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Left",
+            "costs": 0,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Right",
+            "costs": 0,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Down",
+            "costs": 0,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "costs": 0,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "costs": 0,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down",
+            "costs": 0,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "四格地面",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "地刺",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "DarkRed",
+            "doc": "JSON：Dayheart"
+        }
+    ],
+    "doc": {
+        "title": "【萧然作业】萨尔贡 - 长泉镇郊野 - 长泉镇郊野",
+        "details": "作业更新日期: 2023-10-20T09:22:23Z\n统计更新日期: 2024-09-20\n好评率：91.67%  浏览量：1001\n来源：Dayheart  ID：29178\n【【长泉镇郊野】摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1af4y1A7tJ/?share_source=copy_web&vd_source=cd91394ea743aa4106bdb38b56e52772"
+    },
+    "groups": [
+        {
+            "name": "群卫",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "四格地面",
+            "opers": [
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "号角",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "仇白",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "地刺",
+            "opers": [
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "伊桑",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "狮蝎",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "假日威龙陈",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
