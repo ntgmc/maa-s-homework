@@ -1,0 +1,153 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act28side_08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "法攻",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "CV-8 - 告别往昔（含刻章",
+        "details": "作业更新日期: 2024-09-19T08:23:21Z\n统计更新日期: 2024-09-21\n好评率：98.38%  浏览量：2349\n来源：星之海.  ID：41403\n此作业全员专三且模组一级\n原作者：自在道爷\nJSON作者：星之海.\n社区评论不会提醒，有问题可以进群找我：994516079（刚建的\n原视频：【【不义之财】CV-1至8挂机流，刻章也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(含CV-8，CV-7，CV-6等)】https://www.bilibili.com/video/BV1vh4y1P7eg?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "法攻",
+            "opers": [
+                {
+                    "name": "铃兰",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "近战",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "归溟幽灵鲨",
+                    "skill": 3,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
