@@ -60,7 +60,7 @@ jobs:
       - name: 推送下载的文件到仓库
         run: |
           git add . -f
-          git commit -m "Auto Update Data" -a
+          git commit -m "CI: Auto Update Data" -a
           
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
