@@ -358,12 +358,13 @@ def download_current_activity(activity, mode):
     """
     global info
     log_message(f"Function 函数: download_current_activity({activity}, {mode})", logging.DEBUG, False)
-    try:
+    stage_dict = {}
+    activity_id = activity_data[activity]['id']
+    if activity in all_dict["活动关卡"]:
         stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
-    except KeyError:
+    elif activity.replace("·复刻", "") in all_dict["活动关卡"]:
         activity = activity.replace("·复刻", "")
         stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
-    activity_id = extract_activity_from_stage_id(all_dict["活动关卡"][activity][0]['stage_id'])
     stage_dict = build_activity_dict(all_dict["活动关卡"][""], activity_id, _dict=stage_dict)
     log_message(f"stage_dict: {stage_dict}", logging.DEBUG, False)
     write_to_file("log/stage_dict_temp.json", stage_dict)
@@ -375,7 +376,7 @@ def download_current_activity(activity, mode):
         info = "未找到用户设置或用户设置已过期，请设置"
         return menu()
     now = time.time()
-    less_search(stage_dict, _setting, "活动关卡", activity, extract_activity_from_stage_id(all_dict["活动关卡"][activity][0]['stage_id']))
+    less_search(stage_dict, _setting, "活动关卡", activity, activity_id)
     log_message(f"搜索活动关卡-{activity}完毕，共耗时 {round(time.time() - now, 2)} s.", logging.INFO, False)
     input(f"搜索完毕，共耗时 {round(time.time() - now, 2)} s.\n按回车键返回")
     return menu()
@@ -457,6 +458,10 @@ def generate_filename_mode3(stage_name, data):
     return f'{stage_name}_{names}'
 
 
+def get_cat_three_info(_cat_three_dict, cat_three, key):  # 通过cat_three获取信息,失败返回cat_three
+    return _cat_three_dict.get(cat_three, [{}])[0].get(key, cat_three)
+
+
 def get_level_data():
     """
     访问 https://prts.maa.plus/arknights/level 获取关卡数据
@@ -475,7 +480,7 @@ def get_activity_data():
     """
     response = requests.get('https://prts.wiki/w/%E6%B4%BB%E5%8A%A8%E4%B8%80%E8%A7%88')
     soup = BeautifulSoup(response.text, 'html.parser')
-    activities = []
+    activities = {}
     ongoing_activities = []
 
     # Find the table containing the activity data
@@ -495,14 +500,32 @@ def get_activity_data():
         status_span = cols[1].find('span', {'class': 'TLDcontainer'})
         if "支线故事" in category and activity_page:
             activity_name = activity_page.text.strip()
+            activity_id = ""
             status = "已结束"
             if status_span and "进行中" in status_span.text:
                 status = "进行中"
                 ongoing_activities.append(activity_name)
+                response1 = requests.get("https://prts.wiki" + activity_page.get('href'))
+                soup = BeautifulSoup(response1.text, 'html.parser')
+
+                table1 = soup.find('table', {'class': 'wikitable', 'style': "white-space:normal;display:table;text-align:center;"})
+                rows1 = table1.find_all('tr')
+                for row1 in rows1[1:]:  # Skip the header row
+                    cols1 = row1.find_all('td')
+                    if len(cols1) < 3:
+                        continue
+                    task_page = cols1[0].find('a')
+                    if task_page:
+                        task_cat_three = task_page.get('title')
+                        if "ST" in task_cat_three:
+                            continue
+                        if task_cat_three:
+                            task_stage_id = get_cat_three_info(cat_three_dict, task_cat_three, "stage_id")
+                            activity_id = extract_activity_from_stage_id(task_stage_id)
+                            break
             elif status_span and "未开始" in status_span.text:
                 status = "未开始"
-            activities.append({'name': activity_name, 'status': status})
-    log_message(f"Successfully obtained activity data. 成功获取活动数据")
+            activities[activity_name] = {'status': status, 'id': activity_id}
     return activities, ongoing_activities
 
 
@@ -629,7 +652,7 @@ def less_search(stage_dict, _setting, search_key, activity, keyword):  # 搜索�
     :return: 无返回值
     """
     st = _setting["download"][_setting["download"]["default"]]
-    os.makedirs(os.path.join(st["path"], search_key, activity), exist_ok=True)
+    os.makedirs(os.path.join(st["path"], search_key, activity.replace("·复刻", "")), exist_ok=True)
     data = search(keyword, st["order_by"])  # 仅搜索一次
     data_dict = build_data_dict(stage_dict, data)  # 构建关卡字典，将数据按关卡分类
     if st["completeness"]:
@@ -841,7 +864,7 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
     """
     st = _setting["download"][_setting["download"]["default"]]
     if key != "" and activity != "":
-        path = os.path.join(st["path"], key, activity)
+        path = os.path.join(st["path"], key, activity.replace("·复刻", ""))
     else:
         log_message(f"ERROR 错误: {key}, {activity}", logging.ERROR)
         path = st["path"]
@@ -1085,9 +1108,9 @@ os.makedirs("log", exist_ok=True)
 log_message("Program start 程序启动", logging.INFO)
 info = ""
 level_data = load_level_data()
-activity_data, now_activities = get_activity_data()
 all_dict = build_complex_dict(level_data)
 cat_three_dict = build_dict(level_data, "cat_three")
+activity_data, now_activities = get_activity_data()
 if load_settings():
     log_message("Successfully loaded settings. 成功加载设置")
 # write_to_file("log/cat_three_dict_temp.json", cat_three_dict, True)
