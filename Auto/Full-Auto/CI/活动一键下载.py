@@ -52,7 +52,7 @@ def get_activity_data():
     """
     response = requests.get('https://prts.wiki/w/%E6%B4%BB%E5%8A%A8%E4%B8%80%E8%A7%88')
     soup = BeautifulSoup(response.text, 'html.parser')
-    activities = []
+    activities = {}
     ongoing_activities = []
 
     # Find the table containing the activity data
@@ -72,18 +72,39 @@ def get_activity_data():
         status_span = cols[1].find('span', {'class': 'TLDcontainer'})
         if "支线故事" in category and activity_page:
             activity_name = activity_page.text.strip()
+            activity_id = ""
             status = "已结束"
             if status_span and "进行中" in status_span.text:
                 status = "进行中"
                 ongoing_activities.append(activity_name)
+                response1 = requests.get("https://prts.wiki" + activity_page.get('href'))
+                soup = BeautifulSoup(response1.text, 'html.parser')
+
+                table1 = soup.find('table', {'class': 'wikitable', 'style': "white-space:normal;display:table;text-align:center;"})
+                rows1 = table1.find_all('tr')
+                for row1 in rows1[1:]:  # Skip the header row
+                    cols1 = row1.find_all('td')
+                    if len(cols1) < 3:
+                        continue
+                    task_page = cols1[0].find('a')
+                    if task_page:
+                        task_cat_three = task_page.get('title')
+                        if "ST" in task_cat_three:
+                            continue
+
+                        if task_cat_three:
+                            print(task_cat_three)
+                            task_stage_id = get_cat_three_info(cat_three_all_dict, task_cat_three, "stage_id")
+                            activity_id = extract_activity_from_stage_id(task_stage_id)
+                            break
             elif status_span and "未开始" in status_span.text:
                 status = "未开始"
-            activities.append({'name': activity_name, 'status': status})
+            activities[activity_name] = {'status': status, 'id': activity_id}
     return activities, ongoing_activities
 
 
-def makedir(activity_name):
-    os.makedirs(f'【当前活动】{activity_name}', exist_ok=True)
+def makedir(activity_name: str):
+    os.makedirs(f'【当前活动】{activity_name.replace("·复刻", "")}', exist_ok=True)
 
 
 def build_dict(data, key: str, _dict=None):
@@ -141,7 +162,7 @@ def replace_dir_char(text):
     return text
 
 
-def generate_filename(stage_dict, stage_id, data, uploader, stage_name=None):
+def generate_filename(stage_dict, stage_id, data, uploader, activity_name, stage_name=None):
     if not stage_name:
         stage_name = get_stage_id_info(stage_dict, stage_id, "cat_three")
     opers = data.get('opers', [])
@@ -158,13 +179,14 @@ def generate_filename(stage_dict, stage_id, data, uploader, stage_name=None):
         stage_name = "(仅突袭)" + stage_name
     if len(names) > 100:
         names = "文件名过长不予显示"
-    file_path = os.path.join(f'【当前活动】{now_activities[0]}', f'{stage_name}_{names}.json')
+    file_path = os.path.join(f'【当前活动】{activity_name}', f'{stage_name}_{names}.json')
     return file_path
 
 
 def less_filter_data(stage_dict, data, stage_id):
     global no_result, cache_dict
     all_data = data.get(stage_id)
+    activity_name = now_activities[0].replace("·复刻", "")
     if all_data:
         download_amount = 0
         cat_three = get_stage_id_info(stage_dict, stage_id, "cat_three")
@@ -180,7 +202,7 @@ def less_filter_data(stage_dict, data, stage_id):
                         download_amount += 1
                         continue
                     content = json.loads(item['content'])
-                    file_path = generate_filename(stage_dict, stage_id, content, item['uploader'], cat_three)
+                    file_path = generate_filename(stage_dict, stage_id, content, item['uploader'], activity_name, cat_three)
                     content['doc']['details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
                     print(f"{file_path} {percent}% {view} 成功下载")
                     if os.path.exists(file_path):
@@ -234,14 +256,16 @@ def download_current_activity(activity):
     :param activity: 活动名
     :return: 无返回值
     """
-    try:
+    stage_dict = {}
+    cat_three_dict = {}
+    activity_id = activity_data[activity]['id']
+    if activity in all_dict["活动关卡"]:
         stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
         cat_three_dict = build_dict(all_dict["活动关卡"][activity], "cat_three")
-    except KeyError:
+    elif activity.replace("·复刻", "") in all_dict["活动关卡"]:
         activity = activity.replace("·复刻", "")
         stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
         cat_three_dict = build_dict(all_dict["活动关卡"][activity], "cat_three")
-    activity_id = extract_activity_from_stage_id(all_dict["活动关卡"][activity][0]['stage_id'])
     stage_dict = build_activity_dict(all_dict["活动关卡"][""], activity_id, _dict=stage_dict)
     cat_three_dict = build_activity_dict(all_dict["活动关卡"][""], activity_id, _dict=cat_three_dict, key="cat_three")
     # write_to_file('Auto/Full-Auto/log/stage_dict_temp.json', stage_dict)
@@ -303,6 +327,10 @@ def build_complex_dict(data):
     return complex_dict
 
 
+# 获取关卡数据，构建字典
+level_data = get_level_data()
+all_dict = build_complex_dict(level_data)
+cat_three_all_dict = build_dict(level_data, "cat_three")
 activity_data, now_activities = get_activity_data()
 if not activity_data:
     print("Fail to get activity data.")
@@ -311,9 +339,6 @@ if not now_activities:
     print("No ongoing activities.")
     exit(0)
 makedir(now_activities[0])
-# 获取关卡数据，构建字典
-level_data = get_level_data()
-all_dict = build_complex_dict(level_data)
 # write_to_file('Auto/Full-Auto/log/activity_dict_temp.json', all_dict)
 # 读取缓存
 cache_dict = load_data(cache)
