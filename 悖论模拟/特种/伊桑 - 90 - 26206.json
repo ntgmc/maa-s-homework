@@ -1,0 +1,115 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_ethan_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "伊桑",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "kills": 4,
+            "name": "克洛丝",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "安德切尔",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "伊桑",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 8
+        },
+        {
+            "type": "Skill",
+            "name": "安德切尔",
+            "location": [
+                5,
+                1
+            ],
+            "kills": 15
+        },
+        {
+            "type": "Skill",
+            "name": "伊桑",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 23
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 34,
+            "pre_delay": 17000
+        },
+        {
+            "type": "Skill",
+            "name": "伊桑",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 37
+        },
+        {
+            "type": "Skill",
+            "name": "安德切尔",
+            "location": [
+                5,
+                1
+            ],
+            "kills": 43
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 49,
+            "pre_delay": 5500
+        },
+        {
+            "type": "Skill",
+            "name": "伊桑",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 55
+        }
+    ],
+    "doc": {
+        "title": "特种 - 伊桑 - 制敌伏兵 悖论模拟",
+        "details": "作业更新日期: 2023-08-20T16:07:24Z\n统计更新日期: 2024-09-28\n好评率：90.0%  浏览量：2495\n来源：和泉纱雾  ID：26206\n伊桑带2技能，技能等级为7级\n作者：倾九_Komy\n作者视频：https://www.bilibili.com/video/BV1xN411Q7m5/\n这关伊桑捆人看脸，漏了就刷几次☆*: .｡. o(≧▽≦)o .｡.:*☆"
+    },
+    "groups": [],
+    "opers": []
+}
