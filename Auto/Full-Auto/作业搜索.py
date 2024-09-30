@@ -1111,6 +1111,10 @@ level_data = load_level_data()
 all_dict = build_complex_dict(level_data)
 cat_three_dict = build_dict(level_data, "cat_three")
 activity_data, now_activities = get_activity_data()
+# 手动添加活动
+activity_data["矢量突破"] = {"status": "进行中", "id": "act1vecb"}
+now_activities = ['矢量突破']
+
 if load_settings():
     log_message("Successfully loaded settings. 成功加载设置")
 # write_to_file("log/cat_three_dict_temp.json", cat_three_dict, True)
