@@ -70,7 +70,7 @@ class DoTxt:
                 codes = parts[3]
             except IndexError:
                 codes = 'None'
-            content = module_task[i][2]
+            content = module_task[i + 1][2]
             data.append([oper, level, num, codes, content])
             i += 1
         return data
