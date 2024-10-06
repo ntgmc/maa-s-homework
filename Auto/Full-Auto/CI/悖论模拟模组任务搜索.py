@@ -41,12 +41,19 @@ def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
     return _cache_dict
 
 
+def build_new_cache(_cache_dict, _type, _subtype, _id: str, now_upload_time: str):
+    _cache_dict[_type][_subtype][_id] = now_upload_time
+    return _cache_dict
+
+
 def compare_cache(_cache_dict, _id, now_upload_time: str, others: str):  # 最新返回True，需更新返回False
     before_upload_time = _cache_dict.get(f"{_id}-{others}", '')
-    if before_upload_time == now_upload_time:
-        return True
-    else:
-        return False
+    return before_upload_time == now_upload_time
+
+
+def compare_new_cache(new_cache_dict, _type, _subtype, _id, now_upload_time):
+    before_upload_time = new_cache_dict.get(_type, {}).get(_subtype, {}).get(_id, '')
+    return before_upload_time == now_upload_time
 
 
 def build_dict(data, key: str):  # key为生成的字典的键
@@ -175,6 +182,7 @@ def filter_paradox(data, name, _job):
                                  content['doc']['details']
                 write_json_to_file(file_path, content)
                 cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论")
+                # cache_dict = build_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time'])
         print(f"成功搜索 {_job} - {name}")
         return name, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
     else:
@@ -229,6 +237,7 @@ def search_module(name, stage):
                                      content['doc']['details']
                     write_json_to_file(file_path, content)
                     cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-模组")
+                    # cache_dict = build_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time'])
             print(f"成功搜索 {name} - {stage}")
             return name, stage, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
         else:
@@ -385,6 +394,7 @@ def main_module():
     print("输出Module完成！")
 
 
+# TODO: 如果缓存已存在作业未找到，将缓存的时间改为已删除，并在文件名前增加已删除，如果缓存已为已删除则不改变
 level_data = get_level_data()
 stage_dict = build_dict(level_data, 'stage_id')
 paradox_dict = built_paradox_dict(level_data)

@@ -37,12 +37,19 @@ def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
     return _cache_dict
 
 
+def build_new_cache(_cache_dict, _type, _subtype, _id: str, now_upload_time: str):
+    _cache_dict[_type][_subtype][_id] = now_upload_time
+    return _cache_dict
+
+
 def compare_cache(_cache_dict, _id, now_upload_time: str, others: str):  # 最新返回True，需更新返回False
     before_upload_time = _cache_dict.get(f"{_id}-{others}", '')
-    if before_upload_time == now_upload_time:
-        return True
-    else:
-        return False
+    return before_upload_time == now_upload_time
+
+
+def compare_new_cache(new_cache_dict, _type, _subtype, _id, now_upload_time):
+    before_upload_time = new_cache_dict.get(_type, {}).get(_subtype, {}).get(_id, '')
+    return before_upload_time == now_upload_time
 
 
 def get_activity_data():
