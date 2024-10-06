@@ -10,7 +10,7 @@
 
 ## 自动下载
 
-自动下载的Python程序位于 `Auto\Full-Auto` 目录。
+### Auto\Full-Auto
 
 - `作业搜索.py`: 批量搜索各种关卡  
 
@@ -18,9 +18,13 @@
 
 - `主线一键下载.py`: 自动搜索主线关卡（包括H关和S关）、剿灭作战、资源关
 - `悖论模拟模组任务搜索.py`: 自动搜索悖论模拟和模组任务关卡
-- `module.py`: 自动生成全部模组任务
+- `module.py`: 自动获取全部模组任务
 - `活动一键下载.py`: 自动判断当前开启活动并下载
-- `excel.py`: 自动生成excel文件
+- `excel.py`: 自动生成悖论模拟和模组任务Excel文件
+
+### Auto\Full-Auto\tool
+
+- `convert_cache.py`: 转换旧版缓存文件为新版缓存文件
 
 ### CI
 
@@ -35,7 +39,7 @@
 - [`ALL.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/ALL.py)
 - [`excel.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/excel.py)
 
-生成 `json`, `zip` 文件并创建 Pull Request。
+生成文件并创建 Pull Request。
 
 ## 命名规则
 
@@ -71,7 +75,7 @@
 
 ## Automatic Download
 
-The automatic download Python scripts are located in `Auto\Full-Auto` directory.
+### Auto\Full-Auto
 
 - `作业搜索.py`: For users to use, batch search various levels.
 
@@ -79,9 +83,13 @@ The automatic download Python scripts are located in `Auto\Full-Auto` directory.
 
 - `主线一键下载.py`: Automatically search for mainline stages (including H and S stages), Annihilation stages, and resource stages.
 - `悖论模拟模组任务搜索.py`: Automatically search for Contingency Contract and module tasks.
-- `module.py`: Automatically generate all module tasks.
+- `module.py`: Automatically get all module tasks.
 - `活动一键下载.py`: Automatically determine the currently open event and download.
-- `excel.py`: Automatically generate excel files.
+- `excel.py`: Automatically generate Contingency Contract and module task Excel files.
+
+### Auto\Full-Auto\tool
+
+- `convert_cache.py`: Convert old cache files to new cache files.
 
 ### CI
 
@@ -96,7 +104,7 @@ This workflow automatically executes the following programs daily:
 - [`ALL.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/ALL.py)
 - [`excel.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/excel.py)
 
-then generates JSON files, and creates Pull Requests.
+Generate files and create Pull Request.
 
 ## Naming Rules
 
