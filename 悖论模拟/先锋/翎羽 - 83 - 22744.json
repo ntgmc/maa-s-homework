@@ -1,0 +1,77 @@
+{
+    "actions": [
+        {
+            "type": "部署",
+            "name": "羽",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "安德切尔",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "kills": 45,
+            "name": "安德切尔"
+        },
+        {
+            "type": "撤退",
+            "kills": 46,
+            "name": "羽"
+        },
+        {
+            "type": "部署",
+            "name": "米格鲁",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "下"
+        }
+    ],
+    "stage_name": "mem_falco_1",
+    "doc": {
+        "title": "迅捷之羽",
+        "details": "作业更新日期: 2023-04-19T07:07:55Z\n统计更新日期: 2024-10-06\n好评率：83.33%  浏览量：455\n来源：作业代传——有问题联系原作者  ID：22744\n干员等级：翎羽精一55，一技能7级\n测试版本：395b2\n"
+    },
+    "opers": [
+        {
+            "name": "翎羽"
+        }
+    ],
+    "groups": [
+        {
+            "opers": [
+                {
+                    "name": "翎羽"
+                },
+                {
+                    "name": "领羽"
+                }
+            ],
+            "name": "羽"
+        }
+    ],
+    "minimum_required": "v4.0.0"
+}
