@@ -188,7 +188,7 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
                 percent = calculate_percent(item)
                 view = item.get('views', 0)
                 if percent >= score_threshold and view >= view_threshold:
-                    if compare_new_cache(cache_dict, "主线", cat_three, item['id'], item['upload_time']):
+                    if compare_cache(cache_dict, item['id'], item['upload_time'], cat_three):
                         # print(f"{item['id']} 未改变数据，无需更新")
                         download_amount += 1
                         continue
@@ -197,7 +197,8 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
                     content['doc']['details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
                     print(f"{file_path} {percent}% {view} 成功下载")
                     write_to_file(file_path, content)
-                    cache_dict = build_new_cache(cache_dict, "主线", cat_three, item['id'], item['upload_time'])
+                    cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], cat_three)
+                    # cache_dict = build_new_cache(cache_dict, "主线", cat_three, item['id'], item['upload_time'])
                     download_amount += 1
             if not download_amount:
                 if score_threshold > 50:

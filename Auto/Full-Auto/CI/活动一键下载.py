@@ -204,7 +204,7 @@ def less_filter_data(stage_dict, data, stage_id):
                 percent = calculate_percent(item)
                 view = item.get('views', 0)
                 if percent >= score_threshold and view >= view_threshold:
-                    if compare_new_cache(cache_dict, activity_name, cat_three, item['id'], item['upload_time']):
+                    if compare_cache(cache_dict, item['id'], item['upload_time'], cat_three):
                         # print(f"{item['id']} 未改变数据，无需更新")
                         download_amount += 1
                         continue
@@ -215,7 +215,7 @@ def less_filter_data(stage_dict, data, stage_id):
                     if os.path.exists(file_path):
                         os.remove(file_path)
                     write_to_file(file_path, content)
-                    cache_dict = build_new_cache(cache_dict, activity_name, cat_three, item['id'], item['upload_time'])
+                    cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], cat_three)
                     download_amount += 1
             if not download_amount:
                 if score_threshold > 50:
@@ -334,7 +334,6 @@ def build_complex_dict(data):
     return complex_dict
 
 
-# TODO: 如果缓存已存在作业未找到，将缓存的时间改为已删除，并在文件名前增加已删除，如果缓存已为已删除则不改变
 # 获取关卡数据，构建字典
 level_data = get_level_data()
 all_dict = build_complex_dict(level_data)
