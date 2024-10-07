@@ -47,6 +47,10 @@ def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
 
 
 def build_new_cache(_cache_dict, _type, _subtype, _id: str, now_upload_time: str):
+    if _type not in _cache_dict:
+        _cache_dict[_type] = {}
+    if _subtype not in _cache_dict[_type]:
+        _cache_dict[_type][_subtype] = {}
     _cache_dict[_type][_subtype][_id] = now_upload_time
     return _cache_dict
 

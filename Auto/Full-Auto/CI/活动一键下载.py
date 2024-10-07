@@ -16,7 +16,7 @@ no_result = []
 # 设置日期
 date = datetime.now().strftime('%Y-%m-%d')
 # 设置缓存路径
-cache = 'Auto/Full-Auto/cache/activity_cache.json'
+cache = 'Auto/Full-Auto/cache/new_cache.json'
 
 
 def write_to_file(file_path, content):
@@ -38,6 +38,10 @@ def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
 
 
 def build_new_cache(_cache_dict, _type, _subtype, _id: str, now_upload_time: str):
+    if _type not in _cache_dict:
+        _cache_dict[_type] = {}
+    if _subtype not in _cache_dict[_type]:
+        _cache_dict[_type][_subtype] = {}
     _cache_dict[_type][_subtype][_id] = now_upload_time
     return _cache_dict
 
