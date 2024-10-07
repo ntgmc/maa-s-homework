@@ -15,7 +15,7 @@ job_categories = ['先锋', '近卫', '重装', '狙击', '术师', '医疗', '�
 ids = []
 date = datetime.now().strftime('%Y-%m-%d')
 # 设置缓存路径
-cache = 'Auto/Full-Auto/cache/cache.json'
+cache = 'Auto/Full-Auto/cache/new_cache.json'
 
 
 def write_json_to_file(file_path, content):
