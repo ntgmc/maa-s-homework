@@ -1,0 +1,158 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_08-08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                10,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                11,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "快速复活",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Right",
+            "kills": 2
+        },
+        {
+            "type": "Retreat",
+            "name": "快速复活",
+            "location": [
+                9,
+                5
+            ],
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "重装",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Right",
+            "kills": 7
+        },
+        {
+            "type": "Retreat",
+            "name": "棘刺",
+            "location": [
+                10,
+                7
+            ],
+            "kills": 11
+        },
+        {
+            "type": "Retreat",
+            "name": "重装",
+            "location": [
+                9,
+                5
+            ],
+            "kills": 11
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "快速复活",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "重装",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第八章 怒号光明 - R8-8 - 人心，向背无常【澄闪模组任务】“辛劳之翼”",
+        "details": "作业更新日期: 2023-12-05T08:45:25Z\n统计更新日期: 2024-10-07\n好评率：83.07%  浏览量：8410\n来源：小卡拉帕鲁灰  ID：30666\n澄闪模组任务：“辛劳之翼”\n任务要求：3星通关主题曲R8-8;必须编入非助战澄闪并上场，且使用澄闪歼灭至少2名帝国炮火先兆者\n练度：精二90级专三，尽量用6星快活\n🐖是爱称\n测试通过"
+    },
+    "groups": [
+        {
+            "name": "快速复活",
+            "opers": [
+                {
+                    "name": "砾",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "缄默德克萨斯",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "麒麟R夜刀",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "重装",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "泥岩",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 1
+}

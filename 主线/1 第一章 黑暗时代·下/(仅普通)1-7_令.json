@@ -1,0 +1,79 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_01-07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                4
+            ],
+            "kills": 28
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "【自用】1-7堵门速刷令单核（修改版）",
+        "details": "作业更新日期: 2023-08-08T12:08:00Z\n统计更新日期: 2024-10-07\n好评率：90.0%  浏览量：1013\n来源：bobbyzhou1999  ID：25290\n61秒单人【明日方舟】无专无模组 令堵门1-7 速刷固源岩 信赖自律攻略 明日方舟 220228 —— 化学老施\nhttps://www.bilibili.com/video/BV1QY411L7H2/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=7272ef2170d34319ea9f0fb471848b55\n最低练度要求：精二1级 无专无模组\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 1
+}
