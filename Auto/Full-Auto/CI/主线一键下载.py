@@ -16,7 +16,7 @@ no_result = []
 # 设置日期
 date = datetime.now().strftime('%Y-%m-%d')
 # 设置缓存路径
-cache = 'Auto/Full-Auto/cache/new_cache.json'
+cache = 'Auto/Full-Auto/cache/cache.json'
 
 
 def makedir():
