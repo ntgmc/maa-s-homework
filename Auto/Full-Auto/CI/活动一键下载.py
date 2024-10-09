@@ -87,23 +87,24 @@ def get_activity_data():
                 response1 = requests.get("https://prts.wiki" + activity_page.get('href'))
                 soup = BeautifulSoup(response1.text, 'html.parser')
 
-                table1 = soup.find('table', {'class': 'wikitable', 'style': "white-space:normal;display:table;text-align:center;"})
-                rows1 = table1.find_all('tr')
-                for row1 in rows1[1:]:  # Skip the header row
-                    cols1 = row1.find_all('td')
-                    if len(cols1) < 3:
-                        continue
-                    task_page = cols1[0].find('a')
-                    if task_page:
-                        task_cat_three = task_page.get('title')
-                        if "ST" in task_cat_three:
+                # Find all tables that match the criteria
+                tables = soup.find_all('table', {'class': 'wikitable'})
+                # Iterate through each table
+                for table in tables:
+                    rows = table.find_all('tr')
+                    for row in rows[1:]:  # Skip the header row
+                        cols = row.find_all('td')
+                        if len(cols) < 3:
                             continue
-
-                        if task_cat_three:
-                            print(task_cat_three)
-                            task_stage_id = get_cat_three_info(cat_three_all_dict, task_cat_three, "stage_id")
-                            activity_id = extract_activity_from_stage_id(task_stage_id)
-                            break
+                        task_page = cols[0].find('a')
+                        if task_page:
+                            task_cat_three = task_page.get('title')
+                            if "ST" in task_cat_three:
+                                continue
+                            if task_cat_three:
+                                task_stage_id = get_cat_three_info(cat_three_all_dict, task_cat_three, "stage_id")
+                                activity_id = extract_activity_from_stage_id(task_stage_id)
+                                break
             elif status_span and "未开始" in status_span.text:
                 status = "未开始"
             activities[activity_name] = {'status': status, 'id': activity_id}
