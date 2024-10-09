@@ -1,0 +1,62 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_04-03",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "齐尔查克",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "塞雷娅",
+      "location": [
+        4,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "齐尔查克模组任务 - 4-3 - 原版开锁工具",
+    "details": "齐尔查克「原版开锁工具」模组任务\n战斗中非助战齐尔查克累计使用随机应变6次\n3星通关主题曲4-3；必须编入非助战齐尔查克并上场，其他成员不可编入先锋干员\nUP：雷欧奇卡斯\n原视频：https://www.bilibili.com/video/BV1vMHHeYEMW/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "齐尔查克",
+      "skill": 2,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 1
+}

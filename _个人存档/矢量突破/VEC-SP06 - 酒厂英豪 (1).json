@@ -1,0 +1,35 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act1vecb_sp06",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "史尔特尔",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "史尔特尔",
+      "pre_delay": 2500
+    }
+  ],
+  "doc": {
+    "title": "VEC-SP06 - 酒厂英豪",
+    "details": "MAA版本v5.7.0-beta.2以上才可使用\n需点开选人界面再开始\n原视频：https://www.bilibili.com/video/BV1wP4Le6EX4/\n史尔特尔\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "史尔特尔",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}

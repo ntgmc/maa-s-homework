@@ -25,7 +25,7 @@
     },
     {
       "type": "Deploy",
-      "name": "横沙",
+      "name": "衡沙",
       "location": [
         4,
         4
@@ -106,7 +106,7 @@
   "groups": [],
   "opers": [
     {
-      "name": "横沙",
+      "name": "衡沙",
       "skill": 2,
       "skill_usage": 1
     },

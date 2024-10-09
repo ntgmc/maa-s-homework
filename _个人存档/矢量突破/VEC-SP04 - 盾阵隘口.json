@@ -1,0 +1,57 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act1vecb_sp04",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "玛恩纳",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "克洛丝",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "玛恩纳",
+      "costs": 46
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "玛恩纳",
+      "skill_usage": 1
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "VEC-SP04 - 盾阵隘口",
+    "details": "需点开选人界面再开始\n玛恩纳\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "玛恩纳",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "克洛丝",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

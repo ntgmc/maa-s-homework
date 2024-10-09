@@ -1,0 +1,77 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_14-04",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "奶盾",
+      "location": [
+        1,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        1,
+        6
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "魔王",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "魔王模组任务 - 14-5（标准） - 故事的结局",
+    "details": "魔王「故事的结局」模组任务\n3星通关主题曲14-5标准实战环境；必须编入非助战魔王并上场，其他成员仅可编入近战位干员\nUP：涂绘天菜\n原视频：https://www.bilibili.com/video/BV1oh2PYcEpu/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [
+    {
+      "name": "奶盾",
+      "opers": [
+        {
+          "name": "塞雷娅",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "黍",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "临光",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "魔王",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

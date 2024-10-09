@@ -1,0 +1,35 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act1vecb_sp08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Skill",
+      "name": "艾雅法拉",
+      "costs": 21
+    }
+  ],
+  "doc": {
+    "title": "VEC-SP08 - 炮火泥潭",
+    "details": "MAA版本v5.7.0-beta.2以上才可使用\n需点开选人界面再开始\n原视频：https://www.bilibili.com/video/BV1pT4LeBEif/\n艾雅法拉\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "艾雅法拉",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}
