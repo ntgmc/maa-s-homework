@@ -1,0 +1,103 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act1vecb_08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                11,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "VEC-08 - 思绪之隙 满增益",
+        "details": "作业更新日期: 2024-10-03T13:09:49Z\n统计更新日期: 2024-10-09\n好评率：82.61%  浏览量：2557\n来源：CNZG  ID：41954\n\n满增益 非满勿用\n此版本为图图和挡四星熊的替换打法\n原作者萧然Q 作业作者CNZG\n原视频https://www.bilibili.com/video/BV1RrsoeBEfP?p=18&vd_source=0d457156a9c073cb9ef7fc09e1b1f94a\n\n\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
