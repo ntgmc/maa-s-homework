@@ -156,29 +156,62 @@
             "direction": "Down"
         },
         {
+            "type": "Skill",
+            "name": "白面鸮",
+            "location": [
+                10,
+                2
+            ],
+            "kills": 42,
+            "pre_delay": 10000
+        },
+        {
+            "type": "Deploy",
+            "name": "幻影",
+            "location": [
+                7,
+                1
+            ],
+            "pre_delay": 3000,
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "白面鸮",
+            "pre_delay": 53600,
+            "location": [
+                10,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "幻影",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "None"
+        },
+        {
             "type": "SkillDaemon"
         }
     ],
     "doc": {
-        "title": "第八章 怒号光明 - H8-4 - 狂夜行动-4（稳定挂机）（某些干员非高配会暴毙注意看作业描述）",
-        "details": "作业更新日期: 2024-05-06T05:42:49Z\n统计更新日期: 2024-06-21\n好评率：93.33%  浏览量：1040\n来源：欣特莱雅的佩洛  ID：37177\n参考作者视频链接https://www.bilibili.com/video/BV1Pp4y1A7oS（修改了一些站位）\nmaa作者：雪见璃\n由于是近卫驴所以无法使用maa的自动编队，需要手动编队\n刚需临光x模1和白面x模1，平均练度2603，棘刺需要精二80撑血量（作者使用精二70没抗住）\n测试挂机已过\n羊换成桑葚，蜜梅，临光换成黍"
+        "title": "第八章 怒号光明 - H8-4 - 狂夜行动-4（稳定挂机）低练修改自用",
+        "details": "作业更新日期: 2024-07-09T09:33:30Z\n统计更新日期: 2024-10-09\n好评率：95.45%  浏览量：1023\n来源：也曾炽热  ID：39256\n低配低练抗不住多加了几步操作\n参考作者视频链接https://www.bilibili.com/video/BV1Pp4y1A7oS（修改了一些站位）\nmaa作者：雪见璃\n由于是近卫驴所以无法使用maa的自动编队，需要手动编队\n刚需临光x模1和白面x模1，平均练度2603，棘刺需要精二80撑血量（作者使用精二70没抗住）\n测试挂机已过\n羊换成桑葚，蜜梅，临光换成黍"
     },
     "groups": [
         {
             "name": "行医",
             "opers": [
                 {
-                    "name": "桑葚",
+                    "name": "纯烬艾雅法拉",
                     "skill": 1,
                     "skill_usage": 0
                 },
                 {
                     "name": "蜜莓",
-                    "skill": 1,
-                    "skill_usage": 0
-                },
-                {
-                    "name": "纯烬艾雅法拉",
                     "skill": 1,
                     "skill_usage": 0
                 }
