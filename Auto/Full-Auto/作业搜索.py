@@ -513,8 +513,8 @@ def get_activity_data():
                 # Iterate through each table
                 for table in tables:
                     rows = table.find_all('tr')
-                    for row in rows[1:]:  # Skip the header row
-                        cols = row.find_all('td')
+                    for row1 in rows[1:]:  # Skip the header row
+                        cols = row1.find_all('td')
                         if len(cols) < 3:
                             continue
                         task_page = cols[0].find('a')
@@ -1050,10 +1050,11 @@ def settings_set():
     elif choose1 == "2":  # 下载配置
         choose2 = str(int_input("下载配置：\n1. 设置\n2. 查看配置\n请选择操作：", "b", 1, 2))
         if choose2 == "1":  # 设置下载配置
-            choose3 = ask_setting_num(setting, 'download')
-            if "download" not in setting:
-                setting["download"] = {}
-            setting["download"][choose3] = configure_download_settings()
+            choose3 = ask_setting_num(setting, 'download', True)
+            if choose3 != "b":
+                if "download" not in setting:
+                    setting["download"] = {}
+                setting["download"][choose3] = configure_download_settings()
         elif choose2 == "2":  # 查看下载配置
             if "download" in setting:
                 choose3 = ask_setting_num(setting, 'download', True)
