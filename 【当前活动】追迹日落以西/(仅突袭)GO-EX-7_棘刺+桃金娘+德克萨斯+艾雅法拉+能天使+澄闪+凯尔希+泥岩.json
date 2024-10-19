@@ -1,0 +1,167 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act37side_ex07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up",
+            "kills": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Up",
+            "costs": 36
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯",
+            "location": [
+                3,
+                6
+            ],
+            "pre_delay": 2
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "凯尔希",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down",
+            "kills": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "Mon3tr",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "凯尔希",
+            "location": [
+                7,
+                1
+            ],
+            "kills": 19
+        },
+        {
+            "type": "Output",
+            "doc_color": "SpringGreen",
+            "doc": "如果通关了，求求给凹作业的我点个赞吧~"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "【老干员好抄】GO-EX-7 - “休止角行动”",
+        "details": "作业更新日期: 2024-10-16T14:58:23Z\n统计更新日期: 2024-10-19\n好评率：94.34%  浏览量：1293\n来源：_AKI_  ID：42531\n棘刺需要2803专3，模组x2级（最低）不然飞机打不死，模组2级的叠伤很重要\n泥岩需要2602专3\n其余默认260x以上\n实测稳定通过"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "凯尔希",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 2
+}
