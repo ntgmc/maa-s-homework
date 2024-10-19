@@ -1065,16 +1065,17 @@ def settings_set():
         choose2 = str(int_input("干员配置：\n1. 设置\n2. 查看配置\n请选择操作：", "b", 1, 2))
         if choose2 == "1":  # 设置干员配置
             choose3 = ask_setting_num(setting, 'operator', show_name=False)
-            input(f"正在设置: 配置 {choose3} , 请使用MAA干员识别工具并复制到剪贴板\n按回车键继续\n")
-            os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
-            clipboard_content = pyperclip.paste()
-            if is_valid_json(clipboard_content):  # 检查是否为有效的JSON
-                if "operator" not in setting:
-                    setting["operator"] = {}
-                setting["operator"][choose3] = json.loads(clipboard_content)
-                print(f"干员配置 {choose3} 已保存, 共有 {len(setting['operator'][choose3])} 个干员")
-            else:
-                print("无效的JSON数据, 请重新设置")
+            if choose3 != "b":
+                input(f"正在设置: 配置 {choose3} , 请使用MAA干员识别工具并复制到剪贴板\n按回车键继续\n")
+                os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
+                clipboard_content = pyperclip.paste()
+                if is_valid_json(clipboard_content):  # 检查是否为有效的JSON
+                    if "operator" not in setting:
+                        setting["operator"] = {}
+                    setting["operator"][choose3] = json.loads(clipboard_content)
+                    print(f"干员配置 {choose3} 已保存, 共有 {len(setting['operator'][choose3])} 个干员")
+                else:
+                    print("无效的JSON数据, 请重新设置")
         elif choose2 == "2":  # 查看干员配置
             if "operator" in setting:
                 choose3 = ask_setting_num(setting, 'operator', True, False)
