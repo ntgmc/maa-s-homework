@@ -111,9 +111,9 @@ def add_level_data(ld):
     :param ld: 关卡数据
     :return: 无返回值
     """
-    if not os.path.exists("cache/add_level.json"):
+    if not os.path.exists("Auto/Full-Auto/cache/add_level.json"):
         return ld
-    with open("cache/add_level.json", 'r', encoding='utf-8') as f:
+    with open("Auto/Full-Auto/cache/add_level.json", 'r', encoding='utf-8') as f:
         add_data = json.load(f)
     ld = ld + add_data
     # write_to_file("log/new_level_data.json", ld, True)
