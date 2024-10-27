@@ -694,7 +694,26 @@ def load_level_data():
     _level_data = get_level_data()
     # write_to_file("log/level_data_temp.json", _level_data, True)
     log_message("Successfully retrieved online level data. 成功获取在线关卡数据")
+    _level_data = add_level_data(_level_data)
+    log_message("Successfully added additional level data. 成功添加额外关卡数据")
     return _level_data
+
+
+def add_level_data(ld):
+    """
+    添加关卡数据
+    :param ld: 关卡数据
+    :return: 无返回值
+    """
+    log_message("Function 函数: add_level_data", logging.DEBUG, False)
+    if not os.path.exists("cache/add_level.json"):
+        log_message("Additional level data not found. 未找到额外关卡数据", logging.ERROR)
+        return ld
+    with open("cache/add_level.json", 'r', encoding='utf-8') as f:
+        add_data = json.load(f)
+    ld = ld + add_data
+    # write_to_file("log/new_level_data.json", ld, True)
+    return ld
 
 
 def load_settings():

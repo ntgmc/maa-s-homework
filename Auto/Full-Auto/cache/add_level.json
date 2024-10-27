@@ -1,0 +1,42 @@
+[
+    {
+        "level_id": "obt/main/level_sub_09-1-3",
+        "stage_id": "sub_09-1-3",
+        "cat_one": "主题曲",
+        "cat_two": "第九章 风暴瞭望",
+        "cat_three": "S9-3（标准）",
+        "name": "灰烬之下",
+        "width": 0,
+        "height": 0
+    },
+    {
+        "level_id": "obt/main/level_sub_09-1-4",
+        "stage_id": "sub_09-1-4",
+        "cat_one": "主题曲",
+        "cat_two": "第九章 风暴瞭望",
+        "cat_three": "S9-4（标准）",
+        "name": "退无可退",
+        "width": 0,
+        "height": 0
+    },
+    {
+        "level_id": "obt/main/level_easy_sub_09-1-3",
+        "stage_id": "easy_sub_09-1-3",
+        "cat_one": "主题曲",
+        "cat_two": "第九章 风暴瞭望",
+        "cat_three": "S9-3（简单）",
+        "name": "灰烬之下",
+        "width": 0,
+        "height": 0
+    },
+    {
+        "level_id": "obt/main/level_easy_sub_09-1-4",
+        "stage_id": "easy_sub_09-1-4",
+        "cat_one": "主题曲",
+        "cat_two": "第九章 风暴瞭望",
+        "cat_three": "S9-4（简单）",
+        "name": "退无可退",
+        "width": 0,
+        "height": 0
+    }
+]

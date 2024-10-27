@@ -289,7 +289,22 @@ def get_level_data():
     :return: 关卡数据
     """
     response = requests.get('https://prts.maa.plus/arknights/level')
-    return response.json()['data'] if response.ok else []
+    return add_level_data(response.json()['data']) if response.ok else []
+
+
+def add_level_data(ld):
+    """
+    添加关卡数据
+    :param ld: 关卡数据
+    :return: 无返回值
+    """
+    if not os.path.exists("cache/add_level.json"):
+        return ld
+    with open("cache/add_level.json", 'r', encoding='utf-8') as f:
+        add_data = json.load(f)
+    ld = ld + add_data
+    # write_to_file("log/new_level_data.json", ld, True)
+    return ld
 
 
 def build_activity_dict(data, act_id, _dict=None, key="stage_id"):
