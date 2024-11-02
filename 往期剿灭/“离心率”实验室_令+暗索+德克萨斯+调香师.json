@@ -1,0 +1,416 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_22",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "调香师",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "暗索",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "kills": 7
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "kills": 27
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "kills": 80,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down",
+            "kills": 100
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "kills": 155,
+            "pre_delay": 1500
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "kills": 157
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "kills": 186
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "kills": 189,
+            "pre_delay": 500
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 196
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "kills": 218,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                4
+            ],
+            "kills": 235,
+            "pre_delay": 5000,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "kills": 259
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "kills": 264,
+            "pre_delay": 4000
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "kills": 285
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "kills": 293
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 299,
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "kills": 303
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "kills": 323
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "kills": 339,
+            "pre_delay": 300
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "kills": 342,
+            "pre_delay": 3000
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 346
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "kills": 347,
+            "pre_delay": 1500
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 348
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "kills": 349
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "kills": 350,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "kills": 361
+        },
+        {
+            "type": "Retreat",
+            "name": "暗索",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 365
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "kills": 368
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                4
+            ],
+            "kills": 375,
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯",
+            "location": [
+                7,
+                1
+            ],
+            "kills": 383
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "kills": 384
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 385
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 389,
+            "pre_delay": 500
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "调香师",
+            "kills": 398
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                3
+            ],
+            "kills": 399,
+            "pre_delay": 1000,
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "哥伦比亚 - “离心率”实验室 - “离心率”实验室 令单核低配",
+        "details": "作业更新日期: 2024-05-07T01:06:22Z\n统计更新日期: 2024-11-02\n好评率：81.25%  浏览量：1161\n来源：White_Head  ID：37219\n【[“离心率”实验室] 令单核 400杀  半挂机 极致省手 语音详解｜浅予】 https://www.bilibili.com/video/BV17m411C7ms/?share_source=copy_web&vd_source=0ed14d23e29c643535eeeb2d2b664251\n可以把德克萨斯换成更低星的先锋，原作用的芬也是够用的\n调香师最好是开了模组的，因为我是开了的，不确定不开模能不能过（）\n然后最好是用内测版的maa并且开启mumu截图增强模式，不确定高截图延迟能不能正常作业"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "暗索",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "调香师",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
