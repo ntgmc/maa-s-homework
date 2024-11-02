@@ -1,0 +1,221 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_25",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "先锋",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "术师",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "重装",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Output",
+            "doc_color": "SpringGreen",
+            "doc": "Ciallo～(∠・ω< )⌒★"
+        },
+        {
+            "type": "Output",
+            "doc_color": "DarkRed",
+            "doc": "Ciallo～(∠・ω< )⌒★"
+        },
+        {
+            "type": "Output",
+            "doc_color": "DeepSkyBlue",
+            "doc": "Ciallo～(∠・ω< )⌒★"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "哥伦比亚 - 66号航道",
+        "details": "作业更新日期: 2024-10-28T03:02:25Z\n统计更新日期: 2024-11-02\n好评率：96.64%  浏览量：5386\n来源：萨扌立托加  ID：42828\n原作者自在道爷 JSON作者萨扌立托加\n\n作业交流群群号1003478193，可蹲作业，有问题进群找萨拉托加，作业站消息没提醒看不到\n\n【【明日方舟】66号航道挂机流，新剿灭摆完就过！语音快乐详解，轻松解放双手 | 剿灭委托400杀】 https://www.bilibili.com/video/BV1yx1VYaEpM/?share_source=copy_web&vd_source=915b3f132d69465ad53694d5846531c9   🌷"
+    },
+    "groups": [
+        {
+            "name": "先锋",
+            "opers": [
+                {
+                    "name": "谜图",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "伊内丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "重装",
+            "opers": [
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "年",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "术师",
+            "opers": [
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
