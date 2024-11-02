@@ -1,4 +1,5 @@
 from openpyxl import load_workbook
+from openpyxl.styles import Alignment
 import os
 import datetime
 import pytz
@@ -112,9 +113,31 @@ class DoExcel:
             for col_idx, value in enumerate(row_data, start=start_column):
                 if isinstance(value, list):
                     for sub_col_idx, sub_value in enumerate(value, start=col_idx):
-                        sheet.cell(row=row_idx, column=sub_col_idx, value=sub_value)
+                        cell = sheet.cell(row=row_idx, column=sub_col_idx, value=sub_value)
+                        cell.alignment = Alignment(horizontal='center')
                 else:
-                    sheet.cell(row=row_idx, column=col_idx, value=value)
+                    cell = sheet.cell(row=row_idx, column=col_idx, value=value)
+                    cell.alignment = Alignment(horizontal='center')
+
+        wb.save(self.file_name)
+
+    def write_data_center(self, data, start_column=1, center_columns=None):
+        if center_columns is None:
+            center_columns = []
+        wb = load_workbook(self.file_name)
+        sheet = wb[self.sheet_name]
+
+        for row_idx, row_data in enumerate(data, start=1):
+            for col_idx, value in enumerate(row_data, start=start_column):
+                if isinstance(value, list):
+                    for sub_col_idx, sub_value in enumerate(value, start=col_idx):
+                        cell = sheet.cell(row=row_idx, column=sub_col_idx, value=sub_value)
+                        if sub_col_idx in center_columns:
+                            cell.alignment = Alignment(horizontal='center')
+                else:
+                    cell = sheet.cell(row=row_idx, column=col_idx, value=value)
+                    if col_idx in center_columns:
+                        cell.alignment = Alignment(horizontal='center')
 
         wb.save(self.file_name)
 
@@ -123,7 +146,12 @@ class DoExcel:
             self.write_data(sub_list, start_column=i * 4 - 3)
 
     def write_module_data(self, data):
-        self.write_data(data)
+        center_columns = [1, 2, 3]
+        self.write_data_center(data, center_columns=center_columns)
+
+    def write_module_task_data(self, data):
+        center_columns = [1, 2]
+        self.write_data_center(data, center_columns=center_columns)
 
 
 if __name__ == '__main__':
@@ -142,7 +170,7 @@ if __name__ == '__main__':
 
     module_task = DoTxt('Auto/Full-Auto/CI/module.txt').read_module_task_lines()
     # print(module_task)
-    DoExcel("Excel/模组任务.xlsx", "Sheet1").write_module_data(module_task)
+    DoExcel("Excel/模组任务.xlsx", "Sheet1").write_module_task_data(module_task)
 
     module_develop = DoTxt('Auto/Full-Auto/CI/module_develop.txt').read_module_develop_lines()
     # print(module_develop)
