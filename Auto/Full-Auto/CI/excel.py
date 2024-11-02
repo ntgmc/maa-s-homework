@@ -105,7 +105,7 @@ class DoExcel:
             test_data.append(sub_data)
         return test_data
 
-    def write_data(self, data, start_column=1):
+    def write_data_all_center(self, data, start_column=1, wrap_text=False):
         wb = load_workbook(self.file_name)
         sheet = wb[self.sheet_name]
 
@@ -114,14 +114,20 @@ class DoExcel:
                 if isinstance(value, list):
                     for sub_col_idx, sub_value in enumerate(value, start=col_idx):
                         cell = sheet.cell(row=row_idx, column=sub_col_idx, value=sub_value)
-                        cell.alignment = Alignment(horizontal='center')
+                        if wrap_text:
+                            cell.alignment = Alignment(horizontal='center', vertical='center', wrap_text=True)
+                        else:
+                            cell.alignment = Alignment(horizontal='center', vertical='center')
                 else:
                     cell = sheet.cell(row=row_idx, column=col_idx, value=value)
-                    cell.alignment = Alignment(horizontal='center')
+                    if wrap_text:
+                        cell.alignment = Alignment(horizontal='center', vertical='center', wrap_text=True)
+                    else:
+                        cell.alignment = Alignment(horizontal='center', vertical='center')
 
         wb.save(self.file_name)
 
-    def write_data_center(self, data, start_column=1, center_columns=None):
+    def write_data_set_center(self, data, start_column=1, center_columns=None):
         if center_columns is None:
             center_columns = []
         wb = load_workbook(self.file_name)
@@ -141,17 +147,41 @@ class DoExcel:
 
         wb.save(self.file_name)
 
+    def clear_merge_column(self, column):
+        wb = load_workbook(self.file_name)
+        sheet = wb[self.sheet_name]
+        for merge in list(sheet.merged_cells.ranges):
+            if merge.min_col == column:
+                sheet.unmerge_cells(str(merge))
+        wb.save(self.file_name)
+
+    def merge_cells(self, merge_ranges):
+        wb = load_workbook(self.file_name)
+        sheet = wb[self.sheet_name]
+        for merge_range in merge_ranges:
+            sheet.merge_cells(merge_range)
+
+        wb.save(self.file_name)
+
     def write_paradox_data(self, data):
+        date_data = [
+            ['*为好评率不高于80%,**为好评率不高于50%，***为好评率不高于30%'], [], [], [],
+            [' "-" 为该干员没有悖论模拟'], [], [],
+            [f'更新日期：{date}']]
+        merge_ranges = ['A1:A4', 'A5:A7', 'A8:A10']  # 合并单元格范围
+        self.clear_merge_column(1)
+        self.write_data_all_center(date_data, wrap_text=True)
+        self.merge_cells(merge_ranges)
         for i, sub_list in enumerate(data, start=1):
-            self.write_data(sub_list, start_column=i * 4 - 3)
+            self.write_data_all_center(sub_list, start_column=i * 4 - 2)
 
     def write_module_data(self, data):
         center_columns = [1, 2, 3]
-        self.write_data_center(data, center_columns=center_columns)
+        self.write_data_set_center(data, center_columns=center_columns)
 
     def write_module_task_data(self, data):
         center_columns = [1, 2]
-        self.write_data_center(data, center_columns=center_columns)
+        self.write_data_set_center(data, center_columns=center_columns)
 
 
 if __name__ == '__main__':
