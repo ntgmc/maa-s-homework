@@ -237,10 +237,6 @@ def search_module(name, stage):
                     ids.append(int(item['id']))
                 if total > 1 and percent >= download_score_threshold or total == 1:
                     items_to_download.append((percent, item))
-                if not ids_user:
-                    ids_user = ["None"]
-                if not ids_develop:
-                    ids_develop = ["None"]
             if download_mode and job:
                 # 对列表按照评分进行排序，评分最高的在前面
                 items_to_download.sort(key=lambda x: x[0], reverse=True)
@@ -261,7 +257,7 @@ def search_module(name, stage):
                     cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-模组")
                     # cache_dict = build_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time'])
             print(f"成功搜索 {name} - {stage}")
-            return name, stage, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user), all_below_threshold
+            return name, stage, len(ids_develop), len(ids_user), ', '.join(ids_develop) if ids_develop else 'None', ', '.join(ids_user) if ids_user else 'None', all_below_threshold
         else:
             return name, stage, 0, 0, "None", "None", False
     else:
