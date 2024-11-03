@@ -224,16 +224,23 @@ def search_module(name, stage):
             ids_develop = []
             ids_user = []
             items_to_download = []
+            all_below_threshold = True
             for item in data['data']['data']:
                 percent = calculate_percent(item)
                 if percent > 0:
                     ids_develop.append(code_output(percent, item['id'], 1))
                     if percent >= 50:
                         ids_user.append(code_output(percent, item['id'], 2))
+                    if percent >= download_score_threshold:
+                        all_below_threshold = False
                 elif item['uploader'] == '作业代传——有问题联系原作者':
                     ids.append(int(item['id']))
                 if total > 1 and percent >= download_score_threshold or total == 1:
                     items_to_download.append((percent, item))
+                if not ids_user:
+                    ids_user = ["None"]
+                if not ids_develop:
+                    ids_develop = ["None"]
             if download_mode and job:
                 # 对列表按照评分进行排序，评分最高的在前面
                 items_to_download.sort(key=lambda x: x[0], reverse=True)
@@ -254,12 +261,12 @@ def search_module(name, stage):
                     cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-模组")
                     # cache_dict = build_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time'])
             print(f"成功搜索 {name} - {stage}")
-            return name, stage, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
+            return name, stage, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user), all_below_threshold
         else:
-            return name, stage, 0, 0, "None", "None"
+            return name, stage, 0, 0, "None", "None", False
     else:
         print(f"请求失败！ERR_CONNECTION_REFUSED in search({name} - {stage})")
-        return name, stage, 0, 0, "None", "None"
+        return name, stage, 0, 0, "None", "None", False
 
 
 def extract_tr_contents(html_content):
@@ -399,8 +406,8 @@ def main_module():
     output_lines_develop = []
     output_lines_user = []
     for index, result in results:
-        result_name, result_stage, id_count_develop, id_count_user, str_ids_develop, str_ids_user = result
-        output_lines_develop.append(f"{result_name}\t{result_stage}\t{id_count_develop}\t{str_ids_develop}\n")
+        result_name, result_stage, id_count_develop, id_count_user, str_ids_develop, str_ids_user, all_below_threshold = result
+        output_lines_develop.append(f"{result_name}\t{result_stage}\t{id_count_develop}\t{str_ids_develop}\t{all_below_threshold}\n")
         output_lines_user.append(f"{result_name}\t{result_stage}\t{id_count_user}\t{str_ids_user}\n")
     with open(output_file_develop, 'w', encoding='utf-8') as output_develop, open(output_file_user, 'w',
                                                                                   encoding='utf-8') as output_user:

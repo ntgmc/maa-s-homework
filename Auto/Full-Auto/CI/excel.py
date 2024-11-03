@@ -1,5 +1,5 @@
 from openpyxl import load_workbook
-from openpyxl.styles import Alignment
+from openpyxl.styles import Alignment, PatternFill
 import os
 import datetime
 import pytz
@@ -50,15 +50,13 @@ class DoTxt:
             oper = parts[0]
             level = parts[1]
             num = parts[2]
-            try:
-                codes = parts[3]
-            except IndexError:
-                codes = 'None'
+            codes = parts[3]
             data.append([oper, level, num, codes])
         return data
 
     def read_module_develop_lines(self):
         data = [[f'更新日期：{date}'], ['干员', '关卡', '数量', '代码', '内容']]
+        data2 = [['False'], ['False']]
         with open(self.file_name, "r", encoding="utf-8") as f:
             lines = f.readlines()
         i = 1
@@ -67,14 +65,13 @@ class DoTxt:
             oper = parts[0]
             level = parts[1]
             num = parts[2]
-            try:
-                codes = parts[3]
-            except IndexError:
-                codes = 'None'
+            codes = parts[3]
+            all_below_threshold = parts[4]
             content = module_task[i + 1][2]
             data.append([oper, level, num, codes, content])
+            data2.append([all_below_threshold])
             i += 1
-        return data
+        return data, data2
 
     def read_module_task_lines(self):
         data = [[f'更新日期：{date}'], ['干员', '关卡', '内容']]
@@ -147,6 +144,24 @@ class DoExcel:
 
         wb.save(self.file_name)
 
+    def write_module_develop_data(self, data, data2):
+        center_columns = [1, 2, 3]
+        wb = load_workbook(self.file_name)
+        sheet = wb[self.sheet_name]
+
+        yellow_fill = PatternFill(start_color="FFFF00", end_color="FFFF00", fill_type="solid")
+
+        for row_idx, (row_data, row_data2) in enumerate(zip(data, data2), start=1):
+            for col_idx, value in enumerate(row_data, start=1):
+                cell = sheet.cell(row=row_idx, column=col_idx, value=value)
+                if col_idx in center_columns:
+                    cell.alignment = Alignment(horizontal='center')
+                if row_data2[0] == "True":  # Assuming data2 contains a list of lists with one element
+                    for col in range(1, len(row_data) + 1):
+                        sheet.cell(row=row_idx, column=col).fill = yellow_fill
+
+        wb.save(self.file_name)
+
     def clear_merge_column(self, column):
         wb = load_workbook(self.file_name)
         sheet = wb[self.sheet_name]
@@ -202,9 +217,9 @@ if __name__ == '__main__':
     # print(module_task)
     DoExcel("Excel/模组任务.xlsx", "Sheet1").write_module_task_data(module_task)
 
-    module_develop = DoTxt('Auto/Full-Auto/CI/module_develop.txt').read_module_develop_lines()
+    module_develop, data2 = DoTxt('Auto/Full-Auto/CI/module_develop.txt').read_module_develop_lines()
     # print(module_develop)
-    DoExcel("Excel/模组任务干员名单作者版.xlsx", "Sheet1").write_module_data(module_develop)
+    DoExcel("Excel/模组任务干员名单作者版.xlsx", "Sheet1").write_module_develop_data(module_develop, data2)
 
     module_user = DoTxt('Auto/Full-Auto/CI/module_user.txt').read_module_user_lines()
     # print(module_user)
