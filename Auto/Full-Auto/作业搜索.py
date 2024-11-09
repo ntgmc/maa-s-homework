@@ -519,7 +519,7 @@ def get_activity_data():
                             continue
                         task_page = cols[0].find('a')
                         if task_page:
-                            task_cat_three = task_page.get('title')
+                            task_cat_three = task_page.get('title', [])
                             if "ST" in task_cat_three:
                                 continue
                             if task_cat_three:
