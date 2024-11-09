@@ -150,6 +150,7 @@ class DoExcel:
         sheet = wb[self.sheet_name]
 
         yellow_fill = PatternFill(start_color="FFFF00", end_color="FFFF00", fill_type="solid")
+        no_fill = PatternFill(fill_type=None)
 
         for row_idx, (row_data, row_data2) in enumerate(zip(data, data2), start=1):
             for col_idx, value in enumerate(row_data, start=1):
@@ -159,6 +160,9 @@ class DoExcel:
                 if row_data2[0] == "True":  # Assuming data2 contains a list of lists with one element
                     for col in range(1, len(row_data) + 1):
                         sheet.cell(row=row_idx, column=col).fill = yellow_fill
+                else:
+                    for col in range(1, len(row_data) + 1):
+                        sheet.cell(row=row_idx, column=col).fill = no_fill
 
         wb.save(self.file_name)
 
