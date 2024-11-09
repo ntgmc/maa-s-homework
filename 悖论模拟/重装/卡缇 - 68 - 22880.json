@@ -1,0 +1,289 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_ardign_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "doc_color": "#6f42c1",
+            "doc": "1. 地雷炸传令兵 蓝门放卡缇",
+            "name": "干扰地雷",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "卡缇",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "None",
+            "doc_color": "#6f42c1",
+            "doc": "2. 清上方狗"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "doc": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "None",
+            "doc_color": "#6f42c1",
+            "doc": "3. 炸传令兵"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "None",
+            "doc_color": "DeepSkyBlue",
+            "doc": "> 卡提上 爆炸"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "name": "干扰地雷",
+            "type": "Deploy",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "None",
+            "doc_color": "DeepSkyBlue",
+            "doc": "> 中间红门爆炸"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "None",
+            "doc_color": "#6f42c1",
+            "doc": "4. 首杀 清左边狗"
+        },
+        {
+            "type": "Deploy",
+            "doc": "",
+            "name": "干扰地雷",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Output",
+            "doc_color": "DeepSkyBlue",
+            "doc": "> 卡提左 爆炸 3杀"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "None",
+            "doc_color": "#6f42c1",
+            "doc": "5. 三杀 清下方狗"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "doc": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "None",
+            "doc": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "doc": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "None",
+            "doc_color": "#6f42c1",
+            "doc": "6. 八杀 最后五个炮手"
+        },
+        {
+            "type": "Deploy",
+            "doc": "",
+            "name": "干扰地雷",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "location": [
+                5,
+                4
+            ],
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                9,
+                4
+            ],
+            "name": "干扰地雷",
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "None",
+            "kills": 10,
+            "doc_color": "#6f42c1",
+            "doc": "7. 十杀 补地雷"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰地雷",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "None",
+            "doc": ""
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "卡缇-悖论模拟-都放下来！",
+        "details": "作业更新日期: 2024-10-12T12:31:34Z\n统计更新日期: 2024-11-09\n好评率：68.67%  浏览量：4699\n来源：VisualMod  ID：22880\n1-7级技能皆可，已修改并测试。30帧请调成1倍速。\n悖论模拟需要在MAA中关闭“自动编队”，在游戏中选好卡缇一技能显示“开始模拟”，即可启用自动作战。\n作者：VisualMod。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "卡缇",
+            "skill_usage": 1,
+            "skill": 1
+        }
+    ]
+}

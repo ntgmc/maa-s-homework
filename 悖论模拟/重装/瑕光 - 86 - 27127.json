@@ -1,0 +1,79 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_blemsh_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "瑕光",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "鞭刃",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "临光",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "kills": 17,
+            "name": "鞭刃"
+        },
+        {
+            "type": "Skill",
+            "name": "瑕光"
+        },
+        {
+            "type": "Deploy",
+            "name": "轰隆隆先生",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "轰隆隆先生",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "None",
+            "pre_delay": 100
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "自用 瑕光 陷阵之志",
+        "details": "作业更新日期: 2023-08-28T12:17:41Z\n统计更新日期: 2024-11-09\n好评率：86.02%  浏览量：2299\n来源：YajuuSenpai  ID：27127\n瑕光带三技能，自测精2 Lv.1 3 技能 7 级可以过"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "瑕光",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

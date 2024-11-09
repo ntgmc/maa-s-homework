@@ -1,0 +1,129 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_04-07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "行医",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "速射手",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞or黍",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯",
+            "location": [
+                2,
+                4
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第四章 急性衰竭 - 4-7 - 各取所需【拉普兰德模组任务】",
+        "details": "作业更新日期: 2024-05-02T02:33:12Z\n统计更新日期: 2024-11-09\n好评率：87.9%  浏览量：4366\n来源：小卡拉帕鲁灰  ID：36644\n由非助战拉普兰德累计造成80000点伤害 \n3星通关主题曲4-7；必须编入非助战拉普兰德并上场，并使用拉普兰德至少击败10名高能源石虫"
+    },
+    "groups": [
+        {
+            "name": "塞or黍",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "行医",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "速射手",
+            "opers": [
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "能天使",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}
