@@ -1,0 +1,51 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_cello_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "kills": 0
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 4
+        },
+        {
+            "type": "Skill",
+            "name": "塑心",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 4
+        },
+        {
+            "type": "Skill",
+            "name": "塑心",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 37,
+            "pre_delay": 10000
+        }
+    ],
+    "doc": {
+        "title": "【塑心/阿尔图罗】悖论模拟 - 魔鬼的低语",
+        "details": "作业更新日期: 2024-11-05T01:00:45Z\n统计更新日期: 2024-11-09\n好评率：95.35%  浏览量：1768\n来源：LobsterJam  ID：42979\n测试已通过。\n自用 lv90三技能专三。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "塑心",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}
