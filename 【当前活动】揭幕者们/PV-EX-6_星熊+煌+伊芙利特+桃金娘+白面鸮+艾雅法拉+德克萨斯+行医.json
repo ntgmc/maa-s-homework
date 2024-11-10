@@ -1,0 +1,134 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act38side_ex06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                12,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "行医",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                11,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "PV-EX-6 - 巡演大街",
+        "details": "作业更新日期: 2024-11-09T13:45:24Z\n统计更新日期: 2024-11-10\n好评率：97.85%  浏览量：2161\n来源：星之海.  ID：43318\n注意，星熊请带挡4y模组\n\n此作业全员专三且模组一级，不带任何烟花\n原作者：自在道爷\nJSON作者：星之海.\n社区评论不会提醒，有问题可以进群找我：994516079（刚建的\n原视频：【【揭幕者们】PV-EX-1至PV-EX-8挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(分p更新中)】https://www.bilibili.com/video/BV17rDZYZERZ?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+    },
+    "groups": [
+        {
+            "name": "行医",
+            "opers": [
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
