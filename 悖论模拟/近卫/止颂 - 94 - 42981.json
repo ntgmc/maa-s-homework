@@ -1,0 +1,69 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_lessng_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "止颂",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 2
+        },
+        {
+            "type": "Skill",
+            "name": "止颂",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 4,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "斑点",
+            "location": [
+                1,
+                2
+            ],
+            "kills": 5,
+            "pre_delay": 6000
+        },
+        {
+            "type": "Skill",
+            "name": "止颂",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 11
+        },
+        {
+            "type": "Skill",
+            "name": "芙蓉",
+            "location": [
+                1,
+                1
+            ],
+            "kills": 14
+        }
+    ],
+    "doc": {
+        "title": "【止颂】悖论模拟 - 巨剑的锋芒",
+        "details": "作业更新日期: 2024-11-05T01:01:19Z\n统计更新日期: 2024-11-15\n好评率：94.74%  浏览量：559\n来源：LobsterJam  ID：42981\n测试已通过。\n自用 lv70 三技能专三，\n理论7级技能够用。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "止颂",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}
