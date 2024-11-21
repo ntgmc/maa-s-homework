@@ -1,0 +1,256 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act38side_s05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                11,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "琴柳",
+            "location": [
+                11,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left",
+            "costs": 25
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "琴柳",
+            "location": [
+                11,
+                6
+            ],
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                11,
+                7
+            ],
+            "costs": 17
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                7,
+                5
+            ],
+            "pre_delay": 10000
+        },
+        {
+            "type": "Skill",
+            "name": "银灰",
+            "location": [
+                8,
+                5
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "澄闪",
+            "kills": 26,
+            "skill_usage": 1
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "kills": 27,
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "澄闪",
+            "skill_usage": 0,
+            "kills": 32
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                7,
+                5
+            ],
+            "kills": 43
+        },
+        {
+            "type": "SkillUsage",
+            "pre_delay": 6000,
+            "name": "澄闪",
+            "skill_usage": 1
+        },
+        {
+            "type": "Skill",
+            "name": "银灰",
+            "location": [
+                8,
+                5
+            ],
+            "kills": 46
+        },
+        {
+            "type": "SkillUsage",
+            "name": "玛恩纳",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "PV-S-5 普通 2903全员模组 “简单好抄” 需要烟花 无“新干员”",
+        "details": "作业更新日期: 2024-11-16T13:28:07Z\n统计更新日期: 2024-11-21\n好评率：83.33%  浏览量：1002\n来源：黄焖鸡烤串  ID：43663\n【PV-S-5 普通突袭通用 简单好抄（无新干员）】 https://www.bilibili.com/video/BV14AUAYEERY/?share_source=copy_web&vd_source=c78db16d4219c0ef1868cc15bee82082\nJSON作者：黄焖鸡烤串\n所有干员均2903开启模组，\n烟花排列\n⬛⬛⬛🟩⬛⬛⬛\n\n⬛⬛🟩🟩🟩⬛⬛\n\n⬛🟩🟩⬛⬛⬛⬛\n\n🟩🟩⬛🎇⬛⬛⬛\n\n⬛🟩🟩⬛⬛⬛⬛\n\n⬛⬛🟩🟩🟩⬛⬛\n\n⬛⬛⬛🟩⬛⬛⬛\n风笛，小羊为挂件"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "琴柳",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}
