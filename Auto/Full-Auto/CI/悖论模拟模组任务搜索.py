@@ -42,7 +42,14 @@ def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
 
 
 def build_new_cache(_cache_dict, _type, _subtype, _id: str, now_upload_time: str):
-    _cache_dict[_type][_subtype][_id] = now_upload_time
+    if _type not in _cache_dict:
+        _cache_dict[_type] = {}
+    if _subtype not in _cache_dict[_type]:
+        _cache_dict[_type][_subtype] = {}
+    if _id not in _cache_dict[_type][_subtype]:
+        _cache_dict[_type][_subtype][_id] = now_upload_time
+    else:
+        print(f"Duplicate key found: {_type} -> {_subtype} -> {_id}")
     return _cache_dict
 
 
@@ -171,12 +178,15 @@ def filter_paradox(data, name, _job):
         ids_develop = []
         ids_user = []
         items_to_download = []
+        all_below_threshold = True
         for item in all_data:
             percent = calculate_percent(item)
             if percent > 0:
                 ids_develop.append(code_output(percent, item['id'], 1))
                 if percent >= 20:
                     ids_user.append(code_output(percent, item['id'], 2))
+                if percent >= download_score_threshold:
+                    all_below_threshold = False
             if total > 1 and percent >= download_score_threshold or total == 1:
                 items_to_download.append((percent, item))
         if download_mode and _job:
@@ -199,9 +209,9 @@ def filter_paradox(data, name, _job):
                 cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论")
                 # cache_dict = build_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time'])
         print(f"成功搜索 {_job} - {name}")
-        return name, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user)
+        return name, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user), all_below_threshold
     else:
-        return name, 0, 0, "None", "None"
+        return name, 0, 0, "None", "None", False
 
 
 def search_module(name, stage):

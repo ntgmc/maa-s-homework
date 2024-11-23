@@ -38,7 +38,14 @@ def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
 
 
 def build_new_cache(_cache_dict, _type, _subtype, _id: str, now_upload_time: str):
-    _cache_dict[_type][_subtype][_id] = now_upload_time
+    if _type not in _cache_dict:
+        _cache_dict[_type] = {}
+    if _subtype not in _cache_dict[_type]:
+        _cache_dict[_type][_subtype] = {}
+    if _id not in _cache_dict[_type][_subtype]:
+        _cache_dict[_type][_subtype][_id] = now_upload_time
+    else:
+        print(f"Duplicate key found: {_type} -> {_subtype} -> {_id}")
     return _cache_dict
 
 
