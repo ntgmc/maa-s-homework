@@ -40,14 +40,12 @@ def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
 
 def build_activity_new_cache(_cache_dict, cat_three, _id: str, now_upload_time: str):
     activity_id = get_cat_three_info(cat_three_all_dict, cat_three, "stage_id").split('_')[0]
+    _id = str(_id)
     if activity_id not in _cache_dict:
         _cache_dict[activity_id] = {}
     if cat_three not in _cache_dict[activity_id]:
         _cache_dict[activity_id][cat_three] = {}
-    if _id not in _cache_dict[activity_id][cat_three]:
-        _cache_dict[activity_id][cat_three][_id] = now_upload_time
-    else:
-        print(f"Duplicate key found: {activity_id} -> {cat_three} -> {_id}")
+    _cache_dict[activity_id][cat_three][_id] = now_upload_time
     return _cache_dict
 
 
@@ -58,7 +56,7 @@ def compare_cache(_cache_dict, _id, now_upload_time: str, others: str):  # æœ€æ–
 
 def compare_activity_new_cache(new_cache_dict, cat_three, _id, now_upload_time):
     activity_id = get_cat_three_info(cat_three_all_dict, cat_three, "stage_id").split('_')[0]
-    before_upload_time = new_cache_dict.get(activity_id, {}).get(cat_three, {}).get(_id, '')
+    before_upload_time = new_cache_dict.get(activity_id, {}).get(cat_three, {}).get(str(_id), '')
     return before_upload_time == now_upload_time
 
 
