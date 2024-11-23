@@ -43,14 +43,12 @@ def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
 
 
 def build_new_cache(_cache_dict, _type, _subtype, _id: str, now_upload_time: str):
+    _id = str(_id)
     if _type not in _cache_dict:
         _cache_dict[_type] = {}
     if _subtype not in _cache_dict[_type]:
         _cache_dict[_type][_subtype] = {}
-    if _id not in _cache_dict[_type][_subtype]:
-        _cache_dict[_type][_subtype][_id] = now_upload_time
-    else:
-        print(f"Duplicate key found: {_type} -> {_subtype} -> {_id}")
+    _cache_dict[_type][_subtype][_id] = now_upload_time
     return _cache_dict
 
 
@@ -60,7 +58,7 @@ def compare_cache(_cache_dict, _id, now_upload_time: str, others: str):  # 最�
 
 
 def compare_new_cache(new_cache_dict, _type, _subtype, _id, now_upload_time):
-    before_upload_time = new_cache_dict.get(_type, {}).get(_subtype, {}).get(_id, '')
+    before_upload_time = new_cache_dict.get(_type, {}).get(_subtype, {}).get(str(_id), '')
     return before_upload_time == now_upload_time
 
 
@@ -153,8 +151,9 @@ def check_file_exists(pattern):  # 判断是否存在相同id但评分不同的�
     matching_files = glob.glob(pattern)
     if len(matching_files) > 0:
         for file_name in matching_files:
-            os.remove(file_name)
-            print(f"Removed {file_name}")
+            if os.path.exists(file_name):
+                os.remove(file_name)
+                print(f"Removed {file_name}")
 
 
 def less_search_paradox():

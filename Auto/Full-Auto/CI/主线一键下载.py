@@ -49,14 +49,12 @@ def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
 
 def build_main_new_cache(_cache_dict, cat_three, _id: str, now_upload_time: str):
     chapter = get_cat_three_info(cat_three_dict, cat_three, "cat_two")
+    _id = str(_id)
     if chapter not in _cache_dict:
         _cache_dict[chapter] = {}
     if cat_three not in _cache_dict[chapter]:
         _cache_dict[chapter][cat_three] = {}
-    if _id not in _cache_dict[chapter][cat_three]:
-        _cache_dict[chapter][cat_three][_id] = now_upload_time
-    else:
-        print(f"Duplicate key found: {chapter} -> {cat_three} -> {_id}")
+    _cache_dict[chapter][cat_three][_id] = now_upload_time
     return _cache_dict
 
 
@@ -67,7 +65,7 @@ def compare_cache(_cache_dict, _id, now_upload_time: str, others: str):  # æœ€æ–
 
 def compare_main_new_cache(new_cache_dict, cat_three, _id, now_upload_time):
     chapter = get_cat_three_info(cat_three_dict, cat_three, "cat_two")
-    before_upload_time = new_cache_dict.get(chapter, {}).get(cat_three, {}).get(_id, '')
+    before_upload_time = new_cache_dict.get(chapter, {}).get(cat_three, {}).get(str(_id), '')
     return before_upload_time == now_upload_time
 
 
