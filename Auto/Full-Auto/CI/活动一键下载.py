@@ -16,7 +16,8 @@ no_result = []
 # 设置日期
 date = datetime.now().strftime('%Y-%m-%d')
 # 设置缓存路径
-cache = 'Auto/Full-Auto/cache/activity_cache.json'
+# cache = 'Auto/Full-Auto/cache/activity_cache.json'
+cache = 'Auto/Full-Auto/cache/new_activity_cache.json'
 
 
 def write_to_file(file_path, content):
@@ -214,13 +215,13 @@ def less_filter_data(stage_dict, data, stage_id):
                 percent = calculate_percent(item)
                 view = item.get('views', 0)
                 if percent >= score_threshold and view >= view_threshold:
-                    if compare_cache(cache_dict, item['id'], item['upload_time'], cat_three):
-                        # print(f"{item['id']} 未改变数据，无需更新")
-                        download_amount += 1
-                        continue
-                    # if compare_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time']):
+                    # if compare_cache(cache_dict, item['id'], item['upload_time'], cat_three):
+                    #     # print(f"{item['id']} 未改变数据，无需更新")
                     #     download_amount += 1
                     #     continue
+                    if compare_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time']):
+                        download_amount += 1
+                        continue
                     content = json.loads(item['content'])
                     file_path = generate_filename(stage_dict, stage_id, content, item['uploader'], activity_name, cat_three)
                     content['doc']['details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
@@ -228,8 +229,8 @@ def less_filter_data(stage_dict, data, stage_id):
                     if os.path.exists(file_path):
                         os.remove(file_path)
                     write_to_file(file_path, content)
-                    cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], cat_three)
-                    # cache_dict = build_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time'])
+                    # cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], cat_three)
+                    cache_dict = build_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time'])
                     download_amount += 1
             if not download_amount:
                 if score_threshold > 50:
