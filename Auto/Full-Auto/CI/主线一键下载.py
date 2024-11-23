@@ -46,15 +46,16 @@ def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
     return _cache_dict
 
 
-def build_new_cache(_cache_dict, _type, _subtype, _id: str, now_upload_time: str):
-    if _type not in _cache_dict:
-        _cache_dict[_type] = {}
-    if _subtype not in _cache_dict[_type]:
-        _cache_dict[_type][_subtype] = {}
-    if _id not in _cache_dict[_type][_subtype]:
-        _cache_dict[_type][_subtype][_id] = now_upload_time
+def build_main_new_cache(_cache_dict, cat_three, _id: str, now_upload_time: str):
+    chapter = get_cat_three_info(cat_three_dict, cat_three, "cat_two")
+    if chapter not in _cache_dict:
+        _cache_dict[chapter] = {}
+    if cat_three not in _cache_dict[chapter]:
+        _cache_dict[chapter][cat_three] = {}
+    if _id not in _cache_dict[chapter][cat_three]:
+        _cache_dict[chapter][cat_three][_id] = now_upload_time
     else:
-        print(f"Duplicate key found: {_type} -> {_subtype} -> {_id}")
+        print(f"Duplicate key found: {chapter} -> {cat_three} -> {_id}")
     return _cache_dict
 
 
@@ -63,8 +64,9 @@ def compare_cache(_cache_dict, _id, now_upload_time: str, others: str):  # 最�
     return before_upload_time == now_upload_time
 
 
-def compare_new_cache(new_cache_dict, _type, _subtype, _id, now_upload_time):
-    before_upload_time = new_cache_dict.get(_type, {}).get(_subtype, {}).get(_id, '')
+def compare_main_new_cache(new_cache_dict, cat_three, _id, now_upload_time):
+    chapter = get_cat_three_info(cat_three_dict, cat_three, "cat_two")
+    before_upload_time = new_cache_dict.get(chapter, {}).get(cat_three, {}).get(_id, '')
     return before_upload_time == now_upload_time
 
 
@@ -83,7 +85,7 @@ def build_dict2(data, key: str):  # key为生成的字典的键
     _dict = {}
     for member in data:
         content = json.loads(member['content'])
-        _key = get_cat_three_info(content[key], "stage_id")
+        _key = get_cat_three_info(cat_three_dict, content[key], "stage_id")
         if _key in _dict:
             _dict[_key].append(member)
         else:
@@ -132,12 +134,12 @@ def calculate_percent(item):
     return round(like / (like + dislike) * 100, 2) if like + dislike > 0 else 0
 
 
-def get_stage_id_info(stage_id, key):  # 通过stage_id获取信息,失败返回stage_id
-    return stage_dict.get(stage_id, [{}])[0].get(key, stage_id)
+def get_stage_id_info(_stage_dict, stage_id, key):  # 通过stage_id获取信息,失败返回stage_id
+    return _stage_dict.get(stage_id, [{}])[0].get(key, stage_id)
 
 
-def get_cat_three_info(cat_three, key):  # 通过cat_three获取信息,失败返回cat_three
-    return cat_three_dict.get(cat_three, [{}])[0].get(key, cat_three)
+def get_cat_three_info(_cat_three_dict, cat_three, key):  # 通过cat_three获取信息,失败返回cat_three
+    return _cat_three_dict.get(cat_three, [{}])[0].get(key, cat_three)
 
 
 def get_stage_info(text):  # 返回第一个-前的整数
@@ -156,7 +158,7 @@ def replace_dir_char(text):
 
 def generate_filename(stage_id, data, mode, cat_two, stage_name=None):
     if not stage_name:
-        stage_name = get_stage_id_info(stage_id, "cat_three")
+        stage_name = get_stage_id_info(stage_dict, stage_id, "cat_three")
     _stage = get_stage_info(stage_name)
     opers = data.get('opers', [])
     groups = data.get('groups', [])
@@ -197,8 +199,8 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
     all_data = data.get(stage_id)
     if all_data:
         download_amount = 0
-        cat_three = get_stage_id_info(stage_id, "cat_three")
-        cat_two = get_stage_id_info(stage_id, "cat_two")
+        cat_three = get_stage_id_info(stage_dict, stage_id, "cat_three")
+        cat_two = get_stage_id_info(stage_dict, stage_id, "cat_two")
         if filter_mode == 0:
             score_threshold = download_score_threshold
             view_threshold = download_view_threshold
@@ -214,6 +216,9 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
                         # print(f"{item['id']} 未改变数据，无需更新")
                         download_amount += 1
                         continue
+                    # if compare_new_cache(cache_dict, "主线", cat_three, item['id'], item['upload_time']):
+                    #     download_amount += 1
+                    #     continue
                     content = json.loads(item['content'])
                     file_path = generate_filename(stage_id, content, path_mode, cat_two, cat_three)
                     content['doc']['details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']

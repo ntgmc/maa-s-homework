@@ -37,15 +37,16 @@ def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
     return _cache_dict
 
 
-def build_new_cache(_cache_dict, _type, _subtype, _id: str, now_upload_time: str):
-    if _type not in _cache_dict:
-        _cache_dict[_type] = {}
-    if _subtype not in _cache_dict[_type]:
-        _cache_dict[_type][_subtype] = {}
-    if _id not in _cache_dict[_type][_subtype]:
-        _cache_dict[_type][_subtype][_id] = now_upload_time
+def build_activity_new_cache(_cache_dict, cat_three, _id: str, now_upload_time: str):
+    activity_id = get_cat_three_info(cat_three_all_dict, cat_three, "stage_id").split('_')[0]
+    if activity_id not in _cache_dict:
+        _cache_dict[activity_id] = {}
+    if cat_three not in _cache_dict[activity_id]:
+        _cache_dict[activity_id][cat_three] = {}
+    if _id not in _cache_dict[activity_id][cat_three]:
+        _cache_dict[activity_id][cat_three][_id] = now_upload_time
     else:
-        print(f"Duplicate key found: {_type} -> {_subtype} -> {_id}")
+        print(f"Duplicate key found: {activity_id} -> {cat_three} -> {_id}")
     return _cache_dict
 
 
@@ -54,8 +55,9 @@ def compare_cache(_cache_dict, _id, now_upload_time: str, others: str):  # 最�
     return before_upload_time == now_upload_time
 
 
-def compare_new_cache(new_cache_dict, _type, _subtype, _id, now_upload_time):
-    before_upload_time = new_cache_dict.get(_type, {}).get(_subtype, {}).get(_id, '')
+def compare_activity_new_cache(new_cache_dict, cat_three, _id, now_upload_time):
+    activity_id = get_cat_three_info(cat_three_all_dict, cat_three, "stage_id").split('_')[0]
+    before_upload_time = new_cache_dict.get(activity_id, {}).get(cat_three, {}).get(_id, '')
     return before_upload_time == now_upload_time
 
 
@@ -216,6 +218,9 @@ def less_filter_data(stage_dict, data, stage_id):
                         # print(f"{item['id']} 未改变数据，无需更新")
                         download_amount += 1
                         continue
+                    # if compare_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time']):
+                    #     download_amount += 1
+                    #     continue
                     content = json.loads(item['content'])
                     file_path = generate_filename(stage_dict, stage_id, content, item['uploader'], activity_name, cat_three)
                     content['doc']['details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
@@ -224,6 +229,7 @@ def less_filter_data(stage_dict, data, stage_id):
                         os.remove(file_path)
                     write_to_file(file_path, content)
                     cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], cat_three)
+                    # cache_dict = build_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time'])
                     download_amount += 1
             if not download_amount:
                 if score_threshold > 50:
