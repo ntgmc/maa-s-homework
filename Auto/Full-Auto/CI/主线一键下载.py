@@ -180,6 +180,14 @@ def generate_filename(stage_id, data, mode, cat_two, stage_name=None):
     return file_path
 
 
+def cache_delete_save(_cache_dict, found_ids, id_list, cat_three):
+    missing_ids = set(id_list) - found_ids
+    for missing_id in missing_ids:
+        print(id_list, found_ids, f"未找到 {cat_three} - {missing_id}")
+        _cache_dict = build_main_new_cache(cache_dict, cat_three, missing_id, "已删除")
+    return _cache_dict
+
+
 def less_search(keyword):
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=999&levelKeyword={keyword}&desc=true&orderBy=views"
     _headers = {
@@ -196,10 +204,12 @@ def less_search(keyword):
 def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
     global no_result, cache_dict
     all_data = data.get(stage_id)
+    cat_three = get_stage_id_info(stage_dict, stage_id, "cat_three")
+    cat_two = get_stage_id_info(stage_dict, stage_id, "cat_two")
+    id_list = [str(key) for key, value in cache_dict.get(cat_two, {}).get(cat_three, {}).items() if value != "已删除"]
+    found_ids = set()
     if all_data:
         download_amount = 0
-        cat_three = get_stage_id_info(stage_dict, stage_id, "cat_three")
-        cat_two = get_stage_id_info(stage_dict, stage_id, "cat_two")
         if filter_mode == 0:
             score_threshold = download_score_threshold
             view_threshold = download_view_threshold
@@ -210,12 +220,13 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
             for item in all_data:
                 percent = calculate_percent(item)
                 view = item.get('views', 0)
+                found_ids.add(str(item['id']))
                 if percent >= score_threshold and view >= view_threshold:
                     # if compare_cache(cache_dict, item['id'], item['upload_time'], cat_three):
                     #     # print(f"{item['id']} 未改变数据，无需更新")
                     #     download_amount += 1
                     #     continue
-                    if compare_main_new_cache(cache_dict, "主线", cat_three, item['id'], item['upload_time']):
+                    if compare_main_new_cache(cache_dict, cat_three, item['id'], item['upload_time']):
                         download_amount += 1
                         continue
                     content = json.loads(item['content'])
@@ -239,32 +250,32 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
     else:
         # no_result.append(keyword)
         print(f"{stage_id} 无数据")
+    cache_dict = cache_delete_save(cache_dict, found_ids, id_list, cat_three)
 
 
 def less_search_stage(key1):
     # 搜索主线关卡
     less_dict = less_search(key1)
-    for key2 in less_dict:
-        if any(substring in key2 for substring in ['#f#', 'easy']):
+    for stage_id in less_dict:
+        if any(substring in stage_id for substring in ['#f#', 'easy']):
             continue
-        less_filter_data(less_dict, key2)
+        less_filter_data(less_dict, stage_id)
 
 
 def less_search_camp():
     # 搜索剿灭作战
     less_dict = less_search('剿灭作战')
-    for key2 in less_dict:
-        less_filter_data(less_dict, key2, 2)
+    for stage_id in less_dict:
+        less_filter_data(less_dict, stage_id, 2)
 
 
 def resource_stage_search():
     # 搜索资源关
     less_dict = less_search('资源收集')
-    for key2 in less_dict:
-        less_filter_data(less_dict, key2, 3, 1)
+    for stage_id in less_dict:
+        less_filter_data(less_dict, stage_id, 3, 1)
 
 
-# TODO: 如果缓存已存在作业未找到，将缓存的时间改为已删除，并在文件名前增加已删除，如果缓存已为已删除则不改变
 # 获取关卡数据，构建字典
 level_data = get_level_data()
 stage_dict = build_dict(level_data, 'stage_id')
