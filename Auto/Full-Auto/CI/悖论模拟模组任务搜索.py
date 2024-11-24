@@ -42,13 +42,30 @@ def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
     return _cache_dict
 
 
-def build_new_cache(_cache_dict, _type, _subtype, _id: str, now_upload_time: str):
+def build_new_cache(_cache_dict, _type, _subtype, _id, now_upload_time: str, _sub_type=None):
     _id = str(_id)
     if _type not in _cache_dict:
         _cache_dict[_type] = {}
     if _subtype not in _cache_dict[_type]:
         _cache_dict[_type][_subtype] = {}
-    _cache_dict[_type][_subtype][_id] = now_upload_time
+    if _sub_type:
+        if _sub_type not in _cache_dict[_type][_subtype]:
+            _cache_dict[_type][_subtype][_sub_type] = {}
+        _cache_dict[_type][_subtype][_sub_type][_id] = now_upload_time
+    else:
+        _cache_dict[_type][_subtype][_id] = now_upload_time
+    return _cache_dict
+
+
+def cache_delete_save(_cache_dict, _type, found_ids, id_list, name, _job="", stage=None):
+    missing_ids = set(id_list) - found_ids
+    for missing_id in missing_ids:
+        print(id_list, found_ids, f"未找到 {name} - {missing_id}")
+        _cache_dict = build_new_cache(_cache_dict, _type, name, missing_id, "已删除", stage)
+        if _type == "模组":
+            check_file_exists(f"模组任务/{name} - {stage} - * - {missing_id}.json", 2)
+        elif _type == "悖论":
+            check_file_exists(f"悖论模拟/{_job}/{name} - * - {missing_id}.json", 2)
     return _cache_dict
 
 
@@ -57,8 +74,9 @@ def compare_cache(_cache_dict, _id, now_upload_time: str, others: str):  # 最�
     return before_upload_time == now_upload_time
 
 
-def compare_new_cache(new_cache_dict, _type, _subtype, _id, now_upload_time):
-    before_upload_time = new_cache_dict.get(_type, {}).get(_subtype, {}).get(str(_id), '')
+def compare_new_cache(new_cache_dict, _type, _subtype, _id, now_upload_time, stage=""):
+    sub_dict = new_cache_dict.get(_type, {}).get(_subtype, {})
+    before_upload_time = sub_dict.get(stage, sub_dict).get(str(_id), '')
     return before_upload_time == now_upload_time
 
 
@@ -147,13 +165,25 @@ def code_output(percent, _id, mode):
             return f"maa://{_id}"
 
 
-def check_file_exists(pattern):  # 判断是否存在相同id但评分不同的文件
+def check_file_exists(pattern, mode):  # 判断是否存在相同id但评分不同的文件
     matching_files = glob.glob(pattern)
     if len(matching_files) > 0:
         for file_name in matching_files:
             if os.path.exists(file_name):
-                os.remove(file_name)
-                print(f"Removed {file_name}")
+                try:
+                    if mode == 1:
+                        os.remove(file_name)
+                        print(f"Removed {file_name}")
+                    elif mode == 2:
+                        directory, filename = os.path.split(file_name)
+                        new_file_path = os.path.join(directory, f"(已删除){filename}")
+                        if not os.path.exists(new_file_path):
+                            os.rename(file_name, new_file_path)
+                            print(f"Renamed {file_name} to {new_file_path}")
+                        else:
+                            print(f"Error: {new_file_path} already exists!")
+                except Exception as e:
+                    print(f"Error: {e}")
 
 
 def less_search_paradox():
@@ -173,14 +203,17 @@ def less_search_paradox():
 def filter_paradox(data, name, _job):
     global cache_dict
     all_data = data.get(name)
+    id_list = [str(key) for key, value in cache_dict.get("悖论", {}).get(name, {}).items() if value != "已删除"]
     if all_data:
         total = len(all_data)
         ids_develop = []
         ids_user = []
         items_to_download = []
         all_below_threshold = True
+        found_ids = set()
         for item in all_data:
             percent = calculate_percent(item)
+            found_ids.add(str(item['id']))
             if percent > 0:
                 ids_develop.append(code_output(percent, item['id'], 1))
                 if percent >= 20:
@@ -203,7 +236,7 @@ def filter_paradox(data, name, _job):
                     if os.path.exists(file_path):  # 如果文件存在（评分相同）
                         continue
                 # 数据改变或评分改变
-                check_file_exists(f"悖论模拟/{_job}/{name} - * - {item['id']}.json")
+                check_file_exists(f"悖论模拟/{_job}/{name} - * - {item['id']}.json", 1)
                 content = json.loads(item['content'])
                 content['doc'][
                     'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
@@ -211,6 +244,7 @@ def filter_paradox(data, name, _job):
                 write_json_to_file(file_path, content)
                 # cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论")
                 cache_dict = build_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time'])
+        cache_dict = cache_delete_save(cache_dict, "悖论", found_ids, id_list, name, _job)
         print(f"成功搜索 {_job} - {name}")
         return name, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user), all_below_threshold
     else:
@@ -233,6 +267,8 @@ def search_module(name, stage):
             print(f"请求失败！ERR_CONNECTION_REFUSED in search({name} - {stage})")
             print(data)
             total = 0
+        id_list = [str(key) for key, value in cache_dict.get("模组", {}).get(name, {}).get(stage, {}).items() if value != "已删除"]
+        found_ids = set()
         if total > 0:
             ids_develop = []
             ids_user = []
@@ -240,6 +276,7 @@ def search_module(name, stage):
             all_below_threshold = True
             for item in data['data']['data']:
                 percent = calculate_percent(item)
+                found_ids.add(str(item['id']))
                 if percent > 0:
                     ids_develop.append(code_output(percent, item['id'], 1))
                     if percent >= 50:
@@ -264,17 +301,19 @@ def search_module(name, stage):
                     if compare_new_cache(cache_dict, "模组", name, item['id'], item['upload_time']):
                         if os.path.exists(file_path):
                             continue
-                    check_file_exists(f"模组任务/{name} - {stage} - * - {item['id']}.json")
+                    check_file_exists(f"模组任务/{name} - {stage} - * - {item['id']}.json", 1)
                     content = json.loads(item['content'])
                     content['doc'][
                         'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
                                      content['doc']['details']
                     write_json_to_file(file_path, content)
                     # cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-模组")
-                    cache_dict = build_new_cache(cache_dict, "模组", name, item['id'], item['upload_time'])
+                    cache_dict = build_new_cache(cache_dict, "模组", name, item['id'], item['upload_time'], stage)
+            cache_dict = cache_delete_save(cache_dict, "模组", found_ids, id_list, name, stage=stage)
             print(f"成功搜索 {name} - {stage}")
             return name, stage, len(ids_develop), len(ids_user), ', '.join(ids_develop) if ids_develop else 'None', ', '.join(ids_user) if ids_user else 'None', all_below_threshold
         else:
+            cache_dict = cache_delete_save(cache_dict, "模组", found_ids, id_list, name, stage=stage)
             return name, stage, 0, 0, "None", "None", False
     else:
         print(f"请求失败！ERR_CONNECTION_REFUSED in search({name} - {stage})")
@@ -428,7 +467,6 @@ def main_module():
     print("输出Module完成！")
 
 
-# TODO: 如果缓存已存在作业未找到，将缓存的时间改为已删除，并在文件名前增加已删除，如果缓存已为已删除则不改变
 level_data = get_level_data()
 stage_dict = build_dict(level_data, 'stage_id')
 paradox_dict = built_paradox_dict(level_data)
