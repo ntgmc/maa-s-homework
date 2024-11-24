@@ -199,19 +199,33 @@ def generate_filename(stage_dict, stage_id, data, uploader, activity_name, stage
     return file_path
 
 
+def cache_delete_save(_cache_dict, found_ids, id_list, cat_three):
+    missing_ids = set(id_list) - found_ids
+    for missing_id in missing_ids:
+        print(id_list, found_ids, f"未找到 {cat_three} - {missing_id}")
+        _cache_dict = build_activity_new_cache(cache_dict, cat_three, missing_id, "已删除")
+    return _cache_dict
+
+
 def less_filter_data(stage_dict, data, stage_id):
     global no_result, cache_dict
+    if "#f#" in stage_id:
+        return
     all_data = data.get(stage_id)
     activity_name = now_activities[0].replace("·复刻", "")
+    cat_three = get_stage_id_info(stage_dict, stage_id, "cat_three")
+    activity_id = get_cat_three_info(cat_three_all_dict, cat_three, "stage_id").split('_')[0]
+    id_list = [str(key) for key, value in cache_dict.get(activity_id, {}).get(cat_three, {}).items() if value != "已删除"]
+    found_ids = set()
     if all_data:
         download_amount = 0
-        cat_three = get_stage_id_info(stage_dict, stage_id, "cat_three")
         score_threshold = download_score_threshold
         view_threshold = download_view_threshold
         while not download_amount:
             for item in all_data:
                 percent = calculate_percent(item)
                 view = item.get('views', 0)
+                found_ids.add(str(item['id']))
                 if percent >= score_threshold and view >= view_threshold:
                     # if compare_cache(cache_dict, item['id'], item['upload_time'], cat_three):
                     #     # print(f"{item['id']} 未改变数据，无需更新")
@@ -243,6 +257,7 @@ def less_filter_data(stage_dict, data, stage_id):
     else:
         # no_result.append(keyword)
         print(f"{stage_id} 无数据")
+    cache_dict = cache_delete_save(cache_dict, found_ids, id_list, cat_three)
 
 
 def less_search(cat_three_dict, keyword):
@@ -291,8 +306,8 @@ def download_current_activity(activity):
     # write_to_file('Auto/Full-Auto/log/stage_dict_temp.json', stage_dict)
     # write_to_file('Auto/Full-Auto/log/cat_three_dict_temp.json', cat_three_dict)
     less_dict = less_search(cat_three_dict, activity_id)
-    for key2 in less_dict:
-        less_filter_data(stage_dict, less_dict, key2)
+    for stage_id in less_dict:
+        less_filter_data(stage_dict, less_dict, stage_id)
 
 
 def get_level_data():
