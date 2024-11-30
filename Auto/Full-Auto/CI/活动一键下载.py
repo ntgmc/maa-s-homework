@@ -187,12 +187,12 @@ def generate_filename(stage_dict, stage_id, data, uploader, activity_name, stage
                    '+'.join(group.get('name', '') for group in groups)]
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
     names = replace_dir_char(names)
-    if uploader in ["一只摆烂的42", "萨拉托加"]:
-        stage_name = f"({uploader})" + stage_name
     if data.get("difficulty", 0) == 1:
         stage_name = "(仅普通)" + stage_name
     elif data.get("difficulty", 0) == 2:
         stage_name = "(仅突袭)" + stage_name
+    if uploader in ["一只摆烂的42", "萨拉托加"]:
+        stage_name = f"({uploader})" + stage_name
     if len(names) > 100:
         names = "文件名过长不予显示"
     file_path = os.path.join(f'【当前活动】{activity_name}', f'{stage_name}_{names}.json')
