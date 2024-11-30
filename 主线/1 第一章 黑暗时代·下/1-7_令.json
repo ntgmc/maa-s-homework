@@ -24,6 +24,15 @@
             "direction": "Down"
         },
         {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                8,
+                2
+            ],
+            "kills": 6
+        },
+        {
             "type": "Deploy",
             "name": "“弦惊”",
             "location": [
@@ -39,7 +48,8 @@
                 8,
                 3
             ],
-            "direction": "Right"
+            "direction": "Right",
+            "kills": 16
         },
         {
             "type": "Retreat",
@@ -60,20 +70,25 @@
             "direction": "Right"
         },
         {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
             "type": "SkillDaemon"
         }
     ],
     "doc": {
-        "title": "【自用】1-7堵门速刷令单核（修改版）",
-        "details": "统计日期：2024-06-05\n好评率：90.0%  浏览量：1002\n来源：bobbyzhou1999  ID：25290\n61秒单人【明日方舟】无专无模组 令堵门1-7 速刷固源岩 信赖自律攻略 明日方舟 220228 —— 化学老施\nhttps://www.bilibili.com/video/BV1QY411L7H2/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=7272ef2170d34319ea9f0fb471848b55\n最低练度要求：精二1级 无专无模组\n"
+        "title": "1-7 令单人61s速刷信赖 无专无模组",
+        "details": "作业更新日期: 2023-02-12T02:55:01Z\n统计更新日期: 2024-11-30\n好评率：92.59%  浏览量：8464\n来源：鱼丸不是鱼van  ID：20103\n攻略作者：化学老施   BV1QY411L7H2\n自动战斗作者：鱼丸\n使用干员：令3 精二无需专精无需模组\n请自行添加所需刷信赖的干员到队伍"
     },
     "groups": [],
     "opers": [
         {
             "name": "令",
             "skill": 3,
-            "skill_usage": 1
+            "skill_usage": 0
         }
     ],
-    "difficulty": 1
+    "difficulty": 0
 }

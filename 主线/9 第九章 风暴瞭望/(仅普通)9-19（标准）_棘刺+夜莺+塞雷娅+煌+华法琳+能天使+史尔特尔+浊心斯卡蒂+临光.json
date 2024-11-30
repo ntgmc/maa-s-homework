@@ -1,0 +1,212 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_09-17",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "临光",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "华法琳",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left",
+            "costs": 70
+        },
+        {
+            "type": "Deploy",
+            "name": "爆破装置",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down",
+            "kills": 60
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第九章 风暴瞭望 - 9-19 - 长夜枪火 （只普通） 萧然Q，摆完挂机 ",
+        "details": "作业更新日期: 2024-03-23T13:27:19Z\n统计更新日期: 2024-11-30\n好评率：85.71%  浏览量：1967\n来源：无忧无虑啦  ID：28634\n参考视频：https://www.bilibili.com/video/BV1QQ4y1r7Ni/ （原版加优化版结合）\n42要专3 ，临光只需要精一，技能7级最好，华法林至少精一满级，技能7级，其余至少2600\n有问题群找“无忧”  评论区反馈不一定能及时回复\n"
+    },
+    "groups": [
+        {
+            "name": "棘刺",
+            "opers": [
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "夜莺",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "塞雷娅",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "煌",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "华法琳",
+            "opers": [
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "能天使",
+            "opers": [
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "史尔特尔",
+            "opers": [
+                {
+                    "name": "史尔特尔",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "opers": [
+                {
+                    "name": "浊心斯卡蒂",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "临光",
+            "opers": [
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [],
+    "difficulty": 1
+}
