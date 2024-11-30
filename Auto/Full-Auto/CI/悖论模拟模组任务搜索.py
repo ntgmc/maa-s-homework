@@ -17,6 +17,8 @@ date = datetime.now().strftime('%Y-%m-%d')
 # 设置缓存路径
 # cache = 'Auto/Full-Auto/cache/cache.json'
 cache = 'Auto/Full-Auto/cache/new_cache.json'
+id_cache = 'Auto/Full-Auto/cache/id_cache.json'
+# TODO: 根据id缓存文件名
 
 
 def write_json_to_file(file_path, content):
@@ -54,6 +56,15 @@ def build_new_cache(_cache_dict, _type, _subtype, _id, now_upload_time: str, _su
         _cache_dict[_type][_subtype][_sub_type][_id] = now_upload_time
     else:
         _cache_dict[_type][_subtype][_id] = now_upload_time
+    return _cache_dict
+
+
+def build_id_cache(_cache_dict, _id, file_path: str):
+    _id = str(_id)
+    if _id not in _cache_dict:
+        _cache_dict[_id] = [file_path]
+    elif file_path not in _cache_dict[_id]:
+        _cache_dict[_id].append(file_path)
     return _cache_dict
 
 
@@ -201,7 +212,7 @@ def less_search_paradox():
 
 
 def filter_paradox(data, name, _job):
-    global cache_dict
+    global cache_dict, id_cache_dict
     all_data = data.get(name)
     id_list = [str(key) for key, value in cache_dict.get("悖论", {}).get(name, {}).items() if value != "已删除"]
     if all_data:
@@ -244,6 +255,7 @@ def filter_paradox(data, name, _job):
                 write_json_to_file(file_path, content)
                 # cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论")
                 cache_dict = build_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time'])
+                id_cache_dict = build_id_cache(id_cache_dict, str(item['id']), file_path)
         cache_dict = cache_delete_save(cache_dict, "悖论", found_ids, id_list, name, _job)
         print(f"成功搜索 {_job} - {name}")
         return name, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user), all_below_threshold
@@ -252,7 +264,7 @@ def filter_paradox(data, name, _job):
 
 
 def search_module(name, stage):
-    global ids, cache_dict
+    global ids, cache_dict, id_cache_dict
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage}&document={name}&desc=true&orderBy=views"
     _headers = {
         "Origin": "https://prts.plus",
@@ -309,6 +321,7 @@ def search_module(name, stage):
                     write_json_to_file(file_path, content)
                     # cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-模组")
                     cache_dict = build_new_cache(cache_dict, "模组", name, item['id'], item['upload_time'], stage)
+                    id_cache_dict = build_id_cache(id_cache_dict, item['id'], file_path)
             cache_dict = cache_delete_save(cache_dict, "模组", found_ids, id_list, name, stage=stage)
             print(f"成功搜索 {name} - {stage}")
             return name, stage, len(ids_develop), len(ids_user), ', '.join(ids_develop) if ids_develop else 'None', ', '.join(ids_user) if ids_user else 'None', all_below_threshold
@@ -477,11 +490,13 @@ if download_mode:
     os.makedirs(f'模组任务', exist_ok=True)
 os.makedirs('Auto/Full-Auto/cache', exist_ok=True)
 cache_dict = load_data(cache)
+id_cache_dict = load_data(id_cache)
 now = datetime.now().timestamp()
 get_operators()
 main_paradox()
 main_module()
 last = datetime.now().timestamp()
 save_data(cache, cache_dict)
+save_data(id_cache, id_cache_dict)
 print(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
 print(ids)

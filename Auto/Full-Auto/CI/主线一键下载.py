@@ -18,6 +18,8 @@ date = datetime.now().strftime('%Y-%m-%d')
 # 设置缓存路径
 # cache = 'Auto/Full-Auto/cache/cache.json'
 cache = 'Auto/Full-Auto/cache/new_main_cache.json'
+id_cache = 'Auto/Full-Auto/cache/id_cache.json'
+# TODO: 根据id缓存文件名
 
 
 def makedir():
@@ -55,6 +57,15 @@ def build_main_new_cache(_cache_dict, cat_three, _id: str, now_upload_time: str)
     if cat_three not in _cache_dict[chapter]:
         _cache_dict[chapter][cat_three] = {}
     _cache_dict[chapter][cat_three][_id] = now_upload_time
+    return _cache_dict
+
+
+def build_id_cache(_cache_dict, _id, file_path: str):
+    _id = str(_id)
+    if _id not in _cache_dict:
+        _cache_dict[_id] = [file_path]
+    elif file_path not in _cache_dict[_id]:
+        _cache_dict[_id].append(file_path)
     return _cache_dict
 
 
@@ -202,7 +213,7 @@ def less_search(keyword):
 
 
 def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
-    global no_result, cache_dict
+    global no_result, cache_dict, id_cache_dict
     all_data = data.get(stage_id)
     cat_three = get_stage_id_info(stage_dict, stage_id, "cat_three")
     cat_two = get_stage_id_info(stage_dict, stage_id, "cat_two")
@@ -236,6 +247,7 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
                     write_to_file(file_path, content)
                     # cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], cat_three)
                     cache_dict = build_main_new_cache(cache_dict, cat_three, item['id'], item['upload_time'])
+                    id_cache_dict = build_id_cache(id_cache_dict, item['id'], file_path)
                     download_amount += 1
             if not download_amount:
                 if score_threshold > 50:
@@ -284,6 +296,7 @@ all_dict = build_complex_dict(level_data)
 makedir()
 # 读取缓存
 cache_dict = load_data(cache)
+id_cache_dict = load_data(id_cache)
 now = datetime.now().timestamp()
 # 创建一个线程池
 with ThreadPoolExecutor(max_workers=10) as executor:
@@ -303,5 +316,6 @@ with ThreadPoolExecutor(max_workers=10) as executor:
 last = datetime.now().timestamp()
 # 保存缓存
 write_to_file(cache, cache_dict)
+write_to_file(id_cache, id_cache_dict)
 print(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
 print('No_result: ', no_result)

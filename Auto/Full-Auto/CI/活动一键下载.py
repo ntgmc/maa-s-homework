@@ -18,6 +18,8 @@ date = datetime.now().strftime('%Y-%m-%d')
 # 设置缓存路径
 # cache = 'Auto/Full-Auto/cache/activity_cache.json'
 cache = 'Auto/Full-Auto/cache/new_activity_cache.json'
+id_cache = 'Auto/Full-Auto/cache/id_cache.json'
+# TODO: 根据id缓存文件名
 
 
 def write_to_file(file_path, content):
@@ -46,6 +48,15 @@ def build_activity_new_cache(_cache_dict, cat_three, _id: str, now_upload_time: 
     if cat_three not in _cache_dict[activity_id]:
         _cache_dict[activity_id][cat_three] = {}
     _cache_dict[activity_id][cat_three][_id] = now_upload_time
+    return _cache_dict
+
+
+def build_id_cache(_cache_dict, _id, file_path: str):
+    _id = str(_id)
+    if _id not in _cache_dict:
+        _cache_dict[_id] = [file_path]
+    elif file_path not in _cache_dict[_id]:
+        _cache_dict[_id].append(file_path)
     return _cache_dict
 
 
@@ -208,7 +219,7 @@ def cache_delete_save(_cache_dict, found_ids, id_list, cat_three):
 
 
 def less_filter_data(stage_dict, data, stage_id):
-    global no_result, cache_dict
+    global no_result, cache_dict, id_cache_dict
     if "#f#" in stage_id:
         return
     all_data = data.get(stage_id)
@@ -243,6 +254,7 @@ def less_filter_data(stage_dict, data, stage_id):
                     write_to_file(file_path, content)
                     # cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], cat_three)
                     cache_dict = build_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time'])
+                    id_cache_dict = build_id_cache(id_cache_dict, item['id'], file_path)
                     download_amount += 1
             if not download_amount:
                 if score_threshold > 50:
@@ -392,10 +404,12 @@ makedir(now_activities[0])
 # write_to_file('Auto/Full-Auto/log/activity_dict_temp.json', all_dict)
 # 读取缓存
 cache_dict = load_data(cache)
+id_cache_dict = load_data(id_cache)
 now = datetime.now().timestamp()
 download_current_activity(now_activities[0])
 last = datetime.now().timestamp()
 # 保存缓存
 write_to_file(cache, cache_dict)
+write_to_file(id_cache, id_cache_dict)
 print(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n")
 print('No_result: ', no_result)
