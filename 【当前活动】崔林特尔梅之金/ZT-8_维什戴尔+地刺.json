@@ -1,0 +1,64 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act29side_08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "地刺",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                9,
+                5
+            ],
+            "cost_changes": 35
+        }
+    ],
+    "doc": {
+        "title": "ZT-8益达·地刺二人速刷",
+        "details": "作业更新日期: 2024-11-25T12:49:01Z\n统计更新日期: 2024-11-30\n好评率：87.16%  浏览量：2108\n来源：七月流火  ID：43940\n攻略作者：化学老施\nhttps://www.bilibili.com/video/BV12LzPYdEFF/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=05af08b9404adb065a73d49c6722ee79\n本次崔金无限材料依然是扭转醇，不推荐刷取第九关\n推荐练度：90级无潜以上，专三，维3级水月x2级模组\nPS：用完点个反馈亲"
+    },
+    "groups": [
+        {
+            "name": "地刺",
+            "opers": [
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

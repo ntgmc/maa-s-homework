@@ -1,0 +1,351 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act29side_s05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "广域奶",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "装置",
+            "location": [
+                6,
+                2
+            ],
+            "costs": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "装置",
+            "location": [
+                6,
+                2
+            ],
+            "costs": 4,
+            "pre_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Right",
+            "kills": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "costs": 19
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "costs": 24
+        },
+        {
+            "type": "Deploy",
+            "name": "红",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "kills": 22
+        },
+        {
+            "type": "Retreat",
+            "name": "砾",
+            "kills": 24,
+            "pre_delay": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "红",
+            "kills": 24
+        },
+        {
+            "type": "Retreat",
+            "name": "砾",
+            "kills": 30,
+            "pre_delay": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "红",
+            "kills": 30
+        },
+        {
+            "type": "Deploy",
+            "name": "红",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left",
+            "costs": 99
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Right",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "kills": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "kills": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "红",
+            "kills": 45
+        },
+        {
+            "type": "Retreat",
+            "name": "砾",
+            "kills": 45
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "kills": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "红",
+            "kills": 50
+        },
+        {
+            "type": "Retreat",
+            "name": "砾",
+            "kills": 50
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "kills": 0,
+            "pre_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "kills": 0,
+            "pre_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "kills": 0,
+            "pre_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "kills": 0,
+            "pre_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "kills": 0,
+            "pre_delay": 0
+        }
+    ],
+    "doc": {
+        "title": "崔林特尔梅之金 - ZT-S-5 - 王座厅 普通",
+        "details": "作业更新日期: 2023-11-17T21:23:40Z\n统计更新日期: 2024-11-30\n好评率：96.72%  浏览量：2288\n来源：整点薯条  ID：30304\n原作者：萧然Q ZT-S-5普通（替换大哥的版本）\n原视频：https://www.bilibili.com/video/BV1xa4y1D7BE?p=31 \n六星练度：2703 模组已开\nboss第二条命后，如果快活随机到他身边就撤退，不让他放技能\n如果塞妈随机走了就立马撤退，煌前面补一点输出，等煌部署cd好了补回去就行\n如果快活撤退失败，30杀和50杀手动撤退，不撤退也没事，打的慢一点而已"
+    },
+    "groups": [
+        {
+            "name": "广域奶",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "红",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "砾",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}

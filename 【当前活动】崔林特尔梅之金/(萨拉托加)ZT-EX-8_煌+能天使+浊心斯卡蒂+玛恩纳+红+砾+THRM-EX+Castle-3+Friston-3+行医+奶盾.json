@@ -1,0 +1,297 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act29side_ex08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "kills": 4
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                5
+            ],
+            "kills": 4
+        },
+        {
+            "type": "Deploy",
+            "name": "THRM-EX",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                8,
+                2
+            ],
+            "kills": 5
+        },
+        {
+            "type": "Deploy",
+            "name": "红",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left",
+            "kills": 5
+        },
+        {
+            "type": "Deploy",
+            "name": "Castle-3",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "kills": 5
+        },
+        {
+            "type": "Deploy",
+            "name": "Friston-3",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Left",
+            "kills": 5
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                9,
+                4
+            ],
+            "kills": 8
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "kills": 8,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "行医",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Up",
+            "kills": 10
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                10,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "cost_changes": 18
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "崔林特尔梅之金 - ZT-EX-8 - 永恒主题（使用前看简介）",
+        "details": "作业更新日期: 2024-11-26T13:30:35Z\n统计更新日期: 2024-11-30\n好评率：89.93%  浏览量：57411\n来源：萨拉托加  ID：29927\n下面的去年的简介仅供参考，今年我试了没问题，但可能受练度太高或太低影响对不上轴，建议抄我新发的版本\n══════════════════════════════════════════════════\n这关由于boss机制随机性太大，使用本作业不能保证稳过，因此最好看原视频手操\n留了一个空位方便你们补别的工具人\n目前测试普通比突袭稳点\n══════════════════════════════════════════════════\n说下几个容易翻的点\n①能天使一次技能秒boss第一条血，两次技能秒第二条，如果没秒了可能是放湮灭之相的时机不对，要在能天使开技能时候放置，第二条命我尽量在后面多加了几个湮灭之相，如果还是打不死最后可以上一个干员在boss后面打boss\n②叔叔在本作业中是作为传送工具人+吸引BOSS伤害的，如果叔叔被传送到了离主力干员近的位置或者死了主力可能就会扛不住暴毙，遇到这种情况可以重开或者撤了叔叔上别的工具人\n③在5击杀后10击杀前，工具人如果挂了到不足两个，最好手动补工具人，如果boss传送了煌之类的主力干员这把就寄了，只能重开\n④后面可能之前伤害不够导致塞雷娅放置后也会被传送，如果出现这种情况建议下完塞雷娅后停止maa自动转手动操作，上工具人吸引传送，然后看能天使要开技能了就下装置，打完boss就能过\n由于MAA限制，只能自动部署一遍工具人，再部署第二遍会卡动作序列，单靠作业无法实现上述补工具人的操作，只能手动，具体我在下面也有说明\n══════════════════════════════════════════════════\n【【崔林特尔梅之金】ZT全关卡 摆完挂机 简单好抄（持续更新中）】 https://www.bilibili.com/video/BV1xa4y1D7BE/?p=23&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e\n以下是我自己对这关的总结，可以不看\n这关作业很难写，太随机了\n有可能传送之后工具人不会死，有可能工具人会死，因此有些工具人因为没死没法补，如果写上就会卡动作序列不进行下一步\n如果撤离之前还没死的工具人的话，由于位置变了，MAA识别不出来没法撤离\n如果MAA要部署干员的地方被传送的干员占了，也不会上干员\n因此MAA无法实现自动补工具人的操作"
+    },
+    "groups": [
+        {
+            "name": "行医",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "红",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "砾",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "THRM-EX",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "Castle-3",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "Friston-3",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

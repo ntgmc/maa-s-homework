@@ -1,0 +1,48 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act29side_06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "崔林特尔梅之金 - ZT-6 - 华尔兹“假面” 修改自用",
+        "details": "作业更新日期: 2024-11-25T09:40:28Z\n统计更新日期: 2024-11-30\n好评率：98.82%  浏览量：1416\n来源：奥尔什方  ID：43924\n修改自用\n原作者：祈星_Estrella\nJSON作者：萨拉托加"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        }
+    ]
+}

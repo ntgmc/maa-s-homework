@@ -1,0 +1,104 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act29side_ex01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                3,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "崔林特尔梅之金 - ZT-EX-1 - 急板",
+        "details": "作业更新日期: 2023-11-09T10:40:34Z\n统计更新日期: 2024-11-30\n好评率：85.71%  浏览量：2125\n来源：R洛翎y  ID：29973\n（自用修改）如果抄不了更新地图后就可以抄了\n【崔林特尔梅之金 突袭ZT-EX-1 老干员】 https://www.bilibili.com/video/BV1Le411D7Ec/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

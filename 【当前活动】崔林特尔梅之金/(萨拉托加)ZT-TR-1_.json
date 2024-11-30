@@ -1,0 +1,41 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act29side_tr01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "炎熔",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                4
+            ],
+            "costs": 52
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                2
+            ],
+            "kills": 13,
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp"
+        }
+    ],
+    "doc": {
+        "title": "崔林特尔梅之金 - ZT-TR-1 - 指挥技巧",
+        "details": "作业更新日期: 2024-11-25T12:09:00Z\n统计更新日期: 2024-11-30\n好评率：99.03%  浏览量：3440\n来源：萨拉托加  ID：29620\nZT-TR-1\n已测试\n【【崔林特尔梅之金】ZT全关卡 摆完挂机 简单好抄（持续更新中）】 https://www.bilibili.com/video/BV1xa4y1D7BE/?p=3&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e\nUP萧然Q"
+    },
+    "groups": [],
+    "opers": []
+}
