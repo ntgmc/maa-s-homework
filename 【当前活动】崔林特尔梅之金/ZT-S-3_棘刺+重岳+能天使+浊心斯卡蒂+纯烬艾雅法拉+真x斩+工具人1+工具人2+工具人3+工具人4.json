@@ -1,0 +1,252 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act29side_s03",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "重岳",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "costs": 33,
+            "doc": "浊蒂练度低等Boss到右边再部署",
+            "doc_color": "DarkRed"
+        },
+        {
+            "type": "Deploy",
+            "name": "真x斩",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right",
+            "kills": 16
+        },
+        {
+            "type": "Deploy",
+            "name": "工具人1",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "工具人2",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "None",
+            "pre_delay": 2500
+        },
+        {
+            "type": "Skill",
+            "name": "调谐节点",
+            "location": [
+                5,
+                6
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "工具人3",
+            "location": [
+                4,
+                4
+            ],
+            "pre_delay": 14000,
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "工具人4",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "None",
+            "pre_delay": 3000
+        }
+    ],
+    "doc": {
+        "title": "崔林特尔梅之金 - ZT-S-3 - 拜谒途（不稳定）（修改自用）",
+        "details": "作业更新日期: 2023-11-16T05:09:40Z\n统计更新日期: 2024-11-30\n好评率：80.0%  浏览量：1204\n来源：CDphantom  ID：30208\n崔林特尔梅之金】ZT全关卡 摆完挂机 简单好抄\nhttps://www.bilibili.com/video/BV1xa4y1D7BE?p=26&vd_source=1596f73611f1847c8bd4c4ccde108c05\n作者：萧然q\n可以对照着视频看一下有没有出问题，挂机测试可以过\n工具人传送位置可能导致MAA出问题，可以手动撤退一下玛恩纳和第一波的工具人"
+    },
+    "groups": [
+        {
+            "name": "真x斩",
+            "opers": [
+                {
+                    "name": "玛恩纳",
+                    "skill": 3,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "银灰",
+                    "skill": 3,
+                    "skill_usage": 2
+                }
+            ]
+        },
+        {
+            "name": "工具人1",
+            "opers": [
+                {
+                    "name": "夜刀",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "工具人2",
+            "opers": [
+                {
+                    "name": "Lancet-2",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "工具人3",
+            "opers": [
+                {
+                    "name": "斑点",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "工具人4",
+            "opers": [
+                {
+                    "name": "黑角",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "重岳",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

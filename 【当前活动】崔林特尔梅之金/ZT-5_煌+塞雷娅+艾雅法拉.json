@@ -1,0 +1,66 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act29side_05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Output",
+            "doc_color": "Gray",
+            "doc": "觉得不错可以点个三连~"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "【明日方舟】崔林特尔梅之金 ZT-5 奏鸣曲‘秋日’摆完挂机 简单好抄",
+        "details": "作业更新日期: 2023-11-01T18:32:04Z\n统计更新日期: 2024-11-30\n好评率：100.0%  浏览量：1769\n来源：削肾客的救赎  ID：29681\n视频作者：厨师长衬衫\n\nhttps://www.bilibili.com/video/BV1tw411M7wz\n\njson作者：削肾客的救赎 有问题请联系qq399619550\n\nmaa问题就别联系了 哥们臭写作业的真不懂maa\n\n平均练度：2603\n\n已测试 削肾客的救赎"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act29side_05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "costs": 23,
+            "cost_changes": 1,
+            "name": "煌",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "崔林特尔梅之金 - ZT-5 - 奏鸣曲“秋日”",
+        "details": "作业更新日期: 2023-11-02T02:12:38Z\n统计更新日期: 2024-11-30\n好评率：97.87%  浏览量：1175\n来源：我怎么借不到干员啊  ID：29717\n攻略作者：萧然Q  （有能力就去给个三连啦）👇👇👇\n【【崔林特尔梅之金】ZT全关卡 摆完挂机 简单好抄（持续更新中）】 https://www.bilibili.com/video/BV1xa4y1D7BE/?p=4&share_source=copy_web&vd_source=6505e26bc3ab2a3047a492d5d3214e54\n写作业的：我怎么借不到干员啊\n🆗已测试🆗\n平均练度2603"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

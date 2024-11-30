@@ -1,0 +1,479 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act29side_ex08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "如桃金娘",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "如德克萨斯",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "如重岳",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "cost_changes": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "如能天使",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "如红蒂",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "如煌",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "如德克萨斯",
+            "location": [
+                10,
+                3
+            ],
+            "costs": 30
+        },
+        {
+            "type": "Deploy",
+            "name": "门口阻挡",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "如芙蓉",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "如安塞尔",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Up",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "高台小车",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "如桃金娘",
+            "location": [
+                10,
+                2
+            ],
+            "costs": 10
+        },
+        {
+            "type": "Deploy",
+            "name": "如苏苏洛",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "costs": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "湮灭之相",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None",
+            "costs": 0
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "【浊天使 重岳】ZT-EX-8 - 永恒主题",
+        "details": "作业更新日期: 2023-11-10T10:10:33Z\n统计更新日期: 2024-11-30\n好评率：82.89%  浏览量：8604\n来源：Dayheart  ID：29999\n为了方便借重岳的人自动编队，重岳和玫兰莎是一组，大家可以先编队再去掉玫兰莎借重岳就好啦\n不施工了，老老实实带重岳吧\n\n起始思路\n【ZT-EX-8突袭摆完挂机】 https://www.bilibili.com/video/BV1dH4y1q7hY/?share_source=copy_web&vd_source=cd91394ea743aa4106bdb38b56e52772\n参考思路\n【【崔林特尔梅之金】ZT-EX-8突袭 双核半挂机 最无脑的一集】 https://www.bilibili.com/video/BV1kj411h7ms/?share_source=copy_web&vd_source=cd91394ea743aa4106bdb38b56e52772"
+    },
+    "groups": [
+        {
+            "name": "如苏苏洛",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "如芙蓉",
+            "opers": [
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "焰影苇草",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "如安塞尔",
+            "opers": [
+                {
+                    "name": "华法琳",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "如煌",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "仇白",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "耀骑士临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "如重岳",
+            "opers": [
+                {
+                    "name": "重岳",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "玫兰莎",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "如风笛",
+            "opers": [
+                {
+                    "name": "风笛",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "格拉尼",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "红豆",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "门口阻挡",
+            "opers": [
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "如红蒂",
+            "opers": [
+                {
+                    "name": "浊心斯卡蒂",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "空",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "淬羽赫默",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "如能天使",
+            "opers": [
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "空弦",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "如桃金娘",
+            "opers": [
+                {
+                    "name": "桃金娘",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "琴柳",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "如德克萨斯",
+            "opers": [
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "凛冬",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "高台小车",
+            "opers": [
+                {
+                    "name": "Lancet-2",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [],
+    "difficulty": 3
+}
