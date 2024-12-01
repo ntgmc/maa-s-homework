@@ -50,6 +50,10 @@ def build_id_cache(_cache_dict, _id, file_path: str):
     if _id not in _cache_dict:
         _cache_dict[_id] = [file_path]
     elif file_path not in _cache_dict[_id]:
+        for file in _cache_dict[_id]:
+            directory, filename = os.path.split(file)
+            if directory == os.path.dirname(file_path):
+                _cache_dict[_id].remove(file)
         _cache_dict[_id].append(file_path)
     return _cache_dict
 

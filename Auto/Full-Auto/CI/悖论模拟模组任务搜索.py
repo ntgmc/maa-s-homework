@@ -58,6 +58,10 @@ def build_id_cache(_cache_dict, _id, file_path: str):
     if _id not in _cache_dict:
         _cache_dict[_id] = [file_path]
     elif file_path not in _cache_dict[_id]:
+        for file in _cache_dict[_id]:
+            directory, filename = os.path.split(file)
+            if directory == os.path.dirname(file_path):
+                _cache_dict[_id].remove(file)
         _cache_dict[_id].append(file_path)
     return _cache_dict
 
@@ -180,17 +184,17 @@ def check_file_exists(pattern, mode):  # 判断是否存在相同id但评分不�
                 try:
                     if mode == 1:
                         os.remove(file_name)
-                        print(f"Removed {file_name}")
+                        print(f"{pattern} Removed {file_name}")
                     elif mode == 2:
                         directory, filename = os.path.split(file_name)
                         new_file_path = os.path.join(directory, f"(已删除){filename}")
                         if not os.path.exists(new_file_path):
                             os.rename(file_name, new_file_path)
-                            print(f"Renamed {file_name} to {new_file_path}")
+                            print(f"{pattern} Renamed {file_name} to {new_file_path}")
                         else:
-                            print(f"Error: {new_file_path} already exists!")
+                            print(f"{pattern} Error: {new_file_path} already exists!")
                 except Exception as e:
-                    print(f"Error: {e}")
+                    print(f"{pattern} Error: {e}")
 
 
 def less_search_paradox():
@@ -306,7 +310,7 @@ def search_module(name, stage):
                     #     # print(f"{item['id']} 未改变数据，无需更新")
                     #     if os.path.exists(file_path):
                     #         continue
-                    if compare_new_cache(cache_dict, "模组", name, item['id'], item['upload_time']):
+                    if compare_new_cache(cache_dict, "模组", name, item['id'], item['upload_time'], stage):
                         if os.path.exists(file_path):
                             continue
                     check_file_exists(f"模组任务/{name} - {stage} - * - {item['id']}.json", 1)
