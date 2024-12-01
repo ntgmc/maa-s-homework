@@ -239,10 +239,6 @@ def filter_paradox(data, name, _job):
             # 只下载评分最高的三个项目
             for percent, item in items_to_download[:3]:
                 file_path = f"悖论模拟/{_job}/{name} - {int(percent)} - {item['id']}.json"
-                # if compare_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论"):  # 如果未改变数据
-                #     # print(f"{item['id']} 未改变数据，无需更新")
-                #     if os.path.exists(file_path):  # 如果文件存在（评分相同）
-                #         continue
                 if compare_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time']):
                     if os.path.exists(file_path):  # 如果文件存在（评分相同）
                         continue
@@ -253,7 +249,6 @@ def filter_paradox(data, name, _job):
                     'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
                                  content['doc']['details']
                 write_json_to_file(file_path, content)
-                # cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论")
                 cache_dict = build_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time'])
                 id_cache_dict = build_id_cache(id_cache_dict, str(item['id']), file_path)
         cache_dict = cache_delete_save(cache_dict, "悖论", found_ids, id_list, name)
@@ -306,10 +301,6 @@ def search_module(name, stage):
                 # 只下载评分最高的三个项目
                 for percent, item in items_to_download[:3]:
                     file_path = f"模组任务/{name} - {stage} - {int(percent)} - {item['id']}.json"
-                    # if compare_cache(cache_dict, item['id'], item['upload_time'], name + "-模组"):
-                    #     # print(f"{item['id']} 未改变数据，无需更新")
-                    #     if os.path.exists(file_path):
-                    #         continue
                     if compare_new_cache(cache_dict, "模组", name, item['id'], item['upload_time'], stage):
                         if os.path.exists(file_path):
                             continue
@@ -319,7 +310,6 @@ def search_module(name, stage):
                         'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
                                      content['doc']['details']
                     write_json_to_file(file_path, content)
-                    # cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-模组")
                     cache_dict = build_new_cache(cache_dict, "模组", name, item['id'], item['upload_time'], stage)
                     id_cache_dict = build_id_cache(id_cache_dict, item['id'], file_path)
             cache_dict = cache_delete_save(cache_dict, "模组", found_ids, id_list, name, stage=stage)

@@ -243,10 +243,6 @@ def less_filter_data(stage_dict, data, stage_id):
                 view = item.get('views', 0)
                 found_ids.add(str(item['id']))
                 if percent >= score_threshold and view >= view_threshold:
-                    # if compare_cache(cache_dict, item['id'], item['upload_time'], cat_three):
-                    #     # print(f"{item['id']} 未改变数据，无需更新")
-                    #     download_amount += 1
-                    #     continue
                     if compare_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time']):
                         download_amount += 1
                         continue
@@ -257,7 +253,6 @@ def less_filter_data(stage_dict, data, stage_id):
                     if os.path.exists(file_path):
                         os.remove(file_path)
                     write_to_file(file_path, content)
-                    # cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], cat_three)
                     cache_dict = build_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time'])
                     id_cache_dict = build_id_cache(id_cache_dict, item['id'], file_path)
                     download_amount += 1
