@@ -19,7 +19,6 @@ date = datetime.now().strftime('%Y-%m-%d')
 # cache = 'Auto/Full-Auto/cache/activity_cache.json'
 cache = 'Auto/Full-Auto/cache/new_activity_cache.json'
 id_cache = 'Auto/Full-Auto/cache/id_cache.json'
-# TODO: 根据id缓存文件名
 
 
 def write_to_file(file_path, content):
@@ -33,11 +32,6 @@ def load_data(path):
             return json.load(file)
     else:
         return {}
-
-
-def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
-    _cache_dict[f"{_id}-{others}"] = now_upload_time
-    return _cache_dict
 
 
 def build_activity_new_cache(_cache_dict, cat_three, _id: str, now_upload_time: str):
@@ -58,11 +52,6 @@ def build_id_cache(_cache_dict, _id, file_path: str):
     elif file_path not in _cache_dict[_id]:
         _cache_dict[_id].append(file_path)
     return _cache_dict
-
-
-def compare_cache(_cache_dict, _id, now_upload_time: str, others: str):  # 最新返回True，需更新返回False
-    before_upload_time = _cache_dict.get(f"{_id}-{others}", '')
-    return before_upload_time == now_upload_time
 
 
 def compare_activity_new_cache(new_cache_dict, cat_three, _id, now_upload_time):
@@ -211,10 +200,22 @@ def generate_filename(stage_dict, stage_id, data, uploader, activity_name, stage
 
 
 def cache_delete_save(_cache_dict, found_ids, id_list, cat_three):
+    global id_cache_dict
     missing_ids = set(id_list) - found_ids
     for missing_id in missing_ids:
         print(id_list, found_ids, f"未找到 {cat_three} - {missing_id}")
         _cache_dict = build_activity_new_cache(cache_dict, cat_three, missing_id, "已删除")
+        file_paths = id_cache_dict.get(missing_id, [])
+        if file_paths:
+            id_cache_dict[missing_id] = []
+            for file_path in file_paths:
+                directory, filename = os.path.split(file_path)
+                new_file_path = os.path.join(directory, f"(已删除){filename}")
+                try:
+                    os.rename(file_path, new_file_path)
+                    id_cache_dict[missing_id].append(new_file_path)
+                except FileNotFoundError:
+                    print(f"{file_path} 不存在")
     return _cache_dict
 
 

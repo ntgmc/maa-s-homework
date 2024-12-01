@@ -18,7 +18,6 @@ date = datetime.now().strftime('%Y-%m-%d')
 # cache = 'Auto/Full-Auto/cache/cache.json'
 cache = 'Auto/Full-Auto/cache/new_cache.json'
 id_cache = 'Auto/Full-Auto/cache/id_cache.json'
-# TODO: 根据id缓存文件名
 
 
 def write_json_to_file(file_path, content):
@@ -37,11 +36,6 @@ def load_data(path):
             return json.load(file)
     else:
         return {}
-
-
-def build_cache(_cache_dict, _id, now_upload_time: str, others: str):
-    _cache_dict[f"{_id}-{others}"] = now_upload_time
-    return _cache_dict
 
 
 def build_new_cache(_cache_dict, _type, _subtype, _id, now_upload_time: str, _sub_type=None):
@@ -68,21 +62,23 @@ def build_id_cache(_cache_dict, _id, file_path: str):
     return _cache_dict
 
 
-def cache_delete_save(_cache_dict, _type, found_ids, id_list, name, _job="", stage=None):
+def cache_delete_save(_cache_dict, _type, found_ids, id_list, name, stage=None):
     missing_ids = set(id_list) - found_ids
     for missing_id in missing_ids:
         print(id_list, found_ids, f"未找到 {name} - {missing_id}")
         _cache_dict = build_new_cache(_cache_dict, _type, name, missing_id, "已删除", stage)
-        if _type == "模组":
-            check_file_exists(f"模组任务/{name} - {stage} - * - {missing_id}.json", 2)
-        elif _type == "悖论":
-            check_file_exists(f"悖论模拟/{_job}/{name} - * - {missing_id}.json", 2)
+        file_paths = id_cache_dict.get(missing_id, [])
+        if file_paths:
+            id_cache_dict[missing_id] = []
+            for file_path in file_paths:
+                directory, filename = os.path.split(file_path)
+                new_file_path = os.path.join(directory, f"(已删除){filename}")
+                try:
+                    os.rename(file_path, new_file_path)
+                    id_cache_dict[missing_id].append(new_file_path)
+                except FileNotFoundError:
+                    print(f"{file_path} 不存在")
     return _cache_dict
-
-
-def compare_cache(_cache_dict, _id, now_upload_time: str, others: str):  # 最新返回True，需更新返回False
-    before_upload_time = _cache_dict.get(f"{_id}-{others}", '')
-    return before_upload_time == now_upload_time
 
 
 def compare_new_cache(new_cache_dict, _type, _subtype, _id, now_upload_time, stage=""):
@@ -256,7 +252,7 @@ def filter_paradox(data, name, _job):
                 # cache_dict = build_cache(cache_dict, item['id'], item['upload_time'], name + "-悖论")
                 cache_dict = build_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time'])
                 id_cache_dict = build_id_cache(id_cache_dict, str(item['id']), file_path)
-        cache_dict = cache_delete_save(cache_dict, "悖论", found_ids, id_list, name, _job)
+        cache_dict = cache_delete_save(cache_dict, "悖论", found_ids, id_list, name)
         print(f"成功搜索 {_job} - {name}")
         return name, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user), all_below_threshold
     else:
