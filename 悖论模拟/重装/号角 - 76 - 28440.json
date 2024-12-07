@@ -1,0 +1,98 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_horn_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "华法琳",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "号角",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "号角",
+            "location": [
+                4,
+                3
+            ],
+            "pre_delay": 6500
+        },
+        {
+            "type": "Skill",
+            "name": "华法琳",
+            "location": [
+                1,
+                3
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "号角",
+            "location": [
+                4,
+                3
+            ],
+            "pre_delay": 1000,
+            "kills": 17
+        },
+        {
+            "type": "Skill",
+            "name": "华法琳",
+            "location": [
+                1,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "号角",
+            "location": [
+                4,
+                3
+            ],
+            "pre_delay": 500,
+            "kills": 25
+        },
+        {
+            "type": "Skill",
+            "name": "华法琳",
+            "location": [
+                1,
+                3
+            ]
+        }
+    ],
+    "doc": {
+        "title": "重装 - 号角 - 号声响起",
+        "details": "作业更新日期: 2024-03-23T13:28:22Z\n统计更新日期: 2024-12-07\n好评率：76.6%  浏览量：2605\n来源：无忧无虑啦  ID：28440\n号角精二50级，三技能7级实测稳过\n有问题群找“无忧”，评论区不一定能及时回复\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "号角",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "华法琳",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
