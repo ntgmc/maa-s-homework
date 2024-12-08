@@ -1,0 +1,92 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_04-06",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "能天使",
+      "location": [
+        6,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "奶盾",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "瑰盐",
+      "location": [
+        7,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Output",
+      "doc_color": "#6f42c1",
+      "doc": "给个好评吧，亲~"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "瑰盐模组任务 - 4-6 - 多彩盐漠生活",
+    "details": "瑰盐「多彩盐漠生活」模组任务\n3星通关主题曲4-6；必须编入非助战瑰盐并上场，且至少使用1次绝妙的长效药呀\n原作业：maa://20943\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [
+    {
+      "name": "奶盾",
+      "opers": [
+        {
+          "name": "塞雷娅",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "黍",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "能天使",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "瑰盐",
+      "skill": 2,
+      "skill_usage": 1
+    }
+  ],
+  "difficulty": 1
+}
