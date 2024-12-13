@@ -1,0 +1,176 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act39side_ex08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                11,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                10,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "归溟幽灵鲨",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "荒芜拉普兰德",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "斯卡蒂",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘"
+        },
+        {
+            "type": "Retreat",
+            "name": "玛恩纳",
+            "kills": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "location": [
+                1,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "黍",
+            "kills": 24
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                3,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "EP-EX-8 深海队豪华限定版",
+        "details": "作业更新日期: 2024-12-12T17:31:43Z\n统计更新日期: 2024-12-13\n好评率：91.23%  浏览量：2783\n来源：萨拉托加  ID：44485\n原作者萧然Q JSON作者萨拉托加\n作业交流群群号1009052305，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【出苍白海】EP-EX-1至EP-EX-8突袭 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1mWq8YbET9/?p=10&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "归溟幽灵鲨",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黍",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 1
+        }
+    ],
+    "difficulty": 3
+}
