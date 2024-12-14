@@ -1,0 +1,72 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act25side_s01_a",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "歌蕾蒂娅",
+      "location": [
+        10,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "乌尔比安",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "逻各斯",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "塑心",
+      "location": [
+        9,
+        3
+      ],
+      "direction": "Left"
+    }
+  ],
+  "doc": {
+    "title": "孤星 - CW-S-1-A - 花式滑冰·α",
+    "details": "UP：小刻awa\n原视频：https://www.bilibili.com/video/BV1dwmtYwEsA/\n歌蕾蒂娅、塑心、乌尔比安X模\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "歌蕾蒂娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "乌尔比安",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "塑心",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "逻各斯",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

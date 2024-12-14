@@ -1,0 +1,78 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act39side_ex06",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "乌尔比安",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "纯烬艾雅法拉",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "娜仁图亚",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "娜仁图亚",
+      "pre_delay": 5000
+    }
+  ],
+  "doc": {
+    "title": "EP-EX-6 - 盐鳞坟场",
+    "details": "UP：小刻awa\nhttps://www.bilibili.com/video/BV1Sjq8YPE1w/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "乌尔比安",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "娜仁图亚",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "纯烬艾雅法拉",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

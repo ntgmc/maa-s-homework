@@ -1,0 +1,209 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act39side_ex08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                11,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                1,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "location": [
+                9,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "荒芜拉普兰德",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                8,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "荒芜拉普兰德",
+            "skill_usage": 0
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "skill_usage": 0
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "pre_delay": 2500
+        },
+        {
+            "type": "Deploy",
+            "name": "行医",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left",
+            "kills": 20,
+            "pre_delay": 11500
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Down",
+            "pre_delay": 3000
+        },
+        {
+            "type": "Deploy",
+            "name": "荒芜拉普兰德",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left",
+            "kills": 22
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                7,
+                7
+            ],
+            "pre_delay": 15500,
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "荒芜拉普兰德",
+            "kills": 24
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                10,
+                7
+            ],
+            "direction": "Left",
+            "kills": 28,
+            "pre_delay": 4000
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "pre_delay": 2500
+        },
+        {
+            "type": "Retreat",
+            "name": "星熊",
+            "kills": 36
+        }
+    ],
+    "doc": {
+        "title": "自用 出苍白海 - EP-EX-8 - 盐海尽头",
+        "details": "作业更新日期: 2024-12-12T15:51:07Z\n统计更新日期: 2024-12-14\n好评率：87.76%  浏览量：1501\n来源：一只摆烂的42  ID：44542\n测试普通突袭均通过\nUP：涂绘天菜\nhttps://www.bilibili.com/video/BV1hoqaYyEZH/\n黍、拉狗、乌尔比安建议2903三模，奶羊练度高点好\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "groups": [
+        {
+            "name": "行医",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
