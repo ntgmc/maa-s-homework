@@ -242,6 +242,11 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
                         download_amount += 1
                         continue
                     # TODO: 多作业文件名相同时的处理及删除后处理
+                    if id_cache_dict.get(str(item['id'])):
+                        for file in id_cache_dict[str(item['id'])]:
+                            if os.path.exists(file):
+                                os.remove(file)
+                                print(f"Removed {file}")
                     content = json.loads(item['content'])
                     file_path = generate_filename(stage_id, content, path_mode, cat_two, cat_three)
                     content['doc']['details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']

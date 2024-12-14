@@ -246,6 +246,11 @@ def less_filter_data(stage_dict, data, stage_id):
                     if compare_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time']):
                         download_amount += 1
                         continue
+                    if id_cache_dict.get(str(item['id'])):
+                        for file in id_cache_dict[str(item['id'])]:
+                            if os.path.exists(file):
+                                os.remove(file)
+                                print(f"Removed {file}")
                     content = json.loads(item['content'])
                     file_path = generate_filename(stage_dict, stage_id, content, item['uploader'], activity_name, cat_three)
                     content['doc']['details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']

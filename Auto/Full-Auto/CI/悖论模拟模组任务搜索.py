@@ -176,27 +176,6 @@ def code_output(percent, _id, mode):
             return f"maa://{_id}"
 
 
-def check_file_exists(pattern, mode):  # 判断是否存在相同id但评分不同的文件
-    matching_files = glob.glob(pattern)
-    if len(matching_files) > 0:
-        for file_name in matching_files:
-            if os.path.exists(file_name):
-                try:
-                    if mode == 1:
-                        os.remove(file_name)
-                        print(f"{pattern} Removed {file_name}")
-                    elif mode == 2:
-                        directory, filename = os.path.split(file_name)
-                        new_file_path = os.path.join(directory, f"(已删除){filename}")
-                        if not os.path.exists(new_file_path):
-                            os.rename(file_name, new_file_path)
-                            print(f"{pattern} Renamed {file_name} to {new_file_path}")
-                        else:
-                            print(f"{pattern} Error: {new_file_path} already exists!")
-                except Exception as e:
-                    print(f"{pattern} Error: {e}")
-
-
 def less_search_paradox():
     url = "https://prts.maa.plus/copilot/query?page=1&limit=999&levelKeyword=mem_&document=&desc=true&orderBy=views"
     _headers = {
@@ -243,7 +222,11 @@ def filter_paradox(data, name, _job):
                     if os.path.exists(file_path):  # 如果文件存在（评分相同）
                         continue
                 # 数据改变或评分改变
-                check_file_exists(f"悖论模拟/{_job}/{name} - * - {item['id']}.json", 1)
+                if id_cache_dict.get(str(item['id'])):
+                    for file in id_cache_dict[str(item['id'])]:
+                        if os.path.exists(file):
+                            os.remove(file)
+                            print(f"Removed {file}")
                 content = json.loads(item['content'])
                 content['doc'][
                     'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
@@ -304,7 +287,11 @@ def search_module(name, stage):
                     if compare_new_cache(cache_dict, "模组", name, item['id'], item['upload_time'], stage):
                         if os.path.exists(file_path):
                             continue
-                    check_file_exists(f"模组任务/{name} - {stage} - * - {item['id']}.json", 1)
+                    if id_cache_dict.get(str(item['id'])):
+                        for file in id_cache_dict[str(item['id'])]:
+                            if os.path.exists(file):
+                                os.remove(file)
+                                print(f"Removed {file}")
                     content = json.loads(item['content'])
                     content['doc'][
                         'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
