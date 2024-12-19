@@ -1,8 +1,8 @@
 {
     "minimum_required": "v4.0.0",
     "doc": {
-        "title": "H9-4 摆完挂机 稳定版（修改奶盾版）",
-        "details": "作业更新日期: 2024-05-16T15:34:35Z\n统计更新日期: 2024-11-30\n好评率：97.58%  浏览量：1384\n来源：秋风灬梧桐  ID：37726\n原视频：https://www.bilibili.com/video/BV1Wk4y1h75G/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+        "title": "H9-4 摆完挂机 稳定版",
+        "details": "作业更新日期: 2024-10-27T00:55:56Z\n统计更新日期: 2024-12-19\n好评率：80.0%  浏览量：3933\n来源：一只摆烂的42  ID：22191\n原视频：https://www.bilibili.com/video/BV1Wk4y1h75G/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
     },
     "stage_name": "hard_09-04",
     "opers": [
@@ -125,17 +125,12 @@
             "name": "奶盾",
             "opers": [
                 {
-                    "name": "塞雷娅",
-                    "skill": 1,
-                    "skill_usage": 0
-                },
-                {
-                    "name": "临光",
-                    "skill": 1,
-                    "skill_usage": 0
-                },
-                {
                     "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
                     "skill": 1,
                     "skill_usage": 0
                 }
