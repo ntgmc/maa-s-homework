@@ -102,6 +102,7 @@ def get_activity_data():
                 # Find all tables that match the criteria
                 tables = soup.find_all('table', {'class': 'wikitable'})
                 # Iterate through each table
+                task_cat_three = ''
                 for table in tables:
                     rows = table.find_all('tr')
                     for row in rows[1:]:  # Skip the header row
@@ -110,13 +111,15 @@ def get_activity_data():
                             continue
                         task_page = cols[0].find('a')
                         if task_page:
-                            task_cat_three = task_page.get('title', [])
+                            task_cat_three = task_page.get('title', '')
                             if "ST" in task_cat_three:
                                 continue
-                            if task_cat_three:
+                            if "-1" in task_cat_three:
                                 task_stage_id = get_cat_three_info(cat_three_all_dict, task_cat_three, "stage_id")
                                 activity_id = extract_activity_from_stage_id(task_stage_id)
                                 break
+                    if "-1" in task_cat_three:
+                        break
             elif status_span and "未开始" in status_span.text:
                 status = "未开始"
             activities[activity_name] = {'status': status, 'id': activity_id}
@@ -311,6 +314,7 @@ def download_current_activity(activity):
     stage_dict = {}
     cat_three_dict = {}
     activity_id = activity_data[activity]['id']
+    print(activity_data, activity_id)
     if activity in all_dict["活动关卡"]:
         stage_dict = build_dict(all_dict["活动关卡"][activity], "stage_id")
         cat_three_dict = build_dict(all_dict["活动关卡"][activity], "cat_three")
