@@ -511,21 +511,24 @@ def get_activity_data():
                 # Find all tables that match the criteria
                 tables = soup.find_all('table', {'class': 'wikitable'})
                 # Iterate through each table
+                task_cat_three = ''
                 for table in tables:
                     rows = table.find_all('tr')
-                    for row1 in rows[1:]:  # Skip the header row
-                        cols = row1.find_all('td')
+                    for row in rows[1:]:  # Skip the header row
+                        cols = row.find_all('td')
                         if len(cols) < 3:
                             continue
                         task_page = cols[0].find('a')
                         if task_page:
-                            task_cat_three = task_page.get('title', [])
+                            task_cat_three = task_page.get('title', '')
                             if "ST" in task_cat_three:
                                 continue
-                            if task_cat_three:
+                            if "-1" in task_cat_three:
                                 task_stage_id = get_cat_three_info(cat_three_dict, task_cat_three, "stage_id")
                                 activity_id = extract_activity_from_stage_id(task_stage_id)
                                 break
+                    if "-1" in task_cat_three:
+                        break
             elif status_span and "未开始" in status_span.text:
                 status = "未开始"
             activities[activity_name] = {'status': status, 'id': activity_id}
