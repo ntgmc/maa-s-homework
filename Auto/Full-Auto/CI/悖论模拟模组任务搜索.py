@@ -1,3 +1,5 @@
+import re
+
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -177,7 +179,7 @@ def code_output(percent, _id, mode):
 
 
 def less_search_paradox():
-    url = "https://prts.maa.plus/copilot/query?page=1&limit=999&levelKeyword=mem_&document=&desc=true&orderBy=views"
+    url = "https://prts.maa.plus/copilot/query?page=1&limit=9999&levelKeyword=mem_&document=&desc=true&orderBy=views"
     _headers = {
         "Origin": "https://prts.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
@@ -224,9 +226,10 @@ def filter_paradox(data, name, _job):
                 # 数据改变或评分改变
                 if id_cache_dict.get(str(item['id'])):
                     for file in id_cache_dict[str(item['id'])]:
-                        if os.path.exists(file):
-                            os.remove(file)
-                            print(f"Removed {file}")
+                        if re.search(rf"{name}", file):
+                            if os.path.exists(file):
+                                os.remove(file)
+                                print(f"Removed {file}")
                 content = json.loads(item['content'])
                 content['doc'][
                     'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
@@ -243,6 +246,7 @@ def filter_paradox(data, name, _job):
 
 def search_module(name, stage):
     global ids, cache_dict, id_cache_dict
+    # TODO: 医疗阿米娅和近卫阿米娅的问题
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage}&document={name}&desc=true&orderBy=views"
     _headers = {
         "Origin": "https://prts.plus",
@@ -289,9 +293,10 @@ def search_module(name, stage):
                             continue
                     if id_cache_dict.get(str(item['id'])):
                         for file in id_cache_dict[str(item['id'])]:
-                            if os.path.exists(file):
-                                os.remove(file)
-                                print(f"Removed {file}")
+                            if re.search(rf"{name} - {stage}", file):
+                                if os.path.exists(file):
+                                    os.remove(file)
+                                    print(f"Removed {file}")
                     content = json.loads(item['content'])
                     content['doc'][
                         'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
