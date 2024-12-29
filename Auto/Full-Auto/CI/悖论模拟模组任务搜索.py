@@ -4,7 +4,6 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
-import glob
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 
