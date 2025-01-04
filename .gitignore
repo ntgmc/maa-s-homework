@@ -6,5 +6,6 @@ Auto/自动删除前缀.py
 Auto/自动删除前缀-nt.py
 Auto/点赞.py
 Auto/tokens.json
+Auto/release.py
 .idea
 .test
