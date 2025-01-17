@@ -1,0 +1,62 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_d_2",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "身先士卒 - PR-D-2 - 猛攻",
+        "details": "作业更新日期: 2025-01-08T07:15:56Z\n统计更新日期: 2025-01-17\n好评率：100.0%  浏览量：47\n来源：PotatoGad  ID：45405\n【明日方舟】PR-D-2三人挂机速通刷信赖近卫特种双芯片本\n阿米尼乌斯\nhttps://www.bilibili.com/video/BV1pe411u7fA/"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
