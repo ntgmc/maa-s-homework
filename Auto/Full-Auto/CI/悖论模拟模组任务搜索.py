@@ -249,8 +249,8 @@ def escape_special_characters(name):
 
 def search_module(name, stage):
     global ids, cache_dict, id_cache_dict
-    name = escape_special_characters(name)
-    url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage}&document={name}&desc=true&orderBy=views"
+    escaped_name = escape_special_characters(name)
+    url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage}&document={escaped_name}&desc=true&orderBy=views"
     _headers = {
         "Origin": "https://prts.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
