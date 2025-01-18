@@ -243,9 +243,13 @@ def filter_paradox(data, name, _job):
         return name, 0, 0, "None", "None", False
 
 
+def escape_special_characters(name):
+    return re.escape(name)
+
+
 def search_module(name, stage):
     global ids, cache_dict, id_cache_dict
-    # TODO: 医疗阿米娅和近卫阿米娅的问题
+    name = escape_special_characters(name)
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage}&document={name}&desc=true&orderBy=views"
     _headers = {
         "Origin": "https://prts.plus",
