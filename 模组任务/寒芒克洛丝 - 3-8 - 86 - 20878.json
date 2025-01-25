@@ -1,0 +1,91 @@
+{
+    "minimum_required": "v4.0.0",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "寒芒克洛丝",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Output",
+            "doc_color": "#6f42c1",
+            "doc": "给个好评吧，亲~"
+        }
+    ],
+    "doc": {
+        "title": "寒芒克洛丝模组摆完挂机-真心的话和想冒的险",
+        "details": "作业更新日期: 2023-02-18T00:53:49Z\n统计更新日期: 2025-01-25\n好评率：86.67%  浏览量：900\n来源：作业代传——有问题联系原作者  ID：20878\n侬无言以对模组任务摆完挂机合集:BV1wU4y177Qu\n3星通关主题曲3-8；必须编入非助战寒芒克洛丝并上场，且使用寒芒克洛丝歼灭碎骨\n筱竹聽雨"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "寒芒克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "stage_name": "main_03-08"
+}
