@@ -1,0 +1,42 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_09-13",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "第九章 风暴瞭望 - 9-15（标准） - 大地滚烫",
+        "details": "作业更新日期: 2023-10-11T15:07:51Z\n统计更新日期: 2025-01-26\n好评率：98.04%  浏览量：1000\n来源：admin  ID：28955\n【《明日方舟》9-15 突袭 双人摆完挂机】 https://www.bilibili.com/video/BV1vL411x7rV/?share_source=copy_web&vd_source=770bbf04495b3ba70ce73af6bb92fb5b\n原视频是精二40的闪灵"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
