@@ -1,0 +1,206 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act40side_ex08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                11,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                11,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "幻影",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "幻影",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "None",
+            "kills": 10
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right",
+            "kills": 17
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                11,
+                1
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "棘刺",
+            "location": [
+                10,
+                1
+            ],
+            "kills": 24
+        },
+        {
+            "type": "SkillUsage",
+            "name": "棘刺",
+            "skill_usage": 1
+        },
+        {
+            "type": "Skill",
+            "name": "“小自在”",
+            "location": [
+                11,
+                2
+            ],
+            "kills": 30
+        },
+        {
+            "type": "Skill",
+            "name": "“小自在”",
+            "kills": 44,
+            "location": [
+                11,
+                2
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OR-EX-8 - 百味灵明 - 无饼干",
+        "details": "作业更新日期: 2025-01-30T02:00:06Z\n统计更新日期: 2025-01-30\n好评率：98.31%  浏览量：1646\n来源：小卡拉帕鲁灰  ID：46012\n尽量放前台运行（别最小化模拟器）\n无饼干、奶羊\n如果你ew有秒开技能秒关技能的bug，可能会翻车\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黍",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}
