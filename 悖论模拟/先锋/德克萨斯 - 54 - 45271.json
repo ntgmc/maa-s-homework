@@ -1,0 +1,194 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_texas_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 7000
+        },
+        {
+            "type": "Deploy",
+            "name": "便携式补给站",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 11700
+        },
+        {
+            "type": "Deploy",
+            "name": "便携式补给站",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 8000
+        },
+        {
+            "type": "Deploy",
+            "name": "便携式补给站",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 6600,
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "便携式补给站",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 5100
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 9800
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 8500
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 8000
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 13200
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 8000
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 6800
+        },
+        {
+            "type": "SkillUsage",
+            "name": "德克萨斯",
+            "skill_usage": 1
+        }
+    ],
+    "doc": {
+        "title": "【二倍速--开启截图增强】先锋 - 德克萨斯 - 因地制宜",
+        "details": "作业更新日期: 2025-01-05T00:33:51Z\n统计更新日期: 2025-02-01\n好评率：54.55%  浏览量：264\n来源：542B  ID：45271\n其他作业分挺低的，自己搓了一版\n测试为满潜精二满级无专\n按时间轴写的，应该没逝吧"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "作者：542B",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "求反馈",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "o(〃＾▽＾〃)o",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
