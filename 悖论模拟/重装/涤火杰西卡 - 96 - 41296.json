@@ -1,0 +1,135 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_jesca2_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "涤火杰西卡",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "灰喉",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 2
+        },
+        {
+            "type": "Deploy",
+            "name": "冰酿",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "涤火杰西卡",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 4,
+            "cooling": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 6
+        },
+        {
+            "type": "Skill",
+            "name": "冰酿",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 10,
+            "costs": 0
+        },
+        {
+            "type": "Skill",
+            "name": "涤火杰西卡",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 11
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 12
+        },
+        {
+            "type": "Deploy",
+            "name": "机动盾牌",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "None",
+            "kills": 19
+        },
+        {
+            "type": "Skill",
+            "name": "芙蓉",
+            "location": [
+                2,
+                4
+            ],
+            "kills": 20
+        },
+        {
+            "type": "Skill",
+            "name": "涤火杰西卡",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 20
+        },
+        {
+            "type": "Skill",
+            "name": "冰酿",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 20
+        }
+    ],
+    "doc": {
+        "title": "【涤火杰西卡】悖论模拟 - 携盾机动",
+        "details": "作业更新日期: 2024-09-14T01:10:41Z\n统计更新日期: 2025-02-02\n好评率：96.0%  浏览量：3466\n来源：LobsterJam  ID：41296\n测试已通过\n60级 三技能lv7应该够用"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "涤火杰西卡",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}
