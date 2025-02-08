@@ -1,0 +1,102 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act40side_ex03",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OR-EX-3 - 苦 四人挂机",
+        "details": "作业更新日期: 2025-01-29T14:45:48Z\n统计更新日期: 2025-02-08\n好评率：96.99%  浏览量：1207\n来源：iseddy  ID：46000\n来源 https://www.bilibili.com/video/BV1kjFTeLEni\nUP主：KK大王喵\n练度需求：疑似2903，2603没测过\n术士仅测试小羊"
+    },
+    "groups": [
+        {
+            "name": "术士",
+            "opers": [
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        }
+    ],
+    "difficulty": 3
+}

@@ -1,0 +1,53 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_bubble_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "泡泡",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "泡泡",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 10,
+            "pre_delay": 6500
+        },
+        {
+            "type": "Skill",
+            "name": "泡泡",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 33,
+            "pre_delay": 3500
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "重装 - 泡泡 - 不能白挨打【泡泡悖论模拟】",
+        "details": "作业更新日期: 2024-01-10T12:46:20Z\n统计更新日期: 2025-02-08\n好评率：96.08%  浏览量：1014\n来源：小卡拉帕鲁灰  ID：31731\n泡泡 悖论模拟：不能白挨打\n练度：精二70级、7级二技能（我只有一个号养了，等级具体可以多低不知道）\n悖论模拟需要在MAA中关闭“自动编队”，\n选好二技能后处于红色ui“开始模拟”界面，maa就可以按开始了"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "泡泡",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
