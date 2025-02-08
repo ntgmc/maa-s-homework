@@ -2,7 +2,7 @@
     "minimum_required": "v4.0.0",
     "doc": {
         "title": "【孤岛风云】MB-EX-8突袭七人",
-        "details": "作业更新日期: 2024-07-25T06:02:23Z\n统计更新日期: 2024-07-25\n好评率：98.31%  浏览量：1890\n来源：一只摆烂的42  ID：21065\n\nUP：萧然Q\n原视频：https://www.bilibili.com/video/BV17L4y1H776?p=19\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+        "details": "作业更新日期: 2025-02-08T15:47:34Z\n统计更新日期: 2025-02-08\n好评率：99.0%  浏览量：2992\n来源：一只摆烂的42  ID：21065\n\nUP：萧然Q\n原视频：https://www.bilibili.com/video/BV17L4y1H776?p=19\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
     },
     "stage_name": "act15d0_ex08",
     "opers": [
@@ -27,11 +27,6 @@
             "skill_usage": 0
         },
         {
-            "name": "闪灵",
-            "skill": 2,
-            "skill_usage": 0
-        },
-        {
             "name": "铃兰",
             "skill": 2,
             "skill_usage": 0
@@ -39,26 +34,26 @@
     ],
     "actions": [
         {
-            "type": "二倍速",
+            "type": "SpeedUp",
             "name": ""
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "能天使",
             "location": [
                 5,
                 4
             ],
-            "direction": "右"
+            "direction": "Right"
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "铃兰",
             "location": [
                 4,
                 4
             ],
-            "direction": "上"
+            "direction": "Up"
         },
         {
             "type": "Deploy",
@@ -70,42 +65,45 @@
             ]
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "艾雅法拉",
             "location": [
                 5,
                 3
             ],
-            "direction": "左"
+            "direction": "Left"
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "伊芙利特",
             "location": [
                 2,
                 5
             ],
-            "direction": "右"
+            "direction": "Right"
         },
         {
-            "type": "部署",
-            "name": "闪灵",
+            "type": "Deploy",
+            "name": "单奶",
             "location": [
                 5,
                 1
             ],
-            "direction": "左"
+            "direction": "Left"
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "kills": 19,
             "name": "史尔特尔",
             "location": [
                 3,
                 1
             ],
-            "direction": "下",
+            "direction": "Down",
             "pre_delay": 7000
+        },
+        {
+            "type": "SkillDaemon"
         }
     ],
     "difficulty": 3,
@@ -120,6 +118,26 @@
                 },
                 {
                     "name": "塑心",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "单奶",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "纯烬艾雅法拉",
                     "skill": 1,
                     "skill_usage": 0
                 }
