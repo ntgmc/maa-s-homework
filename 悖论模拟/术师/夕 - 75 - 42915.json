@@ -1,0 +1,71 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_dusk_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "嵯峨",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down",
+            "costs": 15
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "嵯峨",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "夕",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down",
+            "costs": 34
+        },
+        {
+            "type": "Skill",
+            "name": "夕",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 77
+        },
+        {
+            "type": "Skill",
+            "name": "夕",
+            "location": [
+                5,
+                3
+            ]
+        }
+    ],
+    "doc": {
+        "title": "术师 - 夕 - 戒骄戒躁 专3",
+        "details": "作业更新日期: 2024-10-30T11:35:49Z\n统计更新日期: 2025-02-08\n好评率：75.0%  浏览量：198\n来源：yeranyegongzi  ID：42915\n专3"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "夕",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "嵯峨",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}
