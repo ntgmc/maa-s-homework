@@ -1,0 +1,93 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "level_crisis_v2_03-01",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "德克萨斯",
+      "location": [
+        2,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "艾雅法拉",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "维什戴尔",
+      "location": [
+        9,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "逻各斯",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillUsage",
+      "skill_times": 1,
+      "name": "维什戴尔",
+      "skill_usage": 2
+    },
+    {
+      "type": "Skill",
+      "name": "维什戴尔",
+      "kills": 21
+    },
+    {
+      "type": "SkillUsage",
+      "skill_times": 1,
+      "name": "维什戴尔",
+      "skill_usage": 2
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "净罪作战 天灾降临作战 净罪旗子",
+    "details": "原作者萧然Q json作者：萨拉托加\n作业交流群群号1009052305，可蹲作业，有问题进群找我，作业站消息没提醒看不到"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "维什戴尔",
+      "skill": 3,
+      "skill_usage": 2,
+      "skill_times": 1
+    },
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "德克萨斯",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "逻各斯",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

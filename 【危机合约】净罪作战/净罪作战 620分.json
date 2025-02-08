@@ -1,0 +1,289 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "level_crisis_v2_03-01",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "风笛",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Retreat",
+      "name": "风笛",
+      "kills": 1
+    },
+    {
+      "type": "Retreat",
+      "name": "桃金娘",
+      "kills": 1
+    },
+    {
+      "type": "Deploy",
+      "name": "温蒂",
+      "location": [
+        7,
+        1
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "伊内丝",
+      "location": [
+        6,
+        1
+      ],
+      "direction": "Left",
+      "cost_changes": 4
+    },
+    {
+      "type": "Skill",
+      "name": "温蒂",
+      "cost_changes": 4
+    },
+    {
+      "type": "Retreat",
+      "name": "伊内丝"
+    },
+    {
+      "type": "Deploy",
+      "name": "工程蓄水炮",
+      "location": [
+        9,
+        5
+      ],
+      "direction": "Left",
+      "pre_delay": 500
+    },
+    {
+      "type": "Deploy",
+      "name": "夜刀",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Right",
+      "pre_delay": 500
+    },
+    {
+      "type": "Skill",
+      "name": "温蒂",
+      "kills": 3,
+      "cost_changes": 19
+    },
+    {
+      "type": "Retreat",
+      "name": "温蒂",
+      "kills": 4
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SpeedUp",
+      "kills": 15
+    },
+    {
+      "type": "Deploy",
+      "name": "温蒂",
+      "location": [
+        2,
+        5
+      ],
+      "kills": 16,
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "工程蓄水炮",
+      "location": [
+        6,
+        1
+      ],
+      "direction": "Down",
+      "kills": 17
+    },
+    {
+      "type": "Retreat",
+      "name": "温蒂",
+      "kills": 19
+    },
+    {
+      "type": "Deploy",
+      "name": "铃兰",
+      "location": [
+        3,
+        5
+      ],
+      "direction": "Up",
+      "pre_delay": 5000
+    },
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        9,
+        1
+      ],
+      "direction": "Right",
+      "kills": 28,
+      "cost_changes": 1
+    },
+    {
+      "type": "Deploy",
+      "name": "砾",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Up",
+      "kills": 29
+    },
+    {
+      "type": "Deploy",
+      "name": "伊内丝",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Left",
+      "kills": 38
+    },
+    {
+      "type": "Deploy",
+      "name": "逻各斯",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Up",
+      "kills": 39,
+      "pre_delay": 3500
+    },
+    {
+      "type": "Deploy",
+      "name": "刻俄柏",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Up",
+      "pre_delay": 500
+    },
+    {
+      "type": "Skill",
+      "name": "铃兰",
+      "kills": 42,
+      "pre_delay": 1000
+    },
+    {
+      "type": "SkillUsage",
+      "name": "刻俄柏",
+      "skill_usage": 1
+    },
+    {
+      "type": "Deploy",
+      "name": "伊内丝",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Right",
+      "kills": 43,
+      "cost_changes": 4
+    },
+    {
+      "type": "Deploy",
+      "name": "夜刀",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Right",
+      "kills": 43,
+      "cost_changes": 3
+    },
+    {
+      "type": "Deploy",
+      "name": "砾",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Right",
+      "kills": 43,
+      "cost_changes": 3
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "净罪作战 620分",
+    "details": "小刻三级X模专三，温蒂专三\n630修改版：maa://46591\n--------------------------\nTAG选择：如果看不懂评论区置顶有图片\n恶敌下面两个\n衰退全部\n源石风暴全部，OR选上\n约束第一个OR选第二个，第二个OR选第三个\n魂灵除第一行第三个不选，剩下全选\n尖刀最下面的一个不选，剩下全选，OR选上\n缺失只选OR右下角\n要塞选中间一行四个\n应变选下面加再部署那一个\n--------------------------\njson作者：萨拉托加\n作业交流群群号1009052305，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n参考视频\n【【净罪作战】全关卡全任务 简单好抄 （挂机好难。更新至2.5蚀裂冰湖 危机合约 浸雪焦土620）】 https://www.bilibili.com/video/BV1SXPSesEuU/share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e\nhttps://www.bilibili.com/video/BV19qPmeoEHF/?share_source=copy_web"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "风笛",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "铃兰",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "夜刀",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "刻俄柏",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "温蒂",
+      "skill": 3,
+      "skill_usage": 0
+    },
+    {
+      "name": "砾",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "伊内丝",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "逻各斯",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}
