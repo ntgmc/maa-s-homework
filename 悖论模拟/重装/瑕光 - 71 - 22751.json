@@ -1,0 +1,99 @@
+{
+    "actions": [
+        {
+            "type": "二倍速"
+        },
+        {
+            "location": [
+                5,
+                3
+            ],
+            "type": "部署",
+            "name": "瑕光",
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "鞭刃",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "下"
+        },
+        {
+            "name": "临光",
+            "type": "部署",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "技能",
+            "kills": 17,
+            "name": "鞭刃",
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "瑕光",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "轰隆隆先生",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "上",
+            "pre_delay": 800
+        },
+        {
+            "type": "部署",
+            "name": "轰隆隆先生",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "撤退",
+            "kills": 25,
+            "name": "临光",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "type": "技能",
+            "name": "瑕光",
+            "location": [
+                5,
+                3
+            ]
+        }
+    ],
+    "stage_name": "mem_blemsh_1",
+    "doc": {
+        "title": "瑕光悖论模拟",
+        "details": "作业更新日期: 2023-04-19T07:07:55Z\n统计更新日期: 2025-02-09\n好评率：71.01%  浏览量：2244\n来源：作业代传——有问题联系原作者  ID：22751\n作者：雪\n测试干员：瑕光 精2 60级 三技能7级"
+    },
+    "opers": [
+        {
+            "name": "暇光",
+            "skill": 3
+        }
+    ],
+    "minimum_required": "v4.0.0"
+}
