@@ -1,0 +1,106 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act40side_ex07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿斯卡纶",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                11,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "#d63384",
+            "doc": "有帮助的话 给个好评吧~"
+        }
+    ],
+    "doc": {
+        "title": "相见欢 OR-EX-7 兼容突袭 有毒的粽子攻略",
+        "details": "作业更新日期: 2025-02-02T12:59:18Z\n统计更新日期: 2025-02-12\n好评率：100.0%  浏览量：1006\n来源：鱼丸不是鱼van  ID：46267\n攻略作者：有毒的粽子 BV1rJFaeJEpv 记得去b站给粽神点赞三连\njson作者：鱼丸 评论区不解决maa问题\n已测试\n平均练度2903 模组开满 粽子的攻略要求配置都比较高\n其实大部分2603也行 因为我开不起90级（"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

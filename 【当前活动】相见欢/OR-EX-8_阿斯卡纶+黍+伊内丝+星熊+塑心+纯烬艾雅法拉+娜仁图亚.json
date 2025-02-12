@@ -1,0 +1,121 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act40side_ex08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                11,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿斯卡纶",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊内丝",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "娜仁图亚",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "#d63384",
+            "doc": "有帮助的话 给个好评吧~"
+        }
+    ],
+    "doc": {
+        "title": "相见欢 OR-EX-8 兼容突袭 有毒的粽子攻略",
+        "details": "作业更新日期: 2025-02-02T13:03:37Z\n统计更新日期: 2025-02-12\n好评率：98.44%  浏览量：1163\n来源：鱼丸不是鱼van  ID：46268\n攻略作者：有毒的粽子 BV1rJFaeJEpv 记得去b站给粽神点赞三连\njson作者：鱼丸 评论区不解决maa问题\n测了 但是没过 可能因为我没90级\n平均练度2903 模组开满 粽子的攻略要求配置都比较高\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊内丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "skill_times": 1,
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 2
+        }
+    ],
+    "difficulty": 3
+}
