@@ -1,0 +1,105 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act40side_ex07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down",
+            "kills": 0,
+            "costs": 0,
+            "doc_color": "SpringGreen",
+            "doc": "部署成功"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Down",
+            "doc_color": "SpringGreen",
+            "doc": "部署成功"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                11,
+                3
+            ],
+            "direction": "Down",
+            "doc_color": "SpringGreen",
+            "doc": "部署成功"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                10,
+                2
+            ],
+            "kills": 10,
+            "doc_color": "DarkGoldenrod",
+            "doc": "关闭技能"
+        },
+        {
+            "type": "SpeedUp",
+            "doc_color": "SpringGreen",
+            "doc": "二倍速"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                10,
+                2
+            ],
+            "kills": 17,
+            "cost_changes": 76,
+            "doc_color": "SpringGreen",
+            "doc": "开启技能"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                10,
+                2
+            ],
+            "kills": 39,
+            "pre_delay": 2000,
+            "doc_color": "SpringGreen",
+            "doc": "开启技能"
+        }
+    ],
+    "doc": {
+        "title": "OR-EX-7 - 涩",
+        "details": "作业更新日期: 2025-01-30T12:31:09Z\n统计更新日期: 2025-02-12\n好评率：80.39%  浏览量：1239\n来源：RIOSHI  ID：46059\n原思路作者：福哥宅\n原思路视频：https://www.bilibili.com/video/BV1DAFaecE5v/\n维什戴尔需专三"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 1
+}

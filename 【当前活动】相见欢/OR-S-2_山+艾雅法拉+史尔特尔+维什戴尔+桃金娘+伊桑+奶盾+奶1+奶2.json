@@ -6,8 +6,8 @@
             "type": "Deploy",
             "name": "桃金娘",
             "location": [
-                6,
-                1
+                4,
+                2
             ],
             "direction": "Down"
         },
@@ -19,9 +19,6 @@
                 2
             ],
             "direction": "Down"
-        },
-        {
-            "type": "SpeedUp"
         },
         {
             "type": "Deploy",
@@ -40,6 +37,9 @@
                 2
             ],
             "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
         },
         {
             "type": "Deploy",
@@ -69,6 +69,16 @@
         },
         {
             "type": "Deploy",
+            "name": "山",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
             "name": "伊桑",
             "location": [
                 3,
@@ -84,16 +94,6 @@
                 1
             ],
             "direction": "Down"
-        },
-        {
-            "type": "Deploy",
-            "name": "山",
-            "location": [
-                10,
-                1
-            ],
-            "direction": "Down",
-            "pre_delay": 2000
         },
         {
             "type": "Deploy",
@@ -114,8 +114,8 @@
             "type": "Retreat",
             "name": "桃金娘",
             "location": [
-                6,
-                1
+                4,
+                2
             ]
         },
         {
@@ -172,7 +172,7 @@
     ],
     "doc": {
         "title": "OR-S-2 - 新婚宴",
-        "details": "作业更新日期: 2025-02-06T09:03:04Z\n统计更新日期: 2025-02-08\n好评率：99.4%  浏览量：6871\n来源：焕彩gg  ID：46388\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n\n求关注。"
+        "details": "作业更新日期: 2025-02-11T07:08:45Z\n统计更新日期: 2025-02-12\n好评率：99.41%  浏览量：13954\n来源：焕彩gg  ID：46388\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n\n求关注。"
     },
     "groups": [
         {
