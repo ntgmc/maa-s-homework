@@ -1,0 +1,88 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "level_act38rune_01-04",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Down",
+      "costs": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "奶盾",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "星熊",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "净罪作战 13区废墟全任务 210分",
+    "details": "TAG选择：评论区有图片\n第一串全选\n第二串全选+or选后一个\n最后一串选一行两个\n原作者萧然Q json作者：萨拉托加\n作业交流群群号1009052305，可蹲作业，有问题进群找我，作业站消息没提醒看不到\nhttps://www.bilibili.com/video/BV1SXPSesEuU/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [
+    {
+      "name": "奶盾",
+      "opers": [
+        {
+          "name": "塞雷娅",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "黍",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "星熊",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2,
+      "skill_times": 1
+    }
+  ]
+}

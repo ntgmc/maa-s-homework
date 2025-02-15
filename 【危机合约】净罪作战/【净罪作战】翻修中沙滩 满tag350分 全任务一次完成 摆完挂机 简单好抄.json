@@ -1,0 +1,66 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "level_act38rune_01-02",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "伊内丝",
+      "location": [
+        8,
+        2
+      ],
+      "direction": "Left",
+      "kills": 0
+    },
+    {
+      "type": "Retreat",
+      "name": "伊内丝",
+      "location": [
+        8,
+        2
+      ],
+      "kills": 0
+    },
+    {
+      "type": "Deploy",
+      "name": "特制水上平台",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Deploy",
+      "name": "提丰",
+      "location": [
+        10,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "【净罪作战】翻修中沙滩 满tag350分 全任务一次完成 摆完挂机 简单好抄",
+    "details": "提丰 精二90 级专三，带模组（至少1级模组）\n伊内丝 精二无等级要求 需要影哨天赋\n\n请使用满配 （根据去年的作业来讲 最好满配 不要60级的）\n\nTAG：全选，两个OR选中间的\n\n觉得不错记得给up主点个三连\n原视频：https://www.bilibili.com/video/BV1RcKueRE1T/?spm_id_from=333.1387.homepage.video_card.click&vd_source=7e7985ffc733d948035a4d485e6f316b\n视频为 净罪作战 200 分\n根据up主去年的作业 进行改动"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "提丰",
+      "skill": 2,
+      "skill_usage": 1
+    },
+    {
+      "name": "伊内丝",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}

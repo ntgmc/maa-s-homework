@@ -1,0 +1,61 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "level_act38rune_01-02",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "乌尔比安",
+      "location": [
+        7,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        10,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "华法琳",
+      "location": [
+        9,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "玻利瓦尔 - 翻修中沙滩 200分",
+    "details": "记得借五次助战！！！！完成刻章\nTAG：评论区有图片\n不点第一行，只点满下面三个，然后取消30分加攻tag\n原作者萧然Q JSON作者萨拉托加\n作业交流群群号1009052305，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【净罪作战】全关卡全任务 简单好抄 （挂机好难。更新至2.12 落尘狭路 危机合约 浸血焦土620）】 https://www.bilibili.com/video/BV1SXPSesEuU/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "乌尔比安",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "华法琳",
+      "skill": 1,
+      "skill_usage": 0
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "level_crisis_v2_03-02",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "桃金娘",
+      "location": [
+        1,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "山",
+      "location": [
+        8,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "澄闪",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "地刺",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "长手奶妈",
+      "location": [
+        10,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Retreat",
+      "name": "地刺",
+      "location": [
+        2,
+        6
+      ]
+    },
+    {
+      "type": "Deploy",
+      "name": "奶盾",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "手长高台",
+      "location": [
+        10,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "地刺",
+      "location": [
+        8,
+        4
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "净罪作战 落尘狭路 400分（含任务）",
+    "details": "参考作品B站：睡觉睡觉睡zz【落尘狭路 400满分 4人4步摆完挂机（全任务在P2】 https://www.bilibili.com/video/BV1DnNreMER3\nTAG：除了OR第二个其他全选\n练度：\n平均2603 最好带模组\n有条件的可以凑齐天有四时，或带工具人以防最后漏怪\n有问题可留言"
+  },
+  "groups": [
+    {
+      "name": "地刺",
+      "opers": [
+        {
+          "name": "阿斯卡纶",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "水月",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "伊桑",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "奶盾",
+      "opers": [
+        {
+          "name": "黍",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "塞雷娅",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "手长高台",
+      "opers": [
+        {
+          "name": "伊芙利特",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "提丰",
+          "skill": 2,
+          "skill_usage": 1
+        },
+        {
+          "name": "莱伊",
+          "skill": 3,
+          "skill_usage": 1
+        }
+      ]
+    },
+    {
+      "name": "长手奶妈",
+      "opers": [
+        {
+          "name": "纯烬艾雅法拉",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "流明",
+          "skill": 3,
+          "skill_usage": 1
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "桃金娘",
+      "skill": 1,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "山",
+      "skill": 2,
+      "skill_usage": 2,
+      "skill_times": 1
+    },
+    {
+      "name": "澄闪",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ]
+}
