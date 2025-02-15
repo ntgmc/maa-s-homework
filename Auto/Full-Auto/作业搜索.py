@@ -498,7 +498,7 @@ def get_activity_data():
         activity_page = cols[1].find('a')
         category = cols[2].text.strip()
         status_span = cols[1].find('span', {'class': 'TLDcontainer'})
-        if "支线故事" in category and activity_page:
+        if ("支线故事" in category or "故事集" in category) and activity_page:
             activity_name = activity_page.text.strip()
             activity_id = ""
             status = "已结束"
