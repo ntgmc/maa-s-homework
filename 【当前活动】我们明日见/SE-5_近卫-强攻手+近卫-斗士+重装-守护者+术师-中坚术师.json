@@ -1,0 +1,138 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act18mini_05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫-斗士",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫-强攻手",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "重装-守护者",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "术师-中坚术师",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "SE-5 - 不得安眠",
+        "details": "作业更新日期: 2025-02-14T15:34:10Z\n统计更新日期: 2025-02-15\n好评率：99.28%  浏览量：1326\n来源：作业超大杯  ID：47101\nSE-5 - 不得安眠"
+    },
+    "groups": [
+        {
+            "name": "近卫-强攻手",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "近卫-斗士",
+            "opers": [
+                {
+                    "name": "山",
+                    "skill_times": 1,
+                    "skill": 2,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "左乐"
+                },
+                {
+                    "name": "赫拉格"
+                }
+            ]
+        },
+        {
+            "name": "重装-守护者",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "术师-中坚术师",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "荒芜拉普兰德",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塑心",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [],
+    "difficulty": 3
+}

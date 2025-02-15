@@ -1,0 +1,168 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act18mini_02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫-强攻手",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "重装-守护者",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗-行医",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "术师-中坚术师",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "SE-2 - 生为柴薪",
+        "details": "作业更新日期: 2025-02-14T16:06:20Z\n统计更新日期: 2025-02-15\n好评率：99.77%  浏览量：1178\n来源：作业超大杯  ID：47085\nSE-2 - 生为柴薪"
+    },
+    "groups": [
+        {
+            "name": "重装-守护者",
+            "opers": [
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "余",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "近卫-强攻手",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "圣约送葬人",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "山",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                }
+            ]
+        },
+        {
+            "name": "医疗-行医",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉"
+                },
+                {
+                    "name": "蜜莓"
+                },
+                {
+                    "name": "桑葚",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "术师-中坚术师",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "提丰",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "荒芜拉普兰德",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "维什戴尔",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [],
+    "difficulty": 3
+}
