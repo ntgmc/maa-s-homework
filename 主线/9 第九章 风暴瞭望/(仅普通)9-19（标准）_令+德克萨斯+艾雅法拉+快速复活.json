@@ -77,7 +77,8 @@
             "location": [
                 5,
                 1
-            ]
+            ],
+            "pre_delay": 2000
         },
         {
             "type": "Deploy",
@@ -181,8 +182,8 @@
                 3,
                 6
             ],
-            "direction": "Right",
-            "pre_delay": 9500
+            "pre_delay": 11500,
+            "direction": "Right"
         },
         {
             "type": "Deploy",
@@ -273,7 +274,7 @@
         },
         {
             "type": "Deploy",
-            "name": "棘刺",
+            "name": "德克萨斯",
             "location": [
                 2,
                 3
@@ -291,7 +292,7 @@
     ],
     "doc": {
         "title": "第九章 风暴瞭望 - 9-19（标准）长夜枪火【4人刷刺球】",
-        "details": "作业更新日期: 2024-05-07T07:14:39Z\n统计更新日期: 2024-11-30\n好评率：86.21%  浏览量：1096\n来源：koukadesu  ID：37250\n注意，不兼容突袭，如果令的龙无法识别，更换皮肤\n攻略作者：老青蛙【心海攻略组】\nJSON作者：灰bao_；\n练度：令：精二90级专3的三技能、3级模组（可以零潜）\n（maa自动编队可能不会带令模组，没有模组必翻车）\n快活只用了一次，如果使用的是砾的话尽量精一以上练度\n（再低就没法推土了）\n原作业是满潜单令，低潜必须加队友配合\n作业视频：https://www.bilibili.com/video/BV1ta411s7Da/?spm_id_from=333.337.search-card.all.click&vd_source=10857a8c905c104ca2eab27415c72ffc"
+        "details": "作业更新日期: 2025-02-19T14:50:44Z\n统计更新日期: 2025-02-22\n好评率：91.04%  浏览量：3582\n来源：小卡拉帕鲁灰  ID：30495\n注意，不兼容突袭，如果令的龙无法识别，更换皮肤\n攻略作者：老青蛙【心海攻略组】\nJSON作者：灰bao_；\n练度：令：精二90级专3的三技能、3级模组（可以零潜）\n（maa自动编队可能不会带令模组，没有模组必翻车）\n快活只用了一次，如果使用的是砾的话尽量精一以上练度\n（再低就没法推土了）\n原作业是满潜单令，低潜必须加队友配合\n作业视频：https://www.bilibili.com/video/BV1ta411s7Da/?spm_id_from=333.337.search-card.all.click&vd_source=10857a8c905c104ca2eab27415c72ffc"
     },
     "groups": [
         {
