@@ -1,0 +1,135 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act31side_09",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "琴柳",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "焰影苇草",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "泵站",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "泵站",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "HS-9 - 得果 摆完挂机镀层",
+        "details": "作业更新日期: 2024-02-03T06:08:12Z\n统计更新日期: 2025-02-27\n好评率：94.44%  浏览量：5029\n来源：Unreal Ubika  ID：32440\n琴柳可带1或2，优化掉了艾雅法拉，调整的站位和部署顺序\n测试时练度:\n90级专3: 棘刺 纯烬艾雅法拉\n75级专3:塞雷娅(3x) 伊芙利特\n70级专3:焰影苇草\n40级专0:星熊"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "琴柳",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "焰影苇草",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

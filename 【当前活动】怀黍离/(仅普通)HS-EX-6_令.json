@@ -1,0 +1,143 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act31side_ex06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "泵站",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Right",
+            "costs": 68
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "HS-EX-6 - 追肥 令单人",
+        "details": "作业更新日期: 2024-02-08T10:42:47Z\n统计更新日期: 2025-02-27\n好评率：96.36%  浏览量：1185\n来源：晓丶梦丶仁  ID：32719\n思路：https://www.bilibili.com/video/BV1yH4y1Y7VL/\n自动录屏：https://www.bilibili.com/video/BV1Gp421o7oF/\n测试正常，突袭不可用"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 1
+}

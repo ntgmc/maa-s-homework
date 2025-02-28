@@ -1,0 +1,172 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act31side_09",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                8,
+                3
+            ],
+            "pre_delay": 23500
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "泵站",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                8,
+                3
+            ],
+            "costs": 24
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "泵站",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left",
+            "pre_delay": 200
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "HS-9 - 得果 - 令【新版本作业】",
+        "details": "作业更新日期: 2025-02-25T12:01:31Z\n统计更新日期: 2025-02-27\n好评率：80.95%  浏览量：1971\n来源：小卡拉帕鲁灰  ID：32681\nHS-令，适配修复数据后的\n令：精二90级专3，三级模组\n配置最好一样，如果一直暂停看龙就少带大于18费的干员\nboss没挂之前一倍速，后面换2倍，\n延迟太高的人建议用挂机\nhttps://www.bilibili.com/video/BV1HF4m1M7KD/?spm_id_from=333.337.search-card.all.click&vd_source=10857a8c905c104ca2eab27415c72ffc"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}
