@@ -536,10 +536,6 @@ def get_activity_data():
 
 
 def input_level():
-    """
-    选择关卡类型
-    :return: 无返回值
-    """
     global info
     log_message("Select type 选择类型", logging.DEBUG, False)
     keys = ["活动关卡", "主题曲", "剿灭作战", "资源收集"]
@@ -622,11 +618,6 @@ def int_input(prompt: str, default, min_value=None, max_value=None, allow_return
 
 
 def is_valid_json(test_string):
-    """
-    检查字符串是否为有效的JSON
-    :param test_string: 要检查的字符串
-    :return: True or False
-    """
     try:
         json.loads(test_string)
         return True
@@ -635,10 +626,6 @@ def is_valid_json(test_string):
 
 
 def judge_setting(_setting, num: str):
-    """
-    判断设置是否存在
-    :return: True or False
-    """
     if "download" in _setting and num in _setting["download"] and _setting["download"][num]["version"] == setting_version:
         log_message(f"设置 {num} 为最新设置", logging.DEBUG, False)
         return True
@@ -682,10 +669,6 @@ def less_search(stage_dict, _setting, search_key, activity, keyword):  # 搜索�
 
 
 def load_level_data():
-    """
-    判断是否存在本地关卡数据并加载，否则获取在线关卡数据
-    :return: 关卡数据
-    """
     if use_local_level:
         if os.path.exists("cache/level_data.json"):
             with open("cache/level_data.json", 'r', encoding='utf-8') as f:
@@ -703,11 +686,6 @@ def load_level_data():
 
 
 def add_level_data(ld):
-    """
-    添加关卡数据
-    :param ld: 关卡数据
-    :return: 无返回值
-    """
     log_message("Function 函数: add_level_data", logging.DEBUG, False)
     if not os.path.exists("cache/add_level.json"):
         log_message("Additional level data not found. 未找到额外关卡数据", logging.ERROR)
@@ -720,10 +698,6 @@ def add_level_data(ld):
 
 
 def load_settings():
-    """
-    加载设置到全局变量
-    :return: True or False
-    """
     global setting, info
     try:
         if os.path.exists(SETTING_PATH):
@@ -737,6 +711,29 @@ def load_settings():
         return False
 
 
+# 初始化日志配置
+def setup_logging():
+    _logger = logging.getLogger(__name__)
+    _logger.setLevel(logging.DEBUG)
+
+    # 创建一个handler，用于写入日志文件
+    try:
+        file_handler = logging.FileHandler(LOG_PATH, encoding='utf-8')
+        file_handler.setLevel(logging.DEBUG)
+    except (OSError, IOError) as e:
+        print(f"无法创建文件处理器: {e}")
+        return None
+
+    # 定义handler的输出格式
+    formatter = logging.Formatter('[%(asctime)s][%(levelname)s] %(message)s')
+    file_handler.setFormatter(formatter)
+
+    # 给logger添加handler
+    _logger.addHandler(file_handler)
+
+    return _logger
+
+
 def log_message(message, level=logging.INFO, console_output=True):
     """
     记录日志
@@ -745,52 +742,25 @@ def log_message(message, level=logging.INFO, console_output=True):
     :param console_output: 是否输出到控制台
     :return: 无返回值
     """
-    # 创建一个logger
-    logger = logging.getLogger(__name__)
-    logger.setLevel(logging.DEBUG)  # 设置日志级别
-
-    # 创建一个handler，用于写入日志文件
-    file_handler = logging.FileHandler(LOG_PATH, encoding='utf-8')
-    file_handler.setLevel(logging.DEBUG)
-
-    # 定义handler的输出格式
-    formatter = logging.Formatter('[%(asctime)s][%(levelname)s] %(message)s')
-    file_handler.setFormatter(formatter)
-
-    # 给logger添加handler
-    logger.addHandler(file_handler)
+    if logger is None:
+        return
 
     # 如果console_output为True，则创建一个handler，用于输出到控制台
     if console_output:
         console_handler = logging.StreamHandler()
         console_handler.setLevel(logging.DEBUG)
-        console_handler.setFormatter(formatter)
+        console_handler.setFormatter(logging.Formatter('[%(asctime)s][%(levelname)s] %(message)s'))
         logger.addHandler(console_handler)
 
     # 根据日志级别，记录日志
-    if level == logging.DEBUG:
-        logger.debug(message)
-    elif level == logging.INFO:
-        logger.info(message)
-    elif level == logging.WARNING:
-        logger.warning(message)
-    elif level == logging.ERROR:
-        logger.error(message)
-    elif level == logging.CRITICAL:
-        logger.critical(message)
+    logger.log(level, message)
 
     # 移除handler，防止日志重复
-    logger.removeHandler(file_handler)
     if console_output:
-        # noinspection PyUnboundLocalVariable
         logger.removeHandler(console_handler)
 
 
 def menu():
-    """
-    菜单，info为全局变量
-    :return: 对应操作
-    """
     log_message("Page: MENU 菜单", logging.DEBUG, False)
     choice_dict = {1: "单次搜索并下载", 2: "批量搜索并下载", 999: "设置"}
     os.system("cls")
@@ -837,10 +807,6 @@ def menu():
 
 
 def mode1():
-    """
-    单次搜索
-    :return: 无返回值
-    """
     global info
     log_message("Single search 单次搜索", logging.INFO, False)
     os.system("cls")
@@ -946,22 +912,12 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
 
 
 def replace_dir_char(text):
-    """
-    替换文件名中的非法字符
-    :param text: 要替换的文本
-    :return: 替换后的文本
-    """
     for char in ['/', '\\', ':', '*', '?', '"', '<', '>', '|']:
         text = text.replace(char, '')
     return text
 
 
 def save_setting(data):
-    """
-    保存设置
-    :param data: 要保存的数据
-    :return: True
-    """
     os.makedirs(os.path.dirname(SETTING_PATH), exist_ok=True)
     with open(SETTING_PATH, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
@@ -970,12 +926,6 @@ def save_setting(data):
 
 
 def search(keyword: str, search_mode: int) -> dict:
-    """
-    单次搜索
-    :param keyword: 搜索level_keyword
-    :param search_mode: 排序方式
-    :return: 搜索结果json
-    """
     order_by = {1: "hot", 2: "id", 3: "views"}.get(search_mode, "views")
     url = f"https://prts.maa.plus/copilot/query?desc=true&limit=99999&page=1&order_by={order_by}&level_keyword={keyword}"
     headers = {
@@ -1043,10 +993,6 @@ def select_from_list(_activity_dict, key_one):
 
 
 def settings_set():
-    """
-    设置下载设置或干员设置
-    :return: 无返回值
-    """
     global setting, info
     os.system("cls")
     log_message("Page: SETTING 设置", logging.DEBUG, False)
@@ -1114,13 +1060,6 @@ def settings_set():
 
 
 def write_to_file(file_path, content, overwrite=False):
-    """
-    将内容写入文件
-    :param file_path: 文件路径
-    :param content: 要写入的内容
-    :param overwrite: 是否覆盖
-    :return: True or False
-    """
     if not overwrite and os.path.exists(file_path):
         return False
     with open(file_path, 'w', encoding='utf-8') as file:
@@ -1132,6 +1071,8 @@ def write_to_file(file_path, content, overwrite=False):
 if os.path.exists(LOG_PATH):
     os.remove(LOG_PATH)
 os.makedirs("log", exist_ok=True)
+# 单例日志记录器
+logger = setup_logging()
 log_message("Program start 程序启动", logging.INFO)
 info = ""
 level_data = load_level_data()
