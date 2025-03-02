@@ -1,0 +1,243 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act31side_s04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "泵站",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "泵站",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "泵站",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left",
+            "costs": 47
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 67
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "kills": 82,
+            "skill_usage": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left",
+            "pre_delay": 3000
+        },
+        {
+            "type": "Skill",
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "pre_delay": 20000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "pre_delay": 11000
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down",
+            "pre_delay": 20000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "HS-S-4 - 育种实验室 令单人",
+        "details": "作业更新日期: 2024-02-16T05:44:59Z\n统计更新日期: 2025-03-02\n好评率：80.92%  浏览量：2977\n来源：晓丶梦丶仁  ID：32977\n思路来自：https://www.bilibili.com/video/BV1hS421K7zG/\n自动视频：https://www.bilibili.com/video/BV1ip421R7ba/\n出问题了的话去自动视频链接的底下评论\n\n有人反映boss一阶段换龙会失误，做了修改\n延迟400+就不要用了，免得你设备差跑不了给我点踩，我还得去看你哪出了问题然后我也改不了\n满练0潜 突袭不可用"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 1
+}
