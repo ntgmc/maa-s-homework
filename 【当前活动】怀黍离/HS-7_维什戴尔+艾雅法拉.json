@@ -1,0 +1,91 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act31side_07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                1,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                1,
+                5
+            ],
+            "kills": 6
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                1,
+                5
+            ],
+            "kills": 19
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                1,
+                5
+            ],
+            "kills": 27
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "location": [
+                1,
+                5
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "HS-7 双人速刷固源岩组合集 近理论最速",
+        "details": "作业更新日期: 2025-02-24T09:20:46Z\n统计更新日期: 2025-03-06\n好评率：100.0%  浏览量：1078\n来源：阿拉拉拉  ID：47539\n半禺心：https://www.bilibili.com/video/BV1jMPWe8EXX/?spm_id_from=..search-card.all.click&vd_source=d96c5431059e9a1d0fcf0385526d6057\njson作者：阿拉\n截图增强、划火柴开启"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

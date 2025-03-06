@@ -1,0 +1,198 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_27",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 0,
+            "kills": 210
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                6
+            ],
+            "kills": 214
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "kills": 216
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                6
+            ],
+            "kills": 260
+        },
+        {
+            "type": "Skill",
+            "location": [
+                8,
+                6
+            ],
+            "kills": 262
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 0,
+            "kills": 263
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "kills": 265,
+            "skill_usage": 1
+        },
+        {
+            "type": "Skill",
+            "location": [
+                8,
+                6
+            ],
+            "kills": 312
+        },
+        {
+            "type": "Retreat",
+            "name": "魂灵之影",
+            "location": [
+                8,
+                5
+            ],
+            "kills": 323
+        },
+        {
+            "type": "Retreat",
+            "name": "魂灵之影",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 323
+        },
+        {
+            "type": "Skill",
+            "location": [
+                8,
+                6
+            ],
+            "kills": 327
+        },
+        {
+            "type": "Skill",
+            "location": [
+                8,
+                6
+            ],
+            "kills": 368
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                6
+            ],
+            "kills": 369
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "莱塔尼亚 - 选帝侯广场 - 选帝侯广场 双核 ",
+        "details": "作业更新日期: 2025-03-03T03:25:14Z\n统计更新日期: 2025-03-06\n好评率：88.89%  浏览量：1007\n来源：小铭123  ID：47946\n参考 B站up主：半禺心 \n（棘刺，EW双核）\n棘刺要有模组"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "斑点",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 2
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}
