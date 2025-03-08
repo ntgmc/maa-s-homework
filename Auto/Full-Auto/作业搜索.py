@@ -467,7 +467,11 @@ def get_level_data():
     访问 https://prts.maa.plus/arknights/level 获取关卡数据
     :return: 关卡数据
     """
-    response = requests.get('https://prts.maa.plus/arknights/level')
+    try:
+        response = requests.get('https://prts.maa.plus/arknights/level')
+    except requests.exceptions.SSLError:
+        log_message(f"SSL error 请求失败，请检查网络连接", logging.ERROR)
+        exit(-1)
     # write_to_file("log/level_data_temp.json", response.json(), True)
     log_message(f"Successfully obtained level data 成功获取关卡数据", console_output=False)
     return response.json()['data'] if response.ok else []
@@ -478,7 +482,11 @@ def get_activity_data():
     访问 https://prts.wiki/w/%E6%B4%BB%E5%8A%A8%E4%B8%80%E8%A7%88 获取活动数据，格式为{'name': 活动名, 'status': 状态}
     :return: 活动数据, 进行中的活动
     """
-    response = requests.get('https://prts.wiki/w/%E6%B4%BB%E5%8A%A8%E4%B8%80%E8%A7%88')
+    try:
+        response = requests.get('https://prts.wiki/w/%E6%B4%BB%E5%8A%A8%E4%B8%80%E8%A7%88')
+    except requests.exceptions.SSLError:
+        log_message(f"SSL error 请求失败，请检查网络连接", logging.ERROR)
+        exit(-1)
     soup = BeautifulSoup(response.text, 'html.parser')
     activities = {}
     ongoing_activities = []
