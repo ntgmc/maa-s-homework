@@ -1,0 +1,76 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "a003_07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                1,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "引星棘刺",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "火蓝之心·复刻 - OF-7 - 一锤定音【 引星棘刺模组任务】",
+        "details": "作业更新日期: 2025-03-07T05:14:06Z\n统计更新日期: 2025-03-08\n好评率：100.0%  浏览量：27\n来源：小卡拉帕鲁灰  ID：48113\n携带不超过4人\n20次2技能"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "引星棘刺",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}

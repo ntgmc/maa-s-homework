@@ -1,0 +1,142 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-12",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "重装-守护者",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫-强攻手",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗-群愈师",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗-医师",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-14（磨难） - 高空拒阻行动",
+        "details": "作业更新日期: 2024-05-07T03:47:48Z\n统计更新日期: 2025-03-08\n好评率：100.0%  浏览量：1001\n来源：作业超大杯  ID：37080\nJSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业"
+    },
+    "groups": [
+        {
+            "name": "重装-守护者",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "医疗-群愈师",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "近卫-强攻手",
+            "opers": [
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "重岳",
+                    "skill": 3,
+                    "skill_usage": 2,
+                    "skill_times": 5
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "医疗-医师",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "嘉维尔"
+                },
+                {
+                    "name": "末药"
+                }
+            ]
+        }
+    ],
+    "opers": []
+}
