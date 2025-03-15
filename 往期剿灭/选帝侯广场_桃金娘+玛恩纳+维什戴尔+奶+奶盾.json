@@ -134,13 +134,23 @@
             "kills": 225
         },
         {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                5,
+                5
+            ],
+            "kills": 230
+        },
+        {
             "type": "Skill",
             "name": "玛恩纳",
             "location": [
                 5,
                 6
             ],
-            "kills": 259
+            "kills": 258,
+            "pre_delay": 1500
         },
         {
             "type": "Skill",
@@ -150,6 +160,16 @@
                 6
             ],
             "kills": 268
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right",
+            "kills": 282
         },
         {
             "type": "Skill",
@@ -225,8 +245,8 @@
                 5,
                 6
             ],
-            "kills": 324,
-            "pre_delay": 4000
+            "kills": 323,
+            "pre_delay": 7000
         },
         {
             "type": "Retreat",
@@ -330,7 +350,7 @@
     ],
     "doc": {
         "title": "莱塔尼亚 - 选帝侯广场 - 选帝侯广场",
-        "details": "作业更新日期: 2025-03-08T08:26:45Z\n统计更新日期: 2025-03-08\n好评率：84.62%  浏览量：2406\n来源：焕彩gg  ID：47947\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n\n求关注。"
+        "details": "作业更新日期: 2025-03-08T09:13:32Z\n统计更新日期: 2025-03-15\n好评率：83.08%  浏览量：3532\n来源：焕彩gg  ID：47947\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n\n求关注。"
     },
     "groups": [
         {
