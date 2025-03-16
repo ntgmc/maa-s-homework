@@ -1,0 +1,171 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act41side_ex07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "狙击",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "号角",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up",
+            "costs": 35
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Up",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Output",
+            "doc_color": "SpringGreen",
+            "doc": "Ciallo～(∠・ω< )⌒★"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "EA-EX-7",
+        "details": "作业更新日期: 2025-03-15T03:37:59Z\n统计更新日期: 2025-03-16\n好评率：100.0%  浏览量：1043\n来源：萨扌立托加  ID：48585\n攻略作者：自在道爷 json作者：萨扌立托加\n作业交流群群号1009052305，可蹲作业，有问题进群找萨扌立托加，作业站消息一般看不到\n❤️"
+    },
+    "groups": [
+        {
+            "name": "近卫",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "狙击",
+            "opers": [
+                {
+                    "skill_times": 1,
+                    "name": "娜仁图亚",
+                    "skill": 1,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "号角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
