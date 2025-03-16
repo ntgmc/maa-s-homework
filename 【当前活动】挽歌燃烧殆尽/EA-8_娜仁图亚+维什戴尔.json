@@ -1,0 +1,126 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act41side_08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "娜仁图亚",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "娜仁图亚",
+            "location": [
+                2,
+                2
+            ],
+            "costs": 11
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                1
+            ],
+            "costs": 10
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                1
+            ],
+            "costs": 10,
+            "pre_delay": 500
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 58
+        },
+        {
+            "type": "Skill",
+            "costs": 59,
+            "name": "娜仁图亚",
+            "location": [
+                2,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                1
+            ],
+            "costs": 71
+        },
+        {
+            "type": "Skill",
+            "name": "娜仁图亚",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 14,
+            "pre_delay": 13000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                1
+            ],
+            "kills": 20,
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "娜仁图亚",
+            "skill_usage": 1,
+            "kills": 21
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "EA-8 - 夜尽之时",
+        "details": "作业更新日期: 2025-03-08T06:13:12Z\n统计更新日期: 2025-03-16\n好评率：91.89%  浏览量：1032\n来源：LIFEI  ID：48209\n作业作者：化学老施\n视频链接：【EA-6 EA-7 EA-8【挽歌燃烧殆尽】近理论最速 速刷研磨石溶剂褐素纤维搓玉EA-3 攻略合集 二人堵门信赖材料 明日方舟 250307】https://www.bilibili.com/video/BV1hR9yYpEUJ?vd_source=9975915ecf0307da9d39573331248eff"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "娜仁图亚",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}
