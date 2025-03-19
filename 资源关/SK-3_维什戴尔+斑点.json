@@ -1,0 +1,58 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_armor_3",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 15,
+            "cooling": 0,
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "SK-3自用",
+        "details": "作业更新日期: 2025-03-18T09:35:02Z\n统计更新日期: 2025-03-19\n好评率：100.0%  浏览量：3\n来源：ailif  ID：48809\n自用"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
