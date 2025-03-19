@@ -1,0 +1,251 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act41side_ex05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                7,
+                6
+            ],
+            "pre_delay": 2000
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                10,
+                6
+            ],
+            "costs": 30
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "卡缇",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                9,
+                6
+            ],
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                9,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "安塞尔就行",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉就行",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 20,
+            "skill_times": 1
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                10,
+                5
+            ],
+            "kills": 28
+        },
+        {
+            "type": "Deploy",
+            "name": "精1苏苏洛就行",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Right",
+            "kills": 31
+        },
+        {
+            "type": "Skill",
+            "name": "米格鲁",
+            "location": [
+                9,
+                6
+            ],
+            "kills": 32,
+            "pre_delay": 4000
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                10,
+                5
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "EA-EX-5 - 五月树",
+        "details": "作业更新日期: 2025-03-14T12:44:10Z\n统计更新日期: 2025-03-19\n好评率：99.52%  浏览量：1113\n来源：焕彩gg  ID：48466\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n\n求关注。"
+    },
+    "groups": [
+        {
+            "name": "芙蓉就行",
+            "opers": [
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "安塞尔就行",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "精1苏苏洛就行",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "卡缇",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}
