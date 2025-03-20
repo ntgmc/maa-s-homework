@@ -1,0 +1,134 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "EA-4",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "高台",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "EA-4 旧舞步（带奶版本）",
+        "details": "作业更新日期: 2025-03-08T02:54:46Z\n统计更新日期: 2025-03-20\n好评率：95.42%  浏览量：1002\n来源：飘ipao（B站同名，qq3978869946）  ID：48140\n专三80级三级模组塞雷亚蓝毒（两人练度一致）已过，其他未测试，理论蓝毒最脆，其他应该可过，补个奶妈必然过（补奶妈版未测试）\n有镀层（除非高台练度太低了）\n有人反馈剧情点完后不放角色（注意有剧情要手动点），我也没办法，测试时我可以用，出现问题的话，高台放右侧空壳朝上，塞雷亚带2技能在高台左边第二格，奶随便，奶高台就行\n本人制作\n【挽歌燃烧殆尽 EA-4 旧舞步 挂机（刻章）】 https://www.bilibili.com/video/BV1fs9SY7E2w/?share_source=copy_web&vd_source=37aa0472e85644f0a4fc741df798c99a"
+    },
+    "groups": [
+        {
+            "name": "高台",
+            "opers": [
+                {
+                    "name": "能天使",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "娜仁图亚",
+                    "skill": 1,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                }
+            ]
+        },
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "清流",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
