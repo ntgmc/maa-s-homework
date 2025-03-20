@@ -1,0 +1,92 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act41side_07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "Lancet-2",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "元素奶",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "EA-7 - 烧灯者 - 老练旅人奖章 - 挂机速刷",
+        "details": "作业更新日期: 2025-03-15T02:47:49Z\n统计更新日期: 2025-03-20\n好评率：93.62%  浏览量：1093\n来源：1740005689@qq.com  ID：48532\n2603未测试 练度不够可以在山上面放二队（不建议朝下放）\n视频里角色练度2903，乌尔比安需开模组 \n原视频：https://www.bilibili.com/video/BV14g9SYZEbR/ "
+    },
+    "groups": [
+        {
+            "name": "元素奶",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "褐果",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "Lancet-2",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
