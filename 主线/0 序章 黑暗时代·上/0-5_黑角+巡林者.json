@@ -1,0 +1,44 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_00-05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "巡林者",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        }
+    ],
+    "doc": {
+        "title": "序章 黑暗时代·上 - 0-5 - 腐化",
+        "details": "作业更新日期: 2025-03-15T11:20:04Z\n统计更新日期: 2025-03-23\n好评率：100.0%  浏览量：9\n来源：一般路过作业人  ID：48633\n原作者为云中初梦，普通与突袭均可，原视频链接为https://www.bilibili.com/video/BV1u5eTejEMN/?spm_id_from=333.337.search-card.all.click&vd_source=27f2336beff210c36947df72b53abb01"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "巡林者",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
