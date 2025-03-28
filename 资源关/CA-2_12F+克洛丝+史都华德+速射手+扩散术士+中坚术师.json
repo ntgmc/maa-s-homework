@@ -1,0 +1,127 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_fly_2",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "史都华德",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "12F",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "自用",
+        "details": "作业更新日期: 2024-02-16T14:56:34Z\n统计更新日期: 2025-03-28\n好评率：100.0%  浏览量：144\n来源：猛汉王哒哒  ID：33031\n自用"
+    },
+    "groups": [
+        {
+            "name": "速射手",
+            "opers": [
+                {
+                    "name": "巡林者",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "安德切尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "红云",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "杰西卡",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流星",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "梅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "扩散术士",
+            "opers": [
+                {
+                    "name": "炎熔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "格雷伊",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "中坚术师",
+            "opers": [
+                {
+                    "name": "杜林",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夜烟",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "12F",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "史都华德",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
