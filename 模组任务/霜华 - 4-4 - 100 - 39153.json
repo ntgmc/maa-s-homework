@@ -1,0 +1,50 @@
+{
+    "stageName": "main_04-04",
+    "doc": {
+        "title": "霜华模组任务 - 4-4 - 机械式陷阱压力板",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-07-07T02:07:27Z\n统计更新日期: 2025-04-05\n好评率：100.0%  浏览量：92\n来源：一只摆烂的42  ID：39153\n——————————\n霜华「机械式陷阱压力板」模组任务\n3星通关主题曲4-4；必须编入非助战霜华并上场，且使用霜华歼灭弑君者※允许使用迎宾踏垫歼灭弑君者\n原视频：https://www.bilibili.com/video/BV1zh411g7ft/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "霜华",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "伊桑",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "狮蝎",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}
