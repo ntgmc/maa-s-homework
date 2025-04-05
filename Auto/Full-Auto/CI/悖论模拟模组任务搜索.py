@@ -119,9 +119,7 @@ def build_dict2(data, key: str):  # key为生成的字典的键
     _dict = {}
     for member in data:
         content = json.loads(member['content'])
-        print(content)
         _key = get_stage_id_info(content[key], "cat_three")
-        print(_key)
         if _key in _dict:
             _dict[_key].append(member)
         else:
@@ -248,7 +246,7 @@ def filter_paradox(data, name, _job):
 def search_module(name, stage):
     global ids, cache_dict, id_cache_dict
     if "(" in name:
-        name = re.search(r'^(.*?)\s*\(', name).group(1)
+        name = name.split("(")[0]
         doc = re.search(r'\((.*?)\)', name).group(1)
     else:
         doc = "模组"
