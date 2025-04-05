@@ -1,0 +1,124 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_06-05#f#",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "医疗干员",
+      "location": [
+        6,
+        4
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "奶盾",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "林",
+      "location": [
+        6,
+        2
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Skill",
+      "name": "林",
+      "kills": 15
+    },
+    {
+      "type": "Skill",
+      "name": "林"
+    },
+    {
+      "type": "Skill",
+      "name": "林",
+      "kills": 23
+    },
+    {
+      "type": "Skill",
+      "name": "林"
+    },
+    {
+      "type": "Skill",
+      "name": "林",
+      "kills": 35
+    },
+    {
+      "type": "Skill",
+      "name": "林"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "林模组任务 - 6-5 - “情与义”",
+    "details": "林「“情与义”」模组任务\n3星通关主题曲6-5；必须携带且部署非助战林，且至少释放3次流光乍裂\n原视频：https://www.bilibili.com/video/BV1wyfbYkEsq/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [
+    {
+      "name": "医疗干员",
+      "opers": [
+        {
+          "name": "纯烬艾雅法拉",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "闪灵",
+          "skill": 2,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "奶盾",
+      "opers": [
+        {
+          "name": "塞雷娅",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "黍",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "林",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 1
+}

@@ -1,0 +1,84 @@
+{
+  "minimum_required": "v4.0.0",
+  "doc": {
+    "title": "伺夜模组任务 - IS-6 - 时光不再",
+    "details": "伺夜「时光不再」模组任务\n3星通关别传IS-6；必须编入非助战伺夜并上场，且至少使用3次领袖的尊严\n原作业：maa://22619\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "stage_name": "act21side_06",
+  "opers": [
+    {
+      "name": "伺夜",
+      "skill": 3,
+      "skill_usage": 1
+    },
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "name": "",
+      "doc_color": "Gray"
+    },
+    {
+      "type": "Deploy",
+      "name": "伺夜",
+      "location": [
+        3,
+        2
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        5,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "奶盾",
+      "location": [
+        6,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "groups": [
+    {
+      "name": "奶盾",
+      "opers": [
+        {
+          "name": "塞雷娅",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "黍",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "临光",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "古米",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ]
+}

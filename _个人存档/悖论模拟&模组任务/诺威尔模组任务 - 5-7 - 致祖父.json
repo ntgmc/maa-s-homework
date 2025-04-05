@@ -1,0 +1,135 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_05-07#f#",
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "name": ""
+    },
+    {
+      "type": "Deploy",
+      "name": "推进之王",
+      "location": [
+        2,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "浊心斯卡蒂",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "拉普兰德",
+      "location": [
+        2,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "远卫",
+      "location": [
+        2,
+        5
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "减速辅助",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "干扰装置",
+      "location": [
+        3,
+        3
+      ],
+      "direction": "None"
+    },
+    {
+      "type": "Deploy",
+      "name": "诺威尔",
+      "location": [
+        1,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "诺威尔模组任务 - 5-7 - 致祖父",
+    "details": "诺威尔「致祖父」模组任务\n3星通关主题曲5-7；必须编入非助战诺威尔并上场，且队伍中不能有其他医疗干员\nUP：侬无言以对\n原视频：https://www.bilibili.com/video/BV1Tg411V7nb/\n原作业：maa://21812\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [
+    {
+      "name": "减速辅助",
+      "opers": [
+        {
+          "name": "铃兰",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "安洁莉娜",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    },
+    {
+      "name": "远卫",
+      "opers": [
+        {
+          "name": "棘刺",
+          "skill": 3,
+          "skill_usage": 1
+        },
+        {
+          "name": "银灰",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "诺威尔",
+      "skill": 2,
+      "skill_usage": 1
+    },
+    {
+      "name": "推进之王",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "拉普兰德",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "浊心斯卡蒂",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 1
+}
