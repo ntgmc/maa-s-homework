@@ -1,0 +1,146 @@
+{
+    "stageName": "wk_kc_6",
+    "doc": {
+        "title": "战术演习 - LS-6 - 运动战演习",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-03-15T17:12:42Z\n统计更新日期: 2025-04-05\n好评率：100.0%  浏览量：45\n来源：SMOKY  ID：48545\n——————————\n\n自用  EW手动开技能     右边等第一波飞机到EW头上开技能    后面好了就开   左边等怪多了自己开技能   EW借别人的满    别的都是精一满级",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "伊内丝",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "星熊",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "闪灵",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "蓝毒",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "白面鸮",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "缄默德克萨斯",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}
