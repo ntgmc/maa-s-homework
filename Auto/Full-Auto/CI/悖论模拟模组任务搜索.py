@@ -119,7 +119,9 @@ def build_dict2(data, key: str):  # key为生成的字典的键
     _dict = {}
     for member in data:
         content = json.loads(member['content'])
+        print(content)
         _key = get_stage_id_info(content[key], "cat_three")
+        print(_key)
         if _key in _dict:
             _dict[_key].append(member)
         else:
@@ -178,7 +180,7 @@ def code_output(percent, _id, mode):
 
 
 def less_search_paradox():
-    url = "https://prts.maa.plus/copilot/query?page=1&limit=9999&levelKeyword=mem_&document=&desc=true&orderBy=views"
+    url = "https://prts.maa.plus/copilot/query?page=1&limit=9999&levelKeyword=mem_&desc=true&orderBy=views"
     _headers = {
         "Origin": "https://prts.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
@@ -186,7 +188,7 @@ def less_search_paradox():
 
     _response = requests.get(url, headers=_headers)
     if _response.status_code == 200:
-        return build_dict2(_response.json()['data']['data'], 'stage_name')
+        return build_dict2(_response.json()['data']['data'], 'stageName')
     else:
         raise Exception("请求失败！ERR_CONNECTION_REFUSED in less_search_paradox")
 

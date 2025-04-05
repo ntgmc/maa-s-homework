@@ -125,7 +125,7 @@ def build_data_dict(level_dict, data):
     log_message("Function 函数: build_data_dict", logging.DEBUG, False)
     data_dict = {}
     for member in data['data']['data']:
-        stage = json.loads(member['content'])['stage_name']
+        stage = json.loads(member['content'])['stageName']
         if 'easy' in stage:
             continue
         elif "#f#" in stage:
@@ -144,7 +144,7 @@ def build_data_dict(level_dict, data):
                     data_dict[key] = []
                 data_dict[key].append(member)
             except IndexError:
-                log_message(f"stage_name is not stage_id. Details: {stage} {member}", logging.WARNING, False)
+                log_message(f"stageName is not stage_id. Details: {stage} {member}", logging.WARNING, False)
     return data_dict
 
 
@@ -448,8 +448,8 @@ def generate_filename_mode3(stage_name, data):
     :param data: 作业数据
     :return: 文件名
     """
-    opers = data.get('opers', [])
-    groups = data.get('groups', [])
+    opers = data.get('opers') if data.get('opers') is not None else []
+    groups = data.get('groups') if data.get('groups') is not None else []
     names_parts = ['+'.join(oper.get('name', '') for oper in opers), '+'.join(group.get('name', '') for group in groups)]
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
     if len(names) > 100:
@@ -869,7 +869,7 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
         path = st["path"]
     os.makedirs(path, exist_ok=True)
     content = json.loads(_member["content"])
-    names = [oper.get('name', '') for oper in content.get('opers', '')]
+    names = [oper.get('name', '') for oper in content.get('opers', [])] if content.get('opers') is not None else []
     prefer = _member["uploader"] in st["prefer_uploader"]
     file_name = generate_filename(content, st["title"], _member["uploader"], keyword, prefer)
     # 禁用干员检测

@@ -163,8 +163,8 @@ def generate_filename(stage_id, data, mode, cat_two, stage_name=None):
     if not stage_name:
         stage_name = get_stage_id_info(stage_dict, stage_id, "cat_three")
     _stage = get_stage_info(stage_name)
-    opers = data.get('opers', [])
-    groups = data.get('groups', [])
+    opers = data.get('opers') if data.get('opers') is not None else []
+    groups = data.get('groups') if data.get('groups') is not None else []
     names_parts = ['+'.join(oper.get('name', '') for oper in opers),
                    '+'.join(group.get('name', '') for group in groups)]
     names = '+'.join(part for part in names_parts if part)  # 只连接非空的部分
@@ -212,7 +212,7 @@ def less_search(keyword):
     }
     _response = requests.get(url, headers=_headers)
     if _response.ok:
-        return build_dict2(_response.json()['data']['data'], "stage_name")
+        return build_dict2(_response.json()['data']['data'], "stageName")
     else:
         print(f"请求 {keyword} 失败")
 
