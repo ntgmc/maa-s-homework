@@ -248,6 +248,7 @@ def filter_paradox(data, name, _job):
 def search_module(name, stage):
     global ids, cache_dict, id_cache_dict
     if "(" in name:
+        name = re.search(r'^(.*?)\s*\(', name).group(1)
         doc = re.search(r'\((.*?)\)', name).group(1)
     else:
         doc = "模组"
