@@ -1,0 +1,26 @@
+{
+    "stageName": "main_06-01",
+    "doc": {
+        "title": "第六章 局部坏死 - 6-1 - 僵局-令",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-04-05T03:39:16Z\n统计更新日期: 2025-04-05\n好评率：95.65%  浏览量：1005\n来源：小卡拉帕鲁灰  ID：35666\n——————————\n\n满配3模",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 3
+}

@@ -1,0 +1,62 @@
+{
+    "stageName": "main_05-06",
+    "doc": {
+        "title": "灵知模组任务 - 5-6 - 一号项目模型",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-03-08T07:38:03Z\n统计更新日期: 2025-04-05\n好评率：66.67%  浏览量：149\n来源：一只摆烂的42  ID：48263\n——————————\n灵知「一号项目模型」模组任务\n3星通关主题曲5-6；必须编入非助战灵知并上场，且使用灵知击败至少5个法术大师A1\n原视频：https://www.bilibili.com/video/BV1FH9mYkELq/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "灵知",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "提丰",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 1
+}

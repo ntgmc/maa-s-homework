@@ -1,0 +1,43 @@
+{
+    "stageName": "mem_falco_1",
+    "doc": {
+        "title": "迅捷之羽",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2023-04-19T07:07:55Z\n统计更新日期: 2025-04-05\n好评率：81.48%  浏览量：587\n来源：作业代传——有问题联系原作者  ID：22744\n——————————\n干员等级：翎羽精一55，一技能7级\n测试版本：395b2\n",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "翎羽",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "羽",
+            "opers": [
+                {
+                    "name": "翎羽",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "领羽",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ],
+            "operators": null
+        }
+    ],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

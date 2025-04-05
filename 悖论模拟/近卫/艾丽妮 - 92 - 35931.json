@@ -1,0 +1,50 @@
+{
+    "stageName": "mem_irene_1",
+    "doc": {
+        "title": "近卫 - 艾丽妮 - 细剑的重量  悖论模拟",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-04-11T13:11:57Z\n统计更新日期: 2025-04-05\n好评率：92.0%  浏览量：12842\n来源：fantuan  ID：35931\n——————————\n本人小鸟2753 二级模组  应该可以压到60级，参考链接 BV16z421k74t",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "艾丽妮",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "刻刀",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}
