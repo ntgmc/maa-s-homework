@@ -231,7 +231,7 @@ def filter_paradox(data, name, _job):
                                 print(f"Removed {file}")
                 content = json.loads(item['content'])
                 content['doc'][
-                    'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
+                    'details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + \
                                  content['doc']['details']
                 write_json_to_file(file_path, content)
                 cache_dict = build_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time'])
@@ -305,7 +305,7 @@ def search_module(name, stage):
                                     print(f"Removed {file}")
                     content = json.loads(item['content'])
                     content['doc'][
-                        'details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n" + \
+                        'details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + \
                                      content['doc']['details']
                     write_json_to_file(file_path, content)
                     cache_dict = build_new_cache(cache_dict, "模组", name, item['id'], item['upload_time'], stage)

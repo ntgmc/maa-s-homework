@@ -881,7 +881,7 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
     if st["completeness"]:
         result = completeness_check(list(_setting["operator_dict"].keys()), content.get('opers', []), content.get('groups', []))
         if result is True:  # 完备
-            content['doc']['details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n" + content['doc']['details']
+            content['doc']['details'] = f"——————————\n作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n——————————\n" + content['doc']['details']
         elif result is False:  # 缺少多个
             log_message(f"{file_name} 完备度检测不通过", logging.INFO, False)
             return False
@@ -896,9 +896,9 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
                 elif st['completeness_filename'] == 3:  # 在文件名前显示"(缺[干员名])"
                     file_name = f"(缺{result})" + file_name
                 content = json.loads(_member["content"])
-                content['doc']['details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n缺少干员(组):  {result}\n\n" + content['doc']['details']
+                content['doc']['details'] = f"——————————\n作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n——————————\n\n缺少干员(组):  {result}\n\n" + content['doc']['details']
     else:  # 未启用完备度检测
-        content['doc']['details'] = f"作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n\n" + content['doc']['details']
+        content['doc']['details'] = f"——————————\n作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n——————————\n" + content['doc']['details']
     file_path = os.path.join(path, f"{file_name}.json")
     if st["save"] == 1:  # 替换原来的文件
         if os.path.exists(file_path):

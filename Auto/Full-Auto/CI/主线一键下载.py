@@ -249,7 +249,7 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
                                 print(f"Removed {file}")
                     content = json.loads(item['content'])
                     file_path = generate_filename(stage_id, content, path_mode, cat_two, cat_three)
-                    content['doc']['details'] = f"作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n" + content['doc']['details']
+                    content['doc']['details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n\n" + content['doc']['details']
                     print(f"{file_path} {percent}% {view} 成功下载")
                     write_to_file(file_path, content)
                     cache_dict = build_main_new_cache(cache_dict, cat_three, item['id'], item['upload_time'])
