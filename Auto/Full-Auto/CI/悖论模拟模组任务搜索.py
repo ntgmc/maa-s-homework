@@ -246,8 +246,8 @@ def filter_paradox(data, name, _job):
 def search_module(name, stage):
     global ids, cache_dict, id_cache_dict
     if "(" in name:
-        name = name.split("(")[0]
         doc = re.search(r'\((.*?)\)', name).group(1)
+        name = name.split("(")[0]
     else:
         doc = "模组"
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage}&operator={name}&document={doc}&desc=true&orderBy=views"
