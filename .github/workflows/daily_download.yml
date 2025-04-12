@@ -22,11 +22,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 openpyxl pytz
       
-      - name: 运行 主线一键下载.py
-        run: |
-          cd Auto/Full-Auto/CI
-          python 主线一键下载.py
-      
       - name: 运行 悖论模拟模组任务搜索.py
         run: |
           cd Auto/Full-Auto/CI
@@ -36,21 +31,6 @@ jobs:
         run: |
           cd Auto/Full-Auto/CI
           python module.py
-
-      - name: 运行 主线.py
-        run: |
-          cd Auto
-          python 主线.py
-
-      - name: 运行 活动一键下载.py
-        run: |
-          cd Auto/Full-Auto/CI
-          python 活动一键下载.py
-
-      - name: 运行 ALL.py
-        run: |
-          cd Auto
-          python ALL.py
 
       - name: 运行 excel.py
         run: |

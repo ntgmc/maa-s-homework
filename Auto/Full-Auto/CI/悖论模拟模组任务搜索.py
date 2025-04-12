@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 print(base_path)
 os.chdir(base_path)
-download_mode = True
+download_mode = False
 download_score_threshold = 50
 job_categories = ['先锋', '近卫', '重装', '狙击', '术师', '医疗', '辅助', '特种']
 ids = []
