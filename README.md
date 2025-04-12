@@ -16,10 +16,10 @@
 
 ### Auto\Full-Auto\CI
 
-- `主线一键下载.py`: 自动搜索主线关卡（包括H关和S关）、剿灭作战、资源关
+- `主线一键下载.py`: 【不再可用】自动搜索主线关卡（包括H关和S关）、剿灭作战、资源关
 - `悖论模拟模组任务搜索.py`: 自动搜索悖论模拟和模组任务关卡
 - `module.py`: 自动获取全部模组任务
-- `活动一键下载.py`: 自动判断当前开启活动并下载
+- `活动一键下载.py`: 【不再可用】自动判断当前开启活动并下载
 - `excel.py`: 自动生成悖论模拟和模组任务Excel文件
 
 ### Auto\Full-Auto\tool
@@ -31,12 +31,8 @@
 [daily_download.yml](https://github.com/ntgmc/maa-s-homework/blob/master/.github/workflows/daily_download.yml)  
 此工作流程每日自动执行以下程序：
 
-- [`主线一键下载.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/%E4%B8%BB%E7%BA%BF%E4%B8%80%E9%94%AE%E4%B8%8B%E8%BD%BD.py)
 - [`悖论模拟模组任务搜索.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/%E6%82%96%E8%AE%BA%E6%A8%A1%E6%8B%9F%E6%A8%A1%E7%BB%84%E4%BB%BB%E5%8A%A1%E6%90%9C%E7%B4%A2.py)
 - [`module.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/module.py)
-- [`主线.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/%E4%B8%BB%E7%BA%BF.py)
-- [`活动一键下载.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/%E6%B4%BB%E5%8A%A8%E4%B8%80%E9%94%AE%E4%B8%8B%E8%BD%BD.py)
-- [`ALL.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/ALL.py)
 - [`excel.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/excel.py)
 
 生成文件并创建 Pull Request。
@@ -96,12 +92,8 @@
 [daily_download.yml](https://github.com/ntgmc/maa-s-homework/blob/master/.github/workflows/daily_download.yml)  
 This workflow automatically executes the following programs daily: 
 
-- [`主线一键下载.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/%E4%B8%BB%E7%BA%BF%E4%B8%80%E9%94%AE%E4%B8%8B%E8%BD%BD.py)
 - [`悖论模拟模组任务搜索.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/%E6%82%96%E8%AE%BA%E6%A8%A1%E6%8B%9F%E6%A8%A1%E7%BB%84%E4%BB%BB%E5%8A%A1%E6%90%9C%E7%B4%A2.py)
 - [`module.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/module.py)
-- [`主线.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/%E4%B8%BB%E7%BA%BF.py)
-- [`活动一键下载.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/%E6%B4%BB%E5%8A%A8%E4%B8%80%E9%94%AE%E4%B8%8B%E8%BD%BD.py)
-- [`ALL.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/ALL.py)
 - [`excel.py`](https://github.com/ntgmc/maa-s-homework/blob/master/Auto/Full-Auto/CI/excel.py)
 
 Generate files and create Pull Request.
