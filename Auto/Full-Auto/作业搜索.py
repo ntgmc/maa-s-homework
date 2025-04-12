@@ -462,10 +462,22 @@ def get_cat_three_info(_cat_three_dict, cat_three, key):  # 通过cat_three获�
     return _cat_three_dict.get(cat_three, [{}])[0].get(key, cat_three)
 
 
-def get_content(_id):
+def get_content(_id, retry=3):
     data = requests.get(f"https://prts.maa.plus/copilot/get/{_id}").json()
-    if data['code'] == 200:
+    # 如果data没有code字段，说明请求失败，重试
+    if 'code' not in data:
+        print(f"请求 {_id} 失败")
+        if retry > 0:
+            print(f"重试 {_id} 剩余 {retry} 次")
+            return get_content(_id, retry - 1)
+        else:
+            print(f"请求 {_id} 失败，重试次数已用完")
+            return {}
+    elif data['code'] == 200:
         return data['data']['content']
+    else:
+        print(f"请求 {_id} 失败，错误代码：{data['code']}")
+        return {}
 
 
 def get_level_data():

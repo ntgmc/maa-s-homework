@@ -217,10 +217,22 @@ def less_search(keyword):
         print(f"请求 {keyword} 失败")
 
 
-def get_content(_id):
+def get_content(_id, retry=3):
     data = requests.get(f"https://prts.maa.plus/copilot/get/{_id}").json()
-    if data['code'] == 200:
+    # 如果data没有code字段，说明请求失败，重试
+    if 'code' not in data:
+        print(f"请求 {_id} 失败")
+        if retry > 0:
+            print(f"重试 {_id} 剩余 {retry} 次")
+            return get_content(_id, retry - 1)
+        else:
+            print(f"请求 {_id} 失败，重试次数已用完")
+            return {}
+    elif data['code'] == 200:
         return data['data']['content']
+    else:
+        print(f"请求 {_id} 失败，错误代码：{data['code']}")
+        return {}
 
 
 def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
