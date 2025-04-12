@@ -1,0 +1,86 @@
+{
+    "stageName": "mem_noirc_1",
+    "doc": {
+        "title": "悖论模拟 - 重装 - 黑角",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-07-10T19:51:47Z\n统计更新日期: 2025-04-12\n好评率：93.06%  浏览量：2429\n来源：PPZS  ID：39402\n——————————\n测试 4潜90信赖&&2潜满信赖\nMaaTouch触控模式 已过",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "杜林",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "史都华德",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

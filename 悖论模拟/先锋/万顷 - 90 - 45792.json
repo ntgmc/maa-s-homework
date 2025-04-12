@@ -1,0 +1,26 @@
+{
+    "stageName": "mem_wanqin_1",
+    "doc": {
+        "title": "先锋 - 万顷 - 长风相助",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-01-23T15:23:03Z\n统计更新日期: 2025-04-12\n好评率：90.48%  浏览量：228\n来源：fantuan  ID：45792\n——————————\n作者练度2407无模组  稳定过",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "万顷",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

@@ -1,0 +1,50 @@
+{
+    "stageName": "act5d0_05",
+    "doc": {
+        "title": "喧闹法则· - CB-5 - 8:31P.M. 莫斯提马模组任务",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2023-11-27T04:29:52Z\n统计更新日期: 2025-04-12\n好评率：69.05%  浏览量：1326\n来源：小卡拉帕鲁灰  ID：29094\n——————————\n作者：灰bao_\n自己随便打就过了，\n山：90级专3，拉狗：60级专3，小莫：60级好像是7级技能\n",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "莫斯提马",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

@@ -1,0 +1,50 @@
+{
+    "stageName": "pro_d_2",
+    "doc": {
+        "title": "PR-D-2（近卫特种精二芯片）3人速刷",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-04-05T06:19:56Z\n统计更新日期: 2025-04-12\n好评率：100.0%  浏览量：40\n来源：暝夜祈霖  ID：49532\n——————————\n\n参考打法：https://b23.tv/ft8D37R9（up主：霧_雨）\n将视频中右路的号角替换为锏（只需最后收尾时开一次技能）。该打法刚需温蒂练度，最好精二90级，否则下路会漏怪；温蒂模组无要求，无模也可。",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "温蒂",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "锏",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

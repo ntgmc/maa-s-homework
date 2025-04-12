@@ -1,0 +1,103 @@
+{
+    "stageName": "tough_10-10",
+    "doc": {
+        "title": "第十章 破碎日冕 - 10-11（磨难） - 千疮百孔",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-08-13T14:20:32Z\n统计更新日期: 2025-04-12\n好评率：88.89%  浏览量：1016\n来源：534159306@qq.com  ID：40275\n——————————\n\nup:命辰\nlink:【10-11 磨难 七人 摆完挂机 破碎日冕】 https://www.bilibili.com/video/BV1cB4y1S7p9/?share_source=copy_web&vd_source=dcc7ddeba31e59bccd51d29a07ff1565\n精二603 多带个德克萨斯 风笛什么的加费用更稳定",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "fs",
+            "opers": [
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ],
+            "operators": null
+        }
+    ],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

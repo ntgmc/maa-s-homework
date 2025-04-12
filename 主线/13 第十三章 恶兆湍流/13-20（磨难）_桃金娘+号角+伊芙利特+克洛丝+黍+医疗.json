@@ -1,0 +1,91 @@
+{
+    "stageName": "tough_13-18",
+    "doc": {
+        "title": "主线十三章 恶兆湍流 13-20（磨难）修改自用",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-04-07T10:57:35Z\n统计更新日期: 2025-04-12\n好评率：100.0%  浏览量：1000\n来源：rayt0n  ID：35773\n——————————\n\n这是磨难难度 普通难度地图不一样 别用磨难的打普通\n攻略作者：萧然Q BV1Hw411A7iG 记得去b站给萧然Q点赞三连\njson作者：鱼丸 评论区不解决maa问题\n已测试\n平均练度2603 需要干员替换自己动动手",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "号角",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ],
+            "operators": null
+        }
+    ],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

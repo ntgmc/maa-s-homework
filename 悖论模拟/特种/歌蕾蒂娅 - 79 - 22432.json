@@ -1,0 +1,26 @@
+{
+    "stageName": "mem_glady_1",
+    "doc": {
+        "title": "特种 - 歌蕾蒂娅 - 陆上共舞",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2023-04-08T16:40:22Z\n统计更新日期: 2025-04-12\n好评率：79.31%  浏览量：2505\n来源：BnnA  ID：22432\n——————————\n【明日方舟】歌蕾蒂娅 悖论模拟/无需专精/看一遍就过/简单操作/蛮鳞行动/美丽哥/歌蕾蒂娅悖论模拟\nhttps://www.bilibili.com/video/BV1Ff4y1H7GP\nup主：倾九_Komy",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

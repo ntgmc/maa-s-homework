@@ -1,0 +1,62 @@
+{
+    "stageName": "main_04-09",
+    "doc": {
+        "title": "修改自用白面鸮模组摆完挂机-医疗环境分析装置",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-10-07T13:18:20Z\n统计更新日期: 2025-04-12\n好评率：66.67%  浏览量：346\n来源：qingyu  ID：42172\n——————————\n侬无言以对模组任务摆完挂机合集:BV1wU4y177Qu\n3星通关主题曲4-9；必须编入非助战白面鸮并上场，且不编入其他医疗和重装干员\n筱竹聽雨",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "白面鸮",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "银灰",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

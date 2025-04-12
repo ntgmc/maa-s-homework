@@ -1,0 +1,62 @@
+{
+    "stageName": "mem_indigo_1",
+    "doc": {
+        "title": "术师 - 深靛 - 光影谜面【深靛悖论模拟】",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2023-12-03T09:29:32Z\n统计更新日期: 2025-04-12\n好评率：76.56%  浏览量：1629\n来源：小卡拉帕鲁灰  ID：30624\n——————————\n深靛悖论模拟：光影谜面\n练度：不晓得、你们试试最低可以多少\n悖论模拟需要在MAA中关闭“自动编队”，\n选好二技能后处于红色ui“开始模拟”界面，maa就可以按开始了\n",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "深靛",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "蓝毒",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "红云",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "蜜莓",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

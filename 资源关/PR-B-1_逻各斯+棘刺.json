@@ -1,0 +1,38 @@
+{
+    "stageName": "pro_b_1",
+    "doc": {
+        "title": "【双核刷信用】摧枯拉朽 - PR-B-1 - 干涉",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-04-04T13:53:27Z\n统计更新日期: 2025-04-12\n好评率：100.0%  浏览量：45\n来源：yalor.17  ID：49473\n——————————\n\n棘刺+逻各斯！\n练度均为2603，有下降空间但是不确定具体能下到哪儿！\n非常稳定。",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

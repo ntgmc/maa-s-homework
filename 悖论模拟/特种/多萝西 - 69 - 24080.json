@@ -1,0 +1,26 @@
+{
+    "stageName": "mem_doroth_1",
+    "doc": {
+        "title": "特种 - 多萝西 - 重塑绿野",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2023-06-17T03:04:40Z\n统计更新日期: 2025-04-12\n好评率：69.01%  浏览量：8020\n来源：我不是zhou  ID：24080\n——————————\n参考视频https://www.bilibili.com/video/BV1us4y1X77K\n无需专三，本人多萝西精二20级，带3技能，极小概率翻车，再试一次即可",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "多萝西",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

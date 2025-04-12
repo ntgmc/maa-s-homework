@@ -1,0 +1,38 @@
+{
+    "stageName": "pro_c_1",
+    "doc": {
+        "title": "辅助 先锋 芯片  PR-C-1 - 急行",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-03-04T09:31:32Z\n统计更新日期: 2025-04-12\n好评率：100.0%  浏览量：38\n来源：不会玩的辅助  ID：48000\n——————————\n\nJSON：不会玩的辅助\n辅助 先锋 芯片",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 2,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "伊内丝",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

@@ -1,0 +1,62 @@
+{
+    "stageName": "mem_takila_1",
+    "doc": {
+        "title": "近卫 - 龙舌兰 - 沙滩假期",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2023-03-04T07:05:51Z\n统计更新日期: 2025-04-12\n好评率：86.0%  浏览量：1258\n来源：xf22cn@qq.com  ID：21284\n——————————\n倾九_Komy  https://www.bilibili.com/video/BV1VG411T71y/\n龙舌兰 精二1级   2技能 7级",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "羽毛笔",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "龙舌兰",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "锡兰",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "巫恋",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

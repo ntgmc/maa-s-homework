@@ -1,0 +1,26 @@
+{
+    "stageName": "mem_nearl2_1",
+    "doc": {
+        "title": "模拟悖论-耀骑士临光-出鞘 自用",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-10-13T11:15:27Z\n统计更新日期: 2025-04-12\n好评率：88.46%  浏览量：538\n来源：没有阿斯卡纶乌尔比安娜仁图亚攻略组  ID：42459\n——————————\n原作者AimerLen.S, 没有添加干员,加了个干员选3技能\nUP主：倾九_Komy\n视频链接：https://www.bilibili.com/video/BV1hd4y1g7wK/",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "耀骑士临光",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

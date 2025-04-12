@@ -1,0 +1,62 @@
+{
+    "stageName": "mem_texas_1",
+    "doc": {
+        "title": "【二倍速--开启截图增强】先锋 - 德克萨斯 - 因地制宜",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-01-05T00:33:51Z\n统计更新日期: 2025-04-12\n好评率：54.35%  浏览量：706\n来源：542B  ID：45271\n——————————\n其他作业分挺低的，自己搓了一版\n测试为满潜精二满级无专\n按时间轴写的，应该没逝吧",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "作者：542B",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "求反馈",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "o(〃＾▽＾〃)o",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

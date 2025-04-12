@@ -1,0 +1,50 @@
+{
+    "stageName": "mem_skadi_1",
+    "doc": {
+        "title": "近卫 - 斯卡蒂 - 纯粹的强大 - 悖论模拟",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-09-09T11:44:56Z\n统计更新日期: 2025-04-12\n好评率：83.33%  浏览量：2466\n来源：初音ミク  ID：39599\n——————————\n【精二1级无专精斯卡蒂悖论模拟】 https://www.bilibili.com/video/BV1X94y1m7yo\n请勿勾选自动编队和战斗列表",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "斯卡蒂",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "华法琳",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "杰西卡",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

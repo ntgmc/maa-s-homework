@@ -1,0 +1,67 @@
+{
+    "stageName": "main_09-06",
+    "doc": {
+        "title": "鸿雪模组任务 - 9-7（标准） - 仪式感",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-03-08T07:53:54Z\n统计更新日期: 2025-04-12\n好评率：88.89%  浏览量：170\n来源：一只摆烂的42  ID：48265\n——————————\n鸿雪「仪式感」模组任务\n3星通关主题曲9-7标准实战环境，必须编入非助战鸿雪并上场，且使用鸿雪歼灭至少10名敌人，其中包括至少1个深池重甲卫士\n原视频：https://www.bilibili.com/video/BV1L19yYbEG1/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "鸿雪",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ],
+            "operators": null
+        }
+    ],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 1
+}

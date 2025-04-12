@@ -1,0 +1,26 @@
+{
+    "stageName": "mem_nian_1",
+    "doc": {
+        "title": "年悖论模拟",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2023-04-19T07:07:55Z\n统计更新日期: 2025-04-12\n好评率：52.04%  浏览量：2864\n来源：作业代传——有问题联系原作者  ID：22732\n——————————\n干员等级：年精二40，技能3专三\n测试版本：395b2",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "年",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": null,
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

@@ -1,0 +1,26 @@
+{
+    "stageName": "mem_beewax_1",
+    "doc": {
+        "title": "悖论模拟 - 蜜蜡 - 沙礁之上",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2023-10-16T14:29:48Z\n统计更新日期: 2025-04-12\n好评率：86.21%  浏览量：733\n来源：诗怀雅的扩音喇叭  ID：29113\n——————————\n自制作业，测试用练度精二50无模7级二技能\n可能因为帧数、概率等原因出现作业失败，可以多循环一下作业",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "蜜蜡",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

@@ -1,0 +1,50 @@
+{
+    "stageName": "main_14-15",
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-17（标准） - 核心舱攻防战 速刷 糖组块",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-02-17T02:19:08Z\n统计更新日期: 2025-04-12\n好评率：50.0%  浏览量：50\n来源：木木天宁  ID：47254\n——————————\n\n2603 带模组",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

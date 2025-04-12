@@ -1,0 +1,26 @@
+{
+    "stageName": "mem_ansel_1",
+    "doc": {
+        "title": "悖论模拟 - 安赛尔 - 冷静的支援者",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-11-08T13:18:39Z\n统计更新日期: 2025-04-12\n好评率：90.48%  浏览量：2423\n来源：钙片#6682  ID：43217\n——————————\n满潜 技能7级 精一 Lv.55 - 已测试\n\n原作者：假装摆烂嘉\n链接：https://www.bilibili.com/video/BV1C64y1K7xu",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

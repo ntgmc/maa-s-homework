@@ -1,0 +1,62 @@
+{
+    "stageName": "hard_09-02",
+    "doc": {
+        "title": "第九章 风暴瞭望 - H9-2（标准） - 暴风行动-2",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2023-09-20T13:51:20Z\n统计更新日期: 2025-04-12\n好评率：100.0%  浏览量：1072\n来源：Chiho  ID：28129\n——————————\n\nup:侬无言以对\nlink:【【明日方舟】H9-2摆完挂机（风暴瞭望-磨难险地环境）】 https://www.bilibili.com/video/BV1xs4y1N7wS/?share_source=copy_web&vd_source=dcc7ddeba31e59bccd51d29a07ff1565\n精二603\n能天使需要开模组",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "号角",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

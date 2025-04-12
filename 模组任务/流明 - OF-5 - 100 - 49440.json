@@ -1,0 +1,141 @@
+{
+    "stageName": "a003_05",
+    "doc": {
+        "title": "流明y模任务 OF-5 - 别阻止我",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-04-03T07:36:04Z\n统计更新日期: 2025-04-12\n好评率：100.0%  浏览量：66\n来源：哈基oiiaoiiao  ID：49440\n——————————\njson作者:哈基我\n作业作者:我\n亲测干员练度:\n流明2 53 7 无模 潜5\n黑角0 30 0 无 0\n山  2 60 10 y3 0(主要杀敌)\n银灰 2 90 7 x3 0(仅做阻挡)\n\n\n流明y模组要求:\n战斗中非助战流明累计使用沛霖10次\n 3星通关别传OF-5；必须编入非助战流明并上场，且不编入其他医疗干员\n\nQ:为什么我的流明没有放技能?\nA:因为我无法让MAA使用蓄力技能,有时间去问问怎么做.\nQ:黑角可替换吗?\nA:防御中下等,攻击越弱越好,最好没有回复,为的是受伤好让流明放二技能.\nQ:要打几局?\nA:亲测一局.如果卡技能了可能要重复几局.\nQ:为什么放这么多干员?\nA:一次满足不同box人群.\nQ:接下来你会更新什么?\nA:同一关的不同json作业处理,一部分模组任务和低配挂机研讨会的作业\nQ:为什么有了一份json你还要做另一份?\nA:因为第一个问题(为什么我的流明没有放技能?),看看不同处理会不会能更稳定.\nQ:还有其他问题吗?\nA:有的话我之后会补充.",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "流明",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "防漏杀敌",
+            "opers": [
+                {
+                    "name": "推进之王",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "风笛",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "伊内丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "山",
+                    "skill": 2,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "泥岩",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ],
+            "operators": null
+        },
+        {
+            "name": "防漏阻挡",
+            "opers": [
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "银灰",
+                    "skill": 2,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "拉普兰德",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "歌蕾蒂娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ],
+            "operators": null
+        }
+    ],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

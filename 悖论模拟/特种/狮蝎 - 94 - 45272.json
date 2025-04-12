@@ -1,0 +1,50 @@
+{
+    "stageName": "mem_mantic_1",
+    "doc": {
+        "title": "悖论模拟 - 特种 - 狮蝎 - 看见她",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-01-04T13:30:15Z\n统计更新日期: 2025-04-12\n好评率：94.74%  浏览量：778\n来源：PPZS  ID：45272\n——————————\n测试 精二66级0专3潜59信赖技能7级无模\nMaaTouch触控模式 已过\n低练度未测试",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "狮蝎",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "夜烟",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

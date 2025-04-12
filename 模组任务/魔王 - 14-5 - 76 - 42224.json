@@ -1,0 +1,50 @@
+{
+    "stageName": "main_14-04",
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-5（标准） - 探查岩洞区域【魔王模组任务】",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-02-09T16:55:39Z\n统计更新日期: 2025-04-12\n好评率：76.92%  浏览量：316\n来源：小卡拉帕鲁灰  ID：42224\n——————————\n小特模组任务",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "魔王",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

@@ -1,0 +1,50 @@
+{
+    "stageName": "act18d3_05",
+    "doc": {
+        "title": "覆潮之下 - SV-5 - 遭弃者（浊心斯卡蒂模组任务）",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-03-24T14:27:07Z\n统计更新日期: 2025-04-12\n好评率：100.0%  浏览量：157\n来源：飘ipao（B站同名，qq3978869946）  ID：49077\n——————————\n浊心斯卡蒂模组任务\n测试已过\n能天使2603 3y\n浊心斯卡蒂2803\n黑角满级",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

@@ -1,0 +1,26 @@
+{
+    "stageName": "mem_lin_1",
+    "doc": {
+        "title": "【林】悖论模拟 - 紫色的林",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-01-23T08:59:39Z\n统计更新日期: 2025-04-12\n好评率：79.25%  浏览量：2569\n来源：LobsterJam  ID：45788\n——————————\n自用 lv90\n三技能专三",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "林",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

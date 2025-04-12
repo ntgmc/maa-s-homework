@@ -1,151 +1,122 @@
 {
-    "minimum_required": "v4.0.0",
-    "stage_name": "tough_12-17",
-    "actions": [
-        {
-            "type": "Deploy",
-            "name": "德克萨斯",
-            "location": [
-                2,
-                4
-            ],
-            "direction": "Right"
-        },
-        {
-            "type": "Deploy",
-            "name": "能天使",
-            "location": [
-                2,
-                2
-            ],
-            "direction": "Right"
-        },
-        {
-            "type": "Deploy",
-            "name": "白面鸮",
-            "location": [
-                1,
-                3
-            ],
-            "direction": "Right"
-        },
-        {
-            "type": "Deploy",
-            "name": "艾雅法拉",
-            "location": [
-                3,
-                5
-            ],
-            "direction": "Right"
-        },
-        {
-            "type": "Deploy",
-            "name": "拉普兰德",
-            "location": [
-                3,
-                4
-            ],
-            "direction": "Right"
-        },
-        {
-            "type": "Deploy",
-            "name": "星熊",
-            "location": [
-                3,
-                3
-            ],
-            "direction": "Right"
-        },
-        {
-            "type": "Deploy",
-            "name": "蜜莓",
-            "location": [
-                6,
-                5
-            ],
-            "direction": "Up"
-        },
-        {
-            "type": "Deploy",
-            "name": "银灰",
-            "location": [
-                7,
-                6
-            ],
-            "direction": "Right"
-        },
-        {
-            "type": "Retreat",
-            "costs": 19,
-            "name": "德克萨斯",
-            "location": [
-                2,
-                4
-            ]
-        },
-        {
-            "type": "Deploy",
-            "name": "塞雷娅",
-            "location": [
-                7,
-                5
-            ],
-            "direction": "Right"
-        },
-        {
-            "type": "SkillDaemon"
-        }
-    ],
+    "stageName": "tough_12-17",
     "doc": {
         "title": "第十二章 惊霆无声 - 12-19（磨难） - 飞跃，烟火 萧然攻略 优化版",
-        "details": "作业更新日期: 2024-05-03T10:25:45Z\n统计更新日期: 2024-11-30\n好评率：91.94%  浏览量：2934\n来源：undefined  ID：36995\n磨难12-19 优化版，更好抄\n攻略作者：萧然Q BV1oL411m7bL\n练度2603 不妨称之为萧然练度水平\n萧然用的小羊29033级模组满配，我测试用的小羊26033级模组，可以过，不知道3级模组影响大不大，不能过的请点踩提示后来的同胞（没开小羊3级模组的老咸鱼们还是能开就开吧）\n蜜莓170，只是范围大用来验身份的\n建议开自动编队先演习一遍，然后再上满蹭信赖的干员实操，信赖干员可以带个精二的摩根或者二技能耀光，不占部署位，如果小羊那边会漏可以下去挡一挡"
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2023-04-07T09:50:42Z\n统计更新日期: 2025-04-12\n好评率：80.0%  浏览量：10757\n来源：RS激昂  ID：22364\n——————————\n\n磨难12-19 优化版，更好抄\n攻略作者：萧然Q BV1oL411m7bL\n练度2603 不妨称之为萧然练度水平\n萧然用的小羊29033级模组满配，我测试用的小羊26033级模组，可以过，不知道3级模组影响大不大，不能过的请点踩提示后来的同胞（没开小羊3级模组的老咸鱼们还是能开就开吧）\n蜜莓170，只是范围大用来验身份的\n建议开自动编队先演习一遍，然后再上满蹭信赖的干员实操，信赖干员可以带个精二的摩根或者二技能耀光，不占部署位，如果小羊那边会漏可以下去挡一挡",
+        "details_color": "Gray"
     },
-    "groups": [],
     "opers": [
         {
             "name": "德克萨斯",
             "skill": 1,
-            "skill_usage": 0
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
         },
         {
             "name": "拉普兰德",
             "skill": 2,
-            "skill_usage": 0
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
         },
         {
             "name": "银灰",
             "skill": 1,
-            "skill_usage": 0
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
         },
         {
             "name": "塞雷娅",
             "skill": 2,
-            "skill_usage": 0
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
         },
         {
             "name": "星熊",
             "skill": 2,
-            "skill_usage": 0
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
         },
         {
             "name": "能天使",
             "skill": 3,
-            "skill_usage": 0
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
         },
         {
             "name": "艾雅法拉",
             "skill": 2,
-            "skill_usage": 0
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
         },
         {
             "name": "蜜莓",
             "skill": 1,
-            "skill_usage": 0
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
         },
         {
             "name": "白面鸮",
             "skill": 2,
-            "skill_usage": 0
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
         }
-    ]
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
 }

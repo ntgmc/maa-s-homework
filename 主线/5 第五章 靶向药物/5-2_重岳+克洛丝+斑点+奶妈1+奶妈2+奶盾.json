@@ -1,0 +1,104 @@
+{
+    "stageName": "main_05-02",
+    "doc": {
+        "title": "第五章 靶向药物 - 5-2 - 有口难言 - 重岳单核",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-01-17T10:21:07Z\n统计更新日期: 2025-04-12\n好评率：97.78%  浏览量：613\n来源：胖头🐟  ID：31879\n——————————\n\n和5-1配置一模一样",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "重岳",
+            "skill": 3,
+            "skill_usage": 2,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶妈1",
+            "opers": [
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ],
+            "operators": null
+        },
+        {
+            "name": "奶妈2",
+            "opers": [
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ],
+            "operators": null
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ],
+            "operators": null
+        }
+    ],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 3
+}

@@ -1,0 +1,55 @@
+{
+    "stageName": "sub_09-1-1",
+    "doc": {
+        "title": "第九章 风暴瞭望 - S9-1（标准） - 废墟坚守【莱伊模组任务】",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-06-07T09:49:14Z\n统计更新日期: 2025-04-12\n好评率：93.9%  浏览量：2791\n来源：小卡拉帕鲁灰  ID：38295\n——————————\n由非助战莱伊累计歼灭10个精英或领袖敌人\n3星通关主题曲S9-1；必须编入非助战莱伊并上场，且使用莱伊使用至少2次“得见光芒”",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "莱伊",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "塞or黍",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ],
+            "operators": null
+        }
+    ],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

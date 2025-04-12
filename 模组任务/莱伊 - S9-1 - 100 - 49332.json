@@ -1,0 +1,82 @@
+{
+    "stageName": "easy_sub_09-1-1",
+    "doc": {
+        "title": "莱伊模组《跳舞的月光》任务",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-03-31T10:00:05Z\n统计更新日期: 2025-04-12\n好评率：100.0%  浏览量：37\n来源：RyuZU  ID：49332\n——————————\nhttps://www.bilibili.com/video/BV1KT421i7Cy/",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "莱伊",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "对空狙",
+            "opers": [
+                {
+                    "name": "白金",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                }
+            ],
+            "operators": null
+        }
+    ],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

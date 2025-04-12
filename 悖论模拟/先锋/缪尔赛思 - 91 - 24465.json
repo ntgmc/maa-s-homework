@@ -1,0 +1,26 @@
+{
+    "stageName": "mem_mlyss_1",
+    "doc": {
+        "title": "缪尔赛思 “亲身经历” 悖论模拟",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-01-09T00:44:17Z\n统计更新日期: 2025-04-12\n好评率：91.02%  浏览量：21774\n来源：PercyDan  ID：24465\n——————————\n第一次发作业，有问题轻喷。\n参考BV1La4y1F7Nx\n",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "缪尔赛思",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

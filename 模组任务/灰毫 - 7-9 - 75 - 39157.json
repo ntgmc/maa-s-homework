@@ -1,0 +1,62 @@
+{
+    "stageName": "main_07-07",
+    "doc": {
+        "title": "灰毫模组任务 - 7-9 - 出门必备套装",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-07-06T23:58:05Z\n统计更新日期: 2025-04-12\n好评率：75.0%  浏览量：151\n来源：一只摆烂的42  ID：39157\n——————————\n灰毫「出门必备套装」模组任务\n3星通关主题曲7-9；必须编入非助战灰毫并上场，且使用灰毫歼灭至少2名游击队传令兵\n原视频：https://www.bilibili.com/video/BV16h4y1B7JH/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "灰毫",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

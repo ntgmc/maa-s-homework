@@ -1,0 +1,86 @@
+{
+    "stageName": "mem_12fce_1",
+    "doc": {
+        "title": "悖论模拟 术师 - 12F - 生还者",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-01-26T00:16:41Z\n统计更新日期: 2025-04-12\n好评率：87.5%  浏览量：1137\n来源：lanlanlan  ID：45854\n——————————\n别试另一个了，他那个根本过不了，我这个也是zc的模拟攻略，试了好久才整出来的，一次没过可以再试试",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "12F",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "翎羽",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "卡缇",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

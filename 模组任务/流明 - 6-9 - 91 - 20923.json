@@ -1,0 +1,62 @@
+{
+    "stageName": "main_06-08",
+    "doc": {
+        "title": "流明模组摆完挂机-纯铜单筒望远镜",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2023-02-18T00:53:50Z\n统计更新日期: 2025-04-12\n好评率：91.3%  浏览量：1332\n来源：作业代传——有问题联系原作者  ID：20923\n——————————\n侬无言以对模组任务摆完挂机合集:BV1wU4y177Qu\n3星通关主题曲6-9；且仅可编入非助战流明1名医疗干员并上场\n筱竹聽雨",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "能天使",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

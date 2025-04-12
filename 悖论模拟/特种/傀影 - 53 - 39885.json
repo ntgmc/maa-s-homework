@@ -1,0 +1,62 @@
+{
+    "stageName": "mem_phatom_1",
+    "doc": {
+        "title": "【关闭截图增强】低练一倍速    傀影悖论模拟 - 控局",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2025-01-04T12:17:02Z\n统计更新日期: 2025-04-12\n好评率：53.12%  浏览量：1054\n来源：542B  ID：39885\n——————————\n测试为90一潜专一，比无潜少一费，没有潜能的不知道会不会乱轴\n请关闭截图增强，显示延迟约500毫秒左右才可用\n关掉模组否则轴对不上，希望对你有帮助",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "傀影",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "作者 542B",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "求反馈",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "o(〃＾▽＾〃)o",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 0
+}

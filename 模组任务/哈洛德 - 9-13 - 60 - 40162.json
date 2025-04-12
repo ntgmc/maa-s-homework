@@ -1,0 +1,50 @@
+{
+    "stageName": "main_09-11",
+    "doc": {
+        "title": "哈洛德模组任务 - 9-13 - 腿部护理套装",
+        "title_color": "Gray",
+        "details": "——————————\n作业更新日期: 2024-08-11T01:04:08Z\n统计更新日期: 2025-04-12\n好评率：60.0%  浏览量：145\n来源：一只摆烂的42  ID：40162\n——————————\n哈洛德「腿部护理套装」模组任务\n3星通关主题曲9-13标准实战环境；必须编入非助战哈洛德并上场，且所有干员不被击倒\n原视频：https://www.bilibili.com/video/BV1CmiueJEXj\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ",
+        "details_color": "Gray"
+    },
+    "opers": [
+        {
+            "name": "哈洛德",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "煌",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 0,
+                "level": 0,
+                "skill_level": 0,
+                "module": 0,
+                "potentiality": 0
+            }
+        }
+    ],
+    "groups": [],
+    "minimumRequired": "v4.0.0",
+    "difficulty": 1
+}
