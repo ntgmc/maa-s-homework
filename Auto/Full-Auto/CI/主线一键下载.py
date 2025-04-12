@@ -217,6 +217,12 @@ def less_search(keyword):
         print(f"请求 {keyword} 失败")
 
 
+def get_content(_id):
+    data = requests.get(f"https://prts.maa.plus/copilot/get/{_id}").json()
+    if data['code'] == 200:
+        return data['data']['content']
+
+
 def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
     global no_result, cache_dict, id_cache_dict
     all_data = data.get(stage_id)
@@ -247,7 +253,7 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
                             if os.path.exists(file):
                                 os.remove(file)
                                 print(f"Removed {file}")
-                    content = json.loads(item['content'])
+                    content = get_content(item['id'])
                     file_path = generate_filename(stage_id, content, path_mode, cat_two, cat_three)
                     content['doc']['details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n\n" + content['doc']['details']
                     print(f"{file_path} {percent}% {view} 成功下载")

@@ -226,6 +226,12 @@ def cache_delete_save(_cache_dict, found_ids, id_list, cat_three):
     return _cache_dict
 
 
+def get_content(_id):
+    data = requests.get(f"https://prts.maa.plus/copilot/get/{_id}").json()
+    if data['code'] == 200:
+        return data['data']['content']
+
+
 def less_filter_data(stage_dict, data, stage_id):
     global no_result, cache_dict, id_cache_dict
     if "#f#" in stage_id:
@@ -254,7 +260,7 @@ def less_filter_data(stage_dict, data, stage_id):
                             if os.path.exists(file):
                                 os.remove(file)
                                 print(f"Removed {file}")
-                    content = json.loads(item['content'])
+                    content = get_content(item['id'])
                     file_path = generate_filename(stage_dict, stage_id, content, item['uploader'], activity_name, cat_three)
                     content['doc']['details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + content['doc']['details']
                     print(f"{file_path} {percent}% {view} 成功下载")

@@ -132,6 +132,12 @@ def get_level_data():
     return add_level_data(response.json()['data']) if response.ok else []
 
 
+def get_content(_id):
+    data = requests.get(f"https://prts.maa.plus/copilot/get/{_id}").json()
+    if data['code'] == 200:
+        return data['data']['content']
+
+
 def add_level_data(ld):
     """
     添加关卡数据
@@ -229,7 +235,7 @@ def filter_paradox(data, name, _job):
                             if os.path.exists(file):
                                 os.remove(file)
                                 print(f"Removed {file}")
-                content = json.loads(item['content'])
+                content = get_content(item['id'])
                 content['doc'][
                     'details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + \
                                  content['doc']['details']
@@ -300,7 +306,7 @@ def search_module(name, stage):
                                 if os.path.exists(file):
                                     os.remove(file)
                                     print(f"Removed {file}")
-                    content = json.loads(item['content'])
+                    content = get_content(item['id'])
                     content['doc'][
                         'details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + \
                                      content['doc']['details']
