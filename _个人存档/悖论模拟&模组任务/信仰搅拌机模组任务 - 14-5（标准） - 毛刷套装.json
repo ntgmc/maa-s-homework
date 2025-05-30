@@ -1,0 +1,63 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "main_14-04",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "name": "信仰搅拌机",
+      "location": [
+        1,
+        5
+      ],
+      "direction": "Up"
+    },
+    {
+      "type": "Deploy",
+      "name": "圣约送葬人",
+      "location": [
+        1,
+        6
+      ],
+      "direction": "Up",
+      "costs": 40
+    },
+    {
+      "type": "Skill",
+      "name": "圣约送葬人",
+      "kills": 15,
+      "doc_color": "#d63384",
+      "doc": "19杀关技能"
+    },
+    {
+      "type": "Skill",
+      "name": "圣约送葬人",
+      "kills": 19
+    },
+    {
+      "type": "Skill",
+      "name": "圣约送葬人",
+      "kills": 21,
+      "pre_delay": 18000
+    }
+  ],
+  "doc": {
+    "title": "信仰搅拌机模组任务 - 14-5（标准） - 毛刷套装",
+    "details": "信仰搅拌机「毛刷套装」模组任务\n3星通关主题曲14-5标准实战环境；必须编入非助战信仰搅拌机并上场，且使用信仰搅拌机歼灭至少10名敌人\n原视频：https://www.bilibili.com/video/BV1gvGqzMEFj/\n圣葬建议专三，没有圣葬可以借一个\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "信仰搅拌机",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "圣约送葬人",
+      "skill": 3,
+      "skill_usage": 0
+    }
+  ]
+}

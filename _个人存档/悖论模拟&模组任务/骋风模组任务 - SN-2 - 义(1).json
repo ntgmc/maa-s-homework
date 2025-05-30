@@ -1,0 +1,73 @@
+{
+  "minimum_required": "v4.0.0",
+  "doc": {
+    "title": "骋风模组任务 - SN-2 - 义",
+    "details": "骋风「义」模组任务\n3星通关插曲SN-2；必须编入非助战骋风并上场，且使用2次招无虚发\n原作业：maa://21448\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "stage_name": "act17side_02",
+  "opers": [
+    {
+      "name": "煌",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "骋风",
+      "skill": 2,
+      "skill_usage": 1
+    }
+  ],
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "name": ""
+    },
+    {
+      "type": "Deploy",
+      "name": "煌",
+      "location": [
+        5,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "奶盾",
+      "location": [
+        5,
+        2
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "骋风",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "groups": [
+    {
+      "name": "奶盾",
+      "opers": [
+        {
+          "name": "黍",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "塞雷娅",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ]
+}
