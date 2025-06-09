@@ -70,7 +70,7 @@ def build_id_cache(_cache_dict, _id, file_path: str):
 def cache_delete_save(_cache_dict, _type, found_ids, id_list, name, stage=None):
     missing_ids = set(id_list) - found_ids
     for missing_id in missing_ids:
-        print(id_list, found_ids, f"未找到 {name} - {missing_id}")
+        print(id_list, found_ids, f"未找到 {_type} {name} - {missing_id}")
         _cache_dict = build_new_cache(_cache_dict, _type, name, missing_id, "已删除", stage)
         file_paths = id_cache_dict.get(missing_id, [])
         if file_paths:
@@ -277,7 +277,7 @@ def search_module(name, stage):
     if _response.status_code == 200:
         data = _response.json()
         try:
-            total = data['data'].get('total', 0)
+            total = len(data['data'])
         except KeyError:
             print(f"请求失败！ERR_CONNECTION_REFUSED in search({name} - {stage})")
             print(data)
@@ -496,7 +496,7 @@ cache_dict = load_data(cache)
 id_cache_dict = load_data(id_cache)
 now = datetime.now().timestamp()
 get_operators()
-main_paradox()
+# main_paradox()
 main_module()
 last = datetime.now().timestamp()
 save_data(cache, cache_dict)
