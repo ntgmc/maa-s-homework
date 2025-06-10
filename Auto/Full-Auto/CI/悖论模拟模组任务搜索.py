@@ -220,8 +220,12 @@ def filter_paradox(data, name, _job):
         items_to_download = []
         all_below_threshold = True
         found_ids = set()
+        has_high_score = any(calculate_percent(item) > 90 for item in all_data)  # Check for scores > 90%
+
         for item in all_data:
             percent = calculate_percent(item)
+            if has_high_score and percent < 70:  # Ignore scores < 70% if a high score exists
+                continue
             found_ids.add(str(item['id']))
             if percent > 0:
                 ids_develop.append(code_output(percent, item['id'], 1))
@@ -231,16 +235,17 @@ def filter_paradox(data, name, _job):
                     all_below_threshold = False
             if total > 1 and percent >= download_score_threshold or total == 1:
                 items_to_download.append((percent, item))
+
         if download_mode and _job:
-            # 对列表按照评分进行排序，评分最高的在前面
+            # Sort items by score in descending order
             items_to_download.sort(key=lambda x: x[0], reverse=True)
-            # 只下载评分最高的三个项目
+            # Download the top 3 items
             for percent, item in items_to_download[:3]:
                 file_path = f"悖论模拟/{_job}/{name} - {int(percent)} - {item['id']}.json"
                 if compare_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time']):
-                    if os.path.exists(file_path):  # 如果文件存在（评分相同）
+                    if os.path.exists(file_path):  # Skip if file exists with the same score
                         continue
-                # 数据改变或评分改变
+                # Handle data or score changes
                 if id_cache_dict.get(str(item['id'])):
                     for file in id_cache_dict[str(item['id'])]:
                         if re.search(rf"{name}", file):
@@ -254,6 +259,7 @@ def filter_paradox(data, name, _job):
                 write_json_to_file(file_path, content)
                 cache_dict = build_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time'])
                 id_cache_dict = build_id_cache(id_cache_dict, str(item['id']), file_path)
+
         cache_dict = cache_delete_save(cache_dict, "悖论", found_ids, id_list, name)
         print(f"成功搜索 {_job} - {name}")
         return name, len(ids_develop), len(ids_user), ', '.join(ids_develop), ', '.join(ids_user), all_below_threshold
