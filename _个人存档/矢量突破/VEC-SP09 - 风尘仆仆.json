@@ -1,0 +1,33 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act1break_sp09",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "佩佩",
+      "location": [
+        4,
+        3
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "VEC-SP09 - 风尘仆仆",
+    "details": "无机物\n佩佩\n测试练度2607无模\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "佩佩",
+      "skill": 3,
+      "skill_usage": 1
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act1break_sp14",
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "Deploy",
+      "location": [
+        4,
+        4
+      ],
+      "name": "奶盾",
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "location": [
+        5,
+        4
+      ],
+      "name": "娜仁图亚",
+      "direction": "Right"
+    },
+    {
+      "type": "Skill",
+      "name": "娜仁图亚",
+      "pre_delay": 3000
+    }
+  ],
+  "doc": {
+    "title": "VEC-SP14 - 绝人之路",
+    "details": "大姨+奶盾\n思路：一只摆烂的42\n"
+  },
+  "groups": [
+    {
+      "name": "奶盾",
+      "opers": [
+        {
+          "name": "临光",
+          "skill": 1,
+          "skill_usage": 0
+        },
+        {
+          "name": "古米",
+          "skill": 1,
+          "skill_usage": 0
+        }
+      ]
+    }
+  ],
+  "opers": [
+    {
+      "name": "娜仁图亚",
+      "skill_usage": 0,
+      "skill": 1
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "stage_name": "act12side_06",
+  "minimum_required": "v4.0.0",
+  "doc": {
+    "title": "特克诺模组任务 - DH-6 - 烧烤店官方优惠章",
+    "details": "特克诺「烧烤店官方优惠章」模组任务\n3星通关插曲DH-6，必须编入非助战特克诺并上场，其他成员仅可编入7名干员\n原作业：maa://45363\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+  },
+  "opers": [
+    {
+      "name": "艾雅法拉",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "特克诺",
+      "skill": 2,
+      "requirements": {
+        "skill_level": 7
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "小基石",
+      "opers": [
+        {
+          "name": "山",
+          "skill": 2,
+          "skill_usage": 2,
+          "skill_times": 1
+        },
+        {
+          "name": "棘刺",
+          "skill": 3,
+          "skill_usage": 1,
+          "skill_times": 2
+        }
+      ]
+    },
+    {
+      "name": "塞雷娅",
+      "opers": [
+        {
+          "name": "塞雷娅",
+          "skill": 2,
+          "skill_usage": 0
+        },
+        {
+          "name": "黍",
+          "skill": 3,
+          "skill_usage": 1,
+          "skill_times": 6
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "SpeedUp",
+      "name": "1"
+    },
+    {
+      "name": "小基石",
+      "location": [
+        1,
+        4
+      ],
+      "direction": "Down",
+      "type": "Deploy"
+    },
+    {
+      "name": "特制水上平台",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "None",
+      "type": "Deploy"
+    },
+    {
+      "name": "特制水上平台",
+      "location": [
+        8,
+        1
+      ],
+      "direction": "None",
+      "type": "Deploy"
+    },
+    {
+      "name": "艾雅法拉",
+      "location": [
+        8,
+        3
+      ],
+      "direction": "Up",
+      "type": "Deploy"
+    },
+    {
+      "name": "塞雷娅",
+      "location": [
+        8,
+        1
+      ],
+      "direction": "Down",
+      "type": "Deploy"
+    },
+    {
+      "name": "特制水上平台",
+      "location": [
+        7,
+        3
+      ],
+      "direction": "None",
+      "type": "Deploy"
+    },
+    {
+      "name": "特克诺",
+      "location": [
+        2,
+        3
+      ],
+      "direction": "Down",
+      "type": "Deploy"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "version": 3
+}
