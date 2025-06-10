@@ -211,11 +211,11 @@ if __name__ == '__main__':
 
     paradox_develop = DoTxt('Auto/Full-Auto/CI/paradox_develop.txt').read_paradox_lines()
     # print(paradox_develop)
-    DoExcel("Excel/悖论模拟干员名单作者版.xlsx", "Sheet1").write_paradox_data(paradox_develop)
+    DoExcel("Excel/悖论&模组作业作者版.xlsx", "悖论模拟").write_paradox_data(paradox_develop)
 
     paradox_user = DoTxt('Auto/Full-Auto/CI/paradox_user.txt').read_paradox_lines()
     # print(paradox_user)
-    DoExcel("Excel/悖论模拟干员名单用户版.xlsx", "Sheet1").write_paradox_data(paradox_user)
+    DoExcel("Excel/悖论&模组作业用户版.xlsx", "悖论模拟").write_paradox_data(paradox_user)
 
     module_task = DoTxt('Auto/Full-Auto/CI/module.txt').read_module_task_lines()
     # print(module_task)
@@ -223,8 +223,8 @@ if __name__ == '__main__':
 
     module_develop, data2 = DoTxt('Auto/Full-Auto/CI/module_develop.txt').read_module_develop_lines()
     # print(module_develop)
-    DoExcel("Excel/模组任务干员名单作者版.xlsx", "Sheet1").write_module_develop_data(module_develop, data2)
+    DoExcel("Excel/悖论&模组作业作者版.xlsx", "模组任务").write_module_develop_data(module_develop, data2)
 
     module_user = DoTxt('Auto/Full-Auto/CI/module_user.txt').read_module_user_lines()
     # print(module_user)
-    DoExcel("Excel/模组任务干员名单用户版.xlsx", "Sheet1").write_module_data(module_user)
+    DoExcel("Excel/悖论&模组作业用户版.xlsx", "模组任务").write_module_data(module_user)
