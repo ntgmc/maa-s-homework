@@ -244,6 +244,25 @@ def get_content(_id, retry=3):
         return {}
 
 
+def get_complete_content(_id):
+    _headers = {
+        "Origin": "https://zoot.plus",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
+    }
+    response = requests.get(f"https://prts.maa.plus/copilot/get/{_id}", headers=_headers)
+    if response.ok:
+        data = response.json()
+        if data.get('status_code') == 200:
+            content = json.loads(data['data']['content'])
+            print(content)
+            return content
+        else:
+            print(f"Failed to fetch content for ID {_id}, error code: {data.get('status_code')}")
+    else:
+        print(f"Failed to fetch content for ID {_id}, HTTP status: {response.status_code}")
+    return None
+
+
 def less_filter_data(stage_dict, data, stage_id):
     global no_result, cache_dict, id_cache_dict
     if "#f#" in stage_id:
@@ -272,7 +291,7 @@ def less_filter_data(stage_dict, data, stage_id):
                             if os.path.exists(file):
                                 os.remove(file)
                                 print(f"Removed {file}")
-                    content = get_content(item['id'])
+                    content = get_complete_content(item['id'])
                     file_path = generate_filename(stage_dict, stage_id, content, item['uploader'], activity_name, cat_three)
                     content['doc']['details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + content['doc']['details']
                     print(f"{file_path} {percent}% {view} 成功下载")
@@ -301,7 +320,7 @@ def less_filter_data(stage_dict, data, stage_id):
 def less_search(cat_three_dict, keyword):
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=999&levelKeyword={keyword}&desc=true&orderBy=views"
     _headers = {
-        "Origin": "https://prts.plus",
+        "Origin": "https://zoot.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
     _response = requests.get(url, headers=_headers)
