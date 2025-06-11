@@ -1,0 +1,63 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_15-05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Output",
+            "doc_color": "SpringGreen",
+            "doc": "Ciallo～(∠・ω< )⌒★"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "15-6 刻入骨髓",
+        "details": "——————————\n作业更新日期: 2025-04-12T01:50:43Z\n统计更新日期: 2025-06-11\n好评率：99.91%  浏览量：5015\n来源：萨扌立托加  ID：50043\n——————————\n\n沙盘LV1、LV2都选第一个\njson作者：萨扌立托加\n作业交流群群号1009052305，可蹲作业，有问题进群找萨扌立托加，作业站消息一般看不到\n❤️"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

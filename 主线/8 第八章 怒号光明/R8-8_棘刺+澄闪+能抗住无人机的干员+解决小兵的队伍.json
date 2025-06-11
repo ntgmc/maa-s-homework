@@ -30,9 +30,7 @@
                 9,
                 5
             ],
-            "direction": "Left",
-            "pre_delay": 33000,
-            "kills": 0
+            "direction": "Left"
         },
         {
             "type": "Retreat",
@@ -41,8 +39,7 @@
                 9,
                 5
             ],
-            "kills": 0,
-            "pre_delay": 17000
+            "kills": 10
         },
         {
             "type": "Retreat",
@@ -61,9 +58,9 @@
                 5,
                 3
             ],
+            "direction": "Up",
             "kills": 0,
-            "pre_delay": 7000,
-            "direction": "Up"
+            "pre_delay": 8500
         },
         {
             "type": "Retreat",
@@ -72,18 +69,7 @@
                 5,
                 3
             ],
-            "kills": 0,
-            "pre_delay": 7000
-        },
-        {
-            "type": "Deploy",
-            "name": "能抗住无人机的干员",
-            "location": [
-                2,
-                1
-            ],
-            "direction": "Left",
-            "pre_delay": 0
+            "kills": 12
         },
         {
             "type": "Deploy",
@@ -96,6 +82,16 @@
             "pre_delay": 0
         },
         {
+            "type": "Deploy",
+            "name": "能抗住无人机的干员",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Left",
+            "pre_delay": 0
+        },
+        {
             "type": "SkillUsage",
             "name": "棘刺",
             "pre_delay": 0,
@@ -104,11 +100,11 @@
         {
             "type": "Skill",
             "name": "棘刺",
-            "pre_delay": 23000,
             "location": [
                 2,
                 3
-            ]
+            ],
+            "kills": 18
         },
         {
             "type": "Deploy",
@@ -120,12 +116,48 @@
             "direction": "Right"
         },
         {
+            "type": "Retreat",
+            "name": "解决小兵的队伍",
+            "location": [
+                3,
+                1
+            ],
+            "kills": 21
+        },
+        {
+            "type": "Retreat",
+            "name": "棘刺",
+            "location": [
+                2,
+                3
+            ],
+            "pre_delay": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "能抗住无人机的干员",
+            "location": [
+                2,
+                1
+            ],
+            "pre_delay": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "澄闪",
+            "location": [
+                11,
+                6
+            ],
+            "pre_delay": 22000
+        },
+        {
             "type": "SkillDaemon"
         }
     ],
     "doc": {
-        "title": "R8-8 普通和突袭，少人版，卡时间轴版，尽量最后再手操避免代理失败(自用加黍锏)",
-        "details": "作业更新日期: 2024-05-13T15:54:54Z\n统计更新日期: 2024-11-30\n好评率：93.12%  浏览量：2610\n来源：mermer  ID：37607\n作业https://www.bilibili.com/video/BV1FY4y1N7AU\n\n棘刺2703\n澄闪2603\n塞雷亚2603   or    泥岩   2603，or 换其他能抗住无人机的干员都可以\n第四人的练度可以带走俩小兵就行\n\n澄闪技能有就开\n可以多带点干员拆箱子，飞机打的剩一两个就开拆"
+        "title": "第八章 怒号光明 - R8-8 - 人心，向背无常 全撤了",
+        "details": "——————————\n作业更新日期: 2025-03-27T11:29:06Z\n统计更新日期: 2025-06-11\n好评率：92.16%  浏览量：1817\n来源：阿能一时的神  ID：49172\n——————————\n\n原json作者mermer\nmaa://37607\n将延时操作改为击杀识别\n全员满练\n\n作业https://www.bilibili.com/video/BV1FY4y1N7AU\n\n\n澄闪技能有就开\n可以多带点干员拆箱子，飞机打的剩一两个就开拆"
     },
     "groups": [
         {

@@ -1,0 +1,425 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_15-12",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "【速射手】精一满级及以上练度",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "【群愈师】精一满级及以上练度",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "【中坚术士】精一满级及以上练度",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "【医疗】精一满级及以上",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 16,
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "【守护者】精一满级及以上练度",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "梓兰",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Up",
+            "kills": 19,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 26,
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十五章 - 15-13险地+沙盘 - 单核",
+        "details": "——————————\n作业更新日期: 2025-04-08T14:43:22Z\n统计更新日期: 2025-06-11\n好评率：99.18%  浏览量：3299\n来源：小卡拉帕鲁灰  ID：49783\n——————————\n\n沙盘模式：1级选左，2级选右\nJSON作者小卡拉帕鲁灰\n推荐使用自动编队（缺干员报错后再借）\nEW满级，专3，三级模组\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "groups": [
+        {
+            "name": "【群愈师】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "微风",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "调香师",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "明椒",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "【医疗】精一满级及以上",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "亚叶",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "【速射手】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "灰烬",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "空弦",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白金",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "灰喉",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "隐现",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "杰西卡",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流星",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "梅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "【守护者】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "瑕光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "吽",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "深律",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "【中坚术士】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "霍尔海雅",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "刻俄柏",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "阿米娅",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苦艾",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夜烟",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "史都华德",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "梓兰",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 0
+}

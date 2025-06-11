@@ -1,0 +1,54 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_10-02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "kills": 7,
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十章 破碎日冕 - 10-3（磨难） - 低下头 凝胶最高掉率关速刷",
+        "details": "——————————\n作业更新日期: 2024-06-04T11:04:10Z\n统计更新日期: 2025-06-11\n好评率：50.0%  浏览量：370\n来源：喜多郁代  ID：38290\n——————————\n\n【10-3凝胶最高掉率关速刷】 https://www.bilibili.com/video/BV1di421Q7Kt 绿叶-OwO-"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

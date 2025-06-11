@@ -1,0 +1,96 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_12-04",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "立即爆费类先锋",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "立即爆费类先锋",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十二章 惊霆无声 - 12-5（磨难） - 脆钢",
+        "details": "——————————\n作业更新日期: 2025-03-23T02:53:46Z\n统计更新日期: 2025-06-11\n好评率：98.97%  浏览量：1061\n来源：飘ipao（B站同名，qq3978869946）  ID：48998\n——————————\n\n测试已过\n棘刺2603 3x\n山2603 3x\n闪灵2603\n德克萨斯2301\n较极限（使用焰尾可忽略），请使用mumu截图增强保证延迟较低，或提高德克萨斯练度\n测试过程中maa错误识别棘刺技能可能会不释放第二次棘刺技能"
+    },
+    "groups": [
+        {
+            "name": "立即爆费类先锋",
+            "opers": [
+                {
+                    "name": "德克萨斯",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "焰尾",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 2
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_03-07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "第三章 二次呼吸 - 3-7 - 轰鸣",
+        "details": "——————————\n作业更新日期: 2023-08-03T08:37:56Z\n统计更新日期: 2025-06-11\n好评率：95.35%  浏览量：1065\n来源：lssastar  ID：25106\n——————————\n\nup:你的饮月月-\nps：高配干员\n补充：塞雷娅可换其他奶盾或补充医疗干员"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

@@ -1,0 +1,102 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "sub_03-3-2",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第三章 二次呼吸 - S3-7 - 隐匿-1",
+        "details": "——————————\n作业更新日期: 2025-01-19T09:10:04Z\n统计更新日期: 2025-06-11\n好评率：60.0%  浏览量：217\n来源：Zweiehn  ID：45580\n——————————\n\n哔哩哔哩up\n云中初梦\n【明日方舟】全主线保姆式新手攻略（单核低配好抄）（上）\nhttps://www.bilibili.com/video/BV1u5eTejEMN?spm_id_from=333.788.videopod.episodes&vd_source=2af593c1788f50ea80ff0ead69c84264&p=98"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "令",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "“弦惊”",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

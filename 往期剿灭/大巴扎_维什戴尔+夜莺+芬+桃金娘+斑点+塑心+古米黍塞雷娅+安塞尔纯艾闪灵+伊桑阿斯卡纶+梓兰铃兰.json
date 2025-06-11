@@ -1,0 +1,378 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "大巴扎",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊桑/阿斯卡纶",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "梓兰/铃兰",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "costs": 20,
+            "name": "祖宗",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "安塞尔/纯艾/闪灵",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "祖宗",
+            "location": [
+                6,
+                4
+            ],
+            "costs": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "古米/黍/塞雷娅",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "祖宗",
+            "location": [
+                8,
+                4
+            ],
+            "costs": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 60
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "skill_usage": 0
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 118
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 151
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 200
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 229
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 250
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 280
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 300
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 325
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 350,
+            "pre_delay": 8000
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 368
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                3
+            ],
+            "kills": 375
+        },
+        {
+            "type": "Deploy",
+            "name": "幻影",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "None",
+            "kills": 376
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "pre_delay": 2500
+        },
+        {
+            "type": "Deploy",
+            "name": "幻影",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "kills": 391,
+            "skill_usage": 2
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "剿灭作战 萨尔贡 大巴扎",
+        "details": "——————————\n作业更新日期: 2025-04-28T04:48:49Z\n统计更新日期: 2025-06-11\n好评率：87.76%  浏览量：5230\n来源：焕彩gg  ID：51250\n——————————\n\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注"
+    },
+    "groups": [
+        {
+            "name": "古米/黍/塞雷娅",
+            "opers": [
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "安塞尔/纯艾/闪灵",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "伊桑/阿斯卡纶",
+            "opers": [
+                {
+                    "name": "伊桑",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "梓兰/铃兰",
+            "opers": [
+                {
+                    "name": "梓兰",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "铃兰",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

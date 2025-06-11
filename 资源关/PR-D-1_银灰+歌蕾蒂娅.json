@@ -1,0 +1,89 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_d_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "银灰",
+            "location": [
+                9,
+                6
+            ],
+            "kills": 12
+        },
+        {
+            "type": "Skill",
+            "name": "歌蕾蒂娅",
+            "location": [
+                1,
+                4
+            ],
+            "pre_delay": 14000
+        },
+        {
+            "type": "Skill",
+            "name": "歌蕾蒂娅",
+            "location": [
+                1,
+                4
+            ],
+            "kills": 38
+        },
+        {
+            "type": "Skill",
+            "name": "银灰",
+            "location": [
+                9,
+                6
+            ],
+            "kills": 54
+        },
+        {
+            "type": "Skill",
+            "name": "歌蕾蒂娅",
+            "location": [
+                1,
+                4
+            ],
+            "kills": 60
+        }
+    ],
+    "doc": {
+        "title": "PR-D-1（近卫特种精一芯片）2人速刷",
+        "details": "——————————\n作业更新日期: 2025-04-05T06:15:33Z\n统计更新日期: 2025-06-11\n好评率：83.33%  浏览量：238\n来源：暝夜祈霖  ID：49531\n——————————\n\n参考打法：https://b23.tv/J3JRtDs\n与视频中的打法基本一致"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

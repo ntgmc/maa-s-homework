@@ -1,0 +1,194 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_07-03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "先锋 推荐德",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "上路 推荐山",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "中路",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "高台",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "#d63384",
+            "doc": "觉得好用麻烦点赞"
+        }
+    ],
+    "doc": {
+        "title": "第七章 苦难摇篮 - 7-4 - 并肩之约-1",
+        "details": "——————————\n作业更新日期: 2024-12-05T11:06:22Z\n统计更新日期: 2025-06-11\n好评率：99.23%  浏览量：1542\n来源：VisualMod  ID：44269\n——————————\n\n桃子精二，上路低费"
+    },
+    "groups": [
+        {
+            "name": "先锋 推荐德",
+            "opers": [
+                {
+                    "name": "德克萨斯",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "推进之王",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "嵯峨",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "讯使",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "上路 推荐山",
+            "opers": [
+                {
+                    "skill_times": 1,
+                    "name": "山",
+                    "skill": 2,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "风笛",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "中路",
+            "opers": [
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "号角",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "高台",
+            "opers": [
+                {
+                    "name": "荒芜拉普兰德",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "维什戴尔",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "焰影苇草",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "skill_times": 3,
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

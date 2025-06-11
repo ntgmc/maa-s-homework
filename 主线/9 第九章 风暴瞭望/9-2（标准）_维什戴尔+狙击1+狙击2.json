@@ -1,0 +1,117 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_09-01",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "狙击1",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "狙击2",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                5
+            ],
+            "kills": 7
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第九章 风暴瞭望 9-2(标准) 维什戴尔单核",
+        "details": "——————————\n作业更新日期: 2025-03-05T15:58:30Z\n统计更新日期: 2025-06-11\n好评率：98.97%  浏览量：1026\n来源：一定有更好的办法  ID：48061\n——————————\n\n作者：一定有更好的办法\nJSON作者：一定有更好的办法"
+    },
+    "groups": [
+        {
+            "name": "狙击1",
+            "opers": [
+                {
+                    "name": "杰西卡",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "红云",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "能天使",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "狙击2",
+            "opers": [
+                {
+                    "name": "流星",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "鸿雪",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

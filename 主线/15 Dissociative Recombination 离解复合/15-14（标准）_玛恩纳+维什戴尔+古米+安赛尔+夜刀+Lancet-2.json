@@ -1,0 +1,152 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_15-13",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "Lancet-2",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 7,
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                9,
+                2
+            ],
+            "kills": 11,
+            "pre_delay": 7000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 13,
+            "skill_times": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "玛恩纳",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 24
+        },
+        {
+            "type": "Skill",
+            "location": [
+                10,
+                2
+            ],
+            "kills": 37
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十五章 - 15-14 险地+沙盘",
+        "details": "——————————\n作业更新日期: 2025-04-11T05:51:26Z\n统计更新日期: 2025-06-11\n好评率：95.51%  浏览量：5590\n来源：焕彩gg  ID：49937\n——————————\n\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n求关注。\n沙盘选1和1"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "Lancet-2",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 0
+}

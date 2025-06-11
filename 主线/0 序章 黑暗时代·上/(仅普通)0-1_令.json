@@ -1,0 +1,28 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_00-01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "序章 黑暗时代·上 - 0-1 - 坍塌 令单人",
+        "details": "——————————\n作业更新日期: 2024-11-30T07:47:19Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：18\n来源：一闪一闪亮晶晶  ID：44149\n——————————\n\n序章 黑暗时代·上 - 0-1 - 坍塌 令单人"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}

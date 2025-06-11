@@ -3,17 +3,16 @@
     "stage_name": "pro_b_2",
     "actions": [
         {
-            "type": "SpeedUp"
-        },
-        {
             "type": "Deploy",
             "name": "逻各斯",
             "location": [
                 7,
                 6
             ],
-            "direction": "Left",
-            "costs": 0
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
         },
         {
             "type": "Deploy",
@@ -26,8 +25,8 @@
         }
     ],
     "doc": {
-        "title": "摧枯拉朽 - PR-B-2 - 打击",
-        "details": "作业更新日期: 2024-11-04T02:14:43Z\n统计更新日期: 2024-11-30\n好评率：100.0%  浏览量：83\n来源：半岛Fe头  ID：43175\n摧枯拉朽 - PR-B-2 - 打击"
+        "title": "PR-B-2 两人超简单挂机流攻略",
+        "details": "——————————\n作业更新日期: 2025-04-18T12:28:13Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：270\n来源：doumiaojiang  ID：50515\n——————————\n\n【PR-B-2】Loges两人超简单挂机流攻略\nhttps://www.bilibili.com/video/BV11NaTevELv\nB站大佬的攻略，我萌新才玩5天。我第一次做！\n我测试借的90精2 logos，我安塞尔 精1 1级 能过！"
     },
     "groups": [],
     "opers": [
@@ -39,7 +38,7 @@
         {
             "name": "安赛尔",
             "skill": 1,
-            "skill_usage": 1
+            "skill_usage": 0
         }
     ]
 }

@@ -1,0 +1,526 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_24",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "爆费",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left",
+            "kills": 0,
+            "doc_color": "Gray",
+            "doc": "爆费"
+        },
+        {
+            "type": "Deploy",
+            "name": "长手物伤",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left",
+            "doc_color": "Gray",
+            "doc": "护航"
+        },
+        {
+            "type": "Deploy",
+            "name": "发电站",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left",
+            "doc_color": "Gray",
+            "doc": "护航，加速充能"
+        },
+        {
+            "type": "Deploy",
+            "name": "点火石",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "None",
+            "kills": 0,
+            "doc_color": "Gray",
+            "doc": "抵抗环境debuff"
+        },
+        {
+            "type": "Deploy",
+            "name": "全图回复",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Up",
+            "doc_color": "Gray",
+            "doc": "全图回复"
+        },
+        {
+            "type": "Deploy",
+            "name": "长手法伤",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Right",
+            "doc_color": "Gray",
+            "doc": "长手ap走地干员"
+        },
+        {
+            "type": "Retreat",
+            "name": "长手物伤",
+            "location": [
+                7,
+                2
+            ],
+            "kills": 5,
+            "doc_color": "Gray",
+            "doc": "准备切换c位"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "爆费",
+            "kills": 5,
+            "doc_color": "Gray",
+            "doc": "护航",
+            "skill_usage": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "法术c",
+            "doc_color": "Gray",
+            "doc": "人形打火石，c位",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "法术c",
+            "location": [
+                7,
+                2
+            ],
+            "kills": 11,
+            "doc_color": "Gray",
+            "doc": "准备二阶段"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "爆费",
+            "doc_color": "Gray",
+            "doc": "护航结束",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "反隐",
+            "doc_color": "Gray",
+            "doc": "反隐，人形点火石二号",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "反隐",
+            "doc_color": "Gray",
+            "doc": "为人形点火石1号流出空隙，并准备对轴",
+            "skill_usage": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "发电站",
+            "kills": 15,
+            "doc_color": "Gray",
+            "doc": "结束护航，准备切换护航位置",
+            "location": [
+                6,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "长手物伤",
+            "location": [
+                2,
+                3
+            ],
+            "doc_color": "Gray",
+            "doc": "副c，双线护航",
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "盾",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Right",
+            "kills": 24,
+            "doc_color": "Gray",
+            "doc": "防止漏怪，进行阻挡"
+        },
+        {
+            "type": "Deploy",
+            "kills": 25,
+            "doc_color": "Gray",
+            "doc": "抵抗环境debuff，解放驼兽",
+            "name": "点火石",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "单奶",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left",
+            "doc_color": "Gray",
+            "doc": "奶"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "doc_color": "Gray",
+            "doc": "奶盾"
+        },
+        {
+            "type": "Deploy",
+            "name": "单守干员",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Left",
+            "doc_color": "Gray",
+            "doc": "守一路的干员"
+        },
+        {
+            "type": "Deploy",
+            "name": "快活",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Left",
+            "kills": 62,
+            "doc_color": "Gray",
+            "doc": "解决高压"
+        },
+        {
+            "type": "Retreat",
+            "name": "长手法伤",
+            "location": [
+                8,
+                5
+            ],
+            "kills": 71,
+            "doc_color": "Gray",
+            "doc": "准备换地方"
+        },
+        {
+            "type": "Retreat",
+            "name": "盾",
+            "location": [
+                8,
+                4
+            ],
+            "kills": 71,
+            "doc_color": "Gray",
+            "doc": "准备换地方"
+        },
+        {
+            "type": "Deploy",
+            "name": "发电站",
+            "location": [
+                1,
+                1
+            ],
+            "kills": 75,
+            "doc_color": "Gray",
+            "doc": "护航，奶盾充能",
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "沙地兽",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "None",
+            "kills": 80,
+            "doc_color": "Gray",
+            "doc": "护航"
+        },
+        {
+            "type": "Deploy",
+            "name": "长手法伤",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right",
+            "kills": 80,
+            "doc_color": "Gray",
+            "doc": "副c，护航"
+        },
+        {
+            "type": "Deploy",
+            "name": "点火石",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "None",
+            "doc_color": "Gray",
+            "doc": "抵抗环境debuff，解放驼兽"
+        },
+        {
+            "type": "Retreat",
+            "name": "发电站",
+            "location": [
+                1,
+                1
+            ],
+            "doc_color": "Gray",
+            "doc": "改仇恨"
+        },
+        {
+            "type": "Retreat",
+            "name": "单守干员",
+            "location": [
+                3,
+                5
+            ],
+            "kills": 101,
+            "doc_color": "Gray",
+            "doc": "改仇恨"
+        },
+        {
+            "type": "Deploy",
+            "name": "发电站",
+            "location": [
+                1,
+                1
+            ],
+            "doc_color": "Gray",
+            "doc": "改仇恨",
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "单守干员",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Left",
+            "doc_color": "Gray",
+            "doc": "改仇恨"
+        },
+        {
+            "type": "Retreat",
+            "name": "爆费",
+            "location": [
+                7,
+                1
+            ],
+            "kills": 160,
+            "doc_color": "Gray",
+            "doc": "费用够了，切盾位"
+        },
+        {
+            "type": "Deploy",
+            "name": "盾",
+            "location": [
+                6,
+                1
+            ],
+            "doc_color": "Gray",
+            "doc": "改仇恨",
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "反隐",
+            "kills": 350,
+            "doc_color": "Gray",
+            "doc": "解决高压和隐身",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "沙地兽",
+            "kills": 357,
+            "doc_color": "Gray",
+            "doc": "解决高压",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "全图回复",
+            "skill_usage": 1,
+            "kills": 390
+        },
+        {
+            "type": "SkillDaemon",
+            "kills": 390,
+            "doc": ""
+        }
+    ],
+    "doc": {
+        "title": "谢拉格 - 冰封雪谷 - 精一满 - 12人",
+        "details": "——————————\n作业更新日期: 2024-11-07T22:29:04Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：1041\n来源：处处是惊吓  ID：42655\n——————————\n\n因为明日方舟轮换剿灭，有的时候打完了忘了自己怎么打的了，也看不到，所以记录一下，当然如果可以帮到人就更好了，我打的时候是精一满，如果有数值更高的拥有至少等效替代作用的干员直接换了就行。\n\n【谢拉格 - 冰封雪谷 - 精一满-12人】 https://www.bilibili.com/video/BV18p1hYtEbX/?share_source=copy_web&vd_source=7bd8d439a854bfab7d50605e99e1583d\n\n作业里的是我依据我一开始打的优化过的，这里的比视频里的的容错率高一些。"
+    },
+    "groups": [
+        {
+            "name": "全图回复",
+            "opers": [
+                {
+                    "name": "调香师",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "快活",
+            "opers": [
+                {
+                    "name": "耀骑士临光",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "单奶",
+            "opers": [
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "长手法伤",
+            "opers": [
+                {
+                    "name": "拉普兰德",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "反隐",
+            "opers": [
+                {
+                    "name": "铅踝",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "长手物伤",
+            "opers": [
+                {
+                    "name": "莱伊",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "盾",
+            "opers": [
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "发电站",
+            "opers": [
+                {
+                    "name": "雷蛇",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "爆费",
+            "opers": [
+                {
+                    "name": "极境",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "法术c",
+            "opers": [
+                {
+                    "name": "玛露西尔",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "单守干员",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": []
+}

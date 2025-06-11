@@ -1,0 +1,149 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_armor_5",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "【医疗】精一满级及以上",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 27
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "资源保障 - SK-5 - 要塞清剿 - 碳本 - 精二单核",
+        "details": "——————————\n作业更新日期: 2025-04-05T10:49:03Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：334\n来源：小卡拉帕鲁灰  ID：49547\n——————————\n\nJSON作者小卡拉帕鲁灰\n最低练度：EW精二90，专3一技能，3级模组，其余精一满级\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "groups": [
+        {
+            "name": "【医疗】精一满级及以上",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "亚叶",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

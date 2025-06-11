@@ -1,0 +1,56 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_fly_5",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "阿米娅",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 50
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "CA-5-双人技能书",
+        "details": "——————————\n作业更新日期: 2025-05-21T14:27:09Z\n统计更新日期: 2025-06-11\n好评率：95.0%  浏览量：572\n来源：490555389  ID：49498\n——————————\n\n自用"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿米娅",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

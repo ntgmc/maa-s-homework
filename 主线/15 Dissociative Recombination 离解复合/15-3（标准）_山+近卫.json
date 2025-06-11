@@ -1,0 +1,73 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_15-02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "山",
+            "location": [
+                9,
+                3
+            ],
+            "pre_delay": 6000
+        },
+        {
+            "type": "Output",
+            "doc_color": "SpringGreen",
+            "doc": "Ciallo～(∠・ω< )⌒★"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "15-3 所谓奇迹",
+        "details": "——————————\n作业更新日期: 2025-04-12T09:26:09Z\n统计更新日期: 2025-06-11\n好评率：99.89%  浏览量：4458\n来源：萨扌立托加  ID：50041\n——————————\n\n沙盘LV1选第一个LV2选第二个\njson作者：萨扌立托加\n作业交流群群号1009052305，可蹲作业，有问题进群找萨扌立托加，作业站消息一般看不到\n❤️"
+    },
+    "groups": [
+        {
+            "name": "近卫",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "sub_09-1-2",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down",
+            "kills": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "极境",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down",
+            "cost_changes": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                9,
+                1
+            ],
+            "kills": 16
+        },
+        {
+            "type": "Retreat",
+            "name": "极境",
+            "location": [
+                10,
+                1
+            ],
+            "kills": 17
+        },
+        {
+            "type": "Deploy",
+            "name": "斯卡蒂的海嗣",
+            "location": [
+                9,
+                1
+            ],
+            "kills": 22,
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                7,
+                1
+            ],
+            "kills": 24
+        },
+        {
+            "type": "Retreat",
+            "name": "玛恩纳",
+            "location": [
+                7,
+                1
+            ],
+            "kills": 26
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down",
+            "kills": 27
+        },
+        {
+            "type": "Deploy",
+            "name": "斯卡蒂的海嗣",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down",
+            "kills": 28
+        }
+    ],
+    "doc": {
+        "title": "第九章 风暴瞭望 - S9-2（标准） - 背向火灼",
+        "details": "——————————\n作业更新日期: 2023-08-14T14:54:11Z\n统计更新日期: 2025-06-11\n好评率：83.33%  浏览量：1447\n来源：陸狗真可悲  ID：25557\n——————————\n\n第九章 风暴瞭望 - S9-2（标准） - 背向火灼"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "极境",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "风笛",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

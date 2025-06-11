@@ -1,0 +1,218 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_11-10",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "放一下",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "群奶",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "单奶",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "地面奶",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "单奶2",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十一章 淬火尘霾 - 11-12（磨难）",
+        "details": "——————————\n作业更新日期: 2025-04-05T11:55:26Z\n统计更新日期: 2025-06-11\n好评率：94.37%  浏览量：1219\n来源：yalor.17  ID：45128\n——————————\n\n原作者：萧然Q\n自改，ff0有概率暴毙，只要塞不暴毙就没问题！"
+    },
+    "groups": [
+        {
+            "name": "群奶",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "调香师",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "单奶",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "赫默",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "地面奶",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "放一下",
+            "opers": [
+                {
+                    "skill_times": 1,
+                    "name": "山",
+                    "skill": 2,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "风笛",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "单奶2",
+            "opers": [
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}

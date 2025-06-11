@@ -1,0 +1,601 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_kc_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "尖兵",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "冲锋手",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "速射手1",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "速射手2",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "冲锋手",
+            "costs": 24
+        },
+        {
+            "type": "Deploy",
+            "name": "铁卫1",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "扩散术士",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "医师",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "铁卫2",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "战术演习 - LS-1 - 遭遇战演习",
+        "details": "——————————\n作业更新日期: 2025-05-05T09:48:15Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：41\n来源：小鸡窝窝窝窝窝  ID：52399\n——————————\n\n全员精0一级\n【【明日方舟】LS-123456作战记录关卡攻略 绝对低配+好抄+带解说【小狼XF】 狗粮本 经验本】 https://www.bilibili.com/video/BV1z4411v7CB"
+    },
+    "groups": [
+        {
+            "name": "尖兵",
+            "opers": [
+                {
+                    "name": "嵯峨",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "忍冬",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "推进之王",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "焰尾",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "红隼",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "贾维",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "凛冬",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "青枳",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "清道夫",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "讯使",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "芬",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "香草",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "冲锋手",
+            "opers": [
+                {
+                    "name": "风笛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "格拉尼",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "历阵锐枪芬",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "苇草",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "野鬃",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "红豆",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "翎羽",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "速射手1",
+            "opers": [
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "空弦",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "能天使",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "白金",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "灰喉",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "四月",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "隐现",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "红云",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "杰西卡",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "流星",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "梅",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安德切尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "速射手2",
+            "opers": [
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "空弦",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "能天使",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "白金",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "灰喉",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "四月",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "隐现",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "红云",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "杰西卡",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "流星",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "梅",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安德切尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "铁卫1",
+            "opers": [
+                {
+                    "name": "年",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "星熊",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "拜松",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "暴雨",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "可颂",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "角峰",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "泡泡",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "卡缇",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "米格鲁",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "Friston-3",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "铁卫2",
+            "opers": [
+                {
+                    "name": "年",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "星熊",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "拜松",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "暴雨",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "可颂",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "角峰",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "泡泡",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "卡缇",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "米格鲁",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "Friston-3",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "扩散术师",
+            "opers": [
+                {
+                    "name": "玛露西尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "莫斯提马",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "夕",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "寒檀",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "莱恩哈特",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "天火",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "格雷伊",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "远山",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "炎熔",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "医师",
+            "opers": [
+                {
+                    "name": "凯尔希",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "图耶",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "亚叶",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "Lancet-2",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": []
+}

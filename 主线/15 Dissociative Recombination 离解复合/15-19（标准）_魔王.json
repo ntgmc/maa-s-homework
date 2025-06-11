@@ -1,0 +1,253 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_15-17",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "costs": 17
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "Sharp",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 12
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "Stormeye",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 13
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 16,
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "Raidian",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 18,
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "Touch",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 25,
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "迷迭香",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 12,
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 31,
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "Pith",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 9,
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "5-19 因为剧情用不了，作废",
+        "details": "——————————\n作业更新日期: 2025-04-08T03:24:06Z\n统计更新日期: 2025-06-11\n好评率：66.67%  浏览量：1178\n来源：萨拉托加  ID：49667\n——————————\n\n这作业因为剧情用不了，作废\n原作者萧然Q json作者：萨拉托加\n作业交流群群号1009052305，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【离解复合】15章主线磨难/沙盘推演全关卡 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1wsR2Y1Eis/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "魔王",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

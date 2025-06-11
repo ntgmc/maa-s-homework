@@ -1,0 +1,133 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_12-15",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "克洛丝",
+            "location": [
+                2,
+                1
+            ],
+            "costs": 19
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                1
+            ],
+            "pre_delay": 4500
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "魂灵之影",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 6
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                1
+            ],
+            "pre_delay": 5000
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                1
+            ],
+            "kills": 9
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                1
+            ],
+            "kills": 11
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十二章 惊霆无声 - 12-17（磨难） - 被弃之人 - 单核",
+        "details": "——————————\n作业更新日期: 2025-02-23T09:16:58Z\n统计更新日期: 2025-06-11\n好评率：96.63%  浏览量：1239\n来源：小卡拉帕鲁灰  ID：47475\n——————————\n\nJSON作者小卡拉帕鲁灰\nEW满级，专3，三级模组\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

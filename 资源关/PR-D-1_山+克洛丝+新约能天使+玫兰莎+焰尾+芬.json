@@ -1,0 +1,97 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_d_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "新约能天使",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "焰尾",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "玫兰莎",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "身先士卒 - PR-D-1 - 突破",
+        "details": "——————————\n作业更新日期: 2025-05-24T13:35:12Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：13\n来源：周英俊233  ID：57439\n——————————\n\nmade by 周英俊"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "山"
+        },
+        {
+            "name": "克洛丝"
+        },
+        {
+            "name": "新约能天使",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "玫兰莎",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "焰尾"
+        },
+        {
+            "name": "芬"
+        }
+    ],
+    "difficulty": 0
+}

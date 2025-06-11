@@ -1,0 +1,191 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_15-18",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                11,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right",
+            "costs": 30
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                11,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                11,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left",
+            "costs": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯",
+            "costs": 25
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "kills": 11
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "风笛",
+            "kills": 12
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十五章 - 15-20 险地+沙盒",
+        "details": "——————————\n作业更新日期: 2025-04-09T06:06:52Z\n统计更新日期: 2025-06-11\n好评率：97.46%  浏览量：32781\n来源：萨拉托加  ID：49646\n——————————\n\n如果放不下去歌蒂的，多带两个费用比歌蒂高的不让歌蒂锁了就行，歌蒂不能借\n沙盘模式第一个选第二个，第二个选第一个\n原作者萧然Q json作者：萨拉托加\n作业交流群群号1009052305，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【离解复合】15章主线磨难/沙盘推演全关卡 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1wsR2Y1Eis/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 0
+}

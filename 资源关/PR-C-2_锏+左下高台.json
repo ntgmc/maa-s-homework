@@ -1,0 +1,65 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_c_2",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "左下高台",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "锏",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "锏",
+            "location": [
+                5,
+                1
+            ],
+            "kills": 51
+        }
+    ],
+    "doc": {
+        "title": "PR-C-2（先锋辅助精二芯片）2人速刷",
+        "details": "——————————\n作业更新日期: 2025-05-08T06:57:38Z\n统计更新日期: 2025-06-11\n好评率：80.0%  浏览量：260\n来源：暝夜祈霖  ID：49530\n——————————\n\n参考思路：https://b23.tv/2nyPyNP（作者：一只老沉诺）\n将视频中的蓝毒替换为娜仁图亚（位置与原视频中的蓝毒不同）\n2025.5.8 更新了新约能天使二技能作为娜仁图亚的替换"
+    },
+    "groups": [
+        {
+            "name": "左下高台",
+            "opers": [
+                {
+                    "name": "新约能天使",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "娜仁图亚",
+                    "skill": 1,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "锏",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

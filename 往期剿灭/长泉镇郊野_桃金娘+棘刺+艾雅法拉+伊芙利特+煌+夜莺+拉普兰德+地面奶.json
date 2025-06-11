@@ -1,0 +1,227 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_06",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "pre_delay": 500
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Left",
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left",
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                5,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "加固装置",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "地面奶",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "萨尔贡 - 长泉镇郊野 - 长泉镇郊野(摆完挂机）",
+        "details": "——————————\n作业更新日期: 2023-08-28T10:21:34Z\n统计更新日期: 2025-06-11\n好评率：84.21%  浏览量：1066\n来源：2720795250@qq.com  ID：27103\n——————————\n\n作业【长泉镇郊野摆完挂机】 \n自用挂机"
+    },
+    "groups": [
+        {
+            "name": "地面奶",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

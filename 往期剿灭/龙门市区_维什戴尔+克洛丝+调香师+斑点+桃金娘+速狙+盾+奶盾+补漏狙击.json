@@ -1,0 +1,362 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "调香师",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "速狙",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "盾",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "补漏狙击",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 50
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "skill_usage": 0,
+            "kills": 100
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 272
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 287
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 300
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 301
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 315
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 316
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 340
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 342
+        },
+        {
+            "type": "Retreat",
+            "name": "魂灵之影",
+            "location": [
+                7,
+                6
+            ],
+            "kills": 350,
+            "pre_delay": 20000
+        },
+        {
+            "type": "Retreat",
+            "name": "魂灵之影",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 368
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 380
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 387
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 393,
+            "location": [
+                6,
+                6
+            ]
+        }
+    ],
+    "doc": {
+        "title": "炎国 - 龙门市区 - 龙门市区",
+        "details": "——————————\n作业更新日期: 2024-08-10T20:34:36Z\n统计更新日期: 2025-06-11\n好评率：80.77%  浏览量：1569\n来源：cutesnake  ID：40149\n——————————\n\n维什戴尔单核\n已通过测试，测试练度：\n维什戴尔 精二 60 级 7 级技能 44 信赖 1 级模组 （7 级技能回转慢专三 8 秒，393 杀maa 等子弹时间会比较久，桃金娘可能会噶，不过不影响通过）\n克洛丝 精一 55 级 7 级技能\n蓝毒 精一 50 级 7 级技能\n调香师 精一 60 级 7 级技能 （不可替代，要奶魂灵之影）\n斑点 精一 55 级 7 级技能\n桃金娘 精二 1 级 7 级技能 （350 杀维神没晕到可能会噶，测试的时候这条路后续的怪维神都平 a 解决了，但是维神平 a 是有概率的，测试过了不代表就一定能过，稳妥起见可以等桃金娘回转完手动再部署到斑点左下角）\n空爆 精一 55 级 7 级技能\n米格鲁 精一 55 级 7 级技能\n卡缇 精一 55 级 7 级技能\n\n测试设备：Macbook Pro 2021 14-inch, 2021, Chip: Apple M1 Pro, Memory: 16GB\n测试环境：maa v5.5.11452（508）\n测试时间：明日方舟 Version 2.3.21 (131), 2024.8.11 （2024 夏活版本）\n\n参考视频：（补了个补漏的狙击，不然克洛丝不暴击可能会漏）\nhttps://www.bilibili.com/video/BV1rp8de8EZp\n\n如果有想添加的干员可加 qq496478093 或发邮件到 suchacutesnake@gmail.com 让我修改作业，当然自己有能力的话自己改改都可以，过了的话记得给原视频点赞"
+    },
+    "groups": [
+        {
+            "name": "速狙",
+            "opers": [
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "杰西卡",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "盾",
+            "opers": [
+                {
+                    "name": "米格鲁",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "黑角",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "卡缇",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "补漏狙击",
+            "opers": [
+                {
+                    "name": "白金",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "安德切尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "空爆",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "调香师",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

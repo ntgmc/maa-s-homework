@@ -1,0 +1,40 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_15-03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十五章 - 15-4 险地+沙盘 - 单核",
+        "details": "——————————\n作业更新日期: 2025-04-08T10:34:06Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：1180\n来源：小卡拉帕鲁灰  ID：49664\n——————————\n\n沙盘模式：1级选左，2级选左\nJSON作者小卡拉帕鲁灰\n棘刺满级，专3，棘刺有潜能&延迟不大可以不带德狗\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 2
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 0
+}

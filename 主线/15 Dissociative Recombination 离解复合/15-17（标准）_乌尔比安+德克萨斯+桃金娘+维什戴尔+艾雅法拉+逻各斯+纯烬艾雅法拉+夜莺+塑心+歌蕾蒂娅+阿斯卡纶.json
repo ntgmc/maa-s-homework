@@ -1,0 +1,142 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_15-15",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿斯卡纶",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯",
+            "kills": 26
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十五章 15-17 一摆到底版",
+        "details": "——————————\n作业更新日期: 2025-04-08T10:36:21Z\n统计更新日期: 2025-06-11\n好评率：99.67%  浏览量：10761\n来源：萨拉托加  ID：49707\n——————————\n\n手动选沙盒TAG（1 2都选右）\n一摆到底，旨在不限制干员，尽量用更少的干员，更少的步数，全程不换技能，一套阵容通关当期活动，干员均专三60级带一级模组\n原作者：萧然Q json作者：萨拉托加\n作业交流群群号1009052305，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【离解复合】15章主线磨难/沙盘推演全关卡 一摆到底 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV132dEYSEMd/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

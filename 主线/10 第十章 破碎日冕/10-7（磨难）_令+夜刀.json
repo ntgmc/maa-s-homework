@@ -1,0 +1,146 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_10-06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                11,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十章 破碎日冕 - 10-7（磨难） - 痛觉相连 - 单核",
+        "details": "——————————\n作业更新日期: 2025-02-20T15:18:18Z\n统计更新日期: 2025-06-11\n好评率：95.31%  浏览量：1211\n来源：小卡拉帕鲁灰  ID：47299\n——————————\n\nJSON作者小卡拉帕鲁灰\n磨难核标准地图不一样，注意不用用这个作业刷标准\n令满级，专3，三级y模组\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

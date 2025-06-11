@@ -1,0 +1,161 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_15-04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                10,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊内丝",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "伊内丝",
+            "location": [
+                8,
+                1
+            ],
+            "pre_delay": 1000,
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "伊内丝",
+            "location": [
+                8,
+                1
+            ],
+            "costs": 35,
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "提丰",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left",
+            "costs": 28
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊内丝",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十五章 离解复合 - H15-4（标准） - 机密预案-4 ",
+        "details": "——————————\n作业更新日期: 2025-04-16T01:17:05Z\n统计更新日期: 2025-06-11\n好评率：87.5%  浏览量：1613\n来源：Chiho  ID：50312\n——————————\n\nup:尘泥洗练绽星芒\nlink:【【明日方舟#离解复合】主线H15-4    挂机】 https://www.bilibili.com/video/BV1m5o7Y1EZy/?share_source=copy_web&vd_source=dcc7ddeba31e59bccd51d29a07ff1565\n精二603 乌尔比安跟歌蕾蒂娅模组需要3级 逻各斯精二903\n全员精二603如果能过的话留言告诉我一下 自个练度比较高 不能按照精二603的测试"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "提丰",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊内丝",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

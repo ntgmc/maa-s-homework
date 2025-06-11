@@ -1,0 +1,136 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_kc_6",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "银灰",
+            "location": [
+                7,
+                3
+            ],
+            "pre_delay": 7500
+        },
+        {
+            "type": "Retreat",
+            "name": "银灰",
+            "location": [
+                7,
+                3
+            ],
+            "kills": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "location": [
+                7,
+                5
+            ],
+            "pre_delay": 8000
+        },
+        {
+            "type": "Retreat",
+            "name": "史尔特尔",
+            "location": [
+                7,
+                5
+            ],
+            "kills": 35
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "银灰",
+            "location": [
+                6,
+                5
+            ],
+            "pre_delay": 10300
+        },
+        {
+            "type": "Retreat",
+            "name": "银灰",
+            "location": [
+                6,
+                5
+            ],
+            "kills": 56
+        }
+    ],
+    "doc": {
+        "title": "速刷 - LS-6 - 运动战演习",
+        "details": "——————————\n作业更新日期: 2025-04-17T15:27:39Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：168\n来源：rein  ID：50113\n——————————\n\n速刷高练，银灰要开模组2903"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

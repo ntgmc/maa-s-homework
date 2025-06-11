@@ -1,0 +1,104 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "H8-2 摆完挂机（修改自用）",
+        "details": "——————————\n作业更新日期: 2024-12-22T07:48:59Z\n统计更新日期: 2025-06-11\n好评率：97.35%  浏览量：1023\n来源：幻风future  ID：44912\n——————————\n\n原视频：https://www.bilibili.com/video/BV1NS4y1Y7c1/\n制作者：一只摆烂的42\n求稳加了ew（修改自用）"
+    },
+    "stage_name": "hard_08-02",
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left",
+            "kills": 30
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ]
+}

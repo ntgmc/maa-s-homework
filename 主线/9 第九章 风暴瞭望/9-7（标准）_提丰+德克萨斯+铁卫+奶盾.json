@@ -1,0 +1,106 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_09-06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "提丰",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "铁卫",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "爆破装置",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "爆破装置",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第九章 风暴瞭望 - 9-7（标准） - 捉迷藏",
+        "details": "——————————\n作业更新日期: 2024-05-19T07:44:42Z\n统计更新日期: 2025-06-11\n好评率：81.15%  浏览量：3087\n来源：Chiho  ID：28144\n——————————\n\nup:开始游玩\nlink:【9-7突袭 3人挂机，提丰真好用】 https://www.bilibili.com/video/BV1L34y1N7Gs/?share_source=copy_web&vd_source=dcc7ddeba31e59bccd51d29a07ff1565\n精二603\n"
+    },
+    "groups": [
+        {
+            "name": "铁卫",
+            "opers": [
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "年",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "提丰",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

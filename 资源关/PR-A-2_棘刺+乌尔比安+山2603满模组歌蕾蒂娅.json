@@ -1,0 +1,73 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_a_2",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                2,
+                3
+            ],
+            "name": "棘刺",
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                8,
+                5
+            ],
+            "name": "山2603满模组/歌蕾蒂娅",
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "PR-A-2三人堵门速刷 近理论最速",
+        "details": "——————————\n作业更新日期: 2025-05-26T09:09:48Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：65\n来源：阿拉拉拉  ID：57884\n——————————\n\nYOLO_Serena：https://www.bilibili.com/video/BV12sEazcEcz/?spm_id_from=..search-card.all.click&vd_source=d96c5431059e9a1d0fcf0385526d6057\njson作者：阿拉\n截图增强、划火柴开启\n练度最低2603棘刺、乌尔比安、山满模组"
+    },
+    "groups": [
+        {
+            "name": "山2603满模组/歌蕾蒂娅",
+            "opers": [
+                {
+                    "skill_times": 1,
+                    "name": "山",
+                    "skill": 2,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "歌蕾蒂娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

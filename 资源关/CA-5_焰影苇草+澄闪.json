@@ -1,0 +1,69 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_fly_5",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "焰影苇草",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "焰影苇草",
+            "costs": 11
+        },
+        {
+            "type": "Skill",
+            "name": "澄闪",
+            "pre_delay": 7500
+        },
+        {
+            "type": "SkillUsage",
+            "name": "澄闪",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "rear_delay": 0,
+            "name": "焰影苇草",
+            "skill_usage": 1,
+            "pre_delay": 28000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "空中威胁 - CA-5 - 战略要道净空",
+        "details": "——————————\n作业更新日期: 2025-06-02T12:55:23Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：19\n来源：沙罗树海  ID：59035\n——————————\n\n空中威胁 - CA-5 - 战略要道净空 速刷"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "焰影苇草",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

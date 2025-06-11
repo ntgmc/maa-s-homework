@@ -1,0 +1,158 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_14-07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp",
+            "name": "德克萨斯",
+            "direction": "Down",
+            "location": [
+                9,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "荒芜拉普兰德",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "余",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "余",
+            "kills": 2,
+            "direction": "Left",
+            "location": [
+                9,
+                3
+            ],
+            "skill_usage": 1
+        },
+        {
+            "type": "Skill",
+            "name": "荒芜拉普兰德",
+            "kills": 0,
+            "direction": "Left",
+            "location": [
+                10,
+                4
+            ],
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "Mon3tr",
+            "kills": 0,
+            "direction": "Left",
+            "location": [
+                10,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "重构体",
+            "kills": 0,
+            "location": [
+                9,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "Mon3tr",
+            "kills": 0,
+            "skill_usage": 2,
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "skill_times": 1,
+            "name": "余",
+            "kills": 23,
+            "direction": "None",
+            "location": [
+                9,
+                3
+            ],
+            "skill_usage": 2
+        },
+        {
+            "type": "Skill",
+            "skill_times": 1,
+            "name": "荒芜拉普兰德",
+            "location": [
+                10,
+                4
+            ],
+            "kills": 23,
+            "direction": "None",
+            "skill_usage": 2
+        },
+        {
+            "type": "Skill",
+            "skill_times": 1,
+            "name": "Mon3tr",
+            "location": [
+                10,
+                3
+            ],
+            "kills": 23,
+            "direction": "None",
+            "skill_usage": 2
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-8（标准） - 抵近支援作战 +M3",
+        "details": "——————————\n作业更新日期: 2025-04-16T15:36:27Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：103\n来源：Dayheart  ID：50428\n——————————\n\n【双人速刷14-8凝胶 最角色演示的一集】 https://www.bilibili.com/video/BV1LGodYaEtm/?share_source=copy_web&vd_source=cd91394ea743aa4106bdb38b56e52772"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "荒芜拉普兰德",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "余",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "Mon3tr",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

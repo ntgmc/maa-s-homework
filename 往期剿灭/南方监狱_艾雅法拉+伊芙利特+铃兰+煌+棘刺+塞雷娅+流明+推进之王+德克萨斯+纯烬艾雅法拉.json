@@ -1,0 +1,163 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "南方监狱摆完挂机",
+        "details": "——————————\n作业更新日期: 2023-10-22T15:29:59Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：1024\n来源：dr双镜  ID：29267\n——————————\n\n萧然Q:BV16P4y1E7bo\n原安洁莉娜替换为铃兰\n筱竹聽雨"
+    },
+    "stage_name": "camp_r_08",
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "推进之王",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "流明",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "铃兰",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                4,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "推进之王",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Output",
+            "name": "",
+            "doc_color": "#6f42c1",
+            "doc": "亲~给个好评吧~"
+        }
+    ],
+    "groups": []
+}
