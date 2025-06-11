@@ -171,7 +171,7 @@ def generate_filename(stage_id, data, mode, cat_two, stage_name=None):
     names = replace_dir_char(names)
     if data.get("difficulty", 0) == 1:
         stage_name = "(仅普通)" + stage_name
-    if len(names) > 100:
+    if len(names) > 50:
         names = "文件名过长不予显示"
     if mode == 1:
         file_path = f'主线/{_stage} {cat_two}/{stage_name}_{names}.json'

@@ -200,7 +200,7 @@ def generate_filename(stage_dict, stage_id, data, uploader, activity_name, stage
         stage_name = "(仅突袭)" + stage_name
     if uploader in ["一只摆烂的42", "萨拉托加"]:
         stage_name = f"({uploader})" + stage_name
-    if len(names) > 100:
+    if len(names) > 50:
         names = "文件名过长不予显示"
     file_path = os.path.join(f'【当前活动】{activity_name}', f'{stage_name}_{names}.json')
     return file_path
