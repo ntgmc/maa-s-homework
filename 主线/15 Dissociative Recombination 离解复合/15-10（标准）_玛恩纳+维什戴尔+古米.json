@@ -1,0 +1,119 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_15-09",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "kills": 8,
+            "name": "玛恩纳",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 10
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 16,
+            "pre_delay": 5000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 21,
+            "skill_times": 1
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "玛恩纳",
+            "skill_usage": 2
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 36
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 40
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "kills": 42
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 49
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十五章 - 15-10 险地+沙盘",
+        "details": "——————————\n作业更新日期: 2025-04-13T01:56:12Z\n统计更新日期: 2025-06-11\n好评率：98.95%  浏览量：2006\n来源：焕彩gg  ID：49924\n——————————\n\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n求关注。\n沙盘选2和2\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 0
+}
