@@ -217,22 +217,22 @@ def less_search(keyword):
         print(f"请求 {keyword} 失败")
 
 
-def get_content(_id, retry=3):
-    data = requests.get(f"https://prts.maa.plus/copilot/get/{_id}").json()
-    # 如果data没有code字段，说明请求失败，重试
-    if 'code' not in data:
-        print(f"请求 {_id} 失败")
-        if retry > 0:
-            print(f"重试 {_id} 剩余 {retry} 次")
-            return get_content(_id, retry - 1)
+def get_complete_content(_id):
+    _headers = {
+        "Origin": "https://zoot.plus",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
+    }
+    response = requests.get(f"https://prts.maa.plus/copilot/get/{_id}", headers=_headers)
+    if response.ok:
+        data = response.json()
+        if data.get('status_code') == 200:
+            content = json.loads(data['data']['content'])
+            return content
         else:
-            print(f"请求 {_id} 失败，重试次数已用完")
-            return {}
-    elif data['code'] == 200:
-        return data['data']['content']
+            print(f"Failed to fetch content for ID {_id}, error code: {data.get('status_code')}")
     else:
-        print(f"请求 {_id} 失败，错误代码：{data['code']}")
-        return {}
+        print(f"Failed to fetch content for ID {_id}, HTTP status: {response.status_code}")
+    return None
 
 
 def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
@@ -265,7 +265,7 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
                             if os.path.exists(file):
                                 os.remove(file)
                                 print(f"Removed {file}")
-                    content = get_content(item['id'])
+                    content = get_complete_content(item['id'])
                     file_path = generate_filename(stage_id, content, path_mode, cat_two, cat_three)
                     content['doc']['details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n\n" + content['doc']['details']
                     print(f"{file_path} {percent}% {view} 成功下载")

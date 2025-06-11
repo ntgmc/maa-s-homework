@@ -254,7 +254,6 @@ def get_complete_content(_id):
         data = response.json()
         if data.get('status_code') == 200:
             content = json.loads(data['data']['content'])
-            print(content)
             return content
         else:
             print(f"Failed to fetch content for ID {_id}, error code: {data.get('status_code')}")

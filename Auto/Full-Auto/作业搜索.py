@@ -480,6 +480,24 @@ def get_content(_id, retry=3):
         return {}
 
 
+def get_complete_content(_id):
+    _headers = {
+        "Origin": "https://zoot.plus",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
+    }
+    response = requests.get(f"https://prts.maa.plus/copilot/get/{_id}", headers=_headers)
+    if response.ok:
+        data = response.json()
+        if data.get('status_code') == 200:
+            content = json.loads(data['data']['content'])
+            return content
+        else:
+            log_message(f"HTTP request failed for ID {_id}, status code: {data.get('status_code')}", logging.ERROR)
+    else:
+        log_message(f"HTTP request failed for ID {_id}, status code: {response.status_code}", logging.ERROR)
+    return None
+
+
 def get_level_data():
     """
     访问 https://prts.maa.plus/arknights/level 获取关卡数据
@@ -886,7 +904,7 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
         log_message(f"ERROR 错误: {key}, {activity}", logging.ERROR)
         path = st["path"]
     os.makedirs(path, exist_ok=True)
-    content = json.loads(_member["content"])
+    content = get_complete_content(_member['id'])
     names = [oper.get('name', '') for oper in content.get('opers', [])] if content.get('opers') is not None else []
     prefer = _member["uploader"] in st["prefer_uploader"]
     file_name = generate_filename(content, st["title"], _member["uploader"], keyword, prefer)
@@ -956,7 +974,7 @@ def search(keyword: str, search_mode: int) -> dict:
     order_by = {1: "hot", 2: "id", 3: "views"}.get(search_mode, "views")
     url = f"https://prts.maa.plus/copilot/query?desc=true&limit=99999&page=1&order_by={order_by}&level_keyword={keyword}"
     headers = {
-        "Origin": "https://prts.plus",
+        "Origin": "https://zoot.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
     try:
