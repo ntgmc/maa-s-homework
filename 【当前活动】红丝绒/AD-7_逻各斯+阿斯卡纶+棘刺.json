@@ -1,0 +1,67 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act43side_07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "costs": 35,
+            "name": "逻各斯",
+            "direction": "Down",
+            "location": [
+                2,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                1,
+                4
+            ],
+            "name": "棘刺",
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "direction": "Left",
+            "location": [
+                3,
+                3
+            ],
+            "name": "阿斯卡纶"
+        },
+        {
+            "type": "Output",
+            "doc_color": "SpringGreen",
+            "doc": "Ciallo～(∠・ω< )⌒★"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AD-7 血钻的歌声",
+        "details": "——————————\n作业更新日期: 2025-06-06T05:44:17Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：2492\n来源：萨扌立托加  ID：59544\n——————————\njson作者：萨扌立托加\n作业交流群群号1009052305，可蹲作业，有问题进群找萨扌立托加，作业站消息一般看不到\n❤️"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

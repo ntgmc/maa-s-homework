@@ -1,0 +1,91 @@
+{
+    "stage_name": "act43side_01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AD-1 彩排日",
+        "details": "——————————\n作业更新日期: 2025-06-06T07:01:16Z\n统计更新日期: 2025-06-11\n好评率：99.32%  浏览量：3184\n来源：星之海.  ID：59385\n——————————\n请确保所用干员练度达到本作业所需练度，否则将会有干员暴毙及漏怪风险！！！\n此作业全员专三且模组一级\n原作者：自在道爷\nJSON作者：星之海.\n社区评论不会提醒，作业有问题可以进群找我：994516079\n原视频：【【红丝绒】AD-1至AD-8挂机流，镀层也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(分p更新中)】https://www.bilibili.com/video/BV1TnTxznEgB?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "速狙",
+            "opers": [
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 2
+                    }
+                },
+                {
+                    "name": "白金",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "煌",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "速狙",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

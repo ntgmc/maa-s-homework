@@ -1,0 +1,106 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act43side_05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "direction": "Left",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "输出",
+            "direction": "Right",
+            "location": [
+                6,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "direction": "Left",
+            "location": [
+                5,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "direction": "Down",
+            "location": [
+                2,
+                3
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AD-5 - 兼容一摆到底",
+        "details": "——————————\n作业更新日期: 2025-06-05T13:03:42Z\n统计更新日期: 2025-06-11\n好评率：99.88%  浏览量：27771\n来源：萨拉托加  ID：59392\n——————————\n原作者萧然Q json作者：萨拉托加\n作业交流群群号545928846，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【红丝绒】AD-1至AD-8 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV12HTxzSEbL/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "输出",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塑心",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
