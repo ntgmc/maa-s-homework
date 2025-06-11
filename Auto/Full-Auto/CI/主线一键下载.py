@@ -293,7 +293,7 @@ def less_search_stage(key1):
     # 搜索主线关卡
     less_dict = less_search(key1)
     for stage_id in less_dict:
-        if any(substring in stage_id for substring in ['#f#', 'easy']):
+        if any(substring in stage_id for substring in ['#f#', 'easy', '#s']):
             continue
         less_filter_data(less_dict, stage_id)
 
