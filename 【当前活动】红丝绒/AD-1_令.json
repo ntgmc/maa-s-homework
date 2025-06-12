@@ -1,0 +1,84 @@
+{
+    "stage_name": "act43side_01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AD-1",
+        "details": "——————————\n作业更新日期: 2025-06-05T13:27:17Z\n统计更新日期: 2025-06-12\n好评率：100.0%  浏览量：1002\n来源：小卡拉帕鲁灰  ID：59430\n——————————\nJSON作者小卡拉帕鲁灰\n练度点击作业查看详情\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "令",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "“弦惊”",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "“弦惊”",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "“弦惊”",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "“弦惊”",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "“弦惊”",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}
