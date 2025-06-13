@@ -1,0 +1,165 @@
+{
+    "stage_name": "act43side_ex08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AD-EX-8 - 舞台与无尽的阶梯",
+        "details": "——————————\n作业更新日期: 2025-06-12T16:03:47Z\n统计更新日期: 2025-06-13\n好评率：98.96%  浏览量：1585\n来源：星之海.  ID：59730\n——————————\n请确保所用干员练度达到本作业所需练度，否则将会有干员暴毙及漏怪风险！！！\n此作业全员专三且模组一级\n原作者：自在道爷\nJSON作者：星之海.\n社区评论不会提醒，作业有问题可以进群找我：994516079\n原视频：【【红丝绒】AD-EX-1至AD-EX-8挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(分p更新中)】https://www.bilibili.com/video/BV1PSMcz7EBa?p=6&vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+    },
+    "opers": [
+        {
+            "name": "风笛",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 2,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "号角",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "能天使",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "号角",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "风笛",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "闪灵",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy",
+            "costs": 40
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "桃金娘",
+            "skill_usage": 0,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
