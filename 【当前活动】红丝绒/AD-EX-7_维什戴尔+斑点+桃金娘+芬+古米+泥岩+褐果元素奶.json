@@ -1,0 +1,193 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act43side_ex07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                11,
+                3
+            ],
+            "name": "芬",
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "cooling": 1,
+            "name": "泥岩",
+            "direction": "Left",
+            "location": [
+                11,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "direction": "Right",
+            "name": "斑点",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "location": [
+                8,
+                4
+            ],
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Retreat",
+            "name": "祖宗",
+            "location": [
+                8,
+                2
+            ],
+            "pre_delay": 3000
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Right",
+            "name": "褐果/元素奶"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "skill_times": 1,
+            "kills": 30
+        },
+        {
+            "type": "Retreat",
+            "kills": 53,
+            "name": "维什戴尔",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_usage": 2,
+            "skill_times": 1,
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Retreat",
+            "pre_delay": 5000,
+            "name": "古米",
+            "location": [
+                9,
+                4
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AD-EX-7 - 群演集合区",
+        "details": "——————————\n作业更新日期: 2025-06-14T05:07:39Z\n统计更新日期: 2025-06-14\n好评率：100.0%  浏览量：1614\n来源：焕彩gg  ID：59797\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强，泥岩练度精2 90级专3无模组，低于这个练度可能会被创似。\n求关注。"
+    },
+    "groups": [
+        {
+            "name": "褐果/元素奶",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "褐果",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 3
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
