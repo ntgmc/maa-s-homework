@@ -1,0 +1,320 @@
+{
+    "stage_name": "act43side_ex08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AD-EX-8 - 舞台与无尽的阶梯 已测试",
+        "details": "——————————\n作业更新日期: 2025-06-13T09:17:15Z\n统计更新日期: 2025-06-14\n好评率：98.43%  浏览量：2490\n来源：蒙娜丽莎(•ω•)  ID：59762\n——————————\nAD-EX-8 - 舞台与无尽的阶梯 \n记得开截图增强啊，因为各自的练度把控不好，所以推荐手动控制技能防止漏怪，可以随时开启或关闭二倍速。"
+    },
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 70,
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "requirements": {
+                "level": 80,
+                "skill_level": 7,
+                "module": 2
+            }
+        },
+        {
+            "name": "极境",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 1,
+                "skill_level": 1
+            }
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "余",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "蕾缪安/艾雅法拉",
+            "opers": [
+                {
+                    "name": "蕾缪安",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "level": 90,
+                        "skill_level": 10,
+                        "module": 2
+                    }
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "德克萨斯",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "极境",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "pre_delay": 500
+        },
+        {
+            "name": "娜仁图亚",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "pre_delay": 3500
+        },
+        {
+            "name": "余",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "pre_delay": 500
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "pre_delay": 500
+        },
+        {
+            "name": "玛恩纳",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "pre_delay": 500
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "pre_delay": 500
+        },
+        {
+            "name": "蕾缪安/艾雅法拉",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "pre_delay": 500
+        },
+        {
+            "type": "Retreat",
+            "name": "极境",
+            "pre_delay": 500
+        },
+        {
+            "name": "棘刺",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "kills": 10,
+            "pre_delay": 8000
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 14,
+            "pre_delay": 7200
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "kills": 18,
+            "pre_delay": 500
+        },
+        {
+            "name": "玛恩纳",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 30,
+            "pre_delay": 500
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "Retreat",
+            "name": "玛恩纳"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 35,
+            "pre_delay": 1000
+        },
+        {
+            "name": "极境",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "pre_delay": 1500
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "pre_delay": 5000
+        },
+        {
+            "name": "玛恩纳",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

@@ -1,0 +1,217 @@
+{
+    "stage_name": "act43side_ex06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AD-EX-6 - 自助移动酒吧",
+        "details": "——————————\n作业更新日期: 2025-06-14T01:57:46Z\n统计更新日期: 2025-06-14\n好评率：100.0%  浏览量：1222\n来源：蒙娜丽莎(•ω•)  ID：59863\n——————————\nAD-EX-6 - 自助移动酒吧\n本作业已于访问量至100时完成优化和测试，请参考练度放心食用。\n卡达死亡是正常现象，无需惊慌。\n如果有其他情况，请在评论区告知。"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "卡达",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 70,
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "砾",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "棘刺/蛇屠箱",
+            "opers": [
+                {
+                    "name": "蛇屠箱",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "costs": 10
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                5
+            ],
+            "pre_delay": 500
+        },
+        {
+            "name": "斑点",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "pre_delay": 500
+        },
+        {
+            "name": "卡达",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy",
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 6,
+            "costs": 35
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 12,
+            "costs": 47
+        },
+        {
+            "name": "砾",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 82
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                6
+            ],
+            "pre_delay": 500
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                8,
+                6
+            ],
+            "pre_delay": 500
+        },
+        {
+            "name": "古米",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 0,
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "costs": 78,
+            "pre_delay": 0
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                6
+            ],
+            "pre_delay": 500
+        },
+        {
+            "name": "棘刺/蛇屠箱",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "斑点",
+            "kills": 16,
+            "costs": 0
+        },
+        {
+            "name": "砾",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "pre_delay": 500
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

@@ -1,0 +1,138 @@
+{
+    "stage_name": "act43side_ex02",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AD-EX-2 - 演员化妆间 - 单核",
+        "details": "——————————\n作业更新日期: 2025-06-12T12:37:54Z\n统计更新日期: 2025-06-14\n好评率：98.06%  浏览量：1310\n来源：小卡拉帕鲁灰  ID：59773\n——————————\n兼容突袭\nJSON作者小卡拉帕鲁灰\n练度点击作业查看详情\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "梓兰",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "夜刀"
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "芬",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "斑点",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "克洛丝",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "夜刀",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "costs": 18
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "梓兰",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "芬",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "kills": 28
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
