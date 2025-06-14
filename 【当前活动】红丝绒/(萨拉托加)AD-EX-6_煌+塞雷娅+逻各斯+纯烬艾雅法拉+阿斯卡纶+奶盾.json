@@ -1,0 +1,143 @@
+{
+    "stage_name": "act43side_ex06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AD-EX-6 - 自助移动酒吧",
+        "details": "——————————\n作业更新日期: 2025-06-12T10:39:16Z\n统计更新日期: 2025-06-13\n好评率：100.0%  浏览量：8205\n来源：萨拉托加  ID：59746\n——————————\n原作者萧然Q json作者：萨拉托加\n作业交流群群号545928846，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【红丝绒】AD-EX-1至AD-EX-8 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1MpMwzREHd/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 4
+            }
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "煌",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "阿斯卡纶",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶盾",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
