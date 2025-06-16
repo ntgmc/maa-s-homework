@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 print(base_path)
 os.chdir(base_path)
-download_mode = False
+download_mode = True
 download_score_threshold = 50
 job_categories = ['先锋', '近卫', '重装', '狙击', '术师', '医疗', '辅助', '特种']
 ids = []
@@ -132,22 +132,22 @@ def get_level_data():
     return add_level_data(response.json()['data']) if response.ok else []
 
 
-def get_content(_id, retry=3):
-    data = requests.get(f"https://prts.maa.plus/copilot/get/{_id}").json()
-    # 如果data没有code字段，说明请求失败，重试
-    if 'code' not in data:
-        print(f"请求 {_id} 失败")
-        if retry > 0:
-            print(f"重试 {_id} 剩余 {retry} 次")
-            return get_content(_id, retry - 1)
+def get_complete_content(_id):
+    _headers = {
+        "Origin": "https://zoot.plus",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
+    }
+    response = requests.get(f"https://prts.maa.plus/copilot/get/{_id}", headers=_headers)
+    if response.ok:
+        data = response.json()
+        if data.get('status_code') == 200:
+            content = json.loads(data['data']['content'])
+            return content
         else:
-            print(f"请求 {_id} 失败，重试次数已用完")
-            return {}
-    elif data['code'] == 200:
-        return data['data']['content']
+            print(f"Failed to fetch content for ID {_id}, error code: {data.get('status_code')}")
     else:
-        print(f"请求 {_id} 失败，错误代码：{data['code']}")
-        return {}
+        print(f"Failed to fetch content for ID {_id}, HTTP status: {response.status_code}")
+    return None
 
 
 def add_level_data(ld):
@@ -252,7 +252,7 @@ def filter_paradox(data, name, _job):
                             if os.path.exists(file):
                                 os.remove(file)
                                 print(f"Removed {file}")
-                content = get_content(item['id'])
+                content = get_complete_content(item['id'])
                 content['doc'][
                     'details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + \
                                  content['doc']['details']
@@ -324,7 +324,7 @@ def search_module(name, stage):
                                 if os.path.exists(file):
                                     os.remove(file)
                                     print(f"Removed {file}")
-                    content = get_content(item['id'])
+                    content = get_complete_content(item['id'])
                     content['doc'][
                         'details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + \
                                      content['doc']['details']
