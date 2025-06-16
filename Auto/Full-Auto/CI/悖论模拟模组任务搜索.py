@@ -220,11 +220,14 @@ def filter_paradox(data, name, _job):
         items_to_download = []
         all_below_threshold = True
         found_ids = set()
-        has_high_score = any(calculate_percent(item) > 90 for item in all_data)  # Check for scores > 90%
+        has_high_score_90 = any(calculate_percent(item) > 90 for item in all_data)  # Check for scores > 90%
+        has_high_score_80 = any(calculate_percent(item) > 80 for item in all_data)  # Check for scores > 80%
 
         for item in all_data:
             percent = calculate_percent(item)
-            if has_high_score and percent < 70:  # Ignore scores < 70% if a high score exists
+            if has_high_score_90 and percent < 70:  # Ignore scores < 70% if a high score exists
+                continue
+            if has_high_score_80 and percent < 50:  # Ignore scores < 50% if a high score exists
                 continue
             found_ids.add(str(item['id']))
             if percent > 0:
