@@ -1,0 +1,155 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act18d3_ex05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                2
+            ],
+            "kills": 52
+        },
+        {
+            "type": "Retreat",
+            "name": "克洛丝",
+            "location": [
+                3,
+                6
+            ],
+            "pre_delay": 6000
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "kills": 50
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "山"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "覆潮之下·复刻 - SV-EX-5 - 开枝散叶 - 单核（修改）（自用）",
+        "details": "——————————\n作业更新日期: 2025-05-17T03:22:46Z\n统计更新日期: 2025-06-17\n好评率：100.0%  浏览量：584\n来源：Justice  ID：51066\n——————————\n兼容突袭（推荐使用自动编队，如果缺干员报错后再手动借干员）\n建议左下角另放近卫和盾\nEW：满级，专3，三级模组\n\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

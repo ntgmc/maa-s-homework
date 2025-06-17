@@ -1,0 +1,212 @@
+{
+    "stage_name": "act43side_ex05",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AD-EX-5 - 电影放映房",
+        "details": "——————————\n作业更新日期: 2025-06-14T11:30:20Z\n统计更新日期: 2025-06-17\n好评率：97.07%  浏览量：3196\n来源：蒙娜丽莎(•ω•)  ID：59860\n——————————\nAD-EX-5 - 电影放映房\n本作业已于访问量至1652时完成优化和测试。\n需要注意干员默认满好感度，否则需要在部署古米后，将高阻挡高伤害的地面干员如煌或者孑，置于原玫兰莎位置。补伤干员选择阿斯卡纶无需考虑上述问题。\n如有其它情况，请在评论区告知。\n"
+    },
+    "opers": [
+        {
+            "name": "余",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "requirements": {
+                "level": 70,
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "伊桑",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "玫兰莎",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "棘刺/阿斯卡纶",
+            "opers": [
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "level": 90,
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "requirements": {
+                        "level": 90,
+                        "skill_level": 9
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "克洛丝",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "玫兰莎",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "安德切尔",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "余",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "玫兰莎",
+            "pre_delay": 500
+        },
+        {
+            "name": "斑点",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "伊桑",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "棘刺/阿斯卡纶",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "古米",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "玫兰莎",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "斑点",
+            "costs": 25
+        },
+        {
+            "type": "Skill",
+            "name": "安德切尔"
+        },
+        {
+            "name": "余",
+            "skill_usage": 0,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "斑点",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "安德切尔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "Skill",
+            "name": "余",
+            "costs": 73
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

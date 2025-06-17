@@ -1,0 +1,302 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_pinecn_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "松果",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "松果",
+            "location": [
+                3,
+                5
+            ],
+            "costs": 15,
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right",
+            "costs": 18
+        },
+        {
+            "type": "Skill",
+            "name": "松果",
+            "location": [
+                3,
+                5
+            ],
+            "costs": 22,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "松果",
+            "location": [
+                3,
+                5
+            ],
+            "costs": 39,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "松果",
+            "location": [
+                3,
+                5
+            ],
+            "costs": 46,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "米格鲁",
+            "location": [
+                1,
+                4
+            ],
+            "costs": 48,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "斑点",
+            "location": [
+                1,
+                3
+            ],
+            "costs": 0,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "松果",
+            "location": [
+                3,
+                5
+            ],
+            "costs": 59,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "松果",
+            "location": [
+                3,
+                5
+            ],
+            "costs": 0,
+            "pre_delay": 300,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "松果",
+            "location": [
+                3,
+                5
+            ],
+            "costs": 0,
+            "pre_delay": 0,
+            "direction": "Right"
+        },
+        {
+            "type": "Output",
+            "costs": 0,
+            "doc_color": "#d63384",
+            "doc": "标记点：闪电三连鞭",
+            "direction": "Right",
+            "name": "松果",
+            "location": [
+                3,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "雪雉的安全起重机",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left",
+            "costs": 0,
+            "pre_delay": 3800,
+            "doc": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "蛇屠箱",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "松果",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down",
+            "costs": 53
+        },
+        {
+            "type": "SkillUsage",
+            "name": "斑点",
+            "costs": 0,
+            "pre_delay": 0,
+            "skill_usage": 1,
+            "direction": "Left",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "松果",
+            "location": [
+                7,
+                1
+            ],
+            "costs": 44,
+            "pre_delay": 0,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "蛇屠箱",
+            "location": [
+                8,
+                3
+            ],
+            "costs": 47,
+            "pre_delay": 0,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "松果",
+            "location": [
+                7,
+                1
+            ],
+            "costs": 60,
+            "pre_delay": 0,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "松果",
+            "location": [
+                7,
+                1
+            ],
+            "costs": 70,
+            "pre_delay": 0,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "松果",
+            "location": [
+                7,
+                1
+            ],
+            "costs": 0,
+            "pre_delay": 0,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "松果",
+            "location": [
+                7,
+                1
+            ],
+            "costs": 80,
+            "pre_delay": 0,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "松果",
+            "location": [
+                7,
+                1
+            ],
+            "costs": 90,
+            "pre_delay": 0,
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "【开启截图增强】松果 - 小憩",
+        "details": "——————————\n作业更新日期: 2025-05-13T12:37:10Z\n统计更新日期: 2025-06-17\n好评率：100.0%  浏览量：58\n来源：542B  ID：54169\n——————————\n其他作业又过不了...那我来试试\n该作业为二倍速，测试为满潜精二20，七级技能，无模组\n截图时间20ms。用的是费用轴而且这关对轴比较严格，请务必打开截图增强\n有问题请留言，希望对你有帮助"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "松果",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "雪雉的安全起重机",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "作者：542B",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "求反馈",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "o(〃＾▽＾〃)o",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

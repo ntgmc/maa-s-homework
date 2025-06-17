@@ -1,0 +1,77 @@
+{
+    "stage_name": "act20side_08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "至简模组任务 - IC-8 - “新家园”",
+        "details": "——————————\n作业更新日期: 2025-06-10T05:37:21Z\n统计更新日期: 2025-06-17\n好评率：100.0%  浏览量：9\n来源：一只摆烂的42  ID：59689\n——————————\n至简「“新家园”」模组任务\n3星通关别传IC-8；必须编入非助战至简并上场，且使用至简歼灭至少2名蜜酿级醒酒助手\n原视频：https://www.bilibili.com/video/BV1sM411d71p/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "opers": [
+        {
+            "name": "至简",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "黑角"
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "拉普兰德",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "至简",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "黑角",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        }
+    ],
+    "version": 3
+}
