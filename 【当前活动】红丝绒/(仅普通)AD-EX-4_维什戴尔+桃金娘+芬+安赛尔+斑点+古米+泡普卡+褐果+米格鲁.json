@@ -119,12 +119,31 @@
             ]
         },
         {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                5,
+                1
+            ],
+            "pre_delay": 200
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left",
+            "kills": 19
+        },
+        {
             "type": "SkillDaemon"
         }
     ],
     "doc": {
         "title": "AD-EX-4 - 外景拍摄区",
-        "details": "——————————\n作业更新日期: 2025-06-12T11:25:51Z\n统计更新日期: 2025-06-14\n好评率：97.56%  浏览量：1079\n来源：焕彩gg  ID：59752\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注。"
+        "details": "——————————\n作业更新日期: 2025-06-17T07:51:17Z\n统计更新日期: 2025-06-18\n好评率：97.72%  浏览量：1950\n来源：焕彩gg  ID：59752\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注。"
     },
     "groups": [
         {
