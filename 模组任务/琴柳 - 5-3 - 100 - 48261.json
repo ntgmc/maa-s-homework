@@ -1,0 +1,119 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "琴柳模组任务 - 5-3 - “友谊万岁”",
+        "details": "——————————\n作业更新日期: 2025-03-08T07:22:29Z\n统计更新日期: 2025-06-17\n好评率：100.0%  浏览量：1156\n来源：一只摆烂的42  ID：48261\n——————————\n琴柳「“友谊万岁”」模组任务\n3星通关主题曲5-3；必须编入非助战琴柳并上场，且至少使用3次光辉旗帜\n原作业：maa://21806\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "stage_name": "main_05-03",
+    "opers": [
+        {
+            "name": "琴柳",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "琴柳",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Left",
+            "costs": 35
+        },
+        {
+            "type": "Deploy",
+            "name": "先锋or近卫or奶盾",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "difficulty": 1,
+    "groups": [
+        {
+            "name": "先锋or近卫or奶盾",
+            "opers": [
+                {
+                    "name": "风笛",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "忍冬",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ]
+}

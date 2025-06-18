@@ -1,0 +1,76 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_13-11",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "蕾缪安",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillUsage",
+            "kills": 12,
+            "skill_times": 1,
+            "name": "蕾缪安",
+            "skill_usage": 2
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "蕾缪安",
+            "skill_usage": 2,
+            "kills": 25
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "13-13 - 骸骨之中 - 蕾缪安模组",
+        "details": "——————————\n作业更新日期: 2025-05-02T07:51:18Z\n统计更新日期: 2025-06-17\n好评率：99.22%  浏览量：10872\n来源：萨拉托加  ID：51880\n——————————\n由非助战蕾缪安累计造成30歼灭数\n3星通关主题曲13-13标准实战环境；必须编入非助战蕾缪安并上场，且蕾缪安歼灭至少2个萨卡兹骸骨鞭笞者\n原作者：涂绘天菜 json作者：萨拉托加\n作业交流群群号1009052305，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【蕾缪安模组 模组任务 三人半挂机 极其好抄】 https://www.bilibili.com/video/BV1YMGBzyEbU/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "蕾缪安",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

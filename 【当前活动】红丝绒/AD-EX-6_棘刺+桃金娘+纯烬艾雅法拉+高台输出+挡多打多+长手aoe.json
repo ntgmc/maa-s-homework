@@ -1,0 +1,141 @@
+{
+    "stage_name": "act43side_ex06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AD-EX-6 - 自助移动酒吧",
+        "details": "——————————\n作业更新日期: 2025-06-12T15:02:42Z\n统计更新日期: 2025-06-17\n好评率：98.59%  浏览量：1162\n来源：pppie  ID：59808\n——————————\n参考作品B站：和泉夏喵Nyachan【【红丝绒】AD-EX-1到AD-EX-8突袭摆完挂机】 https://www.bilibili.com/video/BV1mJMwzdEks/\n平均练度26033以上"
+    },
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 2
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "高台输出",
+            "opers": [
+                {
+                    "name": "酒神",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "挡多打多",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "长手aoe",
+            "opers": [
+                {
+                    "name": "维什戴尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "伊芙利特",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "棘刺",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "挡多打多",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "高台输出",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "长手aoe",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "difficulty": 3
+}

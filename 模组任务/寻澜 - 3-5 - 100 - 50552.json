@@ -1,0 +1,81 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_03-05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "寻澜",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "寻澜",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "寻澜",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "寻澜模组任务 - 3-5 - 佳肴",
+        "details": "——————————\n作业更新日期: 2025-04-19T17:07:13Z\n统计更新日期: 2025-06-17\n好评率：100.0%  浏览量：137\n来源：一只摆烂的42  ID：50552\n——————————\n寻澜「佳肴」模组任务\n3星通关主题曲3-5；必须编入非助战寻澜并上场，且至少使用2次洞悉\n原视频：https://www.bilibili.com/video/BV1E8R2Y3EY7/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "寻澜",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "skill_times": 1,
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ],
+    "difficulty": 1
+}

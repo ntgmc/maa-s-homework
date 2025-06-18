@@ -1,0 +1,129 @@
+{
+    "stage_name": "act43side_08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AD-8 - 登台致礼 3人速刷单限定",
+        "details": "——————————\n作业更新日期: 2025-06-06T09:10:59Z\n统计更新日期: 2025-06-17\n好评率：93.48%  浏览量：1010\n来源：黄焖鸡烤串  ID：59564\n——————————\n【AD-8 3人72秒速刷 近理论最速 简单好抄】 https://www.bilibili.com/video/BV12xTtz9Ejh/?share_source=copy_web&vd_source=c78db16d4219c0ef1868cc15bee82082"
+    },
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 80,
+                "module": 4
+            }
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 80,
+                "module": 1
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 80,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "维什戴尔",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "costs": 25
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "costs": 21
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "costs": 23
+        },
+        {
+            "type": "Skill",
+            "name": "逻各斯",
+            "location": [
+                4,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                5
+            ],
+            "kills": 7
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                5
+            ],
+            "costs": 36
+        },
+        {
+            "type": "Skill",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                5
+            ],
+            "costs": 60
+        },
+        {
+            "type": "Skill",
+            "name": "逻各斯",
+            "location": [
+                4,
+                5
+            ],
+            "costs": 81
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

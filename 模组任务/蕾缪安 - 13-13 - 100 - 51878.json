@@ -1,0 +1,115 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_13-11",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "蕾缪安",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "蕾缪安",
+            "location": [
+                5,
+                1
+            ],
+            "kills": 5
+        },
+        {
+            "type": "Skill",
+            "name": "蕾缪安",
+            "costs": 63,
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "蕾缪安",
+            "skill_usage": 1,
+            "kills": 15
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "蕾缪安-模组任务-弹匣与花窗",
+        "details": "——————————\n作业更新日期: 2025-05-02T07:41:23Z\n统计更新日期: 2025-06-17\n好评率：100.0%  浏览量：527\n来源：焕彩gg  ID：51878\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "蕾缪安",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 0
+}

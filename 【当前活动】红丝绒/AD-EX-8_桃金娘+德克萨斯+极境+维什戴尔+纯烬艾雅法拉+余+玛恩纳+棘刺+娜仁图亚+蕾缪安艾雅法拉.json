@@ -3,13 +3,14 @@
     "minimum_required": "v4.0.0",
     "doc": {
         "title": "AD-EX-8 - 舞台与无尽的阶梯 已测试",
-        "details": "——————————\n作业更新日期: 2025-06-13T09:17:15Z\n统计更新日期: 2025-06-14\n好评率：98.43%  浏览量：2490\n来源：蒙娜丽莎(•ω•)  ID：59762\n——————————\nAD-EX-8 - 舞台与无尽的阶梯 \n记得开截图增强啊，因为各自的练度把控不好，所以推荐手动控制技能防止漏怪，可以随时开启或关闭二倍速。"
+        "details": "——————————\n作业更新日期: 2025-06-16T13:12:10Z\n统计更新日期: 2025-06-17\n好评率：98.25%  浏览量：5423\n来源：蒙娜丽莎(•ω•)  ID：59762\n——————————\nAD-EX-8 - 舞台与无尽的阶梯 \n记得开截图增强啊，因为各自的练度把控不好，所以推荐手动控制技能防止漏怪，可以随时开启或关闭二倍速。"
     },
     "opers": [
         {
             "name": "桃金娘",
             "skill": 1,
-            "skill_usage": 1,
+            "skill_usage": 2,
+            "skill_times": 2,
             "requirements": {
                 "level": 70,
                 "skill_level": 7
@@ -27,7 +28,7 @@
         {
             "name": "极境",
             "skill": 1,
-            "skill_usage": 1,
+            "skill_usage": 2,
             "requirements": {
                 "level": 1,
                 "skill_level": 1
@@ -166,7 +167,7 @@
         {
             "type": "Skill",
             "name": "维什戴尔",
-            "pre_delay": 3500
+            "pre_delay": 4200
         },
         {
             "name": "余",
@@ -176,7 +177,7 @@
             ],
             "direction": "Right",
             "type": "Deploy",
-            "pre_delay": 500
+            "pre_delay": 1500
         },
         {
             "name": "纯烬艾雅法拉",
@@ -185,8 +186,7 @@
                 5
             ],
             "direction": "Left",
-            "type": "Deploy",
-            "pre_delay": 500
+            "type": "Deploy"
         },
         {
             "name": "玛恩纳",
@@ -195,8 +195,7 @@
                 6
             ],
             "direction": "Left",
-            "type": "Deploy",
-            "pre_delay": 500
+            "type": "Deploy"
         },
         {
             "type": "Retreat",
@@ -224,7 +223,7 @@
                 6,
                 4
             ],
-            "direction": "Right",
+            "direction": "Left",
             "type": "Deploy",
             "pre_delay": 500
         },
@@ -238,13 +237,13 @@
             "type": "Skill",
             "name": "维什戴尔",
             "kills": 14,
-            "pre_delay": 7200
+            "pre_delay": 9000
         },
         {
             "type": "Skill",
             "name": "玛恩纳",
-            "kills": 18,
-            "pre_delay": 500
+            "kills": 17,
+            "pre_delay": 11500
         },
         {
             "name": "玛恩纳",
@@ -254,27 +253,7 @@
         {
             "type": "Skill",
             "name": "维什戴尔",
-            "kills": 30,
-            "pre_delay": 500
-        },
-        {
-            "name": "维什戴尔",
-            "skill_usage": 1,
-            "type": "SkillUsage"
-        },
-        {
-            "type": "Retreat",
-            "name": "玛恩纳"
-        },
-        {
-            "name": "桃金娘",
-            "location": [
-                7,
-                6
-            ],
-            "direction": "Left",
-            "type": "Deploy",
-            "pre_delay": 2000
+            "kills": 30
         },
         {
             "type": "Retreat",
@@ -287,9 +266,14 @@
             "pre_delay": 1000
         },
         {
+            "name": "玛恩纳",
+            "skill_usage": 0,
+            "type": "SkillUsage"
+        },
+        {
             "name": "极境",
             "location": [
-                4,
+                8,
                 3
             ],
             "direction": "Left",
@@ -298,18 +282,7 @@
         },
         {
             "type": "Retreat",
-            "name": "桃金娘",
-            "pre_delay": 5000
-        },
-        {
-            "name": "玛恩纳",
-            "location": [
-                7,
-                6
-            ],
-            "direction": "Left",
-            "type": "Deploy",
-            "pre_delay": 1000
+            "name": "玛恩纳"
         },
         {
             "type": "SkillDaemon"

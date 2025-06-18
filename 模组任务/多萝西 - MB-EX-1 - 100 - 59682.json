@@ -1,0 +1,71 @@
+{
+    "stage_name": "act15d0_ex01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "多萝西模组任务 - MB-EX-1 - 梦中人",
+        "details": "——————————\n作业更新日期: 2025-06-12T00:42:47Z\n统计更新日期: 2025-06-17\n好评率：100.0%  浏览量：36\n来源：一只摆烂的42  ID：59682\n——————————\n多萝西「梦中人」模组任务\n3星通关插曲MB-EX-1，必须编入非助战多萝西并上场，其他成员仅可编入近卫干员\n原视频：https://www.bilibili.com/video/BV1JQTszgEha/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "opers": [
+        {
+            "name": "多萝西",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "棘刺",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "山",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "多萝西",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 1
+}

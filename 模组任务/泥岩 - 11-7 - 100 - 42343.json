@@ -1,74 +1,108 @@
 {
-    "stageName": "main_11-06",
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_11-06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Up",
+            "costs": 50
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "凯瑟琳",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "伊芙利特",
+            "location": [
+                10,
+                5
+            ],
+            "kills": 35
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
     "doc": {
         "title": "凯瑟琳模组任务 - 11-7（标准）- 闲暇时分",
-        "title_color": "Gray",
-        "details": "——————————\n作业更新日期: 2024-10-09T15:09:15Z\n统计更新日期: 2025-04-05\n好评率：100.0%  浏览量：161\n来源：一只摆烂的42  ID：42343\n——————————\n凯瑟琳「闲暇时分」模组任务\n3星通关主题曲11-7标准实战环境；必须编入非助战凯瑟琳并上场，且凯瑟琳使用至少2次“战火淬炼”\n使用作业：maa://29627\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ",
-        "details_color": "Gray"
+        "details": "——————————\n作业更新日期: 2024-10-09T15:09:15Z\n统计更新日期: 2025-06-17\n好评率：100.0%  浏览量：178\n来源：一只摆烂的42  ID：42343\n——————————\n凯瑟琳「闲暇时分」模组任务\n3星通关主题曲11-7标准实战环境；必须编入非助战凯瑟琳并上场，且凯瑟琳使用至少2次“战火淬炼”\n使用作业：maa://29627\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
     },
+    "groups": [],
     "opers": [
         {
             "name": "凯瑟琳",
             "skill": 2,
-            "skill_usage": 1,
-            "requirements": {
-                "elite": 0,
-                "level": 0,
-                "skill_level": 0,
-                "module": 0,
-                "potentiality": 0
-            }
+            "skill_usage": 1
         },
         {
             "name": "泥岩",
             "skill": 2,
-            "skill_usage": 0,
-            "requirements": {
-                "elite": 0,
-                "level": 0,
-                "skill_level": 0,
-                "module": 0,
-                "potentiality": 0
-            }
+            "skill_usage": 0
         },
         {
             "name": "夜莺",
             "skill": 2,
-            "skill_usage": 0,
-            "requirements": {
-                "elite": 0,
-                "level": 0,
-                "skill_level": 0,
-                "module": 0,
-                "potentiality": 0
-            }
+            "skill_usage": 0
         },
         {
             "name": "伊芙利特",
             "skill": 2,
-            "skill_usage": 0,
-            "requirements": {
-                "elite": 0,
-                "level": 0,
-                "skill_level": 0,
-                "module": 0,
-                "potentiality": 0
-            }
+            "skill_usage": 0
         },
         {
             "name": "风笛",
             "skill": 2,
-            "skill_usage": 0,
-            "requirements": {
-                "elite": 0,
-                "level": 0,
-                "skill_level": 0,
-                "module": 0,
-                "potentiality": 0
-            }
+            "skill_usage": 0
         }
-    ],
-    "groups": [],
-    "minimumRequired": "v4.0.0",
-    "difficulty": 0
+    ]
 }

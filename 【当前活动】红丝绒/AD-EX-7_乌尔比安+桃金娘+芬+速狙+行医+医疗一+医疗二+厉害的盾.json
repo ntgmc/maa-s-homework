@@ -1,0 +1,358 @@
+{
+    "stage_name": "act43side_ex07",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AD-EX-7 - 群演集合区",
+        "details": "——————————\n作业更新日期: 2025-06-14T14:11:05Z\n统计更新日期: 2025-06-17\n好评率：95.65%  浏览量：1556\n来源：小卡拉帕鲁灰  ID：59859\n——————————\n兼容突袭\nJSON作者小卡拉帕鲁灰\n练度点击作业查看详情，推荐使用自动编队\n突袭需要右边的盾肉一点，全用最低配会翻车\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "opers": [
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 2,
+                "level": 1,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "速狙",
+            "opers": [
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "空弦",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "灰喉",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "流星",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "梅",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        },
+        {
+            "name": "行医",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "哈洛德",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "桑葚",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        },
+        {
+            "name": "医疗一",
+            "opers": [
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        },
+        {
+            "name": "医疗二",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        },
+        {
+            "name": "厉害的盾",
+            "opers": [
+                {
+                    "name": "涤火杰西卡",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "年",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "信仰搅拌机",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "芬",
+            "location": [
+                11,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "行医",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "costs": 30
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "速狙",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "医疗一",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "costs": 15
+        },
+        {
+            "name": "厉害的盾",
+            "location": [
+                11,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "医疗二",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
