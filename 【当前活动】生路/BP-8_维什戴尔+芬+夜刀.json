@@ -1,0 +1,130 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "夜刀",
+            "location": [
+                10,
+                5
+            ],
+            "kills": 5
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 5
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ],
+            "kills": 7
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 36
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ],
+            "kills": 39
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ],
+            "kills": 52
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ],
+            "kills": 55
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                10,
+                5
+            ],
+            "kills": 78,
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon",
+            "kills": 78
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-8 - “何谓存续？” - 单核",
+        "details": "——————————\n作业更新日期: 2024-06-05T15:52:19Z\n统计更新日期: 2025-06-21\n好评率：93.53%  浏览量：3803\n来源：小卡拉帕鲁灰  ID：38357\n——————————\n维神满配\n不稳定，延迟影响很大"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

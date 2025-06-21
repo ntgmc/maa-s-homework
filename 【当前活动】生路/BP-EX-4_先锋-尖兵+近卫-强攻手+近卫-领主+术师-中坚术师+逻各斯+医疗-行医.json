@@ -1,0 +1,212 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_ex04",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫-强攻手",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫-领主",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "术师-中坚术师",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗-行医",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "先锋-尖兵",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-EX-4(Raid) - 熔岩导桥-地幔脉搏",
+        "details": "——————————\n作业更新日期: 2024-06-17T13:48:49Z\n统计更新日期: 2025-06-21\n好评率：100.0%  浏览量：1142\n来源：作业超大杯  ID：38538\n——————————\n生路 - BP-EX-4 - 熔岩导桥-地幔脉搏"
+    },
+    "groups": [
+        {
+            "name": "先锋-尖兵",
+            "opers": [
+                {
+                    "name": "推进之王",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "伊内丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "谜图",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "晓歌",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "近卫-强攻手",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "山",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                },
+                {
+                    "name": "重岳",
+                    "skill": 3,
+                    "skill_usage": 2,
+                    "skill_times": 5
+                }
+            ]
+        },
+        {
+            "name": "近卫-领主",
+            "opers": [
+                {
+                    "name": "仇白",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 2,
+                    "skill_times": 2
+                },
+                {
+                    "name": "拉普兰德",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "术师-中坚术师",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "逻各斯",
+            "opers": [
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "焰影苇草",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "提丰",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "莱伊",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "医疗-行医",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "桑葚",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [],
+    "difficulty": 3
+}

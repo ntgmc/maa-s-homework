@@ -1,0 +1,163 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_ex03",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                1
+            ],
+            "pre_delay": 4800
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 6000,
+            "name": "维什戴尔",
+            "location": [
+                8,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "direction": "Down",
+            "location": [
+                7,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "安德切尔",
+            "direction": "Down",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "梓兰",
+            "direction": "Down",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "克洛丝",
+            "location": [
+                7,
+                1
+            ],
+            "pre_delay": 200
+        },
+        {
+            "type": "Retreat",
+            "name": "安德切尔",
+            "location": [
+                7,
+                2
+            ],
+            "pre_delay": 200
+        },
+        {
+            "type": "Retreat",
+            "name": "梓兰",
+            "location": [
+                7,
+                5
+            ],
+            "pre_delay": 200
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 21000,
+            "name": "维什戴尔",
+            "location": [
+                8,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "kills": 19,
+            "name": "维什戴尔",
+            "location": [
+                8,
+                1
+            ],
+            "pre_delay": 5000
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 24800,
+            "name": "维什戴尔",
+            "location": [
+                8,
+                1
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-EX-3 - 大浴场-智识交会处 蚀刻章",
+        "details": "——————————\n作业更新日期: 2025-06-20T05:41:59Z\n统计更新日期: 2025-06-21\n好评率：99.37%  浏览量：1240\n来源：焕彩gg  ID：60322\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "梓兰",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}

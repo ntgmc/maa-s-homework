@@ -1,0 +1,75 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_09",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-9 - 文明的壁垒",
+        "details": "——————————\n作业更新日期: 2024-06-05T09:21:40Z\n统计更新日期: 2025-06-21\n好评率：99.81%  浏览量：32111\n来源：萨拉托加  ID：38322\n——————————\njson作者萨拉托加\n作业交流群群号216314927，有问题进群，作业站消息没提醒看不到"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

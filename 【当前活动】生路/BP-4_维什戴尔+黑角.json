@@ -1,0 +1,47 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-4 - 牺牲与代价 - 单核",
+        "details": "——————————\n作业更新日期: 2024-06-05T12:15:45Z\n统计更新日期: 2025-06-21\n好评率：99.53%  浏览量：3352\n来源：小卡拉帕鲁灰  ID：38350\n——————————\n维神满配"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

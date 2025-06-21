@@ -1,0 +1,129 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_ex04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 5
+        },
+        {
+            "type": "Deploy",
+            "name": "【医师】精一满级及以上练度",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-EX-4 - 熔岩导桥-地幔脉搏 - 单核",
+        "details": "——————————\n作业更新日期: 2024-06-13T11:17:24Z\n统计更新日期: 2025-06-21\n好评率：99.6%  浏览量：2940\n来源：小卡拉帕鲁灰  ID：38562\n——————————\n维神满配\n兼容突袭"
+    },
+    "groups": [
+        {
+            "name": "【医师】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "图耶",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "亚叶",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "斑点",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 2
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

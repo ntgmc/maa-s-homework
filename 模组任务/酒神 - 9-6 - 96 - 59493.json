@@ -1,0 +1,130 @@
+{
+    "stage_name": "main_09-05",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第九章 风暴瞭望 - 9-6（标准） - 深池 【酒神模组任务】",
+        "details": "——————————\n作业更新日期: 2025-06-06T11:26:47Z\n统计更新日期: 2025-06-21\n好评率：96.49%  浏览量：2676\n来源：小卡拉帕鲁灰  ID：59493\n——————————\n练度看详情\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "opers": [
+        {
+            "name": "酒神",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "塞or黍",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "芬",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "酒神",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "塞or黍",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "医疗",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "山",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 0
+}

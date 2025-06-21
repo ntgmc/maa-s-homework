@@ -1,0 +1,166 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_ex06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "行医",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "要塞",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-EX-6 - 探测基站-谜题之门",
+        "details": "——————————\n作业更新日期: 2024-06-13T05:23:01Z\n统计更新日期: 2025-06-21\n好评率：99.6%  浏览量：9795\n来源：星之海.  ID：38610\n——————————\n原作者：自在道爷\nJSON作者：星之海.\n原视频：\n【【生路】BP-EX-1至8挂机流，突袭刻章都不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(含BP-EX-8突袭，EX-7突袭，EX-3刻章等)】https://www.bilibili.com/video/BV1dT421Y73g?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "行医",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "要塞",
+            "opers": [
+                {
+                    "name": "号角",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "火哨",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "近卫",
+            "opers": [
+                {
+                    "name": "山",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                },
+                {
+                    "name": "拉普兰德",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "艾丽妮",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "仇白",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
