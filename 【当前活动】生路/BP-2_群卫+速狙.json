@@ -1,0 +1,96 @@
+{
+    "stage_name": "act34side_02",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "生路 - BP-2 - 评议式迎接",
+        "details": "——————————\n作业更新日期: 2025-06-19T02:20:40Z\n统计更新日期: 2025-06-21\n好评率：100.0%  浏览量：3570\n来源：星之海.  ID：60140\n——————————\n请确保所用干员练度达到本作业所需练度，否则将会有干员暴毙及漏怪风险！！！\n此作业全员专三且模组一级\n原作者：自在道爷\nJSON作者：星之海.\n社区评论不会提醒，作业有问题可以进群找我：994516079\n原视频：【【生路】BP-1至9挂机流，镀层不用愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(含BP-8镀层，BP-7刻章等)】https://www.bilibili.com/video/BV1qS411N7MD?p=2&vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+    },
+    "opers": [],
+    "groups": [
+        {
+            "name": "群卫",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "速狙",
+            "opers": [
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "白金",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "群卫",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "速狙",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

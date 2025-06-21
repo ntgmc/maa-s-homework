@@ -1,0 +1,183 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_15-18",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                11,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                11,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                8,
+                5
+            ],
+            "costs": 40,
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "铃兰",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                11,
+                3
+            ],
+            "costs": 16,
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "凯尔希",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "Mon3tr",
+            "location": [
+                3,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "凯尔希",
+            "location": [
+                4,
+                4
+            ],
+            "pre_delay": 58000,
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "凯尔希",
+            "location": [
+                4,
+                4
+            ],
+            "pre_delay": 31000,
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "凯尔希",
+            "skill_usage": 1,
+            "direction": "Left",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "15-20 得以重回（仅险地）",
+        "details": "——————————\n作业更新日期: 2025-06-19T08:33:47Z\n统计更新日期: 2025-06-21\n好评率：86.67%  浏览量：1666\n来源：飘ipao  ID：50146\n——————————\n\nmaa测试已过\n沙盘未制作，勿用\n煌2903（需要煌补点伤害给拟态机械，因为本作业卡了元素条保证拟态机械第二命速杀，不能练度过低，第一条命爆条会翻车）\n塞雷娅2803 3y\nlogos2903 3Δ（刚需模组，练度可以略低，我将凯尔希技能延后了，练度只要不是过低都不会影响）\n夜莺2603 3x\n铃兰2607（y模可能会让logos杀的更快乱轴，如果logos练度差不多不建议带）\n歌蕾蒂娅2603\n凯尔希2903 3α（模组好像不影响mon3tr数值，可以不要，练度可以低一些，有y模可以更低，2903无模组总伤3.4w，其实溢出很多）\n桃金娘2403 3x（模组不刚需，最好专三）"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "凯尔希",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 3
+        }
+    ],
+    "difficulty": 0
+}

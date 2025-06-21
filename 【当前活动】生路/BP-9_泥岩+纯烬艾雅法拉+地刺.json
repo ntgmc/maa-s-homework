@@ -1,0 +1,94 @@
+{
+    "stage_name": "act34side_09",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "生路 - BP-9 - 文明的壁垒",
+        "details": "——————————\n作业更新日期: 2025-06-19T07:07:00Z\n统计更新日期: 2025-06-21\n好评率：98.2%  浏览量：1528\n来源：pppie  ID：60258\n——————————\n参考作品B站：睡觉睡觉睡zz【BP-9 双人挂机】 https://www.bilibili.com/video/BV18Z421H7Pm/\n平均练度2603"
+    },
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "地刺",
+            "opers": [
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "泥岩",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "地刺",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "小帮手",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "kills": 10
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

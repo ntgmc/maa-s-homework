@@ -1,0 +1,33 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-7 - 从历史中来 - 单核",
+        "details": "——————————\n作业更新日期: 2024-06-05T11:47:49Z\n统计更新日期: 2025-06-21\n好评率：99.38%  浏览量：2554\n来源：小卡拉帕鲁灰  ID：38354\n——————————\n维神单核"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

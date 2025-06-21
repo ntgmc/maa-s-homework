@@ -1,0 +1,309 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_ex06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                9,
+                5
+            ],
+            "name": "玫兰莎",
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                8,
+                4
+            ],
+            "name": "史都华德",
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                8,
+                4
+            ],
+            "name": "史都华德",
+            "kills": 1
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                8,
+                5
+            ],
+            "name": "维什戴尔",
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "pre_delay": 200,
+            "name": "斑点",
+            "location": [
+                10,
+                3
+            ],
+            "kills": 3
+        },
+        {
+            "type": "Skill",
+            "kills": 5,
+            "pre_delay": 2250,
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "玫兰莎",
+            "location": [
+                9,
+                5
+            ],
+            "pre_delay": 200
+        },
+        {
+            "type": "Retreat",
+            "pre_delay": 200,
+            "name": "祖宗",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "褐果/元素奶",
+            "direction": "Up",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "安塞尔/单奶",
+            "direction": "Left",
+            "location": [
+                9,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                9,
+                1
+            ],
+            "name": "米格鲁",
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米/奶盾",
+            "direction": "Left",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "type": "Skill",
+            "kills": 8,
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 22500,
+            "name": "斑点",
+            "location": [
+                8,
+                1
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "斑点",
+            "location": [
+                8,
+                1
+            ],
+            "pre_delay": 12200
+        },
+        {
+            "type": "SkillUsage",
+            "name": "安赛尔",
+            "skill_usage": 2,
+            "skill_times": 1,
+            "pre_delay": 200
+        },
+        {
+            "type": "Skill",
+            "location": [
+                8,
+                5
+            ],
+            "name": "维什戴尔",
+            "pre_delay": 5500
+        },
+        {
+            "type": "Deploy",
+            "pre_delay": 2500,
+            "name": "卡缇",
+            "direction": "Left",
+            "location": [
+                10,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "玫兰莎",
+            "direction": "Up",
+            "location": [
+                8,
+                2
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-EX-6 - 探测基站-谜题之门",
+        "details": "——————————\n作业更新日期: 2025-06-19T15:10:15Z\n统计更新日期: 2025-06-21\n好评率：99.34%  浏览量：1401\n来源：焕彩gg  ID：60353\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注。"
+    },
+    "groups": [
+        {
+            "name": "褐果/元素奶",
+            "opers": [
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "褐果",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "安塞尔/单奶",
+            "opers": [
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "古米/奶盾",
+            "opers": [
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "玫兰莎",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "史都华德",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "卡缇",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

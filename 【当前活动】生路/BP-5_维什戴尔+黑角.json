@@ -1,0 +1,47 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-5 - 不治的命运 - 单核",
+        "details": "——————————\n作业更新日期: 2024-06-05T11:35:14Z\n统计更新日期: 2025-06-21\n好评率：99.23%  浏览量：2977\n来源：小卡拉帕鲁灰  ID：38351\n——————————\n维神满配"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

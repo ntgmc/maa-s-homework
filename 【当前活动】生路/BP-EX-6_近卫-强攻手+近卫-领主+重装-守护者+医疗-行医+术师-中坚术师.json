@@ -1,0 +1,179 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_ex06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫-领主",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫-强攻手",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗-行医",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "术师-中坚术师",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left",
+            "kills": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "重装-守护者",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-EX-6 - 探测基站-谜题之门_测试中",
+        "details": "——————————\n作业更新日期: 2025-06-19T09:52:24Z\n统计更新日期: 2025-06-21\n好评率：97.92%  浏览量：4597\n来源：作业超大杯  ID：38542\n——————————\n生路 - BP-EX-6 - 探测基站-谜题之门_测试中"
+    },
+    "groups": [
+        {
+            "name": "近卫-强攻手",
+            "opers": [
+                {
+                    "name": "圣约送葬人",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "锏",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "近卫-领主",
+            "opers": [
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "仇白",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "拉普兰德",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "银灰"
+                },
+                {
+                    "name": "帕拉斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "重装-守护者",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "医疗-行医",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "桑葚",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "术师-中坚术师",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塑心",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [],
+    "difficulty": 3
+}

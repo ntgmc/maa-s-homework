@@ -1,0 +1,216 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_ex01",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "重装-守护者",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫-强攻手",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "狙击-速射手",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "术师-中坚术师",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "kills": 8
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗-行医",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "先锋-尖兵",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-EX-1 - 纪耻柱-无谓的纷争",
+        "details": "——————————\n作业更新日期: 2025-06-19T09:53:18Z\n统计更新日期: 2025-06-21\n好评率：99.15%  浏览量：3651\n来源：作业超大杯  ID：38532\n——————————\n萧然q"
+    },
+    "groups": [
+        {
+            "name": "近卫-强攻手",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "山",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                },
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "重装-守护者",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍"
+                },
+                {
+                    "name": "临光"
+                },
+                {
+                    "name": "深律",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "狙击-速射手",
+            "opers": [
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "隐现",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "空弦",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "灰烬",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "术师-中坚术师",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "医疗-行医",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "桑葚",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "先锋-尖兵",
+            "opers": [
+                {
+                    "name": "推进之王",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "焰尾"
+                },
+                {
+                    "name": "伊内丝"
+                },
+                {
+                    "name": "风笛",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "德克萨斯"
+                }
+            ]
+        }
+    ],
+    "opers": [],
+    "difficulty": 3
+}
