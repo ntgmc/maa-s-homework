@@ -36,20 +36,21 @@
         {
             "type": "Deploy",
             "name": "重装-守护者",
+            "direction": "Left",
             "location": [
                 7,
                 4
             ],
-            "direction": "Left"
+            "kills": 43
         },
         {
             "type": "Deploy",
             "name": "医疗-医师",
+            "direction": "Up",
             "location": [
-                8,
+                9,
                 6
-            ],
-            "direction": "Up"
+            ]
         },
         {
             "type": "SkillDaemon"
@@ -57,26 +58,27 @@
     ],
     "doc": {
         "title": "生路 - BP-EX-7 - 基因种质库-万物殿",
-        "details": "——————————\n作业更新日期: 2025-06-19T09:52:58Z\n统计更新日期: 2025-06-21\n好评率：96.25%  浏览量：3732\n来源：作业超大杯  ID：38544\n——————————\n生路 - BP-EX-7 - 基因种质库-万物殿"
+        "details": "——————————\n作业更新日期: 2025-06-21T12:23:43Z\n统计更新日期: 2025-06-23\n好评率：97.62%  浏览量：5120\n来源：作业超大杯  ID：38544\n——————————\n生路 - BP-EX-7 - 基因种质库-万物殿"
     },
     "groups": [
         {
             "name": "近卫-强攻手",
             "opers": [
                 {
-                    "name": "锏",
-                    "skill": 3,
-                    "skill_usage": 1
-                },
-                {
                     "name": "煌",
                     "skill": 2,
                     "skill_usage": 0
                 },
                 {
-                    "name": "百炼嘉维尔",
+                    "name": "乌尔比安",
                     "skill": 2,
-                    "skill_usage": 1
+                    "skill_usage": 0
+                },
+                {
+                    "name": "赫德雷",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 1
                 }
             ]
         },
@@ -99,14 +101,14 @@
             "name": "重装-要塞",
             "opers": [
                 {
-                    "name": "火哨",
+                    "name": "号角",
                     "skill": 1,
                     "skill_usage": 0
                 },
                 {
-                    "name": "号角",
+                    "name": "火哨",
                     "skill": 1,
-                    "skill_usage": 1
+                    "skill_usage": 0
                 }
             ]
         },
@@ -119,17 +121,18 @@
                     "skill_usage": 0
                 },
                 {
-                    "name": "澄闪",
+                    "name": "娜仁图亚",
+                    "skill": 1,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                },
+                {
+                    "name": "酒神",
                     "skill": 2,
                     "skill_usage": 0
                 },
                 {
-                    "name": "逻各斯",
-                    "skill": 1,
-                    "skill_usage": 0
-                },
-                {
-                    "name": "假日威龙陈",
+                    "name": "维什戴尔",
                     "skill": 1,
                     "skill_usage": 0
                 }
@@ -139,47 +142,24 @@
             "name": "医疗-医师",
             "opers": [
                 {
-                    "name": "闪灵",
-                    "skill": 2,
-                    "skill_usage": 0
-                },
-                {
-                    "name": "华法琳"
-                },
-                {
                     "name": "纯烬艾雅法拉",
                     "skill": 1,
                     "skill_usage": 0
                 },
                 {
-                    "name": "流明"
-                },
-                {
-                    "name": "蜜莓"
-                },
-                {
-                    "name": "桑葚"
-                },
-                {
-                    "name": "嘉维尔"
-                },
-                {
-                    "name": "焰影苇草",
-                    "skill": 2,
-                    "skill_usage": 1
-                },
-                {
-                    "name": "图耶",
-                    "skill": 2,
-                    "skill_usage": 1
-                },
-                {
-                    "name": "絮雨",
-                    "skill": 2,
+                    "name": "流明",
+                    "skill": 1,
                     "skill_usage": 0
                 },
                 {
-                    "name": "末药"
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "桑葚",
+                    "skill": 1,
+                    "skill_usage": 0
                 }
             ]
         }

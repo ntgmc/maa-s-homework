@@ -1,0 +1,184 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "PR-D-2 近卫特种芯片 速刷 近理论最速",
+        "details": "——————————\n作业更新日期: 2025-06-04T17:32:11Z\n统计更新日期: 2025-06-23\n好评率：100.0%  浏览量：78\n来源：阿拉拉拉  ID：59360\n——————————\n\n九月白景：https://www.bilibili.com/video/BV1uR6xYYE7m?spm_id_from=333.788.recommend_more_video.-1&vd_source=d96c5431059e9a1d0fcf0385526d6057\njson作者：阿拉\n截图增强开启\n练度最低2603"
+    },
+    "stage_name": "pro_d_2",
+    "opers": [
+        {
+            "name": "伊内丝",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "锏",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "伊内丝",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Skill",
+            "name": "伊内丝",
+            "location": [
+                9,
+                6
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "伊内丝",
+            "location": [
+                9,
+                6
+            ],
+            "kills": 2
+        },
+        {
+            "type": "Deploy",
+            "name": "锏",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "魂灵之影",
+            "location": [
+                4,
+                4
+            ],
+            "kills": 9
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right",
+            "name": "伊内丝"
+        },
+        {
+            "type": "Retreat",
+            "name": "伊内丝",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "伊内丝",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "kills": 19,
+            "cooling": 0,
+            "name": "维什戴尔",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "kills": 40,
+            "pre_delay": 12000,
+            "name": "锏",
+            "location": [
+                9,
+                6
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "伊内丝",
+            "location": [
+                3,
+                6
+            ]
+        },
+        {
+            "type": "Skill",
+            "kills": 54,
+            "pre_delay": 2500,
+            "name": "锏",
+            "location": [
+                9,
+                6
+            ]
+        },
+        {
+            "type": "BulletTime",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "SkillDaemon",
+            "name": ""
+        }
+    ],
+    "groups": []
+}
