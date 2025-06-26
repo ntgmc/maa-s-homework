@@ -1,0 +1,49 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                8,
+                4
+            ],
+            "name": "新约能天使",
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "蕾缪安",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "蕾缪安",
+            "kills": 6
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-5 2人速刷信赖",
+        "details": "——————————\n作业更新日期: 2025-06-19T14:29:55Z\n统计更新日期: 2025-06-25\n好评率：93.75%  浏览量：1025\n来源：走在冷风中  ID：60359\n——————————\n原作者：化学老施【BP-4 BP-5 BP-6【生路】少人信赖 速刷晶体元件糖组搓玉 攻略合集 二人堵门信赖材料 明日方舟 250619】 https://www.bilibili.com/video/BV1zcN4zNEzU/\n\n亲测60级3模组蕾缪安&&70级精3无模组新约能天使能过。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "蕾缪安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "新约能天使",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}

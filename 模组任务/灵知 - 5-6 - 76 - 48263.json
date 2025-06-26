@@ -1,0 +1,101 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_05-06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "山",
+            "pre_delay": 4000
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "灵知",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰装置",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "灵知",
+            "costs": 38
+        },
+        {
+            "type": "Deploy",
+            "name": "提丰",
+            "location": [
+                4,
+                3
+            ],
+            "costs": 52,
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "灵知",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "灵知模组任务 - 5-6 - 一号项目模型",
+        "details": "——————————\n作业更新日期: 2025-03-08T07:38:03Z\n统计更新日期: 2025-06-25\n好评率：76.19%  浏览量：442\n来源：一只摆烂的42  ID：48263\n——————————\n灵知「一号项目模型」模组任务\n3星通关主题曲5-6；必须编入非助战灵知并上场，且使用灵知击败至少5个法术大师A1\n原视频：https://www.bilibili.com/video/BV1FH9mYkELq/\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "灵知",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "提丰",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}
