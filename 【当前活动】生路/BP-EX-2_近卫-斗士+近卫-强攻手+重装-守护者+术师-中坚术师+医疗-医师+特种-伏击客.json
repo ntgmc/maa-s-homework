@@ -65,7 +65,7 @@
     ],
     "doc": {
         "title": "生路 - BP-EX-2 - 纪念坛-阿戈尔和平",
-        "details": "——————————\n作业更新日期: 2025-06-19T09:54:10Z\n统计更新日期: 2025-06-21\n好评率：99.8%  浏览量：3774\n来源：作业超大杯  ID：38535\n——————————\n生路 - BP-EX-2(Raid) - 纪念坛-阿戈尔和平"
+        "details": "——————————\n作业更新日期: 2025-06-25T06:48:58Z\n统计更新日期: 2025-06-27\n好评率：99.89%  浏览量：5940\n来源：作业超大杯  ID：38535\n——————————\n生路 - BP-EX-2(Raid) - 纪念坛-阿戈尔和平"
     },
     "groups": [
         {
@@ -78,10 +78,14 @@
                     "skill_usage": 2
                 },
                 {
-                    "name": "圣约送葬人"
+                    "name": "圣约送葬人",
+                    "skill": 1,
+                    "skill_usage": 0
                 },
                 {
-                    "name": "羽毛笔"
+                    "name": "羽毛笔",
+                    "skill": 1,
+                    "skill_usage": 0
                 },
                 {
                     "name": "推进之王",
@@ -112,7 +116,13 @@
                 {
                     "name": "棘刺",
                     "skill": 3,
-                    "skill_usage": 1
+                    "skill_usage": 2,
+                    "skill_times": 2
+                },
+                {
+                    "name": "维娜·维多利亚",
+                    "skill": 2,
+                    "skill_usage": 0
                 }
             ]
         },
@@ -142,6 +152,11 @@
                 {
                     "name": "艾雅法拉",
                     "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "烛煌",
+                    "skill": 1,
                     "skill_usage": 0
                 },
                 {
@@ -195,13 +210,17 @@
             "name": "特种-伏击客",
             "opers": [
                 {
-                    "name": "水月"
-                },
-                {
-                    "name": "狮蝎"
-                },
-                {
                     "name": "阿斯卡纶",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "狮蝎",
                     "skill": 1,
                     "skill_usage": 0
                 }
