@@ -421,6 +421,9 @@ level_data = get_level_data()
 all_dict = build_complex_dict(level_data)
 cat_three_all_dict = build_dict(level_data, "cat_three")
 activity_data, now_activities = get_activity_data()
+# 手动添加活动数据
+activity_data["引航者试炼 #05"] = {"status": "进行中", "id": "act5bossrush_"}
+
 if not activity_data:
     print("Fail to get activity data.")
     exit(0)
