@@ -1,0 +1,65 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act34side_03",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                3,
+                2
+            ],
+            "name": "古米",
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                4,
+                3
+            ],
+            "name": "维什戴尔",
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                4,
+                3
+            ],
+            "name": "维什戴尔",
+            "pre_delay": 4800
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 1250,
+            "name": "维什戴尔",
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "生路 - BP-3 - 如海雪纷散",
+        "details": "——————————\n作业更新日期: 2025-06-19T09:29:57Z\n统计更新日期: 2025-06-28\n好评率：100.0%  浏览量：1004\n来源：焕彩gg  ID：60270\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
