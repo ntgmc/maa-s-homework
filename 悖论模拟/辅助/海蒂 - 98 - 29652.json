@@ -1,0 +1,99 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_heidi_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "海蒂",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "costs": 6
+        },
+        {
+            "type": "Skill",
+            "name": "海蒂",
+            "location": [
+                4,
+                4
+            ],
+            "costs": 15,
+            "pre_delay": 4000
+        },
+        {
+            "type": "Deploy",
+            "name": "焰影苇草",
+            "location": [
+                4,
+                5
+            ],
+            "costs": 17,
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "海蒂",
+            "location": [
+                4,
+                4
+            ],
+            "kills": 10
+        },
+        {
+            "type": "Skill",
+            "name": "风丸",
+            "location": [
+                3,
+                5
+            ],
+            "kills": 14
+        },
+        {
+            "type": "Skill",
+            "name": "海蒂",
+            "kills": 51,
+            "rear_delay": 0,
+            "pre_delay": 11500
+        },
+        {
+            "type": "Skill",
+            "name": "风丸",
+            "kills": 0,
+            "rear_delay": 0,
+            "pre_delay": 0,
+            "cooling": 1
+        }
+    ],
+    "doc": {
+        "title": "辅助 - 海蒂 - 滴水不漏",
+        "details": "——————————\n作业更新日期: 2023-11-01T13:35:36Z\n统计更新日期: 2025-06-27\n好评率：98.0%  浏览量：1393\n来源：空中花园的蒂视者  ID：29652\n——————————\n海蒂带二，可能的翻车点在狗大队处和最后灰礼帽处，灰礼帽处可手动开风丸技能砸他。技术有限还请见谅"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "海蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "焰影苇草",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "风丸",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "谜图",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

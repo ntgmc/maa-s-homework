@@ -66,7 +66,7 @@
     ],
     "doc": {
         "title": "生路 - BP-EX-1 - 纪耻柱-无谓的纷争",
-        "details": "——————————\n作业更新日期: 2025-06-19T09:53:18Z\n统计更新日期: 2025-06-21\n好评率：99.15%  浏览量：3651\n来源：作业超大杯  ID：38532\n——————————\n萧然q"
+        "details": "——————————\n作业更新日期: 2025-06-25T06:39:27Z\n统计更新日期: 2025-06-27\n好评率：99.43%  浏览量：5683\n来源：作业超大杯  ID：38532\n——————————\n萧然q"
     },
     "groups": [
         {
@@ -91,7 +91,8 @@
                 {
                     "name": "棘刺",
                     "skill": 3,
-                    "skill_usage": 1
+                    "skill_usage": 2,
+                    "skill_times": 2
                 }
             ]
         },
@@ -104,10 +105,14 @@
                     "skill_usage": 0
                 },
                 {
-                    "name": "黍"
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
                 },
                 {
-                    "name": "临光"
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
                 },
                 {
                     "name": "深律",
@@ -120,12 +125,17 @@
             "name": "狙击-速射手",
             "opers": [
                 {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
                     "name": "能天使",
                     "skill": 3,
                     "skill_usage": 0
                 },
                 {
-                    "name": "隐现",
+                    "name": "新约能天使",
                     "skill": 1,
                     "skill_usage": 0
                 },
@@ -138,6 +148,11 @@
                     "name": "灰烬",
                     "skill": 2,
                     "skill_usage": 1
+                },
+                {
+                    "name": "隐现",
+                    "skill": 1,
+                    "skill_usage": 0
                 },
                 {
                     "name": "蓝毒",
@@ -160,8 +175,19 @@
                     "skill_usage": 0
                 },
                 {
-                    "name": "逻各斯",
+                    "name": "娜仁图亚",
                     "skill": 1,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                },
+                {
+                    "name": "塑心",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "酒神",
+                    "skill": 2,
                     "skill_usage": 0
                 }
             ]
@@ -195,10 +221,14 @@
                     "skill_usage": 0
                 },
                 {
-                    "name": "焰尾"
+                    "name": "焰尾",
+                    "skill": 1,
+                    "skill_usage": 0
                 },
                 {
-                    "name": "伊内丝"
+                    "name": "伊内丝",
+                    "skill": 1,
+                    "skill_usage": 0
                 },
                 {
                     "name": "风笛",
@@ -206,7 +236,9 @@
                     "skill_usage": 0
                 },
                 {
-                    "name": "德克萨斯"
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
                 }
             ]
         }

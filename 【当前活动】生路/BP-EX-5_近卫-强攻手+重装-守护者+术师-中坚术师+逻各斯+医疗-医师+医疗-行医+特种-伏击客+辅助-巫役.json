@@ -111,7 +111,7 @@
     ],
     "doc": {
         "title": "生路 - BP-EX-5 - 水脉中枢-洋流喷泉",
-        "details": "——————————\n作业更新日期: 2025-06-24T09:04:03Z\n统计更新日期: 2025-06-25\n好评率：98.3%  浏览量：3931\n来源：作业超大杯  ID：38540\n——————————\n生路 - BP-EX-5 - 水脉中枢-洋流喷泉"
+        "details": "——————————\n作业更新日期: 2025-06-26T07:24:19Z\n统计更新日期: 2025-06-27\n好评率：98.28%  浏览量：4247\n来源：作业超大杯  ID：38540\n——————————\n生路 - BP-EX-5 - 水脉中枢-洋流喷泉"
     },
     "groups": [
         {
@@ -193,16 +193,6 @@
                     "skill": 1,
                     "skill_usage": 2,
                     "skill_times": 1
-                },
-                {
-                    "name": "黑键",
-                    "skill": 2,
-                    "skill_usage": 0
-                },
-                {
-                    "name": "烛煌",
-                    "skill": 1,
-                    "skill_usage": 0
                 }
             ]
         },
@@ -221,6 +211,16 @@
                 },
                 {
                     "name": "流明",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "Mon3tr",
                     "skill": 1,
                     "skill_usage": 0
                 }
@@ -305,13 +305,12 @@
                     "skill_usage": 0
                 },
                 {
-                    "name": "林",
-                    "skill": 1,
-                    "skill_usage": 2,
-                    "skill_times": 1
+                    "name": "酒神",
+                    "skill": 2,
+                    "skill_usage": 0
                 },
                 {
-                    "name": "酒神",
+                    "name": "艾雅法拉",
                     "skill": 2,
                     "skill_usage": 0
                 }
