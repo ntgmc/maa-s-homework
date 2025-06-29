@@ -65,7 +65,7 @@
     ],
     "doc": {
         "title": "生路 - BP-EX-4 - 熔岩导桥-地幔脉搏",
-        "details": "——————————\n作业更新日期: 2024-06-13T05:07:27Z\n统计更新日期: 2025-06-21\n好评率：99.95%  浏览量：5603\n来源：星之海.  ID：38608\n——————————\n原作者：自在道爷\nJSON作者：星之海.\n原视频：\n【【生路】BP-EX-1至8挂机流，突袭刻章都不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(含BP-EX-8突袭，EX-7突袭，EX-3刻章等)】https://www.bilibili.com/video/BV1dT421Y73g?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+        "details": "——————————\n作业更新日期: 2025-06-19T09:47:02Z\n统计更新日期: 2025-06-29\n好评率：99.09%  浏览量：1008\n来源：laniakea  ID：60276\n——————————\n原作者：自在道爷\nJSON作者：星之海.\n原视频：\n【【生路】BP-EX-1至8挂机流，突袭刻章都不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(含BP-EX-8突袭，EX-7突袭，EX-3刻章等)】https://www.bilibili.com/video/BV1dT421Y73g?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
     },
     "groups": [
         {
@@ -74,11 +74,6 @@
                 {
                     "name": "能天使",
                     "skill": 3,
-                    "skill_usage": 0
-                },
-                {
-                    "name": "空弦",
-                    "skill": 1,
                     "skill_usage": 0
                 },
                 {
@@ -94,6 +89,11 @@
                 {
                     "name": "白金",
                     "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "新约能天使",
+                    "skill": 1,
                     "skill_usage": 0
                 }
             ]
