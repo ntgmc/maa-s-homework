@@ -524,7 +524,7 @@ def get_activity_data():
         activity_page = cols[1].find('a')
         category = cols[2].text.strip()
         status_span = cols[1].find('span', {'class': 'TLDcontainer'})
-        if ("支线故事" in category or "故事集" in category) and activity_page:
+        if ("支线故事" in category or "故事集" in category or "引航者试炼" in category) and activity_page:
             activity_name = activity_page.text.strip()
             activity_id = ""
             status = "已结束"
@@ -1045,7 +1045,7 @@ def settings_set():
     elif choose1 == "2":  # 下载配置
         choose2 = str(int_input("下载配置：\n1. 设置\n2. 查看配置\n请选择操作：", "b", 1, 2))
         if choose2 == "1":  # 设置下载配置
-            choose3 = ask_setting_num(setting, 'download', True)
+            choose3 = ask_setting_num(setting, 'download')
             if choose3 != "b":
                 if "download" not in setting:
                     setting["download"] = {}
@@ -1106,9 +1106,8 @@ level_data = load_level_data()
 all_dict = build_complex_dict(level_data)
 cat_three_dict = build_dict(level_data, "cat_three")
 activity_data, now_activities = get_activity_data()
-# 手动添加活动
-# activity_data["追迹日落以西"] = {"status": "进行中", "id": "act37side"}
-# now_activities = ['追迹日落以西']
+# 手动添加活动数据
+activity_data["引航者试炼 #05"] = {"status": "进行中", "id": "act5bossrush_"}
 
 if load_settings():
     log_message("Successfully loaded settings. 成功加载设置")
