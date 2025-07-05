@@ -1,0 +1,135 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act5bossrush_ex02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "新约能天使",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "蕾缪安",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                3.5,
+                0
+            ],
+            "kills": 16,
+            "pre_delay": 15000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                5.5,
+                0
+            ],
+            "kills": 25,
+            "pre_delay": 15000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "蕾缪安",
+            "location": [
+                18,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "新约能天使",
+            "location": [
+                17,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "direction": "Left",
+            "location": [
+                17,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "location": [
+                18,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "TN-2 - 无声破裂 初始/定向/恢宏",
+        "details": "——————————\n作业更新日期: 2025-06-28T00:42:46Z\n统计更新日期: 2025-07-05\n好评率：93.41%  浏览量：4280\n来源：夜HBK  ID：61030\n——————————\n遏制单元带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载\n\n简单好抄，带全面过载，2级及以上，1级没试过不知道能不能过，干员都是2903 3级模组，黍用7级技能也能过\n攻略来自B站大佬墙角涂鸦，对我这种只抽限定其他作业缺角色的非常好用，于是自己跟着流程做了个脚本，方便大家使用，觉得好用给大佬点点赞\n作业视频链接：\n【TN-2初始/定向/恢宏 4人摆完挂机】 https://www.bilibili.com/video/BV12EKJzYEzU/?share_source=copy_web&vd_source=2d8ae98b937416e5597f6573488e56ea"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "新约能天使",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "蕾缪安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

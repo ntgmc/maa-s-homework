@@ -1,0 +1,151 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act5bossrush_fin04",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "蕾缪安",
+            "direction": "Right",
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "新约能天使",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "direction": "Up",
+            "location": [
+                7,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                2.5,
+                0
+            ],
+            "kills": 4,
+            "pre_delay": 15000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1500
+        },
+        {
+            "type": "Deploy",
+            "kills": 0,
+            "cooling": 0,
+            "pre_delay": 0,
+            "name": "新约能天使",
+            "direction": "Down",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                5.5,
+                0
+            ],
+            "kills": 13,
+            "pre_delay": 15000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1500
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "costs": 99,
+            "cooling": 0,
+            "location": [
+                16,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "新约能天使",
+            "location": [
+                15,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                16,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "蕾缪安",
+            "location": [
+                17,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "TN-4 - 沸海遮日初始/定向/恢宏/最终",
+        "details": "——————————\n作业更新日期: 2025-06-25T23:31:49Z\n统计更新日期: 2025-07-05\n好评率：97.1%  浏览量：7276\n来源：夜HBK  ID：61027\n——————————\n简单好抄，带全面过载，2级及以上，1级没试过不知道能不能过，干员都是2903 3级模组，黍用7级技能也能过\n攻略来自B站大佬墙角涂鸦，对我这种只抽限定其他作业缺角色的非常好用，于是自己跟着流程做了个脚本，方便大家使用，觉得好用给大佬点点赞\n作业视频链接：\n【TN-4初始/定向/恢宏/最终 4人摆完挂机】 https://www.bilibili.com/video/BV1rbKJzdE4D/?share_source=copy_web&vd_source=2d8ae98b937416e5597f6573488e56ea"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "新约能天使",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "蕾缪安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
