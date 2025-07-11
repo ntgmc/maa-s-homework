@@ -1107,7 +1107,9 @@ all_dict = build_complex_dict(level_data)
 cat_three_dict = build_dict(level_data, "cat_three")
 activity_data, now_activities = get_activity_data()
 # 手动添加活动数据
-activity_data["引航者试炼 #05"] = {"status": "进行中", "id": "act5bossrush_"}
+# now_activities = ["引航者试炼 #05"]
+# activity_data["引航者试炼 #05"] = {"status": "进行中", "id": "act5bossrush_"}
+log_message(f"活动数据: {now_activities} {activity_data}", logging.DEBUG, False)
 
 if load_settings():
     log_message("Successfully loaded settings. 成功加载设置")
