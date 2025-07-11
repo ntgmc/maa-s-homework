@@ -1,0 +1,103 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_melee_6",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                1,
+                2
+            ],
+            "kills": 0,
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                1,
+                2
+            ],
+            "kills": 1
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                1,
+                2
+            ],
+            "kills": 4
+        },
+        {
+            "type": "Deploy",
+            "name": "重岳",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                1,
+                2
+            ],
+            "kills": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "蛇屠箱",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "kills": 35,
+            "name": "维什戴尔",
+            "location": [
+                1,
+                2
+            ]
+        },
+        {
+            "type": "SkillDaemon",
+            "kills": 36
+        }
+    ],
+    "doc": {
+        "title": "货物运送 - CE-6 - 实验原件押运",
+        "details": "——————————\n作业更新日期: 2025-02-23T07:44:40Z\n统计更新日期: 2025-07-11\n好评率：100.0%  浏览量：48\n来源：无赖战士  ID：47473\n——————————\n\n货物运送 - CE-6 - 实验原件押运"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "重岳",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
