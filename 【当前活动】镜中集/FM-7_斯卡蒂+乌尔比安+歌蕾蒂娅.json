@@ -1,0 +1,94 @@
+{
+    "stage_name": "act19mini_07",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "三人 FM-7 - 求退则惘",
+        "details": "——————————\n作业更新日期: 2025-07-08T18:42:18Z\n统计更新日期: 2025-07-11\n好评率：96.15%  浏览量：1078\n来源：晓丶梦丶仁  ID：62726\n——————————\n@晓丶梦丶仁\n2903+3\n© 2019. This work is openly licensed via CC BY-NC-ND 4.0.\nSee license details on https://creativecommons.org/licenses/by-nc-nd/4.0/"
+    },
+    "opers": [
+        {
+            "name": "斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "module": 2
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "module": 1
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "斯卡蒂",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "kills": 9
+        },
+        {
+            "type": "Retreat",
+            "pre_delay": 9000,
+            "name": "斯卡蒂",
+            "direction": "Up",
+            "location": [
+                5,
+                2
+            ]
+        },
+        {
+            "name": "斯卡蒂",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

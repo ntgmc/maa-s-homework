@@ -1,0 +1,181 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_15-16",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "开局（自回）",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "铃兰",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "特种-伏击客",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "skill_usage": 0,
+            "direction": "Left",
+            "location": [
+                10,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "弱化节点",
+            "location": [
+                8,
+                4
+            ],
+            "kills": 18
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯",
+            "location": [
+                8,
+                5
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "15-18 从未怀疑，从未远离（沙盘需特定阵容）",
+        "details": "——————————\n作业更新日期: 2025-06-19T08:33:35Z\n统计更新日期: 2025-07-11\n好评率：97.96%  浏览量：1169\n来源：飘ipao  ID：50012\n——————————\n\nmaa测试已过（一定要用山和阿斯卡伦才能打沙盘！！！！！）\n夜莺2603 3x\n塞雷娅2803 3y（山2603 3x）\n水月2903 3x （阿斯卡伦2903 3x）\n伊芙利特2603 3x\n铃兰2607\n艾雅法拉2803 3x\n桃金娘2403 3x\n德克萨斯2307\n沙盘左左测试已过（注意要用山和阿斯卡伦，阿斯卡伦练度＞2603 1x可过）"
+    },
+    "groups": [
+        {
+            "name": "开局（自回）",
+            "opers": [
+                {
+                    "name": "山",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "特种-伏击客",
+            "opers": [
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 0
+}

@@ -1,0 +1,64 @@
+{
+    "stage_name": "act19mini_03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "FM-3 - 求遐则失",
+        "details": "——————————\n作业更新日期: 2025-07-08T15:34:28Z\n统计更新日期: 2025-07-11\n好评率：99.94%  浏览量：4624\n来源：星之海.  ID：62614\n——————————\n请确保所用干员练度达到本作业所需练度，否则将会有干员暴毙及漏怪风险！！！\n此作业全员专三且模组一级\n原作者：自在道爷    JSON作者：星之海.\n社区评论不会提醒，作业有问题可以进群找我：994516079\n原视频：【【镜中集】FM-1至FM-8挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(分p更新中)】https://www.bilibili.com/video/BV1QPGnzWEjy?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+    },
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "泥岩",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "泵站",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

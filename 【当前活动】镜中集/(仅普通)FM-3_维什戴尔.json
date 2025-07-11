@@ -1,0 +1,98 @@
+{
+    "stage_name": "FM-3",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "FM-3 求遐则失",
+        "details": "——————————\n作业更新日期: 2025-07-08T12:57:10Z\n统计更新日期: 2025-07-11\n好评率：98.64%  浏览量：1217\n来源：法芙娜尔  ID：62673\n——————————\n作者： spider丿小蜘蛛\n\n【明日方舟】镜中集FM-1至8（含突袭）全关卡攻略，维什戴尔单核，简单好抄！（含FM-S-1至2）持续更新中......】https://www.bilibili.com/video/BV1QcGnzxEDc?vd_source=7462d0ecccafba67f3b1ef8f40189ef9"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "泵站",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 1
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "pre_delay": 100
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                1,
+                5
+            ],
+            "pre_delay": 40
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                2,
+                4
+            ],
+            "pre_delay": 40
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 11,
+            "pre_delay": 10
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 19,
+            "pre_delay": 10
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 23,
+            "pre_delay": 50
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 30,
+            "pre_delay": 10
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 1
+}

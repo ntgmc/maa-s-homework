@@ -1,0 +1,85 @@
+{
+    "stage_name": "act19mini_05",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "FM-5 - 求缓则迟",
+        "details": "——————————\n作业更新日期: 2025-07-08T13:41:36Z\n统计更新日期: 2025-07-11\n好评率：93.33%  浏览量：1174\n来源：法芙娜尔  ID：62679\n——————————\n【明日方舟】镜中集FM-1至8（含突袭）全关卡攻略，维什戴尔单核，简单好抄！（含FM-S-1至2）持续更新中......】https://www.bilibili.com/video/BV1QcGnzxEDc?vd_source=7462d0ecccafba67f3b1ef8f40189ef9\n(最好带个低费挡怪的地面干员,防止漏怪)"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "任意地面重装",
+            "opers": [
+                {
+                    "name": "黑角"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "costs": 11,
+            "pre_delay": 10
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 4
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "costs": 70,
+            "pre_delay": 10
+        },
+        {
+            "name": "任意地面干员",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "doc": "防止漏怪",
+            "doc_color": "DarkRed"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 19
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 21
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

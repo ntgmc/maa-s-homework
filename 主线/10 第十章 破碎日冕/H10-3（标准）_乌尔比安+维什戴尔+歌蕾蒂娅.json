@@ -1,0 +1,61 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_10-03",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                11,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十章 破碎日冕 - H10-3（标准） - 日晕行动-3",
+        "details": "——————————\n作业更新日期: 2025-04-12T00:29:37Z\n统计更新日期: 2025-07-11\n好评率：95.16%  浏览量：1034\n来源：murasame  ID：50037\n——————————\n\nhttps://www.bilibili.com/video/BV1j1421C7Vn/\n仅搬运，侵删\n视频练度均为2903，实测歌蒂可60级，需开模组给饼干回血，低于此练度请自行补输出"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
