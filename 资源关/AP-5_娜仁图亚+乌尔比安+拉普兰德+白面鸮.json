@@ -1,0 +1,71 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_toxic_5",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                3,
+                3
+            ],
+            "name": "娜仁图亚",
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                2,
+                1
+            ],
+            "name": "拉普兰德",
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "粉碎防御 - AP-5 - 精炼工厂保全",
+        "details": "——————————\n作业更新日期: 2025-07-12T14:45:40Z\n统计更新日期: 2025-07-13\n好评率：100.0%  浏览量：6\n来源：蜜桃四季春  ID：62950\n——————————\n\n自用"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "娜仁图亚",
+            "skill_times": 1,
+            "skill_usage": 2,
+            "skill": 1
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德"
+        },
+        {
+            "name": "白面鸮",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}
