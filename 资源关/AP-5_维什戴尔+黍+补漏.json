@@ -1,73 +1,29 @@
 {
-    "minimum_required": "v4.0.0",
     "stage_name": "wk_toxic_5",
-    "actions": [
-        {
-            "type": "SpeedUp"
-        },
-        {
-            "type": "Deploy",
-            "name": "黍",
-            "location": [
-                5,
-                5
-            ],
-            "direction": "Right",
-            "costs": 44
-        },
-        {
-            "type": "Deploy",
-            "name": "维什戴尔",
-            "location": [
-                7,
-                4
-            ],
-            "direction": "Left"
-        },
-        {
-            "type": "Skill",
-            "name": "维什戴尔",
-            "location": [
-                7,
-                4
-            ],
-            "kills": 11
-        },
-        {
-            "type": "Skill",
-            "name": "维什戴尔",
-            "location": [
-                7,
-                4
-            ],
-            "kills": 15
-        },
-        {
-            "type": "Deploy",
-            "name": "补漏",
-            "location": [
-                1,
-                1
-            ],
-            "direction": "Left",
-            "kills": 31,
-            "pre_delay": 5000
-        },
-        {
-            "type": "Skill",
-            "name": "维什戴尔",
-            "location": [
-                7,
-                4
-            ],
-            "kills": 34,
-            "pre_delay": 0
-        }
-    ],
+    "minimum_required": "v4.0.0",
     "doc": {
         "title": "【双核】优化版 - AP-5 - 精炼工厂保全",
-        "details": "——————————\n作业更新日期: 2025-05-24T06:41:07Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：184\n来源：Martin Zhao  ID：57355\n——————————\n\n攻略作者：LitYr  https://www.bilibili.com/video/BV1Ew4m1975A\n攻略优化：Martin Zhao\n自动战斗作者：Martin Zhao\n练度：维什戴尔2903，黍2803\n对原攻略做了一些优化，添加了补漏用的干员，日后可能会扩充补漏干员列表"
+        "details": "——————————\n作业更新日期: 2025-07-13T05:59:16Z\n统计更新日期: 2025-07-15\n好评率：100.0%  浏览量：267\n来源：Martin Zhao  ID：57355\n——————————\n\n攻略作者：LitYr  https://www.bilibili.com/video/BV1Ew4m1975A\n攻略优化：Martin Zhao\n自动战斗作者：Martin Zhao\n练度：维什戴尔29010，黍28010\n对原攻略做了一些优化，添加了补漏用的干员，日后可能会扩充补漏干员列表"
     },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "module": 1
+            }
+        },
+        {
+            "name": "黍",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 80
+            }
+        }
+    ],
     "groups": [
         {
             "name": "补漏",
@@ -75,28 +31,43 @@
                 {
                     "name": "陈",
                     "skill": 2,
-                    "skill_usage": 1
+                    "skill_usage": 1,
+                    "requirements": {
+                        "level": 70
+                    }
                 },
                 {
                     "name": "风笛",
                     "skill": 2,
-                    "skill_usage": 0
+                    "skill_usage": 0,
+                    "requirements": {
+                        "level": 70
+                    }
                 },
                 {
                     "name": "山",
                     "skill": 2,
                     "skill_usage": 2,
-                    "skill_times": 1
+                    "skill_times": 1,
+                    "requirements": {
+                        "level": 90
+                    }
                 },
                 {
                     "name": "史尔特尔",
                     "skill": 3,
-                    "skill_usage": 1
+                    "skill_usage": 1,
+                    "requirements": {
+                        "level": 90
+                    }
                 },
                 {
                     "name": "斯卡蒂",
                     "skill": 2,
-                    "skill_usage": 0
+                    "skill_usage": 0,
+                    "requirements": {
+                        "level": 70
+                    }
                 },
                 {
                     "name": "孑",
@@ -126,16 +97,68 @@
             ]
         }
     ],
-    "opers": [
+    "actions": [
         {
-            "name": "维什戴尔",
-            "skill": 3,
-            "skill_usage": 0
+            "type": "SpeedUp"
         },
         {
             "name": "黍",
-            "skill": 3,
-            "skill_usage": 1
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "costs": 44
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 11
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 15
+        },
+        {
+            "name": "补漏",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 31,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 34,
+            "pre_delay": 0
         }
-    ]
+    ],
+    "version": 3
 }
