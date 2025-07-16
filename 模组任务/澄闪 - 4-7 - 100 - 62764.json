@@ -1,0 +1,139 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_04-07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "先锋",
+            "direction": "Up",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                2,
+                5
+            ],
+            "name": "速狙",
+            "direction": "Up"
+        }
+    ],
+    "doc": {
+        "title": "模组任务-澄闪 第四章 急性衰竭 - 4-7 - 各取所需",
+        "details": "——————————\n作业更新日期: 2025-07-09T02:38:42Z\n统计更新日期: 2025-07-16\n好评率：100.0%  浏览量：45\n来源：Mr.Mary  ID：62764\n——————————\n模组任务-澄闪 第四章 急性衰竭 - 4-7 - 各取所需\n自用，精二90级专三\n任务要求：\n1.战斗中非助战澄闪累计使用澄净闪耀”(2/10)（只能用2-3次）\n2.3星通关主题曲4-7;必须编入非助战澄闪并上场，其他成员仅可编入5名干员"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "先锋",
+            "opers": [
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "嵯峨",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "推进之王",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "忍冬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "焰尾",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "风笛",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "速狙",
+            "opers": [
+                {
+                    "name": "能天使",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "空弦",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}
