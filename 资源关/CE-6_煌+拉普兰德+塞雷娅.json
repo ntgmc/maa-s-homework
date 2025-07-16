@@ -1,0 +1,55 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_melee_6",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "货物运送 - CE-6 - 实验原件押运自用",
+        "details": "——————————\n作业更新日期: 2025-07-12T00:37:51Z\n统计更新日期: 2025-07-15\n好评率：100.0%  浏览量：21\n来源：钦墨不给我看腿  ID：62920\n——————————\n\n原作者：自在道爷\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

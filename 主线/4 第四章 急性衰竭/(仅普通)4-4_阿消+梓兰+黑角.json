@@ -1,0 +1,240 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_04-04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                11,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                1,
+                2
+            ],
+            "costs": 68
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Retreat",
+            "name": "障碍物",
+            "location": [
+                1,
+                5
+            ],
+            "kills": 21
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿消",
+            "location": [
+                11,
+                4
+            ],
+            "kills": 23,
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "阿消",
+            "location": [
+                11,
+                4
+            ],
+            "kills": 25
+        },
+        {
+            "type": "Deploy",
+            "name": "梓兰",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "梓兰",
+            "location": [
+                2,
+                5
+            ],
+            "kills": 34
+        },
+        {
+            "type": "Deploy",
+            "name": "阿消",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Down",
+            "kills": 51
+        },
+        {
+            "type": "Retreat",
+            "name": "障碍物",
+            "location": [
+                1,
+                2
+            ],
+            "kills": 52
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Retreat",
+            "name": "阿消",
+            "location": [
+                1,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Right",
+            "kills": 56
+        },
+        {
+            "type": "Deploy",
+            "name": "梓兰",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Up",
+            "kills": 56
+        },
+        {
+            "type": "Retreat",
+            "name": "障碍物",
+            "location": [
+                1,
+                5
+            ],
+            "kills": 59
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Output",
+            "doc_color": "Gold",
+            "doc": "60杀以后可以随便放喜欢的干员庆祝呀"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第四章 急性衰竭 - 4-4 - 不要滑倒",
+        "details": "——————————\n作业更新日期: 2024-03-02T04:59:11Z\n统计更新日期: 2025-07-15\n好评率：85.42%  浏览量：1005\n来源：human233  ID：32894\n——————————\n\n调箱师（阿消一技能5级以上）\nhttps://www.bilibili.com/video/BV14t411w7GD?p=1&vd_source=28649ffff17b3baa497e64845e6c26c1\n由于不明原因作业会出现卡顿，可以自己更新。不需要改动，随便点击一个修改然后直接保存即可。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "阿消",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "梓兰",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}
