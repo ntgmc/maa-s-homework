@@ -207,7 +207,7 @@ def cache_delete_save(_cache_dict, found_ids, id_list, cat_three):
 def less_search(keyword):
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=999&levelKeyword={keyword}&desc=true&orderBy=views"
     _headers = {
-        "Origin": "https://prts.plus",
+        "Origin": "https://zoot.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
     _response = requests.get(url, headers=_headers)

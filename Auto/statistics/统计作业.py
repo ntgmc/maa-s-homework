@@ -11,7 +11,7 @@ max_likes_dict = {}
 
 # url = "https://prts.maa.plus/copilot/query?page=1&limit=99999&levelKeyword=&desc=true&orderBy=views"
 # _headers = {
-#     "Origin": "https://prts.plus",
+#     "Origin": "https://zoot.plus",
 #     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
 # }
 #

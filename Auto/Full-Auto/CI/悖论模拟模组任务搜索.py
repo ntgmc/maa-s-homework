@@ -198,7 +198,7 @@ def code_output(percent, _id, mode):
 def less_search_paradox():
     url = "https://prts.maa.plus/copilot/query?page=1&limit=9999&levelKeyword=mem_&desc=true&orderBy=views"
     _headers = {
-        "Origin": "https://prts.plus",
+        "Origin": "https://zoot.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
 
@@ -279,7 +279,7 @@ def search_module(name, stage):
         doc = "模组"
     url = f"https://prts.maa.plus/copilot/query?page=1&limit=15&levelKeyword={stage}&operator={name}&document={doc}&desc=true&orderBy=views"
     _headers = {
-        "Origin": "https://prts.plus",
+        "Origin": "https://zoot.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
     _response = requests.get(url, headers=_headers)
