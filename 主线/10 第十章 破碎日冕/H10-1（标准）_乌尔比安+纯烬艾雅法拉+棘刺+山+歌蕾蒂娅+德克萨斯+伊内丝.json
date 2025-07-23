@@ -1,0 +1,118 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_10-01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊内丝",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "伊内丝",
+            "location": [
+                8,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                11,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                1,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十章 破碎日冕 - H10-1（标准） - 日晕行动-1",
+        "details": "——————————\n作业更新日期: 2025-04-03T19:54:54Z\n统计更新日期: 2025-07-23\n好评率：98.36%  浏览量：1060\n来源：JIUYOU  ID：49451\n——————————\n\n【【H10-1】 4人摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1S8wBe9EmD/?share_source=copy_web&vd_source=518686dca183d8e8348d9998f5ae1061"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 2
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊内丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

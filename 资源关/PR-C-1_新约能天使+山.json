@@ -1,0 +1,61 @@
+{
+    "stage_name": "pro_c_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "【双人】势不可挡 - PR-C-1 - 急行",
+        "details": "——————————\n作业更新日期: 2025-07-13T06:19:24Z\n统计更新日期: 2025-07-23\n好评率：100.0%  浏览量：36\n来源：Martin Zhao  ID：62967\n——————————\n\n参考：有鬼在吗 maa://22786\n自动战斗作者：Martin Zhao\n练度：新约能天使28010，山28010"
+    },
+    "opers": [
+        {
+            "name": "新约能天使",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 80,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1,
+            "requirements": {
+                "level": 80
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "BulletTime",
+            "name": "新约能天使",
+            "costs": 8
+        },
+        {
+            "name": "山",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "新约能天使",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

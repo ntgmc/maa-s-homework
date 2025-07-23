@@ -6,11 +6,10 @@
             "type": "Deploy",
             "name": "令",
             "location": [
-                8,
-                4
+                3,
+                5
             ],
-            "direction": "Down",
-            "costs": 11
+            "direction": "Left"
         },
         {
             "type": "SpeedUp"
@@ -19,44 +18,16 @@
             "type": "Deploy",
             "name": "“弦惊”",
             "location": [
-                3,
+                5,
                 3
             ],
-            "direction": "Left",
-            "costs": 18
-        },
-        {
-            "type": "Deploy",
-            "name": "“弦惊”",
-            "location": [
-                2,
-                3
-            ],
-            "direction": "Down"
+            "direction": "Left"
         },
         {
             "type": "Deploy",
             "name": "“弦惊”",
             "location": [
                 8,
-                1
-            ],
-            "direction": "Right"
-        },
-        {
-            "type": "Skill",
-            "name": "令",
-            "location": [
-                8,
-                4
-            ],
-            "costs": 15
-        },
-        {
-            "type": "Deploy",
-            "name": "“弦惊”",
-            "location": [
-                7,
                 1
             ],
             "direction": "Right"
@@ -71,41 +42,22 @@
             "direction": "Up"
         },
         {
-            "type": "Skill",
-            "name": "令",
-            "location": [
-                8,
-                4
-            ],
-            "costs": 28,
-            "pre_delay": 10000
-        },
-        {
-            "type": "Retreat",
-            "name": "“弦惊”",
-            "location": [
-                9,
-                2
-            ],
-            "kills": 27
-        },
-        {
             "type": "Deploy",
             "name": "“弦惊”",
             "location": [
-                2,
-                6
+                5,
+                4
             ],
-            "direction": "Left"
+            "direction": "Up"
         },
         {
-            "type": "Retreat",
-            "name": "“弦惊”",
+            "type": "Skill",
+            "name": "令",
             "location": [
-                2,
-                3
+                3,
+                5
             ],
-            "kills": 34
+            "kills": 9
         },
         {
             "type": "Deploy",
@@ -117,18 +69,41 @@
             "direction": "Right"
         },
         {
-            "type": "Retreat",
-            "name": "令",
+            "type": "Deploy",
+            "name": "“弦惊”",
             "location": [
-                8,
-                4
+                7,
+                1
             ],
-            "kills": 39
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "令",
+            "skill_usage": 1
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "kills": 34,
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Left"
         }
     ],
     "doc": {
-        "title": "第十二章 惊霆无声 - 12-7（标准） - 平议生死（理论最速）",
-        "details": "作业更新日期: 2023-04-08T17:10:46Z\n统计更新日期: 2024-11-30\n好评率：64.52%  浏览量：1134\n来源：夜桜之都  ID：22431\n化学老施的作业"
+        "title": "第十二章 - 12-7（标准）速刷 - 平议生死 令单人 理论最速",
+        "details": "——————————\n作业更新日期: 2023-04-07T22:03:53Z\n统计更新日期: 2025-07-23\n好评率：60.0%  浏览量：1403\n来源：Anchor  ID：22352\n——————————\n\n原作者：霧_雨\n原视频：https://www.bilibili.com/video/BV14N411P7Tr\n反正无论如何都要等刁民进点（"
     },
     "groups": [],
     "opers": [

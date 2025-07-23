@@ -1,0 +1,181 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 163
+        },
+        {
+            "type": "Retreat",
+            "name": "黑角",
+            "kills": 195
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 253
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 268,
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                9,
+                3
+            ],
+            "kills": 268,
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 2,
+            "name": "维什戴尔",
+            "kills": 309,
+            "skill_usage": 2
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 335
+        },
+        {
+            "type": "Retreat",
+            "name": "魂灵之影",
+            "location": [
+                6,
+                5
+            ],
+            "kills": 354
+        },
+        {
+            "type": "Retreat",
+            "name": "魂灵之影",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 354
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 375
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 372,
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 380
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 393,
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "【维什戴尔+初始队】龙门外环 稳定400",
+        "details": "——————————\n作业更新日期: 2025-02-27T12:41:16Z\n统计更新日期: 2025-07-23\n好评率：66.67%  浏览量：1019\n来源：Faye  ID：47766\n——————————\n\n助战好友 维什戴尔 \n稍微改了一下更常规更稳定"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}
