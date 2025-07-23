@@ -1,0 +1,59 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_c_2",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "重岳",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "BulletTime",
+            "name": "重岳",
+            "kills": 12,
+            "pre_delay": 4000,
+            "location": [
+                5,
+                1
+            ],
+            "rear_delay": 6000
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "PR-C-2 双人速刷 接近理论最速",
+        "details": "——————————\n作业更新日期: 2025-07-02T07:11:03Z\n统计更新日期: 2025-07-23\n好评率：100.0%  浏览量：56\n来源：阿拉拉拉  ID：62022\n——————————\n\nSteinsGate石头门：https://www.bilibili.com/video/BV1FT411W7JJ/?spm_id_from=..search-card.all.click&vd_source=d96c5431059e9a1d0fcf0385526d6057\njson作者：阿拉\n截图增强开启\n练度2903三级模组，能天使带y模组"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "skill_times": 5,
+            "name": "重岳",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

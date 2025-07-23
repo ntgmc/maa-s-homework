@@ -1,0 +1,85 @@
+{
+    "stage_name": "wk_melee_6",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "货物运送 - CE-6 - 实验原件押运",
+        "details": "——————————\n作业更新日期: 2025-07-19T01:38:45Z\n统计更新日期: 2025-07-23\n好评率：100.0%  浏览量：29\n来源：scorpion4749  ID：63255\n——————————\n\n货物运送 - CE-6 - 实验原件押运"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "玫兰莎"
+        },
+        {
+            "name": "蛇屠箱"
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "维什戴尔",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "kills": 0
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 5
+        },
+        {
+            "name": "蛇屠箱",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "玫兰莎",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "type": "SkillUsage",
+            "kills": 15
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 30
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "type": "SkillUsage",
+            "kills": 34
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ]
+}

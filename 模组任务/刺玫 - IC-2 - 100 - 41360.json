@@ -1,0 +1,44 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act20side_02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "刺玫",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "理想城：长夏狂欢季 - IC-2 - 下坠",
+        "details": "——————————\n作业更新日期: 2024-09-18T12:04:23Z\n统计更新日期: 2025-07-23\n好评率：100.0%  浏览量：38\n来源：鱼的锐角  ID：41360\n——————————\n刺玫模组\nlogos  60级模组三级，一技能专3\n刺玫    80级   一技能专3，二技能专3\n这关过了，麻烦模组拉满\n求求你们了，练练刺玫吧，她真的好可爱"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "刺玫",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

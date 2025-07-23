@@ -1,0 +1,322 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_10-03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                11,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "kills": 7
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "location": [
+                1,
+                1
+            ],
+            "kills": 15,
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "史尔特尔",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                11,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "对群",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "skill_usage": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up",
+            "kills": 28
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "史尔特尔",
+            "kills": 42
+        },
+        {
+            "type": "Deploy",
+            "name": "斯卡蒂的海嗣",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 50,
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "艾雅法拉"
+        },
+        {
+            "type": "Retreat",
+            "name": "史尔特尔",
+            "kills": 76
+        },
+        {
+            "type": "Deploy",
+            "name": "斯卡蒂的海嗣",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 88,
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right",
+            "pre_delay": 3500
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right",
+            "cooling": 2
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right",
+            "kills": 89
+        },
+        {
+            "type": "Skill",
+            "name": "夜莺"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "cooling": 2,
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "斯卡蒂的海嗣",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                1
+            ],
+            "cooling": 3,
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "第十章 破碎日冕 - H10-3（标准） - 日晕行动-3",
+        "details": "——————————\n作业更新日期: 2025-04-29T10:41:21Z\n统计更新日期: 2025-07-23\n好评率：87.5%  浏览量：1055\n来源：w105883131  ID：51412\n——————————\n\n视频作者：萧然Q\nhttps://www.bilibili.com/video/BV1VY4y1Y7NA?p=3"
+    },
+    "groups": [
+        {
+            "name": "对群",
+            "opers": [
+                {
+                    "name": "W",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "夜莺",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

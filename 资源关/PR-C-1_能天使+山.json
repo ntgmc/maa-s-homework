@@ -1,0 +1,59 @@
+{
+    "stage_name": "pro_c_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "（自用）PR-C-1 - 先锋辅助芯片 - 2人速刷",
+        "details": "——————————\n作业更新日期: 2025-06-07T15:38:38Z\n统计更新日期: 2025-07-23\n好评率：100.0%  浏览量：56\n来源：online937  ID：59620\n——————————\n\n山最好有1潜能，无潜能看电脑速度，或带德狗\n自用，大概是非原创，\n太久远忘记作者，有知道的可以提醒我改\n全员60级专三3级模组"
+    },
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "BulletTime",
+            "name": "能天使",
+            "costs": 9
+        },
+        {
+            "name": "山",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "能天使",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}
