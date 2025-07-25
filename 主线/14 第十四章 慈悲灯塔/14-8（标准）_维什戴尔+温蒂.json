@@ -60,7 +60,8 @@
         },
         {
             "type": "BulletTime",
-            "kills": 31,
+            "kills": 22,
+            "pre_delay": 25000,
             "name": "维什戴尔",
             "location": [
                 3,
@@ -69,7 +70,7 @@
         },
         {
             "type": "Skill",
-            "pre_delay": 12800,
+            "pre_delay": 9800,
             "name": "维什戴尔",
             "location": [
                 3,
@@ -82,7 +83,7 @@
     ],
     "doc": {
         "title": "14-8 2人 83秒堵门速刷 近理论最速",
-        "details": "——————————\n作业更新日期: 2025-07-08T17:01:00Z\n统计更新日期: 2025-07-13\n好评率：100.0%  浏览量：201\n来源：阿拉拉拉  ID：62734\n——————————\n\n化学老施：https://www.bilibili.com/video/BV1nE421N7dU/?spm_id_from=..search-card.all.click&vd_source=d96c5431059e9a1d0fcf0385526d6057\njson作者：阿拉\n截图增强开启\n练度ew2903三级模组，温蒂2603无模组\n想要最极限需要凹几次，不凹的话就慢个几帧的样子"
+        "details": "——————————\n作业更新日期: 2025-07-24T16:09:47Z\n统计更新日期: 2025-07-25\n好评率：100.0%  浏览量：392\n来源：阿拉拉拉  ID：62734\n——————————\n\n化学老施：https://www.bilibili.com/video/BV1nE421N7dU/?spm_id_from=..search-card.all.click&vd_source=d96c5431059e9a1d0fcf0385526d6057\njson作者：阿拉\n截图增强开启\n练度ew2903三级模组，温蒂2603无模组\n想要最极限需要凹几次，不凹的话就慢个几帧的样子"
     },
     "groups": [],
     "opers": [
