@@ -1,0 +1,92 @@
+{
+    "stage_name": "pro_d_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "身先士卒 - PR-D-1 - 突破",
+        "details": "——————————\n作业更新日期: 2025-07-20T16:32:45Z\n统计更新日期: 2025-07-25\n好评率：100.0%  浏览量：47\n来源：Martin Zhao  ID：62979\n——————————\n\n自动战斗作者：竟然不能小于4位 maa://31476\n干员替换：Martin Zhao\n练度：山20505，银灰20107，乌尔比安20501"
+    },
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1,
+            "requirements": {
+                "level": 5,
+                "skill_level": 5,
+                "module": 0
+            }
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 1,
+            "requirements": {
+                "level": 1,
+                "skill_level": 7,
+                "module": 0
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "近卫",
+            "opers": [
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "level": 5,
+                        "skill_level": 1,
+                        "module": 0
+                    }
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "银灰",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "山",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "近卫",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "银灰",
+            "kills": 70
+        }
+    ],
+    "version": 3
+}

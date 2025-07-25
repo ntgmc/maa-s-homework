@@ -3,7 +3,7 @@
     "minimum_required": "v4.0.0",
     "doc": {
         "title": "【双人】势不可挡 - PR-C-1 - 急行",
-        "details": "——————————\n作业更新日期: 2025-07-13T06:19:24Z\n统计更新日期: 2025-07-23\n好评率：100.0%  浏览量：36\n来源：Martin Zhao  ID：62967\n——————————\n\n参考：有鬼在吗 maa://22786\n自动战斗作者：Martin Zhao\n练度：新约能天使28010，山28010"
+        "details": "——————————\n作业更新日期: 2025-07-24T16:23:17Z\n统计更新日期: 2025-07-25\n好评率：100.0%  浏览量：48\n来源：Martin Zhao  ID：62967\n——————————\n\n参考：有鬼在吗 maa://22786\n自动战斗作者：Martin Zhao\n练度：新约能天使28010，山28010"
     },
     "opers": [
         {
@@ -12,7 +12,8 @@
             "skill_usage": 1,
             "requirements": {
                 "level": 80,
-                "skill_level": 10
+                "skill_level": 10,
+                "module": -1
             }
         },
         {
@@ -21,7 +22,8 @@
             "skill_usage": 2,
             "skill_times": 1,
             "requirements": {
-                "level": 80
+                "level": 80,
+                "module": -1
             }
         }
     ],

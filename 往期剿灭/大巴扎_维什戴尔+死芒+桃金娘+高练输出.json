@@ -1,0 +1,140 @@
+{
+    "stage_name": "camp_r_28",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "萨尔贡 - 大巴扎 - 大巴扎",
+        "details": "——————————\n作业更新日期: 2025-07-18T11:55:07Z\n统计更新日期: 2025-07-25\n好评率：100.0%  浏览量：1077\n来源：xizhic  ID：60477\n——————————\n\n萨尔贡 - 大巴扎 - 大巴扎\n我这是在b站上看到随便做的，最下面会根据练度漏1到3个怪，可以补个强力输出，大概375杀左右上就行了"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "module": 1
+            }
+        },
+        {
+            "name": "死芒",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "groups": [
+        {
+            "name": "高练输出",
+            "opers": [
+                {
+                    "name": "阿斯卡纶",
+                    "skill_usage": 0,
+                    "skill": 1
+                },
+                {
+                    "name": "归溟幽灵鲨",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "山",
+                    "skill_times": 1,
+                    "skill": 2,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "佩佩",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Deploy",
+            "costs": 0,
+            "name": "桃金娘",
+            "direction": "Down",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "costs": 0,
+            "name": "死芒",
+            "direction": "Down",
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "direction": "Right",
+            "location": [
+                6,
+                2
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 0,
+            "kills": 380
+        },
+        {
+            "type": "SkillUsage",
+            "skill_usage": 1,
+            "kills": 388,
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Deploy",
+            "name": "高练输出",
+            "location": [
+                8,
+                5
+            ],
+            "kills": 350,
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}
