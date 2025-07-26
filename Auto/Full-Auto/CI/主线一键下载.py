@@ -134,6 +134,9 @@ def add_level_data(ld):
 
 def calculate_percent(item):
     like, dislike = item.get('like', 0), item.get('dislike', 0)
+    # 增加评分人数限制，人数不足10人则返回0
+    if like + dislike < 10:
+        return 0
     return round(like / (like + dislike) * 100, 2) if like + dislike > 0 else 0
 
 
