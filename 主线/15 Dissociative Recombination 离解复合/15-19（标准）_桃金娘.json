@@ -1,0 +1,124 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_15-17",
+    "actions": [
+        {
+            "type": "Output",
+            "costs": 17,
+            "doc_color": "Gold",
+            "doc": "朝左"
+        },
+        {
+            "type": "Deploy",
+            "pre_delay": 3000,
+            "name": "Sharp",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Output",
+            "costs": 12,
+            "doc_color": "Gold",
+            "doc": "朝左"
+        },
+        {
+            "type": "Deploy",
+            "name": "Stormeye",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left",
+            "pre_delay": 3000
+        },
+        {
+            "type": "Output",
+            "costs": 16,
+            "doc_color": "Gold",
+            "doc": "狙击手左上一格，朝左"
+        },
+        {
+            "type": "Deploy",
+            "costs": 12,
+            "pre_delay": 3000,
+            "doc_color": "Gray",
+            "doc": "狙击手左上一格，朝左",
+            "name": "Raidian",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Output",
+            "costs": 18,
+            "doc_color": "Gold",
+            "doc": "狙击手左边一格，朝左"
+        },
+        {
+            "type": "Deploy",
+            "name": "Touch",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "pre_delay": 3000,
+            "doc_color": "Gray",
+            "doc": "狙击手左边一格，朝左"
+        },
+        {
+            "type": "Output",
+            "costs": 25,
+            "doc_color": "Gold",
+            "doc": "上面蓝门左边一格，朝左"
+        },
+        {
+            "type": "Deploy",
+            "name": "迷迭香",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left",
+            "pre_delay": 3000
+        },
+        {
+            "type": "Output",
+            "costs": 32,
+            "doc_color": "Gold",
+            "doc": "随便找个位置放"
+        },
+        {
+            "type": "Deploy",
+            "pre_delay": 3000,
+            "doc_color": "Gray",
+            "doc": "随便找个位置放",
+            "name": "Pith",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "15-19 剧情关 如果过不去请遵照提示手操",
+        "details": "——————————\n作业更新日期: 2025-04-11T12:36:12Z\n统计更新日期: 2025-07-27\n好评率：61.54%  浏览量：8568\n来源：没有阿斯卡纶娜仁图亚攻略组  ID：49902\n——————————\n\n如果过不去请遵照提示手操"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
