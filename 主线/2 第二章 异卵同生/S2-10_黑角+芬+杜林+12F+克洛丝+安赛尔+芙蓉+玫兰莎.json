@@ -1,0 +1,129 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "sub_02-10",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "玫兰莎",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Down",
+            "kills": 5
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "杜林",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "12F",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Up"
+        }
+    ],
+    "doc": {
+        "title": "第二章 异卵同生 - S2-10 - 窒息-1",
+        "details": "——————————\n作业更新日期: 2025-05-10T07:45:01Z\n统计更新日期: 2025-07-27\n好评率：100.0%  浏览量：132\n来源：yuunci  ID：53218\n——————————\n\n第二章 异卵同生 - S2-10 - 窒息-1"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "杜林",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "12F",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "玫兰莎",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
