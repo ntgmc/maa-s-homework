@@ -197,15 +197,16 @@ def wilson_lower_bound(like, dislike, confidence=0.95):
 
 
 def code_output(percent, _id, mode):
+    percent_str = f"{percent:.2f}"
     if mode == 1:  # Develop
         if percent <= 30:
-            return f"***maa://{_id} ({percent})"
+            return f"***maa://{_id} ({percent_str})"
         elif percent <= 50:
-            return f"**maa://{_id} ({percent})"
+            return f"**maa://{_id} ({percent_str})"
         elif percent <= 80:
-            return f"*maa://{_id} ({percent})"
+            return f"*maa://{_id} ({percent_str})"
         else:
-            return f"maa://{_id} ({percent})"
+            return f"maa://{_id} ({percent_str})"
     else:  # User
         if percent <= 30:
             return f"***maa://{_id}"
@@ -551,7 +552,7 @@ id_cache_dict = load_data(id_cache)
 now = datetime.now().timestamp()
 get_operators()
 main_paradox()
-# main_module()
+main_module()
 last = datetime.now().timestamp()
 save_data(cache, cache_dict)
 save_data(id_cache, id_cache_dict)
