@@ -4,6 +4,7 @@ import re
 from datetime import datetime
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import math
 
 base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 print(base_path)
@@ -19,6 +20,25 @@ date = datetime.now().strftime('%Y-%m-%d')
 # cache = 'Auto/Full-Auto/cache/cache.json'
 cache = 'Auto/Full-Auto/cache/new_main_cache.json'
 id_cache = 'Auto/Full-Auto/cache/id_cache.json'
+
+
+def wilson_lower_bound(like, dislike, confidence=0.95):
+    n = like + dislike
+    if n == 0:
+        return 0
+    # 根据置信度选择z值
+    if confidence == 0.90:
+        z = 1.645
+    elif confidence == 0.95:
+        z = 1.96
+    elif confidence == 0.99:
+        z = 2.576
+    else:
+        z = 1.96  # 默认95%
+    phat = like / n
+    denominator = 1 + z*z/n
+    numerator = phat + z*z/(2*n) - z * math.sqrt((phat*(1-phat) + z*z/(4*n)) / n)
+    return round(numerator / denominator, 2)
 
 
 def makedir():
@@ -247,6 +267,19 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
     found_ids = set()
     if all_data:
         download_amount = 0
+        # 先计算所有作业的wilson得分和热度得分
+        scores = []
+        hot_scores = []
+        for item in all_data:
+            like = item.get('like', 0)
+            dislike = item.get('dislike', 0)
+            view = item.get('views', 0)
+            score = wilson_lower_bound(like, dislike)
+            hot_score = round(score * math.log10(view + 1), 2)
+            scores.append(score)
+            hot_scores.append(hot_score)
+        max_score = max(scores) if scores and max(scores) > 0 else 1
+        max_hot_score = max(hot_scores) if hot_scores and max(hot_scores) > 0 else 1
         if filter_mode == 0:
             score_threshold = download_score_threshold
             view_threshold = download_view_threshold
@@ -254,15 +287,15 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
             score_threshold = 80
             view_threshold = -1  # 保证只搜索一次
         while not download_amount:
-            for item in all_data:
-                percent = calculate_percent(item)
+            for idx, item in enumerate(all_data):
                 view = item.get('views', 0)
                 found_ids.add(str(item['id']))
-                if percent >= score_threshold and view >= view_threshold:
+                relative_score = round((scores[idx] / max_score), 4) * 100 if max_score else 0
+                relative_hot_score = round((hot_scores[idx] / max_hot_score), 4) * 100 if max_hot_score else 0
+                if relative_score >= score_threshold and view >= view_threshold:
                     if compare_main_new_cache(cache_dict, cat_three, item['id'], item['upload_time']):
                         download_amount += 1
                         continue
-                    # TODO: 多作业文件名相同时的处理及删除后处理
                     if id_cache_dict.get(str(item['id'])):
                         for file in id_cache_dict[str(item['id'])]:
                             if os.path.exists(file):
@@ -270,8 +303,8 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
                                 print(f"Removed {file}")
                     content = get_complete_content(item['id'])
                     file_path = generate_filename(stage_id, content, path_mode, cat_two, cat_three)
-                    content['doc']['details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n\n" + content['doc']['details']
-                    print(f"{file_path} {percent}% {view} 成功下载")
+                    content['doc']['details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n相对评分：{relative_score}%  相对热度：{relative_hot_score}%\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + content['doc']['details']
+                    print(f"{file_path} {relative_score}% {view} 成功下载")
                     write_to_file(file_path, content)
                     cache_dict = build_main_new_cache(cache_dict, cat_three, item['id'], item['upload_time'])
                     id_cache_dict = build_id_cache(id_cache_dict, item['id'], file_path)
@@ -287,7 +320,6 @@ def less_filter_data(data, stage_id, path_mode=1, filter_mode=0):
                     break
                 print(f"{stage_id} 无符合条件的数据，降低阈值为{score_threshold}% {view_threshold}重试")
     else:
-        # no_result.append(keyword)
         print(f"{stage_id} 无数据")
     cache_dict = cache_delete_save(cache_dict, found_ids, id_list, cat_three)
 

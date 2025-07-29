@@ -4,6 +4,7 @@ import re
 import os
 from datetime import datetime
 from bs4 import BeautifulSoup
+import math
 
 base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 print(base_path)
@@ -149,17 +150,23 @@ def build_dict(data, key: str, _dict=None):
     return _dict
 
 
-def calculate_percent(item) -> float:
-    """
-    计算好评率，保留两位小数
-    :param item: 作业数据
-    :return: 好评率，保留两位小数
-    """
-    like, dislike = item.get('like', 0), item.get('dislike', 0)
-    # 增加评分人数限制，人数不足10人则返回0
-    if like + dislike < 10:
+def wilson_lower_bound(like, dislike, confidence=0.95):
+    n = like + dislike
+    if n == 0:
         return 0
-    return round(like / (like + dislike) * 100, 2) if like + dislike > 0 else 0.00
+    # 根据置信度选择z值
+    if confidence == 0.90:
+        z = 1.645
+    elif confidence == 0.95:
+        z = 1.96
+    elif confidence == 0.99:
+        z = 2.576
+    else:
+        z = 1.96  # 默认95%
+    phat = like / n
+    denominator = 1 + z*z/n
+    numerator = phat + z*z/(2*n) - z * math.sqrt((phat*(1-phat) + z*z/(4*n)) / n)
+    return round(numerator / denominator, 2)
 
 
 def get_stage_id_info(stage_dict, stage_id, key):  # 通过stage_id获取信息,失败返回stage_id
@@ -259,42 +266,53 @@ def less_filter_data(stage_dict, data, stage_id):
     found_ids = set()
     if all_data:
         download_amount = 0
+        # 先计算所有作业的wilson得分和热度得分
+        scores = []
+        hot_scores = []
+        for item in all_data:
+            like = item.get('like', 0)
+            dislike = item.get('dislike', 0)
+            view = item.get('views', 0)
+            score = wilson_lower_bound(like, dislike)
+            hot_score = round(score * math.log10(view + 1), 2)
+            scores.append(score)
+            hot_scores.append(hot_score)
+        if not scores or max(scores) == 0:
+            max_score = 1
+        else:
+            max_score = max(scores)
+        if not hot_scores or max(hot_scores) == 0:
+            max_hot_score = 1
+        else:
+            max_hot_score = max(hot_scores)
+        # 重新遍历，计算相对分数和相对热度分数
         score_threshold = download_score_threshold
         view_threshold = download_view_threshold
-        while not download_amount:
-            for item in all_data:
-                percent = calculate_percent(item)
-                view = item.get('views', 0)
-                found_ids.add(str(item['id']))
-                if percent >= score_threshold and view >= view_threshold:
-                    if compare_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time']):
-                        download_amount += 1
-                        continue
-                    if id_cache_dict.get(str(item['id'])):
-                        for file in id_cache_dict[str(item['id'])]:
-                            if os.path.exists(file):
-                                os.remove(file)
-                                print(f"Removed {file}")
-                    content = get_complete_content(item['id'])
-                    file_path = generate_filename(stage_dict, stage_id, content, item['uploader'], activity_name, cat_three)
-                    content['doc']['details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{view}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + content['doc']['details']
-                    print(f"{file_path} {percent}% {view} 成功下载")
-                    if os.path.exists(file_path):
-                        os.remove(file_path)
-                    write_to_file(file_path, content)
-                    cache_dict = build_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time'])
-                    id_cache_dict = build_id_cache(id_cache_dict, item['id'], file_path)
+        for idx, item in enumerate(all_data):
+            view = item.get('views', 0)
+            found_ids.add(str(item['id']))
+            relative_score = round((scores[idx] / max_score), 4) * 100 if max_score else 0
+            relative_hot_score = round((hot_scores[idx] / max_hot_score), 4) * 100 if max_hot_score else 0
+            # 你可以在此处使用relative_hot_score进行筛选或输出
+            if relative_score >= score_threshold and view >= view_threshold:
+                if compare_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time']):
                     download_amount += 1
-            if not download_amount:
-                if score_threshold > 50:
-                    score_threshold -= 5
-                else:
-                    view_threshold -= 200
-                if view_threshold < 0:
-                    print(f"{stage_id} 无符合50% 0的数据 不再重试")
-                    no_result.append(stage_id)
-                    break
-                print(f"{stage_id} 无符合条件的数据，降低阈值为{score_threshold}% {view_threshold}重试")
+                    continue
+                if id_cache_dict.get(str(item['id'])):
+                    for file in id_cache_dict[str(item['id'])]:
+                        if os.path.exists(file):
+                            os.remove(file)
+                            print(f"Removed {file}")
+                content = get_complete_content(item['id'])
+                file_path = generate_filename(stage_dict, stage_id, content, item['uploader'], activity_name, cat_three)
+                content['doc']['details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n相对评分：{relative_score}%  相对热度：{relative_hot_score}%\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + content['doc']['details']
+                print(f"{file_path} {relative_score}% {view} 成功下载")
+                if os.path.exists(file_path):
+                    os.remove(file_path)
+                write_to_file(file_path, content)
+                cache_dict = build_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time'])
+                id_cache_dict = build_id_cache(id_cache_dict, item['id'], file_path)
+                download_amount += 1
     else:
         # no_result.append(keyword)
         print(f"{stage_id} 无数据")

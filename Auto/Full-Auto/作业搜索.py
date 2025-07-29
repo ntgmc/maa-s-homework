@@ -3,6 +3,7 @@ import logging
 import os
 import re
 import time
+import math
 
 import pyperclip
 import requests
@@ -678,19 +679,28 @@ def less_search(stage_dict, _setting, search_key, activity, keyword):  # 搜索�
         _setting["operator_dict"] = build_operator_dict(_setting["operator"], st["operator_num"])
     for key, value in data_dict.items():  # 遍历关卡字典
         key1, key2 = key.split("<<")
-        #  key1为stage_id，key2为name
         total = len(value)
         log_message(f"搜索 {key1} {key2} 共获得 {total} 个数据")
         amount = 0
+        # 先计算所有作业的wilson得分和热度得分
+        scores = []
+        hot_scores = []
         for member in value:
-            point = calculate_percent(member)
-            if member["views"] >= st["view"] and point >= st["point"] and amount < st["amount"]:
+            like, dislike = member.get('like', 0), member.get('dislike', 0)
+            score = wilson_lower_bound(like, dislike)
+            hot_score = round(score * math.log10(member.get('views', 0) + 1), 2)
+            scores.append(score)
+            hot_scores.append(hot_score)
+        max_score = max(scores) if scores and max(scores) > 0 else 1
+        max_hot_score = max(hot_scores) if hot_scores and max(hot_scores) > 0 else 1
+        for idx, member in enumerate(value):
+            relative_score = round((scores[idx] / max_score), 4) * 100 if max_score else 0
+            relative_hot_score = round((hot_scores[idx] / max_hot_score), 4) * 100 if max_hot_score else 0
+            if member["views"] >= st["view"] and relative_score >= st["point"] and amount < st["amount"]:
                 if st["only_uploader"] == [] or member["uploader"] in st["only_uploader"]:
-                    if process_and_save_content(key2, member, _setting, search_key, activity, point):
+                    if process_and_save_content(key2, member, _setting, search_key, activity, relative_score, relative_hot_score):
                         amount = amount + 1
-                if amount >= st["amount"]:
-                    break
-            elif amount >= st["amount"]:
+            if amount >= st["amount"]:
                 break
 
 
@@ -859,16 +869,14 @@ def mode1():
             if st["only_uploader"] == [] or member["uploader"] in st["only_uploader"]:
                 if process_and_save_content(keyword, member, _setting, keyword, "单次下载", point):
                     amount = amount + 1
-            if amount >= st["amount"]:
-                break
-        elif amount >= st["amount"]:
+        if amount >= st["amount"]:
             break
     last = time.time()
     input(f"搜索完毕，共耗时 {round(last - now, 2)} s.\n按回车键返回")
     return menu()
 
 
-def process_and_save_content(keyword, _member, _setting, key, activity, _percent=0.00):
+def process_and_save_content(keyword, _member, _setting, key, activity, relative_score=0.00, relative_hot_score=0.00):
     """
     进行禁用干员检测、完备度检测并写出文件
     :param keyword: 关卡stage_name
@@ -876,7 +884,8 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
     :param _setting: 用户设置
     :param key: 关卡类型，如活动关卡
     :param activity: 活动中文名，如生路
-    :param _percent: 好评率
+    :param relative_score: 相对得分
+    :param relative_hot_score: 热度得分
     :return: True or False
     """
     st = _setting["download"][_setting["download"]["default"]]
@@ -899,7 +908,7 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
     if st["completeness"]:
         result = completeness_check(list(_setting["operator_dict"].keys()), content.get('opers', []), content.get('groups', []))
         if result is True:  # 完备
-            content['doc']['details'] = f"——————————\n作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n——————————\n" + content['doc']['details']
+            content['doc']['details'] = f"——————————\n作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n相对评分：{relative_score}%  相对热度：{relative_hot_score}%\n来源：{_member['uploader']}  ID：{_member['id']}\n——————————\n" + content['doc']['details']
         elif result is False:  # 缺少多个
             log_message(f"{file_name} 完备度检测不通过", logging.INFO, False)
             return False
@@ -914,10 +923,10 @@ def process_and_save_content(keyword, _member, _setting, key, activity, _percent
                 elif st['completeness_filename'] == 3:  # 在文件名前显示"(缺[干员名])"
                     file_name = f"(缺{result})" + file_name
                 content = get_complete_content(_member['id'])  # 仅通过检测后才获取
-                content['doc']['details'] = f"——————————\n作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n——————————\n\n缺少干员(组):  {result}\n\n" + content['doc']['details']
+                content['doc']['details'] = f"——————————\n作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n相对评分：{relative_score}%  相对热度：{relative_hot_score}%\n来源：{_member['uploader']}  ID：{_member['id']}\n——————————\n\n缺少干员(组):  {result}\n\n" + content['doc']['details']
     else:  # 未启用完备度检测
         content = get_complete_content(_member['id'])
-        content['doc']['details'] = f"——————————\n作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n好评率：{_percent}%  浏览量：{_member['views']}\n来源：{_member['uploader']}  ID：{_member['id']}\n——————————\n" + content['doc']['details']
+        content['doc']['details'] = f"——————————\n作业更新日期: {_member['upload_time']}\n统计更新日期: {date}\n相对评分：{relative_score}%  相对热度：{relative_hot_score}%\n来源：{_member['uploader']}  ID：{_member['id']}\n——————————\n" + content['doc']['details']
     file_path = os.path.join(path, f"{file_name}.json")
     if st["save"] == 1:  # 替换原来的文件
         if os.path.exists(file_path):
@@ -1084,6 +1093,25 @@ def settings_set():
         info = "设置保存成功"
         return menu()
     return settings_set()
+
+
+def wilson_lower_bound(like, dislike, confidence=0.95):
+    n = like + dislike
+    if n == 0:
+        return 0
+    # 根据置信度选择z值
+    if confidence == 0.90:
+        z = 1.645
+    elif confidence == 0.95:
+        z = 1.96
+    elif confidence == 0.99:
+        z = 2.576
+    else:
+        z = 1.96  # 默认95%
+    phat = like / n
+    denominator = 1 + z*z/n
+    numerator = phat + z*z/(2*n) - z * math.sqrt((phat*(1-phat) + z*z/(4*n)) / n)
+    return round(numerator / denominator, 2)
 
 
 def write_to_file(file_path, content, overwrite=False):

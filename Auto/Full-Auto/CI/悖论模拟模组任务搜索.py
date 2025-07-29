@@ -1,9 +1,9 @@
 import re
-
 import requests
 from bs4 import BeautifulSoup
 import json
 import os
+import math
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 
@@ -174,6 +174,25 @@ def calculate_percent(item):
     return round(like / (like + dislike) * 100, 2) if like + dislike > 0 else 0
 
 
+def wilson_lower_bound(like, dislike, confidence=0.95):
+    n = like + dislike
+    if n == 0:
+        return 0
+    # 根据置信度选择z值
+    if confidence == 0.90:
+        z = 1.645
+    elif confidence == 0.95:
+        z = 1.96
+    elif confidence == 0.99:
+        z = 2.576
+    else:
+        z = 1.96  # 默认95%
+    phat = like / n
+    denominator = 1 + z*z/n
+    numerator = phat + z*z/(2*n) - z * math.sqrt((phat*(1-phat) + z*z/(4*n)) / n)
+    return round(numerator / denominator, 2)
+
+
 def code_output(percent, _id, mode):
     if mode == 1:  # Develop
         if percent <= 30:
@@ -202,11 +221,12 @@ def less_search_paradox():
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
 
-    _response = requests.get(url, headers=_headers)
-    if _response.status_code == 200:
-        return build_dict2(_response.json()['data']['data'], 'stageName')
-    else:
-        raise Exception("请求失败！ERR_CONNECTION_REFUSED in less_search_paradox")
+    try:
+        response = requests.get(url, headers=_headers)
+        return response.json()
+    except requests.exceptions.ConnectionError as e:
+        print("网络连接异常，已忽略该异常并继续。")
+        return {"data": {"total": 0, "data": []}}
 
 
 def filter_paradox(data, name, _job):
@@ -223,28 +243,44 @@ def filter_paradox(data, name, _job):
         has_high_score_90 = any(calculate_percent(item) > 90 for item in all_data)  # Check for scores > 90%
         has_high_score_80 = any(calculate_percent(item) > 80 for item in all_data)  # Check for scores > 80%
 
+        # 计算所有作业的wilson下界得分和热度得分
+        scores = []
+        hot_scores = []
         for item in all_data:
+            like = item.get('like', 0)
+            dislike = item.get('dislike', 0)
+            view = item.get('views', 0)
+            score = wilson_lower_bound(like, dislike)
+            hot_score = round(score * math.log10(view + 1), 2)
+            scores.append(score)
+            hot_scores.append(hot_score)
+        max_score = max(scores) if scores and max(scores) > 0 else 1
+        max_hot_score = max(hot_scores) if hot_scores and max(hot_scores) > 0 else 1
+
+        for idx, item in enumerate(all_data):
             percent = calculate_percent(item)
+            relative_score = round((scores[idx] / max_score), 4) * 100 if max_score else 0
+            relative_hot_score = round((hot_scores[idx] / max_hot_score), 4) * 100 if max_hot_score else 0
             if has_high_score_90 and percent < 70:  # Ignore scores < 70% if a high score exists
                 continue
             if has_high_score_80 and percent < 50:  # Ignore scores < 50% if a high score exists
                 continue
             found_ids.add(str(item['id']))
-            if percent > 0:
-                ids_develop.append(code_output(percent, item['id'], 1))
-                if percent >= 20:
-                    ids_user.append(code_output(percent, item['id'], 2))
-                if percent >= download_score_threshold:
+            if relative_score > 0:
+                ids_develop.append(code_output(relative_score, item['id'], 1))
+                if relative_score >= 20:
+                    ids_user.append(code_output(relative_score, item['id'], 2))
+                if relative_score >= download_score_threshold:
                     all_below_threshold = False
-            if total > 1 and percent >= download_score_threshold or total == 1:
-                items_to_download.append((percent, item))
+            if total > 1 and relative_score >= download_score_threshold or total == 1:
+                items_to_download.append((relative_score, relative_hot_score, item))
 
         if download_mode and _job:
             # Sort items by score in descending order
             items_to_download.sort(key=lambda x: x[0], reverse=True)
             # Download the top 3 items
-            for percent, item in items_to_download[:3]:
-                file_path = f"悖论模拟/{_job}/{name} - {int(percent)} - {item['id']}.json"
+            for relative_score, relative_hot_score, item in items_to_download[:3]:
+                file_path = f"悖论模拟/{_job}/{name} - {int(relative_score)} - {item['id']}.json"
                 if compare_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time']):
                     if os.path.exists(file_path):  # Skip if file exists with the same score
                         continue
@@ -257,7 +293,7 @@ def filter_paradox(data, name, _job):
                                 print(f"Removed {file}")
                 content = get_complete_content(item['id'])
                 content['doc'][
-                    'details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + \
+                    'details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n相对评分：{relative_score}%  相对热度：{relative_hot_score}%\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + \
                                  content['doc']['details']
                 write_json_to_file(file_path, content)
                 cache_dict = build_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time'])
@@ -282,66 +318,73 @@ def search_module(name, stage):
         "Origin": "https://zoot.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
-    _response = requests.get(url, headers=_headers)
-    if _response.status_code == 200:
-        data = _response.json()
-        try:
-            total = len(data['data'])
-        except KeyError:
-            print(f"请求失败！ERR_CONNECTION_REFUSED in search({name} - {stage})")
-            print(data)
-            total = 0
+    try:
+        response = requests.get(url, headers=_headers)
+        response.raise_for_status()  # 检查请求是否成功
+        data = response.json()
+        total = len(data['data']) if 'data' in data else 0
         id_list = [str(key) for key, value in cache_dict.get("模组", {}).get(name, {}).get(stage, {}).items() if value != "已删除"]
         found_ids = set()
-        if total > 0:
-            ids_develop = []
-            ids_user = []
-            items_to_download = []
-            all_below_threshold = True
-            for item in data['data']['data']:
-                percent = calculate_percent(item)
-                found_ids.add(str(item['id']))
-                if percent > 0:
-                    ids_develop.append(code_output(percent, item['id'], 1))
-                    if percent >= 50:
-                        ids_user.append(code_output(percent, item['id'], 2))
-                    if percent >= download_score_threshold:
-                        all_below_threshold = False
-                elif item['uploader'] == '作业代传——有问题联系原作者':
-                    ids.append(int(item['id']))
-                if total > 1 and percent >= download_score_threshold or total == 1:
-                    items_to_download.append((percent, item))
-            if download_mode and job:
-                # 对列表按照评分进行排序，评分最高的在前面
-                items_to_download.sort(key=lambda x: x[0], reverse=True)
+        ids_develop = []
+        ids_user = []
+        items_to_download = []
+        all_below_threshold = True
 
-                # 只下载评分最高的三个项目
-                for percent, item in items_to_download[:3]:
-                    file_path = f"模组任务/{name} - {stage} - {int(percent)} - {item['id']}.json"
-                    if compare_new_cache(cache_dict, "模组", name, item['id'], item['upload_time'], stage):
-                        if os.path.exists(file_path):
-                            continue
-                    if id_cache_dict.get(str(item['id'])):
-                        for file in id_cache_dict[str(item['id'])]:
-                            if re.search(rf"{name} - {stage}", file):
-                                if os.path.exists(file):
-                                    os.remove(file)
-                                    print(f"Removed {file}")
-                    content = get_complete_content(item['id'])
-                    content['doc'][
-                        'details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n好评率：{percent}%  浏览量：{item['views']}\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + \
-                                     content['doc']['details']
-                    write_json_to_file(file_path, content)
-                    cache_dict = build_new_cache(cache_dict, "模组", name, item['id'], item['upload_time'], stage)
-                    id_cache_dict = build_id_cache(id_cache_dict, item['id'], file_path)
-            cache_dict = cache_delete_save(cache_dict, "模组", found_ids, id_list, name, stage=stage)
-            print(f"成功搜索 {name} - {stage}")
-            return name, stage, len(ids_develop), len(ids_user), ', '.join(ids_develop) if ids_develop else 'None', ', '.join(ids_user) if ids_user else 'None', all_below_threshold
-        else:
-            cache_dict = cache_delete_save(cache_dict, "模组", found_ids, id_list, name, stage=stage)
-            return name, stage, 0, 0, "None", "None", False
-    else:
-        print(f"请求失败！ERR_CONNECTION_REFUSED in search({name} - {stage})")
+        # 先计算所有作业的wilson得分和热度得分
+        scores = []
+        hot_scores = []
+        for item in data['data']['data']:
+            like = item.get('like', 0)
+            dislike = item.get('dislike', 0)
+            view = item.get('views', 0)
+            score = wilson_lower_bound(like, dislike)
+            hot_score = round(score * math.log10(view + 1), 2)
+            scores.append(score)
+            hot_scores.append(hot_score)
+        max_score = max(scores) if scores and max(scores) > 0 else 1
+        max_hot_score = max(hot_scores) if hot_scores and max(hot_scores) > 0 else 1
+        for idx, item in enumerate(data['data']['data']):
+            relative_score = round((scores[idx] / max_score), 4) * 100 if max_score else 0
+            relative_hot_score = round((hot_scores[idx] / max_hot_score), 4) * 100 if max_hot_score else 0
+            found_ids.add(str(item['id']))
+            if relative_score > 0:
+                ids_develop.append(code_output(relative_score, item['id'], 1))
+                if relative_score >= 50:
+                    ids_user.append(code_output(relative_score, item['id'], 2))
+                if relative_score >= download_score_threshold:
+                    all_below_threshold = False
+            elif item['uploader'] == '作业代传——有问题联系原作者':
+                ids.append(int(item['id']))
+            if total > 1 and relative_score >= download_score_threshold or total == 1:
+                items_to_download.append((relative_score, relative_hot_score, item))
+        if download_mode and job:
+            # 对列表按照评分进行排序，评分最高的在前面
+            items_to_download.sort(key=lambda x: x[0], reverse=True)
+
+            # 只下载评分最高的三个项目
+            for relative_score, relative_hot_score, item in items_to_download[:3]:
+                file_path = f"模组任务/{name} - {stage} - {int(relative_score)} - {item['id']}.json"
+                if compare_new_cache(cache_dict, "模组", name, item['id'], item['upload_time'], stage):
+                    if os.path.exists(file_path):
+                        continue
+                if id_cache_dict.get(str(item['id'])):
+                    for file in id_cache_dict[str(item['id'])]:
+                        if re.search(rf"{name} - {stage}", file):
+                            if os.path.exists(file):
+                                os.remove(file)
+                                print(f"Removed {file}")
+                content = get_complete_content(item['id'])
+                content['doc'][
+                    'details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n相对评分：{relative_score}%  相对热度：{relative_hot_score}%\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + \
+                                 content['doc']['details']
+                write_json_to_file(file_path, content)
+                cache_dict = build_new_cache(cache_dict, "模组", name, item['id'], item['upload_time'], stage)
+                id_cache_dict = build_id_cache(id_cache_dict, item['id'], file_path)
+        cache_dict = cache_delete_save(cache_dict, "模组", found_ids, id_list, name, stage=stage)
+        print(f"成功搜索 {name} - {stage}")
+        return name, stage, len(ids_develop), len(ids_user), ', '.join(ids_develop) if ids_develop else 'None', ', '.join(ids_user) if ids_user else 'None', all_below_threshold
+    except requests.exceptions.RequestException as e:
+        print(f"请求失败！{e}")
         return name, stage, 0, 0, "None", "None", False
 
 
