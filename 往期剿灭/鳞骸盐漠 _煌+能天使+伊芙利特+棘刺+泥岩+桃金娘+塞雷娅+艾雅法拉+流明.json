@@ -1,0 +1,182 @@
+{
+    "stage_name": "camp_r_29",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "伊比利亚 - 鳞骸盐漠  - 鳞骸盐漠 ",
+        "details": "——————————\n作业更新日期: 2025-07-27T22:24:41Z\n统计更新日期: 2025-07-29\n好评率：100.0%  浏览量：1305\n来源：Z7VTT  ID：63537\n——————————\n\n参考：https://www.bilibili.com/video/BV1KF85zyES9/"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7,
+                "module": -1
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "煌",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                3,
+                7
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "棘刺",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "泥岩",
+            "location": [
+                11,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "流明",
+            "location": [
+                5,
+                7
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "能天使",
+            "location": [
+                11,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy",
+            "kills": 35
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "伊芙利特",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "桃金娘",
+            "skill_usage": 0,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

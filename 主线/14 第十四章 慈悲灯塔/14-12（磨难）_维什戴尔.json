@@ -1,0 +1,58 @@
+{
+    "stage_name": "tough_14-11",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-12（磨难） - 使徒 - 单核",
+        "details": "——————————\n作业更新日期: 2025-05-26T13:35:57Z\n统计更新日期: 2025-07-29\n好评率：80.0%  浏览量：1203\n来源：小卡拉帕鲁灰  ID：47930\n——————————\n\nJSON作者小卡拉帕鲁灰\nEW满级，专3，7级一技能及以上\n优化记录：2025-5-26\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 7,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "维什戴尔",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "闪灵",
+            "location": [
+                10,
+                5
+            ],
+            "kills": 10
+        },
+        {
+            "type": "Skill",
+            "name": "耀骑士临光",
+            "location": [
+                7,
+                5
+            ],
+            "kills": 23
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 2,
+    "difficulty": 0
+}

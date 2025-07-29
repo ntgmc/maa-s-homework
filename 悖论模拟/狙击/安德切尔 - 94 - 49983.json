@@ -1,0 +1,47 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_adnach_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "安德切尔",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "泡普卡",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "安德切尔悖论模拟",
+        "details": "——————————\n作业更新日期: 2025-04-11T06:37:10Z\n统计更新日期: 2025-07-29\n好评率：94.34%  浏览量：3202\n来源：白羊47  ID：49983\n——————————\n安德切尔精一满潜信赖不满五十，摆完挂机。推荐打开暂停下干员功能。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "泡普卡",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}
