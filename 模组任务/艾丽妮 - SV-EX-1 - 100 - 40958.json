@@ -1,0 +1,79 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "【覆潮之下】SV-EX-1 喷涌而出 - 艾丽妮模组任务(二模)",
+        "details": "——————————\n作业更新日期: 2024-09-02T12:34:52Z\n统计更新日期: 2025-07-29\n相对评分：100.0%  相对热度：100.0%\n来源：小卡拉帕鲁灰  ID：40958\n——————————\n小鸟模组任务2模\nSV-EX-1，用两次大招\n10W伤害"
+    },
+    "stage_name": "act18d3_ex01",
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾丽妮",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "艾丽妮",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "kills": 30
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right",
+            "kills": 30
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "difficulty": 1,
+    "groups": []
+}

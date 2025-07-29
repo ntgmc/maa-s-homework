@@ -1,0 +1,243 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act15side_07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "【速射手】精一满级及以上练度",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "赫德雷",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "【速射手】精一满级及以上练度",
+            "location": [
+                6,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "伊桑",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "【医师】精一满级及以上练度",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "将进酒·复刻 - IW-7 - 乱局 - 赫德雷模组任务",
+        "details": "——————————\n作业更新日期: 2024-09-02T12:28:54Z\n统计更新日期: 2025-07-29\n相对评分：100.0%  相对热度：100.0%\n来源：小卡拉帕鲁灰  ID：40956\n——————————\nhdl模组任务\nIW-7杀两个沉沙\n击杀5个精英"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "【速射手】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "灰烬",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "空弦",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白金",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "灰喉",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "隐现",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "杰西卡",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流星",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "梅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "安德切尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "【医师】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "图耶",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "亚叶",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "赫德雷",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊桑",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

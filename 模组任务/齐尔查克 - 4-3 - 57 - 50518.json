@@ -1,0 +1,96 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_04-03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "齐尔查克",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗（推荐带白面）",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第四章 急性衰竭 - 4-3 - 人工制冷【齐尔查克模组任务】",
+        "details": "——————————\n作业更新日期: 2025-04-18T14:27:23Z\n统计更新日期: 2025-07-29\n相对评分：57.3%  相对热度：42.86%\n来源：小卡拉帕鲁灰  ID：50518\n——————————\n任务一：6次二技能\n任务二：只带一个先锋过4-3"
+    },
+    "groups": [
+        {
+            "name": "医疗（推荐带白面）",
+            "opers": [
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "齐尔查克",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "sub_02-01",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "提丰",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "提丰模组任务 - S2-1 - 自然的包容",
+        "details": "——————————\n作业更新日期: 2024-09-15T01:08:38Z\n统计更新日期: 2025-07-29\n相对评分：100.0%  相对热度：100.0%\n来源：一只摆烂的42  ID：25367\n——————————\n提丰「自然的包容」模组任务\nhttps://www.bilibili.com/video/BV1wu411j7jV/\n3星通关主题曲S2-1；必须编入非助战提丰并上场，其他成员仅可编入近战位干员\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "提丰",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}

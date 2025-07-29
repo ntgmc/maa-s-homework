@@ -1,0 +1,66 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_halo_1",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "kills": 0,
+            "cooling": 0,
+            "costs": 30,
+            "cost_changes": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "星源",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left",
+            "kills": 0,
+            "costs": 33
+        },
+        {
+            "type": "Skill",
+            "name": "星源",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 0,
+            "costs": 28
+        },
+        {
+            "type": "Skill",
+            "name": "星源",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 16,
+            "costs": 96
+        },
+        {
+            "type": "Skill",
+            "name": "星源",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 36,
+            "costs": 99
+        }
+    ],
+    "doc": {
+        "title": "星源悖论模拟 - 群星闪烁相映",
+        "details": "——————————\n作业更新日期: 2023-11-11T09:25:19Z\n统计更新日期: 2025-07-29\n相对评分：100.0%  相对热度：100.0%\n来源：北瑶铃0  ID：24842\n——————————\n星源二技能七级，精二一级就行，无潜能要求\n北瑶铃"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "星源",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

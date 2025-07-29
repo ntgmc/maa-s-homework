@@ -1,0 +1,70 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_frncat_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "慕斯",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "kills": 10,
+            "pre_delay": 700,
+            "name": "阿消",
+            "location": [
+                4,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "慕斯"
+        },
+        {
+            "type": "Skill",
+            "name": "阿消",
+            "location": [
+                4,
+                2
+            ],
+            "kills": 18,
+            "pre_delay": 1200
+        },
+        {
+            "type": "Skill",
+            "name": "艾丝黛尔",
+            "location": [
+                7,
+                4
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "慕斯",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 慕斯 - 双手十指 修复",
+        "details": "——————————\n作业更新日期: 2023-07-07T05:04:47Z\n统计更新日期: 2025-07-29\n相对评分：100.0%  相对热度：100.0%\n来源：一只摆烂的42  ID：24371\n——————————\nhttps://www.bilibili.com/video/BV1bM411U7Tt/\n练度精二40级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修复"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "慕斯",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

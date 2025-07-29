@@ -1,0 +1,72 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_aprot2_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "暮落",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "pre_delay": 10000,
+            "name": "傀影",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "暮落"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "暮落",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "傀影",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Up",
+            "pre_delay": 30000
+        },
+        {
+            "type": "Deploy",
+            "name": "急救包",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left",
+            "kills": 12
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "重装 - 暮落 - 主演之人",
+        "details": "——————————\n作业更新日期: 2023-12-06T06:32:25Z\n统计更新日期: 2025-07-29\n相对评分：100.0%  相对热度：100.0%\n来源：Leave  ID：30770\n——————————\n精二1级，7级技能测试"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "暮落",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_billro_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "卡涅利安",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "卡涅利安",
+            "kills": 2,
+            "pre_delay": 11000
+        },
+        {
+            "type": "Deploy",
+            "name": "阿",
+            "location": [
+                5,
+                5
+            ],
+            "kills": 29,
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "阿",
+            "pre_delay": 10000
+        },
+        {
+            "type": "Skill",
+            "name": "卡涅利安",
+            "pre_delay": 4000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "【倾九_Komy】术师 - 卡涅利安 - 收割",
+        "details": "——————————\n作业更新日期: 2023-05-07T05:29:02Z\n统计更新日期: 2025-07-29\n相对评分：100.0%  相对热度：100.0%\n来源：status102  ID：23263\n——————————\nhttps://www.bilibili.com/video/BV1E14y1a7t3/\n卡姐可能会被射死，再打一轮"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "卡涅利安",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

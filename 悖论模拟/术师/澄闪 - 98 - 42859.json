@@ -1,0 +1,60 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_gdglow_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "澄闪",
+            "location": [
+                5,
+                6
+            ],
+            "kills": 2
+        },
+        {
+            "type": "Skill",
+            "name": "澄闪",
+            "location": [
+                5,
+                6
+            ],
+            "kills": 16
+        },
+        {
+            "type": "Skill",
+            "name": "澄闪",
+            "location": [
+                5,
+                6
+            ],
+            "kills": 24
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "澄闪 悖论模拟 \"闪耀时刻\"",
+        "details": "——————————\n作业更新日期: 2024-10-28T13:41:37Z\n统计更新日期: 2025-07-29\n相对评分：98.95%  相对热度：100.0%\n来源：里见真夜  ID：42859\n——————————\n澄闪悖论模拟\n作业链接：【【明日方舟】澄闪 悖论模拟/无需专精/看一遍就过/简单操作｜焦炭 泰拉饭】 https://www.bilibili.com/video/BV1KwHregEsP/?share_source=copy_web&vd_source=1f17b7ab595a7fa0e34dcd8c43f74ccc"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

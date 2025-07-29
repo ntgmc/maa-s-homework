@@ -1,0 +1,88 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_gvial2_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "清流",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "百炼嘉维尔",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 12000,
+            "name": "百炼嘉维尔",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "清流",
+            "location": [
+                5,
+                1
+            ],
+            "kills": 16
+        },
+        {
+            "type": "Skill",
+            "kills": 27,
+            "name": "百炼嘉维尔",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "kills": 49,
+            "name": "百炼嘉维尔",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "清流",
+            "location": [
+                5,
+                1
+            ]
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 百炼嘉维尔 - “百炼”",
+        "details": "——————————\n作业更新日期: 2024-03-23T13:18:15Z\n统计更新日期: 2025-07-29\n相对评分：100.0%  相对热度：100.0%\n来源：无忧无虑啦  ID：27410\n——————————\n百嘉，精二60级无模组，技能7级的,稳定过\n有问题群找“无忧无虑啦”\n\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "百炼嘉维尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "清流",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

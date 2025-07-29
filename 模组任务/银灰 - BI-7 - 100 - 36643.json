@@ -1,0 +1,123 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act14side_07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞or黍",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "银灰",
+            "skill_usage": 0
+        },
+        {
+            "type": "SkillUsage",
+            "name": "银灰",
+            "skill_usage": 1,
+            "kills": 32
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "风雪过境·复刻 - BI-7 - 破冰【银灰模组任务】",
+        "details": "——————————\n作业更新日期: 2024-05-01T08:11:09Z\n统计更新日期: 2025-07-29\n相对评分：100.0%  相对热度：100.0%\n来源：小卡拉帕鲁灰  ID：36643\n——————————\n战斗中非助战银灰累计使用真银斩10次\n3星通关别传BI-7；必须编入非助战银灰并上场，且使用银灰至少击败1名山雪鬼"
+    },
+    "groups": [
+        {
+            "name": "塞or黍",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

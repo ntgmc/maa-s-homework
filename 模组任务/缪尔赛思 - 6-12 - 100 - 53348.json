@@ -1,0 +1,123 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_06-11",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "缪尔赛思",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "流形",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                4
+            ],
+            "costs": 11
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "流明",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "缪尔赛思模组任务 - 6-12 - 落叶四季",
+        "details": "——————————\n作业更新日期: 2025-05-10T12:37:32Z\n统计更新日期: 2025-07-29\n相对评分：100.0%  相对热度：100.0%\n来源：一只摆烂的42  ID：53348\n——————————\n缪尔赛思「落叶四季」模组任务\n3星通关主题曲6-12；必须编入非助战缪尔赛思并上场，且使用2次生态耦合\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "缪尔赛思",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 1
+}

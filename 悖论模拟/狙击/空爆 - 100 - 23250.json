@@ -1,0 +1,111 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_catap_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "安德切尔",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left",
+            "doc_color": "Gray",
+            "doc": "史都华德向左"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left",
+            "doc_color": "Gray",
+            "doc": "能天使向左"
+        },
+        {
+            "type": "Deploy",
+            "name": "空爆",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left",
+            "costs": 20,
+            "doc_color": "Gray",
+            "doc": "空爆小姐闪亮登场！"
+        },
+        {
+            "type": "SpeedUp",
+            "doc": "战术展开完毕！",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Skill",
+            "name": "空爆",
+            "location": [
+                6,
+                3
+            ],
+            "costs": 85,
+            "doc_color": "Gray",
+            "doc": "为什么没有出场怪数量来作为条件呢，用费用计数也太抽象了"
+        },
+        {
+            "type": "Skill",
+            "name": "安德切尔",
+            "location": [
+                7,
+                1
+            ],
+            "costs": 86,
+            "doc_color": "Gray",
+            "doc": "同上，可怜的史都华德不开技能打不掉+2盾飞机"
+        },
+        {
+            "type": "Skill",
+            "name": "空爆",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 53,
+            "doc_color": "Gray",
+            "doc": "嗯...就很尴尬，费用99了，只好这样设置了"
+        },
+        {
+            "type": "Skill",
+            "name": "安德切尔",
+            "location": [
+                7,
+                1
+            ],
+            "kills": 79,
+            "doc_color": "Gray",
+            "doc": "收尾！撒花！爱来自doctor:littlh!"
+        }
+    ],
+    "doc": {
+        "title": "悖论模拟： 空爆 - 防空炮手",
+        "details": "——————————\n作业更新日期: 2023-05-07T03:55:47Z\n统计更新日期: 2025-07-29\n相对评分：100.0%  相对热度：100.0%\n来源：littlh  ID：23250\n——————————\n作者：littlh\n理论上无练度需求，稳定可靠。主要问题是考虑了技能释放时间，去除了不必要的技能使用。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 2
+        },
+        {
+            "name": "空爆",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

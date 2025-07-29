@@ -1,0 +1,94 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_lumen_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "流明",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾丽妮",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "艾丽妮",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 30
+        },
+        {
+            "type": "Deploy",
+            "name": "圣徒之手",
+            "location": [
+                1,
+                3
+            ],
+            "costs": 40,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "艾丽妮",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 61
+        },
+        {
+            "type": "Deploy",
+            "name": "圣徒之手",
+            "location": [
+                1,
+                3
+            ],
+            "costs": 69,
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "圣徒之手",
+            "location": [
+                1,
+                3
+            ],
+            "costs": 88,
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "艾丽妮",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 99,
+            "pre_delay": 1000
+        }
+    ],
+    "doc": {
+        "title": "医疗 - 流明 - 风浪微光",
+        "details": "——————————\n作业更新日期: 2023-05-22T03:05:14Z\n统计更新日期: 2025-07-29\n相对评分：100.0%  相对热度：100.0%\n来源：我不是zhou  ID：23504\n——————————\n别的都不好抄，自己做一个，\n这关难点在卡轴，因此流明练度基本不需要，作者本人精二60级流明，无需专"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 2
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_03-07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "双月",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第三章 二次呼吸 - 3-7 - 轰鸣【双月模组任务】",
+        "details": "——————————\n作业更新日期: 2024-03-07T04:50:17Z\n统计更新日期: 2025-07-29\n相对评分：100.0%  相对热度：100.0%\n来源：小卡拉帕鲁灰  ID：34716\n——————————\n任务要求：双月开两次2技能\n新干员可能无法识别，可以用自动编队试水，不推荐开服就用\n未开服未测试\n"
+    },
+    "groups": [
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "双月",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        }
+    ],
+    "difficulty": 1
+}

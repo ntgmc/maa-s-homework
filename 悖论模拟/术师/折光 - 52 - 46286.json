@@ -1,0 +1,113 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_kaitou_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "折光",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "costs": 20
+        },
+        {
+            "type": "Skill",
+            "name": "凛视",
+            "location": [
+                4,
+                3
+            ],
+            "costs": 7
+        },
+        {
+            "type": "Skill",
+            "name": "斑点",
+            "location": [
+                6,
+                4
+            ],
+            "costs": 17
+        },
+        {
+            "type": "Skill",
+            "name": "折光",
+            "location": [
+                3,
+                3
+            ],
+            "costs": 30
+        },
+        {
+            "type": "Skill",
+            "name": "凛视",
+            "location": [
+                4,
+                3
+            ],
+            "costs": 63
+        },
+        {
+            "type": "SkillUsage",
+            "name": "折光",
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "type": "Skill",
+            "name": "凛视",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 13,
+            "pre_delay": 3000
+        },
+        {
+            "type": "Skill",
+            "name": "斑点",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 14,
+            "pre_delay": 2000
+        },
+        {
+            "type": "Skill",
+            "name": "折光",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 15,
+            "pre_delay": 1500
+        },
+        {
+            "type": "Skill",
+            "name": "凛视",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 15,
+            "pre_delay": 2000
+        }
+    ],
+    "doc": {
+        "title": "【悖论模拟】折光 - 大盗的眼光",
+        "details": "——————————\n作业更新日期: 2025-02-03T06:18:36Z\n统计更新日期: 2025-07-29\n相对评分：52.38%  相对热度：37.45%\n来源：丧丧球喵  ID：46286\n——————————\n精二1级，2技能5级，无潜能，测试已通过"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "折光",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
