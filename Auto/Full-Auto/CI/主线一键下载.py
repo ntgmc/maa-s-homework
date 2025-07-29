@@ -245,16 +245,19 @@ def get_complete_content(_id):
         "Origin": "https://zoot.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
-    response = requests.get(f"https://prts.maa.plus/copilot/get/{_id}", headers=_headers)
-    if response.ok:
-        data = response.json()
-        if data.get('status_code') == 200:
-            content = json.loads(data['data']['content'])
-            return content
+    try:
+        response = requests.get(f"https://prts.maa.plus/copilot/get/{_id}", headers=_headers)
+        if response.ok:
+            data = response.json()
+            if data.get('status_code') == 200:
+                content = json.loads(data['data']['content'])
+                return content
+            else:
+                print(f"Failed to fetch content for ID {_id}, error code: {data.get('status_code')}")
         else:
-            print(f"Failed to fetch content for ID {_id}, error code: {data.get('status_code')}")
-    else:
-        print(f"Failed to fetch content for ID {_id}, HTTP status: {response.status_code}")
+            print(f"Failed to fetch content for ID {_id}, HTTP status: {response.status_code}")
+    except Exception as e:
+        print(f"get_complete_content异常，已跳过：ID={_id}, 错误：{e}")
     return None
 
 

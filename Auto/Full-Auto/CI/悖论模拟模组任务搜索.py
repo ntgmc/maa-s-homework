@@ -137,16 +137,19 @@ def get_complete_content(_id):
         "Origin": "https://zoot.plus",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
-    response = requests.get(f"https://prts.maa.plus/copilot/get/{_id}", headers=_headers)
-    if response.ok:
-        data = response.json()
-        if data.get('status_code') == 200:
-            content = json.loads(data['data']['content'])
-            return content
+    try:
+        response = requests.get(f"https://prts.maa.plus/copilot/get/{_id}", headers=_headers)
+        if response.ok:
+            data = response.json()
+            if data.get('status_code') == 200:
+                content = json.loads(data['data']['content'])
+                return content
+            else:
+                print(f"Failed to fetch content for ID {_id}, error code: {data.get('status_code')}")
         else:
-            print(f"Failed to fetch content for ID {_id}, error code: {data.get('status_code')}")
-    else:
-        print(f"Failed to fetch content for ID {_id}, HTTP status: {response.status_code}")
+            print(f"Failed to fetch content for ID {_id}, HTTP status: {response.status_code}")
+    except Exception as e:
+        print(f"get_complete_content异常，已跳过：ID={_id}, 错误：{e}")
     return None
 
 
@@ -221,12 +224,11 @@ def less_search_paradox():
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0"
     }
 
-    try:
-        response = requests.get(url, headers=_headers)
-        return response.json()
-    except requests.exceptions.ConnectionError as e:
-        print("网络连接异常，已忽略该异常并继续。")
-        return {"data": {"total": 0, "data": []}}
+    _response = requests.get(url, headers=_headers)
+    if _response.status_code == 200:
+        return build_dict2(_response.json()['data']['data'], 'stageName')
+    else:
+        raise Exception("请求失败！ERR_CONNECTION_REFUSED in less_search_paradox")
 
 
 def filter_paradox(data, name, _job):
@@ -549,7 +551,7 @@ id_cache_dict = load_data(id_cache)
 now = datetime.now().timestamp()
 get_operators()
 main_paradox()
-main_module()
+# main_module()
 last = datetime.now().timestamp()
 save_data(cache, cache_dict)
 save_data(id_cache, id_cache_dict)
