@@ -1,0 +1,83 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "sub_03-3-2",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第三章 二次呼吸 - S3-7 - 隐匿-1",
+        "details": "——————————\n作业更新日期: 2025-05-05T09:36:53Z\n统计更新日期: 2025-07-30\n相对评分：97.14%  相对热度：88.76%\n来源：魔芋葱油长豆角  ID：52423\n——————————\n原作者：低配挂机研讨会\n\n视频地址：https://www.bilibili.com/video/BV1a7V5z5Eci?spm_id_from=333.788.videopod.sections&vd_source=a022f0b9420b7e9fe33605d41aed4c75&p=84\n\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

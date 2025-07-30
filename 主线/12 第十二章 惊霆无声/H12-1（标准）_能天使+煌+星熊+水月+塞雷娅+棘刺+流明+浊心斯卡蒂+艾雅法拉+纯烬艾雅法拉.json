@@ -1,0 +1,168 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_12-01",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "能天使",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "流明",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "水月",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "主线十二章 惊霆无声 H12-1 萧然攻略（纯艾修改版）",
+        "details": "——————————\n作业更新日期: 2023-08-23T07:28:11Z\n统计更新日期: 2025-07-30\n相对评分：84.71%  相对热度：86.60%\n来源：游梦喵Zzz  ID：26503\n——————————\n原版2603蜜梅替换纯艾\n修改作者游梦喵，原作者鱼丸\n攻略作者：萧然Q BV1oL411m7bL \n测试已完成，流明没有潜能请手动增加精二德狗补费\n（纯copy源代码，只修改了干员）"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "水月",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
