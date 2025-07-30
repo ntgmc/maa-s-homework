@@ -295,9 +295,10 @@ def filter_paradox(data, name, _job):
                                 os.remove(file)
                                 print(f"Removed {file}")
                 content = get_complete_content(item['id'])
-                content['doc'][
-                    'details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n相对评分：{relative_score}%  相对热度：{relative_hot_score}%\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + \
-                                 content['doc']['details']
+                if content is None:
+                    print(f"ID={item['id']} 获取内容失败，已跳过")
+                    continue
+                content['doc']['details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n相对评分：{relative_score}%  相对热度：{relative_hot_score}%\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + content['doc']['details']
                 write_json_to_file(file_path, content)
                 cache_dict = build_new_cache(cache_dict, "悖论", name, item['id'], item['upload_time'])
                 id_cache_dict = build_id_cache(id_cache_dict, str(item['id']), file_path)

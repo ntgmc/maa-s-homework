@@ -296,7 +296,9 @@ def less_filter_data(stage_dict, data, stage_id):
             found_ids.add(str(item['id']))
             relative_score = round((scores[idx] / max_score), 4) * 100 if max_score else 0
             relative_hot_score = round((hot_scores[idx] / max_hot_score), 4) * 100 if max_hot_score else 0
-            # 你可以在此处使用relative_hot_score进行筛选或输出
+            # 用字符串格式化，保证只保留两位小数
+            relative_score_str = f"{relative_score:.2f}"
+            relative_hot_score_str = f"{relative_hot_score:.2f}"
             if relative_score >= score_threshold and view >= view_threshold:
                 if compare_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time']):
                     download_amount += 1
@@ -308,10 +310,8 @@ def less_filter_data(stage_dict, data, stage_id):
                             print(f"Removed {file}")
                 content = get_complete_content(item['id'])
                 file_path = generate_filename(stage_dict, stage_id, content, item['uploader'], activity_name, cat_three)
-                content['doc']['details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n相对评分：{relative_score}%  相对热度：{relative_hot_score}%\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + content['doc']['details']
-                print(f"{file_path} {relative_score}% {view} 成功下载")
-                if os.path.exists(file_path):
-                    os.remove(file_path)
+                content['doc']['details'] = f"——————————\n作业更新日期: {item['upload_time']}\n统计更新日期: {date}\n相对评分：{relative_score_str}%  相对热度：{relative_hot_score_str}%\n来源：{item['uploader']}  ID：{item['id']}\n——————————\n" + content['doc']['details']
+                print(f"{file_path} {relative_score_str}% {view} 成功下载")
                 write_to_file(file_path, content)
                 cache_dict = build_activity_new_cache(cache_dict, cat_three, item['id'], item['upload_time'])
                 id_cache_dict = build_id_cache(id_cache_dict, item['id'], file_path)
