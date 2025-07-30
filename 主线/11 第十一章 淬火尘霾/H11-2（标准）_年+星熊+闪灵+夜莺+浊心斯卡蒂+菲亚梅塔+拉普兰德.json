@@ -1,0 +1,114 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_11-02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "菲亚梅塔",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "年",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "第十一章 淬火尘霾 - H11-2（标准） - 尘霾行动-2（自用高配2903挂机，视频练度平均2603：仅红蒂80、年90）",
+        "details": "——————————\n作业更新日期: 2023-09-23T13:36:16Z\n统计更新日期: 2025-07-30\n相对评分：80.26%  相对热度：75.79%\n来源：流云星痕  ID：28240\n——————————\n视频作者：Tc唐宋丶\n视频链接：https://www.bilibili.com/video/BV1xN4y1w7z5/\n干员练度：平均2603，浊心斯卡蒂2803，年90级不开技能\n干员模组：视频中为夜莺X、星熊Y、菲亚梅塔Y。（本人2903过的，视频练度仅供参考）"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "年",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "菲亚梅塔",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
