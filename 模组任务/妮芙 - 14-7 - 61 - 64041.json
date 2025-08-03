@@ -1,0 +1,92 @@
+{
+    "stage_name": "main_14-06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-7（标准） - 执行反制作战 【妮芙模组任务】",
+        "details": "——————————\n作业更新日期: 2025-08-03T03:06:16Z\n统计更新日期: 2025-08-03\n相对评分：61.760000000000005%  相对热度：26.32%\n来源：小卡拉帕鲁灰  ID：64041\n——————————\n6w伤害，\n5k元素损伤"
+    },
+    "opers": [
+        {
+            "name": "妮芙",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "塞or黍",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "塞or黍",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "妮芙",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "医疗",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

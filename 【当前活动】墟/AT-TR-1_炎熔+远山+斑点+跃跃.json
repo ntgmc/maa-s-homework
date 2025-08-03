@@ -1,0 +1,77 @@
+{
+    "stage_name": "act44side_tr01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-TR-1 - 天命滚滚",
+        "details": "——————————\n作业更新日期: 2025-08-02T13:30:21Z\n统计更新日期: 2025-08-03\n相对评分：99.00%  相对热度：76.41%\n来源：飘ipao  ID：63983\n——————————\nmaa已测试\n练度请看干员（未测试角色为maa默认练度or个人练度不用管，没说就是三级模组）\n请开启截图增强避免翻车\n需自行过剧情，部署跃跃后自动开启二倍速就可以挂机了"
+    },
+    "opers": [
+        {
+            "name": "炎熔"
+        },
+        {
+            "name": "远山"
+        },
+        {
+            "name": "斑点"
+        },
+        {
+            "name": "跃跃"
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "斑点",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "costs": 27,
+            "post_delay": 1000
+        },
+        {
+            "name": "远山",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "跃跃",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "costs": 17
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "炎熔",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "远山",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        }
+    ],
+    "version": 3
+}

@@ -1,0 +1,48 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act44side_01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "direction": "Down",
+            "location": [
+                7,
+                4
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AT-1 - 极道作风 一摆到底版",
+        "details": "——————————\n作业更新日期: 2025-08-02T12:39:33Z\n统计更新日期: 2025-08-03\n相对评分：100.00%  相对热度：86.12%\n来源：萨拉托加  ID：63962\n——————————\n一摆到底，旨在不限制干员，尽量用更少的干员，更少的步数，全程不换技能，一套阵容通关当期活动，干员均专三60级带一级模组（歌蒂三级X模）\n原作者：萧然Q json作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【墟】AT-1至AT-8一摆到底合集版 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV12fhbzWECc/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

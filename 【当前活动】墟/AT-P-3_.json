@@ -1,0 +1,18 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act44side_sp03",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AT-P-3 - 满弧闭环",
+        "details": "——————————\n作业更新日期: 2025-08-02T10:32:30Z\n统计更新日期: 2025-08-03\n相对评分：99.00%  相对热度：80.93%\n来源：焕彩gg  ID：63936\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n求关注。这关就是挂机过就行，啥也不用干，等结束就是3星。"
+    },
+    "groups": [],
+    "opers": []
+}

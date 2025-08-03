@@ -1,0 +1,76 @@
+{
+    "stage_name": "act44side_08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-8 - 逝川",
+        "details": "——————————\n作业更新日期: 2025-08-02T15:10:27Z\n统计更新日期: 2025-08-03\n相对评分：95.00%  相对热度：69.42%\n来源：墨年的账户  ID：64011\n——————————\nAT-8 - 逝川"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                1
+            ]
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

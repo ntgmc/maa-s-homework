@@ -1,0 +1,181 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act44side_sp02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "傀影",
+            "direction": "Right",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "傀影",
+            "pre_delay": 500
+        },
+        {
+            "type": "Deploy",
+            "direction": "Left",
+            "name": "燧石",
+            "location": [
+                2,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "野鬃",
+            "direction": "Right",
+            "location": [
+                10,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "傀影",
+            "direction": "Down",
+            "location": [
+                9,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "野鬃",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Retreat",
+            "name": "野鬃",
+            "pre_delay": 500
+        },
+        {
+            "type": "Deploy",
+            "direction": "Down",
+            "name": "镜中虚影",
+            "location": [
+                10,
+                4
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "傀影"
+        },
+        {
+            "type": "Deploy",
+            "name": "傀影",
+            "direction": "Right",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "野鬃",
+            "direction": "Left",
+            "location": [
+                2,
+                3
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "野鬃",
+            "skill_usage": 2
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                6
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "傀影"
+        },
+        {
+            "type": "Deploy",
+            "name": "傀影",
+            "direction": "Right",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "傀影"
+        },
+        {
+            "type": "Deploy",
+            "name": "傀影",
+            "direction": "Right",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "傀影"
+        },
+        {
+            "type": "Deploy",
+            "name": "傀影",
+            "direction": "Right",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "傀影"
+        },
+        {
+            "type": "Deploy",
+            "name": "傀影",
+            "direction": "Right",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AT-P-2 - 回弹角",
+        "details": "——————————\n作业更新日期: 2025-08-03T02:37:59Z\n统计更新日期: 2025-08-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：63913\n——————————\njson作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "傀影",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "燧石",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "野鬃",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
