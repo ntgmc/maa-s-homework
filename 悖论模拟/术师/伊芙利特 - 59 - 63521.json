@@ -1,0 +1,75 @@
+{
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "爆破装置",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "cost_changes": 22,
+            "location": [
+                1,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "Deploy",
+            "name": "爆破装置",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "Skill",
+            "name": "塞雷娅",
+            "kills": 15,
+            "location": [
+                2,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "kills": 40,
+            "pre_delay": 9000,
+            "name": "塞雷娅",
+            "location": [
+                2,
+                3
+            ]
+        }
+    ],
+    "stage_name": "mem_ifrit_1",
+    "doc": {
+        "title": "伊芙利特悖论模拟",
+        "details": "——————————\n作业更新日期: 2025-07-27T06:01:13Z\n统计更新日期: 2025-08-03\n相对评分：59.57%  相对热度：35.21%\n来源：Libirds  ID：63521\n——————————\n原作者：雪\n调整了最后一波的技能开启时间\n测试干员：1潜2603二技能，一级x模，满信赖"
+    },
+    "opers": [
+        {
+            "name": "伊芙利特",
+            "skill": 2
+        }
+    ],
+    "minimum_required": "v4.0.0"
+}

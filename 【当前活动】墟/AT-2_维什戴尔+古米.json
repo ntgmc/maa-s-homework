@@ -1,0 +1,84 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act44side_02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                5,
+                4
+            ],
+            "name": "维什戴尔",
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                5,
+                2
+            ],
+            "name": "古米",
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                4
+            ],
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                4,
+                1
+            ],
+            "pre_delay": 200
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 200,
+            "location": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 20
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AT-2 - 灵异特辑",
+        "details": "——————————\n作业更新日期: 2025-08-02T08:52:30Z\n统计更新日期: 2025-08-03\n相对评分：99.00%  相对热度：73.80%\n来源：焕彩gg  ID：63885\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n求关注。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            },
+            "skill": 3
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

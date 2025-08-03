@@ -1,0 +1,73 @@
+{
+    "stage_name": "act44side_02",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-2 - 灵异特辑",
+        "details": "——————————\n作业更新日期: 2025-08-02T09:18:06Z\n统计更新日期: 2025-08-03\n相对评分：99.00%  相对热度：74.28%\n来源：黍妈叫我吃饭了  ID：63897\n——————————\n原作者：魔法zc目录 json作者：黍妈叫我吃饭了\n没练羽毛笔可以还成奶盾牌，黍之类型的\n视频链接：【【明日方舟】“墟”AT-1~8摆完挂机全关卡攻略！操作轻松+语音详解的愉悦攻略！《明日方舟》|魔法Zc目录】 https://www.bilibili.com/video/BV1MLhhzaEyY/?p=2&share_source=copy_web&vd_source=25d5563cd286f3b99e319a73c770bb2d"
+    },
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "可替换",
+            "opers": [
+                {
+                    "name": "羽毛笔",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 60,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "山",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "可替换",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Output",
+            "doc": "黍妈饭做好了，开饭！！！"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

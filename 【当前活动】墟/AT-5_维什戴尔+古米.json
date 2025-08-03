@@ -1,0 +1,74 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act44side_05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                3,
+                7
+            ],
+            "name": "维什戴尔",
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                4,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                7
+            ],
+            "name": "维什戴尔",
+            "kills": 3
+        },
+        {
+            "type": "Skill",
+            "location": [
+                8,
+                1
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "skill_times": 1,
+            "kills": 13
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AT-5 - 遗祸",
+        "details": "——————————\n作业更新日期: 2025-08-02T09:45:54Z\n统计更新日期: 2025-08-03\n相对评分：99.00%  相对热度：75.59%\n来源：焕彩gg  ID：63910\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n求关注。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            },
+            "skill": 3
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
