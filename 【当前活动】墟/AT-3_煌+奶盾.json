@@ -3,14 +3,15 @@
     "minimum_required": "v4.0.0",
     "doc": {
         "title": "AT-3 - 夜逃通告",
-        "details": "——————————\n作业更新日期: 2025-08-02T09:44:38Z\n统计更新日期: 2025-08-03\n相对评分：99.00%  相对热度：73.14%\n来源：黍妈叫我吃饭了  ID：63901\n——————————\n原作者：魔法zc目录 json作者：黍妈叫我吃饭了\n视频链接：【【明日方舟】“墟”AT-1~8摆完挂机全关卡攻略！操作轻松+语音详解的愉悦攻略！《明日方舟》|魔法Zc目录】 https://www.bilibili.com/video/BV1MLhhzaEyY/?p=3&share_source=copy_web&vd_source=25d5563cd286f3b99e319a73c770bb2d"
+        "details": "——————————\n作业更新日期: 2025-08-02T17:39:04Z\n统计更新日期: 2025-08-04\n相对评分：100.00%  相对热度：77.80%\n来源：星之海.  ID：63871\n——————————\n重要：maa已更新自动选择模组，未解锁作业所需模组的干员将无法识别，没开模组的建议优先开模组！！！\n请确保所用干员练度达到本作业所需练度，否则将会有干员暴毙及漏怪风险！！！\n此作业全员专三且模组一级\n原作者：自在道爷    JSON作者：星之海.\n社区评论不会提醒，作业有问题可以进群找我：994516079\n原视频：【【墟】AT-1至AT-8挂机流，刻章也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(分p更新中)】https://www.bilibili.com/video/BV1DthNztEP6?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
     },
     "opers": [
         {
             "name": "煌",
             "skill": 2,
             "requirements": {
-                "skill_level": 10
+                "skill_level": 10,
+                "module": 1
             }
         }
     ],
@@ -22,14 +23,24 @@
                     "name": "黍",
                     "skill": 1,
                     "requirements": {
-                        "skill_level": 10
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
                     }
                 },
                 {
                     "name": "塞雷娅",
                     "skill": 1,
                     "requirements": {
-                        "skill_level": 10
+                        "skill_level": 10,
+                        "module": -1
                     }
                 }
             ]
@@ -56,10 +67,6 @@
             ],
             "direction": "Right",
             "type": "Deploy"
-        },
-        {
-            "type": "Output",
-            "doc": "黍妈饭做好了，开饭！！"
         },
         {
             "type": "SkillDaemon"

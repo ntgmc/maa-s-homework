@@ -1,0 +1,76 @@
+{
+    "stage_name": "act44side_06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-6 - 漩涡",
+        "details": "——————————\n作业更新日期: 2025-08-02T15:07:25Z\n统计更新日期: 2025-08-04\n相对评分：99.00%  相对热度：73.09%\n来源：墨年的账户  ID：64009\n——————————\nAT-6 - 漩涡"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                1
+            ]
+        },
+        {
+            "name": "德克萨斯",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

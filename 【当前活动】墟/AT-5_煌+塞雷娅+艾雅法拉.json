@@ -1,0 +1,83 @@
+{
+    "stage_name": "act44side_05",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-5 - 遗祸",
+        "details": "——————————\n作业更新日期: 2025-08-02T15:48:41Z\n统计更新日期: 2025-08-04\n相对评分：96.00%  相对热度：70.80%\n来源：墨年的账户  ID：64008\n——————————\n好像有bug，无法开启弹珠"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "煌",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                4,
+                7
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                3,
+                7
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}
