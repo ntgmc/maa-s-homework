@@ -1,0 +1,44 @@
+{
+    "stage_name": "act44side_01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-1 - 极道作风",
+        "details": "——————————\n作业更新日期: 2025-08-02T14:51:55Z\n统计更新日期: 2025-08-04\n相对评分：99.00%  相对热度：73.19%\n来源：墨年的账户  ID：64002\n——————————\nAT-1 - 极道作风"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "煌",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

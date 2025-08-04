@@ -1,0 +1,54 @@
+{
+    "stage_name": "act44side_04",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-4 - 百物语",
+        "details": "——————————\n作业更新日期: 2025-08-02T15:03:02Z\n统计更新日期: 2025-08-04\n相对评分：100.00%  相对热度：74.01%\n来源：墨年的账户  ID：64007\n——————————\nAT-4 - 百物语"
+    },
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "煌",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "山",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}
