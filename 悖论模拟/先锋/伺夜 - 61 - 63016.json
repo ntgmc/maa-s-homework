@@ -1,0 +1,75 @@
+{
+    "stage_name": "mem_vigil_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "悖论模拟 伺夜 洪流之中",
+        "details": "——————————\n作业更新日期: 2025-07-14T02:25:57Z\n统计更新日期: 2025-08-08\n相对评分：61.29%  相对热度：36.64%\n来源：猫薄荷~  ID：63016\n——————————\n悖论模拟 伺夜 洪流之中"
+    },
+    "opers": [
+        {
+            "name": "伺夜",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "module": -1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "伺夜",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_usage": 1,
+            "name": "伺夜"
+        },
+        {
+            "name": "狼群",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "克洛丝",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "米格鲁",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "伺夜"
+        },
+        {
+            "type": "Skill",
+            "name": "伺夜",
+            "kills": 29
+        }
+    ],
+    "version": 3
+}

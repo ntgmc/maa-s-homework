@@ -1,0 +1,78 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_haini_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "海霓",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "costs": 22,
+            "rear_delay": 0,
+            "name": "海霓",
+            "location": [
+                3,
+                4
+            ],
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "costs": 91,
+            "name": "海霓",
+            "location": [
+                3,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "幽灵鲨",
+            "location": [
+                3,
+                5
+            ],
+            "costs": 91
+        },
+        {
+            "type": "Skill",
+            "costs": 91,
+            "name": "安哲拉",
+            "location": [
+                1,
+                4
+            ]
+        }
+    ],
+    "doc": {
+        "title": "辅助 - 海霓 - 穹顶上的瞭望者",
+        "details": "——————————\n作业更新日期: 2025-08-07T02:28:15Z\n统计更新日期: 2025-08-08\n相对评分：100.0%  相对热度：100.0%\n来源：ageises  ID：64329\n——————————\n精二一级技能一级用 低练注意满潜满信赖\n过不了的评论区留言"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "海霓",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "安哲拉",
+            "skill_usage": 0,
+            "skill": 1
+        },
+        {
+            "name": "幽灵鲨",
+            "skill_usage": 1,
+            "skill": 1
+        }
+    ]
+}

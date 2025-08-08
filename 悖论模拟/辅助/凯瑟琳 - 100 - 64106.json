@@ -1,0 +1,123 @@
+{
+    "stage_name": "mem_cathy_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "悖论模拟 辅助 - 凯瑟琳 - 后盾",
+        "details": "——————————\n作业更新日期: 2025-08-03T22:29:59Z\n统计更新日期: 2025-08-08\n相对评分：100.0%  相对热度：100.0%\n来源：Sourunyan  ID：64106\n——————————\n精二1级 2技能7级 无模组\nhttps://www.bilibili.com/video/BV1bYh8zcEJF\n原视频1级技能也能过\n"
+    },
+    "opers": [
+        {
+            "name": "凯瑟琳",
+            "skill": 2,
+            "requirements": {
+                "level": 1,
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "蚀清",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "凯瑟琳",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "爬行号·防护单元",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "爬行号·防护单元",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "凯瑟琳",
+            "location": [
+                1,
+                3
+            ],
+            "costs": 27
+        },
+        {
+            "type": "Skill",
+            "name": "蚀清",
+            "location": [
+                2,
+                2
+            ]
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                1,
+                2
+            ],
+            "costs": 79
+        },
+        {
+            "name": "爬行号·防护单元",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "蚀清",
+            "location": [
+                2,
+                2
+            ],
+            "costs": 80
+        },
+        {
+            "type": "Skill",
+            "name": "凯瑟琳",
+            "location": [
+                1,
+                3
+            ],
+            "kills": 14
+        },
+        {
+            "type": "Skill",
+            "name": "蚀清",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 20
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

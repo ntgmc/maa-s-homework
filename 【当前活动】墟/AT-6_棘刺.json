@@ -1,0 +1,54 @@
+{
+    "stage_name": "act44side_06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-6 - 漩涡",
+        "details": "——————————\n作业更新日期: 2025-08-02T08:58:20Z\n统计更新日期: 2025-08-08\n相对评分：83.00%  相对热度：57.50%\n来源：Dr_MO  ID：63888\n——————————\nAT-6 - 漩涡 貘"
+    },
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "棘刺",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                1
+            ],
+            "kills": 12
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}
