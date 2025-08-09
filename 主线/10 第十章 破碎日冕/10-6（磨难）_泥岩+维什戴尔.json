@@ -1,0 +1,56 @@
+{
+    "stage_name": "tough_10-05",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第十章 破碎日冕 - 10-6（磨难） - 虽非同族",
+        "details": "——————————\n作业更新日期: 2025-07-19T03:57:07Z\n统计更新日期: 2025-08-08\n相对评分：95.88%  相对热度：71.36%\n来源：C1nene  ID：49200\n——————————\n固源岩   自用"
+    },
+    "opers": [
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "module": 2
+            }
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "泥岩",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}
