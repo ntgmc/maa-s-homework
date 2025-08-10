@@ -1,0 +1,171 @@
+{
+    "stage_name": "act44side_ex08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-EX-8 - 碎裂的梦",
+        "details": "——————————\n作业更新日期: 2025-08-09T12:22:16Z\n统计更新日期: 2025-08-10\n相对评分：95.96%  相对热度：84.48%\n来源：椰果冰粉  ID：64510\n——————————\n这关需要微调的有点多，失败的话可能是MAA的延迟导致的，可以多试几次\n自用，思路：BV1xVtbz5ER4\n棘刺无模组 饼干3级模组 ew3级模组90级 安姐3级模组 小羊1级模组 新能3级模组"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "蕾缪安",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "新约能天使",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "棘刺",
+            "location": [
+                10,
+                7
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                8,
+                1
+            ],
+            "kills": 2,
+            "pre_delay": 3500
+        },
+        {
+            "name": "新约能天使",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                8,
+                5
+            ]
+        },
+        {
+            "name": "蕾缪安",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "蕾缪安",
+            "kills": 33
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "kills": 37
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 46
+        },
+        {
+            "name": "蕾缪安",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "蕾缪安",
+            "pre_delay": 6000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

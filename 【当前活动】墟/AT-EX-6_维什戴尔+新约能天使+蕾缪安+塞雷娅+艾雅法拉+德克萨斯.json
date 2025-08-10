@@ -1,0 +1,130 @@
+{
+    "stage_name": "act44side_ex06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-EX-6 - 在你的时代之上",
+        "details": "——————————\n作业更新日期: 2025-08-09T10:35:05Z\n统计更新日期: 2025-08-10\n相对评分：82.83%  相对热度：74.74%\n来源：椰果冰粉  ID：64480\n——————————\n自用 小羊1级模组 新能3级模组 安姐3级模组 最后安姐会死 害怕的话可以带个奶奶一下安姐"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "新约能天使",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "蕾缪安",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "新约能天使",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "德克萨斯",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                4
+            ],
+            "costs": 21
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "蕾缪安",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

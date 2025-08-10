@@ -1,0 +1,59 @@
+{
+    "stage_name": "act44side_ex01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-EX-1 - 青叶撞球场",
+        "details": "——————————\n作业更新日期: 2025-08-09T08:20:57Z\n统计更新日期: 2025-08-10\n相对评分：98.00%  相对热度：83.54%\n来源：沙罗树海  ID：64447\n——————————\nAT-EX-1 - 青叶撞球场"
+    },
+    "opers": [
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7,
+                "module": 1
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                3
+            ],
+            "cost_changes": 5
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

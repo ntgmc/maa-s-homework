@@ -1,0 +1,79 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_06-13",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 4
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "单奶（1404）",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第六章 局部坏死 - 6-15 - 不错的回忆 修改自用",
+        "details": "——————————\n作业更新日期: 2025-01-03T13:28:14Z\n统计更新日期: 2025-08-10\n相对评分：92.71%  相对热度：75.42%\n来源：奥尔什方  ID：45241\n——————————\n修改自用\nUP主：云中初梦\n原视频：https://www.bilibili.com/video/BV1u5eTejEMN/?p=158&share_source=copy_web&vd_source=1879fabb7befd11382b457f9d273b91b\nJSON作者：ECSS"
+    },
+    "groups": [
+        {
+            "name": "单奶（1404）",
+            "opers": [
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
