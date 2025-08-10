@@ -1,0 +1,74 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "a003_05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "先锋",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "流明",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Output",
+            "doc_color": "DarkCyan",
+            "doc": "如果觉得实用，请赏个好评吧~"
+        }
+    ],
+    "doc": {
+        "title": "艾雅法拉X流明Y青枳X模组任务一起做",
+        "details": "——————————\n作业更新日期: 2024-01-06T10:37:35Z\n统计更新日期: 2025-08-10\n相对评分：88.42%  相对热度：87.79%\n来源：Issuing2890  ID：31559\n——————————\nLuCifer大膜王，https://www.bilibili.com/video/BV1du411G7VX\n3星通关别传OF-5；必须编入非助战XX干员并上场，\n艾雅法拉：队伍最多4人\n流明：不编入其他医疗干员\n青枳：不编入其他先锋干员"
+    },
+    "groups": [
+        {
+            "name": "先锋",
+            "opers": [
+                {
+                    "name": "青枳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "流明",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_04-07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "凝滞师",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "槐琥",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "kills": 3
+        },
+        {
+            "type": "Retreat",
+            "name": "槐琥",
+            "location": [
+                2,
+                4
+            ],
+            "kills": 9,
+            "pre_delay": 1200
+        },
+        {
+            "type": "Deploy",
+            "name": "苏苏洛",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "安比尔",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "槐琥",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "安比尔",
+            "location": [
+                1,
+                5
+            ],
+            "kills": 45,
+            "pre_delay": 5000
+        },
+        {
+            "type": "Skill",
+            "name": "苏苏洛",
+            "location": [
+                3,
+                2
+            ],
+            "kills": 49
+        },
+        {
+            "type": "SkillUsage",
+            "name": "安比尔",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "槐琥X、但书X、安比尔X、苏苏洛X模组任务一起做",
+        "details": "——————————\n作业更新日期: 2023-09-22T16:00:17Z\n统计更新日期: 2025-08-10\n相对评分：89.05999999999999%  相对热度：83.98%\n来源：Issuing2890  ID：27794\n——————————\nLuCifer大膜王，https://www.bilibili.com/video/BV1Ge411G77f\n模组任务：3星通关主题曲4-7；必须编入非助战XX干员并上场，\n槐琥：编队不超过7人\n但书：至少歼灭3只高能源石虫\n安比尔：至少歼灭6只高能源石虫\n苏苏洛：不编入其他医疗干员\n\n拉普兰德精二60级专3，其余人精二1级技7，测试通过\n"
+    },
+    "groups": [
+        {
+            "name": "凝滞师",
+            "opers": [
+                {
+                    "name": "但书",
+                    "skill": 2,
+                    "skill_usage": 2
+                },
+                {
+                    "name": "波登可",
+                    "skill": 2,
+                    "skill_usage": 2
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "槐琥",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "安比尔",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "苏苏洛",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}

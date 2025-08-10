@@ -1,0 +1,72 @@
+{
+    "stage_name": "main_04-07",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第四章 急性衰竭 - 4-7 - 各取所需【澄闪模组任务（二模）】",
+        "details": "——————————\n作业更新日期: 2025-07-09T02:17:24Z\n统计更新日期: 2025-08-10\n相对评分：89.89%  相对热度：68.03%\n来源：小卡拉帕鲁灰  ID：62759\n——————————\n猪猪二模\n任务要求：编队不超过5人，累计10次大招\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "opers": [
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "拉普兰德",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "棘刺",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "澄闪",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 1
+}
