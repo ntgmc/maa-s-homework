@@ -1,0 +1,110 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_11-12",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right",
+            "cost_changes": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "cost_changes": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right",
+            "cost_changes": 17
+        },
+        {
+            "type": "Deploy",
+            "name": "铃兰",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Down",
+            "cost_changes": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down",
+            "cost_changes": 14
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十一章 淬火尘霾 - 11-14（磨难） - 一场相见",
+        "details": "——————————\n作业更新日期: 2025-01-04T04:18:27Z\n统计更新日期: 2025-08-11\n相对评分：95.65%  相对热度：78.57%\n来源：今天也要吃饭  ID：45262\n——————————\n10.10更新：怕轴不稳换成一倍速\n11-14磨难 2603 潜能加起来必须减两费才能对轴，所以加了德狗\n【【淬火尘霾】明日方舟 主线第十一章 磨难环境 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1cG411J7Mu/?p=15&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "塞雷娅",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

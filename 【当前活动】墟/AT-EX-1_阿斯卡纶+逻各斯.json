@@ -1,0 +1,62 @@
+{
+    "stage_name": "act44side_ex01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-EX-1 - 青叶撞球场",
+        "details": "——————————\n作业更新日期: 2025-08-09T23:51:53Z\n统计更新日期: 2025-08-11\n相对评分：99.00%  相对热度：74.19%\n来源：咕咕嘎嘎  ID：64649\n——————————\n作者：激激Fault\n作品链接：https://www.bilibili.com/video/BV1wwt8zrEzV"
+    },
+    "opers": [
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 4
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "阿斯卡纶",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

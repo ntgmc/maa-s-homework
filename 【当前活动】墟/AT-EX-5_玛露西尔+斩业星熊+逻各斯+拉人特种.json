@@ -1,0 +1,124 @@
+{
+    "stage_name": "act44side_ex05",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-EX-5 - 锻魂街机厅",
+        "details": "——————————\n作业更新日期: 2025-08-09T12:34:56Z\n统计更新日期: 2025-08-11\n相对评分：93.00%  相对热度：67.22%\n来源：Snowinter  ID：64504\n——————————\nAT-EX-5 - 锻魂街机厅\nhttps://www.bilibili.com/video/BV1eRttz4E1w/"
+    },
+    "opers": [
+        {
+            "name": "玛露西尔",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "斩业星熊",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 4
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "拉人特种",
+            "opers": [
+                {
+                    "name": "暗索",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "歌蕾蒂娅",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "斩业星熊",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "拉人特种",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "拉人特种",
+            "location": [
+                1,
+                1
+            ]
+        },
+        {
+            "name": "拉人特种",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "玛露西尔",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "玛露西尔",
+            "pre_delay": 6000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

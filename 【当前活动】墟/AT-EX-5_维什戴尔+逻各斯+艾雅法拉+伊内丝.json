@@ -1,0 +1,101 @@
+{
+    "stage_name": "act44side_ex05",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-EX-5 - 锻魂街机厅",
+        "details": "——————————\n作业更新日期: 2025-08-09T13:57:16Z\n统计更新日期: 2025-08-11\n相对评分：95.00%  相对热度：71.53%\n来源：飘ipao  ID：64533\n——————————\nmaa已测试\n练度请看干员（未测试角色为maa默认练度or个人练度不用管，没说就是三级模组）\n请开启截图增强避免翻车\n伊内丝一级模组\n测试了三遍突袭，把把不一样，但是每把都过了，我认为突袭有一定概率翻车"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "module": 4
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 80,
+                "module": 1
+            }
+        },
+        {
+            "name": "伊内丝",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 8,
+                "module": 2
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "伊内丝",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                1
+            ],
+            "costs": 4
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
