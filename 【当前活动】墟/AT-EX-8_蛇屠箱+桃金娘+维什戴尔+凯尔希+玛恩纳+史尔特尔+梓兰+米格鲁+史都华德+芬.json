@@ -1,0 +1,512 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act44side_ex08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "凯尔希",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "Mon3tr",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "direction": "Down",
+            "name": "史尔特尔",
+            "location": [
+                1,
+                5
+            ],
+            "costs": 37
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                7,
+                7
+            ],
+            "name": "蛇屠箱",
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 2000,
+            "name": "桃金娘",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 200,
+            "name": "史尔特尔",
+            "location": [
+                1,
+                5
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 3500
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                9,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "skill_usage": 2,
+            "name": "凯尔希",
+            "pre_delay": 4500
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                7,
+                6
+            ],
+            "name": "史尔特尔",
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 200,
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "史尔特尔",
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "凯尔希",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "skill_usage": 2,
+            "name": "玛恩纳"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                7
+            ],
+            "name": "蛇屠箱",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "史都华德",
+            "direction": "Right",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "Retreat",
+            "kills": 21,
+            "location": [
+                6,
+                7
+            ],
+            "name": "Mon3tr"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "凯尔希",
+            "skill_usage": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "“斩”",
+            "direction": "Right",
+            "location": [
+                10,
+                3
+            ]
+        },
+        {
+            "type": "Retreat",
+            "pre_delay": 200,
+            "name": "史都华德",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "蛇屠箱",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "direction": "Down",
+            "name": "桃金娘",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "skill_usage": 1,
+            "name": "桃金娘"
+        },
+        {
+            "type": "Deploy",
+            "name": "“斩”",
+            "direction": "Right",
+            "location": [
+                10,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“斩”",
+            "direction": "Right",
+            "location": [
+                3,
+                7
+            ]
+        },
+        {
+            "type": "Deploy",
+            "pre_delay": 100,
+            "name": "Mon3tr",
+            "direction": "Up",
+            "location": [
+                10,
+                7
+            ],
+            "kills": 27
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                7
+            ],
+            "pre_delay": 5500,
+            "name": "玛恩纳"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "skill_usage": 2,
+            "name": "维什戴尔"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "pre_delay": 4500,
+            "name": "凯尔希",
+            "skill_usage": 2
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 200
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "史尔特尔",
+            "skill_usage": 2
+        },
+        {
+            "type": "Deploy",
+            "name": "“斩”",
+            "direction": "Right",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "蛇屠箱",
+            "skill_usage": 2,
+            "skill_times": 1,
+            "kills": 36
+        },
+        {
+            "type": "Retreat",
+            "name": "Mon3tr",
+            "location": [
+                10,
+                7
+            ],
+            "pre_delay": 100
+        },
+        {
+            "type": "Retreat",
+            "name": "玛恩纳",
+            "location": [
+                9,
+                7
+            ],
+            "pre_delay": 150
+        },
+        {
+            "type": "Retreat",
+            "pre_delay": 11000,
+            "name": "蛇屠箱",
+            "location": [
+                7,
+                7
+            ]
+        },
+        {
+            "type": "Deploy",
+            "direction": "Left",
+            "pre_delay": 200,
+            "name": "Mon3tr",
+            "location": [
+                7,
+                7
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "凯尔希",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "skill_usage": 2,
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Left",
+            "pre_delay": 6000,
+            "name": "米格鲁"
+        },
+        {
+            "type": "Deploy",
+            "kills": 48,
+            "name": "芬",
+            "direction": "Left",
+            "location": [
+                6,
+                7
+            ]
+        },
+        {
+            "type": "Deploy",
+            "kills": 48,
+            "name": "梓兰",
+            "direction": "Down",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "direction": "Up",
+            "location": [
+                9,
+                7
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "skill_usage": 2,
+            "name": "玛恩纳",
+            "kills": 50
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "direction": "Up",
+            "location": [
+                10,
+                7
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "梓兰",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "type": "SkillUsage",
+            "name": "史尔特尔",
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "direction": "Up",
+            "location": [
+                10,
+                6
+            ],
+            "pre_delay": 150
+        },
+        {
+            "type": "SkillUsage",
+            "skill_usage": 0,
+            "name": "桃金娘"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "skill_usage": 2,
+            "name": "维什戴尔"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AT-EX-8 - 碎裂的梦",
+        "details": "——————————\n作业更新日期: 2025-08-10T12:25:29Z\n统计更新日期: 2025-08-12\n相对评分：97.98%  相对热度：71.03%\n来源：焕彩gg  ID：64730\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n求关注。BOSS有BUG，有极小概率穿过M3后刷新技能直接进家，这不是作业的问题，是BUG。使用本作业请什么都不要干，把模拟器窗口置顶盯着看。因为操作多，掉帧会失败。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "蛇屠箱",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 2
+        },
+        {
+            "name": "维什戴尔",
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            },
+            "skill": 3,
+            "skill_times": 1,
+            "skill_usage": 2
+        },
+        {
+            "name": "凯尔希",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "梓兰",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "史都华德",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

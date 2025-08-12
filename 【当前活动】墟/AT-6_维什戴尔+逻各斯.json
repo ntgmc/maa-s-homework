@@ -1,0 +1,73 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act44side_06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                1
+            ],
+            "costs": 14
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "direction": "Up",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "cost_changes": 61,
+            "name": "维什戴尔",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "cost_changes": 9
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "cost_changes": 17
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "kills": 13,
+            "name": "维什戴尔",
+            "skill_usage": 2
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AT-6 - 漩涡 维逻双人速刷",
+        "details": "——————————\n作业更新日期: 2025-08-02T13:29:31Z\n统计更新日期: 2025-08-12\n相对评分：97.00%  相对热度：66.14%\n来源：781963555@qq.com  ID：63985\n——————————\n【【墟】双人AT-6堵门98s速刷固源岩组 简单好抄高容错】 https://www.bilibili.com/video/BV1ANh8znE7k/?share_source=copy_web&vd_source=903d1b1a534dc8c7754affe0ebbf33f6"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "skill_usage": 0,
+            "name": "逻各斯",
+            "skill": 1
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_04-02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                8,
+                2
+            ],
+            "name": "古米",
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "direction": "Down",
+            "location": [
+                8,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "古米模组",
+        "details": "——————————\n作业更新日期: 2025-07-26T13:17:48Z\n统计更新日期: 2025-08-12\n相对评分：51.160000000000004%  相对热度：34.25%\n来源：焕彩gg  ID：63498\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n求关注。"
+    },
+    "groups": [
+        {
+            "name": "近卫",
+            "opers": [
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "山",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "古米",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}
