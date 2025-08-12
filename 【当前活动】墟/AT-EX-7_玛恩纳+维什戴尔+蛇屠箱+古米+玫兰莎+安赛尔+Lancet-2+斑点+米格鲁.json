@@ -1,0 +1,235 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act44side_ex07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                10,
+                7
+            ],
+            "costs": 14
+        },
+        {
+            "type": "Deploy",
+            "direction": "Down",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                1
+            ],
+            "costs": 25
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 4800,
+            "name": "维什戴尔",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 1000,
+            "name": "维什戴尔",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "pre_delay": 6000,
+            "name": "玛恩纳",
+            "direction": "Down",
+            "location": [
+                8,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "蛇屠箱",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "玫兰莎",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "kills": 8,
+            "pre_delay": 1500,
+            "name": "蛇屠箱",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "skill_usage": 2,
+            "name": "安赛尔"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                1
+            ],
+            "pre_delay": 15000,
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                1
+            ],
+            "name": "维什戴尔",
+            "kills": 24
+        },
+        {
+            "type": "Deploy",
+            "direction": "Right",
+            "name": "Lancet-2",
+            "location": [
+                1,
+                3
+            ]
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                3,
+                1
+            ],
+            "name": "安赛尔"
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                2
+            ],
+            "name": "斑点",
+            "pre_delay": 19000
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 4000,
+            "name": "维什戴尔",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "direction": "Right",
+            "location": [
+                9,
+                5
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AT-EX-7 - 盛放的泡沫",
+        "details": "——————————\n作业更新日期: 2025-08-11T07:28:52Z\n统计更新日期: 2025-08-12\n相对评分：98.00%  相对热度：69.39%\n来源：焕彩gg  ID：64682\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n求关注"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "维什戴尔",
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            },
+            "skill": 3
+        },
+        {
+            "name": "蛇屠箱",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "玫兰莎",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "Lancet-2",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
