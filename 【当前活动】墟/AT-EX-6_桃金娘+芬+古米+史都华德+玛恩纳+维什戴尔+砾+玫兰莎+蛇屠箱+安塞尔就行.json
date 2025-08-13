@@ -286,12 +286,38 @@
             "name": "玛恩纳"
         },
         {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "skill_usage": 2,
+            "name": "安赛尔",
+            "kills": 45
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "direction": "Up",
+            "location": [
+                8,
+                5
+            ],
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "玫兰莎",
+            "direction": "Left",
+            "location": [
+                9,
+                4
+            ]
+        },
+        {
             "type": "SkillDaemon"
         }
     ],
     "doc": {
         "title": "AT-EX-6 - 在你的时代之上",
-        "details": "——————————\n作业更新日期: 2025-08-12T03:42:04Z\n统计更新日期: 2025-08-12\n相对评分：95.00%  相对热度：82.79%\n来源：焕彩gg  ID：64531\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n求关注，使用本作业请什么都不要干，把模拟器窗口置顶盯着看。因为操作多，掉帧会失败。"
+        "details": "——————————\n作业更新日期: 2025-08-12T11:30:45Z\n统计更新日期: 2025-08-13\n相对评分：95.00%  相对热度：83.52%\n来源：焕彩gg  ID：64531\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n求关注，使用本作业请什么都不要干，把模拟器窗口置顶盯着看。因为操作多，掉帧会失败。"
     },
     "groups": [
         {
