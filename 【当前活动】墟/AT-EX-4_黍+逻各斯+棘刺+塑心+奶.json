@@ -1,0 +1,125 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act44side_ex04",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "direction": "Left",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "天命来袭",
+            "location": [
+                9,
+                3
+            ],
+            "costs": 17
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                9,
+                2
+            ],
+            "name": "逻各斯",
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up",
+            "name": "黍"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Left",
+            "name": "棘刺"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "direction": "Up",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "Output",
+            "doc_color": "SpringGreen",
+            "doc": "Ciallo～(∠・ω< )⌒★"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AT-EX-4 - 鸣瓶坂保龄球馆",
+        "details": "——————————\n作业更新日期: 2025-08-12T02:30:50Z\n统计更新日期: 2025-08-13\n相对评分：98.00%  相对热度：68.72%\n来源：萨扌立托加  ID：64941\n——————————\njson作者：萨扌立托加\n作业交流群二群群号216314927，可蹲作业，有问题进群找萨扌立托加，作业站消息一般看不到\n❤️"
+    },
+    "groups": [
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
