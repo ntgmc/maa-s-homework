@@ -1,0 +1,105 @@
+{
+    "stage_name": "act44side_s01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-S-1 - 神签 维逻双人",
+        "details": "——————————\n作业更新日期: 2025-08-16T11:56:37Z\n统计更新日期: 2025-08-17\n相对评分：89.90%  相对热度：70.15%\n来源：pppie  ID：65391\n——————————\n参考作品B站：半禺心【AT-S-1突袭 维逻循环双人】 https://www.bilibili.com/video/BV1fPYizwEBr/\n平均练度28033"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "module": 1
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "module": 4
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "障碍物",
+            "location": [
+                8,
+                7
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "pre_delay": 500
+        },
+        {
+            "name": "障碍物",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                1
+            ],
+            "costs": 16,
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "逻各斯",
+            "kills": 12,
+            "pre_delay": 500
+        },
+        {
+            "name": "逻各斯",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

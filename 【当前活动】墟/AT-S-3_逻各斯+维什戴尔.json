@@ -1,0 +1,109 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act44side_s03",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                10,
+                3
+            ],
+            "costs": 22
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                4
+            ],
+            "costs": 0,
+            "pre_delay": 200
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "逻各斯",
+            "pre_delay": 200
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "cooling": 1
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                3,
+                5
+            ],
+            "pre_delay": 200
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "逻各斯",
+            "skill_usage": 1,
+            "costs": 40,
+            "pre_delay": 200
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 1
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 27
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AT-S-3 - 逢魔 维逻双人",
+        "details": "——————————\n作业更新日期: 2025-08-16T13:53:30Z\n统计更新日期: 2025-08-17\n相对评分：86.00%  相对热度：70.38%\n来源：pppie  ID：65395\n——————————\n参考作品B站：半禺心【AT-S-3突袭 维逻循环双人】 https://www.bilibili.com/video/BV1nJYvzAEjx/\n注意：切勿携带作业以外部署费用高于等于逻各斯的干员！！！"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
