@@ -1,0 +1,158 @@
+{
+    "stage_name": "act44side_ex08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-EX-8 - 碎裂的梦 - 三人打法",
+        "details": "——————————\n作业更新日期: 2025-08-11T06:45:10Z\n统计更新日期: 2025-08-16\n相对评分：92.93%  相对热度：62.91%\n来源：Tinch  ID：64842\n——————————\n作业来源：\nhttps://www.bilibili.com/video/BV1cNt8zzEkQ/?share_source=copy_web&vd_source=5d993adf522c16219536a4e8a61f8484\n自测已过 （3人满练一潜能）"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "蕾缪安",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "新约能天使",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                4,
+                1
+            ],
+            "kills": 0,
+            "pre_delay": 3500
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "pre_delay": 6000
+        },
+        {
+            "name": "蕾缪安",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "蕾缪安",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "pre_delay": 6000
+        },
+        {
+            "name": "新约能天使",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 8
+        },
+        {
+            "name": "新约能天使",
+            "skill_usage": 2,
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "pre_delay": 6000
+        },
+        {
+            "type": "Retreat",
+            "name": "新约能天使",
+            "location": [
+                2,
+                6
+            ],
+            "kills": 13
+        },
+        {
+            "name": "新约能天使",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "kills": 14
+        },
+        {
+            "name": "新约能天使",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "pre_delay": 6000
+        },
+        {
+            "type": "Retreat",
+            "name": "新约能天使",
+            "location": [
+                2,
+                6
+            ],
+            "kills": 38
+        },
+        {
+            "name": "新约能天使",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 45
+        },
+        {
+            "name": "新约能天使",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "pre_delay": 600
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
