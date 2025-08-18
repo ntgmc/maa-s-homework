@@ -1,0 +1,166 @@
+{
+    "stage_name": "act44side_s02",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-S-2 - 祓雨",
+        "details": "——————————\n作业更新日期: 2025-08-17T09:17:56Z\n统计更新日期: 2025-08-18\n相对评分：97.00%  相对热度：70.09%\n来源：蒙娜丽莎(•ω•)  ID：65383\n——————————\nAT-S-2 - 祓雨"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "新约能天使",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "伊内丝",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "苏苏洛",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "蛇屠箱/黍",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 3,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 2,
+                    "requirements": {
+                        "level": 70,
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "阿斯卡纶",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 5
+        },
+        {
+            "name": "伊内丝",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "新约能天使",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "蛇屠箱/黍",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "苏苏洛",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 21
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使"
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 39
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "Skill",
+            "name": "蛇屠箱/黍",
+            "kills": 42
+        },
+        {
+            "type": "Skill",
+            "name": "苏苏洛",
+            "kills": 44
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

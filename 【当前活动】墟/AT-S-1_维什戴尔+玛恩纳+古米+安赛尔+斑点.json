@@ -1,0 +1,192 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act44side_s01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                4,
+                7
+            ],
+            "direction": "Up",
+            "costs": 12
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                1
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                4,
+                6
+            ],
+            "name": "维什戴尔",
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                8,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "direction": "Left",
+            "location": [
+                4,
+                2
+            ],
+            "kills": 7
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                5,
+                7
+            ],
+            "direction": "Up",
+            "name": "斑点"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                3,
+                6
+            ],
+            "name": "祖宗"
+        },
+        {
+            "type": "Deploy",
+            "direction": "Right",
+            "name": "安赛尔",
+            "location": [
+                3,
+                6
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                3,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                4,
+                7
+            ],
+            "pre_delay": 17000
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                6
+            ],
+            "pre_delay": 14000
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 24000,
+            "name": "玛恩纳",
+            "location": [
+                4,
+                7
+            ]
+        },
+        {
+            "type": "Skill",
+            "location": [
+                5,
+                7
+            ],
+            "pre_delay": 6000,
+            "name": "斑点"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "skill_usage": 2,
+            "name": "维什戴尔"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_usage": 1,
+            "name": "玛恩纳"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "AT-S-1 - 神签",
+        "details": "——————————\n作业更新日期: 2025-08-18T04:11:48Z\n统计更新日期: 2025-08-18\n相对评分：97.98%  相对热度：67.13%\n来源：焕彩gg  ID：65476\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n求关注"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            },
+            "skill": 3
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
