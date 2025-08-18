@@ -3,7 +3,7 @@
     "minimum_required": "v4.0.0",
     "doc": {
         "title": "AT-S-1 - 神签 维逻双人",
-        "details": "——————————\n作业更新日期: 2025-08-16T11:56:37Z\n统计更新日期: 2025-08-17\n相对评分：89.90%  相对热度：70.15%\n来源：pppie  ID：65391\n——————————\n参考作品B站：半禺心【AT-S-1突袭 维逻循环双人】 https://www.bilibili.com/video/BV1fPYizwEBr/\n平均练度28033"
+        "details": "——————————\n作业更新日期: 2025-08-17T07:36:12Z\n统计更新日期: 2025-08-18\n相对评分：92.93%  相对热度：74.48%\n来源：pppie  ID：65391\n——————————\n参考作品B站：半禺心【AT-S-1突袭 维逻循环双人】 https://www.bilibili.com/video/BV1fPYizwEBr/\n平均练度28033"
     },
     "opers": [
         {
@@ -83,8 +83,8 @@
         {
             "type": "Skill",
             "name": "逻各斯",
-            "kills": 12,
-            "pre_delay": 500
+            "kills": 11,
+            "pre_delay": 1500
         },
         {
             "name": "逻各斯",

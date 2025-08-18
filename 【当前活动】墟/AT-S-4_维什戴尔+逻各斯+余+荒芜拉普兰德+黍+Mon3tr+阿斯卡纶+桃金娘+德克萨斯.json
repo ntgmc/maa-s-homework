@@ -1,0 +1,316 @@
+{
+    "stage_name": "act44side_s04",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-S-4 - 罪业",
+        "details": "——————————\n作业更新日期: 2025-08-16T20:16:22Z\n统计更新日期: 2025-08-18\n相对评分：88.89%  相对热度：71.84%\n来源：蒙娜丽莎(•ω•)  ID：65427\n——————————\nAT-S-4 - 罪业\n该作业对轴出现问题解决方式：6击杀之内，在M3右侧部署逻各斯；13击杀，须关闭EW技能；18击杀，余部署后立即在左侧部署黍；39~42击杀右侧红门出现敌人时开启拉普兰德技能。"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "余",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 1,
+            "requirements": {
+                "skill_level": 9
+            }
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "黍",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "Mon3tr",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "德克萨斯",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                8,
+                1
+            ]
+        },
+        {
+            "name": "阿斯卡纶",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "Mon3tr",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "重构体",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 8
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 12,
+            "pre_delay": 2000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                10,
+                1
+            ],
+            "kills": 13
+        },
+        {
+            "type": "Skill",
+            "name": "逻各斯",
+            "kills": 15,
+            "pre_delay": 2500
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "pre_delay": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯",
+            "pre_delay": 0
+        },
+        {
+            "name": "余",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "pre_delay": 0
+        },
+        {
+            "name": "黍",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "pre_delay": 0
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 22,
+            "pre_delay": 0
+        },
+        {
+            "type": "Skill",
+            "name": "黍",
+            "kills": 22,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 24,
+            "pre_delay": 1000
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "type": "SkillUsage",
+            "kills": 30
+        },
+        {
+            "type": "Skill",
+            "name": "逻各斯",
+            "kills": 30,
+            "costs": 0,
+            "pre_delay": 1000
+        },
+        {
+            "name": "逻各斯",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                3
+            ],
+            "kills": 34
+        },
+        {
+            "type": "Retreat",
+            "name": "逻各斯",
+            "kills": 37
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                8,
+                1
+            ]
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Retreat",
+            "name": "余",
+            "kills": 40
+        },
+        {
+            "type": "Skill",
+            "name": "荒芜拉普兰德",
+            "kills": 42
+        },
+        {
+            "type": "Skill",
+            "name": "黍",
+            "kills": 45
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

@@ -1,0 +1,304 @@
+{
+    "stage_name": "act44side_s04",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-S-4 - 罪业 - 老干员挂机强杀",
+        "details": "——————————\n作业更新日期: 2025-08-17T11:32:47Z\n统计更新日期: 2025-08-18\n相对评分：98.99%  相对热度：84.01%\n来源：小卡拉帕鲁灰  ID：65499\n——————————\n无askl、饼干\n那几个低星是开技能工具人，必须带\n放前台运行"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 4
+            }
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "铃兰",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "伊内丝",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "夜刀",
+            "skill_usage": 1
+        },
+        {
+            "name": "杜林",
+            "skill_usage": 1
+        },
+        {
+            "name": "黑角"
+        }
+    ],
+    "groups": [
+        {
+            "name": "塞or黍",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "elite": 2,
+                        "level": 90,
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "elite": 2,
+                        "level": 90,
+                        "skill_level": 10,
+                        "module": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "伊内丝",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "夜刀",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "伊内丝",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "杜林",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "黑角",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "黑角",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "pre_delay": 3000
+        },
+        {
+            "name": "铃兰",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "玛恩纳",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞or黍",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "伊内丝"
+        },
+        {
+            "name": "史尔特尔",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "史尔特尔",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "kills": 13
+        },
+        {
+            "name": "玛恩纳",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "pre_delay": 1000
+        },
+        {
+            "name": "铃兰",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "黑角",
+            "skill_usage": 0,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "黑角",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "kills": 24
+        },
+        {
+            "name": "伊内丝",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "伊内丝",
+            "location": [
+                10,
+                5
+            ],
+            "pre_delay": 10000
+        },
+        {
+            "name": "史尔特尔",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "kills": 42,
+            "pre_delay": 3000
+        },
+        {
+            "name": "伊内丝",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "kills": 58
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

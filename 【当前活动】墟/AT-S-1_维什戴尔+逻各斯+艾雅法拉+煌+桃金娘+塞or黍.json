@@ -1,0 +1,190 @@
+{
+    "stage_name": "act44side_s01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-S-1 - 神签 -   挂机",
+        "details": "——————————\n作业更新日期: 2025-08-17T05:28:03Z\n统计更新日期: 2025-08-18\n相对评分：98.99%  相对热度：72.64%\n来源：小卡拉帕鲁灰  ID：65479\n——————————\n无askl、饼干\nhttps://www.bilibili.com/video/BV1euYizZEWc/?spm_id_from=333.1007.tianma.2-1-3.click&vd_source=10857a8c905c104ca2eab27415c72ffc"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 2,
+                "level": 60,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "requirements": {
+                "elite": 2,
+                "level": 60,
+                "skill_level": 10,
+                "module": 4
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 60,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 2,
+                "level": 1,
+                "skill_level": 10,
+                "module": -1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "塞or黍",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "module": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "location": [
+                1,
+                7
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "障碍物",
+            "location": [
+                8,
+                7
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "障碍物",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "天命",
+            "location": [
+                1,
+                1
+            ]
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "costs": 20
+        },
+        {
+            "name": "塞or黍",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "type": "SkillUsage",
+            "kills": 8
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "type": "SkillUsage",
+            "kills": 30
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
