@@ -1,0 +1,165 @@
+{
+    "stage_name": "act44side_s03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-S-3 - 逢魔",
+        "details": "——————————\n作业更新日期: 2025-08-16T09:55:00Z\n统计更新日期: 2025-08-17\n相对评分：83.00%  相对热度：70.89%\n来源：椰果冰粉  ID：65379\n——————————\n自用，思路：BV16cYizPEMJ"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "新约能天使",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "蕾缪安",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                10,
+                3
+            ],
+            "costs": 10
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                4
+            ]
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                4,
+                5
+            ],
+            "costs": 23
+        },
+        {
+            "name": "阿斯卡纶",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "新约能天使",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "蕾缪安",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "阿斯卡纶",
+            "kills": 8
+        },
+        {
+            "name": "蕾缪安",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "pre_delay": 10000
+        },
+        {
+            "type": "Skill",
+            "name": "阿斯卡纶",
+            "kills": 20
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 39
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
