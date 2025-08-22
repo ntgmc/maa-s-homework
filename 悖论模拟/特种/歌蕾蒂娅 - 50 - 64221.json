@@ -1,0 +1,97 @@
+{
+    "stage_name": "mem_glady_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "歌蕾蒂娅 陆上共舞 悖论模拟",
+        "details": "——————————\n作业更新日期: 2025-08-05T15:21:19Z\n统计更新日期: 2025-08-22\n相对评分：50.0%  相对热度：33.23%\n来源：sz3713265  ID：64221\n——————————\n自制练度偏高  建议歌蕾蒂娅精二开模组一级 毕竟饼干肘击也需要 "
+    },
+    "opers": [
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "幽灵鲨",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "砾",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "costs": 16
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "幽灵鲨",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy",
+            "costs": 21
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill_usage": 2,
+            "type": "SkillUsage",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left",
+            "skill_times": 1,
+            "kills": 2,
+            "costs": 38
+        },
+        {
+            "name": "砾",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "costs": 80
+        },
+        {
+            "type": "Skill",
+            "name": "歌蕾蒂娅",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left",
+            "skill_usage": 1,
+            "kills": 14,
+            "costs": 99,
+            "pre_delay": 9000
+        },
+        {
+            "name": "砾",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy",
+            "costs": 99
+        }
+    ]
+}

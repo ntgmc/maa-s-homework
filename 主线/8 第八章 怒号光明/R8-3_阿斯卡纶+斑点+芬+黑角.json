@@ -1,0 +1,85 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_08-03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "location": [
+                2,
+                5
+            ],
+            "costs": 5
+        },
+        {
+            "type": "Deploy",
+            "name": "阿斯卡纶",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第八章 怒号光明 - R8-3 - 麦秆，极易燃烧 - 单核",
+        "details": "——————————\n作业更新日期: 2025-01-12T06:55:54Z\n统计更新日期: 2025-08-22\n相对评分：80.61%  相对热度：63.40%\n来源：小卡拉帕鲁灰  ID：45472\n——————————\naskl满配"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
