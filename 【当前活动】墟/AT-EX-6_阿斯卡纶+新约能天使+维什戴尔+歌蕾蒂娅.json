@@ -1,0 +1,121 @@
+{
+    "stage_name": "act44side_ex06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "高配（高配在哪儿？）AT-EX-6 - 在你的时代之上",
+        "details": "——————————\n作业更新日期: 2025-08-10T14:49:32Z\n统计更新日期: 2025-08-22\n相对评分：84.00%  相对热度：55.31%\n来源：想喂林玉霞吃老鼠药  ID：64785\n——————————\n切出游戏画面会下不去人，别切\n奇妙bug之干员下不去，maa锁不到位置吗？\n由于遥还没加入作业干员池子所以我选不了，换成新能源补伤害。\n阿斯卡纶疑似刚需第一个费用潜，或者专二以上的一技能\n"
+    },
+    "opers": [
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7,
+                "module": 1
+            }
+        },
+        {
+            "name": "新约能天使",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "阿斯卡纶",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "新约能天使",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "pre_delay": 2100
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "costs": 79
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "costs": 99
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "pre_delay": 24000
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "pre_delay": 14000
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "pre_delay": 2000
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

@@ -1,0 +1,138 @@
+{
+    "stage_name": "act44side_ex05",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "AT-EX-5 - 锻魂街机厅",
+        "details": "——————————\n作业更新日期: 2025-08-09T16:22:43Z\n统计更新日期: 2025-08-22\n相对评分：89.00%  相对热度：58.52%\n来源：mionya  ID：64575\n——————————\nAT-EX-5 - 锻魂街机厅\n自用修改"
+    },
+    "opers": [
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 4
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "玛恩纳",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                1,
+                1
+            ],
+            "cost_changes": 4
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "玛恩纳"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                7,
+                7
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "direction": "Right",
+            "location": [
+                5,
+                5
+            ]
+        },
+        {
+            "name": "玛恩纳",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "cooling": 0
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                2
+            ],
+            "kills": 18
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
