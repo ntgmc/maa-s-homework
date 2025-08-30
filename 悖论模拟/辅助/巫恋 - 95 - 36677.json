@@ -1,0 +1,135 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_vodfox_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "灰喉",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "能天使",
+            "location": [
+                4,
+                4
+            ],
+            "pre_delay": 1500
+        },
+        {
+            "type": "Deploy",
+            "name": "巫恋",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "灰喉",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "石英",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "诅咒娃娃",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "None",
+            "kills": 7
+        },
+        {
+            "type": "Skill",
+            "name": "能天使",
+            "location": [
+                4,
+                4
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "灰喉",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 12
+        },
+        {
+            "type": "Deploy",
+            "name": "诅咒娃娃",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 15,
+            "pre_delay": 3500,
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "能天使",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "石英",
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "末药",
+            "location": [
+                2,
+                4
+            ]
+        }
+    ],
+    "doc": {
+        "title": "巫恋悖论模拟",
+        "details": "——————————\n作业更新日期: 2024-05-01T08:38:43Z\n统计更新日期: 2025-08-30\n相对评分：95.65%  相对热度：95.14%\n来源：rihno  ID：36677\n——————————\n到巫恋悖论模拟页面点击二技能选中，然后开始运行本作业"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "巫恋",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,215 @@
+{
+    "stage_name": "main_07-16",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "全息作战矩阵 - 7-18 - 爱国者之死 15难 第一版",
+        "details": "——————————\n作业更新日期: 2025-08-28T14:52:00Z\n统计更新日期: 2025-08-30\n相对评分：92.47%  相对热度：81.67%\n来源：萨拉托加  ID：66449\n——————————\n52饼干要满练，不然可能扛不住\n基础OR选右\n附加第一排选前两个5 3\n第二排OR全选左\n第三排OR选中间\n原作者小鬼卡比 JSON作者萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【全息作战矩阵#1】7-18等 全关【挂机】攻略合集【明日方舟】】 https://www.bilibili.com/video/BV1mNh1zvEkh/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "opers": [
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "module": 1
+            }
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "遥",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "伊内丝",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7,
+                "module": 1
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 4
+            }
+        },
+        {
+            "name": "斩业星熊",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "吟游者",
+            "opers": [
+                {
+                    "name": "浊心斯卡蒂",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "魔王",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "伊内丝",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "吟游者",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "遥",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "黍",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "塑心",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "伊内丝"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "costs": 30
+        },
+        {
+            "name": "斩业星熊",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 0
+}

@@ -1,0 +1,228 @@
+{
+    "stage_name": "act35side_s03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "太阳甩在身后 - AS-S-3 - 笔尖凝聚着愿景",
+        "details": "——————————\n作业更新日期: 2025-08-25T07:45:51Z\n统计更新日期: 2025-08-30\n相对评分：89.80%  相对热度：67.69%\n来源：Ay555  ID：66153\n——————————\n此作业全员专三且模组一级\n原作者：自在道爷\nJSON作者：星之海.\n社区评论不会提醒，有问题可以进群找我：994516079（刚建的\n原视频：【【太阳甩在身后】AS-S-1至AS-S-4挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(分p更新中)】https://www.bilibili.com/video/BV1Ym42137yp?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+    },
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "遥",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "地刺",
+            "opers": [
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "伊桑",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "容错狙",
+            "opers": [
+                {
+                    "name": "正义骑士号",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "泰拉大陆调查团",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "容错狙",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "德克萨斯",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "风笛",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "能天使",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "遥",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯",
+            "location": [
+                1,
+                5
+            ],
+            "kills": 37
+        },
+        {
+            "name": "奶盾",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                6,
+                6
+            ],
+            "kills": 43
+        },
+        {
+            "name": "地刺",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

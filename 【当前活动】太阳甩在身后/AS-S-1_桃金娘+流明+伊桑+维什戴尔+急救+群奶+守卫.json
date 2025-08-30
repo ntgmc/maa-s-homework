@@ -1,0 +1,196 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act35side_s01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 5
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊桑",
+            "kills": 12,
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "群奶",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left",
+            "kills": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "流明",
+            "direction": "Left",
+            "location": [
+                10,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "急救",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "守卫",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "kills": 23,
+            "skill_usage": 0
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "pre_delay": 10000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "太阳甩在身后 - AS-S-1 - 哲理在新生中传唱 单核-自改",
+        "details": "——————————\n作业更新日期: 2025-08-25T11:42:43Z\n统计更新日期: 2025-08-30\n相对评分：83.33%  相对热度：54.64%\n来源：叶子子子  ID：66179\n——————————\nhttps://www.bilibili.com/video/BV1bU411U7MQ\n\n开头剧情读条可能会卡部署，手动点几下屏幕。\n否则需要自己把ew的动作补上去。\n\n四星精1满\new精2满90级"
+    },
+    "groups": [
+        {
+            "name": "急救",
+            "opers": [
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "古米"
+                },
+                {
+                    "name": "塞雷娅"
+                }
+            ]
+        },
+        {
+            "name": "群奶",
+            "opers": [
+                {
+                    "name": "调香师",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "守卫",
+            "opers": [
+                {
+                    "name": "卡缇"
+                },
+                {
+                    "name": "泡泡"
+                },
+                {
+                    "name": "蛇屠箱"
+                },
+                {
+                    "name": "角峰"
+                },
+                {
+                    "name": "星熊"
+                },
+                {
+                    "name": "年"
+                },
+                {
+                    "name": "涤火杰西卡"
+                },
+                {
+                    "name": "雷蛇"
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 10
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "伊桑"
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}

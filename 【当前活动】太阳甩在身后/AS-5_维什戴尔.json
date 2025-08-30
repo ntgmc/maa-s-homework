@@ -1,0 +1,53 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act35side_05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left",
+            "costs": 24
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 7
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 28,
+            "pre_delay": 8000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "太阳甩在身后 - AS-5 - 文物也上班",
+        "details": "——————————\n作业更新日期: 2024-08-04T17:56:00Z\n统计更新日期: 2025-08-30\n相对评分：86.87%  相对热度：62.36%\n来源：spellcast  ID：39760\n——————————\n精二90级三模三技能专三ew"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

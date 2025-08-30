@@ -1,0 +1,144 @@
+{
+    "stage_name": "act35side_ex08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "太阳甩在身后 - AS-EX-8 - 无冕之王与朝圣者",
+        "details": "——————————\n作业更新日期: 2025-08-28T07:19:12Z\n统计更新日期: 2025-08-30\n相对评分：92.93%  相对热度：65.88%\n来源：Tinch  ID：66235\n——————————\n致敬世界最高医疗-萌萌香(60级无模组)\n一级模组干员：山，夜莺，小火龙;其余三级模组\n测试十几遍都是过的，但是看着血线好危险可能会有暴毙风险？如果有其他作业替代尽量选择其他作业吧\nJSON by:Tinch"
+    },
+    "opers": [
+        {
+            "name": "遥",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": -1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "补伤害",
+            "opers": [
+                {
+                    "name": "维什戴尔",
+                    "skill": 3,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "level": 90,
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "requirements": {
+                        "level": 90,
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "山",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "遥",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "补伤害",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "夜莺",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "伊芙利特",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
