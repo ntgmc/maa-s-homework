@@ -1,0 +1,94 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act35side_ex03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯净结晶",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯净结晶",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "饼干组挂机丨太阳甩在身后 - AS-EX-3 - 一捧宝石",
+        "details": "——————————\n作业更新日期: 2025-08-25T09:15:41Z\n统计更新日期: 2025-08-30\n相对评分：100.00%  相对热度：76.46%\n来源：渡边草莓  ID：66164\n——————————\n原作者：紧急失控\n原视频：https://www.bilibili.com/video/BV1hreRzkEV7\n\n桃子没专三的话记得带上风笛"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "skill": 3
+        },
+        {
+            "name": "桃金娘",
+            "skill_usage": 1,
+            "skill": 1
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

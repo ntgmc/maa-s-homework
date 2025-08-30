@@ -1,0 +1,126 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act35side_06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "costs": 24,
+            "rear_delay": 300,
+            "name": "维什戴尔",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "尖兵",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up",
+            "kills": 0,
+            "costs": 9
+        },
+        {
+            "type": "Deploy",
+            "name": "小盾",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down",
+            "kills": 8
+        },
+        {
+            "type": "Skill",
+            "name": "小盾",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 28
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "太阳甩在身后 - AS-6 - 过往云烟",
+        "details": "——————————\n作业更新日期: 2024-08-03T07:30:51Z\n统计更新日期: 2025-08-30\n相对评分：97.00%  相对热度：70.92%\n来源：spellcast  ID：39766\n——————————\n精二90级三模三技能专三ew，已测试"
+    },
+    "groups": [
+        {
+            "name": "小盾",
+            "opers": [
+                {
+                    "name": "斑点",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "卡缇",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "尖兵",
+            "opers": [
+                {
+                    "name": "芬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "讯使",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "清道夫",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "青枳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "凛冬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "贾维",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "红隼",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

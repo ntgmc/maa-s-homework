@@ -1,0 +1,33 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_narant_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "娜仁图亚",
+            "direction": "Right",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "狙击 - 娜仁图亚 - 此路是我开",
+        "details": "——————————\n作业更新日期: 2025-06-05T08:20:42Z\n统计更新日期: 2025-08-30\n相对评分：90.53%  相对热度：83.38%\n来源：凉宫三三  ID：59378\n——————————\n狙击 - 娜仁图亚 - 此路是我开"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "娜仁图亚",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

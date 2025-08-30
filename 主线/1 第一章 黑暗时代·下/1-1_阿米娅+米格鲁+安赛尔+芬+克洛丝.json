@@ -1,0 +1,86 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_01-01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        }
+    ],
+    "doc": {
+        "title": "第一章 黑暗时代·下 - 1-1 - 孤岛",
+        "details": "——————————\n作业更新日期: 2025-03-15T11:57:27Z\n统计更新日期: 2025-08-30\n相对评分：86.84%  相对热度：82.38%\n来源：一般路过作业人  ID：48652\n——————————\n原作者为云中初梦，普通与突袭均可，原视频链接为https://www.bilibili.com/video/BV1u5eTejEMN/?spm_id_from=333.337.search-card.all.click&vd_source=27f2336beff210c36947df72b53abb01"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
