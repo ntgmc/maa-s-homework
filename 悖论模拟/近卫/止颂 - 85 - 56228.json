@@ -1,0 +1,77 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_lessng_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "止颂",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right",
+            "costs": 20
+        },
+        {
+            "type": "Skill",
+            "name": "止颂",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 4
+        },
+        {
+            "type": "Skill",
+            "name": "芙蓉",
+            "location": [
+                1,
+                1
+            ],
+            "kills": 5
+        },
+        {
+            "type": "Skill",
+            "name": "斑点",
+            "location": [
+                1,
+                2
+            ],
+            "kills": 5
+        },
+        {
+            "type": "Skill",
+            "name": "止颂",
+            "location": [
+                2,
+                2
+            ],
+            "kills": 11
+        }
+    ],
+    "doc": {
+        "title": "止颂--悖论模拟",
+        "details": "——————————\n作业更新日期: 2025-08-15T14:04:31Z\n统计更新日期: 2025-08-31\n相对评分：85.39%  相对热度：65.92%\n来源：童话重度依赖  ID：56228\n——————————\n7级3技能--精2--60级    自测可过\n【赠送干员满潜能】【满信赖】【无模组】\n有问题请反馈    BID：童话重度依赖症"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "止颂",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
