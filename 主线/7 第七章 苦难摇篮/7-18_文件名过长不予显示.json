@@ -1,0 +1,243 @@
+{
+    "stage_name": "main_07-16",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "全息作战矩阵 - 7-18 - 爱国者之死 15难 第二版",
+        "details": "——————————\n作业更新日期: 2025-08-28T14:51:46Z\n统计更新日期: 2025-08-31\n相对评分：82.80%  相对热度：70.89%\n来源：萨拉托加  ID：66464\n——————————\n基础OR选右\n附加第一排选第1 第2 第4\n第二排最后一个OR选右\n第三排OR选中间\n原作者萧然Q JSON作者萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【全息作战矩阵】#1全关卡镀层攻略 摆完挂机 简单好抄（更新至7-18）】 https://www.bilibili.com/video/BV13whmzjEWj/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "opers": [
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "module": 1
+            }
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "遥",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "天有四时可换三级Y模归鲨",
+            "opers": [
+                {
+                    "name": "余",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "年",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "令",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "重岳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夕",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "天有四时",
+            "opers": [
+                {
+                    "name": "余",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "年",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "令",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "重岳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夕",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "天有四时2",
+            "opers": [
+                {
+                    "name": "余",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "年",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "令",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "重岳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夕",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "direction": "Right",
+            "location": [
+                2,
+                6
+            ]
+        },
+        {
+            "name": "遥",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "direction": "Right",
+            "location": [
+                2,
+                5
+            ]
+        },
+        {
+            "name": "黍",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "direction": "Left",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "name": "塑心",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Deploy",
+            "name": "泥岩",
+            "direction": "Right",
+            "location": [
+                10,
+                2
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 0
+}
