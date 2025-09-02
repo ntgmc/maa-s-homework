@@ -1,0 +1,268 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_melee_3",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "讯使",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right",
+            "costs": 10
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Right",
+            "kills": 6,
+            "costs": 6
+        },
+        {
+            "type": "Deploy",
+            "name": "赫默",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right",
+            "costs": 17
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "costs": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "安德切尔",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Right",
+            "costs": 9
+        },
+        {
+            "type": "Deploy",
+            "name": "杰西卡",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right",
+            "costs": 10
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right",
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Right",
+            "costs": 15
+        },
+        {
+            "type": "Retreat",
+            "name": "阿米娅",
+            "location": [
+                5,
+                3
+            ],
+            "costs": 40
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                2,
+                1
+            ],
+            "costs": 50,
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Left",
+            "costs": 41
+        }
+    ],
+    "doc": {
+        "title": "货物运送 - CE-3 - 珍贵原料押运",
+        "details": "——————————\n作业更新日期: 2024-02-17T04:08:39Z\n统计更新日期: 2025-09-02\n相对评分：100.00%  相对热度：100.00%\n来源：Aaron  ID：33049\n——————————\n货物运送 - CE-3 - 珍贵原料押运"
+    },
+    "groups": [
+        {
+            "name": "最强小队",
+            "opers": [
+                {
+                    "name": "阿米娅",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "芬",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "棘刺",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "砾",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "讯使",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "杰西卡",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "米格鲁",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "斑点",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安德切尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "炎熔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "风笛",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "白面鸮",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "砾",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "赫默",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "讯使",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "杰西卡",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "炎熔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "风笛",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_13-11",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "蕾缪安",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillUsage",
+            "kills": 12,
+            "skill_times": 1,
+            "name": "蕾缪安",
+            "skill_usage": 2
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "蕾缪安",
+            "skill_usage": 2,
+            "kills": 25
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "13-13 - 骸骨之中 - 蕾缪安模组",
+        "details": "——————————\n作业更新日期: 2025-05-22T01:30:53Z\n统计更新日期: 2025-09-02\n相对评分：95.92%  相对热度：71.5%\n来源：Tinch  ID：56651\n——————————\n参考：【【明日方舟】蕾缪安 模组任务 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1VUGizzER5/?share_source=copy_web&vd_source=5d993adf522c16219536a4e8a61f8484\n自测已过\nby Tinch"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "skill_times": 1,
+            "name": "蕾缪安",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "skill_times": 1,
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ]
+}
