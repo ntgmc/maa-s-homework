@@ -1,0 +1,69 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_crow_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "羽毛笔",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "羽毛笔",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 4
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 8
+        },
+        {
+            "type": "Skill",
+            "name": "龙舌兰",
+            "location": [
+                2,
+                3
+            ],
+            "pre_delay": 25000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "羽毛笔",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 22
+        }
+    ],
+    "doc": {
+        "title": "羽毛笔--悖论模拟",
+        "details": "——————————\n作业更新日期: 2025-08-15T14:00:35Z\n统计更新日期: 2025-09-02\n相对评分：80.21000000000001%  相对热度：64.66%\n来源：童话重度依赖  ID：56386\n——————————\n7级2技能--精2--50级   自测可过\n【赠送干员满潜能】【满信赖】【无模组】\n有问题请反馈    BID：童话重度依赖症"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "羽毛笔",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "龙舌兰",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

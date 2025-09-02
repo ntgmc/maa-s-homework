@@ -1,0 +1,188 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_swire_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "诗怀雅",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "梅什科线圈",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "梅什科线圈",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "梅什科线圈",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "梅什科线圈",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "梅什科线圈",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "梅什科线圈",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "梅什科线圈",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "梅什科线圈",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "高能源石炸弹",
+            "direction": "Left",
+            "location": [
+                8,
+                4
+            ],
+            "kills": 32
+        },
+        {
+            "type": "Deploy",
+            "name": "高能源石炸弹",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "kills": 34
+        },
+        {
+            "type": "Deploy",
+            "name": "高能源石炸弹",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left",
+            "kills": 36
+        },
+        {
+            "type": "Deploy",
+            "name": "高能源石炸弹",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left",
+            "kills": 38
+        },
+        {
+            "type": "Skill",
+            "name": "高能源石炸弹",
+            "location": [
+                8,
+                4
+            ],
+            "kills": 55
+        },
+        {
+            "type": "Skill",
+            "name": "高能源石炸弹",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 55
+        },
+        {
+            "type": "Skill",
+            "name": "高能源石炸弹",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 55
+        },
+        {
+            "type": "Skill",
+            "name": "高能源石炸弹",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 55
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 诗怀雅 - 钱能通神",
+        "details": "——————————\n作业更新日期: 2025-08-31T09:04:52Z\n统计更新日期: 2025-09-02\n相对评分：0.0%  相对热度：0.0%\n来源：Szzhou  ID：66740\n——————————\n魔法zc目录"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "诗怀雅",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "梅什科线圈",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "高能源石炸弹",
+            "skill_usage": 0,
+            "skill": 1
+        }
+    ]
+}

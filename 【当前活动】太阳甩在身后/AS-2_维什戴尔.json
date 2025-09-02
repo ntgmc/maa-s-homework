@@ -1,0 +1,33 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act35side_02",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "太阳甩在身后 - AS-2 - 馆中特别行动",
+        "details": "——————————\n作业更新日期: 2024-08-02T15:17:19Z\n统计更新日期: 2025-09-02\n相对评分：98.00%  相对热度：65.92%\n来源：晓丶梦丶仁  ID：39840\n——————————\n@晓丶梦丶仁"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

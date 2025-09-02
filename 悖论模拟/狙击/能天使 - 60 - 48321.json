@@ -1,0 +1,92 @@
+{
+    "stage_name": "mem_angel_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "悖论模拟 - 能天使 - 拉特兰风格",
+        "details": "——————————\n作业更新日期: 2025-08-31T13:46:31Z\n统计更新日期: 2025-09-02\n相对评分：60.0%  相对热度：57.02%\n来源：艾露艾露  ID：48321\n——————————\n阿能三技能专三轴，测试用的2603无潜满信赖，7级技能不确定\n参考站里其他老师的作业调整了一下轴，增加了极境技能和装置，但自己电脑上测试总会出问题，朋友代测可以过，如果不行可以看下流程试试手动（土下座）\n流程：下极境→下古米→20费下能天使→紫刀波次最后一个紫刀进射程开极境技能→33杀后最后一个怪进射程下轰隆隆先生并开极境技能"
+    },
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "极境",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "极境",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "costs": 0
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "古米",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "costs": 18
+        },
+        {
+            "name": "能天使",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "costs": 20
+        },
+        {
+            "type": "Skill",
+            "name": "极境",
+            "location": [
+                6,
+                3
+            ],
+            "cost_changes": 74
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 33,
+            "pre_delay": 10000
+        },
+        {
+            "name": "轰隆隆先生",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "极境",
+            "location": [
+                6,
+                3
+            ]
+        }
+    ]
+}

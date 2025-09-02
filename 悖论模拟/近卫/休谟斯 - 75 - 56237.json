@@ -1,0 +1,39 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_humus_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "costs": 25,
+            "name": "休谟斯",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 20
+        }
+    ],
+    "doc": {
+        "title": "休谟斯--悖论模拟",
+        "details": "——————————\n作业更新日期: 2025-08-15T14:03:28Z\n统计更新日期: 2025-09-02\n相对评分：75.27000000000001%  相对热度：67.66%\n来源：童话重度依赖  ID：56237\n——————————\n7级2技能--精2--1级    反馈可过\n【赠送干员满潜能】【满信赖】【无模组】\n有问题请反馈    BID：童话重度依赖症"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "休谟斯",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

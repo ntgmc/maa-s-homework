@@ -9,30 +9,37 @@
                 6,
                 3
             ],
-            "direction": "Left",
-            "costs": 24
+            "direction": "Left"
         },
         {
             "type": "SpeedUp"
         },
         {
-            "type": "Skill",
-            "name": "维什戴尔",
+            "type": "Deploy",
+            "name": "结晶消除桩",
             "location": [
-                6,
-                3
+                7,
+                4
             ],
-            "kills": 7
+            "direction": "Left"
         },
         {
-            "type": "Skill",
-            "name": "维什戴尔",
+            "type": "Deploy",
+            "name": "结晶消除桩",
             "location": [
-                6,
-                3
+                7,
+                4
             ],
-            "kills": 28,
-            "pre_delay": 8000
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "结晶消除桩",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
         },
         {
             "type": "SkillDaemon"
@@ -40,14 +47,14 @@
     ],
     "doc": {
         "title": "太阳甩在身后 - AS-5 - 文物也上班",
-        "details": "——————————\n作业更新日期: 2024-08-04T17:56:00Z\n统计更新日期: 2025-08-30\n相对评分：86.87%  相对热度：62.36%\n来源：spellcast  ID：39760\n——————————\n精二90级三模三技能专三ew"
+        "details": "——————————\n作业更新日期: 2024-08-02T15:31:13Z\n统计更新日期: 2025-09-02\n相对评分：95.96%  相对热度：65.38%\n来源：晓丶梦丶仁  ID：39844\n——————————\n@晓丶梦丶仁"
     },
     "groups": [],
     "opers": [
         {
             "name": "维什戴尔",
             "skill": 3,
-            "skill_usage": 0
+            "skill_usage": 1
         }
     ]
 }

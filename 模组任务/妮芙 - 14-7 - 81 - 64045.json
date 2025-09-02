@@ -1,0 +1,83 @@
+{
+    "stage_name": "main_14-06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-7（标准） - 执行反制作战 妮芙模组任务",
+        "details": "——————————\n作业更新日期: 2025-08-03T03:43:12Z\n统计更新日期: 2025-09-02\n相对评分：81.82000000000001%  相对热度：69.51%\n来源：萨拉托加  ID：64045\n——————————\n原作者涂绘天菜 json作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【妮芙 模组“心声” 模组任务 三人半挂机 极其好抄】 https://www.bilibili.com/video/BV1yCh8zWE4f/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "opers": [
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 7,
+                "module": 1
+            }
+        },
+        {
+            "name": "妮芙",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "奶盾",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "妮芙",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "白面鸮",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}
