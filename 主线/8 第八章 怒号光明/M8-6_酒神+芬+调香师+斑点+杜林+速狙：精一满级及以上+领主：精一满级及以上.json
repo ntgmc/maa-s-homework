@@ -1,0 +1,325 @@
+{
+    "stage_name": "main_08-09",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第八章 怒号光明 - M8-6 - 再见，只为再见 - 单核",
+        "details": "——————————\n作业更新日期: 2025-06-15T05:34:02Z\n统计更新日期: 2025-09-03\n相对评分：94.85%  相对热度：74.46%\n来源：小卡拉帕鲁灰  ID：60076\n——————————\n兼容突袭\nJSON作者小卡拉帕鲁灰\n练度点击作业查看详情\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "opers": [
+        {
+            "name": "酒神",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "调香师",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "杜林",
+            "skill_usage": 1
+        }
+    ],
+    "groups": [
+        {
+            "name": "速狙：精一满级及以上",
+            "opers": [
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "空弦",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白金",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "灰喉"
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "隐现",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "红云",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "杰西卡",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流星",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "梅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "领主：精一满级及以上",
+            "opers": [
+                {
+                    "name": "仇白",
+                    "skill": 3,
+                    "skill_usage": 1,
+                    "_id": "4"
+                },
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 2,
+                    "skill_times": 2,
+                    "_id": "5"
+                },
+                {
+                    "name": "银灰",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "_id": "6"
+                },
+                {
+                    "name": "断崖",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "_id": "7"
+                },
+                {
+                    "name": "拉普兰德",
+                    "skill": 2,
+                    "skill_usage": 0,
+                    "_id": "8"
+                },
+                {
+                    "name": "烈夏",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "_id": "9"
+                },
+                {
+                    "name": "芳汀",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "_id": "10"
+                },
+                {
+                    "name": "霜叶",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "_id": "11"
+                },
+                {
+                    "name": "月见夜",
+                    "skill": 1,
+                    "skill_usage": 1,
+                    "_id": "12"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "芬",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "酒神",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "斑点",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "杜林",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "调香师",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "速狙：精一满级及以上",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "领主：精一满级及以上",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
