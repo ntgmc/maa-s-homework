@@ -1,0 +1,93 @@
+{
+    "stage_name": "mem_durin_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "杜林--悖论模拟--针对性合作",
+        "details": "——————————\n作业更新日期: 2025-08-30T17:30:17Z\n统计更新日期: 2025-09-03\n相对评分：86.36%  相对热度：58.81999999999999%\n来源：亚麻理_B1  ID：66635\n——————————\nUP百百百暴作业"
+    },
+    "opers": [
+        {
+            "name": "杜林"
+        },
+        {
+            "name": "巡林者"
+        },
+        {
+            "name": "夜刀"
+        },
+        {
+            "name": "黑角"
+        },
+        {
+            "name": "安赛尔",
+            "skill_usage": 1
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "安赛尔",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy",
+            "cost_changes": 9
+        },
+        {
+            "name": "巡林者",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "杜林",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "黑角",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "costs": 12
+        },
+        {
+            "name": "夜刀",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "kills": 15
+        },
+        {
+            "name": "夜刀",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "pre_delay": 21000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_lmlee_1",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "kills": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "格拉尼",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up",
+            "kills": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "红豆",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down",
+            "kills": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "老鲤",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right",
+            "kills": 23
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "None",
+            "kills": 25
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 30,
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "苇草",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 63
+        },
+        {
+            "type": "Deploy",
+            "name": "锡兰",
+            "location": [
+                4,
+                6
+            ],
+            "kills": 114,
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "苇草",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 180
+        },
+        {
+            "type": "Skill",
+            "name": "红豆",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 223
+        },
+        {
+            "type": "Skill",
+            "name": "格拉尼",
+            "location": [
+                2,
+                5
+            ],
+            "kills": 235
+        }
+    ],
+    "doc": {
+        "title": "特种 - 老鲤 - 生财有道",
+        "details": "——————————\n作业更新日期: 2024-05-01T08:38:43Z\n统计更新日期: 2025-09-03\n相对评分：93.55%  相对热度：89.83%\n来源：rihno  ID：36676\n——————————\n修改自Theae的作业，老鲤带3技能"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "老鲤",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}
