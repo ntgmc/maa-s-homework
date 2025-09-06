@@ -1,0 +1,114 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_luton_1",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "kills": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "露托",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Up",
+            "kills": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "梅",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up",
+            "kills": 0,
+            "costs": 12
+        },
+        {
+            "type": "Deploy",
+            "name": "月见夜",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Up",
+            "kills": 3,
+            "costs": 16
+        },
+        {
+            "type": "Skill",
+            "name": "露托",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 7,
+            "costs": 22
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right",
+            "kills": 7,
+            "costs": 24
+        },
+        {
+            "type": "Skill",
+            "name": "白面鸮",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 32,
+            "costs": 85
+        },
+        {
+            "type": "Skill",
+            "name": "露托",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 32,
+            "costs": 90
+        },
+        {
+            "type": "SkillDaemon",
+            "costs": 99
+        }
+    ],
+    "doc": {
+        "title": "重装 - 露托 - 举起盾牌",
+        "details": "——————————\n作业更新日期: 2025-04-08T08:52:59Z\n统计更新日期: 2025-09-06\n相对评分：71.58%  相对热度：47.0%\n来源：空中花园的蒂视者  ID：49735\n——————————\n打法就是露托在两拨怪多的时候开技能"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "露托",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "梅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "月见夜",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

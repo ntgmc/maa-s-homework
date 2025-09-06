@@ -1,0 +1,85 @@
+{
+    "stage_name": "act29side_04",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "崔林特尔梅之金 - ZT-4 - 狂想曲“望想”【祐天寺若麦模组任务】",
+        "details": "——————————\n作业更新日期: 2025-09-04T06:39:12Z\n统计更新日期: 2025-09-06\n相对评分：100.0%  相对热度：100.0%\n来源：小卡拉帕鲁灰  ID：67090\n——————————\n祐天寺（ゆうてんじ） にゃむ模组任务\n由非助战祐天寺若麦累计造成80000点伤害\n3星通关插曲崔林特尔梅之金ZT-4;必须编入非助战祐天寺若麦并上场，且祐天寺若麦歼灭至少2个残党乐团鼓手\n\n人气上升中，并爱自称为「喵姆亲（日语：にゃむち）」的美妆类视频博主，投稿在PosTube。\n视频主要是化妆类，但也在挑战制作其他类型的视频。后来购入了电子鼓开始学习打鼓，左右手皆为主手（双利手）使得她的演奏风格既华丽又特别。\n在Ave Mujica 中的成员代号Amoris取自Sinus Amoris（爱湾），意指爱情。值得一提的是，组合内其他成员的代号均取自月海，仅Amoris取自月湾的名字。\nAmoris在架子鼓后面充满活力地演奏，用她强有力的节拍为音乐注入活力。她的演奏风格充满活力，创造了一种只有在Ave Mujica的演出上才能看到的表演。\n姓氏「祐天寺」取自东京都目黑区祐天寺地区。\n在家中练习使用的电子鼓组为罗兰TD-11K。"
+    },
+    "opers": [
+        {
+            "name": "祐天寺若麦",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "奶盾",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "祐天寺若麦",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "煌",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

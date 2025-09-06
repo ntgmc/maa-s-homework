@@ -1,0 +1,105 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_midn_1",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "月见夜",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Up",
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up",
+            "costs": 20,
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "卡缇",
+            "location": [
+                4,
+                4
+            ],
+            "costs": 21,
+            "direction": "Up",
+            "rear_delay": 0
+        },
+        {
+            "type": "Skill",
+            "name": "月见夜",
+            "location": [
+                3,
+                3
+            ],
+            "costs": 14,
+            "rear_delay": 0
+        },
+        {
+            "type": "Skill",
+            "name": "斑点",
+            "location": [
+                2,
+                4
+            ],
+            "costs": 47,
+            "rear_delay": 0
+        },
+        {
+            "type": "Skill",
+            "name": "卡缇",
+            "location": [
+                4,
+                4
+            ],
+            "costs": 99,
+            "rear_delay": 0
+        },
+        {
+            "type": "Skill",
+            "name": "斑点",
+            "location": [
+                2,
+                4
+            ],
+            "costs": 99,
+            "post_delay": 400,
+            "rear_delay": 400
+        },
+        {
+            "type": "Skill",
+            "name": "月见夜",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 21,
+            "rear_delay": 900
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 月见夜 - 月夜魔王之剑",
+        "details": "——————————\n作业更新日期: 2023-03-13T07:25:29Z\n统计更新日期: 2025-09-06\n相对评分：84.61999999999999%  相对热度：60.78%\n来源：唤羽88  ID：21478\n——————————\n参考BV1Ch411p7qa，7级技能 已测试 作者：倾九_Komy\nnnd，切换技能有BUG改了半小时还是没用\n《因为没人做就自己去做结果做了2小时这件事》"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "月见夜",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

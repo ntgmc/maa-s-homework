@@ -1,0 +1,65 @@
+{
+    "stage_name": "act29side_06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "崔林特尔梅之金 - ZT-6 - 华尔兹“假面” 【三角初华模组任务】",
+        "details": "——————————\n作业更新日期: 2025-09-05T07:54:49Z\n统计更新日期: 2025-09-06\n相对评分：100.0%  相对热度：100.0%\n来源：小卡拉帕鲁灰  ID：67088\n——————————\n三角（みすみ） 初華（ういか）模组任务（白面加速做任务的，也可以不带）\n战斗中非助战三角初华累计使用6次我悲悯的\n3星通关插曲崔林特尔梅之金ZT-6;必须编入非助战三角初华并上场，且所有干员不被击倒\n花咲川女子学园高中1年级，和椎名立希、八幡海铃是同班同学，因工作原因经常缺课，但同学老师已经对此习以为常，还会在初华早退时祝她工作顺利。\n担任偶像团体sumimi的吉他手及作词、作曲，艺名初华（不称姓）。后来又加入Ave Mujica，担任主唱，艺名Doloris。\n因其酷炫的外貌而受欢迎，喜欢观星。\n使用乐器为SCHECTER AR-07 Ave Mujica Proto Model，和AR-07通版有较大区别，除了外貌和开关、旋钮数量一致以外没有什么相同的。\n"
+    },
+    "opers": [
+        {
+            "name": "三角初华",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 7,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "维什戴尔",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "三角初华",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "白面鸮",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

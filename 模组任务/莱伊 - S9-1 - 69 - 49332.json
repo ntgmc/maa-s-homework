@@ -1,0 +1,139 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "easy_sub_09-1-1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "莱伊",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "对空狙",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 8,
+            "pre_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "沙地兽",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "None",
+            "kills": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "沙地兽",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 19
+        },
+        {
+            "type": "Deploy",
+            "name": "沙地兽",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "莱伊模组《跳舞的月光》任务",
+        "details": "——————————\n作业更新日期: 2025-03-31T10:00:05Z\n统计更新日期: 2025-09-06\n相对评分：69.66%  相对热度：52.52%\n来源：RyuZU  ID：49332\n——————————\nhttps://www.bilibili.com/video/BV1KT421i7Cy/"
+    },
+    "groups": [
+        {
+            "name": "对空狙",
+            "opers": [
+                {
+                    "name": "白金",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "莱伊",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}

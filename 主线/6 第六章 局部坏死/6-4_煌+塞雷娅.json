@@ -1,0 +1,45 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_06-04",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "第六章 局部坏死 - 6-4  突袭",
+        "details": "——————————\n作业更新日期: 2023-08-09T03:29:24Z\n统计更新日期: 2025-09-06\n相对评分：98.97%  相对热度：80.45%\n来源：Issuing2890  ID：25208\n——————————\n无名山的莉莉，https://www.bilibili.com/video/BV1j44y1a7xo?p=4"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 2
+}
