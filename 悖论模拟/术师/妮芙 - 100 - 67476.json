@@ -1,0 +1,64 @@
+{
+    "stage_name": "mem_nymph_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "术师 - 妮芙 - 直面心灵",
+        "details": "——————————\n作业更新日期: 2025-09-05T16:44:34Z\n统计更新日期: 2025-09-06\n相对评分：100.0%  相对热度：100.0%\n来源：StrawberryField  ID：67476\n——————————\n作者：StrawberryField\n参考：https://www.bilibili.com/video/BV1caaUzBEsG/?spm_id_from=333.337.search-card.all.click&vd_source=fe6a05ff697082b32e65a121ef1e50b2\n精二1级三技能无专精 ，血魔大君走到妮芙的攻击范围内再开塑心技能，开早了会导致输出不够\n"
+    },
+    "opers": [
+        {
+            "name": "妮芙",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "塑心",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "塑心",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "妮芙",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "塑心",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 8,
+            "costs": 38
+        },
+        {
+            "type": "Skill",
+            "name": "妮芙",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 12,
+            "costs": 42
+        }
+    ]
+}

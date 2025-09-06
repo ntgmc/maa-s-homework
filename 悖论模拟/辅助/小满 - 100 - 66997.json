@@ -1,0 +1,73 @@
+{
+    "stage_name": "mem_grabds_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "悖论模拟-辅助-小满-声遏行云",
+        "details": "——————————\n作业更新日期: 2025-09-02T15:06:08Z\n统计更新日期: 2025-09-06\n相对评分：100.0%  相对热度：100.0%\n来源：iMaeGoo  ID：66997\n——————————\n2107无模"
+    },
+    "opers": [
+        {
+            "name": "小满",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "小满",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "末药",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "小满",
+            "kills": 9
+        },
+        {
+            "type": "Skill",
+            "name": "小满",
+            "costs": 81
+        },
+        {
+            "type": "Skill",
+            "name": "埃拉托",
+            "location": [
+                8,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "米格鲁",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "蛇屠箱",
+            "location": [
+                8,
+                4
+            ]
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "stage_name": "main_13-14",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第十三章 恶兆湍流 - 13-16（标准） - “我们”【若叶睦模组任务】",
+        "details": "——————————\n作业更新日期: 2025-09-05T07:56:51Z\n统计更新日期: 2025-09-06\n相对评分：72.62%  相对热度：66.36%\n来源：小卡拉帕鲁灰  ID：67089\n——————————\n若葉（わかば） 睦（むつみ）模组任务（白面加速做任务的，也可以不带）\n战斗中非助战若叶睦累计使用6次破坏与滋养\n3星通关主题曲13-16标准实战环境;必须编入非助战若叶睦并上场，且不编入其他特种干员\n\n月之森女子学园高中1年级。曾是CRYCHIC的吉他手，丰川祥子的青梅竹马。\n缺乏情感表达，平时也是沉默不语的孩子。是月之森校园园艺部的一员，种植黄瓜还种植有番茄和茄子等。\n在Ave Mujica 中的成员代号Mortis取自Lacus Mortis（死湖），意指死亡，面具因其含义以雏菊为主题。作为节奏吉他手[4]，Mortis为乐队的声音带来了更多的深度和神秘感。虽然她的演奏风格可能并不突出，但她坚定不移的表现是建立Ave Mujica的声音的基石。\n从小就在练习吉他，现在使用的吉他型号为：SCHECTER EX-24-7st Ave Mujica Proto Model。\n父亲若叶（わかば）隆文（たかふみ）为人气搞笑艺人，母亲森（もり）美奈美（みなみ）为知名演员。住宅庞大，经常有社会名流出入。"
+    },
+    "opers": [
+        {
+            "name": "若叶睦",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 60,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 60,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 7,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "山",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "若叶睦",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "伊芙利特",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "白面鸮",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

@@ -1,0 +1,148 @@
+{
+    "stage_name": "act33side_07",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "巴别塔 - BB-7 - 阴影显现【八幡海铃模组任务】",
+        "details": "——————————\n作业更新日期: 2025-09-05T06:42:17Z\n统计更新日期: 2025-09-06\n相对评分：100.0%  相对热度：100.0%\n来源：小卡拉帕鲁灰  ID：67388\n——————————\n八幡（やはた） 海鈴（うみり）模组任务\n完成5次战斗；必须编入非助战八幡海铃并上场，且每次战斗至少释放1次无存之所\n 3星通关插曲巴别塔BB-7；必须编入非助战八幡海铃并上场，且八幡海铃歼灭至少1个自由佣兵“贝斯”\n带嵯峨是为了不抢人头求稳定\n花咲川女子学园高中1年级学生。\n贝斯技巧达到了职业水准，同时担任30个乐团的支援乐手。\n个性沉稳冷静、善于察言观色。\n和椎名立希、三角初华是同一个班级甚至前后桌，经常互相和立希找茬。\n在Ave Mujica 中的成员代号Timoris取自Lacus Timoris（恐湖），意指恐惧。以浑厚而富有共鸣的音色在舞台上独领风骚。她坚实而接地的声音可以被描述为Ave Mujica演出的音乐的心跳。"
+    },
+    "opers": [
+        {
+            "name": "八幡海铃",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "嵯峨",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 4
+            }
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "元素",
+            "opers": [
+                {
+                    "name": "塑心",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "酒神",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "地刺",
+            "opers": [
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 3
+                    }
+                },
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "逻各斯",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "地刺",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "嵯峨",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "元素",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "八幡海铃",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

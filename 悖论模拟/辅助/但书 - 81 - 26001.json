@@ -1,0 +1,133 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_provs_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "cost_changes": 0,
+            "name": "但书",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "白金",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up",
+            "costs": 0,
+            "rear_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "莱恩哈特",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "但书",
+            "location": [
+                3,
+                3
+            ],
+            "costs": 22
+        },
+        {
+            "type": "Skill",
+            "name": "莱恩哈特",
+            "location": [
+                1,
+                3
+            ],
+            "rear_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "莱恩哈特",
+            "location": [
+                1,
+                3
+            ],
+            "rear_delay": 3000,
+            "costs": 41
+        },
+        {
+            "type": "Skill",
+            "name": "但书",
+            "location": [
+                3,
+                3
+            ],
+            "costs": 85
+        },
+        {
+            "type": "Skill",
+            "name": "莱恩哈特",
+            "location": [
+                1,
+                3
+            ],
+            "rear_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "莱恩哈特",
+            "location": [
+                1,
+                3
+            ],
+            "rear_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "但书",
+            "location": [
+                3,
+                3
+            ],
+            "pre_delay": 16000
+        },
+        {
+            "type": "Skill",
+            "name": "莱恩哈特",
+            "location": [
+                1,
+                3
+            ],
+            "rear_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "莱恩哈特",
+            "location": [
+                1,
+                3
+            ],
+            "pre_delay": 0
+        }
+    ],
+    "doc": {
+        "title": "辅助 - 但书 - “雄辩是金” 悖论模拟（自用）",
+        "details": "——————————\n作业更新日期: 2023-08-19T14:48:32Z\n统计更新日期: 2025-09-06\n相对评分：81.82000000000001%  相对热度：64.44%\n来源：MAA666  ID：26001\n——————————\n原作者：FredEdie\n调轴自用\n测试用但书，精二30级，2技能。7级\n改进自用"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "但书",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

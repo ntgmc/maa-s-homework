@@ -1,0 +1,137 @@
+{
+    "stage_name": "act45side_07",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "SS-7 - 永恒绚烂的藏品 初版",
+        "details": "——————————\n作业更新日期: 2025-09-04T10:01:29Z\n统计更新日期: 2025-09-06\n相对评分：98.00%  相对热度：84.10%\n来源：萨拉托加  ID：67116\n——————————\nJSON作者萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到"
+    },
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "skill_times": 1,
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "direction": "Up",
+            "location": [
+                1,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "direction": "Up",
+            "location": [
+                3,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "direction": "Up",
+            "location": [
+                7,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "direction": "Up",
+            "location": [
+                9,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "direction": "Up",
+            "location": [
+                4,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "direction": "Left",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "direction": "Left",
+            "location": [
+                4,
+                6
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}
