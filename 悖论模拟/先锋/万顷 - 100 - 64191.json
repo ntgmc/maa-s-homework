@@ -1,0 +1,171 @@
+{
+    "stage_name": "mem_wanqin_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "先锋 - 万顷 - 长风相助【悖论模拟 二倍速】",
+        "details": "——————————\n作业更新日期: 2025-08-04T19:23:08Z\n统计更新日期: 2025-09-08\n相对评分：100.0%  相对热度：93.65%\n来源：若竹Ratio  ID：64191\n——————————\n自用，第一次做试试看\n博主精二1级，二技能专三，亲测稳定\n最后一波如果倒了的话，牛牛开技能可以晚点，等怪走过来再开。不知道这一步怎么设置工程比较好？\n\n作者名：焦炭_Coke\n视频链接：https://www.bilibili.com/video/BV1XPf8YZECy/"
+    },
+    "opers": [
+        {
+            "name": "万顷",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "霜叶",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "杰西卡",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "刻刀",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "costs": 12
+        },
+        {
+            "name": "万顷",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "costs": 12
+        },
+        {
+            "name": "夜刀",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "costs": 22
+        },
+        {
+            "type": "Retreat",
+            "name": "夜刀",
+            "location": [
+                9,
+                3
+            ],
+            "costs": 20
+        },
+        {
+            "name": "杰西卡",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "costs": 25,
+            "cooling": 1
+        },
+        {
+            "type": "Skill",
+            "name": "万顷",
+            "location": [
+                3,
+                4
+            ],
+            "costs": 20,
+            "cooling": 1
+        },
+        {
+            "name": "米格鲁",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "kills": 2,
+            "costs": 25,
+            "cooling": 1
+        },
+        {
+            "type": "Skill",
+            "name": "万顷",
+            "location": [
+                3,
+                4
+            ],
+            "costs": 79
+        },
+        {
+            "type": "Skill",
+            "name": "刻刀",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 13,
+            "pre_delay": 200
+        },
+        {
+            "name": "夜刀",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "kills": 15,
+            "costs": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "夜刀",
+            "location": [
+                9,
+                2
+            ],
+            "kills": 15,
+            "costs": 93
+        },
+        {
+            "type": "Skill",
+            "name": "米格鲁",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 15,
+            "costs": 99,
+            "pre_delay": 7000
+        },
+        {
+            "type": "Skill",
+            "name": "万顷",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 15,
+            "costs": 99,
+            "pre_delay": 8000
+        }
+    ]
+}

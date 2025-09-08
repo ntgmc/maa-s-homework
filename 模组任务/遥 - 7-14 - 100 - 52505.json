@@ -1,0 +1,73 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_07-12",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "direction": "Right",
+            "location": [
+                3,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "direction": "Right",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "遥",
+            "direction": "Right",
+            "location": [
+                2,
+                3
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第七章 苦难摇篮 - 7-14 - 游击-1 遥模组任务",
+        "details": "——————————\n作业更新日期: 2025-09-07T08:11:05Z\n统计更新日期: 2025-09-08\n相对评分：100.0%  相对热度：85.15%\n来源：苍蓝残响  ID：52505\n——————————\n原作者涂绘天菜 json作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【遥 模组“迟来的纪念” 模组任务 三人半挂机 极其好抄】 https://www.bilibili.com/video/BV1tvh8zfEiE/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "煌",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 2,
+                    "skill_times": 2
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "遥",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

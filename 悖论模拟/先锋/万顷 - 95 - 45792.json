@@ -1,0 +1,113 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_wanqin_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "kills": 10
+        },
+        {
+            "type": "Deploy",
+            "name": "万顷",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "杰西卡",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                4,
+                4
+            ],
+            "costs": 90,
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 14,
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "米格鲁",
+            "location": [
+                4,
+                4
+            ],
+            "costs": 99
+        },
+        {
+            "type": "Skill",
+            "name": "万顷",
+            "location": [
+                3,
+                4
+            ],
+            "cooling": 2
+        },
+        {
+            "type": "Skill",
+            "name": "刻刀",
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "刻刀",
+            "location": [
+                4,
+                3
+            ],
+            "cooling": 3
+        }
+    ],
+    "doc": {
+        "title": "先锋 - 万顷 - 长风相助",
+        "details": "——————————\n作业更新日期: 2025-01-23T15:23:03Z\n统计更新日期: 2025-09-08\n相对评分：95.45%  相对热度：100.0%\n来源：fantuan  ID：45792\n——————————\n作者练度2407无模组  稳定过"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "万顷",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "stage_name": "mem_archet_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "悖论模拟",
+        "details": "——————————\n作业更新日期: 2025-08-30T11:10:38Z\n统计更新日期: 2025-09-08\n相对评分：91.84%  相对热度：63.160000000000004%\n来源：ssndqsss  ID：66611\n——————————\n0模三技能"
+    },
+    "opers": [],
+    "groups": [
+        {
+            "name": "蓝毒",
+            "opers": [
+                {
+                    "name": "蓝毒",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        },
+        {
+            "name": "空弦",
+            "opers": [
+                {
+                    "name": "空弦",
+                    "skill": 3,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "空弦",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                7,
+                1
+            ],
+            "name": "蓝毒",
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "空弦",
+            "kills": 7
+        },
+        {
+            "type": "Skill",
+            "name": "空弦",
+            "kills": 34
+        }
+    ],
+    "version": 3
+}

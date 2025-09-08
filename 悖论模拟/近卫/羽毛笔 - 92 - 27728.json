@@ -1,0 +1,42 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_crow_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "羽毛笔",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "龙舌兰",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 10
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 羽毛笔 - 风中之羽",
+        "details": "——————————\n作业更新日期: 2023-09-05T16:00:49Z\n统计更新日期: 2025-09-08\n相对评分：92.86%  相对热度：81.82000000000001%\n来源：fantuan  ID：27728\n——————————\n羽毛笔不要求技能专精   \n测试最低等级是50级！！！\n\n50级！！！！！！"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "羽毛笔",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

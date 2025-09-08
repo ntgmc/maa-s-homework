@@ -1,0 +1,53 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_horn_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "华法琳",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "号角",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "kills": 22,
+            "pre_delay": 3000,
+            "name": "华法琳"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "重装 - 号角 - 号声响起",
+        "details": "——————————\n作业更新日期: 2023-10-06T02:05:10Z\n统计更新日期: 2025-09-08\n相对评分：100.0%  相对热度：100.0%\n来源：萨拉托加  ID：28432\n——————————\n号角悖论模拟 练度2603\n现在地图终于可以用了"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "号角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "华法琳",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
