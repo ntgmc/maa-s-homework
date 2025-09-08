@@ -263,6 +263,7 @@ def filter_paradox(data, name, _job):
         for idx, item in enumerate(all_data):
             percent = calculate_percent(item)
             relative_score = round((scores[idx] / max_score), 4) * 100 if max_score else 0
+            percent = round(calculate_percent(item), 2)
             relative_hot_score = round((hot_scores[idx] / max_hot_score), 4) * 100 if max_hot_score else 0
             if has_high_score_90 and percent < 70:  # Ignore scores < 70% if a high score exists
                 continue
@@ -270,7 +271,7 @@ def filter_paradox(data, name, _job):
                 continue
             found_ids.add(str(item['id']))
             if relative_score > 0:
-                ids_develop.append(code_output(relative_score, item['id'], 1))
+                ids_develop.append(code_output(percent, item['id'], 1))
                 if relative_score >= 20:
                     ids_user.append(code_output(relative_score, item['id'], 2))
                 if relative_score >= download_score_threshold:
@@ -349,10 +350,11 @@ def search_module(name, stage):
         max_hot_score = max(hot_scores) if hot_scores and max(hot_scores) > 0 else 1
         for idx, item in enumerate(data['data']['data']):
             relative_score = round((scores[idx] / max_score), 4) * 100 if max_score else 0
+            percent = round(calculate_percent(item), 2)
             relative_hot_score = round((hot_scores[idx] / max_hot_score), 4) * 100 if max_hot_score else 0
             found_ids.add(str(item['id']))
             if relative_score > 0:
-                ids_develop.append(code_output(relative_score, item['id'], 1))
+                ids_develop.append(code_output(percent, item['id'], 1))
                 if relative_score >= 50:
                     ids_user.append(code_output(relative_score, item['id'], 2))
                 if relative_score >= download_score_threshold:
