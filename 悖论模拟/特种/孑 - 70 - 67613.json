@@ -1,0 +1,119 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_strong_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "孑",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Up",
+            "costs": 7
+        },
+        {
+            "type": "Retreat",
+            "name": "孑",
+            "location": [
+                8,
+                3
+            ],
+            "kills": 2
+        },
+        {
+            "type": "Skill",
+            "name": "桃金娘",
+            "location": [
+                4,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "direction": "Right",
+            "name": "孑",
+            "location": [
+                4,
+                1
+            ],
+            "costs": 45
+        },
+        {
+            "type": "Retreat",
+            "kills": 5,
+            "name": "孑",
+            "location": [
+                4,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "桃金娘",
+            "location": [
+                4,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "杰西卡",
+            "location": [
+                6,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "孑",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 8,
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "特种 - 孑 - 业精于勤 悖论模拟",
+        "details": "——————————\n作业更新日期: 2025-09-08T09:33:26Z\n统计更新日期: 2025-09-08\n相对评分：70.11%  相对热度：26.669999999999998%\n来源：accelerator  ID：67613\n——————————\n二技能 精二一级 一级技能 "
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "孑",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "史都华德",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "杰西卡",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}
