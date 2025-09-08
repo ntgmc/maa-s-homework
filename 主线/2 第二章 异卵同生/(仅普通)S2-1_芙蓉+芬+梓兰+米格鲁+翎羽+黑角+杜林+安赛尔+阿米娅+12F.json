@@ -1,0 +1,185 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "S2-1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left",
+            "costs": 9
+        },
+        {
+            "type": "Deploy",
+            "name": "翎羽",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Down",
+            "costs": 8
+        },
+        {
+            "type": "Deploy",
+            "name": "梓兰",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "costs": 10
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left",
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down",
+            "costs": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "杜林",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left",
+            "costs": 12
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down",
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "12F",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right",
+            "costs": 24
+        },
+        {
+            "type": "Retreat",
+            "name": "翎羽",
+            "location": [
+                7,
+                4
+            ],
+            "kills": 11
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "location": [
+                8,
+                3
+            ],
+            "kills": 11
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left",
+            "costs": 15
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right",
+            "costs": 18
+        }
+    ],
+    "doc": {
+        "title": "第二章 异卵同生 - S2-1 - 迟缓-1",
+        "details": "——————————\n作业更新日期: 2023-07-26T03:28:37Z\n统计更新日期: 2025-09-08\n相对评分：96.88%  相对热度：77.78%\n来源：聪明的刀客塔  ID：24870\n——————————\n练度0"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "梓兰",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "翎羽",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "杜林",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "12F",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}

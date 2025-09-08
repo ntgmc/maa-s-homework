@@ -1,0 +1,82 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act45side_07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "location": [
+                9,
+                5
+            ],
+            "name": "桃金娘",
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                2,
+                5
+            ],
+            "name": "娜仁图亚",
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                9,
+                5
+            ],
+            "kills": 15
+        }
+    ],
+    "doc": {
+        "title": "SS-7 - 永恒绚烂的藏品",
+        "details": "——————————\n作业更新日期: 2025-09-04T12:01:05Z\n统计更新日期: 2025-09-08\n相对评分：90.00%  相对热度：61.63%\n来源：admin  ID：67167\n——————————\n【【无忧梦呓】SS-7 4人摆完挂机】 https://www.bilibili.com/video/BV1ahamzJEkA/?share_source=copy_web&vd_source=b722e59c66b892cc3008ef8ab7e8a808\n\n更新\n发现桃子后面有可能会挡着月光然后怪一直不动卡死，现在加个撤退桃子的操作\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill_usage": 1,
+            "skill": 1
+        },
+        {
+            "skill_times": 1,
+            "name": "娜仁图亚",
+            "skill_usage": 2,
+            "skill": 1
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

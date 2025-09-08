@@ -1,0 +1,169 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_08-09",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "慕斯",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "调香师",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "空爆",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "迷迭香",
+            "location": [
+                1,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "松果",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Down",
+            "kills": 14
+        },
+        {
+            "type": "Deploy",
+            "name": "孑",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                6,
+                6
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "迷迭香",
+            "location": [
+                1,
+                3
+            ],
+            "kills": 36
+        },
+        {
+            "type": "Skill",
+            "name": "迷迭香",
+            "location": [
+                1,
+                3
+            ],
+            "kills": 60
+        }
+    ],
+    "doc": {
+        "title": "第八章 怒号光明 - M8-6 - 再见，只为再见",
+        "details": "——————————\n作业更新日期: 2025-05-11T15:11:48Z\n统计更新日期: 2025-09-08\n相对评分：85.71%  相对热度：67.02%\n来源：魔芋葱油长豆角  ID：52971\n——————————\n原作者：低配挂机研讨会\n\n视频地址：https://www.bilibili.com/video/BV1a7V5z5Eci?spm_id_from=333.788.videopod.sections&vd_source=a022f0b9420b7e9fe33605d41aed4c75&p=188\n\n阿米娅是吉祥物"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "慕斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "空爆",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "孑",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "调香师",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "松果",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}

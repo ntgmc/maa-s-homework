@@ -1,0 +1,92 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_excu2_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "圣约送葬人",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "隐现",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "kills": 6,
+            "name": "圣约送葬人",
+            "location": [
+                3,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "圣约送葬人",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 26
+        },
+        {
+            "type": "Skill",
+            "name": "隐现",
+            "location": [
+                3,
+                2
+            ]
+        },
+        {
+            "type": "Output",
+            "kills": 30,
+            "doc_color": "Gray",
+            "doc": "（）"
+        },
+        {
+            "type": "Skill",
+            "name": "圣约送葬人",
+            "location": [
+                3,
+                4
+            ],
+            "pre_delay": 2000
+        },
+        {
+            "type": "Skill",
+            "kills": 72,
+            "name": "圣约送葬人",
+            "location": [
+                3,
+                4
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 圣约送葬人 - 安全框架",
+        "details": "——————————\n作业更新日期: 2023-09-06T06:09:07Z\n统计更新日期: 2025-09-08\n相对评分：85.42%  相对热度：79.47%\n来源：且半青derv  ID：27746\n——————————\n推荐练度2603以上，本人28033模稳过。\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "圣约送葬人",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}
