@@ -1,0 +1,67 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_sleach_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "号角",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "琴柳",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 3500,
+            "name": "琴柳"
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "kills": 10,
+            "name": "琴柳"
+        },
+        {
+            "type": "Skill",
+            "name": "琴柳",
+            "kills": 16,
+            "pre_delay": 3000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "先锋 - 琴柳 - 队伍前列",
+        "details": "——————————\n作业更新日期: 2023-08-06T06:24:54Z\n统计更新日期: 2025-09-10\n相对评分：89.69%  相对热度：88.06%\n来源：Sirius_BK  ID：21432\n——————————\n参考视频：https://www.bilibili.com/video/BV1G44y1Z7yN?vd_source=26d9d10055ae797cf34c6e2a22dd2886\nUP主：倾九\n制作人：BK\n选3技能\n注意！有时候号角暴击可能错轴！"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "琴柳",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

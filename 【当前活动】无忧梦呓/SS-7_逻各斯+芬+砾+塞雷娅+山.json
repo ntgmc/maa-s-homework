@@ -1,0 +1,103 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act45side_07",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "costs": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right",
+            "costs": 22
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Left",
+            "costs": 7
+        },
+        {
+            "type": "Deploy",
+            "costs": 7,
+            "name": "芬",
+            "direction": "Right",
+            "location": [
+                6,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Up",
+            "name": "塞雷娅",
+            "costs": 22
+        },
+        {
+            "type": "Deploy",
+            "costs": 11,
+            "name": "山",
+            "direction": "Up",
+            "location": [
+                7,
+                6
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "砾",
+            "location": [
+                4,
+                6
+            ],
+            "costs": 0,
+            "kills": 20
+        }
+    ],
+    "doc": {
+        "title": "【SideStory】【无忧梦呓】SS-7 - 永恒绚烂的藏品",
+        "details": "——————————\n作业更新日期: 2025-09-06T02:22:40Z\n统计更新日期: 2025-09-10\n相对评分：97.00%  相对热度：66.52%\n来源：Bestranet  ID：67430\n——————————\n有修改。\n作业来源：\n萧然Q\nhttps://www.bilibili.com/video/BV11saUzGEC4"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill_usage": 0,
+            "skill": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "砾",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "skill_times": 1,
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        }
+    ]
+}

@@ -1,37 +1,97 @@
 {
-    "minimum_required": "v4.0.0",
     "stage_name": "act45side_tr01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "SS-TR-1 - 吊桥外的月光 - 自动跳剧情",
+        "details": "——————————\n作业更新日期: 2025-09-04T15:28:43Z\n统计更新日期: 2025-09-10\n相对评分：99.00%  相对热度：71.94%\n来源：小卡拉帕鲁灰  ID：67300\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注。词条看评论区图片。"
+    },
+    "opers": [],
+    "groups": [],
     "actions": [
+        {
+            "type": "SpeedUp",
+            "costs": 11
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 16,
+            "pre_delay": 1000
+        },
         {
             "type": "SpeedUp",
             "pre_delay": 1000
         },
         {
-            "type": "Deploy",
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 18,
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 19,
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 20,
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 29,
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
             "name": "讯使",
-            "direction": "Down",
             "location": [
                 2,
                 3
-            ]
+            ],
+            "direction": "Down",
+            "type": "Deploy"
         },
         {
-            "type": "Deploy",
             "name": "红豆",
-            "direction": "Left",
             "location": [
                 7,
                 4
-            ]
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
         },
         {
             "type": "SkillDaemon"
         }
-    ],
-    "doc": {
-        "title": "SS-TR-1 - 吊桥外的月光",
-        "details": "——————————\n作业更新日期: 2025-09-04T08:36:30Z\n统计更新日期: 2025-09-06\n相对评分：97.00%  相对热度：75.85%\n来源：焕彩gg  ID：67098\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注。词条看评论区图片。"
-    },
-    "groups": [],
-    "opers": []
+    ]
 }

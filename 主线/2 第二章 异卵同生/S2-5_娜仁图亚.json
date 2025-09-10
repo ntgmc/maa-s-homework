@@ -1,0 +1,38 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "sub_02-05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "娜仁图亚",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "娜仁图亚",
+            "location": [
+                2,
+                3
+            ]
+        }
+    ],
+    "doc": {
+        "title": "第二章 异卵同生 - S2-5 - 术师-1 娜仁图亚单人",
+        "details": "——————————\n作业更新日期: 2025-08-06T15:01:43Z\n统计更新日期: 2025-09-10\n相对评分：94.44%  相对热度：100.00%\n来源：一般路过作业人  ID：50615\n——————————\n原视频链接【【明日方舟】无需练度就能拿到六星干员魔王和医疗阿米娅？-哔哩哔哩】 https://b23.tv/ggKdc7C"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

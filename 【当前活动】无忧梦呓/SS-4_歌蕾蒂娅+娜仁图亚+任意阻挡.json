@@ -1,0 +1,68 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act45side_04",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "娜仁图亚",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "任意阻挡",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "SS-4 - 名为客房区的迷宫",
+        "details": "——————————\n作业更新日期: 2025-09-04T11:09:11Z\n统计更新日期: 2025-09-10\n相对评分：90.00%  相对热度：63.76%\n来源：PotatoGad  ID：67184\n——————————\n哔哩哔哩緊急失控\n歌蒂x模\n桃子可以是任意阻挡\n【【无忧梦呓】SS-4 3人摆完挂机-哔哩哔哩】 https://www.bilibili.com/video/BV1FdamzAEsK"
+    },
+    "groups": [
+        {
+            "name": "任意阻挡",
+            "opers": [
+                {
+                    "name": "桃金娘",
+                    "skill_usage": 0,
+                    "skill": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "娜仁图亚",
+            "skill_usage": 2,
+            "skill_times": 1,
+            "skill": 1
+        }
+    ]
+}
