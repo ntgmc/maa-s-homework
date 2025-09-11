@@ -1,0 +1,56 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_grani_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "格拉尼",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "格拉尼",
+            "kills": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "斯卡蒂",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "斯卡蒂",
+            "kills": 10,
+            "pre_delay": 7000
+        },
+        {
+            "type": "Skill",
+            "name": "格拉尼",
+            "kills": 12,
+            "pre_delay": 5000
+        }
+    ],
+    "doc": {
+        "title": "先锋 - 格拉尼 - “孤胆骑兵”",
+        "details": "——————————\n作业更新日期: 2023-12-06T05:24:15Z\n统计更新日期: 2025-09-10\n相对评分：89.41%  相对热度：87.64999999999999%\n来源：Leave  ID：30766\n——————————\n精二1级，7级技能测试已过"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "格拉尼",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

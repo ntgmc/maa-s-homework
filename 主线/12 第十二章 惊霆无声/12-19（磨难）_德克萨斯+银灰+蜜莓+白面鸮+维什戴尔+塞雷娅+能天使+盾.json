@@ -1,0 +1,182 @@
+{
+    "stage_name": "tough_12-17",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "自用修改 第十二章 惊霆无声 - 12-19（磨难） - 飞跃，烟火 萧然攻略 优化版",
+        "details": "——————————\n作业更新日期: 2025-06-28T09:34:29Z\n统计更新日期: 2025-09-10\n相对评分：88.42%  相对热度：72.83%\n来源：椰果冰粉  ID：61484\n——————————\n磨难12-19 优化版，更好抄\n攻略作者：萧然Q BV1oL411m7bL\n练度2603 不妨称之为萧然练度水平\n萧然用的小羊29033级模组满配，我测试用的小羊26033级模组，可以过，不知道3级模组影响大不大，不能过的请点踩提示后来的同胞（没开小羊3级模组的老咸鱼们还是能开就开吧）\n蜜莓170，只是范围大用来验身份的\n建议开自动编队先演习一遍，然后再上满蹭信赖的干员实操，信赖干员可以带个精二的摩根或者二技能耀光，不占部署位，如果小羊那边会漏可以下去挡一挡"
+    },
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "蜜莓",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "塞雷娅",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "能天使",
+            "opers": [
+                {
+                    "name": "新约能天使",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "盾",
+            "opers": [
+                {
+                    "name": "信仰搅拌机",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "德克萨斯",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "能天使",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "白面鸮",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "盾",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "蜜莓",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "银灰",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯",
+            "location": [
+                2,
+                4
+            ],
+            "costs": 19
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

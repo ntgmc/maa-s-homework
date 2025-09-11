@@ -1,0 +1,90 @@
+{
+    "stage_name": "mem_mitm_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "先锋 - 渡桥 - 多管闲事 悖论模拟",
+        "details": "——————————\n作业更新日期: 2025-09-09T14:41:49Z\n统计更新日期: 2025-09-10\n相对评分：100.0%  相对热度：100.0%\n来源：iMaeGoo  ID：67752\n——————————\n作者练度2507\n参考视频：https://www.bilibili.com/video/BV1ypaUzCEk6"
+    },
+    "opers": [
+        {
+            "name": "渡桥",
+            "skill": 2,
+            "requirements": {
+                "level": 50,
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "霜叶",
+            "skill": 1,
+            "requirements": {
+                "elite": 2,
+                "level": 50,
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "渡桥",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "樱桃三号",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "渡桥",
+            "skill_usage": 2,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "霜叶",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "name": "渡桥",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "kills": 11
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                2
+            ],
+            "kills": 18
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}
