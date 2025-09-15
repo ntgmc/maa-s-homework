@@ -1,0 +1,62 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act45side_05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "娜仁图亚",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "SS-5 - 通往舞会的邀请函",
+        "details": "——————————\n作业更新日期: 2025-09-04T11:13:07Z\n统计更新日期: 2025-09-15\n相对评分：95.96%  相对热度：65.90%\n来源：PotatoGad  ID：67189\n——————————\n哔哩哔哩緊急失控\n歌蒂x模\n【【无忧梦呓】SS-5 3人摆完挂机-哔哩哔哩】 https://www.bilibili.com/video/BV1RKaUzsELz"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "歌蕾蒂娅",
+            "skill_usage": 0,
+            "skill": 1
+        },
+        {
+            "skill_times": 1,
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 2
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

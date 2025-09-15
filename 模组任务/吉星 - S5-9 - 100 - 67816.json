@@ -1,0 +1,73 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "吉星模组任务 - S5-9 - 可疑的宣传页",
+        "details": "——————————\n作业更新日期: 2025-09-11T05:18:52Z\n统计更新日期: 2025-09-15\n相对评分：100.0%  相对热度：100.0%\n来源：一只摆烂的42  ID：67816\n——————————\n吉星「可疑的宣传页」模组任务\n3星通关主题曲S5-9，必须编入非助战吉星并上场，且至少使用2次“吉星高照！”\n原作业：maa://21771\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "stage_name": "sub_05-4-3",
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "吉星",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "direction": "Left",
+            "location": [
+                9,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "吉星",
+            "direction": "Right",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "groups": [
+        {
+            "name": "近卫",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ]
+}

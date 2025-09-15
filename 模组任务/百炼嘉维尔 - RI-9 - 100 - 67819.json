@@ -1,0 +1,63 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "百炼嘉维尔模组任务 - RI-9 - 好锯多磨",
+        "details": "——————————\n作业更新日期: 2025-09-11T05:32:56Z\n统计更新日期: 2025-09-15\n相对评分：100.0%  相对热度：94.03%\n来源：一只摆烂的42  ID：67819\n——————————\n百炼嘉维尔「好锯多磨」模组任务\n> 由非助战百炼嘉维尔累计造成40歼灭数\n> 3星通关插曲RI-9；必须编入非助战百炼嘉维尔并上场，且所有干员不被击倒\n原作业：maa://21080\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "stage_name": "act12d0_09",
+    "opers": [
+        {
+            "name": "百炼嘉维尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "百炼嘉维尔",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "difficulty": 0,
+    "groups": []
+}

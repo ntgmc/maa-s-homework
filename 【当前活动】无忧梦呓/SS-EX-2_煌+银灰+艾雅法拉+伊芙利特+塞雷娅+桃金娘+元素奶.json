@@ -1,0 +1,160 @@
+{
+    "stage_name": "act45side_ex02",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "SS-EX-2 - 第二篇·玩具盒子",
+        "details": "——————————\n作业更新日期: 2025-09-11T12:12:55Z\n统计更新日期: 2025-09-15\n相对评分：99.00%  相对热度：77.51%\n来源：墨年的账户  ID：67870\n——————————\n爱来自 星空嗷\n因为两号干员互补导致自己动手丰衣足食\n不想数格子不想数格子不想数格子"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "元素奶",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": -1
+                    }
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "元素奶",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "伊芙利特",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "银灰",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "银灰",
+            "kills": 22,
+            "pre_delay": 2000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
