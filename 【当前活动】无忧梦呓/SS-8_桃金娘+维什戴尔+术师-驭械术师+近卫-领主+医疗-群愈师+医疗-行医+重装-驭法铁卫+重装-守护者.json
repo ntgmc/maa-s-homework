@@ -1,0 +1,260 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act45side_08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                3,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "direction": "Up",
+            "location": [
+                4,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗-群愈师",
+            "direction": "Left",
+            "location": [
+                5,
+                7
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "重装-守护者",
+            "direction": "Up",
+            "location": [
+                9,
+                7
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗-行医",
+            "direction": "Right",
+            "location": [
+                7,
+                7
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "术师-驭械术师",
+            "direction": "Up",
+            "location": [
+                8,
+                7
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                3,
+                7
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "近卫-领主",
+            "direction": "Up",
+            "location": [
+                3,
+                7
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "重装-驭法铁卫",
+            "direction": "Up",
+            "location": [
+                6,
+                7
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "SS-8 - 童话的开场",
+        "details": "——————————\n作业更新日期: 2025-09-12T23:44:14Z\n统计更新日期: 2025-09-15\n相对评分：96.74%  相对热度：68.92%\n来源：作业超大杯  ID：67653\n——————————\nhttps://www.bilibili.com/video/BV1ADaSz5EGt/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5958cf7b9ee1e3cce1b27701c7912ff3"
+    },
+    "groups": [
+        {
+            "name": "术师-驭械术师",
+            "opers": [
+                {
+                    "name": "澄闪",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "荒芜拉普兰德",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "烛煌",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "蕾缪安",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "近卫-领主",
+            "opers": [
+                {
+                    "name": "丰川祥子",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "仇白",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 2,
+                    "skill_times": 2
+                },
+                {
+                    "name": "拉普兰德",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "医疗-群愈师",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "遥",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 2
+                }
+            ]
+        },
+        {
+            "name": "医疗-行医",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "skill_times": 2,
+                    "name": "遥",
+                    "skill": 2,
+                    "skill_usage": 2
+                }
+            ]
+        },
+        {
+            "name": "重装-驭法铁卫",
+            "opers": [
+                {
+                    "name": "余",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "重装-守护者",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "斩业星熊",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

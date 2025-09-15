@@ -1,0 +1,73 @@
+{
+    "stage_name": "act45side_ex03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "SS-EX-3 - 第三篇·闪亮翅膀",
+        "details": "——————————\n作业更新日期: 2025-09-14T09:51:29Z\n统计更新日期: 2025-09-15\n相对评分：99.00%  相对热度：69.20%\n来源：咕咕嘎嘎  ID：68158\n——————————\n作者：墙角涂鸦\n链接：www.bilibili.com/video/BV1CiHezGEUx"
+    },
+    "opers": [
+        {
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 4
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "娜仁图亚",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

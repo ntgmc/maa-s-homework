@@ -1,0 +1,98 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "Miss.Christine模组任务 - DM-7 - “黑色”贩卖机",
+        "details": "——————————\n作业更新日期: 2025-09-11T05:19:06Z\n统计更新日期: 2025-09-15\n相对评分：100.0%  相对热度：100.0%\n来源：一只摆烂的42  ID：67814\n——————————\nMiss.Christine「“黑色”贩卖机」模组任务\n3星通关插曲DM-7，必须编入非助战Miss.Christine并上场，且至少使用2次“狂饮之宴”\n原作业：maa://23020\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "stage_name": "act9d0_07",
+    "opers": [
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "Miss.Christine",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "Deploy",
+            "name": "法",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "Deploy",
+            "name": "Miss.Christine",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "kills": 26,
+            "name": "银灰",
+            "pre_delay": 500
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "groups": [
+        {
+            "name": "法",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ]
+}

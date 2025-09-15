@@ -1,0 +1,326 @@
+{
+    "stage_name": "main_08-10",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第八章 怒号光明 - R8-9 - 相逢，总是离别 - 单核",
+        "details": "——————————\n作业更新日期: 2025-06-15T07:25:18Z\n统计更新日期: 2025-09-15\n相对评分：97.92%  相对热度：76.00%\n来源：小卡拉帕鲁灰  ID：60077\n——————————\n兼容突袭\nJSON作者小卡拉帕鲁灰\n练度点击作业查看详情\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "opers": [
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "地刺：精一满级及以上",
+            "opers": [
+                {
+                    "name": "伊桑",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 3
+                    }
+                }
+            ]
+        },
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        },
+        {
+            "name": "速狙：精一满级及以上",
+            "opers": [
+                {
+                    "name": "灰烬",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "空弦",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白金",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "灰喉"
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "隐现",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "红云",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "杰西卡",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流星",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "梅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾：精一满级及以上",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "深律",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "芬",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "克洛丝",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "玛恩纳",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "斑点",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "costs": 15
+        },
+        {
+            "name": "地刺：精一满级及以上",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "玛恩纳",
+            "kills": 9
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "速狙：精一满级及以上",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "医疗",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "costs": 20
+        },
+        {
+            "name": "奶盾：精一满级及以上",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "玛恩纳",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "玛恩纳",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

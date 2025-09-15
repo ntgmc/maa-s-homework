@@ -1,0 +1,30 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_mm_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "梅",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        }
+    ],
+    "doc": {
+        "title": "狙击 - 梅 - “不许靠近！” - 一技能版本",
+        "details": "——————————\n作业更新日期: 2023-07-02T03:34:46Z\n统计更新日期: 2025-09-15\n相对评分：66.33%  相对热度：43.38%\n来源：一只摆烂的42  ID：24380\n——————————\nhttps://www.bilibili.com/video/BV1pM411U7G9/\n练度精二20级 专三技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "梅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

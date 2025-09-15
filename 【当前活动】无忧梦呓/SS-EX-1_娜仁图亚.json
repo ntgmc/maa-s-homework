@@ -1,0 +1,39 @@
+{
+    "stage_name": "act45side_ex01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "SS-EX-1 - 第一篇·糖果小屋",
+        "details": "——————————\n作业更新日期: 2025-09-11T12:10:48Z\n统计更新日期: 2025-09-15\n相对评分：96.00%  相对热度：64.36%\n来源：椰果冰粉  ID：67857\n——————————\n自用，思路：BV1XnHezpEt2"
+    },
+    "opers": [
+        {
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "娜仁图亚",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc": "希望这条内容有给你带来一点点帮助～一个小小的赞对我来说就是莫大的鼓励啦！比心～ (´∀｀)♡"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
