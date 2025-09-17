@@ -1,0 +1,50 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_toddi_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "熔泉",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "kills": 7,
+            "name": "熔泉",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "熔泉",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 71,
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "熔泉--悖论模拟",
+        "details": "——————————\n作业更新日期: 2025-08-15T14:00:05Z\n统计更新日期: 2025-09-17\n相对评分：83.72%  相对热度：56.31%\n来源：童话重度依赖  ID：56429\n——————————\n7级2技能--精2--50级  自测可过\n【赠送干员满潜能】【满信赖】【无模组】\n有问题请反馈    BID：童话重度依赖症"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "熔泉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
