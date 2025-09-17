@@ -1,0 +1,63 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_04-09",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "direction": "Right",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "direction": "Right",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第四章 急性衰竭 - 4-9 - 彻入骨髓",
+        "details": "——————————\n作业更新日期: 2025-08-16T08:23:02Z\n统计更新日期: 2025-09-17\n相对评分：96.39%  相对热度：91.36%\n来源：yalor.17  ID：65357\n——————————\n原作者：低配挂机研讨会\n【白面鸮模组】"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}

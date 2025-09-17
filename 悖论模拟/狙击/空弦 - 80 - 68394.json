@@ -1,0 +1,64 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_archet_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "空弦",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "蓝毒",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "空弦",
+            "location": [
+                4,
+                1
+            ],
+            "kills": 7
+        },
+        {
+            "type": "Skill",
+            "name": "空弦",
+            "location": [
+                4,
+                1
+            ],
+            "kills": 34,
+            "doc_color": "#d63384",
+            "doc": "这一步只是为了加速一下战斗,希望可以骗到大家的赞~ \n(=✪ᆽ✪=)"
+        }
+    ],
+    "doc": {
+        "title": "悖论模拟 | 狙击 - 空弦 - 箭指远方",
+        "details": "——————————\n作业更新日期: 2025-09-15T05:28:55Z\n统计更新日期: 2025-09-17\n相对评分：80.81%  相对热度：35.870000000000005%\n来源：不会打不过吧  ID：68394\n——————————\n练度：精二1级无专精 \n参考链接：https://www.bilibili.com/video/BV1iF411y7dp?vd_source=994b6d9e5fe4f4b6042bef18afc7fc61\n主包自测的练度是精二60无·模组无专精~有问题请反馈评论区~晚安！"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "空弦",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "蓝毒",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
