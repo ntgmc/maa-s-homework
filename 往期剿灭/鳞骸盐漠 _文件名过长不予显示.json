@@ -3,7 +3,7 @@
     "minimum_required": "v4.0.0",
     "doc": {
         "title": "伊比利亚 - 鳞骸盐漠  - 鳞骸盐漠 老干员",
-        "details": "——————————\n作业更新日期: 2025-09-12T23:51:00Z\n统计更新日期: 2025-09-15\n相对评分：90.43%  相对热度：67.70%\n来源：作业超大杯  ID：64819\n——————————\n原作者萧然Q json作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【鳞骸盐漠400杀】摆完挂机 简单好抄】 https://www.bilibili.com/video/BV18L8VzyE4E/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+        "details": "——————————\n作业更新日期: 2025-09-18T02:51:05Z\n统计更新日期: 2025-09-20\n相对评分：87.23%  相对热度：66.83%\n来源：作业超大杯  ID：64819\n——————————\n原作者萧然Q json作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【鳞骸盐漠400杀】摆完挂机 简单好抄】 https://www.bilibili.com/video/BV18L8VzyE4E/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
     },
     "opers": [],
     "groups": [
@@ -25,7 +25,7 @@
                     "skill": 1,
                     "requirements": {
                         "skill_level": 7,
-                        "module": 2
+                        "module": -1
                     }
                 }
             ]
@@ -38,7 +38,7 @@
                     "skill": 1,
                     "requirements": {
                         "skill_level": 10,
-                        "module": 1
+                        "module": -1
                     }
                 },
                 {
@@ -59,12 +59,27 @@
                     "skill": 2,
                     "requirements": {
                         "skill_level": 10,
-                        "module": 1
+                        "module": -1
                     }
                 },
                 {
                     "name": "斩业星熊",
                     "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
                     "skill_usage": 0
                 }
             ]
@@ -83,13 +98,18 @@
                     }
                 },
                 {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
                     "name": "乌尔比安",
                     "skill": 2,
                     "skill_usage": 0
                 },
                 {
-                    "name": "煌",
-                    "skill": 2,
+                    "name": "斩业星熊",
+                    "skill": 1,
                     "skill_usage": 0
                 }
             ]
@@ -102,11 +122,22 @@
                     "skill": 3,
                     "requirements": {
                         "skill_level": 10,
-                        "module": 1
+                        "module": -1
                     }
                 },
                 {
                     "name": "新约能天使",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "娜仁图亚",
+                    "skill": 1,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                },
+                {
+                    "name": "逻各斯",
                     "skill": 1,
                     "skill_usage": 0
                 }
@@ -120,7 +151,7 @@
                     "skill": 2,
                     "requirements": {
                         "skill_level": 10,
-                        "module": 1
+                        "module": -1
                     }
                 },
                 {
@@ -139,6 +170,11 @@
             "name": "医疗-疗养师",
             "opers": [
                 {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
                     "name": "流明",
                     "skill": 3,
                     "skill_usage": 2,
@@ -149,8 +185,8 @@
                     }
                 },
                 {
-                    "name": "纯烬艾雅法拉",
-                    "skill": 1,
+                    "name": "闪灵",
+                    "skill": 2,
                     "skill_usage": 0
                 }
             ]
@@ -174,6 +210,11 @@
                     "skill_usage": 0
                 },
                 {
+                    "name": "Mon3tr",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
                     "name": "遥",
                     "skill": 2,
                     "skill_usage": 2,
@@ -185,12 +226,59 @@
             "name": "医疗-行医",
             "opers": [
                 {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
                     "name": "桑葚",
                     "skill": 1,
                     "skill_usage": 0
                 },
                 {
-                    "name": "蜜莓",
+                    "name": "遥",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 2
+                },
+                {
+                    "name": "絮雨",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "锡兰",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "哈洛德",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "狙击-神射手",
+            "opers": [
+                {
+                    "name": "蕾缪安",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "W",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "提丰",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 2
+                },
+                {
+                    "name": "维什戴尔",
                     "skill": 1,
                     "skill_usage": 0
                 }
@@ -200,20 +288,20 @@
             "name": "近卫-领主",
             "opers": [
                 {
+                    "name": "仇白",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "丰川祥子",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
                     "name": "棘刺",
                     "skill": 3,
                     "skill_usage": 2,
                     "skill_times": 2
-                },
-                {
-                    "name": "丰川祥子",
-                    "skill": 2,
-                    "skill_usage": 0
-                },
-                {
-                    "name": "阿斯卡纶",
-                    "skill": 1,
-                    "skill_usage": 0
                 },
                 {
                     "name": "拉普兰德",
@@ -221,7 +309,12 @@
                     "skill_usage": 0
                 },
                 {
-                    "name": "圣约送葬人",
+                    "name": "歌蕾蒂娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "伊内丝",
                     "skill": 1,
                     "skill_usage": 0
                 }
@@ -230,52 +323,52 @@
     ],
     "actions": [
         {
-            "type": "Deploy",
             "name": "近卫-斗士",
-            "direction": "Down",
             "location": [
                 11,
                 2
-            ]
+            ],
+            "direction": "Down",
+            "type": "Deploy"
         },
         {
-            "type": "Deploy",
             "name": "先锋-尖兵",
-            "direction": "Up",
             "location": [
                 3,
                 7
-            ]
+            ],
+            "direction": "Up",
+            "type": "Deploy"
         },
         {
-            "type": "Deploy",
             "name": "医疗-疗养师",
-            "direction": "Left",
             "location": [
                 9,
                 7
-            ]
+            ],
+            "direction": "Left",
+            "type": "Deploy"
         },
         {
             "type": "SpeedUp"
         },
         {
-            "type": "Deploy",
             "name": "重装-铁卫",
-            "direction": "Up",
             "location": [
                 6,
                 6
-            ]
+            ],
+            "direction": "Up",
+            "type": "Deploy"
         },
         {
-            "type": "Deploy",
             "name": "医疗-医师",
-            "direction": "Up",
             "location": [
                 11,
                 4
-            ]
+            ],
+            "direction": "Up",
+            "type": "Deploy"
         },
         {
             "name": "奶盾",
@@ -287,22 +380,22 @@
             "type": "Deploy"
         },
         {
-            "type": "Deploy",
             "name": "狙击-速射手",
-            "direction": "Down",
             "location": [
                 10,
                 3
-            ]
+            ],
+            "direction": "Down",
+            "type": "Deploy"
         },
         {
-            "type": "Deploy",
             "name": "术师-轰击术师",
-            "direction": "Right",
             "location": [
                 2,
                 1
-            ]
+            ],
+            "direction": "Right",
+            "type": "Deploy"
         },
         {
             "type": "Deploy",
@@ -310,7 +403,26 @@
             "direction": "Right",
             "location": [
                 1,
-                6
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "狙击-神射手",
+            "direction": "Right",
+            "location": [
+                2,
+                3
+            ]
+        },
+        {
+            "type": "Retreat",
+            "costs": 50,
+            "name": "先锋-尖兵",
+            "direction": "Up",
+            "location": [
+                3,
+                7
             ]
         },
         {
