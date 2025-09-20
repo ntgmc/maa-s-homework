@@ -1,0 +1,130 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_mlyss_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "缪尔赛思",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "流形",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "流形",
+            "location": [
+                4,
+                3
+            ],
+            "costs": 7
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                5,
+                6
+            ],
+            "costs": 32,
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "kills": 14,
+            "pre_delay": 2000,
+            "name": "伊芙利特",
+            "location": [
+                5,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "缪尔赛思",
+            "skill_usage": 0
+        },
+        {
+            "type": "Skill",
+            "name": "流形",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 22
+        },
+        {
+            "type": "Deploy",
+            "name": "多萝西",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "缪尔赛思",
+            "location": [
+                2,
+                4
+            ],
+            "kills": 35
+        },
+        {
+            "type": "Skill",
+            "name": "伊芙利特",
+            "location": [
+                5,
+                6
+            ],
+            "kills": 40
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "缪尔赛思 “亲身经历” 悖论模拟",
+        "details": "——————————\n作业更新日期: 2023-08-17T06:36:43Z\n统计更新日期: 2025-09-20\n相对评分：82.11%  相对热度：63.91%\n来源：2458128299@qq.com  ID：25725\n——————————\n关注淘宝店铺：秋秋简单点"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "缪尔赛思",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

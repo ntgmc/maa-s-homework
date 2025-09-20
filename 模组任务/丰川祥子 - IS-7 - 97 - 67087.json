@@ -1,0 +1,119 @@
+{
+    "stage_name": "act21side_07",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "叙拉古人 - IS-7 - 何以忘却【丰川祥子模组任务】",
+        "details": "——————————\n作业更新日期: 2025-09-04T10:46:32Z\n统计更新日期: 2025-09-20\n相对评分：97.72999999999999%  相对热度：100.0%\n来源：小卡拉帕鲁灰  ID：67087\n——————————\n豊川（とがわ）祥子模组任务（已测试）\n由非助战丰川祥子累计造成50歼灭数\n3星通关插曲叙拉古人IS-7;必须编入非助战丰川祥子并上场，且至少使用2次残月的余响\n\n丰川祥子原是月之森女子学园初三学生，丰川集团的千金，与若叶睦、长崎爽世以及Morfonica五人是同校生，后来祥子转学到羽丘女子学园，现为高中一年级生。\n祥子是推动CRYCHIC组建的人，也是该乐队的键盘手。曾经的她个性温柔、天真烂漫，拥有天才的作曲能力，是才华横溢的少女。但却在某个雨天，以与往常截然不同的态度退出了CRYCHIC。退出CRYCHIC后，她主导组建了Ave Mujica，担任键盘手，还负责剧本和作曲。\n高一时，经常在学校音乐教室弹钢琴，也因此结识千早爱音，但她们都不是吹奏部成员。\n在Ave Mujica中的成员代号Oblivionis[3]取自Lacus Oblivionis（忘湖），意指忘却。值得一提的是，组合内其他成员代号的月海和月湾均位于月球正面，仅忘湖位于月球背面。 其演奏的优美旋律为乐队的声音增添了古典气息。隐藏在这些旋律中的情感是编织Ave Mujica独特世界的关键。\n从CRYCHIC时期使用至今的键盘为罗兰V-Combo VR-730，在Ave Mujica表演时增加了一把罗兰Fantom-08。"
+    },
+    "opers": [
+        {
+            "name": "丰川祥子",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 60,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "丰川祥子",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶盾",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "星熊",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

@@ -1,0 +1,111 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_05-05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "kills": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "蓝毒",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "杰西卡",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "幻影",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "None",
+            "kills": 43
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Left",
+            "kills": 43
+        }
+    ],
+    "doc": {
+        "title": "第五章 靶向药物 - 5-5 - 连绵战火",
+        "details": "——————————\n作业更新日期: 2024-05-03T09:38:45Z\n统计更新日期: 2025-09-20\n相对评分：100.00%  相对热度：93.81%\n来源：缪缪情缪  ID：36990\n——————————\n第五章 靶向药物 - 5-5 - 连绵战火"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "蓝毒",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "杰西卡",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 2
+}
