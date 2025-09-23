@@ -1,0 +1,27 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act37side_tr01",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "摩根",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        }
+    ],
+    "doc": {
+        "title": "GO-TR-1 - 物资难题",
+        "details": "——————————\n作业更新日期: 2024-10-10T14:20:24Z\n统计更新日期: 2025-09-23\n相对评分：98.00%  相对热度：73.17%\n来源：焕彩gg  ID：42372\n——————————\n要手动点剧情"
+    },
+    "groups": [],
+    "opers": []
+}

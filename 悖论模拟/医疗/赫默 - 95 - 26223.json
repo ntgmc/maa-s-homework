@@ -1,0 +1,134 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_silent_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "赫默",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "石棉",
+            "location": [
+                6,
+                4
+            ],
+            "costs": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "幽灵鲨",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "布洛卡",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗探机",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "None",
+            "kills": 27
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗探机",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "None",
+            "kills": 40
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                4
+            ],
+            "name": "石棉",
+            "costs": 26,
+            "cost_changes": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗探机",
+            "location": [
+                1,
+                1
+            ],
+            "kills": 46,
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "幽灵鲨",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 48
+        },
+        {
+            "type": "Skill",
+            "name": "布洛卡",
+            "location": [
+                4,
+                5
+            ],
+            "kills": 49
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗探机",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 50,
+            "direction": "None"
+        }
+    ],
+    "doc": {
+        "title": "医疗 - 赫默 - 全域救护",
+        "details": "——————————\n作业更新日期: 2023-08-21T00:25:14Z\n统计更新日期: 2025-09-23\n相对评分：95.96000000000001%  相对热度：86.11999999999999%\n来源：摸鱼月月子  ID：26223\n——————————\nBV1AZ4y1v7RA  已测试，精二40级无专精，带二技能"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "赫默",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

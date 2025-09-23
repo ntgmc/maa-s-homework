@@ -1,0 +1,318 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act37side_ex04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "狙击",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "狙击2",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "承伤",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "输出",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "治疗",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "GO-EX-4 - 通讯频段干扰 大哥/水月单核",
+        "details": "——————————\n作业更新日期: 2024-10-16T11:35:38Z\n统计更新日期: 2025-09-23\n相对评分：88.00%  相对热度：59.00%\n来源：盗版欧皇某某某  ID：42500\n——————————\n注意速狙练度！\n测试练度：\n三星精英一55级7级技能\n四星精英一45级7级技能\n五星精英二50级7级技能\n六星精英二60级专三 一级模组\n反馈QQ：1494235809\n群聊宣发：725889092（不止方舟，欢迎来玩）"
+    },
+    "groups": [
+        {
+            "opers": [
+                {
+                    "name": "瑕光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "斑点",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "深律",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ],
+            "name": "奶盾"
+        },
+        {
+            "opers": [
+                {
+                    "name": "涤火杰西卡",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "年",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黑角",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "米格鲁",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "卡缇",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "百炼嘉维尔",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "佩佩",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "锏",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ],
+            "name": "承伤"
+        },
+        {
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "焰影苇草",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "莎草",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "明椒",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "调香师",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ],
+            "name": "治疗"
+        },
+        {
+            "opers": [
+                {
+                    "name": "重岳",
+                    "skill": 3,
+                    "skill_usage": 2,
+                    "skill_times": 5
+                },
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ],
+            "name": "输出"
+        },
+        {
+            "name": "狙击2",
+            "opers": [
+                {
+                    "name": "灰烬",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "克洛丝",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "狙击",
+            "opers": [
+                {
+                    "name": "空弦",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "白金",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "灰喉",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安德切尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}
