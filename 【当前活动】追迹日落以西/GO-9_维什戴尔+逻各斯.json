@@ -1,0 +1,107 @@
+{
+    "stage_name": "act37side_09",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "GO-9 - 英雄的落幕 双人 信赖 速刷",
+        "details": "——————————\n作业更新日期: 2025-09-19T10:39:49Z\n统计更新日期: 2025-09-23\n相对评分：82.83%  相对热度：57.65%\n来源：Genicur  ID：42421\n——————————\n原作者：https://www.bilibili.com/video/BV1Fy2AYeECN\n练度：27033 已通过 "
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Retreat",
+            "name": "逻各斯",
+            "kills": 9
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                3
+            ],
+            "kills": 13
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 14
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "skill_usage": 0,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 23
+        },
+        {
+            "type": "Skill",
+            "name": "逻各斯",
+            "kills": 26
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                3
+            ],
+            "kills": 34
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "name": "逻各斯",
+            "kills": 41
+        }
+    ]
+}

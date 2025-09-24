@@ -1,0 +1,180 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act37side_ex07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "速狙1",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "速狙2",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "熊",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                9,
+                3
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "GO-EX-7 - “休止角行动”",
+        "details": "——————————\n作业更新日期: 2025-09-19T16:36:41Z\n统计更新日期: 2025-09-23\n相对评分：94.95%  相对热度：68.98%\n来源：sads  ID：68833\n——————————\n【【追迹日落以西·复刻】GO全关卡挂机流，豪华重制解放双手！  | 明日方舟攻略（含GO-9，GO-EX-8突袭等）】 https://www.bilibili.com/video/BV1TbWGzxE2u/?p=14&share_source=copy_web&vd_source=1dc22fa13576dae3de5c9a1025c9d4f7"
+    },
+    "groups": [
+        {
+            "name": "熊",
+            "opers": [
+                {
+                    "name": "斩业星熊",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "速狙1",
+            "opers": [
+                {
+                    "name": "蓝毒",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "速狙2",
+            "opers": [
+                {
+                    "name": "艾拉",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "寒芒克洛丝",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}

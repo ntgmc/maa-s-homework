@@ -1,0 +1,69 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act37side_ex07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 20
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "GO-EX-7 - “休止角行动” - 双核",
+        "details": "——————————\n作业更新日期: 2025-04-25T13:18:36Z\n统计更新日期: 2025-09-23\n相对评分：96.97%  相对热度：75.70%\n来源：小卡拉帕鲁灰  ID：51044\n——————————\n兼容突袭（推荐使用自动编队，如果缺干员报错后再手动借干员）\nJSON作者小卡拉帕鲁灰\nEW与Logos：满级，专3，三级模组\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

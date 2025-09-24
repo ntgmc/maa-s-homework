@@ -1,0 +1,129 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act37side_ex08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "kills": 15
+        },
+        {
+            "type": "SkillUsage",
+            "name": "玛恩纳",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "GO-EX-8 - 在王座前（豪华限定版",
+        "details": "——————————\n作业更新日期: 2025-09-19T08:54:38Z\n统计更新日期: 2025-09-23\n相对评分：94.95%  相对热度：80.36%\n来源：snowflake  ID：68762\n——————————\n修改自用\n还没有 测试\n此作业全员专三且模组一级\n原作者：自在道爷\nJSON作者：星之海.\n社区评论不会提醒，有问题可以进群找我：994516079（刚建的\n原视频：【【追迹日落以西】GO-EX-1至GO-EX-8挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(分p更新中)】https://www.bilibili.com/video/BV1wumPYgEpb?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+    },
+    "groups": [
+        {
+            "name": "纯烬艾雅法拉",
+            "opers": [
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

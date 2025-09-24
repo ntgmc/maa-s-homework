@@ -1,0 +1,60 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act37side_ex02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "娜仁图亚",
+            "direction": "Down",
+            "location": [
+                3,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Up"
+        }
+    ],
+    "doc": {
+        "title": "饼干组挂机丨GO-EX-2 - 秘密通道突击",
+        "details": "——————————\n作业更新日期: 2025-09-19T10:53:37Z\n统计更新日期: 2025-09-23\n相对评分：99.00%  相对热度：72.23%\n来源：渡边草莓  ID：68785\n——————————\n原作者：紧急失控\n原视频：https://www.bilibili.com/video/BV1YqW3zcEbE\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "娜仁图亚",
+            "skill_usage": 2,
+            "skill_times": 1,
+            "skill": 1
+        }
+    ],
+    "difficulty": 3
+}

@@ -1,0 +1,85 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_nymph_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "妮芙",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "BulletTime",
+            "costs": 34,
+            "name": "塑心",
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "塑心",
+            "location": [
+                4,
+                3
+            ],
+            "costs": 36
+        },
+        {
+            "type": "BulletTime",
+            "costs": 42,
+            "name": "妮芙",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "妮芙",
+            "location": [
+                3,
+                3
+            ],
+            "doc": "过了的话求点赞，谢谢 ~(̷ ̷₌̷ ̷ㅇ̷ ̷ᆽ̷  ̷₌̷ ̷)♡",
+            "doc_color": "DarkGoldenrod",
+            "costs": 43
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "悖论模拟 | 术师 - 妮芙 - 直面心灵",
+        "details": "——————————\n作业更新日期: 2025-09-15T05:01:25Z\n统计更新日期: 2025-09-23\n相对评分：97.98%  相对热度：75.0%\n来源：不会打不过吧  ID：68392\n——————————\n练度：精二1级无专精\n参考链接：https://www.bilibili.com/video/BV1caaUzBEsG?vd_source=994b6d9e5fe4f4b6042bef18afc7fc61\n主包自测过精二60级无模组的，有开截图增强。设置了子弹时间希望可以弥补一些博士没开截图增强的问题~  "
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "妮芙",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "塑心",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

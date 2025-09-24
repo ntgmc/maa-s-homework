@@ -1,0 +1,393 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act37side_07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 22
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                3
+            ],
+            "pre_delay": 8500,
+            "doc_color": "Gray",
+            "doc": " 第一次使用技能"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "极境",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 10,
+            "doc_color": "Gray",
+            "doc": "10击杀结束技能"
+        },
+        {
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "name": "维什戴尔",
+            "doc_color": "Gray",
+            "doc": " 第二次使用技能",
+            "skill_usage": 2
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                5
+            ],
+            "costs": 25
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                4,
+                2
+            ],
+            "costs": 25
+        },
+        {
+            "type": "Skill",
+            "location": [
+                2,
+                2
+            ],
+            "costs": 25
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 19,
+            "doc_color": "Gray",
+            "doc": "19击杀结束技能"
+        },
+        {
+            "type": "Retreat",
+            "name": "夜刀"
+        },
+        {
+            "type": "Retreat",
+            "name": "砾"
+        },
+        {
+            "type": "Retreat",
+            "name": "芬"
+        },
+        {
+            "type": "Retreat",
+            "name": "安赛尔"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘"
+        },
+        {
+            "type": "Retreat",
+            "name": "极境"
+        },
+        {
+            "type": "Retreat",
+            "name": "黑角"
+        },
+        {
+            "type": "Deploy",
+            "name": "玫兰莎",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "斑点",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "月见夜",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "玫兰莎",
+            "pre_delay": 5000
+        },
+        {
+            "type": "Retreat",
+            "name": "米格鲁"
+        },
+        {
+            "type": "Retreat",
+            "name": "斑点"
+        },
+        {
+            "type": "Retreat",
+            "name": "月见夜"
+        },
+        {
+            "type": "Retreat",
+            "name": "砾"
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜刀",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 25,
+            "doc_color": "Gray",
+            "doc": "25击杀第三次使用技能"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "极境",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "#d63384",
+            "doc": "如果觉得实用，请赏个好评吧~"
+        }
+    ],
+    "doc": {
+        "title": "追迹日落以西 - GO-7 刷拾取装备刻章",
+        "details": "——————————\n作业更新日期: 2024-10-19T12:38:47Z\n统计更新日期: 2025-09-23\n相对评分：97.00%  相对热度：66.29%\n来源：一只摆烂的42  ID：42623\n——————————\n一局收集 20 个\n多代理几次就能拿刻章了\n制作者：一只摆烂的42\n有问题联系QQ2586582719\n修改自用请删除我的QQ"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "极境",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "砾",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜刀",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "玫兰莎",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "月见夜",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

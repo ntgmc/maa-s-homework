@@ -1,0 +1,34 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act37side_04",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Down",
+            "costs": 20
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "GO-4 - 酒精与安慰剂 单核打法",
+        "details": "——————————\n作业更新日期: 2024-10-09T13:35:31Z\n统计更新日期: 2025-09-23\n相对评分：96.00%  相对热度：65.53%\n来源：FelixTaXk  ID：42298\n——————————\n原作者 低配挂机研讨会 【追迹日落以西】全网最简单打法？GO1-GO9 单核挂机攻略合集"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act37side_02",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "“弦惊”",
+            "location": [
+                7,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "GO-2 - 痼疾缠身 - 单核",
+        "details": "——————————\n作业更新日期: 2025-01-31T13:30:24Z\n统计更新日期: 2025-09-23\n相对评分：99.00%  相对热度：72.67%\n来源：小卡拉帕鲁灰  ID：46185\n——————————\n令满级，专3，三级y模组\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

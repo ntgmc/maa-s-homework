@@ -1,0 +1,126 @@
+{
+    "stage_name": "act37side_ex02",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "GO-EX-2",
+        "details": "——————————\n作业更新日期: 2025-09-21T10:03:44Z\n统计更新日期: 2025-09-23\n相对评分：98.00%  相对热度：69.41%\n来源：酷酷酷的贤  ID：68702\n——————————\n作者：酷酷酷的贤"
+    },
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 2,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 4
+            }
+        },
+        {
+            "name": "遥",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "提丰",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "提丰",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

@@ -1,0 +1,124 @@
+{
+    "stage_name": "act37side_ex08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "GO-EX-8 - 在王座前 乌尔比安版",
+        "details": "——————————\n作业更新日期: 2025-08-05T21:56:04Z\n统计更新日期: 2025-09-23\n相对评分：89.90%  相对热度：61.85%\n来源：老王666  ID：64244\n——————————\n用的满模组乌尔比安，其他练度未测试\nJSON作者萨拉托加\n作业交流群群号1003478193，可蹲作业，有问题进群找我，作业站消息没提醒看不到"
+    },
+    "opers": [
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "歌蒂或黍",
+            "opers": [
+                {
+                    "name": "歌蕾蒂娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "输出",
+            "opers": [
+                {
+                    "name": "提丰",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "维什戴尔",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "玛恩纳",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "costs": 6
+        },
+        {
+            "name": "输出",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "歌蒂或黍",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "玛恩纳",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 0
+}
