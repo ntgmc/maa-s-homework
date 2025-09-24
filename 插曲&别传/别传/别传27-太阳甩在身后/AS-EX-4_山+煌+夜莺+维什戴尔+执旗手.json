@@ -1,0 +1,141 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act35side_ex04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "执旗手",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down",
+            "costs": 19
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯净结晶",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯净结晶",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "执旗手",
+            "location": [
+                10,
+                1
+            ],
+            "costs": 9
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "太阳甩在身后 - AS-EX-4 - 被盗的钱包",
+        "details": "——————————\n作业更新日期: 2024-08-08T09:59:51Z\n统计更新日期: 2025-08-30\n相对评分：89.00%  相对热度：66.31%\n来源：Dou_Bi_0  ID：40017\n——————————\n自己做着玩的\n根据zc攻略制作\n原视频：https://www.bilibili.com/video/BV1NW421R7Xk"
+    },
+    "groups": [
+        {
+            "name": "执旗手",
+            "opers": [
+                {
+                    "name": "极境",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "琴柳",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "万顷",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "桃金娘",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 1
+        }
+    ],
+    "difficulty": 3
+}

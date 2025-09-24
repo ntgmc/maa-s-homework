@@ -1,0 +1,33 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act35side_04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "太阳甩在身后 - AS-4 - 家传金拖鞋",
+        "details": "——————————\n作业更新日期: 2024-08-01T15:03:18Z\n统计更新日期: 2025-08-30\n相对评分：99.00%  相对热度：100.00%\n来源：萨拉托加  ID：39703\n——————————\n作者萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

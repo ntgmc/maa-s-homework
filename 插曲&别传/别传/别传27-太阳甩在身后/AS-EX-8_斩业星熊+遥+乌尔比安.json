@@ -1,0 +1,70 @@
+{
+    "stage_name": "act35side_ex08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "太阳甩在身后 - AS-EX-8 - 无冕之王与朝圣者",
+        "details": "——————————\n作业更新日期: 2025-08-25T03:51:08Z\n统计更新日期: 2025-08-30\n相对评分：95.96%  相对热度：74.84%\n来源：Invisible雅  ID：66123\n——————————\n原作者：二十三号半\n\n【【明日方舟_太阳甩在身后】AS-EX-8突袭  高配3人摆完挂机   简单好抄稳过无脑】 https://www.bilibili.com/video/BV1zaeszTE8P/?share_source=copy_web&vd_source=8ef702f7d6fd915927262ef8d937f6a9"
+    },
+    "opers": [
+        {
+            "name": "斩业星熊",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "遥",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "斩业星熊",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "遥",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
