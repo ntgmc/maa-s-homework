@@ -3,7 +3,7 @@
     "minimum_required": "v4.0.0",
     "doc": {
         "title": "GO-EX-8 - 在王座前",
-        "details": "——————————\n作业更新日期: 2025-09-19T18:23:48Z\n统计更新日期: 2025-09-23\n相对评分：96.97%  相对热度：86.23%\n来源：星之海.  ID：42596\n——————————\n此作业全员专三且模组一级\n原作者：自在道爷\nJSON作者：星之海.\n社区评论不会提醒，有问题可以进群找我：994516079（刚建的\n原视频：【【追迹日落以西】GO-EX-1至GO-EX-8挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(分p更新中)】https://www.bilibili.com/video/BV1wumPYgEpb?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+        "details": "——————————\n作业更新日期: 2025-09-23T13:08:53Z\n统计更新日期: 2025-09-24\n相对评分：96.97%  相对热度：87.16%\n来源：星之海.  ID：42596\n——————————\n此作业全员专三且模组一级\n原作者：自在道爷\nJSON作者：星之海.\n社区评论不会提醒，有问题可以进群找我：994516079（刚建的\n原视频：【【追迹日落以西】GO-EX-1至GO-EX-8挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(分p更新中)】https://www.bilibili.com/video/BV1wumPYgEpb?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
     },
     "opers": [
         {
@@ -147,13 +147,14 @@
             "pre_delay": 500
         },
         {
+            "type": "Deploy",
             "name": "夜莺",
+            "direction": "Left",
             "location": [
                 3,
                 3
             ],
-            "direction": "Left",
-            "type": "Deploy"
+            "pre_delay": 1000
         },
         {
             "name": "号角",
@@ -165,15 +166,15 @@
             "type": "Deploy"
         },
         {
+            "type": "Deploy",
+            "kills": 16,
+            "pre_delay": 1000,
             "name": "幻影",
+            "direction": "Right",
             "location": [
                 4,
                 5
-            ],
-            "direction": "Right",
-            "type": "Deploy",
-            "kills": 16,
-            "pre_delay": 2000
+            ]
         },
         {
             "type": "Retreat",

@@ -1,0 +1,185 @@
+{
+    "stage_name": "act37side_ex08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "GO-EX-8 - 在王座前",
+        "details": "——————————\n作业更新日期: 2025-09-20T12:38:06Z\n统计更新日期: 2025-09-24\n相对评分：87.88%  相对热度：58.78%\n来源：.02.  ID：68813\n——————————\nGO-EX-8 - 在王座前"
+    },
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 4,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "遥",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "扛住",
+            "opers": [
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "斩业星熊",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        },
+        {
+            "name": "酒图",
+            "opers": [
+                {
+                    "name": "酒神",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "塑心",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        },
+        {
+            "name": "输出",
+            "opers": [
+                {
+                    "name": "玛恩纳",
+                    "skill": 3,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "丰川祥子",
+                    "skill": 3,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 100
+        },
+        {
+            "name": "遥",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "扛住",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "酒图",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "输出",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
