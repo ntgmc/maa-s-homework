@@ -1,0 +1,75 @@
+{
+    "stage_name": "tough_11-16",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第十一章 淬火尘霾 - 11-18（磨难） - 非我所愿",
+        "details": "——————————\n作业更新日期: 2025-07-20T12:52:14Z\n统计更新日期: 2025-10-01\n相对评分：80.61%  相对热度：62.14%\n来源：daibanana  ID：63289\n——————————\n自用，作业来自B站up自在道爷，【【淬火尘霾】第11章全关卡挂机流，磨难险地不用愁！语音快乐详解，轻松解放双手|明日方舟主线EP11攻略合集（含11-20磨难，H11-4，S9-2等）-哔哩哔哩】 https://b23.tv/gz815sW"
+    },
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "能天使",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_coldst_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                2,
+                3
+            ],
+            "name": "冰酿",
+            "kills": 0,
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "direction": "Right",
+            "kills": 4,
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "kills": 4,
+            "direction": "Right",
+            "location": [
+                1,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "冰酿",
+            "location": [
+                2,
+                3
+            ],
+            "costs": 5,
+            "kills": 0
+        },
+        {
+            "type": "Skill",
+            "costs": 90,
+            "kills": 12,
+            "name": "冰酿",
+            "location": [
+                2,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "米格鲁",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 12,
+            "costs": 95
+        },
+        {
+            "type": "Skill",
+            "kills": 12,
+            "name": "芙蓉",
+            "location": [
+                1,
+                3
+            ],
+            "costs": 95
+        }
+    ],
+    "doc": {
+        "title": "狙击 - 冰酿 - 保持清醒",
+        "details": "——————————\n作业更新日期: 2025-09-30T01:38:46Z\n统计更新日期: 2025-10-01\n相对评分：0.0%  相对热度：0.0%\n来源：myselfwell  ID：69969\n——————————\n精二 1级 7技能 测试可过\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "skill_usage": 0,
+            "skill": 2,
+            "name": "冰酿"
+        }
+    ]
+}
