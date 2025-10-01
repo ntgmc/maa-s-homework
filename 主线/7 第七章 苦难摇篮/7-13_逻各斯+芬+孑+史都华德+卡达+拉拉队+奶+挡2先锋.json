@@ -1,0 +1,204 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_07-11",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "挡2先锋",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "史都华德",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "卡达",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right",
+            "costs": 47
+        },
+        {
+            "type": "Deploy",
+            "name": "拉拉队",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "孑",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第七章 苦难摇篮 - 7-13 - 感染者之盾-1",
+        "details": "——————————\n作业更新日期: 2025-04-12T00:00:43Z\n统计更新日期: 2025-10-01\n相对评分：95.88%  相对热度：78.49%\n来源：murasame  ID：50033\n——————————\nhttps://www.bilibili.com/video/BV1nJtDegEb2?p=11\n仅搬运，侵删\n拉拉队请保持精1以上练度，仅需多出一格攻击距离即可"
+    },
+    "groups": [
+        {
+            "name": "拉拉队",
+            "opers": [
+                {
+                    "name": "歌蕾蒂娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "雪雉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "杏仁",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "崖心",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "暗索",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "清流",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "挡2先锋",
+            "opers": [
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "讯使",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "孑",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "史都华德",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "卡达",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}

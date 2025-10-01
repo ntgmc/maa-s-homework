@@ -1,0 +1,72 @@
+{
+    "stage_name": "hard_11-02",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第十一章 淬火尘霾 - H11-2（标准） - 尘霾行动-2",
+        "details": "——————————\n作业更新日期: 2025-07-12T12:50:30Z\n统计更新日期: 2025-10-01\n相对评分：100.00%  相对热度：85.61%\n来源：墨年的账户  ID：62939\n——————————\n第十一章 淬火尘霾 - H11-2（标准） - 尘霾行动-2"
+    },
+    "opers": [
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}
