@@ -1,0 +1,389 @@
+{
+    "stage_name": "main_08-14",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第八章 怒号光明 - M8-8 - 苏醒，浮出梦乡 - 单核",
+        "details": "——————————\n作业更新日期: 2025-06-15T10:20:28Z\n统计更新日期: 2025-10-05\n相对评分：89.80%  相对热度：66.75%\n来源：小卡拉帕鲁灰  ID：60092\n——————————\n兼容突袭\n这关隐藏是放生boss，只能拿2星，这个作业是3星的，所以任务需要单独手打\nJSON作者小卡拉帕鲁灰\n练度点击作业查看详情\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "opers": [
+        {
+            "name": "酒神",
+            "skill": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 2,
+                "level": 1,
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾：精一满级及以上",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "黍",
+                    "skill": 3,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "深律",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "铁卫：精一满级及以上",
+            "opers": [
+                {
+                    "name": "涤火杰西卡",
+                    "skill": 1,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "年",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "信仰搅拌机",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "雷蛇",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 1,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "elite": 2,
+                        "level": 1,
+                        "skill_level": 7
+                    }
+                }
+            ]
+        },
+        {
+            "name": "群奶：精一满级及以上",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "瑰盐",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "微风",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "调香师",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "elite": 2,
+                        "level": 1,
+                        "skill_level": 7
+                    }
+                }
+            ]
+        },
+        {
+            "name": "医疗：精一满级及以上",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "铁卫：精一满级及以上",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "酒神",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "群奶：精一满级及以上",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "医疗：精一满级及以上",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "桃金娘",
+            "skill_usage": 0,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "奶盾：精一满级及以上",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
