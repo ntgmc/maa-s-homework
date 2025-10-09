@@ -1,0 +1,112 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_ctable_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "晓歌",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "晓歌",
+            "pre_delay": 7000
+        },
+        {
+            "type": "Deploy",
+            "name": "Lancet-2",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "豆苗",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "磐蟹护卫队",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Skill",
+            "name": "豆苗",
+            "pre_delay": 13500
+        },
+        {
+            "type": "Skill",
+            "name": "晓歌",
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "晓歌",
+            "kills": 12,
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "晓歌",
+            "kills": 13
+        },
+        {
+            "type": "Skill",
+            "name": "豆苗",
+            "kills": 13,
+            "pre_delay": 14000
+        },
+        {
+            "type": "Skill",
+            "name": "晓歌",
+            "kills": 13,
+            "pre_delay": 16000
+        },
+        {
+            "type": "Deploy",
+            "name": "轰隆隆先生",
+            "location": [
+                3,
+                3
+            ],
+            "pre_delay": 4700,
+            "direction": "None",
+            "kills": 14
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "先锋 - 晓歌 - 匿影藏形",
+        "details": "——————————\n作业更新日期: 2023-07-02T02:17:48Z\n统计更新日期: 2025-10-09\n相对评分：93.17999999999999%  相对热度：96.52%\n来源：一只摆烂的42  ID：24368\n——————————\nhttps://www.bilibili.com/video/BV1aX4y1y7KJ/\n练度精二50级 7级技能\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "晓歌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
