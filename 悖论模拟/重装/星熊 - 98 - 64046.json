@@ -1,0 +1,50 @@
+{
+    "stage_name": "mem_hsguma_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "重装 - 星熊 - 无路可退【星熊悖论模拟】",
+        "details": "——————————\n作业更新日期: 2025-08-05T00:41:06Z\n统计更新日期: 2025-10-09\n相对评分：98.98%  相对热度：88.26%\n来源：小卡拉帕鲁灰  ID：64046\n——————————\n练度：精二60级、7级三技能（等级具体还可以多低不知道）\n悖论模拟需要在MAA中关闭“自动编队”，\n选好三技能后，maa就可以按开始了"
+    },
+    "opers": [
+        {
+            "name": "星熊",
+            "skill": 3,
+            "requirements": {
+                "elite": 2,
+                "level": 70,
+                "skill_level": 7,
+                "module": -1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "星熊",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "星熊",
+            "kills": 5,
+            "pre_delay": 2000
+        },
+        {
+            "type": "Skill",
+            "name": "星熊",
+            "kills": 44
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}
