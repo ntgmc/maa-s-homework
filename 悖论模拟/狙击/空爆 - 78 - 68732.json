@@ -1,0 +1,95 @@
+{
+    "stage_name": "mem_catap_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "狙击 - 空爆 - 防空炮手",
+        "details": "——————————\n作业更新日期: 2025-09-19T07:22:07Z\n统计更新日期: 2025-10-16\n相对评分：78.79%  相对热度：38.76%\n来源：小刻的Dr.  ID：68732\n——————————\n🍘全员无伤🍘 预备行动组A6 空爆"
+    },
+    "opers": [
+        {
+            "name": "空爆",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "空爆",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "克洛丝",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 0,
+            "costs": 0,
+            "pre_delay": 0
+        },
+        {
+            "name": "安德切尔",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "costs": 11
+        },
+        {
+            "type": "Skill",
+            "location": [
+                7,
+                5
+            ],
+            "kills": 27,
+            "pre_delay": 9000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 27,
+            "pre_delay": 2000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 53
+        }
+    ],
+    "version": 3
+}

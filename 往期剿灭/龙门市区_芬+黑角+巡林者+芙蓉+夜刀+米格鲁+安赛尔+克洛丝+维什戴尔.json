@@ -1,0 +1,389 @@
+{
+    "stage_name": "camp_03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "炎国 - 龙门市区 - 龙门市区",
+        "details": "——————————\n作业更新日期: 2025-09-02T12:45:30Z\n统计更新日期: 2025-10-16\n相对评分：96.25%  相对热度：76.32%\n来源：芝士芝士芝士  ID：66962\n——————————\nhttps://www.bilibili.com/video/BV1u489z8EbN/"
+    },
+    "opers": [
+        {
+            "name": "芬"
+        },
+        {
+            "name": "黑角"
+        },
+        {
+            "name": "巡林者"
+        },
+        {
+            "name": "芙蓉"
+        },
+        {
+            "name": "夜刀"
+        },
+        {
+            "name": "米格鲁"
+        },
+        {
+            "name": "安赛尔"
+        },
+        {
+            "name": "克洛丝"
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "芬",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "夜刀",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "克洛丝",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "巡林者",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                6
+            ],
+            "costs": 16
+        },
+        {
+            "name": "米格鲁",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "name": "黑角",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "芙蓉",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "安赛尔",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                5
+            ],
+            "kills": 161
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 171,
+            "doc": ""
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 200
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "doc": ""
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 208,
+            "doc": ""
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 218
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 229
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 244
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 258
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 269
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 281
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 293
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 305
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 315
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 330
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 340
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 350,
+            "pre_delay": 15000
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 367
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 380
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 387
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

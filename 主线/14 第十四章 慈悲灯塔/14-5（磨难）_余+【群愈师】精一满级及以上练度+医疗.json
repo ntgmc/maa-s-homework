@@ -1,0 +1,143 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_14-04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "余",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up",
+            "costs": 30
+        },
+        {
+            "type": "Deploy",
+            "name": "医疗",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "【群愈师】精一满级及以上练度",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十四章 慈悲灯塔 - 14-5（磨难） - 探查岩洞区域 - 单核",
+        "details": "——————————\n作业更新日期: 2025-02-27T13:37:28Z\n统计更新日期: 2025-10-16\n相对评分：89.90%  相对热度：60.36%\n来源：小卡拉帕鲁灰  ID：47778\n——————————\nJSON作者小卡拉帕鲁灰\n余满级，7级技能\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复"
+    },
+    "groups": [
+        {
+            "name": "【群愈师】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "微风",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "调香师",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "明椒",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "亚叶",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "余",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "actions": [
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "黑角",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "location": [
+                7,
+                2
+            ],
+            "name": "梓兰",
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "location": [
+                3,
+                2
+            ],
+            "name": "絮雨",
+            "direction": "右",
+            "kills": 4
+        },
+        {
+            "type": "部署",
+            "name": "杜林",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "摆完挂机"
+        }
+    ],
+    "stage_name": "mem_whispr_1",
+    "doc": {
+        "title": "抚慰伤痛",
+        "details": "——————————\n作业更新日期: 2023-04-19T07:07:55Z\n统计更新日期: 2025-10-16\n相对评分：71.13000000000001%  相对热度：46.839999999999996%\n来源：作业代传——有问题联系原作者  ID：22741\n——————————\n干员等级：絮雨精二40，二技能专7级\n测试版本：395b2\n注意：本作业需要修复絮语干员名字读取bug"
+    },
+    "opers": [
+        {
+            "name": "絮雨"
+        },
+        {
+            "name": "梓兰",
+            "skill_usage": 1,
+            "skill": 1
+        }
+    ],
+    "groups": [],
+    "minimum_required": "v4.0.0"
+}

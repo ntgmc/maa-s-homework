@@ -1,0 +1,53 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "sub_05-1-1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "娜仁图亚",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第五章 靶向药物 - S5-1 - 盘踞-1",
+        "details": "——————————\n作业更新日期: 2025-05-07T03:55:06Z\n统计更新日期: 2025-10-16\n相对评分：76.09%  相对热度：72.16%\n来源：魔芋葱油长豆角  ID：52646\n——————————\n原作者：低配挂机研讨会\n\n视频地址：https://www.bilibili.com/video/BV1a7V5z5Eci?spm_id_from=333.788.videopod.sections&vd_source=a022f0b9420b7e9fe33605d41aed4c75&p=110\n\n阿米娅是吉祥物"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

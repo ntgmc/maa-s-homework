@@ -1,0 +1,143 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_fly_5",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "群伤",
+            "direction": "Right",
+            "location": [
+                5,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "安德切尔",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "梓兰",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "群奶",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "群奶",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 58
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "空中威胁 - CA-5 - 战略要道净空",
+        "details": "——————————\n作业更新日期: 2025-10-10T12:36:09Z\n统计更新日期: 2025-10-16\n相对评分：80.00%  相对热度：61.11%\n来源：一般路过作业人  ID：50502\n——————————\n角色练度尽量精一满级\n原作者为苏咕咕酱\n原视频链接为【【苏咕咕】明日方舟 CA-5 刷技巧概要 攻略 简单 无脑 抄作业-哔哩哔哩】 https://b23.tv/1fRbE67"
+    },
+    "groups": [
+        {
+            "name": "群奶",
+            "opers": [
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "调香师",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "遥",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "群伤",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "空爆",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "梓兰",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}
