@@ -1,0 +1,88 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act22side_05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "真言",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "重装-守护者",
+            "direction": "Right",
+            "location": [
+                3,
+                4
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "照我以火 - FC-5 - 祝福的歌谣 真言模组任务12",
+        "details": "——————————\n作业更新日期: 2025-10-10T08:58:15Z\n统计更新日期: 2025-10-16\n相对评分：100.0%  相对热度：100.0%\n来源：林彦熙lyx  ID：70877\n——————————\n原up主：水墨暮凉   https://www.bilibili.com/video/BV1RTxCzoEFt/\n作业作者：林彦熙\n带个德狗被动防漏怪，没有的随便放了个芬上去，不上场\n没有携带数要求，可以刷信赖\n两个任务可以同时完成\n塞爹70级专三测试过了，真言借不到低的（笑）\n记得反馈，如果可以的话给原视频也点个赞，感谢"
+    },
+    "groups": [
+        {
+            "name": "重装-守护者",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "先锋-尖兵",
+            "opers": [
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "芬",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "真言",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        }
+    ]
+}

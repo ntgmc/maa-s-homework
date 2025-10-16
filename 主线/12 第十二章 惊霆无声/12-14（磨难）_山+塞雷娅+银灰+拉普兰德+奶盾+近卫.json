@@ -1,0 +1,130 @@
+{
+    "stage_name": "tough_12-12",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "自用调整 主线十二章 惊霆无声 12-14（磨难） 萧然攻略",
+        "details": "——————————\n作业更新日期: 2025-06-28T08:48:17Z\n统计更新日期: 2025-10-16\n相对评分：96.88%  相对热度：68.54%\n来源：椰果冰粉  ID：61474\n——————————\n这是磨难难度 普通难度地图不一样 别用磨难的打普通\n攻略作者：萧然Q BV1oL411m7bL 记得去b站给萧然宝贝点赞三连\njson作者：鱼丸 有问题请联系qq2877734958\nmaa问题就别联系了 臭写作业的真不懂maa（）\n平均练度 2603\n已测试 测试人鱼丸 maa还没更新地图 更新地图才能用"
+    },
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "近卫",
+            "opers": [
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "requirements": {
+                        "level": 90,
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "山",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "拉普兰德",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶盾",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "近卫",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "银灰",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc": "给个好评吧 宝贝",
+            "doc_color": "#d63384"
+        }
+    ],
+    "version": 3
+}

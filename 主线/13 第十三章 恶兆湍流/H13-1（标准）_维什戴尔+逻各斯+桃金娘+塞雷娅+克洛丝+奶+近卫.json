@@ -1,0 +1,204 @@
+{
+    "stage_name": "hard_13-01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第十三章 恶兆湍流 - H13-1（标准） - 湍流行动-1",
+        "details": "——————————\n作业更新日期: 2025-08-21T05:17:58Z\n统计更新日期: 2025-10-16\n相对评分：91.40%  相对热度：61.19%\n来源：逸风2718  ID：65832\n——————————\n自用 思路：https://www.bilibili.com/video/BV1Rb421b75B"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "克洛丝"
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        },
+        {
+            "name": "近卫",
+            "opers": [
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "余",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "kills": 3
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                9,
+                5
+            ],
+            "costs": 23
+        },
+        {
+            "name": "近卫",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "克洛丝",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy",
+            "kills": 55
+        },
+        {
+            "type": "Skill",
+            "location": [
+                2,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "location": [
+                4,
+                5
+            ],
+            "pre_delay": 30000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

@@ -1,0 +1,86 @@
+{
+    "stage_name": "act18side_05",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "山模组任务 - LE-5 - “夜深人静”",
+        "details": "——————————\n作业更新日期: 2025-08-05T01:52:40Z\n统计更新日期: 2025-10-16\n相对评分：95.78999999999999%  相对热度：92.78%\n来源：snowflake  ID：64200\n——————————\n修改\n山「“夜深人静”」模组任务\n3星通关插曲LE-5，必须编入非助战山并上场，且使用山歼灭至少10名敌人\n一句话评测：幽默模组\n原视频：https://www.bilibili.com/video/BV1RcTxzAEhq/"
+    },
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "煌",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    },
+                    "skill_usage": 0
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "山",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "direction": "Right",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "name": "奶盾",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        }
+    ],
+    "version": 3
+}

@@ -1,0 +1,39 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_humus_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "costs": 25,
+            "name": "休谟斯",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 20
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 休谟斯 - “铮铮铁骨”",
+        "details": "——————————\n作业更新日期: 2023-08-05T04:48:39Z\n统计更新日期: 2025-10-16\n相对评分：96.88%  相对热度：93.87%\n来源：兔角とかく  ID：25176\n——————————\n精2   70级  7级技能自测  可过\nPS：手里实在没有低配的测试账号了"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "休谟斯",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

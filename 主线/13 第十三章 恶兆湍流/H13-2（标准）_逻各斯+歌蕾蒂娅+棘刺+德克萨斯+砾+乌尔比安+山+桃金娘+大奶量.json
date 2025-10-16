@@ -1,0 +1,262 @@
+{
+    "stage_name": "hard_13-02",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "（已测试）第十三章 恶兆湍流 - H13-2（标准） - 湍流行动-2",
+        "details": "——————————\n作业更新日期: 2025-07-30T04:55:01Z\n统计更新日期: 2025-10-16\n相对评分：94.62%  相对热度：64.88%\n来源：whoncxis  ID：63727\n——————————\nhttps://www.bilibili.com/video/BV1rJ32zLEii\n作者：卫沈抹\n自用，不保证其他人能正常抄\n作业无史尔特尔，无益达，无地刺，纯正三无产品\n\n如果带流明，则需要注意下面情况，不然歌蒂卡费会漏怪：\n1、山和逻两个的费用潜总和至少要有两潜（就是其中一个满潜或者两个都至少一潜）\n2、德狗精二\n3、流明和歌蒂满潜（这个没满的去做对应插曲别传的任务）\n如果德狗没精二，那山和逻的需要再多一个费用潜\n纯艾无潜能比流明满潜低4费，不存在这个问题\n再不行的话自己copy作业加个伊内丝风笛啥的缓解一下开局费用焦虑\n\n如果因为砾挂了导致maa卡住，可以copy作业调整一下砾撤退的时机"
+    },
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 4
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "requirements": {
+                "level": 50,
+                "skill_level": 7,
+                "module": -1
+            }
+        },
+        {
+            "name": "砾",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 7,
+                "module": -1
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 2,
+                "level": 40,
+                "skill_level": 10,
+                "module": -1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "大奶量",
+            "opers": [
+                {
+                    "name": "流明",
+                    "skill": 3,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": -1
+                    }
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": -1
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "山",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "大奶量",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "棘刺",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                10,
+                4
+            ],
+            "kills": 15
+        },
+        {
+            "name": "砾",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘"
+        },
+        {
+            "type": "Retreat",
+            "name": "砾",
+            "cost_changes": 16
+        },
+        {
+            "name": "砾",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "cooling": 1
+        },
+        {
+            "type": "Retreat",
+            "name": "砾",
+            "cost_changes": 12
+        },
+        {
+            "type": "Skill",
+            "location": [
+                8,
+                1
+            ],
+            "kills": 34
+        },
+        {
+            "name": "砾",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 35
+        },
+        {
+            "type": "Retreat",
+            "name": "砾",
+            "kills": 36
+        },
+        {
+            "name": "砾",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "cooling": 0
+        }
+    ],
+    "version": 3
+}
