@@ -1,0 +1,77 @@
+{
+    "stage_name": "act33side_07",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "巴别塔 - BB-7 - 阴影显现（八幡海铃 模组任务）",
+        "details": "——————————\n作业更新日期: 2025-10-11T17:15:49Z\n统计更新日期: 2025-10-20\n相对评分：61.25000000000001%  相对热度：44.15%\n来源：Sukura  ID：71184\n——————————\n巴别塔 - BB-7 - 阴影显现（八幡海铃 模组任务）"
+    },
+    "opers": [
+        {
+            "name": "丰川祥子",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "八幡海铃",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "丰川祥子",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "八幡海铃",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "丰川祥子",
+            "location": [
+                2,
+                5
+            ],
+            "kills": 6
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

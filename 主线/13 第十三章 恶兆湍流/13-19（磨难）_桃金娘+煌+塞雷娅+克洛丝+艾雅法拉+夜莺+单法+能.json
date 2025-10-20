@@ -1,0 +1,200 @@
+{
+    "stage_name": "tough_13-17",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "主线十三章 恶兆湍流 13-19（磨难） 萧然攻略",
+        "details": "——————————\n作业更新日期: 2025-08-13T10:05:53Z\n统计更新日期: 2025-10-20\n相对评分：100.00%  相对热度：67.54%\n来源：when_aki  ID：65098\n——————————\n这是磨难难度 普通难度地图不一样 别用磨难的打普通\n攻略作者：萧然Q BV1Hw411A7iG 记得去b站给萧然Q点赞三连\njson作者：鱼丸 评论区不解决maa问题\n已测试 就是打的好像有点久\n平均练度2603 需要干员替换自己动动手"
+    },
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "单法",
+            "opers": [
+                {
+                    "name": "刻俄柏",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "能",
+            "opers": [
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "新约能天使",
+                    "skill": 3,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy",
+            "costs": 40
+        },
+        {
+            "name": "夜莺",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "单法",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "炸弹荷载点",
+            "location": [
+                1,
+                5
+            ],
+            "costs": 20
+        },
+        {
+            "type": "Skill",
+            "name": "炸弹荷载点",
+            "location": [
+                10,
+                2
+            ],
+            "costs": 20
+        },
+        {
+            "name": "幻影",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "能",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "幻影",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "克洛丝",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "桃金娘",
+            "skill_usage": 0,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc": "有帮助的话 给个好评吧~",
+            "doc_color": "#d63384"
+        }
+    ],
+    "version": 3
+}
