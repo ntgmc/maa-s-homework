@@ -1,0 +1,77 @@
+{
+    "stage_name": "act23side_06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "登临意 - WB-6 - 瑟瑟秋华(娜仁图亚 X模组任务)",
+        "details": "——————————\n作业更新日期: 2025-10-11T17:03:34Z\n统计更新日期: 2025-10-20\n相对评分：100.0%  相对热度：100.0%\n来源：Sukura  ID：71182\n——————————\n登临意 - WB-6 - 瑟瑟秋华(娜仁图亚 X模组任务)"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "娜仁图亚",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7,
+                "module": -1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "煌",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "娜仁图亚",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "娜仁图亚",
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

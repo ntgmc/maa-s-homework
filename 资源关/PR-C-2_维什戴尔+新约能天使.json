@@ -1,0 +1,56 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "pro_c_2",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "direction": "Up",
+            "name": "新约能天使",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "direction": "Right",
+            "location": [
+                1,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 30
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "PR-C-2（先锋辅助精二芯片）2人速刷",
+        "details": "——————————\n作业更新日期: 2025-08-13T07:38:43Z\n统计更新日期: 2025-10-20\n相对评分：80.85%  相对热度：67.00%\n来源：暝夜祈霖  ID：65021\n——————————\n参考思路：https://www.bilibili.com/video/BV122EgziEan/（作者：水墨暮凉）\n打法与原视频基本一致，经测试EW技能可以好了就开。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "skill_usage": 1,
+            "name": "维什戴尔",
+            "skill": 3
+        },
+        {
+            "name": "新约能天使",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}
