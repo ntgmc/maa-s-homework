@@ -1,0 +1,76 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "H5-1 四人超稳定挂机 自用",
+        "details": "——————————\n作业更新日期: 2024-08-29T10:14:45Z\n统计更新日期: 2025-10-31\n相对评分：96.70%  相对热度：82.30%\n来源：CaiNiaoExpress  ID：40867\n——————————\n原视频：https://www.bilibili.com/video/BV1RN4y1N7am/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+    },
+    "stage_name": "hard_05-01",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon",
+            "name": ""
+        }
+    ]
+}
