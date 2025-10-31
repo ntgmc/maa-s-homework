@@ -1,0 +1,132 @@
+{
+    "stage_name": "main_12-10",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "自用12-12伊内丝Y模组任务二",
+        "details": "——————————\n作业更新日期: 2025-09-30T11:33:23Z\n统计更新日期: 2025-10-31\n相对评分：91.75%  相对热度：65.83%\n来源：DongHeDouShi  ID：70004\n——————————\n【【明日方舟】伊内丝模组任务，3人3步，摆完随意开技能，无轴。】 https://www.bilibili.com/video/BV1JhRUYEEBJ/?share_source=copy_web&vd_source=fbabb53e5e9ac71bfc3507e2282912e6"
+    },
+    "opers": [
+        {
+            "name": "伊内丝",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "Mon3tr",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "伊内丝",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "黑角",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "棘刺",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "黑角",
+            "location": [
+                7,
+                3
+            ],
+            "costs": 23
+        },
+        {
+            "name": "奶盾",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

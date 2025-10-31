@@ -1,0 +1,40 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_04-05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "娜仁图亚",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第四章 急性衰竭 - 4-5 - 官僚主义",
+        "details": "——————————\n作业更新日期: 2025-05-06T01:27:27Z\n统计更新日期: 2025-10-31\n相对评分：94.90%  相对热度：83.38%\n来源：魔芋葱油长豆角  ID：52535\n——————————\n原作者：低配挂机研讨会\n\n视频地址：https://www.bilibili.com/video/BV1a7V5z5Eci?spm_id_from=333.788.videopod.sections&vd_source=a022f0b9420b7e9fe33605d41aed4c75&p=95\n\n阿米娅是吉祥物"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 1
+        }
+    ],
+    "difficulty": 3
+}

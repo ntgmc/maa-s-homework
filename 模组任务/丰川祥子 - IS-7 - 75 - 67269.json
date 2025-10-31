@@ -1,0 +1,47 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act21side_07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                2,
+                2
+            ],
+            "name": "斩业星熊",
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "丰川祥子",
+            "direction": "Right",
+            "location": [
+                1,
+                4
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "叙拉古人 - IS-7 - 何以忘却 丰川祥子Y模组无言的约定任务",
+        "details": "——————————\n作业更新日期: 2025-09-04T14:08:48Z\n统计更新日期: 2025-10-31\n相对评分：75.27000000000001%  相对热度：57.18%\n来源：781963555@qq.com  ID：67269\n——————————\n【【模组任务】丰川祥子Y  无言的约定 二人四步】 https://www.bilibili.com/video/BV1HmamzBEiF/?share_source=copy_web&vd_source=903d1b1a534dc8c7754affe0ebbf33f6"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "斩业星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "丰川祥子",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

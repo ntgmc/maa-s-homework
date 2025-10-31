@@ -1,0 +1,94 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "H5-3 四人稳定挂机-替换自用",
+        "details": "——————————\n作业更新日期: 2025-05-07T07:19:33Z\n统计更新日期: 2025-10-31\n相对评分：95.83%  相对热度：81.71%\n来源：苍蓝残响  ID：52682\n——————————\n黑钢国际攻略组\n原视频：https://www.bilibili.com/video/BV1dS4y1b7rC\n制作者：一只摆烂的42\n"
+    },
+    "stage_name": "hard_05-03",
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "浊心斯卡蒂",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left"
+        }
+    ],
+    "groups": [
+        {
+            "name": "浊心斯卡蒂",
+            "opers": [
+                {
+                    "name": "浊心斯卡蒂",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "魔王",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "澄闪",
+            "opers": [
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "荒芜拉普兰德",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ]
+}

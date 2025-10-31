@@ -1,0 +1,94 @@
+{
+    "stage_name": "tough_12-09",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "自用调整 第十二章 惊霆无声 - 12-10（磨难） - 广播热线正繁忙 ",
+        "details": "——————————\n作业更新日期: 2025-06-28T08:01:25Z\n统计更新日期: 2025-10-31\n相对评分：100.00%  相对热度：71.43%\n来源：椰果冰粉  ID：61460\n——————————\n测试已过\n能天使2603 3y\n塞雷娅2803 3y\n山2603 3x\n棘刺2603 3x\n塞雷娅x模应该可行\n仅仅测试了能天使，有棘刺小范围兜底，其他狙击应该可过"
+    },
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 2
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "山",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "山",
+            "location": [
+                2,
+                5
+            ]
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "棘刺",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

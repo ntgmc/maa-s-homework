@@ -1,0 +1,73 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_09-11",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "娜仁图亚",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "芙蓉",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第九章 风暴瞭望 - 9-13（标准） - 战地救援",
+        "details": "——————————\n作业更新日期: 2025-05-10T19:34:02Z\n统计更新日期: 2025-10-31\n相对评分：84.69%  相对热度：65.88%\n来源：魔芋葱油长豆角  ID：53376\n——————————\n原作者：低配挂机研讨会\n\n视频地址：https://www.bilibili.com/video/BV1rFVjzeEZm?spm_id_from=333.788.videopod.sections&vd_source=a022f0b9420b7e9fe33605d41aed4c75&p=15\n\n阿米娅是吉祥物"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "阿米娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}
