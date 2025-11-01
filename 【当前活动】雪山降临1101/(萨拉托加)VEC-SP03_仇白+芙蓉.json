@@ -1,0 +1,56 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act1break_sp03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "仇白",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "仇白",
+            "pre_delay": 8500
+        },
+        {
+            "type": "Skill",
+            "name": "芙蓉"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "VEC-SP03 - 火力掩护",
+        "details": "——————————\n作业更新日期: 2025-05-15T19:05:47Z\n统计更新日期: 2025-11-01\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：54516\n——————————\njson作者：萨拉托加\n作业交流群群号1009052305，可蹲作业，有问题进群找我，作业站消息没提醒看不到"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "仇白",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
