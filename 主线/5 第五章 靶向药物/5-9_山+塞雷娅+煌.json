@@ -2,7 +2,7 @@
     "minimum_required": "v4.0.0",
     "doc": {
         "title": "5-9 突袭",
-        "details": "作业更新日期: 2023-03-25T08:41:02Z\n统计更新日期: 2024-11-30\n好评率：98.02%  浏览量：1773\n来源：一只摆烂的42  ID：21818\nUP：刻俄柏\n原视频：https://www.bilibili.com/video/BV1JY4y1H7e8/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
+        "details": "——————————\n作业更新日期: 2025-03-24T13:58:34Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：89.85%\n来源：阿能一时的神  ID：49072\n——————————\nUP：刻俄柏\n原视频：https://www.bilibili.com/video/BV1JY4y1H7e8/\n制作者：一只摆烂的42\n有问题联系QQ2586582719"
     },
     "stage_name": "main_05-09",
     "opers": [
@@ -24,35 +24,36 @@
     ],
     "actions": [
         {
-            "type": "二倍速",
+            "type": "SpeedUp",
             "name": ""
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "煌",
             "location": [
                 6,
                 1
             ],
-            "direction": "下"
+            "direction": "Down"
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "山",
             "location": [
                 9,
                 6
             ],
-            "direction": "左"
+            "direction": "Left"
         },
         {
-            "type": "部署",
+            "type": "Deploy",
             "name": "塞雷娅",
             "location": [
                 7,
                 3
             ],
-            "direction": "右"
+            "direction": "Right"
         }
-    ]
+    ],
+    "difficulty": 3
 }

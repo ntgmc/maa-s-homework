@@ -1,0 +1,38 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_02-04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "娜仁图亚",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "娜仁图亚",
+            "location": [
+                2,
+                4
+            ]
+        }
+    ],
+    "doc": {
+        "title": "第二章 异卵同生 - 2-4 - 企鹅物流",
+        "details": "——————————\n作业更新日期: 2025-08-06T15:03:25Z\n统计更新日期: 2025-11-03\n相对评分：77.08%  相对热度：77.53%\n来源：一般路过作业人  ID：50603\n——————————\n原视频链接【【明日方舟】无需练度就能拿到六星干员魔王和医疗阿米娅？-哔哩哔哩】 https://b23.tv/ggKdc7C"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "stage_name": "mem_blkkgt_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "近卫 - 锏 - 路在脚下【锏悖论模拟】",
+        "details": "——————————\n作业更新日期: 2025-11-01T08:08:19Z\n统计更新日期: 2025-11-03\n相对评分：100.0%  相对热度：100.0%\n来源：小卡拉帕鲁灰  ID：73343\n——————————\n精二60级专三"
+    },
+    "opers": [
+        {
+            "name": "锏",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "锏",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "锏",
+            "kills": 5,
+            "pre_delay": 600
+        },
+        {
+            "type": "Skill",
+            "name": "锏",
+            "kills": 16,
+            "pre_delay": 1500
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

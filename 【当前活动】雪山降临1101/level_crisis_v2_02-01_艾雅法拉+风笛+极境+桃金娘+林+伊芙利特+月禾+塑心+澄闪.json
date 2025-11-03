@@ -1,0 +1,318 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "level_crisis_v2_02-01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Down",
+            "costs": 0
+        },
+        {
+            "type": "Skill",
+            "name": "桃金娘",
+            "location": [
+                10,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "极境",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Down",
+            "cost_changes": 0
+        },
+        {
+            "type": "Skill",
+            "name": "极境",
+            "location": [
+                9,
+                4
+            ],
+            "cost_changes": 2
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "桃金娘",
+            "location": [
+                10,
+                4
+            ],
+            "kills": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right",
+            "cost_changes": 5
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "location": [
+                10,
+                4
+            ],
+            "costs": 0,
+            "cost_changes": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "风笛",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 5
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "极境",
+            "location": [
+                9,
+                4
+            ],
+            "costs": 0,
+            "cost_changes": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "极境",
+            "location": [
+                9,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "林",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "澄闪",
+            "location": [
+                1,
+                1
+            ],
+            "costs": 0,
+            "cost_changes": 4
+        },
+        {
+            "type": "Skill",
+            "name": "林",
+            "location": [
+                3,
+                4
+            ],
+            "kills": 20
+        },
+        {
+            "type": "Skill",
+            "name": "澄闪",
+            "location": [
+                1,
+                1
+            ],
+            "costs": 0,
+            "cost_changes": 13
+        },
+        {
+            "type": "Deploy",
+            "name": "月禾",
+            "location": [
+                6,
+                2
+            ],
+            "cost_changes": 20,
+            "pre_delay": 0,
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "月禾",
+            "location": [
+                6,
+                2
+            ],
+            "cost_changes": 16,
+            "pre_delay": 0
+        },
+        {
+            "type": "Skill",
+            "name": "澄闪",
+            "location": [
+                1,
+                1
+            ],
+            "costs": 0,
+            "cost_changes": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "月禾",
+            "location": [
+                6,
+                2
+            ],
+            "kills": 33,
+            "cost_changes": 0,
+            "pre_delay": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "月禾",
+            "location": [
+                4,
+                4
+            ],
+            "cost_changes": 0,
+            "pre_delay": 0,
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "月禾",
+            "location": [
+                4,
+                4
+            ],
+            "cost_changes": 16,
+            "pre_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "澄闪",
+            "location": [
+                1,
+                1
+            ],
+            "costs": 0,
+            "cost_changes": 0
+        }
+    ],
+    "doc": {
+        "title": "危机合约潮曦作战 - 不朽厅堂670分（旗帜、模组块任务）",
+        "details": "——————————\n作业更新日期: 2024-03-29T17:29:57Z\n统计更新日期: 2025-11-03\n相对评分：86.32%  相对热度：79.95%\n来源：柿酱啊不不不  ID：35520\n——————————\n萧然Q 高配好抄 作业地址：https://www.bilibili.com/video/BV1pq421A7UU?p=1&vd_source=8c1eb56436ee841336e95779ae21c5fc"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "极境",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "林",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "月禾",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

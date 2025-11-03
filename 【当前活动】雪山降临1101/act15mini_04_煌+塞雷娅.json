@@ -1,0 +1,59 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act15mini_04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "骑士之徽",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "DarkRed",
+            "doc": "给个好评吧~"
+        }
+    ],
+    "doc": {
+        "title": "眠于树影之中 FD-4突袭 萧然Q攻略 摆完挂机",
+        "details": "——————————\n作业更新日期: 2023-07-08T12:39:30Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：鱼丸不是鱼van  ID：24435\n——————————\n攻略作者：萧然Q https://www.bilibili.com/video/BV1xs4y167d6 记得去b站给萧然宝贝点赞三连\njson作者：鱼丸 有问题请点踩然后在评论区反馈 看心情解决\n评论区不解决maa问题 评论区不解决maa问题 谢谢理解\n需要上下位替代可以自己下载json进行修改\n连接模式请使用minitouch或者maatouch 不兼容ADB Input模式:-)\n平均练度 2603\n已测试"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

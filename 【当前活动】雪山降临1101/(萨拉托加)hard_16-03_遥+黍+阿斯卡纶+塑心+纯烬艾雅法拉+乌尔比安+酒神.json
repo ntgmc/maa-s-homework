@@ -1,0 +1,152 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_16-03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "direction": "None",
+            "location": [
+                1,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "direction": "Left",
+            "location": [
+                10,
+                2
+            ],
+            "costs": 21
+        },
+        {
+            "type": "Skill",
+            "location": [
+                2,
+                6
+            ]
+        },
+        {
+            "type": "Skill",
+            "location": [
+                10,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "direction": "Right",
+            "location": [
+                2,
+                4
+            ],
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "酒神",
+            "direction": "Down",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "遥",
+            "direction": "Up",
+            "location": [
+                3,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "direction": "None",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "direction": "Right",
+            "location": [
+                4,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "direction": "Down",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "阿斯卡纶",
+            "direction": "Up",
+            "location": [
+                4,
+                6
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "H16-3",
+        "details": "——————————\n作业更新日期: 2025-10-16T14:30:19Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：71701\n——————————\n原作者：萧然Q json作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【反常光谱】H16-1至H16-4 摆完挂机 简单好抄 明日方舟主线15章】 https://www.bilibili.com/video/BV1FNWvzgEHf/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "遥",
+            "skill_usage": 2,
+            "skill_times": 2,
+            "skill": 2
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill_usage": 0,
+            "skill": 1
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "酒神",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "stage_name": "mem_lava2_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "术师 - 炎狱炎熔 - 训练成果【炎狱炎熔悖论模拟】",
+        "details": "——————————\n作业更新日期: 2025-11-02T05:47:08Z\n统计更新日期: 2025-11-03\n相对评分：100.0%  相对热度：100.0%\n来源：小卡拉帕鲁灰  ID：73341\n——————————\n无需专精\n精er30级"
+    },
+    "opers": [
+        {
+            "name": "炎狱炎熔",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 30,
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "炎狱炎熔",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "白面鸮",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "末药",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "炎狱炎熔",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 7
+        },
+        {
+            "name": "泡泡",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "炎狱炎熔",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 38
+        },
+        {
+            "type": "Skill",
+            "name": "泡泡",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 57
+        },
+        {
+            "type": "Skill",
+            "name": "炎狱炎熔",
+            "location": [
+                2,
+                3
+            ],
+            "kills": 65
+        },
+        {
+            "type": "Skill",
+            "name": "泡泡",
+            "location": [
+                3,
+                3
+            ],
+            "kills": 79
+        },
+        {
+            "type": "Skill",
+            "location": [
+                2,
+                2
+            ]
+        },
+        {
+            "name": "炎狱炎熔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

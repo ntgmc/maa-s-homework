@@ -1,0 +1,1361 @@
+{
+    "type": "SSS",
+    "stage_name": "边地移动城镇",
+    "minimum_required": "v4.28.2",
+    "doc": {
+        "title": "保全派驻-边地移动城镇-逻各斯-重岳-浊蒂-纯艾-黍",
+        "title_color": "dark",
+        "details": "——————————\n作业更新日期: 2024-05-11T15:13:25Z\n统计更新日期: 2025-11-03\n相对评分：95.79%  相对热度：76.16%\n来源：萨拉托加  ID：37527\n——————————\n目前只能手动编队，所有工具人请尽量选择费用低的干员，练度最好精二，最低精一满级\n请在确认导能原件选择【可充能督战音响】、战术装备除了术士选B，其他全选A、手动编队并阵容确认后，再点击开始\n作业作者：萨拉托加\n作业视频：\nJSON作者：萨拉托加\n不包括核心选择的额外干员：\n先锋6（尽量选尖兵，不够的话最好不要选投锋，可能会漏怪）\n术士6（尽量选20费左右的术士，如果选群法要带减费模组，四岁带夕）\n医疗2（选单奶或流明）\n辅助1（随便选，四岁带令）\n有问题反馈进群216314927，评论区反馈不一定能及时回复\n部分核心可根据自己需求修改作业文件替换，但不可发上作业站，用此作业默认同意",
+        "details_color": "dark"
+    },
+    "buff": "可充能督战音响",
+    "equipment": [
+        "A",
+        "A",
+        "B",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "strategy": "优选策略",
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "浊心斯卡蒂",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "重岳",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 5
+        }
+    ],
+    "tool_men": {
+        "vanguard": 6,
+        "guard": 0,
+        "defender": 0,
+        "sniper": 0,
+        "caster": 6,
+        "medic": 2,
+        "supporter": 1,
+        "specialist": 0
+    },
+    "drops": [
+        "无需增调干员",
+        "辅助",
+        "术师",
+        "战备激活阀",
+        "“经济调控”磁带"
+    ],
+    "blacklist": [
+        "罗比菈塔",
+        "掠风",
+        "白铁",
+        "桃金娘",
+        "极境",
+        "琴柳",
+        "伺夜",
+        "豆苗",
+        "夜半",
+        "缪尔赛思",
+        "森蚺",
+        "极光",
+        "梅尔",
+        "玛恩纳",
+        "龙舌兰",
+        "耀骑士临光",
+        "幽灵鲨",
+        "极境",
+        "焰影苇草",
+        "凯尔希",
+        "闪灵",
+        "夜莺",
+        "白面鸮",
+        "华法琳",
+        "赫默",
+        "蜜莓",
+        "刺玫",
+        "桑葚",
+        "明椒",
+        "图耶",
+        "微风",
+        "锡兰",
+        "絮雨",
+        "亚叶",
+        "濯尘芙蓉",
+        "调香师",
+        "褐果",
+        "嘉维尔",
+        "末药",
+        "清流",
+        "苏苏洛",
+        "安赛尔",
+        "芙蓉",
+        "迷迭香",
+        "早露",
+        "菲亚梅塔",
+        "承曦格雷伊",
+        "莫斯提马",
+        "异客",
+        "伊芙利特",
+        "寒檀",
+        "莱恩哈特",
+        "惊蛰",
+        "蚀清",
+        "天火",
+        "星源",
+        "炎狱炎熔",
+        "布丁",
+        "格雷伊",
+        "远山",
+        "炎熔",
+        "假日威龙陈",
+        "埃拉托",
+        "奥斯塔",
+        "截云",
+        "熔泉",
+        "慑砂",
+        "送葬人",
+        "陨星",
+        "白雪",
+        "铅踝",
+        "松果",
+        "泰拉大陆调查团",
+        "正义骑士号",
+        "黑",
+        "洋灰",
+        "火哨",
+        "斥罪",
+        "号角",
+        "火神",
+        "灰毫",
+        "泥岩",
+        "车尔尼",
+        "暮落",
+        "石棉",
+        "坚雷",
+        "W",
+        "U-Official",
+        "12F",
+        "Lancet-2"
+    ],
+    "stages": [
+        {
+            "stage_name": "痛心的快板",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        3,
+                        5
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        2,
+                        5
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "黍",
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        3,
+                        5
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "重岳",
+                    "tool_men": {
+                        "vanguard": 3
+                    },
+                    "location": [
+                        2,
+                        5
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "逻各斯",
+                    "tool_men": {
+                        "caster": 5
+                    },
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 99
+                    },
+                    "location": [
+                        2,
+                        4
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "caster": 99,
+                        "medic": 99
+                    },
+                    "location": [
+                        2,
+                        4
+                    ],
+                    "direction": "Right"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "可充能督战音响",
+                    "location": [
+                        3,
+                        3
+                    ],
+                    "direction": "Down",
+                    "costs": 60
+                },
+                {
+                    "type": "Deploy",
+                    "name": "可充能督战音响",
+                    "location": [
+                        1,
+                        5
+                    ],
+                    "direction": "Right",
+                    "costs": 70
+                }
+            ],
+            "retry_times": 9
+        },
+        {
+            "stage_name": "心伤的奏鸣曲",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        6,
+                        1
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        7,
+                        1
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "黍",
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        6,
+                        1
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "重岳",
+                    "tool_men": {
+                        "vanguard": 3
+                    },
+                    "location": [
+                        7,
+                        1
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "逻各斯",
+                    "tool_men": {
+                        "caster": 3
+                    },
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "core": "浊心斯卡蒂",
+                    "tool_men": {
+                        "caster": 1
+                    },
+                    "location": [
+                        6,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 99
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "caster": 99,
+                        "medic": 99
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Up"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "可充能督战音响",
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "Up",
+                    "costs": 60
+                },
+                {
+                    "type": "Deploy",
+                    "name": "可充能督战音响",
+                    "location": [
+                        5,
+                        2
+                    ],
+                    "direction": "Right",
+                    "costs": 70
+                }
+            ],
+            "retry_times": 9
+        },
+        {
+            "stage_name": "伤悲的慢板",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        4,
+                        3
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "core": "黍",
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        5,
+                        2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        5,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "caster": 1
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "重岳",
+                    "tool_men": {
+                        "vanguard": 2
+                    },
+                    "location": [
+                        4,
+                        3
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "core": "浊心斯卡蒂",
+                    "tool_men": {
+                        "caster": 1
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "战备激活阀",
+                    "tool_men": {
+                        "supporter": 0
+                    },
+                    "location": [
+                        4,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 99
+                    },
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 99
+                    },
+                    "location": [
+                        5,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "caster": 99
+                    },
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "medic": 99
+                    },
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "Up"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "可充能督战音响",
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "Up",
+                    "costs": 60
+                },
+                {
+                    "type": "Deploy",
+                    "name": "可充能督战音响",
+                    "location": [
+                        4,
+                        4
+                    ],
+                    "direction": "Up",
+                    "costs": 70
+                }
+            ],
+            "retry_times": 9
+        },
+        {
+            "stage_name": "悲愁的小步舞曲",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        1,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        1,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        1,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "caster": 1
+                    },
+                    "location": [
+                        2,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "黍",
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        1,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "重岳",
+                    "tool_men": {
+                        "vanguard": 2
+                    },
+                    "location": [
+                        1,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "逻各斯",
+                    "tool_men": {
+                        "caster": 2
+                    },
+                    "location": [
+                        2,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "浊心斯卡蒂",
+                    "tool_men": {
+                        "caster": 2
+                    },
+                    "location": [
+                        2,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "core": "战备激活阀",
+                    "tool_men": {
+                        "supporter": 0
+                    },
+                    "location": [
+                        2,
+                        1
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "纯烬艾雅法拉",
+                    "tool_men": {
+                        "medic": 2,
+                        "caster": 1
+                    },
+                    "location": [
+                        4,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 99
+                    },
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "caster": 99
+                    },
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Left"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "可充能督战音响",
+                    "location": [
+                        2,
+                        3
+                    ],
+                    "direction": "Up",
+                    "costs": 60
+                },
+                {
+                    "type": "Deploy",
+                    "name": "可充能督战音响",
+                    "location": [
+                        2,
+                        3
+                    ],
+                    "direction": "Down",
+                    "costs": 70
+                }
+            ],
+            "retry_times": 9
+        },
+        {
+            "stage_name": "愁苦的行板",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        4,
+                        4
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "caster": 1
+                    },
+                    "location": [
+                        4,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "黍",
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        4,
+                        4
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "重岳",
+                    "tool_men": {
+                        "vanguard": 2
+                    },
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "逻各斯",
+                    "tool_men": {
+                        "caster": 2
+                    },
+                    "location": [
+                        4,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "浊心斯卡蒂",
+                    "tool_men": {
+                        "caster": 2
+                    },
+                    "location": [
+                        4,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "战备激活阀",
+                    "tool_men": {
+                        "supporter": 0
+                    },
+                    "location": [
+                        4,
+                        1
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "纯烬艾雅法拉",
+                    "tool_men": {
+                        "medic": 2,
+                        "caster": 1
+                    },
+                    "location": [
+                        3,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 99
+                    },
+                    "location": [
+                        5,
+                        5
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "caster": 99
+                    },
+                    "location": [
+                        5,
+                        5
+                    ],
+                    "direction": "Left"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "可充能督战音响",
+                    "location": [
+                        4,
+                        1
+                    ],
+                    "direction": "Down",
+                    "costs": 60,
+                    "kills": 13
+                },
+                {
+                    "type": "Deploy",
+                    "name": "可充能督战音响",
+                    "location": [
+                        5,
+                        3
+                    ],
+                    "direction": "Left",
+                    "costs": 70
+                }
+            ],
+            "retry_times": 9
+        },
+        {
+            "stage_name": "苦痛的回旋曲",
+            "strategies": [
+                {
+                    "core": "黍",
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        8,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "medic": 1
+                    },
+                    "location": [
+                        10,
+                        2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        9,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        10,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "重岳",
+                    "tool_men": {
+                        "vanguard": 3
+                    },
+                    "location": [
+                        9,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "纯烬艾雅法拉",
+                    "tool_men": {
+                        "medic": 1
+                    },
+                    "location": [
+                        10,
+                        2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "逻各斯",
+                    "tool_men": {
+                        "caster": 3
+                    },
+                    "location": [
+                        7,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "浊心斯卡蒂",
+                    "tool_men": {
+                        "caster": 2
+                    },
+                    "location": [
+                        9,
+                        2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "战备激活阀",
+                    "tool_men": {
+                        "supporter": 0
+                    },
+                    "location": [
+                        7,
+                        1
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 99
+                    },
+                    "location": [
+                        8,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 99
+                    },
+                    "location": [
+                        10,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "可充能督战音响",
+                    "tool_men": {
+                        "supporter": 0
+                    },
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "caster": 99
+                    },
+                    "location": [
+                        8,
+                        2
+                    ],
+                    "direction": "Down"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "None",
+                    "costs": 3
+                },
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "None",
+                    "costs": 3
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "None",
+                    "costs": 3
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        5
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "None",
+                    "costs": 3
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "None",
+                    "costs": 3
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "None",
+                    "costs": 3
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        5
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "None",
+                    "costs": 3
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "None",
+                    "costs": 3
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "None",
+                    "costs": 3
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        5
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "None",
+                    "costs": 3
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        5
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        5
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        5
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                },
+                {
+                    "type": "Deploy",
+                    "name": "啸叫音响",
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "None",
+                    "costs": 4
+                }
+            ],
+            "retry_times": 9
+        }
+    ],
+    "groups": [],
+    "actions": []
+}

@@ -1,0 +1,195 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_02",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "回费工具人",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "单奶2",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "娜仁图亚",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "娜仁图亚",
+            "location": [
+                5,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "挡三工具人",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "钩子",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "单奶1",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿米娅",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        },
+        {
+            "type": "Deploy",
+            "name": "挡三工具人",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "炎国 - 龙门外环 - 龙门外环",
+        "details": "——————————\n作业更新日期: 2025-10-02T10:30:24Z\n统计更新日期: 2025-11-03\n相对评分：81.71%  相对热度：88.38%\n来源：一般路过作业人  ID：63882\n——————————\n原作者：低配挂机研讨会\n原链接：【【明日方舟】0练挂机 龙门外环-哔哩哔哩】 https://b23.tv/M57zCDV\n测试使用的娜仁图亚的练度是精二90级，阿米娅精二1级，其余干员1级，代理起来比较稳定，只需要注意一下米格鲁\n可以多带几个地面阻挡挡一下，有时候米格鲁可能会被红刀哥一刀给砍没了\n以及很重要的，钩锁师技能需要四级，但对等级没要求"
+    },
+    "groups": [
+        {
+            "name": "回费工具人",
+            "opers": [
+                {
+                    "name": "芬",
+                    "skill_usage": 0,
+                    "skill": 1
+                },
+                {
+                    "name": "桃金娘",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "单奶1",
+            "opers": [
+                {
+                    "name": "安赛尔",
+                    "skill_usage": 1,
+                    "skill": 1
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "单奶2",
+            "opers": [
+                {
+                    "name": "芙蓉",
+                    "skill_usage": 1,
+                    "skill": 1
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "钩子",
+            "opers": [
+                {
+                    "name": "暗索",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "歌蕾蒂娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "挡三工具人",
+            "opers": [
+                {
+                    "name": "米格鲁",
+                    "skill_usage": 1,
+                    "skill": 1
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "角峰",
+                    "skill_usage": 1,
+                    "skill": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿米娅",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "stage_name": "main_07-16",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第七章 苦难摇篮 - 7-18 - 爱国者之死【维纳·维多利亚模组任务y】",
+        "details": "——————————\n作业更新日期: 2025-11-01T08:48:21Z\n统计更新日期: 2025-11-03\n相对评分：100.0%  相对热度：100.0%\n来源：小卡拉帕鲁灰  ID：73355\n——————————\n一次完成两个任务\ny模组（二模）"
+    },
+    "opers": [
+        {
+            "name": "维娜·维多利亚",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 4
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "乌尔比安",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "维娜·维多利亚",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

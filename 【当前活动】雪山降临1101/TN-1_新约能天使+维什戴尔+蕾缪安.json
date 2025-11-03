@@ -1,0 +1,92 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act5bossrush_ex01",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "蕾缪安",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "新约能天使",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                5.5,
+                0
+            ],
+            "kills": 13,
+            "pre_delay": 15000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 0
+        },
+        {
+            "type": "Deploy",
+            "name": "新约能天使",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                11,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "TN-1 - 严寒骤血 初始/定向/恢宏",
+        "details": "——————————\n作业更新日期: 2025-06-28T00:42:17Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：夜HBK  ID：61029\n——————————\n遏制单元带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载，带全面过载\n\n简单好抄，带全面过载，2级及以上，1级没试过不知道能不能过，干员都是2903 3级模组\n攻略来自B站大佬墙角涂鸦，对我这种只抽限定其他作业缺角色的非常好用，于是自己跟着流程做了个脚本，方便大家使用，觉得好用给大佬点点赞\n作业视频链接：\n【TN-1初始/定向/恢宏 3人摆完挂机】 https://www.bilibili.com/video/BV1U5KJzKErg/?share_source=copy_web&vd_source=2d8ae98b937416e5597f6573488e56ea"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "新约能天使",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "蕾缪安",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

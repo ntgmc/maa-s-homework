@@ -1,0 +1,241 @@
+{
+    "stage_name": "tough_10-04",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "未完成 第十章 破碎日冕 - 10-5（磨难） - 城市的呼吸 - 维什戴尔单核",
+        "details": "——————————\n作业更新日期: 2025-06-01T12:45:05Z\n统计更新日期: 2025-11-03\n相对评分：86.73%  相对热度：65.81%\n来源：CaliInn  ID：50497\n——————————\nhttps://www.bilibili.com/video/BV1bvCpY8ERX\n左下角泡普卡压力大了或去世了应手动补一个阻挡"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "卡缇",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "炎熔",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "砾",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "groups": [
+        {
+            "name": "强攻手",
+            "opers": [
+                {
+                    "name": "泡普卡",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "幽灵鲨",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "砾",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "强攻手",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 1
+        },
+        {
+            "type": "Retreat",
+            "name": "砾"
+        },
+        {
+            "name": "卡缇",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 4
+        },
+        {
+            "name": "芙蓉",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "炎熔",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "costs": 11
+        },
+        {
+            "name": "斑点",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "炎熔",
+            "skill_usage": 0,
+            "type": "SkillUsage",
+            "kills": 8
+        },
+        {
+            "name": "泡普卡",
+            "skill_usage": 0,
+            "type": "SkillUsage",
+            "kills": 12
+        },
+        {
+            "type": "Output",
+            "doc": "炎熔会死是正常的 不要慌",
+            "doc_color": "Gray"
+        },
+        {
+            "name": "斑点",
+            "skill_usage": 0,
+            "type": "SkillUsage",
+            "kills": 16
+        },
+        {
+            "name": "芙蓉",
+            "skill_usage": 0,
+            "type": "SkillUsage",
+            "kills": 23
+        },
+        {
+            "name": "泡普卡",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "kills": 31,
+            "doc": "炎熔会死是正常的 不要慌",
+            "doc_color": "Gray"
+        },
+        {
+            "type": "Skill",
+            "name": "斑点",
+            "kills": 32
+        },
+        {
+            "name": "砾",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "炎熔",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy",
+            "kills": 38
+        },
+        {
+            "name": "炎熔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "芙蓉",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "doc": ""
+        },
+        {
+            "name": "斑点",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "Retreat",
+            "name": "砾",
+            "kills": 50,
+            "pre_delay": 1000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ]
+}

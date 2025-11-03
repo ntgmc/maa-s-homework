@@ -1,0 +1,230 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_07-10",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿斯卡纶",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "Deploy",
+            "name": "障碍物",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "None"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "【医师】精一满级及以上练度",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "【凝滞师】精一满级及以上练度",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第七章 苦难摇篮 - 7-12 - 浸染-2 - 单核",
+        "details": "——————————\n作业更新日期: 2024-12-31T12:21:11Z\n统计更新日期: 2025-11-03\n相对评分：95.92%  相对热度：74.47%\n来源：小卡拉帕鲁灰  ID：45126\n——————————\n兼容突袭\naskl满级专3一级模组"
+    },
+    "groups": [
+        {
+            "name": "【医师】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "图耶",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "亚叶",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "【凝滞师】精一满级及以上练度",
+            "opers": [
+                {
+                    "name": "铃兰",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "但书",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "格劳克斯",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "小满",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "真理",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "波登可",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "地灵",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "梓兰",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

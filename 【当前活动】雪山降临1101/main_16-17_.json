@@ -1,0 +1,199 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_16-17",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 6000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 27000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 29000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 15000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 8000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "direction": "None",
+            "name": "重构体",
+            "location": [
+                7,
+                5
+            ],
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿斯卡纶",
+            "direction": "Right",
+            "location": [
+                8,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "doc": "逻各斯放m3上面，是因为放右边两个高台，MAA很容易卡bug放不上去",
+            "doc_color": "#d63384",
+            "costs": 75,
+            "pre_delay": 0,
+            "name": "逻各斯",
+            "direction": "Right",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "costs": 58,
+            "pre_delay": 0,
+            "name": "Mon3tr",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "costs": 0,
+            "pre_delay": 0,
+            "name": "阿斯卡纶",
+            "location": [
+                8,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "costs": 0,
+            "pre_delay": 0,
+            "name": "煌",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "Retreat",
+            "costs": 99,
+            "pre_delay": 0,
+            "name": "阿斯卡纶",
+            "location": [
+                8,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "costs": 0,
+            "pre_delay": 4000,
+            "name": "逻各斯",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "costs": 0,
+            "pre_delay": 0,
+            "name": "煌",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "【反常光谱】16-18 全自动",
+        "details": "——————————\n作业更新日期: 2025-10-13T21:02:32Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：Reverse  ID：71131\n——————————\n实现了自动点对话，全程无手操\n真的做了很久，天知道我为了做这个作业打了多少遍16-18"
+    },
+    "groups": [],
+    "opers": []
+}

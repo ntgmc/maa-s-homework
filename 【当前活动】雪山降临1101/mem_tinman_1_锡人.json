@@ -1,0 +1,110 @@
+{
+    "stage_name": "mem_tinman_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "特种 - 锡人 - “快餐派对”【锡人悖论模拟】",
+        "details": "——————————\n作业更新日期: 2025-07-15T01:27:47Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：小卡拉帕鲁灰  ID：62953\n——————————\n练度：精二60级、7级二技能（等级具体可以多低不知道）\n悖论模拟需要在MAA中关闭“自动编队”，\n选好二技能后，maa就可以按开始了\n如果锡人无法识别，就穿上或者卸下皮肤，再代理一次"
+    },
+    "opers": [
+        {
+            "name": "锡人",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 60,
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "锡人",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "蓝毒",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "锡人",
+            "kills": 3
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                2
+            ],
+            "kills": 9
+        },
+        {
+            "type": "Skill",
+            "name": "锡人",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Skill",
+            "name": "锡人",
+            "kills": 14
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                6
+            ],
+            "kills": 15
+        },
+        {
+            "type": "Skill",
+            "name": "锡人"
+        },
+        {
+            "name": "锡人",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "kills": 17,
+            "pre_delay": 20000
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "location": [
+                3,
+                6
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

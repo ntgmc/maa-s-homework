@@ -1,0 +1,351 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act4bossrush_02",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特 & 提丰（定向专用）",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Left",
+            "kills": 16
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                8,
+                6
+            ],
+            "pre_delay": 18000
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                3,
+                0
+            ],
+            "kills": 23,
+            "pre_delay": 15000,
+            "doc_color": "DeepSkyBlue",
+            "doc": "移动视角"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                8,
+                6
+            ],
+            "kills": 38
+        },
+        {
+            "type": "Skill",
+            "name": "夜莺",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 43,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Retreat",
+            "name": "医疗",
+            "location": [
+                6,
+                5
+            ],
+            "kills": 44
+        },
+        {
+            "type": "Retreat",
+            "name": "玛恩纳",
+            "location": [
+                8,
+                6
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                6
+            ],
+            "doc": ""
+        },
+        {
+            "type": "Retreat",
+            "name": "澄闪",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "伊芙利特 & 提丰（定向专用）",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "棘刺",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 45
+        },
+        {
+            "type": "Retreat",
+            "name": "夜莺",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                6.6,
+                0
+            ],
+            "kills": 45,
+            "pre_delay": 15000,
+            "doc_color": "DeepSkyBlue",
+            "doc": "二次移位"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                13,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                11,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                16,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特 & 提丰（定向专用）",
+            "location": [
+                17,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "location": [
+                13,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                17,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                18,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "夜莺",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "玛恩纳",
+            "kills": 15,
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "幻影",
+            "location": [
+                14,
+                3
+            ],
+            "direction": "None",
+            "kills": 19
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "【引航者试炼#4】TN-2  无关音律  初始 & 定向 & 恢宏 【新版更稳定】",
+        "details": "——————————\n作业更新日期: 2024-02-25T06:43:21Z\n统计更新日期: 2025-11-03\n相对评分：90.41%  相对热度：96.62%\n来源：小卡拉帕鲁灰  ID：33673\n——————————\n遏制单元：第一个，一级（二级三级也行，越高越好）\n支持：初始 和 定向 和 恢宏\n初始 & 恢宏：不缺干员的话，可以自动编队，带小火龙别带提丰\n定向：需要手动编队，调整提丰为2技能，别带小火龙，带其余7个人就行，不能完成定向任务\n平均练度：精二90级专3，1级模组，\n如果黍第二波被庞贝挂了需要手动部署到原来位置，有平均练度应该站的住"
+    },
+    "groups": [
+        {
+            "name": "伊芙利特 & 提丰（定向专用）",
+            "opers": [
+                {
+                    "name": "伊芙利特",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "提丰",
+                    "skill": 2,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

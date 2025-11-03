@@ -1,0 +1,72 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_07",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "direction": "Down",
+            "location": [
+                3,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "direction": "Down",
+            "location": [
+                2,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "地面远程",
+            "direction": "Down",
+            "location": [
+                8,
+                2
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-7 - 焚心灼影 优化版",
+        "details": "——————————\n作业更新日期: 2025-11-01T07:39:43Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：73317\n——————————\n原作者：萧然Q json作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【雪山降临1101】OS-1至OS-10 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1Bp1LBQE9u/?p=2&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "地面远程",
+            "opers": [
+                {
+                    "name": "丰川祥子",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "号角",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

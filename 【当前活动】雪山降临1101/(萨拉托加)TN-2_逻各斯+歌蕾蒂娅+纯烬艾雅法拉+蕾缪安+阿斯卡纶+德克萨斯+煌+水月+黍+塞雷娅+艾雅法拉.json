@@ -1,0 +1,234 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act5bossrush_02",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "direction": "Left",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "direction": "Up",
+            "location": [
+                6,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "direction": "Right",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "阿斯卡纶",
+            "direction": "Left",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "水月",
+            "direction": "Right",
+            "location": [
+                5,
+                5
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                3.5,
+                0
+            ],
+            "kills": 16,
+            "pre_delay": 15000
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "direction": "Right",
+            "location": [
+                5,
+                4
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                5.5,
+                0
+            ],
+            "kills": 25,
+            "pre_delay": 13000
+        },
+        {
+            "type": "Deploy",
+            "name": "蕾缪安",
+            "location": [
+                17,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "direction": "Left",
+            "location": [
+                16,
+                6
+            ],
+            "kills": 4
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "direction": "Left",
+            "location": [
+                17,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "direction": "Left",
+            "location": [
+                17,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "阿斯卡纶",
+            "direction": "Up",
+            "location": [
+                16,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "direction": "Left",
+            "location": [
+                16,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "direction": "Left",
+            "location": [
+                17,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "水月",
+            "direction": "Up",
+            "location": [
+                16,
+                5
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "引航者试炼 - TN-2 - 初始试炼",
+        "details": "——————————\n作业更新日期: 2025-06-25T02:12:03Z\n统计更新日期: 2025-11-03\n相对评分：90.22%  相对热度：93.07%\n来源：萨拉托加  ID：60639\n——————————\n带限压解除\njson作者：萨拉托加\n作业交流群群号545928846，可蹲作业，有问题进群找我，作业站消息没提醒看不到"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "蕾缪安",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "水月",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

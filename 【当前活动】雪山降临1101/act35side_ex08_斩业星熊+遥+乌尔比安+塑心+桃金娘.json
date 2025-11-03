@@ -1,0 +1,111 @@
+{
+    "stage_name": "act35side_ex08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "太阳甩在身后 - AS-EX-8 - 无冕之王与朝圣者",
+        "details": "——————————\n作业更新日期: 2025-08-24T22:32:08Z\n统计更新日期: 2025-11-03\n相对评分：95.96%  相对热度：83.65%\n来源：椰果冰粉  ID：66090\n——————————\n自用,思路：BV1fyeHzhEuB，遥2级模组，更低练度没试过"
+    },
+    "opers": [
+        {
+            "name": "斩业星熊",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "遥",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                4,
+                7
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "塑心",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "遥",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "斩业星熊",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

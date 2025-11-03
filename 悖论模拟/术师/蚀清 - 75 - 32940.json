@@ -1,0 +1,135 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_serum_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "红",
+            "location": [
+                5,
+                4
+            ],
+            "costs": 11,
+            "doc_color": "Gray",
+            "doc": "笑死，最后都没出新年限定，倒是过了一堆我XP冷门干员的悖论模拟。",
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "香草",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "costs": 11,
+            "doc": ""
+        },
+        {
+            "type": "Retreat",
+            "name": "红",
+            "location": [
+                5,
+                4
+            ],
+            "cost_changes": 6
+        },
+        {
+            "type": "Deploy",
+            "name": "蚀清",
+            "location": [
+                1,
+                2
+            ],
+            "costs": 33,
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "红",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right",
+            "costs": 13
+        },
+        {
+            "type": "Retreat",
+            "cost_changes": 18,
+            "name": "红",
+            "location": [
+                5,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "蚀清",
+            "location": [
+                1,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right",
+            "kills": 40
+        },
+        {
+            "type": "Skill",
+            "name": "蚀清",
+            "kills": 42,
+            "rear_delay": 500
+        }
+    ],
+    "doc": {
+        "title": "悖论模拟：蚀清 - 勇往直前",
+        "details": "——————————\n作业更新日期: 2024-02-15T06:24:09Z\n统计更新日期: 2025-11-03\n相对评分：75.0%  相对热度：79.36%\n来源：littlh  ID：32940\n——————————\n作者：littlh\n非洲人继续随缘写写悖论模拟作业。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "蚀清",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "红",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "香草",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

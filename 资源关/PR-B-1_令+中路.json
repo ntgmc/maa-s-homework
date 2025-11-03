@@ -1,63 +1,94 @@
 {
-    "minimum_required": "v4.0.0",
     "stage_name": "pro_b_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "PR-B-1（术师狙击精一芯片）2人速刷",
+        "details": "——————————\n作业更新日期: 2025-09-13T07:52:02Z\n统计更新日期: 2025-11-03\n相对评分：82.35%  相对热度：75.52%\n来源：暝夜祈霖  ID：49527\n——————————\n参考打法：https://b23.tv/cudjRZ2（up主：化学老施；作者：一只老沉诺）\n视频中的棘刺可替换为至少一级Δ模组的艾拉（开一次技能即可）"
+    },
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "中路",
+            "opers": [
+                {
+                    "name": "艾拉",
+                    "skill": 3,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "module": 4
+                    }
+                },
+                {
+                    "name": "棘刺",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
     "actions": [
         {
             "type": "SpeedUp"
         },
         {
-            "type": "Deploy",
             "name": "中路",
             "location": [
                 5,
                 5
             ],
-            "direction": "Up"
+            "direction": "Up",
+            "type": "Deploy"
         },
         {
-            "type": "Deploy",
             "name": "令",
             "location": [
                 2,
                 2
             ],
-            "direction": "Right"
+            "direction": "Right",
+            "type": "Deploy"
         },
         {
-            "type": "Deploy",
             "name": "“弦惊”",
             "location": [
                 9,
                 1
             ],
-            "direction": "Right"
+            "direction": "Right",
+            "type": "Deploy"
         },
         {
-            "type": "Deploy",
             "name": "“弦惊”",
             "location": [
                 1,
                 1
             ],
-            "direction": "Left"
+            "direction": "Left",
+            "type": "Deploy"
         },
         {
-            "type": "Deploy",
             "name": "“弦惊”",
             "location": [
                 1,
                 4
             ],
-            "direction": "Left"
+            "direction": "Left",
+            "type": "Deploy"
         },
         {
-            "type": "Deploy",
             "name": "“弦惊”",
             "location": [
                 9,
                 4
             ],
-            "direction": "Right"
+            "direction": "Right",
+            "type": "Deploy"
         },
         {
             "type": "Skill",
@@ -72,32 +103,5 @@
             "type": "SkillDaemon"
         }
     ],
-    "doc": {
-        "title": "PR-B-1（术师狙击精一芯片）2人速刷",
-        "details": "——————————\n作业更新日期: 2025-04-05T06:06:47Z\n统计更新日期: 2025-06-11\n好评率：100.0%  浏览量：134\n来源：暝夜祈霖  ID：49527\n——————————\n\n参考打法：https://b23.tv/cudjRZ2（up主：化学老施；作者：一只老沉诺）\n视频中的棘刺可替换为至少一级Δ模组的艾拉（开一次技能即可）"
-    },
-    "groups": [
-        {
-            "name": "中路",
-            "opers": [
-                {
-                    "name": "艾拉",
-                    "skill": 3,
-                    "skill_usage": 1
-                },
-                {
-                    "name": "棘刺",
-                    "skill": 3,
-                    "skill_usage": 1
-                }
-            ]
-        }
-    ],
-    "opers": [
-        {
-            "name": "令",
-            "skill": 3,
-            "skill_usage": 0
-        }
-    ]
+    "version": 3
 }

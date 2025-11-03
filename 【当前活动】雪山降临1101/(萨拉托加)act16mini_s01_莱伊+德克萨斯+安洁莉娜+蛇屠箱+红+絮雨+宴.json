@@ -1,0 +1,193 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act16mini_s01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "莱伊",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "蛇屠箱",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "安洁莉娜",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "絮雨",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "安洁莉娜",
+            "kills": 15,
+            "pre_delay": 3000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "莱伊",
+            "kills": 16,
+            "skill_usage": 0
+        },
+        {
+            "type": "SkillUsage",
+            "name": "莱伊",
+            "kills": 21,
+            "skill_usage": 1,
+            "pre_delay": 6000
+        },
+        {
+            "type": "Skill",
+            "name": "蛇屠箱",
+            "kills": 24,
+            "pre_delay": 10000
+        },
+        {
+            "type": "Skill",
+            "name": "安洁莉娜",
+            "kills": 24,
+            "pre_delay": 4000
+        },
+        {
+            "type": "Deploy",
+            "name": "红",
+            "location": [
+                4,
+                3
+            ],
+            "pre_delay": 4000,
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "莱伊",
+            "kills": 24,
+            "skill_usage": 0
+        },
+        {
+            "type": "Retreat",
+            "name": "红",
+            "location": [
+                4,
+                3
+            ],
+            "kills": 26
+        },
+        {
+            "type": "SkillUsage",
+            "name": "莱伊",
+            "kills": 27,
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "宴",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left",
+            "kills": 29,
+            "pre_delay": 20000
+        },
+        {
+            "type": "Skill",
+            "name": "安洁莉娜",
+            "pre_delay": 4000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "蛇屠箱",
+            "skill_usage": 1
+        },
+        {
+            "type": "Skill",
+            "name": "德克萨斯"
+        },
+        {
+            "type": "Deploy",
+            "name": "红",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "去咧嘴谷 - TG-S-1 - 穿洞绳操作指南",
+        "details": "——————————\n作业更新日期: 2024-01-09T15:14:13Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：31627\n——————————\n莱伊选三技能\n轴总在变，改吐了，就这样吧\n原作者萧然Q JSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业\n【【去咧嘴谷】TG-1至8 突袭 摆完挂机 简单好抄（持续更新中）】 https://www.bilibili.com/video/BV1YN4y1v7DP/?p=9&s…"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "莱伊",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "安洁莉娜",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "蛇屠箱",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "红",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "絮雨",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "宴",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

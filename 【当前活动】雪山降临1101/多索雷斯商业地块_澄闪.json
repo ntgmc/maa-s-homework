@@ -1,0 +1,832 @@
+{
+    "minimum_required": "v5.2.1",
+    "stage_name": "多索雷斯商业地块",
+    "doc": {
+        "title": "多索雷斯商业地块(澄闪单核1-5关,6不稳定)v0.2",
+        "title_color": "dark",
+        "details": "——————————\n作业更新日期: 2024-07-22T14:59:12Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：89.41%\n来源：xf010  ID：36052\n——————————\n官方版出了!!!\n\n本萌新第二次写代码,可能部分地方没做好,请见谅\n有什么挂机时遇到的问题都可以在评论里说,会不时回来看看的(太急就去b站上轰我,我无所谓,用户名:x_f010)\n如果觉得作业好的话能点个赞让我看看吗awa?\n第六关突袭单核没救(maa识别加操作太慢,极其容易导致漏怪,一倍速都救不了的那种,但是思路肯定是没问题的)\n黏黏的赠品可能是maa还没修复,引号无法识别,如果可以请手动放在离家门口远点的地方\n最好不用投锋,尽量把全村最好的干员全部拿出来(高练工具人)\n其实感觉部分精一也可以,但是重装和医疗必须精二60以上\n\n先锋3:记得不要带投锋或者高台先锋\n近卫3\n重装3:最好上星熊,不太推荐泥岩和斥罪(费用过高,必要的话还是能带)\n狙击3:注意如果用黑记得锁2技能,我没用过鸿雪,不知道会发生什么\n术士2,建议小羊和小刻\n医疗3\n辅助2:随便带,带有召唤物的也行,可以顶boss给的道具\n别忘了带澄闪!!!\n\n导能元件: 法术调和能量场\n\n战术装备: \nA A B A\nA A A A\n\n官方版已发出,有条件还是去maa里的官方版,这个作业还是比较不稳定\n目的就是为了官方版没出前的暂时的挂机(挂机赛高!!!)\n作者:xf010#2290(求好友)\n\n本次更新仅对前面关卡做个优化,以及第六关的部分改动(如果闲太慢请自己从代码里删掉第六关标题\"尽入囊中\")\n\n2024.6.18:小更新,不改版本号,黑名单加入维什戴尔(强是强,祖宗太烦人了)",
+        "details_color": "dark"
+    },
+    "opers": [
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "type": "SSS",
+    "buff": "法术调和能量场",
+    "equipment": [
+        "A",
+        "A",
+        "B",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "strategy": "优选策略",
+    "tool_men": {
+        "vanguard": 3,
+        "guard": 3,
+        "defender": 3,
+        "sniper": 3,
+        "caster": 2,
+        "medic": 3,
+        "supporter": 2,
+        "specialist": 0
+    },
+    "drops": [
+        "无需增调干员",
+        "辅助",
+        "术师",
+        "先锋",
+        "狙击",
+        "医疗",
+        "近卫",
+        "共振外装",
+        "重装"
+    ],
+    "blacklist": [
+        "罗比菈塔",
+        "掠风",
+        "极境",
+        "琴柳",
+        "伺夜",
+        "豆苗",
+        "夜半",
+        "黑键",
+        "早露",
+        "缪尔赛思",
+        "提丰",
+        "异客",
+        "森蚺",
+        "极光",
+        "梅尔",
+        "桃金娘",
+        "伊内斯",
+        "晓歌",
+        "薇薇安娜",
+        "史尔特尔",
+        "U-Official",
+        "凯尔希",
+        "玛恩纳",
+        "龙舌兰",
+        "耀骑士临光",
+        "幽灵鲨",
+        "海蒂",
+        "焰影苇草",
+        "卡涅利安",
+        "蜜蜡",
+        "伊芙利特",
+        "赫拉格",
+        "安比卡",
+        "左乐",
+        "海沫",
+        "羽毛笔",
+        "焰影苇草",
+        "迷迭香",
+        "维什戴尔"
+    ],
+    "stages": [
+        {
+            "stage_name": "任性逃跑",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 2
+                    },
+                    "location": [
+                        4,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "sniper": 3,
+                        "caster": 2
+                    },
+                    "location": [
+                        5,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "medic": 6
+                    },
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "guard": 2,
+                        "defender": 1
+                    },
+                    "location": [
+                        4,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        4,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 100
+                    },
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Up"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "全城悬赏",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        4,
+                        3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "caster": 1,
+                        "sniper": 1
+                    },
+                    "location": [
+                        5,
+                        3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        4,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "medic": 1
+                    },
+                    "location": [
+                        5,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "caster": 2,
+                        "sniper": 1
+                    },
+                    "location": [
+                        5,
+                        3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "guard": 2,
+                        "defender": 2
+                    },
+                    "location": [
+                        4,
+                        3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        4,
+                        3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "medic": 5
+                    },
+                    "location": [
+                        5,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 2,
+                        "guard": 2
+                    },
+                    "location": [
+                        4,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        4,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 100
+                    },
+                    "location": [
+                        5,
+                        4
+                    ],
+                    "direction": "Left"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "“领奖处”",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        2,
+                        4
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 1,
+                        "defender": 1
+                    },
+                    "location": [
+                        2,
+                        5
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "caster": 2,
+                        "sniper": 1
+                    },
+                    "location": [
+                        3,
+                        6
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "guard": 2,
+                        "defender": 2
+                    },
+                    "location": [
+                        2,
+                        4
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        2,
+                        4
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "medic": 2
+                    },
+                    "location": [
+                        2,
+                        6
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "caster": 1,
+                        "sniper": 1
+                    },
+                    "location": [
+                        3,
+                        6
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "guard": 2,
+                        "defender": 1
+                    },
+                    "location": [
+                        2,
+                        5
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        2,
+                        5
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "medic": 4
+                    },
+                    "location": [
+                        2,
+                        6
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 100
+                    },
+                    "location": [
+                        1,
+                        3
+                    ],
+                    "direction": "Right"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "闻风而来",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        6,
+                        2
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 1,
+                        "defender": 1
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "medic": 1
+                    },
+                    "location": [
+                        7,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "caster": 3,
+                        "sniper": 2
+                    },
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "guard": 2,
+                        "defender": 2
+                    },
+                    "location": [
+                        6,
+                        2
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        6,
+                        2
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "guard": 2,
+                        "defender": 1
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "medic": 5
+                    },
+                    "location": [
+                        7,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 100
+                    },
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "Left"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "“大血拼”",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        5,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "medic": 1
+                    },
+                    "location": [
+                        8,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "caster": 3,
+                        "sniper": 2
+                    },
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "guard": 3,
+                        "defender": 1
+                    },
+                    "location": [
+                        5,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        5,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "guard": 3,
+                        "defender": 1
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "caster": 1
+                    },
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 100
+                    },
+                    "location": [
+                        8,
+                        4
+                    ],
+                    "direction": "Left"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "尽入囊中",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "guard": 1,
+                        "vanguard": 1
+                    },
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "guard": 2,
+                        "vanguard": 1
+                    },
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "medic": 1
+                    },
+                    "location": [
+                        8,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "sniper": 1,
+                        "caster": 2
+                    },
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "defender": 4
+                    },
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "sniper": 1,
+                        "caster": 1
+                    },
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "caster": 5
+                    },
+                    "location": [
+                        7,
+                        5
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "defender": 2
+                    },
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "medic": 5
+                    },
+                    "location": [
+                        8,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 100
+                    },
+                    "location": [
+                        5,
+                        4
+                    ],
+                    "direction": "Down"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "\"黏黏的赠品\"",
+                    "location": [
+                        1,
+                        1
+                    ],
+                    "direction": "None"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "“黏黏的赠品”",
+                    "location": [
+                        1,
+                        1
+                    ],
+                    "direction": "None"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "\"黏黏的赠品”",
+                    "location": [
+                        1,
+                        1
+                    ],
+                    "direction": "None"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "“黏黏的赠品\"",
+                    "location": [
+                        1,
+                        1
+                    ],
+                    "direction": "None"
+                }
+            ],
+            "retry_times": 3
+        }
+    ],
+    "groups": [],
+    "actions": []
+}

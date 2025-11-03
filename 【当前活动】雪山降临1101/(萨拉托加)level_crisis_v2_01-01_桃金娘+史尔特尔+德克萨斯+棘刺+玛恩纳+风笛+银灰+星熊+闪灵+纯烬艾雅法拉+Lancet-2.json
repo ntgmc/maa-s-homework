@@ -1,0 +1,267 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "level_crisis_v2_01-01",
+    "actions": [
+        {
+            "type": "BulletTime",
+            "name": "德克萨斯"
+        },
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "桃金娘",
+            "pre_delay": 3000
+        },
+        {
+            "type": "BulletTime",
+            "name": "德克萨斯"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "pre_delay": 3500
+        },
+        {
+            "type": "BulletTime",
+            "name": "史尔特尔",
+            "kills": 1
+        },
+        {
+            "type": "Retreat",
+            "name": "史尔特尔",
+            "kills": 2
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "桃金娘",
+            "kills": 3
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯"
+        },
+        {
+            "type": "BulletTime",
+            "name": "玛恩纳"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "kills": 5,
+            "pre_delay": 9000
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "kills": 6,
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "kills": 7,
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "风笛",
+            "cost_changes": 3
+        },
+        {
+            "type": "Retreat",
+            "name": "风笛",
+            "kills": 14
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "银灰",
+            "pre_delay": 20000
+        },
+        {
+            "type": "Skill",
+            "name": "玛恩纳",
+            "pre_delay": 2000,
+            "kills": 15
+        },
+        {
+            "type": "Retreat",
+            "name": "银灰",
+            "kills": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "玛恩纳",
+            "skill_usage": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "DarkRed",
+            "doc": "建了个群545928846，如果作业有问题可以加群找我，评论区不能及时回复"
+        }
+    ],
+    "doc": {
+        "title": "危机合约 灰烬泽地 620 看简介",
+        "details": "——————————\n作业更新日期: 2023-11-28T13:36:41Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：30418\n——————————\n地图如果用不了下新版本地图包，能用不要下（使用地图包之后可能导致MAA自动下载的地图提示不支持）\n链接：https://pan.baidu.com/s/13iomzepE-46jH47OrWqvug \n提取码：2maa\n使用方法：解压到maa/resource/Arknights开头的文件夹里面使用， 记得备份源文件，然后重启maa\nTAG如下（顺序从左往右）\n指标集衰退：只点第一个\n缺失 约束：全点，每个OR里面点最下面一个\n枯朽之影 险地全点\n沼泽行军 野草：全点，每个OR里面点最下面一个\n全员专三练度（测试闪灵不用专也能过）\n星熊推荐模组选X（Y也能过但需高练度），风笛X模组闪灵德狗Y模组\n原作者柠檬味的小小猪，JSON作者萨拉托加\n建了个群545928846，如果作业有问题可以加群找我，评论区不能及时回复\n【【浊燃作战620分】最高精二70级蚀刻章镀层摆完半挂机 低潜能无伊内丝简单好抄 不过是小猪！（灰烬泽地）】 https://www.bilibili.com/video/BV1bM411Z75B/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "Lancet-2",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
