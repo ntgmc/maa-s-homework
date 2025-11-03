@@ -1,0 +1,124 @@
+{
+    "stage_name": "act14side_07",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "风雪过境·复刻 - BI-7 - 破冰【圣聆初雪模组任务】",
+        "details": "——————————\n作业更新日期: 2025-11-01T05:06:46Z\n统计更新日期: 2025-11-03\n相对评分：100.0%  相对热度：100.0%\n来源：小卡拉帕鲁灰  ID：73227\n——————————\n异格初雪模组任务\n两个任务，一局完成"
+    },
+    "opers": [
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "requirements": {
+                "level": 1,
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7,
+                "module": 2
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "塞or黍",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "德克萨斯",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "圣聆初雪",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞or黍",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "医疗",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

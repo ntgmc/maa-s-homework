@@ -1,0 +1,952 @@
+{
+    "type": "SSS",
+    "stage_name": "tower_n_11",
+    "minimum_required": "v4.23.0",
+    "doc": {
+        "title": "塔山农业实验平台提丰单核（澄闪第六关核，前面有没有都无所谓）狙击辅助任务版【看描述！！】（能过到应急5。下面有视频链接第六关可供参考）",
+        "title_color": "dark",
+        "details": "——————————\n作业更新日期: 2024-03-23T13:17:16Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：无忧无虑啦  ID：31053\n——————————\n注意！！！如果用不了请检查更新，更新至最新内测版。提丰必选，第六关必须提丰+澄闪双核，或者按照视频里的提丰加寒檀2（用寒檀最好手打，因为用maa打的稳定性比澄闪更低）。（能过到应急5但是成功率不如别人多核的，就我自己来说普6测试10次有6次过，失败率还挺高的。下面有视频链接第六关，应急六可同样方法，但需要的是提丰，澄闪3和浊帝为核心）。\n工具人是按明日方舟干员职业列表里从上到下排列，即：\n先锋：2（先锋推荐挡二，如尖兵）\n近卫：2（近卫推荐棘刺，银灰等可对空近卫）\n重装：2（重装推荐塞雷亚，临光，霞光等奶盾为主）\n狙击：4（狙击以低费速狙为主，迷迭香这类投掷手绝对不能选！）\n术士：5\n医疗：3（奶推荐奶羊，流明等）\n辅助：1\n特种：0\n战术装备全选A（能带术士B就术士B，带不了术士A也能过）\n装置选可充能督战音响（装置选用卡西米尔那个也能凑合着打，可以把那个任务过一下，缺点是概率某些关卡3次都打不过导致重开）\n手动编队并阵容确认后，再点击开始（具体参照自动战斗界面第3点）。\n只要第六关的提丰和澄闪（或寒檀）能尽早叠满，绝对可以过，沉底的话，只能重开\n当你发现提丰并没有上场，且速狙在同一位置上场了两次，可以手动把提丰放上去，也可以不管\n第六关提丰单核视频：【保全驻派--塔山农业实验平台提丰单核】https://www.bilibili.com/video/BV1ha4y1r7h3/\n只要第六关的提丰和澄闪（或寒檀）能尽早叠满，绝对可以过，沉底的话，只能重开\n本作业主要适用于精二干员不多，练度不高的人（提丰至少2603，其余至少都精一满级，低了不清楚能不能行），并非用于通关拿奖章，主要用于刷任务兼材料。\n有问题反馈或者进群找“无忧”  评论区反馈不一定能及时回复，可根据自己需求更改，但不可发上作业站，用此作业默认同意\n",
+        "details_color": "dark"
+    },
+    "buff": "可充能督战音响",
+    "equipment": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+    ],
+    "strategy": "优选策略",
+    "opers": [
+        {
+            "name": "提丰",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "tool_men": {
+        "vanguard": 2,
+        "guard": 2,
+        "defender": 2,
+        "sniper": 4,
+        "caster": 5,
+        "medic": 3,
+        "supporter": 1,
+        "specialist": 0
+    },
+    "drops": [
+        "辅助",
+        "狙击",
+        "无需增调干员",
+        "术师",
+        "战备激活阀",
+        "信号阻断插件",
+        "重装",
+        "先锋",
+        "医疗"
+    ],
+    "blacklist": [
+        "罗比菈塔",
+        "掠风",
+        "白铁",
+        "桃金娘",
+        "极境",
+        "琴柳",
+        "伺夜",
+        "豆苗",
+        "夜半",
+        "缪尔赛思",
+        "森蚺",
+        "极光",
+        "梅尔",
+        "U-Official",
+        "玛恩纳",
+        "龙舌兰",
+        "耀骑士临光",
+        "幽灵鲨",
+        "海蒂",
+        "极境",
+        "焰影苇草"
+    ],
+    "stages": [
+        {
+            "stage_name": "巡检作业",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        1,
+                        2
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "caster": 1
+                    },
+                    "location": [
+                        2,
+                        2
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "sniper": 1
+                    },
+                    "location": [
+                        2,
+                        1
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "提丰",
+                    "tool_men": {
+                        "sniper": 1
+                    },
+                    "location": [
+                        2,
+                        1
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "medic": 2
+                    },
+                    "location": [
+                        2,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "caster": 1,
+                        "sniper": 2
+                    },
+                    "location": [
+                        2,
+                        2
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "medic": 3
+                    },
+                    "location": [
+                        2,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "defender": 2,
+                        "guard": 2
+                    },
+                    "location": [
+                        1,
+                        2
+                    ],
+                    "direction": "Right"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 15,
+                    "name": "可充能督战音响",
+                    "location": [
+                        1,
+                        1
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 30,
+                    "name": "梅什科线圈",
+                    "location": [
+                        4,
+                        2
+                    ],
+                    "direction": "None"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 31,
+                    "name": "梅什科线圈",
+                    "location": [
+                        6,
+                        1
+                    ],
+                    "direction": "None"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 40,
+                    "name": "梅什科线圈",
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "None"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 41,
+                    "name": "梅什科线圈",
+                    "location": [
+                        2,
+                        3
+                    ],
+                    "direction": "None"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "空地协同作业",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        7,
+                        2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "提丰",
+                    "tool_men": {
+                        "sniper": 2
+                    },
+                    "location": [
+                        8,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "caster": 5
+                    },
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "medic": 5
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "guard": 3
+                    },
+                    "location": [
+                        7,
+                        2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "defender": 4
+                    },
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "Left"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 10,
+                    "name": "可充能督战音响",
+                    "location": [
+                        9,
+                        3
+                    ],
+                    "direction": "Left"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "喷洒作业",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        7,
+                        5
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "提丰",
+                    "tool_men": {
+                        "sniper": 2
+                    },
+                    "location": [
+                        9,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 2
+                    },
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "medic": 5
+                    },
+                    "location": [
+                        9,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "caster": 5
+                    },
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "defender": 2,
+                        "guard": 2
+                    },
+                    "location": [
+                        7,
+                        5
+                    ],
+                    "direction": "Left"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "可充能督战音响",
+                    "location": [
+                        8,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 20,
+                    "name": "战备激活阀",
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 15,
+                    "name": "便携式补给站",
+                    "location": [
+                        8,
+                        4
+                    ],
+                    "direction": "Left"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "播撒作业",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        4,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "sniper": 2
+                    },
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "caster": 1
+                    },
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 1
+                    },
+                    "location": [
+                        4,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "medic": 1
+                    },
+                    "location": [
+                        8,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "提丰",
+                    "tool_men": {
+                        "sniper": 1
+                    },
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "sniper": 5
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "specialist": 1,
+                        "vanguard": 1,
+                        "defender": 1,
+                        "guard": 1
+                    },
+                    "location": [
+                        2,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "caster": 3
+                    },
+                    "location": [
+                        6,
+                        5
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "medic": 4
+                    },
+                    "location": [
+                        8,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "specialist": 1,
+                        "vanguard": 1,
+                        "defender": 1,
+                        "guard": 1
+                    },
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "specialist": 1,
+                        "vanguard": 1,
+                        "defender": 1,
+                        "guard": 1
+                    },
+                    "location": [
+                        2,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "sniper": 1,
+                        "supporter": 1,
+                        "medic": 1,
+                        "caster": 1
+                    },
+                    "location": [
+                        3,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "sniper": 1,
+                        "supporter": 1,
+                        "medic": 1,
+                        "caster": 1
+                    },
+                    "location": [
+                        3,
+                        5
+                    ],
+                    "direction": "Left"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "可充能督战音响",
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 10,
+                    "name": "战备激活阀",
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "Right"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "聚群作业",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        5,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "sniper": 1
+                    },
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "caster": 1
+                    },
+                    "location": [
+                        6,
+                        2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "medic": 1
+                    },
+                    "location": [
+                        8,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        5,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 2
+                    },
+                    "location": [
+                        3,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "提丰",
+                    "tool_men": {
+                        "sniper": 2
+                    },
+                    "location": [
+                        7,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "medic": 1
+                    },
+                    "location": [
+                        8,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1,
+                        "guard": 2
+                    },
+                    "location": [
+                        4,
+                        3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "caster": 4
+                    },
+                    "location": [
+                        6,
+                        2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "tool_men": {
+                        "medic": 5
+                    },
+                    "location": [
+                        6,
+                        1
+                    ],
+                    "direction": "Down"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "name": "可充能督战音响",
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 10,
+                    "name": "战备激活阀",
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "Up"
+                }
+            ],
+            "retry_times": 3
+        },
+        {
+            "stage_name": "净空作业",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "vanguard": 1
+                    },
+                    "location": [
+                        5,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "sniper": 2,
+                        "caster": 1
+                    },
+                    "location": [
+                        3,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "caster": 1,
+                        "sniper": 1
+                    },
+                    "location": [
+                        2,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "medic": 1
+                    },
+                    "location": [
+                        2,
+                        5
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1
+                    },
+                    "location": [
+                        5,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 2
+                    },
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "提丰",
+                    "tool_men": {
+                        "sniper": 1
+                    },
+                    "location": [
+                        2,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "sniper": 1
+                    },
+                    "location": [
+                        3,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "defender": 1,
+                        "guard": 2
+                    },
+                    "location": [
+                        5,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "caster": 2,
+                        "sniper": 3
+                    },
+                    "location": [
+                        3,
+                        6
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "supporter": 2
+                    },
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "tool_men": {
+                        "medic": 5
+                    },
+                    "location": [
+                        2,
+                        6
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "tool_men": {
+                        "medic": 3
+                    },
+                    "location": [
+                        2,
+                        5
+                    ],
+                    "direction": "Right"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 1,
+                    "name": "战备激活阀",
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 10,
+                    "name": "可充能督战音响",
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 2,
+                    "name": "可充能督战音响",
+                    "location": [
+                        2,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 5,
+                    "name": "战备激活阀",
+                    "location": [
+                        2,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "type": "Deploy",
+                    "kills": 2,
+                    "name": "战备激活阀",
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Up"
+                }
+            ],
+            "retry_times": 9
+        }
+    ],
+    "groups": [],
+    "actions": []
+}

@@ -1,0 +1,74 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act29side_04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "name": "克洛丝",
+            "cost_changes": 1
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "location": [
+                4,
+                2
+            ],
+            "cost_changes": 20
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "崔林特尔梅之金 - ZT-4 - 狂想曲“望想”",
+        "details": "——————————\n作业更新日期: 2023-11-05T12:55:52Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：29623\n——————————\nZT-4\n我自己三个号测试好几遍都能过\n我这边测试克洛丝14费就已经把两个装置打完了，结果你们后移到22费再撤克洛丝都撤早，太离谱了\n貌似是maa的bug，费用检测有问题，服了，但为啥我测试就没这bug啊\n现在轴改了让煌先下，就算MAA撤的再早也不可能虚空变出费来把煌下了吧。。。。\n【【崔林特尔梅之金】ZT-4摆完挂机简单好抄明日方舟zt4】 https://www.bilibili.com/video/BV1yG411X7bR/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e\nUP祈星_Estrella"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

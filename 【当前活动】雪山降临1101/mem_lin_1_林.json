@@ -1,0 +1,49 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_lin_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "林",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left",
+            "costs": 25
+        },
+        {
+            "type": "Skill",
+            "name": "林",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 23000
+        },
+        {
+            "type": "Skill",
+            "name": "林",
+            "location": [
+                5,
+                3
+            ],
+            "pre_delay": 37000
+        }
+    ],
+    "doc": {
+        "title": "林悖论模拟",
+        "details": "——————————\n作业更新日期: 2025-02-14T15:09:17Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：游梦喵Zzz  ID：47079\n——————————\n鼠鼠我啊，真的要偷吃大米了\nhttps://www.bilibili.com/video/BV13uf8YxEAk/?spm_id_from=333.337.search-card.all.click&vd_source=0cf373e430f16783b81c420f5cadb39f\njson作者：喵师傅"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "林",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}

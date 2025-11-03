@@ -1,0 +1,156 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act17d0_ex04",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "location": [
+                1,
+                3
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                1,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                10,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                9,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                4,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                11,
+                3
+            ],
+            "direction": "Up",
+            "costs": 40
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶",
+            "location": [
+                11,
+                6
+            ],
+            "direction": "Left",
+            "costs": 20
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "源石尘行动 - OD-EX-4 - 爆破战术",
+        "details": "——————————\n作业更新日期: 2024-03-23T11:36:10Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：35185\n——————————\n原作者萧然Q JSON作者萨拉托加\n作业交流群545928846，如果作业有问题可以加群找我，评论区不能及时回复，还可以去群里蹲我的新作业\n【【源石尘行动复刻】OD全关卡 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1tf421Z7WW/?p=17&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e\n"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

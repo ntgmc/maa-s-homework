@@ -1,0 +1,223 @@
+{
+    "stage_name": "main_15-12",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第十五章 - 15-13 险地+沙盘",
+        "details": "——————————\n作业更新日期: 2025-09-26T14:49:43Z\n统计更新日期: 2025-11-03\n相对评分：95.96%  相对热度：63.84%\n来源：komeiji_satori_5  ID：69532\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n求关注。\n沙盘选2和2"
+    },
+    "opers": [
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "临光",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "铃兰"
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "德克萨斯",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "闪灵",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 7
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "临光",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "桃金娘",
+            "skill_usage": 0,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "史尔特尔",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "kills": 19
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "kills": 20
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                2
+            ],
+            "kills": 26,
+            "pre_delay": 2500
+        },
+        {
+            "name": "史尔特尔",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "pre_delay": 2000
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                3
+            ],
+            "kills": 32
+        },
+        {
+            "name": "铃兰",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "kills": 34
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 2,
+            "type": "SkillUsage",
+            "skill_times": 1,
+            "pre_delay": 10000
+        },
+        {
+            "name": "闪灵",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "德克萨斯",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy",
+            "cooling": 2
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 0
+}

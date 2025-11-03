@@ -1,0 +1,255 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act1break_12",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊内丝",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "防水蚀镀膜装置",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "赫德雷",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "德克萨斯",
+            "costs": 12
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 25
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 26
+        },
+        {
+            "type": "Retreat",
+            "kills": 28,
+            "name": "伊内丝"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿斯卡纶",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 31
+        },
+        {
+            "type": "Output",
+            "kills": 32,
+            "costs": 99,
+            "doc_color": "Gray",
+            "doc": "这里的EW技能轴不好控制，暂时定成这个"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "pre_delay": 15000
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 35
+        },
+        {
+            "type": "Deploy",
+            "name": "伊内丝",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Retreat",
+            "name": "维什戴尔",
+            "kills": 37
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "VEC-12 - 存在性论证",
+        "details": "——————————\n作业更新日期: 2025-05-17T04:39:28Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：54661\n——————————\n赫德雷不需要专精，有条件带个耀光补伤害，让两边boss一起死就过了\n需要完成1-5特别战线关卡拿补给\n原作者萧然Q json作者：萨拉托加\n作业交流群群号1009052305，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【矢量突破#1 无机物】全关卡 尽量摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1u7EnzTEd8/?p=8&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊内丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "赫德雷",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

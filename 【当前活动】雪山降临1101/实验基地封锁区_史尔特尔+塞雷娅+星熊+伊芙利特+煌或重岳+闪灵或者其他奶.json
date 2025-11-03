@@ -1,0 +1,144 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "实验基地封锁区",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌或重岳",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                2
+            ],
+            "costs": 25
+        },
+        {
+            "type": "Deploy",
+            "name": "闪灵或者其他奶",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left",
+            "pre_delay": 5000
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "kills": 27
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "【柠檬味の小小猪】竞技之梦改装 1/8 尖灭测试作战 实验基地封锁区 ",
+        "details": "——————————\n作业更新日期: 2023-05-25T15:25:27Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：土豆雷优香  ID：23654\n——————————\n！！！！！！！！！！注意！！！！！！！！！！\n这里是系列的第一个作业，建议按顺序来否则可能会无法直接点后面的词条\n温馨提示，可以在抄本系列作业的时候自动编队完停止运行，然后再手动借朋友干员完成合作蚀刻章\n为了防止放人晚或者放技能慢建议设置里修改触控模式为MAAtouch加上暂停放干员\n图片已经换源\n！！！！！！！！！！注意！！！！！！！！！！\n原视频 https://www.bilibili.com/video/BV1Ng4y1c7bK\n柠檬味の小小猪\n跟着系列作业走可以一条龙完成大部分测试和勋章，这里是第一个。\n词条选1-1 ,1-2，2-1，2-2,  3-1，3-2 ,4-2（排数-列数）。也就是竞技之梦从上到下前四个词条\n或者点击链接tag如图所示https://postimg.cc/mh74KdGS\n\n原视频塞妈x模组，其他没有，全员精2 70级，按照原作者说奶妈似乎是单体都行\n祝大家抄作业顺利，計算通り，完璧～~~~有什么问题请评论留言，缘分到了会看一下……吧（）"
+    },
+    "groups": [
+        {
+            "name": "煌或重岳",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "重岳",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "闪灵或者其他奶",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

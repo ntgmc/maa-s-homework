@@ -1,0 +1,91 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "level_rune_02-02",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "提丰",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "Lancet-2",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "DarkRed",
+            "doc": "建了个群545928846，如果作业有问题可以加群找我，评论区不能及时回复"
+        }
+    ],
+    "doc": {
+        "title": "危机合约 设防关隘 全任务 200分",
+        "details": "——————————\n作业更新日期: 2023-11-28T13:37:10Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：30392\n——————————\n没地图临时用这个顶一下，因为不是真地图所以可能有bug\n原位置小羊因为地图原因导致有可能不下，我换了个位置，不知道有没有影响\n两个OR只点最上面一个\n上面一串全点\n下面一串从上到下，从左到右\n第一行全点\n第二行点124\n第三行不点\n第四行点12\n第五行点123\n原作者萧然Q，JSON作者萨拉托加\n建了个群545928846，如果作业有问题可以加群找我，评论区不能及时回复\n【【浊燃作战】全关卡全任务 简单好抄（持续更新中）】 https://www.bilibili.com/video/BV1D34y1c7Sn/?p=4&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "提丰",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "Lancet-2",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

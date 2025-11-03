@@ -1,0 +1,282 @@
+{
+    "stage_name": "act5bossrush_03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "引航者试炼#5 - TN-3 - 初始&定向试炼",
+        "details": "——————————\n作业更新日期: 2025-06-25T13:30:07Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：91.75%\n来源：小卡拉帕鲁灰  ID：60704\n——————————\n初始＆定向试炼支持，恢宏不支持\n装置：全面过载（自动开技能）\n原作者：有毒的粽子　json作者：我自己\n持续更新中，作业交流群789724611，如果作业有问题可以加群找我，评论区不能及时回复\nhttps://www.bilibili.com/video/BV1AuK3zBEeL/?spm_id_from=333.337.top_right_bar_window_history.content.click"
+    },
+    "opers": [
+        {
+            "name": "余",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90
+            }
+        },
+        {
+            "name": "烛煌",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "module": 1
+            }
+        },
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "module": 1
+            }
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "module": 1
+            }
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "伊内丝",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": -1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "伊内丝",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "pre_delay": 0
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "distance": [
+                6.5,
+                0
+            ],
+            "type": "MoveCamera",
+            "kills": 1,
+            "pre_delay": 15000
+        },
+        {
+            "name": "余",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "pre_delay": 3000
+        },
+        {
+            "name": "澄闪",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "pre_delay": 1000
+        },
+        {
+            "name": "黍",
+            "location": [
+                16,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "pre_delay": 1000
+        },
+        {
+            "name": "烛煌",
+            "location": [
+                17,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "pre_delay": 1000
+        },
+        {
+            "name": "阿斯卡纶",
+            "location": [
+                15,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "distance": [
+                4,
+                0
+            ],
+            "type": "MoveCamera",
+            "kills": 15,
+            "pre_delay": 13000
+        },
+        {
+            "name": "伊内丝",
+            "location": [
+                16,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "澄闪",
+            "location": [
+                15,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                18,
+                2
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "pre_delay": 1000
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                19,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "pre_delay": 1000
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "location": [
+                19,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "pre_delay": 1000
+        },
+        {
+            "name": "余",
+            "location": [
+                20,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 1
+}

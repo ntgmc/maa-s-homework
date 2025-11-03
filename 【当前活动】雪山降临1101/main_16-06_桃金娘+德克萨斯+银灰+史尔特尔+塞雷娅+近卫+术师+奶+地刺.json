@@ -1,0 +1,237 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_16-06",
+    "actions": [
+        {
+            "type": "Deploy",
+            "direction": "Right",
+            "name": "奶",
+            "location": [
+                4,
+                6
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Up",
+            "name": "桃金娘"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left",
+            "name": "德克萨斯"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 6000,
+            "name": "装置",
+            "location": [
+                1,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up",
+            "name": "术师"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up",
+            "name": "塞雷娅"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "name": "地刺"
+        },
+        {
+            "type": "Retreat",
+            "costs": 25,
+            "name": "德克萨斯",
+            "location": [
+                5,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left",
+            "name": "近卫"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up",
+            "name": "银灰"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up",
+            "name": "史尔特尔"
+        },
+        {
+            "type": "Retreat",
+            "costs": 0,
+            "name": "银灰",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 17
+        },
+        {
+            "type": "Deploy",
+            "direction": "Left",
+            "name": "史尔特尔",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "Output",
+            "doc_color": "SpringGreen",
+            "doc": "Ciallo～(∠・ω< )⌒★"
+        },
+        {
+            "type": "SkillDaemon",
+            "doc_color": "SpringGreen",
+            "doc": "Ciallo～(∠・ω< )⌒★"
+        }
+    ],
+    "doc": {
+        "title": "16-7 最后欢愉",
+        "details": "——————————\n作业更新日期: 2025-10-11T15:43:09Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：91.43%\n来源：萨扌立托加  ID：70999\n——————————\n沙盘一右一左\njson作者：萨扌立托加\n作业交流群群号545928846，可蹲作业，有问题进群找萨扌立托加，作业站消息一般看不到\n❤️"
+    },
+    "groups": [
+        {
+            "name": "近卫",
+            "opers": [
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "术师",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "遥",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 2
+                }
+            ]
+        },
+        {
+            "name": "地刺",
+            "opers": [
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "水月",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

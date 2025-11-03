@@ -1,0 +1,90 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_16-08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 9000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 18000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 22000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 23000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 13000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "反常光谱 16-9",
+        "details": "——————————\n作业更新日期: 2025-10-14T00:35:57Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：70769\n——————————\n反常光谱 16-9"
+    },
+    "groups": [],
+    "opers": []
+}

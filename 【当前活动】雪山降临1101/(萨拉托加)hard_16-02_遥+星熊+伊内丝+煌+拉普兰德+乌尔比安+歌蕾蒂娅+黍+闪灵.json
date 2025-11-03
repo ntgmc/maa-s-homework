@@ -1,0 +1,182 @@
+{
+    "stage_name": "hard_16-02",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "H16-2",
+        "details": "——————————\n作业更新日期: 2025-10-17T04:13:39Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：71682\n——————————\n老星熊练度越高最好 带X模，60级一级模组扛不住\n原作者：萧然Q json作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【反常光谱】H16-1至H16-4 摆完挂机 简单好抄 明日方舟主线15章】 https://www.bilibili.com/video/BV1FNWvzgEHf/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "opers": [
+        {
+            "name": "遥",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 2
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "module": 1
+            }
+        },
+        {
+            "name": "伊内丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "module": -1
+            }
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "module": -1
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "module": 1
+            }
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "module": -1
+            }
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "module": -1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "伊内丝",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "遥",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "黍",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "闪灵",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "拉普兰德",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Retreat",
+            "name": "伊内丝",
+            "kills": 13
+        },
+        {
+            "name": "星熊",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "kills": 13,
+            "pre_delay": 5500
+        },
+        {
+            "name": "伊内丝",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

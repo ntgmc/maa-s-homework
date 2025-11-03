@@ -1,0 +1,105 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "level_crisis_v2_03-02",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "kills": 8
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "风笛",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "净罪作战 落尘狭路 200分",
+        "details": "——————————\n作业更新日期: 2025-02-11T23:38:39Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：46858\n——————————\nTAG：看不懂评论区有图\n■■□□\n┃\n■┰□□占 位 ┎■\n■■（■□） ┸□\n□□□□\n■■■□\n┃\n■□□\n原作者萧然Q JSON作者萨拉托加\n作业交流群群号1009052305，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【净罪作战】全关卡全任务 简单好抄 （挂机好难。更新至2.12 落尘狭路 危机合约 浸血焦土620）】 https://www.bilibili.com/video/BV1SXPSesEuU/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,504 @@
+{
+    "type": "SSS",
+    "stage_name": "阿尔斯特甜品制作平台",
+    "minimum_required": "v4.9.0",
+    "doc": {
+        "title": "保全派驻-阿尔斯特甜品制作平台-澄闪铃兰双核低配（精二30专0）",
+        "title_color": "dark",
+        "details": "——————————\n作业更新日期: 2023-08-30T09:51:40Z\n统计更新日期: 2025-11-03\n相对评分：86.17%  相对热度：75.77%\n来源：KokomiSama  ID：25737\n——————————\n由于是低配双核作业，第六层成功率极低，因此将其直接删除\n（第五层打完自动结束保全，会提示Recongnition error or JSON does not support this，不用管）\n有需要可以在评论区留言（我会随缘看）。\n\n澄闪铃兰双核\n其余核默认为： 塞爹，纯爱，夜莺（非必须，可自行在JSON文件内更改）\n更改方式：右键->打开方式->记事本->编辑->替换->（如：夜莺->白面鸮）->全部替换->保存\n\n技能携带： 澄闪 2, 铃兰 2, 塞雷娅 1, 纯烬艾雅法拉 1, 夜莺 2\n\n工具人： 先锋: 3, 辅助: 2, 重装: 2, 术士: 1, 狙击: 7\n\n定向导能原件：能量扰动放大器\n\n战术装备： \n \"A\", \"A\", \"B\", \"A\",\n \"A\", \"A\", \"A\", \"B\"\n\n\n重点！！ ->  若遇到Bug请先尝试更新MAA至最新版本\n更新方式：MAA->设置->软件更新->更新版本选择内测版->检查更新\n若依然无法解决请在评论区留言。\n\n",
+        "details_color": "dark"
+    },
+    "buff": "能量扰动放大器",
+    "equipment": [
+        "A",
+        "A",
+        "B",
+        "A",
+        "A",
+        "A",
+        "A",
+        "B"
+    ],
+    "strategy": "优选策略",
+    "opers": [
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "铃兰",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "tool_men": {
+        "先锋": 3,
+        "辅助": 2,
+        "重装": 2,
+        "术士": 1,
+        "狙击": 7
+    },
+    "drops": [
+        "无需增调干员",
+        "狙击",
+        "辅助",
+        "先锋",
+        "重装",
+        "医疗",
+        "近卫",
+        "信号阻断插件",
+        "异态激化插件",
+        "超频转化模块",
+        "聚能回收模块"
+    ],
+    "blacklist": [
+        "罗比菈塔",
+        "掠风",
+        "白铁",
+        "史尔特尔",
+        "玛恩纳",
+        "龙舌兰",
+        "幽灵鲨",
+        "陈",
+        "耀骑士临光",
+        "斯卡蒂",
+        "赫拉格",
+        "宴",
+        "羽毛笔",
+        "重岳",
+        "莫斯提马",
+        "远山",
+        "天火",
+        "炎熔",
+        "赤冬",
+        "炎狱炎熔",
+        "莱恩哈特",
+        "格雷伊",
+        "蚀清",
+        "梅尔",
+        "罗小黑",
+        "U-Official",
+        "阿米娅",
+        "玫兰莎",
+        "缪尔赛思"
+    ],
+    "stages": [
+        {
+            "stage_name": "糖霜硬壳",
+            "strategies": [
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "狙击": 3
+                    },
+                    "location": [
+                        4,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "core": "塞雷娅",
+                    "tool_men": {
+                        "先锋": 2,
+                        "重装": 1
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "铃兰",
+                    "tool_men": {
+                        "术士": 1,
+                        "狙击": 3
+                    },
+                    "location": [
+                        5,
+                        2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "纯烬艾雅法拉",
+                    "tool_men": {
+                        "辅助": 3
+                    },
+                    "location": [
+                        3,
+                        2
+                    ],
+                    "direction": "Right"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "部署",
+                    "name": "能量扰动放大器",
+                    "location": [
+                        4,
+                        2
+                    ],
+                    "direction": "Down"
+                }
+            ],
+            "retry_times": 5
+        },
+        {
+            "stage_name": "甜美派对",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "先锋": 1
+                    },
+                    "location": [
+                        8,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "狙击": 4
+                    },
+                    "location": [
+                        7,
+                        4
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "core": "塞雷娅",
+                    "tool_men": {
+                        "先锋": 1,
+                        "重装": 2
+                    },
+                    "location": [
+                        8,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "铃兰",
+                    "tool_men": {
+                        "狙击": 3
+                    },
+                    "location": [
+                        8,
+                        2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "纯烬艾雅法拉",
+                    "tool_men": {
+                        "辅助": 3
+                    },
+                    "location": [
+                        7,
+                        5
+                    ],
+                    "direction": "Up"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "部署",
+                    "name": "能量扰动放大器",
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Down"
+                }
+            ],
+            "retry_times": 5
+        },
+        {
+            "stage_name": "干酪封锁",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "先锋": 1
+                    },
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "狙击": 2
+                    },
+                    "location": [
+                        5,
+                        5
+                    ],
+                    "direction": "Up"
+                },
+                {
+                    "core": "塞雷娅",
+                    "tool_men": {
+                        "重装": 1
+                    },
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "纯烬艾雅法拉",
+                    "tool_men": {
+                        "辅助": 2
+                    },
+                    "location": [
+                        8,
+                        4
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "铃兰",
+                    "tool_men": {
+                        "狙击": 2
+                    },
+                    "location": [
+                        6,
+                        3
+                    ],
+                    "direction": "Left"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "部署",
+                    "name": "能量扰动放大器",
+                    "location": [
+                        5,
+                        4
+                    ],
+                    "direction": "Down"
+                }
+            ],
+            "retry_times": 5
+        },
+        {
+            "stage_name": "先进工艺",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "先锋": 1
+                    },
+                    "location": [
+                        4,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "狙击": 2
+                    },
+                    "location": [
+                        5,
+                        2
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "塞雷娅",
+                    "tool_men": {
+                        "重装": 1
+                    },
+                    "location": [
+                        4,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "铃兰",
+                    "tool_men": {
+                        "狙击": 3
+                    },
+                    "location": [
+                        3,
+                        4
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "夜莺",
+                    "tool_men": {
+                        "辅助": 3
+                    },
+                    "location": [
+                        4,
+                        2
+                    ],
+                    "direction": "Down"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "部署",
+                    "name": "能量扰动放大器",
+                    "location": [
+                        5,
+                        4
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "type": "部署",
+                    "name": "纯烬艾雅法拉",
+                    "location": [
+                        6,
+                        4
+                    ],
+                    "direction": "Left"
+                }
+            ],
+            "retry_times": 5
+        },
+        {
+            "stage_name": "奶油四溅",
+            "strategies": [
+                {
+                    "tool_men": {
+                        "先锋": 1
+                    },
+                    "location": [
+                        2,
+                        3
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "core": "澄闪",
+                    "tool_men": {
+                        "狙击": 2
+                    },
+                    "location": [
+                        5,
+                        3
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "铃兰",
+                    "tool_men": {
+                        "狙击": 3
+                    },
+                    "location": [
+                        5,
+                        2
+                    ],
+                    "direction": "Left"
+                },
+                {
+                    "core": "塞雷娅",
+                    "tool_men": {
+                        "先锋": 1,
+                        "重装": 1
+                    },
+                    "location": [
+                        2,
+                        3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "core": "夜莺",
+                    "tool_men": {
+                        "辅助": 3
+                    },
+                    "location": [
+                        3,
+                        2
+                    ],
+                    "direction": "Right"
+                },
+                {
+                    "tool_men": {
+                        "先锋": 100,
+                        "重装": 100,
+                        "近卫": 100
+                    },
+                    "location": [
+                        1,
+                        3
+                    ],
+                    "direction": "Right"
+                }
+            ],
+            "draw_as_possible": true,
+            "actions": [
+                {
+                    "type": "二倍速"
+                },
+                {
+                    "type": "部署",
+                    "name": "能量扰动放大器",
+                    "location": [
+                        4,
+                        3
+                    ],
+                    "direction": "Down"
+                },
+                {
+                    "type": "部署",
+                    "name": "纯烬艾雅法拉",
+                    "location": [
+                        1,
+                        2
+                    ],
+                    "direction": "Right"
+                }
+            ],
+            "retry_times": 5
+        }
+    ],
+    "groups": [],
+    "actions": []
+}

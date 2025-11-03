@@ -1,0 +1,103 @@
+{
+    "stage_name": "camp_r_29",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "伊比利亚 - 鳞骸盐漠  - 鳞骸盐漠 新干员",
+        "details": "——————————\n作业更新日期: 2025-07-28T00:30:19Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：98.57%\n来源：萨拉托加  ID：63552\n——————————\n原作者萧然Q json作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【鳞骸盐漠400杀】摆完挂机 简单好抄】 https://www.bilibili.com/video/BV18L8VzyE4E/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "opers": [
+        {
+            "name": "伊内丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10,
+                "module": 4
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 1
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "伊内丝",
+            "location": [
+                11,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "娜仁图亚",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "阿斯卡纶",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

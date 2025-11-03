@@ -1,0 +1,97 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_16-13",
+    "actions": [
+        {
+            "type": "Skill",
+            "costs": 25,
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "direction": "Up",
+            "name": "塑心",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "direction": "Down",
+            "location": [
+                4,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "direction": "Up",
+            "location": [
+                5,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "direction": "Down",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "阿斯卡纶",
+            "direction": "Down",
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "反常光谱 - 16-14",
+        "details": "——————————\n作业更新日期: 2025-10-09T09:26:39Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：70751\n——————————\n沙盘推演上右下左\n原作者：萧然Q json作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【反常光谱】16章主线磨难险地/沙盘推演全关卡 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1vnx6zHEyg/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

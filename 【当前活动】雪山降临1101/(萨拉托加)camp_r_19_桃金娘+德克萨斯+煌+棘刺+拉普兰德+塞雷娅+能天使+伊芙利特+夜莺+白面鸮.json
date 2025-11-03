@@ -1,0 +1,168 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "camp_r_19",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "桃金娘",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "夜莺",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Left",
+            "kills": 2
+        },
+        {
+            "type": "Deploy",
+            "name": "白面鸮",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                5,
+                7
+            ],
+            "direction": "Up",
+            "kills": 12
+        },
+        {
+            "type": "Deploy",
+            "name": "拉普兰德",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up",
+            "kills": 18
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right",
+            "kills": 26
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "skill_usage": 0
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "维多利亚 - 腐烂荒野 - 腐烂荒野",
+        "details": "——————————\n作业更新日期: 2023-10-30T12:35:09Z\n统计更新日期: 2025-11-03\n相对评分：97.78%  相对热度：100.00%\n来源：萨拉托加  ID：29512\n——————————\n维多利亚 - 腐烂荒野 - 腐烂荒野\n【老干员稳过【腐烂荒野】摆完挂机 简单好抄 明日方舟 新剿灭 400杀 合成玉攻略 231030-哔哩哔哩】BV16j411e7eZ 化学老施\n拉狗最好专三，因为有可能打不死拉狗前面的树导致塞雷娅放不上去，如果出现这种情况请手动放一下\n最后树哥进家很正常，不会影响奖励，不要在意"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

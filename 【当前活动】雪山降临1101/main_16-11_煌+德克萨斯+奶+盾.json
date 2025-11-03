@@ -1,0 +1,96 @@
+{
+    "stage_name": "main_16-11",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "16-12 深埋地底",
+        "details": "——————————\n作业更新日期: 2025-10-10T15:52:01Z\n统计更新日期: 2025-11-03\n相对评分：98.99%  相对热度：90.22%\n来源：萨扌立托加  ID：71017\n——————————\n【！！星熊刚需x模！！】\n沙盘一右一左\njson作者：萨扌立托加\n作业交流群群号545928846，可蹲作业，有问题进群找萨扌立托加，作业站消息一般看不到\n❤️"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "遥",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 2,
+                    "requirements": {
+                        "module": -1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "盾",
+            "opers": [
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "module": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "盾",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Output",
+            "doc": "Ciallo～(∠・ω< )⌒★",
+            "doc_color": "SpringGreen"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

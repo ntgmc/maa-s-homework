@@ -1,0 +1,73 @@
+{
+    "stage_name": "mem_kichi_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "狙击 - 吉星 - 奖励时刻【吉星悖论模拟】",
+        "details": "——————————\n作业更新日期: 2025-11-01T08:17:06Z\n统计更新日期: 2025-11-03\n相对评分：100.0%  相对热度：100.0%\n来源：小卡拉帕鲁灰  ID：73349\n——————————\n无需专精\n精二1级"
+    },
+    "opers": [
+        {
+            "name": "吉星",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 1,
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "吉星",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "吉星",
+            "costs": 36
+        },
+        {
+            "name": "夜刀",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "夜刀",
+            "pre_delay": 8000
+        },
+        {
+            "type": "Skill",
+            "name": "吉星",
+            "kills": 28,
+            "pre_delay": 14000
+        },
+        {
+            "name": "夜刀",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 30
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

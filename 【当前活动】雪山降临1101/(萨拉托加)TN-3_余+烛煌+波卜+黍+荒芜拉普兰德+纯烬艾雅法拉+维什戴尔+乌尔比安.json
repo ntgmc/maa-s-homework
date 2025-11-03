@@ -1,0 +1,222 @@
+{
+    "stage_name": "act5bossrush_03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "引航者试炼 - TN-3 - 定向恢宏试炼",
+        "details": "——————————\n作业更新日期: 2025-06-25T02:13:39Z\n统计更新日期: 2025-11-03\n相对评分：98.86%  相对热度：100.00%\n来源：萨拉托加  ID：60720\n——————————\n带3级全面过载\n原作者萧然Q json作者：萨拉托加\n作业交流群群号545928846，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【引航者试炼#5】集成特辑全关卡 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1MTKVzmEi4/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "opers": [
+        {
+            "name": "余",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "烛煌",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "波卜",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "黍",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10
+            },
+            "skill_usage": 0
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "direction": "Right",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Deploy",
+            "name": "荒芜拉普兰德",
+            "direction": "Left",
+            "location": [
+                9,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "余",
+            "direction": "Down",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "direction": "Down",
+            "location": [
+                9,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "direction": "Down",
+            "location": [
+                5,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "烛煌",
+            "direction": "Up",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "distance": [
+                6.5,
+                0
+            ],
+            "type": "MoveCamera",
+            "kills": 1,
+            "pre_delay": 15000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "distance": [
+                4,
+                0
+            ],
+            "type": "MoveCamera",
+            "kills": 15,
+            "pre_delay": 13000
+        },
+        {
+            "type": "Deploy",
+            "name": "烛煌",
+            "direction": "Up",
+            "location": [
+                17,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "波卜",
+            "direction": "Left",
+            "location": [
+                16,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "direction": "Up",
+            "location": [
+                19,
+                5
+            ]
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                14,
+                2
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "location": [
+                18,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Deploy",
+            "name": "余",
+            "direction": "Left",
+            "location": [
+                17,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "direction": "Up",
+            "location": [
+                20,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "direction": "Right",
+            "location": [
+                20,
+                3
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

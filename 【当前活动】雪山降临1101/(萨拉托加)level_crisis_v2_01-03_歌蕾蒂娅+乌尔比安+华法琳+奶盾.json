@@ -1,0 +1,100 @@
+{
+    "stage_name": "level_crisis_v2_01-03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "危机合约弧光作战 联邦监狱 200分",
+        "details": "——————————\n作业更新日期: 2025-08-14T10:08:00Z\n统计更新日期: 2025-11-03\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：65147\n——————————\nTAG进视频点\n第一串右下角or不选，其余全选，or全选下\n第二串选一横线四个\n第三串选第一个\n第四串只选开头or第三个\n原作者萧然Q JSON作者萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【弧光作战】全关卡全任务 简单好抄（挂机持续更新中，更新至8.14联邦监狱）-哔哩哔哩】 https://b23.tv/x9wIPSx\n"
+    },
+    "opers": [
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "华法琳",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 2
+                    }
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "乌尔比安",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                11,
+                1
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶盾",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "华法琳",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

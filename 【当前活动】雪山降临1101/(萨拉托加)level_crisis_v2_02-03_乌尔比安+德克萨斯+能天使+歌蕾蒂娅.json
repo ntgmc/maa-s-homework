@@ -1,0 +1,84 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "level_crisis_v2_02-03",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "direction": "Up",
+            "location": [
+                4,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "能天使",
+            "direction": "Left",
+            "location": [
+                5,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "德克萨斯",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "爆破装置",
+            "direction": "Down",
+            "location": [
+                3,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "危机合约弧光作战 枯苇泥淖200分",
+        "details": "——————————\n作业更新日期: 2025-08-20T22:16:52Z\n统计更新日期: 2025-11-03\n相对评分：97.92%  相对热度：96.76%\n来源：萨拉托加  ID：65804\n——————————\nTAG进视频点\n第一串全选，or选下\n第二串选前三个加上面一个\n第三串选前两个，or选上\n第四串不点最后一个，or选下\n原作者萧然Q JSON作者萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【弧光作战】全关卡全任务 简单好抄（挂机持续更新中，更新至8.21枯苇泥淖）】 https://www.bilibili.com/video/BV19tb6z4EAS/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

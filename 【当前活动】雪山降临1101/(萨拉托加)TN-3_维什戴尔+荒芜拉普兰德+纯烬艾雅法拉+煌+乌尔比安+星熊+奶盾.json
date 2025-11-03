@@ -1,0 +1,220 @@
+{
+    "stage_name": "act5bossrush_03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "引航者试炼 - TN-3 - 初始试炼",
+        "details": "——————————\n作业更新日期: 2025-06-25T02:14:00Z\n统计更新日期: 2025-11-03\n相对评分：92.05%  相对热度：91.75%\n来源：萨拉托加  ID：60689\n——————————\n带3级全面过载\n原作者萧然Q json作者：萨拉托加\n作业交流群群号545928846，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【引航者试炼#5】集成特辑全关卡 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1MTKVzmEi4/?share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "乌尔比安",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "distance": [
+                6.5,
+                0
+            ],
+            "type": "MoveCamera",
+            "kills": 1,
+            "pre_delay": 15000
+        },
+        {
+            "name": "奶盾",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "星熊",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "distance": [
+                4,
+                0
+            ],
+            "type": "MoveCamera",
+            "kills": 15,
+            "pre_delay": 13000
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                15,
+                1
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                18,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                19,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                14,
+                2
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "location": [
+                18,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶盾",
+            "location": [
+                20,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "星熊",
+            "location": [
+                18,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}
