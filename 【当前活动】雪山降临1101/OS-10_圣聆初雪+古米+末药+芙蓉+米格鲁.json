@@ -1,0 +1,193 @@
+{
+    "stage_name": "act46side_10",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-10 - 耶拉冈德在上 低配",
+        "details": "——————————\n作业更新日期: 2025-11-05T04:45:00Z\n统计更新日期: 2025-11-06\n相对评分：85.71%  相对热度：67.77%\n来源：魔道孑然  ID：73466\n——————————\n80级7技三模圣女测试通过\n作业作者:低配挂机研讨会\nJson作者:魔道孑然\n编队界面左边记得把装置切换成“落雪防护装置”\n【【明日方舟】 雪山降临 OS-10   吓哭了-哔哩哔哩】 https://b23.tv/qe94W0s"
+    },
+    "opers": [
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "古米",
+            "opers": [
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "凛御银灰",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "末药",
+            "opers": [
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "芙蓉",
+            "opers": [
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "米格鲁",
+            "opers": [
+                {
+                    "name": "米格鲁",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "星熊",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "斩业星熊",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "pre_delay": 4000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "圣聆初雪",
+            "direction": "Down",
+            "location": [
+                10,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                9,
+                5
+            ],
+            "name": "末药",
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "direction": "Up",
+            "location": [
+                9,
+                7
+            ]
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                8,
+                5
+            ],
+            "name": "落雪防护装置",
+            "direction": "None"
+        },
+        {
+            "distance": [
+                4,
+                0
+            ],
+            "type": "MoveCamera"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                14,
+                6
+            ],
+            "direction": "Up",
+            "kills": 10,
+            "name": "芙蓉"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "direction": "Left",
+            "location": [
+                14,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                8,
+                5
+            ],
+            "name": "落雪防护装置",
+            "direction": "None"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

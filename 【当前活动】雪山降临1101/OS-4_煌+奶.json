@@ -1,0 +1,99 @@
+{
+    "stage_name": "act46side_04",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "【萧然Q】OS-4 - 并蒂生",
+        "details": "——————————\n作业更新日期: 2025-11-01T12:14:47Z\n统计更新日期: 2025-11-06\n相对评分：99.00%  相对热度：69.16%\n来源：haomie  ID：73381\n——————————\nhttps://www.bilibili.com/video/BV1Bp1LBQE9u"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "elite": 1
+                    }
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 40,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 40,
+                        "skill_level": 7,
+                        "module": -1
+                    }
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 40,
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "障碍物",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        }
+    ],
+    "version": 3
+}

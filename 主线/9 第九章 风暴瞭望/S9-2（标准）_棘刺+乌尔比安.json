@@ -1,0 +1,49 @@
+{
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "S9-2高配挂机【自用修改测试】",
+        "details": "——————————\n作业更新日期: 2025-03-29T03:04:41Z\n统计更新日期: 2025-11-06\n相对评分：97.92%  相对热度：76.01%\n来源：只为方便小号box用maa的人  ID：49237\n——————————\nUP：刻俄柏_\n原视频：https://www.bilibili.com/video/BV1Z14y177sE/\n原制作者：一只摆烂的42\n"
+    },
+    "stage_name": "sub_09-1-2",
+    "opers": [
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "name": ""
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down",
+            "kills": 16
+        },
+        {
+            "type": "SkillDaemon",
+            "name": ""
+        }
+    ]
+}

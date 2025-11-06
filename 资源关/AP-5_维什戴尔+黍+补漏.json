@@ -3,7 +3,7 @@
     "minimum_required": "v4.0.0",
     "doc": {
         "title": "【双核】优化版 - AP-5 - 精炼工厂保全",
-        "details": "——————————\n作业更新日期: 2025-07-13T05:59:16Z\n统计更新日期: 2025-07-15\n好评率：100.0%  浏览量：267\n来源：Martin Zhao  ID：57355\n——————————\n\n攻略作者：LitYr  https://www.bilibili.com/video/BV1Ew4m1975A\n攻略优化：Martin Zhao\n自动战斗作者：Martin Zhao\n练度：维什戴尔29010，黍28010\n对原攻略做了一些优化，添加了补漏用的干员，日后可能会扩充补漏干员列表"
+        "details": "——————————\n作业更新日期: 2025-10-04T06:47:27Z\n统计更新日期: 2025-11-06\n相对评分：80.41%  相对热度：61.82%\n来源：Martin Zhao  ID：57355\n——————————\n攻略作者：LitYr  https://www.bilibili.com/video/BV1Ew4m1975A\n攻略优化：Martin Zhao\n自动战斗作者：Martin Zhao\n练度：维什戴尔29010，黍28010\n对原攻略做了一些优化，添加了补漏用的干员，日后可能会扩充补漏干员列表"
     },
     "opers": [
         {
@@ -158,6 +158,9 @@
             ],
             "kills": 34,
             "pre_delay": 0
+        },
+        {
+            "type": "SkillDaemon"
         }
     ],
     "version": 3

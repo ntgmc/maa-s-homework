@@ -1,0 +1,62 @@
+{
+    "stage_name": "act46side_01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "【萧然Q】OS-1 - 呼号声中",
+        "details": "——————————\n作业更新日期: 2025-11-01T11:58:42Z\n统计更新日期: 2025-11-06\n相对评分：99.00%  相对热度：68.86%\n来源：haomie  ID：73418\n——————————\nhttps://www.bilibili.com/video/BV1Bp1LBQE9u"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "elite": 1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "os-1",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 4
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "os-1",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        }
+    ],
+    "version": 3
+}

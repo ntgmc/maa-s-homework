@@ -1,0 +1,55 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_07-02",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "斥罪",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "斥罪",
+            "skill_usage": 1,
+            "kills": 8,
+            "pre_delay": 3000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第七章 苦难摇篮 - 7-3 - 变节之刃 -斥罪单核",
+        "details": "——————————\n作业更新日期: 2024-04-06T07:32:46Z\n统计更新日期: 2025-11-06\n相对评分：92.78%  相对热度：73.17%\n来源：小卡拉帕鲁灰  ID：35738\n——————————\n斥罪90级专三、一级模组"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "斥罪",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

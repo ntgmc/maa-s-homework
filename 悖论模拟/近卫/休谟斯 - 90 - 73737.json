@@ -1,0 +1,45 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_humus_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "休谟斯",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 9000,
+            "name": "休谟斯"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 34000,
+            "name": "休谟斯"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 35000,
+            "name": "休谟斯"
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 休谟斯 - “铮铮铁骨”悖论模拟",
+        "details": "——————————\n作业更新日期: 2025-11-02T16:56:18Z\n统计更新日期: 2025-11-06\n相对评分：90.62%  相对热度：58.809999999999995%\n来源：罐头同学  ID：73737\n——————————\n【【明日方舟】休谟斯 悖论模拟/无需专精/看一遍就过/简单操作/倾九/火山旅梦】 https://www.bilibili.com/video/BV1Eu4y1m7mJ/?share_source=copy_web&vd_source=487a862a92ceb465fb8e11f56063499e"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "休谟斯",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

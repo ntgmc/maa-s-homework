@@ -1,0 +1,74 @@
+{
+    "stage_name": "act46side_06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-6 - 绿翡翠",
+        "details": "——————————\n作业更新日期: 2025-11-01T09:52:00Z\n统计更新日期: 2025-11-06\n相对评分：100.00%  相对热度：80.23%\n来源：星之海.  ID：73391\n——————————\n此作业全员专三且模组一级\n原作者：自在道爷    JSON作者：星之海.\n社区评论不会提醒，作业有问题可以进群找我：994516079\n原视频：【【雪山降临1101】OS-1至OS-10挂机流，刻章也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(分p更新中)】https://www.bilibili.com/video/BV1it1LBJEHL?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "推人特种",
+            "opers": [
+                {
+                    "name": "温蒂",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "食铁兽",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "阿消",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 2,
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "煌",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "推人特种",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

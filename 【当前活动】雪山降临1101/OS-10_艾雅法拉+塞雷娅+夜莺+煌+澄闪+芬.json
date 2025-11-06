@@ -1,0 +1,172 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_10",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "pre_delay": 4000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "direction": "Up",
+            "location": [
+                6,
+                6
+            ],
+            "costs": 35
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "direction": "Right",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                4,
+                0
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "direction": "Right",
+            "location": [
+                14,
+                7
+            ]
+        },
+        {
+            "type": "Deploy",
+            "pre_delay": 1000,
+            "name": "艾雅法拉",
+            "direction": "Up",
+            "location": [
+                11,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "pre_delay": 1000,
+            "name": "夜莺",
+            "direction": "Left",
+            "location": [
+                14,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "direction": "Left",
+            "location": [
+                12,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "direction": "Left",
+            "location": [
+                13,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "direction": "Left",
+            "location": [
+                14,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "kills": 18,
+            "name": "雪崩触发装置",
+            "direction": "None",
+            "location": [
+                16,
+                7
+            ]
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                -2,
+                0
+            ]
+        },
+        {
+            "type": "Deploy",
+            "kills": 28,
+            "name": "雪崩触发装置",
+            "direction": "None",
+            "location": [
+                16,
+                7
+            ],
+            "pre_delay": 9000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-10 - 耶拉冈德在上 ",
+        "details": "——————————\n作业更新日期: 2025-11-01T12:34:06Z\n统计更新日期: 2025-11-06\n相对评分：97.96%  相对热度：80.57%\n来源：焕彩gg  ID：73288\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

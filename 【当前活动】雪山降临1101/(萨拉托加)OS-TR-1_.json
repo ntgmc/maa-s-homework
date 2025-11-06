@@ -1,0 +1,137 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_tr01",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 22,
+            "pre_delay": 4000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 29,
+            "pre_delay": 4000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 45,
+            "pre_delay": 4000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 72,
+            "pre_delay": 4000
+        },
+        {
+            "type": "Deploy",
+            "name": "极光",
+            "direction": "Down",
+            "location": [
+                4,
+                2
+            ],
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 46,
+            "pre_delay": 4000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 3000
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-TR-1 - 第一片雪",
+        "details": "——————————\n作业更新日期: 2025-11-01T06:43:51Z\n统计更新日期: 2025-11-06\n相对评分：100.00%  相对热度：100.00%\n来源：萨拉托加  ID：73283\n——————————\n应该能自动点剧情\njson作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到"
+    },
+    "groups": [],
+    "opers": []
+}

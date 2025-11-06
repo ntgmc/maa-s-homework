@@ -1,0 +1,147 @@
+{
+    "stage_name": "act46side_05",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-5 - 雪夜独行 - 三星",
+        "details": "——————————\n作业更新日期: 2025-11-01T13:40:28Z\n统计更新日期: 2025-11-06\n相对评分：97.98%  相对热度：66.82%\n来源：小卡拉帕鲁灰  ID：73465\n——————————\n单核（无核）\nJSON作者：小卡拉帕鲁灰，B站同名\n本作业已开启截图增强\n求关注"
+    },
+    "opers": [
+        {
+            "name": "芬",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "黑角"
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "巡林者"
+        },
+        {
+            "name": "炎熔",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "name": "芬",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "斑点",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "克洛丝",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "黑角",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "炎熔",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "巡林者",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "炎熔",
+            "kills": 5
+        },
+        {
+            "name": "炎熔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "安赛尔",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

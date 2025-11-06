@@ -1,0 +1,99 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_05",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                6,
+                6
+            ],
+            "name": "古米",
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "direction": "Down",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "kills": 4,
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "direction": "Right",
+            "location": [
+                2,
+                4
+            ],
+            "pre_delay": 100
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "direction": "Right",
+            "location": [
+                2,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "kills": 31,
+            "name": "维什戴尔"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-5 - 雪夜独行",
+        "details": "——————————\n作业更新日期: 2025-11-01T14:56:12Z\n统计更新日期: 2025-11-06\n相对评分：95.96%  相对热度：75.51%\n来源：焕彩gg  ID：73248\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            },
+            "skill": 3
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

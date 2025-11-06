@@ -1,0 +1,316 @@
+{
+    "stage_name": "hard_09-06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第九章 风暴瞭望 - H9-6（标准） - 急雨行动-个人修改版",
+        "details": "——————————\n作业更新日期: 2025-06-01T05:21:21Z\n统计更新日期: 2025-11-06\n相对评分：100.00%  相对热度：84.23%\n来源：幻海潮汐  ID：58823\n——————————\nBV1P3411L7rK\nup：侬无言以对\n视频练度：2-60-3(?)，潜1+，风笛X模组\n对原本的作业进行一定的新干员替换，若有进一步替换会更新此作业\n可替换干员已经放在干员组内\n目前替换干员后有两种随机轴导致的问题\n第一个轴：风笛暴击，暴击过少会导致下路漏怪\n第二个轴：忍冬索敌，忍冬开启技能索敌导致漏过去的两个近战单位时就会导致漏怪，如果漏过的是远程单位则可以正常击杀\n此外，原作业鸟笼秒撤导致没有引到boss技能导致小火龙被击败的问题已经解决。该乱轴原因是逻各斯或棘刺击杀过快导致，现在已经加入延迟撤退解决该问题。"
+    },
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "左上主力",
+            "opers": [
+                {
+                    "name": "能天使",
+                    "skill": 3,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "逻各斯"
+                }
+            ]
+        },
+        {
+            "name": "吟游者",
+            "opers": [
+                {
+                    "name": "浊心斯卡蒂",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "魔王"
+                }
+            ]
+        },
+        {
+            "name": "先锋",
+            "opers": [
+                {
+                    "name": "推进之王",
+                    "skill": 2,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "忍冬",
+                    "skill": 3,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "先锋",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "风笛",
+            "location": [
+                9,
+                7
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "吟游者",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "左上主力",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "post_delay": 0
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "棘刺",
+            "location": [
+                10,
+                7
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "post_delay": 0
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "煌",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "伊芙利特",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "kills": 23
+        },
+        {
+            "name": "白面鸮",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "夜莺",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "cooling": 1
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "风笛",
+            "location": [
+                9,
+                7
+            ],
+            "kills": 84
+        },
+        {
+            "name": "先锋",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "先锋",
+            "location": [
+                2,
+                4
+            ],
+            "kills": 91
+        },
+        {
+            "name": "幻影",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 92
+        },
+        {
+            "type": "Retreat",
+            "name": "幻影",
+            "location": [
+                1,
+                4
+            ],
+            "cooling": 2,
+            "pre_delay": 2
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "闪灵",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "kills": 111,
+            "cooling": 1,
+            "post_delay": 0
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 113
+        },
+        {
+            "type": "Retreat",
+            "name": "艾雅法拉",
+            "location": [
+                2,
+                5
+            ],
+            "kills": 115
+        },
+        {
+            "name": "风笛",
+            "location": [
+                9,
+                7
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "post_delay": 0
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Output",
+            "kills": 120
+        },
+        {
+            "type": "Skill",
+            "name": "白面鸮",
+            "location": [
+                9,
+                6
+            ]
+        }
+    ],
+    "version": 2
+}

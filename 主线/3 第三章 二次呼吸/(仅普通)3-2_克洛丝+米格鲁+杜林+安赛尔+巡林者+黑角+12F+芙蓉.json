@@ -1,0 +1,129 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_03-02",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "杜林",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "巡林者",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "米格鲁",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "芙蓉",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "12F",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        }
+    ],
+    "doc": {
+        "title": "第三章 二次呼吸 - 3-2 - 记忆",
+        "details": "——————————\n作业更新日期: 2025-05-10T09:56:02Z\n统计更新日期: 2025-11-06\n相对评分：96.77%  相对热度：98.82%\n来源：yuunci  ID：53255\n——————————\n第三章 二次呼吸 - 3-2 - 记忆"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "杜林",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "巡林者",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "12F",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}
