@@ -1,0 +1,139 @@
+{
+    "stage_name": "act46side_10",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-10 - 耶拉冈德在上",
+        "details": "——————————\n作业更新日期: 2025-11-01T12:04:49Z\n统计更新日期: 2025-11-06\n相对评分：98.98%  相对热度：90.76%\n来源：星之海.  ID：73405\n——————————\n手点过剧情\n此作业全员专三且模组一级\n原作者：自在道爷    JSON作者：星之海.\n社区评论不会提醒，作业有问题可以进群找我：994516079\n原视频：【【雪山降临1101】OS-1至OS-10挂机流，刻章也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(分p更新中)】https://www.bilibili.com/video/BV1it1LBJEHL?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+    },
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "夜莺",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "夜莺",
+            "location": [
+                11,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "澄闪",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "能天使",
+            "location": [
+                12,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "distance": [
+                4,
+                0
+            ],
+            "type": "MoveCamera"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                14,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "kills": 10
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                13,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                14,
+                7
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

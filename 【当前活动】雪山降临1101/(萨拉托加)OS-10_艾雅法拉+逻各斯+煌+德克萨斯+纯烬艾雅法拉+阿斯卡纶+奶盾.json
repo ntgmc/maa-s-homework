@@ -1,0 +1,174 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_10",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "pre_delay": 4000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "direction": "Up",
+            "location": [
+                10,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "direction": "Right",
+            "location": [
+                5,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "direction": "Up",
+            "location": [
+                12,
+                6
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                4,
+                0
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "direction": "Left",
+            "location": [
+                14,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "pre_delay": 1000,
+            "name": "艾雅法拉",
+            "direction": "Up",
+            "location": [
+                18,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "pre_delay": 1000,
+            "name": "奶盾",
+            "direction": "Down",
+            "location": [
+                18,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "阿斯卡纶",
+            "direction": "Up",
+            "location": [
+                14,
+                4
+            ]
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                -2,
+                0
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "direction": "Up",
+            "location": [
+                6,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "direction": "Up",
+            "location": [
+                6,
+                5
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-10 - 耶拉冈德在上 初版",
+        "details": "——————————\n作业更新日期: 2025-11-01T07:39:13Z\n统计更新日期: 2025-11-06\n相对评分：98.98%  相对热度：95.50%\n来源：萨拉托加  ID：73239\n——————————\njson作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

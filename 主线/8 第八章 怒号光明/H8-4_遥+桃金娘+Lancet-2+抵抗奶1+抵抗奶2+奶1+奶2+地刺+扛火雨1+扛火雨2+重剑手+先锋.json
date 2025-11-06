@@ -1,0 +1,647 @@
+{
+    "stage_name": "hard_08-04",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第八章 怒号光明 - H8-4 - 狂夜行动-4 遥单核挂机",
+        "details": "——————————\n作业更新日期: 2025-10-06T05:01:05Z\n统计更新日期: 2025-11-06\n相对评分：92.31%  相对热度：73.12%\n来源：carseny  ID：70416\n——————————\n参考视频：https://www.bilibili.com/video/BV1QFt7zWEs4\n二阶段装置和点燃轴有随机性，过不了多试几次。\n遥2603+1级y模过测，练度越高越好。\n部分干员兼容性未测试，理论上练度比原视频精一60四星高就行。\n\n已测干员：\n末药不够二阶段一击线，装置和点燃轴不好容易暴毙，换成x模夜莺会稳很多。\n白面鸮x模能过，火雨手动开下技能更稳。\nmon3tr当奶能过，但是不是很稳。"
+    },
+    "opers": [
+        {
+            "name": "遥",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "module": 2
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "Lancet-2"
+        }
+    ],
+    "groups": [
+        {
+            "name": "抵抗奶1",
+            "opers": [
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 80,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "絮雨",
+                    "skill": 2,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "elite": 2,
+                        "level": 1,
+                        "skill_level": 10
+                    }
+                }
+            ]
+        },
+        {
+            "name": "抵抗奶2",
+            "opers": [
+                {
+                    "name": "絮雨",
+                    "skill": 2,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 70
+                    }
+                },
+                {
+                    "name": "清流",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶1",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 80,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "requirements": {
+                        "level": 50,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "絮雨",
+                    "skill": 2,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "elite": 2,
+                        "level": 1
+                    }
+                },
+                {
+                    "name": "录武官",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 70,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶2",
+            "opers": [
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 7,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 80,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "Mon3tr",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "requirements": {
+                        "level": 50,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "requirements": {
+                        "level": 50,
+                        "skill_level": 7,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "地刺",
+            "opers": [
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 80,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "绮良",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 70,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "伊桑",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "扛火雨1",
+            "opers": [
+                {
+                    "name": "若叶睦",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 70,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "贝娜",
+                    "skill": 2,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 70,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "维荻",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "斩业星熊",
+                    "skill": 2,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 80,
+                        "skill_level": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "扛火雨2",
+            "opers": [
+                {
+                    "name": "若叶睦",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 70,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "贝娜",
+                    "skill": 2,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 70,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "维荻",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "斩业星熊",
+                    "skill": 2,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 80,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "车尔尼",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 70,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "石棉",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 70,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "暮落",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 70,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "角峰",
+                    "skill": 2,
+                    "requirements": {
+                        "elite": 1,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 80,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 80,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "维娜·维多利亚",
+                    "skill": 2,
+                    "requirements": {
+                        "level": 1,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "薇薇安娜",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "elite": 2,
+                        "level": 1,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "史尔特尔",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "elite": 2,
+                        "level": 1,
+                        "skill_level": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "重剑手",
+            "opers": [
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 80,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "赫德雷",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 80,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "铎铃",
+                    "skill": 1,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 70,
+                        "skill_level": 1
+                    }
+                },
+                {
+                    "name": "石英",
+                    "skill": 1,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "先锋",
+            "opers": [
+                {
+                    "name": "德克萨斯",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 70,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "凛冬",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 70,
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "讯使",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "清道夫",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "芬",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "遥",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "先锋",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "扛火雨1",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "重剑手",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 8
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "kills": 14
+        },
+        {
+            "name": "抵抗奶2",
+            "location": [
+                10,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 22
+        },
+        {
+            "name": "抵抗奶1",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "Lancet-2",
+            "location": [
+                11,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶1",
+            "location": [
+                11,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶2",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "扛火雨2",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "扛火雨1"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "桃金娘",
+            "kills": 37
+        },
+        {
+            "name": "扛火雨1",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "先锋"
+        },
+        {
+            "name": "地刺",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "清流",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "kills": 42,
+            "cooling": 1,
+            "doc": "用干员被击倒猜测火雨轴，不一定准"
+        },
+        {
+            "name": "白面鸮",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "亚叶",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "若叶睦",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "角峰",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "先锋",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "扛火雨1",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

@@ -1,0 +1,92 @@
+{
+    "stage_name": "mem_aroma_1",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "术师 - 阿罗玛 - 表面活性",
+        "details": "——————————\n作业更新日期: 2025-11-03T13:58:39Z\n统计更新日期: 2025-11-06\n相对评分：100.0%  相对热度：46.739999999999995%\n来源：风琴戏雨  ID：73997\n——————————\n精21级4级2技能，可能还能更低"
+    },
+    "opers": [
+        {
+            "name": "阿罗玛",
+            "skill": 2,
+            "requirements": {
+                "level": 1,
+                "skill_level": 4
+            }
+        },
+        {
+            "name": "奥达"
+        },
+        {
+            "name": "Lancet-2"
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "阿罗玛",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 20
+        },
+        {
+            "name": "奥达",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "costs": 21
+        },
+        {
+            "name": "Lancet-2",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "阿罗玛",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "奥达",
+            "skill_usage": 2,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "kills": 21
+        },
+        {
+            "type": "Skill",
+            "name": "奥达",
+            "kills": 22,
+            "pre_delay": 5000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

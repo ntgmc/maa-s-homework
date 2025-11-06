@@ -1,0 +1,166 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act16side_ex05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "新约能天使",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使"
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 4
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 7
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 0,
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 11
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 0,
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 15
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 0,
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 23
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 0,
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 28
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 0,
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 32,
+            "pre_delay": 0
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 0,
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 28
+        },
+        {
+            "type": "Skill",
+            "name": "新约能天使",
+            "kills": 0,
+            "pre_delay": 2000
+        },
+        {
+            "type": "SkillUsage",
+            "name": "新约能天使",
+            "kills": 35,
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "新约能天使模组任务 GA-EX-5 ",
+        "details": "——————————\n作业更新日期: 2025-05-02T07:39:59Z\n统计更新日期: 2025-11-06\n相对评分：100.0%  相对热度：100.0%\n来源：xf22cn@qq.com  ID：51872\n——————————\n本作业能一次完成新约能天使的2个模组任务。\nUP主：涂绘天菜\n视频地址：https://www.bilibili.com/video/BV1FuGvz7ERP/\n感谢UP主的辛勤付出，有条件的同学请观看UP主的视频！感谢！"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "新约能天使",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 1
+}

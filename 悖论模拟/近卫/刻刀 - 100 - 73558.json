@@ -1,0 +1,266 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_cutter_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up",
+            "costs": 14
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                1,
+                5
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                9,
+                4
+            ],
+            "name": "刻刀",
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "direction": "Right",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                8,
+                4
+            ],
+            "kills": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "嘉维尔",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "name": "刻刀",
+            "pre_delay": 500,
+            "costs": 12
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 28
+        },
+        {
+            "type": "Skill",
+            "costs": 30,
+            "name": "刻刀"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                8,
+                2
+            ],
+            "pre_delay": 100
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                1,
+                2
+            ],
+            "name": "砾",
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                1,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Deploy",
+            "name": "末药",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "name": "刻刀",
+            "costs": 53,
+            "pre_delay": 400
+        },
+        {
+            "type": "Skill",
+            "location": [
+                6,
+                1
+            ],
+            "costs": 68,
+            "pre_delay": 200
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 200,
+            "location": [
+                8,
+                1
+            ]
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 30
+        },
+        {
+            "type": "Skill",
+            "costs": 32,
+            "pre_delay": 400,
+            "name": "刻刀"
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "direction": "Left",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                8,
+                4
+            ],
+            "costs": 23,
+            "pre_delay": 250
+        },
+        {
+            "type": "Deploy",
+            "name": "嘉维尔",
+            "direction": "Right",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "刻刀",
+            "costs": 37,
+            "pre_delay": 250
+        },
+        {
+            "type": "Skill",
+            "costs": 56,
+            "pre_delay": 250,
+            "name": "刻刀"
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Retreat",
+            "costs": 47,
+            "pre_delay": 400,
+            "location": [
+                9,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "砾",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Down",
+            "costs": 84
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                2,
+                2
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "type": "Skill",
+            "name": "刻刀",
+            "costs": 96,
+            "pre_delay": 350
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                9,
+                3
+            ],
+            "name": "砾",
+            "direction": "Down",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 6500,
+            "name": "刻刀"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 8000,
+            "name": "刻刀"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 刻刀 - \t持节之刃",
+        "details": "——————————\n作业更新日期: 2025-11-02T06:33:23Z\n统计更新日期: 2025-11-06\n相对评分：100.0%  相对热度：64.46%\n来源：焕彩gg  ID：73558\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注\n作业来源：https://www.bilibili.com/video/BV1Gi4y1U7C1/?spm_id_from=333.337.search-card.all.click&vd_source=e1c35ba84af40f6e26ba29e2228661f2"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "刻刀",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

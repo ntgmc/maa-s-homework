@@ -1,0 +1,102 @@
+{
+    "actions": [
+        {
+            "type": "部署",
+            "name": "克洛丝",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "讯使",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "部署",
+            "name": "米格鲁",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "上"
+        },
+        {
+            "type": "技能",
+            "location": [
+                5,
+                5
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "阿米娅",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "远山",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "部署",
+            "name": "末药",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "kills": 31,
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "技能",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "type": "技能",
+            "location": [
+                5,
+                3
+            ]
+        }
+    ],
+    "stage_name": "mem_kroos_1",
+    "doc": {
+        "title": "模拟场景1122K",
+        "details": "——————————\n作业更新日期: 2023-04-19T07:07:55Z\n统计更新日期: 2025-11-06\n相对评分：50.0%  相对热度：26.400000000000002%\n来源：作业代传——有问题联系原作者  ID：22738\n——————————\n干员等级：克精一55，一技能7级\n测试版本：395b2\n"
+    },
+    "opers": [
+        {
+            "name": "克洛丝"
+        }
+    ],
+    "groups": [],
+    "minimum_required": "v4.0.0"
+}

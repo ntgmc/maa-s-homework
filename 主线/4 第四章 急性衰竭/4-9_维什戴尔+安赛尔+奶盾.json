@@ -1,0 +1,74 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_04-09",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "direction": "Right",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "安赛尔",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        }
+    ],
+    "doc": {
+        "title": "第四章 急性衰竭 - 4-9 - 彻入骨髓 维什戴尔单核",
+        "details": "——————————\n作业更新日期: 2025-07-24T05:46:40Z\n统计更新日期: 2025-11-06\n相对评分：80.21%  相对热度：81.12%\n来源：一般路过作业人  ID：52395\n——————————\n原作者：低配挂机探讨会\n原视频链接【【明日方舟】2025神级主线攻略 单核轻松！ 摆完挂机！ 入坑必看！！ 0-8章-哔哩哔哩】 https://b23.tv/Xl8tm9h"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "卡缇",
+                    "skill": 1,
+                    "skill_usage": 1
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

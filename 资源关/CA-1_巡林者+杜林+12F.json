@@ -1,0 +1,59 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "wk_fly_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                5,
+                3
+            ],
+            "name": "巡林者",
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                3,
+                5
+            ],
+            "name": "杜林",
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "12F",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "空中威胁 - CA-1 - 疗养用地净空",
+        "details": "——————————\n作业更新日期: 2025-08-31T07:35:10Z\n统计更新日期: 2025-11-06\n相对评分：80.90%  相对热度：56.20%\n来源：焕彩gg  ID：66719\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注。词条看评论区图片。\nhttps://www.bilibili.com/video/BV1ip4y1S7st/?spm_id_from=333.337.search-card.all.click&vd_source=e1c35ba84af40f6e26ba29e2228661f2"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "巡林者",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "杜林",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "12F"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "stage_name": "act46side_08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-8 - 宣告在途",
+        "details": "——————————\n作业更新日期: 2025-11-01T05:21:24Z\n统计更新日期: 2025-11-06\n相对评分：96.00%  相对热度：70.81%\n来源：椰果冰粉  ID：73246\n——————————\n注意ew是精二90级，更低练度没试过，可以自己补点干员防漏\n自用，思路：BV1YX15BVE67"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 5
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "kills": 27
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

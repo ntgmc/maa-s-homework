@@ -1,0 +1,143 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_10",
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "pre_delay": 4000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "direction": "Right",
+            "location": [
+                9,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                8,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "direction": "Down",
+            "location": [
+                10,
+                5
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "落雪防护装置",
+            "direction": "None",
+            "location": [
+                8,
+                5
+            ],
+            "costs": 20
+        },
+        {
+            "type": "MoveCamera",
+            "distance": [
+                4,
+                0
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "location": [
+                13,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "阿斯卡纶",
+            "location": [
+                14,
+                7
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "艾雅法拉",
+            "direction": "Right",
+            "location": [
+                14,
+                6
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-10 - 耶拉冈德在上 换第三个装置",
+        "details": "——————————\n作业更新日期: 2025-11-01T07:34:09Z\n统计更新日期: 2025-11-06\n相对评分：96.94%  相对热度：89.57%\n来源：萨拉托加  ID：73325\n——————————\n这版需要换第三个装置\n原作者：萧然Q json作者：萨拉托加\n作业交流群群号216314927，可蹲作业，有问题进群找我，作业站消息没提醒看不到\n【【雪山降临1101】OS-1至OS-10 摆完挂机 简单好抄】 https://www.bilibili.com/video/BV1Bp1LBQE9u/?p=2&share_source=copy_web&vd_source=3fd5040fe25f6a00e19e6072bcccfa4e"
+    },
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_inside_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "送葬人",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "吽",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "干扰装置",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "隐现",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "狙击 - 隐现 - 按部就班",
+        "details": "——————————\n作业更新日期: 2025-11-03T14:51:07Z\n统计更新日期: 2025-11-06\n相对评分：100.0%  相对热度：100.0%\n来源：apricotoil  ID：74003\n——————————\n狙击 - 隐现 - 按部就班"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "隐现",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "吽",
+            "skill_usage": 0,
+            "skill": 1
+        },
+        {
+            "name": "送葬人",
+            "skill": 2,
+            "skill_usage": 1
+        }
+    ]
+}

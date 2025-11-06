@@ -1,0 +1,75 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_09-03",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left",
+            "name": "德克萨斯"
+        },
+        {
+            "type": "Deploy",
+            "name": "乌尔比安",
+            "direction": "Down",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "direction": "Right",
+            "location": [
+                3,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "歌蕾蒂娅",
+            "direction": "Right",
+            "location": [
+                3,
+                5
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第九章 风暴瞭望 - H9-3（标准） - 暴风行动-3",
+        "details": "——————————\n作业更新日期: 2025-07-31T08:04:24Z\n统计更新日期: 2025-11-06\n相对评分：97.98%  相对热度：75.00%\n来源：HaHaHaHa  ID：63775\n——————————\nup:mozzzzzzzzarella\n【H9-3 三人三步】 https://www.bilibili.com/video/BV1MpY5ecE3A/?share_source=copy_web&vd_source=fdbbfa8099a2cd8e691be6a0ea6a0416\n加了一个防漏"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

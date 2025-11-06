@@ -1,0 +1,47 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_09",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "丰川祥子",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "八幡海铃",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-9 - 凛刃出匣",
+        "details": "——————————\n作业更新日期: 2025-11-01T05:09:08Z\n统计更新日期: 2025-11-06\n相对评分：85.00%  相对热度：57.69%\n来源：pppie  ID：73235\n——————————\nOS-9 - 凛刃出匣"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "丰川祥子",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "八幡海铃",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

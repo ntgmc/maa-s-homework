@@ -1,0 +1,45 @@
+{
+    "stage_name": "act46side_09",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "【萧然Q】OS-9 - 凛刃出匣",
+        "details": "——————————\n作业更新日期: 2025-11-01T10:10:45Z\n统计更新日期: 2025-11-06\n相对评分：99.00%  相对热度：69.23%\n来源：haomie  ID：73396\n——————————\nhttps://www.bilibili.com/video/BV1Bp1LBQE9u"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        }
+    ],
+    "version": 3
+}

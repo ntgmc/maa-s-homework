@@ -1,0 +1,113 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_07",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                3,
+                2
+            ],
+            "name": "克洛丝",
+            "direction": "Down",
+            "kills": 10
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "direction": "Down",
+            "location": [
+                2,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "direction": "Down",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "direction": "Down",
+            "name": "斑点",
+            "location": [
+                2,
+                1
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "pre_delay": 100
+        },
+        {
+            "type": "Deploy",
+            "name": "雪崩触发装置",
+            "direction": "None",
+            "location": [
+                7,
+                5
+            ],
+            "kills": 99
+        },
+        {
+            "type": "Deploy",
+            "name": "雪崩触发装置",
+            "direction": "None",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "雪崩触发装置",
+            "direction": "None",
+            "location": [
+                7,
+                5
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-7 - 焚心灼影",
+        "details": "——————————\n作业更新日期: 2025-11-01T06:04:48Z\n统计更新日期: 2025-11-06\n相对评分：100.00%  相对热度：86.21%\n来源：焕彩gg  ID：73263\n——————————\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            },
+            "skill": 3
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
