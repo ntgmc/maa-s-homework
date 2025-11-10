@@ -1,0 +1,144 @@
+{
+    "stage_name": "act46side_ex03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-3 - 御外敌",
+        "details": "——————————\n作业更新日期: 2025-11-09T10:41:42Z\n统计更新日期: 2025-11-10\n相对评分：97.00%  相对热度：74.45%\n来源：咕咕咕咕了  ID：74541\n——————————\nOS-EX-3 - 御外敌\n建议 精2 60 专3\n没打过的情况 建议再来几次。"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "棘刺",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "山",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "银灰",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶盾",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Deploy",
+            "kills": 16,
+            "name": "棘刺",
+            "direction": "Right",
+            "location": [
+                3,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "山",
+            "location": [
+                5,
+                4
+            ],
+            "kills": 25
+        },
+        {
+            "type": "Skill",
+            "name": "山",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 45
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

@@ -1,0 +1,33 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_03",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right",
+            "name": "丰川祥子"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-3 - 雪灌木中",
+        "details": "——————————\n作业更新日期: 2025-11-01T04:42:51Z\n统计更新日期: 2025-11-10\n相对评分：86.00%  相对热度：57.98%\n来源：pppie  ID：73196\n——————————\nOS-3 - 雪灌木中"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "丰川祥子",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

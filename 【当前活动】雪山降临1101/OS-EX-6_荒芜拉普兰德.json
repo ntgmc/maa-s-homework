@@ -1,0 +1,49 @@
+{
+    "stage_name": "act46side_ex06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-6 - 顺时耕作",
+        "details": "——————————\n作业更新日期: 2025-11-08T10:14:16Z\n统计更新日期: 2025-11-10\n相对评分：90.00%  相对热度：70.24%\n来源：椰果冰粉  ID：74501\n——————————\n自用，思路：BV1vh1SB5ER1\n注意异拉练度，没试过更低配是否能过"
+    },
+    "opers": [
+        {
+            "name": "荒芜拉普兰德",
+            "skill": 3,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "荒芜拉普兰德",
+            "costs": 30
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

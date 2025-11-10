@@ -1,0 +1,77 @@
+{
+    "stage_name": "act15d0_ex03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "孤岛风云·复刻 - MB-EX-3 - 施工漏洞【山模组任务】",
+        "details": "——————————\n作业更新日期: 2025-07-21T10:06:45Z\n统计更新日期: 2025-11-10\n相对评分：89.9%  相对热度：61.89%\n来源：LEYILI  ID：63320\n——————————\n任务要求：3星通关别传MB-EX-3;必须编入非助战山并上场，且不编入其他近卫千员\n自用修改"
+    },
+    "opers": [
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "术士",
+            "opers": [
+                {
+                    "name": "澄闪",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "山",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "术士",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 0
+}

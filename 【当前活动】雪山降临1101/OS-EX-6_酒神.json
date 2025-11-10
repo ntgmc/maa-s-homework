@@ -1,0 +1,129 @@
+{
+    "stage_name": "act46side_ex06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-6 - 顺时耕作",
+        "details": "——————————\n作业更新日期: 2025-11-08T13:32:28Z\n统计更新日期: 2025-11-10\n相对评分：97.00%  相对热度：75.48%\n来源：星佑佑佑  ID：74546\n——————————\n参考视频：BV1so1QBNE7r\n作者：b站@睡觉睡觉睡zz"
+    },
+    "opers": [
+        {
+            "name": "酒神",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": -1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "酒神",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "本能的召唤",
+            "location": [
+                3,
+                3
+            ],
+            "pre_delay": 1000
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "本能的召唤",
+            "location": [
+                4,
+                5
+            ],
+            "pre_delay": 500
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "本能的召唤",
+            "location": [
+                4,
+                5
+            ],
+            "pre_delay": 500
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 15
+        },
+        {
+            "type": "Retreat",
+            "name": "本能的召唤",
+            "location": [
+                4,
+                5
+            ],
+            "pre_delay": 500
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

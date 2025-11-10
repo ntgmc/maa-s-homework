@@ -1,0 +1,95 @@
+{
+    "stage_name": "act46side_ex06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-6 - 顺时耕作",
+        "details": "——————————\n作业更新日期: 2025-11-09T01:14:48Z\n统计更新日期: 2025-11-10\n相对评分：98.00%  相对热度：77.38%\n来源：月夜晓梦  ID：74617\n——————————\n摆完挂机\n装置选第三个（手动选）\n已测试，测试练度拉满，可能存在问题\n原作者：自在道爷\n【【雪山降临1101】OS-EX-1至OS-EX-8挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(含EX-8突袭，EX-6突袭等)】 https://www.bilibili.com/video/BV1S81XBkEuc/?share_source=copy_web&vd_source=ef41bea63edf52b106f9a61b9aa78aeb"
+    },
+    "opers": [
+        {
+            "name": "能天使",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "skill": 1,
+            "skill_usage": 2,
+            "requirements": {
+                "skill_level": 7,
+                "module": 1
+            }
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "塑心",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "落雪防护装置",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "costs": 11
+        },
+        {
+            "name": "落雪防护装置",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "costs": 11
+        },
+        {
+            "name": "能天使",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 2
+        },
+        {
+            "name": "荒芜拉普兰德",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 3
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

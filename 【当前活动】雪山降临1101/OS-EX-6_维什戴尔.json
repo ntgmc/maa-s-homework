@@ -1,0 +1,42 @@
+{
+    "stage_name": "act46side_ex06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-6 - 顺时耕作",
+        "details": "——————————\n作业更新日期: 2025-11-09T09:46:38Z\n统计更新日期: 2025-11-10\n相对评分：88.00%  相对热度：69.52%\n来源：帆布包二哥  ID：74509\n——————————\nOS-EX-6 - 顺时耕作"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

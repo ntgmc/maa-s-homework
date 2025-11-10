@@ -1,0 +1,30 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "丰川祥子",
+            "location": [
+                1,
+                6
+            ],
+            "direction": "Right"
+        }
+    ],
+    "doc": {
+        "title": "OS-5 祥子单人摆完挂机",
+        "details": "——————————\n作业更新日期: 2025-11-02T14:20:08Z\n统计更新日期: 2025-11-10\n相对评分：98.00%  相对热度：66.37%\n来源：Tryuhark  ID：73701\n——————————\n有练度需求，至少2603\n\n【【雪山降临1101-已更完】OS-1~OS-10全关卡祥核摆完挂机】 https://www.bilibili.com/video/BV1it1LBEEin/?p=5&share_source=copy_web&vd_source=3c293651269100c758c134921748cb3f"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "丰川祥子",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "stage_name": "act46side_04",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-4 - 并蒂生 -  三星",
+        "details": "——————————\n作业更新日期: 2025-11-01T13:23:34Z\n统计更新日期: 2025-11-10\n相对评分：99.00%  相对热度：68.24%\n来源：小卡拉帕鲁灰  ID：73461\n——————————\n单核（无核）\nJSON作者：小卡拉帕鲁灰，B站同名\n本作业已开启截图增强\n求关注。"
+    },
+    "opers": [
+        {
+            "name": "芬",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "黑角"
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "障碍物",
+            "location": [
+                7,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "芬",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "克洛丝",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "斑点",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "黑角",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "安赛尔",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "芬"
+        },
+        {
+            "name": "雪崩触发装置",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 23,
+            "pre_delay": 7000
+        },
+        {
+            "type": "Retreat",
+            "name": "斑点",
+            "kills": 29
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

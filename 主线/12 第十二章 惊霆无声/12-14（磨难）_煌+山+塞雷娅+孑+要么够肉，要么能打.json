@@ -1,0 +1,128 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "tough_12-12",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "要么够肉，要么能打",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "孑",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第十二章 惊霆无声 - 12-14（磨难） - 捂住耳朵",
+        "details": "——————————\n作业更新日期: 2025-03-25T06:33:44Z\n统计更新日期: 2025-11-10\n相对评分：94.79%  相对热度：66.42%\n来源：飘ipao（山所有x模组都为y模组，写错了）  ID：49092\n——————————\n测试已过\n山2603 3x\n煌2903\n塞雷娅2803 3y\n孑2503（不需要这么高）\n精一1级断罪/满级玫兰莎\n"
+    },
+    "groups": [
+        {
+            "name": "要么够肉，要么能打",
+            "opers": [
+                {
+                    "name": "玫兰莎"
+                },
+                {
+                    "name": "缠丸"
+                },
+                {
+                    "name": "断罪者"
+                },
+                {
+                    "name": "炎客"
+                },
+                {
+                    "name": "耀骑士临光",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "莱欧斯"
+                },
+                {
+                    "name": "芙兰卡"
+                },
+                {
+                    "name": "止颂"
+                },
+                {
+                    "name": "斯卡蒂",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "摩根"
+                },
+                {
+                    "name": "古米"
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "孑",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}

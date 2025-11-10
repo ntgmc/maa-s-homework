@@ -1,0 +1,74 @@
+{
+    "stage_name": "act46side_ex02",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-2",
+        "details": "——————————\n作业更新日期: 2025-11-08T09:24:10Z\n统计更新日期: 2025-11-10\n相对评分：82.00%  相对热度：62.20%\n来源：帆布包二哥  ID：74482\n——————————\nhttps://www.bilibili.com/video/BV1571XBDE5o/?spm_id_from=333.1007.top_right_bar_window_history.content.click"
+    },
+    "opers": [
+        {
+            "name": "丰川祥子",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 8,
+                "module": 2
+            }
+        },
+        {
+            "name": "八幡海铃",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 50,
+                "skill_level": 8,
+                "module": 2
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "丰川祥子",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "八幡海铃",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "kills": 16,
+            "name": "丰川祥子"
+        },
+        {
+            "type": "Skill",
+            "name": "丰川祥子",
+            "kills": 27
+        },
+        {
+            "type": "Skill",
+            "kills": 35,
+            "name": "丰川祥子"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

@@ -1,0 +1,91 @@
+{
+    "stage_name": "main_06-09",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第六章 局部坏死 - 6-10 - 解开铃铛【烛煌模组任务】",
+        "details": "——————————\n作业更新日期: 2025-08-03T03:27:46Z\n统计更新日期: 2025-11-10\n相对评分：55.43%  相对热度：42.52%\n来源：小卡拉帕鲁灰  ID：64043\n——————————\n累计6次战斗开3技能\n6-10开两次三技能"
+    },
+    "opers": [
+        {
+            "name": "烛煌",
+            "skill": 3,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "医疗",
+            "opers": [
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0,
+                    "_id": "7"
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0,
+                    "_id": "8"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "煌",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "医疗",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "烛煌",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "烛煌",
+            "pre_delay": 10000
+        },
+        {
+            "type": "Skill",
+            "name": "烛煌",
+            "kills": 28
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 1
+}

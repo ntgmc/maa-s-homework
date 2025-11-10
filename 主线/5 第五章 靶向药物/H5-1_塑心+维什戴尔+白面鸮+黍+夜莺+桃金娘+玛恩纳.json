@@ -1,0 +1,161 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_05-01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "location": [
+                6,
+                5
+            ],
+            "name": "桃金娘",
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                8,
+                3
+            ],
+            "name": "维什戴尔",
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "塑心",
+            "location": [
+                4,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "direction": "Left",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down",
+            "name": "夜莺"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Up",
+            "name": "白面鸮"
+        },
+        {
+            "type": "Deploy",
+            "kills": 22,
+            "name": "幻影",
+            "direction": "Up",
+            "location": [
+                3,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "kills": 38,
+            "name": "幻影",
+            "direction": "Up",
+            "location": [
+                4,
+                5
+            ],
+            "pre_delay": 2310
+        },
+        {
+            "type": "SkillUsage",
+            "name": "夜莺",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "塑心",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "玛恩纳",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "白面鸮",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "全息作战矩阵 - H5-1",
+        "details": "——————————\n作业更新日期: 2025-09-24T04:09:01Z\n统计更新日期: 2025-11-10\n相对评分：89.01%  相对热度：75.23%\n来源：kenshin  ID：69190\n——————————\n参考视频：https://www.bilibili.com/video/av115106985810469/?t=210&p=2\n基础：\n■□■□■\n□■\n附加：\n□■□■■□\n□□■□□\n■□■□\n□□■□\n\n无遥、全满级、除白面7级技能外全专3、桃玛没模组、夜莺2级模组、白面1级模组\n\n\n\n"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "skill_times": 2,
+            "name": "塑心",
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "黍",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "skill": 3,
+            "name": "夜莺",
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "桃金娘",
+            "skill_usage": 1,
+            "skill": 1
+        },
+        {
+            "skill_times": 3,
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 2
+        }
+    ]
+}

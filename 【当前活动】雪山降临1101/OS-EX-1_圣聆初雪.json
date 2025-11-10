@@ -1,0 +1,48 @@
+{
+    "stage_name": "act46side_ex01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-1 - 饮净水",
+        "details": "——————————\n作业更新日期: 2025-11-08T20:22:43Z\n统计更新日期: 2025-11-10\n相对评分：93.00%  相对热度：77.52%\n来源：椰果冰粉  ID：74492\n——————————\n自用，要带雪崩触发装置"
+    },
+    "opers": [
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "圣聆初雪",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "雪崩触发装置",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy",
+            "costs": 20
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
