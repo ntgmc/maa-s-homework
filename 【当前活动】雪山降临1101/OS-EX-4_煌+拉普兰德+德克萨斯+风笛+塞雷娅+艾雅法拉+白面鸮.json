@@ -1,0 +1,141 @@
+{
+    "stage_name": "act46side_ex04",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-4 - 熟食而止",
+        "details": "——————————\n作业更新日期: 2025-11-09T02:32:57Z\n统计更新日期: 2025-11-10\n相对评分：98.00%  相对热度：74.82%\n来源：星之海.  ID：74622\n——————————\n此作业全员专三且模组一级\n原作者：自在道爷    JSON作者：星之海.\n社区评论不会提醒，作业有问题可以进群找我：994516079\n原视频：【【雪山降临1101】OS-EX-1至OS-EX-8挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(含EX-8突袭，EX-6突袭等)】 https://www.bilibili.com/video/BV1S81XBkEuc/?share_source=copy_web&vd_source=1157a52ee7650967fb8b88d477bf415e"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "风笛",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "德克萨斯",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "煌",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "风笛",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "拉普兰德",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "白面鸮",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

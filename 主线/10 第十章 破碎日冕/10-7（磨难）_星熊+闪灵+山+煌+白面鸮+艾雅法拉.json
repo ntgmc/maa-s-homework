@@ -1,0 +1,104 @@
+{
+    "stage_name": "tough_10-06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "第十章 破碎日冕 - 10-7（磨难） - 痛觉相连",
+        "details": "——————————\n作业更新日期: 2025-07-05T13:55:19Z\n统计更新日期: 2025-11-10\n相对评分：93.94%  相对热度：70.53%\n来源：NyaNyaHua  ID：62340\n——————————\nBV1GY411j72u\nup：萧然Q\n视频练度：260(?)\n已测试"
+    },
+    "opers": [
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "闪灵",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "山",
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "星熊",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "costs": 36
+        },
+        {
+            "name": "山",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "闪灵",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "白面鸮",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ]
+}

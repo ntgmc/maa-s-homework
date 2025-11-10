@@ -1,0 +1,54 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_toddi_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "熔泉",
+            "location": [
+                2,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "costs": 51,
+            "location": [
+                2,
+                5
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "熔泉",
+            "location": [
+                2,
+                3
+            ],
+            "costs": 86
+        },
+        {
+            "type": "Skill",
+            "name": "熔泉",
+            "kills": 94
+        },
+        {
+            "type": "Skill",
+            "location": [
+                2,
+                5
+            ],
+            "kills": 113
+        }
+    ],
+    "doc": {
+        "title": "狙击 - 熔泉 - 火矢天降  悖论模拟",
+        "details": "——————————\n作业更新日期: 2023-08-20T15:42:39Z\n统计更新日期: 2025-11-10\n相对评分：98.86%  相对热度：100.0%\n来源：和泉纱雾  ID：26203\n——————————\n熔泉选择2技能，技能等级为7级\n作者：倾九_Komy\n作者视频：https://www.bilibili.com/video/BV1ja411u77Q/"
+    },
+    "groups": [],
+    "opers": []
+}

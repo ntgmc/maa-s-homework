@@ -1,0 +1,291 @@
+{
+    "stage_name": "act46side_ex04",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-4 - 熟食而止 - 单核",
+        "details": "——————————\n作业更新日期: 2025-11-08T18:21:39Z\n统计更新日期: 2025-11-10\n相对评分：93.00%  相对热度：69.49%\n来源：小卡拉帕鲁灰  ID：74574\n——————————\n兼容突袭（写了40min，延迟高的可能用不了）\n【装置】：雪崩触发装置（左边第一个）\n酒神满级专三，3级模组，其他练度查看详情\nJSON作者：小卡拉帕鲁灰，B站同名\n本作业已开启截图增强\n求关注"
+    },
+    "opers": [
+        {
+            "name": "酒神",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "黑角"
+        }
+    ],
+    "groups": [
+        {
+            "name": "【术士】",
+            "opers": [
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 2,
+                        "level": 90,
+                        "skill_level": 10,
+                        "module": 4
+                    }
+                },
+                {
+                    "name": "阿米娅",
+                    "skill": 1,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "史都华德",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "芬",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "斑点",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "酒神",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "本能的召唤",
+            "location": [
+                7,
+                6
+            ],
+            "pre_delay": 400
+        },
+        {
+            "type": "Retreat",
+            "name": "芬",
+            "kills": 6
+        },
+        {
+            "name": "黑角",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "【术士】",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 9,
+            "pre_delay": 500
+        },
+        {
+            "type": "Retreat",
+            "name": "本能的召唤",
+            "location": [
+                6,
+                6
+            ],
+            "pre_delay": 200
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "本能的召唤",
+            "location": [
+                8,
+                6
+            ],
+            "pre_delay": 200
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                7,
+                6
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "雪崩触发装置",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 35
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "芬",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "雪崩触发装置",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 44
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "本能的召唤",
+            "location": [
+                6,
+                6
+            ],
+            "pre_delay": 100
+        },
+        {
+            "name": "本能的召唤",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "雪崩触发装置",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

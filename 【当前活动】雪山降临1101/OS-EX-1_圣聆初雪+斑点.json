@@ -1,0 +1,57 @@
+{
+    "stage_name": "act46side_ex01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-1 - 饮净水 - 单核",
+        "details": "——————————\n作业更新日期: 2025-11-08T14:37:40Z\n统计更新日期: 2025-11-10\n相对评分：98.00%  相对热度：69.32%\n来源：小卡拉帕鲁灰  ID：74561\n——————————\n兼容突袭\n圣聆初雪满级专三，3级模组，其他练度查看详情\nJSON作者：小卡拉帕鲁灰，B站同名\n本作业已开启截图增强\n求关注"
+    },
+    "opers": [
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "圣聆初雪",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "斑点",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

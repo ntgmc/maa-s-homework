@@ -1,0 +1,75 @@
+{
+    "stage_name": "act46side_ex03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-3 - 御外敌",
+        "details": "——————————\n作业更新日期: 2025-11-08T20:23:49Z\n统计更新日期: 2025-11-10\n相对评分：95.00%  相对热度：77.86%\n来源：椰果冰粉  ID：74495\n——————————\n自用，要带雪崩触发装置"
+    },
+    "opers": [
+        {
+            "name": "阿斯卡纶",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "圣聆初雪",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "阿斯卡纶",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "雪崩触发装置",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "kills": 1
+        },
+        {
+            "name": "雪崩触发装置",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "kills": 2
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

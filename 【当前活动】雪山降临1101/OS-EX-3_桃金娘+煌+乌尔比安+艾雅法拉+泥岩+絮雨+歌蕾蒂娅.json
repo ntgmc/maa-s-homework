@@ -1,0 +1,144 @@
+{
+    "stage_name": "act46side_ex03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-3 - 御外敌",
+        "details": "——————————\n作业更新日期: 2025-11-09T15:02:04Z\n统计更新日期: 2025-11-10\n相对评分：97.00%  相对热度：73.24%\n来源：星之海.  ID：74621\n——————————\n此作业全员专三且模组一级\n原作者：自在道爷    JSON作者：星之海.\n社区评论不会提醒，作业有问题可以进群找我：994516079\n原视频：【【雪山降临1101】OS-EX-1至OS-EX-8挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(含EX-8突袭，EX-6突袭等)】 https://www.bilibili.com/video/BV1S81XBkEuc/?share_source=copy_web&vd_source=1157a52ee7650967fb8b88d477bf415e"
+    },
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 2,
+                "skill_level": 10,
+                "module": -1
+            }
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "泥岩",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "絮雨",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "桃金娘",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "煌",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "絮雨",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "泥岩",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "costs": 45
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                3,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy",
+            "costs": 37
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

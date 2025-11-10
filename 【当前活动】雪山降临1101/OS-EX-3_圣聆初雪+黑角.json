@@ -1,0 +1,80 @@
+{
+    "stage_name": "act46side_ex03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-3 - 御外敌 - 单核",
+        "details": "——————————\n作业更新日期: 2025-11-08T17:49:30Z\n统计更新日期: 2025-11-10\n相对评分：98.00%  相对热度：73.72%\n来源：小卡拉帕鲁灰  ID：74567\n——————————\n兼容突袭\n【装置】：雪崩触发装置（左边第一个）\n圣聆初雪满级专三，3级模组，其他练度查看详情\n作业up：浅予  视频：BV13W1XB2ELx\nJSON作者：小卡拉帕鲁灰，B站同名\n本作业已开启截图增强\n求关注"
+    },
+    "opers": [
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "黑角"
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "圣聆初雪",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 15
+        },
+        {
+            "name": "黑角",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "costs": 18
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "雪崩触发装置",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "pre_delay": 12000
+        },
+        {
+            "name": "雪崩触发装置",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 52
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

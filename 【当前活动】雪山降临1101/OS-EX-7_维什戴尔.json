@@ -1,0 +1,66 @@
+{
+    "stage_name": "act46side_ex07",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-7 - 以石取石 - 单核",
+        "details": "——————————\n作业更新日期: 2025-11-08T17:23:49Z\n统计更新日期: 2025-11-10\n相对评分：97.00%  相对热度：77.43%\n来源：小卡拉帕鲁灰  ID：74591\n——————————\n兼容突袭\nEW满级专三，3级模组，其他练度查看详情\n作业up：浅予 视频：BV13W1XB2ELx\nJSON作者：小卡拉帕鲁灰，B站同名\n本作业已开启截图增强\n求关注"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SpeedUp",
+            "costs": 20
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "pre_delay": 8500
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Retreat",
+            "name": "魂灵之影",
+            "location": [
+                6,
+                4
+            ],
+            "kills": 12
+        },
+        {
+            "name": "维什戴尔",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

@@ -1,0 +1,148 @@
+{
+    "stage_name": "act46side_ex08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-8 - 以人的名",
+        "details": "——————————\n作业更新日期: 2025-11-08T11:17:59Z\n统计更新日期: 2025-11-10\n相对评分：94.00%  相对热度：81.14%\n来源：椰果冰粉  ID：74514\n——————————\n自用，思路：BV1Db1XBVEAb\n注意练度，不确定更低练度是否能过\n初雪练度如果不够的话，最后石头人会被唤醒，差一点的可以拉拉初雪等级或者多带一两个输出打BOSS"
+    },
+    "opers": [
+        {
+            "name": "斩业星熊",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 80,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "遥",
+            "skill": 2,
+            "skill_usage": 2,
+            "skill_times": 2,
+            "requirements": {
+                "level": 82,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "乌尔比安",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "斩业星熊",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "遥",
+            "location": [
+                10,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "塑心",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "圣聆初雪",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                11,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}
