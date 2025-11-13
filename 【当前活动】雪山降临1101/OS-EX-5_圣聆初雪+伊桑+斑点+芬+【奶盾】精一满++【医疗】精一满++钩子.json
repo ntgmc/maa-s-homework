@@ -1,0 +1,290 @@
+{
+    "stage_name": "act46side_ex05",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-5 - 皮毛加身 - 单核",
+        "details": "——————————\n作业更新日期: 2025-11-09T10:07:50Z\n统计更新日期: 2025-11-13\n相对评分：96.00%  相对热度：68.92%\n来源：小卡拉帕鲁灰  ID：74587\n——————————\n兼容突袭\n【装置】：雪崩触发装置（左边第一个）\n圣聆初雪满级专三，3级模组，其他练度查看详情\nJSON作者：小卡拉帕鲁灰，B站同名\n本作业已开启截图增强\n求关注"
+    },
+    "opers": [
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "伊桑",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "斑点",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "【奶盾】精一满+",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7,
+                        "module": -1
+                    }
+                },
+                {
+                    "name": "深律",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        },
+        {
+            "name": "【医疗】精一满+",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        },
+        {
+            "name": "钩子",
+            "opers": [
+                {
+                    "name": "歌蕾蒂娅",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "崖心",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "暗索",
+                    "skill": 1,
+                    "requirements": {
+                        "elite": 1,
+                        "level": 40,
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "芬",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "【奶盾】精一满+",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "圣聆初雪",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "斑点",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "芬"
+        },
+        {
+            "name": "伊桑",
+            "location": [
+                8,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "【医疗】精一满+",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 9
+        },
+        {
+            "name": "钩子",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy",
+            "kills": 11
+        },
+        {
+            "type": "Skill",
+            "name": "伊桑",
+            "kills": 21
+        },
+        {
+            "name": "雪崩触发装置",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 32
+        },
+        {
+            "type": "Skill",
+            "name": "伊桑",
+            "kills": 38
+        },
+        {
+            "name": "伊桑",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "雪崩触发装置",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

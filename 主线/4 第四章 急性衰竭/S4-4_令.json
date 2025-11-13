@@ -1,0 +1,105 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "sub_04-2-1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "令",
+            "location": [
+                2,
+                2
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "BulletTime",
+            "name": "令",
+            "location": [
+                2,
+                2
+            ],
+            "costs": 16
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                1,
+                2
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "“弦惊”",
+            "location": [
+                2,
+                1
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第四章 急性衰竭 - S4-4 - 多足-1 - 令",
+        "details": "——————————\n作业更新日期: 2024-01-16T11:40:42Z\n统计更新日期: 2025-11-13\n相对评分：74.73%  相对热度：72.16%\n来源：胖头🐟  ID：31852\n——————————\n随手做\n令0潜，精二90级专3，3级模组\n龙没法部署更换皮肤"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "令",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ]
+}

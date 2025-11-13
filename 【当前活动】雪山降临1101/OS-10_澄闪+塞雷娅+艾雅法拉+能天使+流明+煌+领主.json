@@ -1,0 +1,146 @@
+{
+    "stage_name": "act46side_10",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-10 - 耶拉冈德在上 老干员",
+        "details": "——————————\n作业更新日期: 2025-11-02T02:52:01Z\n统计更新日期: 2025-11-13\n相对评分：89.80%  相对热度：61.66%\n来源：没有乌尔比安阿斯卡纶娜仁图亚攻略组  ID：73496\n——————————\n小羊要2级x模组\n原作者：SCR熊猫不是猫\nhttps://www.bilibili.com/video/BV1Ph15BtEHm"
+    },
+    "opers": [
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "module": 1
+            }
+        },
+        {
+            "name": "能天使",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "流明",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [
+        {
+            "name": "领主",
+            "opers": [
+                {
+                    "name": "丰川祥子",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "拉普兰德",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp",
+            "pre_delay": 4000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 2000
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 1000
+        },
+        {
+            "name": "澄闪",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "costs": 21
+        },
+        {
+            "name": "流明",
+            "location": [
+                10,
+                5
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "能天使",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                11,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                8,
+                7
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "领主",
+            "location": [
+                10,
+                7
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                12,
+                7
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

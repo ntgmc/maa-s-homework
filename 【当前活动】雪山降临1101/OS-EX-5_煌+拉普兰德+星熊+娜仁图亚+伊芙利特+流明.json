@@ -1,0 +1,102 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_ex05",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "星熊",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                7,
+                1
+            ],
+            "name": "煌",
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                6,
+                4
+            ],
+            "name": "娜仁图亚",
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "流明",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                9,
+                3
+            ],
+            "name": "拉普兰德",
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        }
+    ],
+    "doc": {
+        "title": "OS-EX-5 - 皮毛加身",
+        "details": "——————————\n作业更新日期: 2025-11-08T15:36:27Z\n统计更新日期: 2025-11-13\n相对评分：97.00%  相对热度：66.22%\n来源：耀然慕辰  ID：74566\n——————————\n自在道爷搬运，自用"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "星熊",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "娜仁图亚",
+            "skill": 1,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 1
+        }
+    ],
+    "difficulty": 3
+}
