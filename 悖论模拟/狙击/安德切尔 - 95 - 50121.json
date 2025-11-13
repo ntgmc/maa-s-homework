@@ -1,0 +1,75 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_adnach_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "安德切尔",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "costs": 26
+        },
+        {
+            "type": "Deploy",
+            "name": "泡普卡",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left",
+            "costs": 19
+        },
+        {
+            "type": "Skill",
+            "name": "安德切尔",
+            "location": [
+                1,
+                3
+            ],
+            "kills": 15
+        },
+        {
+            "type": "Skill",
+            "name": "泡普卡",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 19
+        },
+        {
+            "type": "Skill",
+            "name": "芙蓉",
+            "location": [
+                8,
+                2
+            ],
+            "kills": 20
+        }
+    ],
+    "doc": {
+        "title": "安德切尔悖论模拟 - 俯瞰战场",
+        "details": "——————————\n作业更新日期: 2025-04-13T06:28:54Z\n统计更新日期: 2025-11-13\n相对评分：95.96000000000001%  相对热度：77.96%\n来源：Dr.西树  ID：50121\n——————————\n安德切尔技能一级，信赖20"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "泡普卡",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "安德切尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "芙蓉",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

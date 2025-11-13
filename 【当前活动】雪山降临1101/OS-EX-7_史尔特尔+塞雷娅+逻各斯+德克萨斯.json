@@ -1,0 +1,77 @@
+{
+    "stage_name": "act46side_ex07",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-7 - 以石取石",
+        "details": "——————————\n作业更新日期: 2025-11-08T16:22:51Z\n统计更新日期: 2025-11-13\n相对评分：96.00%  相对热度：66.44%\n来源：罐头同学  ID：74585\n——————————\n【【明日方舟】OS-EX-7突袭 三人摆完挂机 简单好抄 无装置】 https://www.bilibili.com/video/BV1eq19BdE9q/?share_source=copy_web&vd_source=487a862a92ceb465fb8e11f56063499e"
+    },
+    "opers": [
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "module": 1
+            }
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 70,
+                "module": 1
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "module": 4
+            }
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "史尔特尔",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "塞雷娅",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

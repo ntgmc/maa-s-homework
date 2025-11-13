@@ -1,0 +1,185 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_ex08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "先锋1",
+            "direction": "Up",
+            "location": [
+                11,
+                5
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "圣聆初雪",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "遥",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "丰川祥子",
+            "location": [
+                6,
+                6
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "八幡海铃",
+            "location": [
+                6,
+                7
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "奶盾",
+            "direction": "Up",
+            "location": [
+                11,
+                4
+            ]
+        },
+        {
+            "type": "Output",
+            "doc_color": "SpringGreen",
+            "doc": "觉得好用点赞投个币呗，作业有问题b站私信或者视频留言都会看的"
+        },
+        {
+            "type": "Skill",
+            "name": "丰川祥子",
+            "kills": 23
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-EX-8 - 以人的名",
+        "details": "——————————\n作业更新日期: 2025-11-11T04:44:16Z\n统计更新日期: 2025-11-13\n相对评分：88.00%  相对热度：70.51%\n来源：Tryuhark  ID：74692\n——————————\n11.11更新：（1）不带小车放不下先锋，没找到原因，所以还是顺手带一个小车吧\n                   （2) 增加祥子在23击杀数开启fever，防止祥子练度稍差的被围殴导致强制撤退\n                   （3）变更先锋位置，在携带银灰时可以将黍平替为塞雷娅，其他先锋不推荐\n觉得好用点赞投个币呗，作业有问题b站私信或者视频留言都会看的\n\n【【雪山降临1101·已更完】OS-EX突袭全关卡祥核挂机攻略】 https://www.bilibili.com/video/BV1va1SBCE45/?share_source=copy_web&vd_source=3c293651269100c758c134921748cb3f"
+    },
+    "groups": [
+        {
+            "name": "先锋1",
+            "opers": [
+                {
+                    "name": "凛御银灰",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "琴柳",
+                    "skill_usage": 1,
+                    "skill": 1
+                },
+                {
+                    "name": "桃金娘",
+                    "skill_usage": 1,
+                    "skill": 1
+                },
+                {
+                    "name": "极境",
+                    "skill_usage": 1,
+                    "skill": 1
+                }
+            ]
+        },
+        {
+            "name": "换费小车",
+            "opers": [
+                {
+                    "name": "CONFESS-47",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "PhonoR-0",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "正义骑士号",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "Castle-3",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "THRM-EX",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "Lancet-2",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "丰川祥子",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "八幡海铃",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "遥",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

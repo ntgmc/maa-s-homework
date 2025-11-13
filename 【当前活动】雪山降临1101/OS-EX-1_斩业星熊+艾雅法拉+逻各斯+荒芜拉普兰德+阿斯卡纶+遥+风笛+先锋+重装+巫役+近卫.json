@@ -3,7 +3,7 @@
     "minimum_required": "v4.0.0",
     "doc": {
         "title": "OS-EX-1 - 饮净水",
-        "details": "——————————\n作业更新日期: 2025-11-09T19:25:34Z\n统计更新日期: 2025-11-10\n相对评分：99.00%  相对热度：74.94%\n来源：.02.  ID：74520\n——————————\n一队通关 不节省干员\njson作者：02\n【【雪山降临1101】OS-EX-1至OS-EX8突袭 一队通关 摆完挂机】 \nhttps://www.bilibili.com/video/BV1GB1QBEEmb/?share_source=copy_web&vd_source=412c317895f1eae662d47fa0729b2e39"
+        "details": "——————————\n作业更新日期: 2025-11-10T17:04:51Z\n统计更新日期: 2025-11-13\n相对评分：99.00%  相对热度：72.67%\n来源：.02.  ID：74520\n——————————\n一队通关 不节省干员\njson作者：02\n【【雪山降临1101】OS-EX-1至OS-EX8突袭 一队通关 摆完挂机】 \nhttps://www.bilibili.com/video/BV1GB1QBEEmb/?share_source=copy_web&vd_source=412c317895f1eae662d47fa0729b2e39"
     },
     "opers": [
         {
@@ -54,11 +54,6 @@
         {
             "name": "先锋",
             "opers": [
-                {
-                    "name": "贾维",
-                    "skill": 1,
-                    "skill_usage": 0
-                },
                 {
                     "name": "德克萨斯",
                     "skill": 1,

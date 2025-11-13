@@ -1,0 +1,64 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_bryota_1",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                3,
+                4
+            ],
+            "name": "苍苔",
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "costs": 30,
+            "cost_changes": 0,
+            "name": "苍苔",
+            "location": [
+                3,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "kills": 13,
+            "rear_delay": 0,
+            "pre_delay": 12000,
+            "name": "泡泡",
+            "location": [
+                4,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "苍苔",
+            "location": [
+                3,
+                4
+            ]
+        }
+    ],
+    "doc": {
+        "title": "近卫 - 苍苔 - 挺过风暴",
+        "details": "——————————\n作业更新日期: 2025-11-03T14:29:04Z\n统计更新日期: 2025-11-13\n相对评分：63.04%  相对热度：31.3%\n来源：apricotoil  ID：73999\n——————————\n近卫 - 苍苔 - 挺过风暴"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "苍苔",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "泡泡",
+            "skill": 2,
+            "skill_usage": 0
+        }
+    ]
+}
