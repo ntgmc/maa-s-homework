@@ -1,0 +1,92 @@
+{
+    "stage_name": "act22side_05",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "照我以火 - FC-5 - 祝福的歌谣 【纯烬艾雅法拉模组任务】",
+        "details": "——————————\n作业更新日期: 2025-11-04T00:40:05Z\n统计更新日期: 2025-11-22\n相对评分：57.58%  相对热度：32.690000000000005%\n来源：老王666  ID：74041\n——————————\n奶羊模组任务\n完成5次战斗；必须编入非助战纯烬艾雅法拉并上场，且每次战斗至少释放1次火山回响 \n3星通关别传FC-5；必须编入非助战纯烬艾雅法拉并上场，且不编入其他医疗干员"
+    },
+    "opers": [
+        {
+            "name": "纯烬艾雅法拉",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "乌尔比安",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "歌蕾蒂娅"
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "乌尔比安",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "纯烬艾雅法拉",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶盾",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "歌蕾蒂娅",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

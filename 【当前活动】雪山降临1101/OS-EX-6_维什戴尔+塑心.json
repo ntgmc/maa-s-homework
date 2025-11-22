@@ -1,0 +1,51 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_ex06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                4,
+                1
+            ],
+            "name": "维什戴尔",
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                6,
+                4
+            ],
+            "name": "塑心",
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-EX-6挂机",
+        "details": "——————————\n作业更新日期: 2025-11-10T11:18:50Z\n统计更新日期: 2025-11-22\n相对评分：94.00%  相对热度：61.70%\n来源：beholder  ID：74849\n——————————\nOS-EX-6挂机"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

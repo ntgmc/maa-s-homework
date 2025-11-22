@@ -3,7 +3,7 @@
     "minimum_required": "v4.0.0",
     "doc": {
         "title": "OS-EX-8 - 以人的名",
-        "details": "——————————\n作业更新日期: 2025-11-10T17:10:44Z\n统计更新日期: 2025-11-13\n相对评分：95.00%  相对热度：78.11%\n来源：.02.  ID：74527\n——————————\n一队通关 不节省干员\njson作者：02\n【【雪山降临1101】OS-EX-1至OS-EX8突袭 一队通关 摆完挂机】 \nhttps://www.bilibili.com/video/BV1GB1QBEEmb/?share_source=copy_web&vd_source=412c317895f1eae662d47fa0729b2e39"
+        "details": "——————————\n作业更新日期: 2025-11-16T19:12:29Z\n统计更新日期: 2025-11-22\n相对评分：96.00%  相对热度：77.71%\n来源：.02.  ID：74527\n——————————\n一队通关 不节省干员\njson作者：02\n【【雪山降临1101】OS-EX-1至OS-EX8突袭 一队通关 摆完挂机】 \nhttps://www.bilibili.com/video/BV1GB1QBEEmb/?share_source=copy_web&vd_source=412c317895f1eae662d47fa0729b2e39"
     },
     "opers": [
         {
@@ -141,8 +141,7 @@
                 4
             ],
             "direction": "Up",
-            "type": "Deploy",
-            "pre_delay": 100
+            "type": "Deploy"
         },
         {
             "name": "风笛",

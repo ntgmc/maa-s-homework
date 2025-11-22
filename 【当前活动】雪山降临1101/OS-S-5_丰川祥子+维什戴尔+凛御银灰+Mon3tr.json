@@ -1,0 +1,154 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_s05",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "凛御银灰",
+            "direction": "Down",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "丰川祥子",
+            "direction": "Up",
+            "location": [
+                1,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "direction": "Up",
+            "location": [
+                6,
+                4
+            ]
+        },
+        {
+            "type": "Retreat",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 6,
+            "pre_delay": 200
+        },
+        {
+            "type": "Deploy",
+            "name": "Mon3tr",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "重构体",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Skill",
+            "name": "Mon3tr"
+        },
+        {
+            "type": "Deploy",
+            "name": "落雪防护装置",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "kills": 19,
+            "pre_delay": 2000,
+            "name": "重构体",
+            "direction": "Up",
+            "location": [
+                5,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "落雪防护装置",
+            "direction": "Up",
+            "location": [
+                6,
+                2
+            ],
+            "pre_delay": 500
+        },
+        {
+            "type": "Skill",
+            "name": "Mon3tr",
+            "kills": 25
+        },
+        {
+            "type": "Deploy",
+            "kills": 33,
+            "pre_delay": 3000,
+            "name": "重构体",
+            "direction": "Up",
+            "location": [
+                8,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "name": "Mon3tr",
+            "kills": 53
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-S-5 - 雪与我与雪 装置3",
+        "details": "——————————\n作业更新日期: 2025-11-15T13:06:45Z\n统计更新日期: 2025-11-22\n相对评分：94.90%  相对热度：82.22%\n来源：pppie  ID：75478\n——————————\n注意：\n带落雪防护装置\n由于带了异灰3，慎带影响换费的干员！！！\n练度要求略高，有条件建议带上天有四时\n参考作品B站：普通的人342【OS-S-5突袭四人 哈气是我唯一的手段】 https://www.bilibili.com/video/BV16vC1BMEyK/"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "丰川祥子",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 2,
+            "skill_times": 1
+        },
+        {
+            "name": "凛御银灰",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "Mon3tr",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

@@ -1,0 +1,235 @@
+{
+    "stage_name": "act46side_s01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-S-1 - 打雪仗 - 单核",
+        "details": "——————————\n作业更新日期: 2025-11-15T11:16:10Z\n统计更新日期: 2025-11-22\n相对评分：98.99%  相对热度：79.50%\n来源：小卡拉帕鲁灰  ID：75447\n——————————\n兼容突袭\n雪满级专三，3级模组，其他练度查看详情\nJSON作者：小卡拉帕鲁灰，B站同名\n本作业已开启截图增强\n求关注"
+    },
+    "opers": [
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "芬",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "【奶盾】精一满+",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7,
+                        "module": -1
+                    }
+                },
+                {
+                    "name": "深律",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        },
+        {
+            "name": "【医疗】精一满+",
+            "opers": [
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "芙蓉",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "芬",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "障碍物",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "圣聆初雪",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "costs": 36
+        },
+        {
+            "type": "Retreat",
+            "name": "障碍物",
+            "location": [
+                5,
+                4
+            ],
+            "pre_delay": 10000
+        },
+        {
+            "name": "【奶盾】精一满+",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "障碍物",
+            "location": [
+                8,
+                3
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "障碍物",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "障碍物",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "障碍物",
+            "location": [
+                2,
+                6
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "【医疗】精一满+",
+            "location": [
+                4,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

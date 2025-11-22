@@ -1,0 +1,245 @@
+{
+    "stage_name": "act46side_s04",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-S-4 - 雪中歌谣 - 双核",
+        "details": "——————————\n作业更新日期: 2025-11-18T01:06:14Z\n统计更新日期: 2025-11-22\n相对评分：92.86%  相对热度：80.27%\n来源：小卡拉帕鲁灰  ID：75495\n——————————\n兼容突袭（普通突袭都能用）\n携带装置：落雪防护装置（第三个）\n雪、叔必须满级专三，3级模组，不然突袭可能翻车，其他练度查看详情\n奶盾倒地是正常的\nJSON作者：小卡拉帕鲁灰，B站同名\n本作业已开启截图增强\n求关注"
+    },
+    "opers": [
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "夜刀"
+        }
+    ],
+    "groups": [
+        {
+            "name": "【奶盾】精一满+",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7,
+                        "module": -1
+                    }
+                },
+                {
+                    "name": "深律",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        },
+        {
+            "name": "傀儡师无需练度",
+            "opers": [
+                {
+                    "name": "归溟幽灵鲨",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "贝娜",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "风丸",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "若叶睦",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "双月",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "维荻",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "夜刀",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "夜刀",
+            "pre_delay": 500
+        },
+        {
+            "name": "圣聆初雪",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "玛恩纳",
+            "location": [
+                5,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "costs": 28
+        },
+        {
+            "name": "【奶盾】精一满+",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "落雪防护装置",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "夜刀",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "傀儡师无需练度",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "夜刀",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "落雪防护装置",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 54
+        },
+        {
+            "name": "玛恩纳",
+            "skill_usage": 0,
+            "type": "SkillUsage",
+            "kills": 78
+        },
+        {
+            "name": "玛恩纳",
+            "skill_usage": 1,
+            "type": "SkillUsage",
+            "pre_delay": 30000
+        },
+        {
+            "name": "【奶盾】精一满+",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

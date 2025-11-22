@@ -1,0 +1,66 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_08",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Right",
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                7,
+                3
+            ],
+            "kills": 1
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Skill",
+            "kills": 44,
+            "pre_delay": 6800,
+            "name": "维什戴尔",
+            "location": [
+                7,
+                3
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-8 双人速刷理论最速",
+        "details": "——————————\n作业更新日期: 2025-11-02T05:10:42Z\n统计更新日期: 2025-11-22\n相对评分：93.00%  相对热度：64.08%\n来源：阿拉拉拉  ID：73492\n——————————\n-托卡列夫-：https://www.bilibili.com/video/BV1mN1LBPEpa?spm_id_from=333.788.videopod.sections&vd_source=d96c5431059e9a1d0fcf0385526d6057\njson作者：阿拉\n截图增强开启\n测试练度2903满模组\n未达测试练度，可能会慢一些，不过应该没有影响"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

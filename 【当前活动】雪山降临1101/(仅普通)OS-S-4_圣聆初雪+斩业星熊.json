@@ -1,0 +1,86 @@
+{
+    "stage_name": "act46side_s04",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-S-4 - 雪中歌谣",
+        "details": "——————————\n作业更新日期: 2025-11-15T22:29:12Z\n统计更新日期: 2025-11-22\n相对评分：87.76%  相对热度：63.86%\n来源：エクシール  ID：75538\n——————————\n普通，装置3"
+    },
+    "opers": [
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "斩业星熊",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "圣聆初雪",
+            "location": [
+                5,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "斩业星熊",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "落雪防护装置",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "落雪防护装置",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 25
+        },
+        {
+            "name": "圣聆初雪",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 1
+}

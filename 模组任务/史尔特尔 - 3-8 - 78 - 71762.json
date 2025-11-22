@@ -1,0 +1,120 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_03-08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "黍",
+            "direction": "Down",
+            "location": [
+                9,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "煌",
+            "direction": "Down",
+            "location": [
+                8,
+                3
+            ]
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "史尔特尔",
+            "location": [
+                7,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Skill",
+            "name": "史尔特尔",
+            "location": [
+                7,
+                5
+            ],
+            "kills": 8
+        },
+        {
+            "type": "Deploy",
+            "name": "新约能天使",
+            "direction": "Down",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "克洛丝",
+            "location": [
+                9,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第三章 二次呼吸 - 3-8 - 黄昏 - 【史尔特尔模组任务】",
+        "details": "——————————\n作业更新日期: 2025-10-17T05:44:22Z\n统计更新日期: 2025-11-22\n相对评分：78.35%  相对热度：49.25%\n来源：781963555@qq.com  ID：71762\n——————————\n42模组任务\n击杀碎骨"
+    },
+    "groups": [
+        {
+            "name": "煌",
+            "opers": [
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "黍",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "史尔特尔",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "克洛丝",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "新约能天使",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}

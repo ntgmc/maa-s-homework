@@ -1,0 +1,387 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_ex08",
+    "actions": [
+        {
+            "type": "Deploy",
+            "location": [
+                1,
+                5
+            ],
+            "name": "桃金娘",
+            "direction": "Up"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                3,
+                3
+            ],
+            "name": "卡缇",
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                10,
+                3
+            ],
+            "name": "圣聆初雪",
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "遥",
+            "direction": "Right",
+            "location": [
+                2,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                1,
+                4
+            ],
+            "name": "泡泡",
+            "direction": "Up"
+        },
+        {
+            "type": "SkillUsage",
+            "name": "桃金娘",
+            "skill_usage": 2,
+            "skill_times": 5
+        },
+        {
+            "type": "Deploy",
+            "name": "嘉维尔",
+            "direction": "Down",
+            "location": [
+                10,
+                2
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "黑角",
+            "location": [
+                11,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "末药",
+            "direction": "Down",
+            "location": [
+                9,
+                2
+            ]
+        },
+        {
+            "type": "Retreat",
+            "kills": 10,
+            "name": "黑角",
+            "direction": "Up",
+            "location": [
+                11,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "纯烬艾雅法拉",
+            "location": [
+                9,
+                4
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "costs": 18,
+            "name": "桃金娘",
+            "location": [
+                1,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "维荻",
+            "direction": "Right",
+            "location": [
+                3,
+                1
+            ]
+        },
+        {
+            "type": "Deploy",
+            "kills": 28,
+            "pre_delay": 1,
+            "rear_delay": 1,
+            "name": "落雪防护装置",
+            "direction": "Up",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "kills": 70,
+            "pre_delay": 1,
+            "rear_delay": 1,
+            "name": "落雪防护装置",
+            "direction": "Up",
+            "location": [
+                8,
+                4
+            ]
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-EX-8 - 以人的名 双核挂机",
+        "details": "——————————\n作业更新日期: 2025-11-19T14:23:36Z\n统计更新日期: 2025-11-22\n相对评分：87.00%  相对热度：61.26%\n来源：魔道孑然  ID：74736\n——————————\n落雪防护装置\n作业作者:低配挂机研讨会\nJson作者:魔道孑然\n【【明日方舟】 雪山降临 OS-EX-1~8 突袭 单核/挂机攻略-哔哩哔哩】 https://b23.tv/K82tw3H"
+    },
+    "groups": [
+        {
+            "name": "纯烬艾雅法拉",
+            "opers": [
+                {
+                    "name": "嘉维尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "调香师",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "纯烬艾雅法拉",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蜜莓",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "流明",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "苏苏洛",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "清流",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "维荻",
+            "opers": [
+                {
+                    "name": "若叶睦",
+                    "skill": 2,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "维荻",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "归溟幽灵鲨",
+                    "skill": 3,
+                    "skill_usage": 1
+                },
+                {
+                    "name": "风丸",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "维娜·维多利亚",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "嘉维尔",
+            "opers": [
+                {
+                    "name": "赫默",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "Mon3tr",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 1
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 3,
+                    "skill_usage": 1
+                }
+            ]
+        },
+        {
+            "name": "末药",
+            "opers": [
+                {
+                    "name": "末药",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "华法琳",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "安赛尔",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "絮雨",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "泡泡",
+            "opers": [
+                {
+                    "name": "星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "泡泡",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "斩业星熊",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "米格鲁",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "蛇屠箱",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "余",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "卡缇",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "卡缇",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "桃金娘",
+            "opers": [
+                {
+                    "name": "桃金娘",
+                    "skill_usage": 2,
+                    "skill": 1,
+                    "skill_times": 1
+                }
+            ]
+        },
+        {
+            "name": "遥",
+            "opers": [
+                {
+                    "name": "遥",
+                    "skill": 2,
+                    "skill_usage": 2,
+                    "skill_times": 2
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "黑角",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

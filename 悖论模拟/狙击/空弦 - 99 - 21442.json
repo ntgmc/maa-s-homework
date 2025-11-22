@@ -1,0 +1,50 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_archet_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "空弦",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Deploy",
+            "name": "蓝毒",
+            "location": [
+                7,
+                1
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "kills": 5,
+            "pre_delay": 5000,
+            "name": "空弦"
+        },
+        {
+            "type": "Skill",
+            "name": "空弦",
+            "kills": 34
+        }
+    ],
+    "doc": {
+        "title": "狙击 - 空弦 - 箭指远方",
+        "details": "——————————\n作业更新日期: 2023-03-11T07:44:39Z\n统计更新日期: 2025-11-22\n相对评分：99.0%  相对热度：100.0%\n来源：yc.exe  ID：21442\n——————————\n参考视频：BV1Q3411D7Lo 原作者： 倾九_Komy\nyc.exe"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "空弦",
+            "skill": 3,
+            "skill_usage": 0
+        }
+    ]
+}
