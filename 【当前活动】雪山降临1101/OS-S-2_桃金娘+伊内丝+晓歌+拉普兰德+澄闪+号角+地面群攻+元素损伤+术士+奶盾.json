@@ -1,0 +1,226 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_s02",
+    "actions": [
+        {
+            "type": "Deploy",
+            "location": [
+                3,
+                6
+            ],
+            "name": "伊内丝",
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                3,
+                1
+            ],
+            "name": "晓歌",
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Right",
+            "name": "桃金娘"
+        },
+        {
+            "type": "Deploy",
+            "name": "雪崩触发装置",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                8,
+                5
+            ],
+            "name": "号角",
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "术士",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Retreat",
+            "name": "晓歌",
+            "location": [
+                3,
+                1
+            ]
+        },
+        {
+            "type": "Retreat",
+            "name": "伊内丝",
+            "location": [
+                3,
+                6
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "澄闪",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "地面群攻",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                4,
+                4
+            ],
+            "name": "奶盾",
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "元素损伤",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                2,
+                4
+            ],
+            "name": "拉普兰德",
+            "direction": "Up"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-S-2",
+        "details": "——————————\n作业更新日期: 2025-11-15T14:04:04Z\n统计更新日期: 2025-11-22\n相对评分：83.33%  相对热度：61.28%\n来源：sads  ID：75489\n——————————\n【【雪山降临1101】OS-S-1至OS-S-5挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(分p更新中)】 https://www.bilibili.com/video/BV17FCCBsET9/?share_source=copy_web&vd_source=1dc22fa13576dae3de5c9a1025c9d4f7\n\n\n积雪处理系统记得带第一个"
+    },
+    "groups": [
+        {
+            "name": "地面群攻",
+            "opers": [
+                {
+                    "name": "煌",
+                    "skill": 2,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "乌尔比安",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "元素损伤",
+            "opers": [
+                {
+                    "name": "塑心",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "酒神",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "术士",
+            "opers": [
+                {
+                    "name": "逻各斯",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "艾雅法拉",
+                    "skill": 2,
+                    "skill_usage": 0
+                }
+            ]
+        },
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "skill_usage": 0
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "skill_usage": 0
+                }
+            ]
+        }
+    ],
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1
+        },
+        {
+            "name": "伊内丝",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "晓歌",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "号角",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

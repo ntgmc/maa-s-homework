@@ -1,0 +1,53 @@
+{
+    "stage_name": "a003_08",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "火蓝之心 - OF-8 - 汐斯塔狂想曲【斩业星熊模组任务】",
+        "details": "——————————\n作业更新日期: 2025-11-10T04:21:46Z\n统计更新日期: 2025-11-22\n相对评分：78.35%  相对热度：55.46%\n来源：Sukura  ID：74820\n——————————\n原作者：【【明日方舟】of－8斩业星熊两个模组任务一次完成双人摆完挂机】 https://www.bilibili.com/video/BV1Yh1LBjEfY/?share_source=copy_web&vd_source=e803fce9a20f7389161b343abe69ae70"
+    },
+    "opers": [
+        {
+            "name": "斩业星熊",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "遥",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "斩业星熊",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "遥",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3
+}

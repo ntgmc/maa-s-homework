@@ -1,0 +1,147 @@
+{
+    "stage_name": "act46side_s01",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-S-1 - 打雪仗",
+        "details": "——————————\n作业更新日期: 2025-11-15T23:40:31Z\n统计更新日期: 2025-11-22\n相对评分：98.99%  相对热度：86.04%\n来源：星之海.  ID：75531\n——————————\n此作业全员专三且模组一级\n原作者：自在道爷    JSON作者：星之海.\n社区评论不会提醒，作业有问题可以进群找我：994516079\n原视频：【【雪山降临1101】OS-S-1至OS-S-5挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(含S-2，S-3等)】https://www.bilibili.com/video/BV17FCCBsET9?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+    },
+    "opers": [
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "白面鸮",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "德克萨斯",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7,
+                "module": -1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": -1
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "障碍物",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "奶盾",
+            "location": [
+                5,
+                6
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "拉普兰德",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                6,
+                5
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                10,
+                1
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "白面鸮",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "障碍物",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

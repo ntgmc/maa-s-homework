@@ -1,0 +1,239 @@
+{
+    "stage_name": "act46side_s02",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-S-2 - 堆雪人",
+        "details": "——————————\n作业更新日期: 2025-11-16T16:26:10Z\n统计更新日期: 2025-11-22\n相对评分：85.42%  相对热度：77.68%\n来源：星之海.  ID：75533\n——————————\n装置带雪崩触发装置（第一个）\n此作业全员专三且模组一级\n原作者：自在道爷    JSON作者：星之海.\n社区评论不会提醒，作业有问题可以进群找我：994516079\n原视频：【【雪山降临1101】OS-S-1至OS-S-5挂机流，突袭也不愁！语音快乐详解，轻松解放双手 | 明日方舟攻略(含S-2，S-3等)】https://www.bilibili.com/video/BV17FCCBsET9?vd_source=69f0b796ff8cde9e6cb9e9f9a99f8eec"
+    },
+    "opers": [
+        {
+            "name": "桃金娘",
+            "skill": 1,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 2,
+                "skill_level": 10,
+                "module": -1
+            }
+        },
+        {
+            "name": "伊内丝",
+            "skill": 2,
+            "skill_usage": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "煌",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "拉普兰德",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "号角",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "艾雅法拉",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "澄闪",
+            "skill": 2,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "塑心",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶盾",
+            "opers": [
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "塞雷娅",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": -1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "情报官",
+            "opers": [
+                {
+                    "name": "晓歌",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "寻澜",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "伊内丝",
+            "location": [
+                3,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "情报官",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "桃金娘",
+            "location": [
+                9,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "雪崩触发装置",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "号角",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "艾雅法拉",
+            "location": [
+                9,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "伊内丝",
+            "post_delay": 500
+        },
+        {
+            "type": "Retreat",
+            "name": "晓歌"
+        },
+        {
+            "name": "澄闪",
+            "location": [
+                5,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "煌",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶盾",
+            "location": [
+                4,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 21,
+            "pre_delay": 500
+        },
+        {
+            "name": "塑心",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "拉普兰德",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

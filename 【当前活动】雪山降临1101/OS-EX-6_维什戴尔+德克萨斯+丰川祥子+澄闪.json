@@ -1,0 +1,84 @@
+{
+    "stage_name": "act46side_ex06",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-6 - 顺时耕作",
+        "details": "——————————\n作业更新日期: 2025-11-09T08:36:55Z\n统计更新日期: 2025-11-22\n相对评分：97.00%  相对热度：64.89%\n来源：MA_DA_O  ID：74704\n——————————\nOS-EX-6 - 顺时耕作"
+    },
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "德克萨斯"
+        },
+        {
+            "name": "丰川祥子",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 70,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "澄闪",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "澄闪",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                4,
+                1
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                1
+            ],
+            "pre_delay": 9000
+        },
+        {
+            "name": "丰川祥子",
+            "location": [
+                8,
+                6
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

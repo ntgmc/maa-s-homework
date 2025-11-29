@@ -1,0 +1,129 @@
+{
+    "stage_name": "act46side_s03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-S-3 - 雪孩子 - 单核",
+        "details": "——————————\n作业更新日期: 2025-11-15T14:13:09Z\n统计更新日期: 2025-11-22\n相对评分：85.86%  相对热度：67.60%\n来源：小卡拉帕鲁灰  ID：75484\n——————————\n不兼容普通（突袭专用，普通用不了）\n携带装置：落雪防护装置（第三个）\n伊桑有点看脸，我精二专3的，精一60的我感觉容易控不住树，推荐最后一波手动挡一下吧，有装置兜底\n雪满级专三，3级模组，其他练度查看详情\nJSON作者：小卡拉帕鲁灰，B站同名\n本作业已开启截图增强\n求关注"
+    },
+    "opers": [
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "requirements": {
+                "skill_level": 7
+            }
+        },
+        {
+            "name": "黑角"
+        }
+    ],
+    "groups": [
+        {
+            "name": "askl或伊桑",
+            "opers": [
+                {
+                    "name": "阿斯卡纶",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "伊桑",
+                    "skill": 2,
+                    "skill_usage": 0,
+                    "requirements": {
+                        "elite": 2,
+                        "level": 60,
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "圣聆初雪",
+            "location": [
+                11,
+                3
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "古米",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 31
+        },
+        {
+            "name": "askl或伊桑",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "黑角",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy",
+            "kills": 43,
+            "pre_delay": 900
+        },
+        {
+            "name": "伊桑",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "name": "落雪防护装置",
+            "location": [
+                9,
+                3
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 45
+        },
+        {
+            "name": "落雪防护装置",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 2
+}

@@ -1,0 +1,146 @@
+{
+    "stage_name": "act46side_ex02",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-EX-2 - 敬友邻",
+        "details": "——————————\n作业更新日期: 2025-11-09T08:35:43Z\n统计更新日期: 2025-11-22\n相对评分：98.00%  相对热度：65.14%\n来源：MA_DA_O  ID：74676\n——————————\n经测试，可用"
+    },
+    "opers": [
+        {
+            "name": "德克萨斯"
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "斩业星熊",
+            "skill": 2,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "奶",
+            "opers": [
+                {
+                    "name": "浊心斯卡蒂",
+                    "skill": 2,
+                    "requirements": {
+                        "level": 90,
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "遥",
+                    "skill": 2,
+                    "skill_usage": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "白面鸮",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "夜莺",
+                    "skill": 2,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                },
+                {
+                    "name": "闪灵",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "德克萨斯",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                4,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "location": [
+                4,
+                5
+            ],
+            "pre_delay": 10000
+        },
+        {
+            "name": "斩业星熊",
+            "location": [
+                1,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "逻各斯",
+            "location": [
+                2,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "奶",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

@@ -1,0 +1,133 @@
+{
+    "stage_name": "act46side_s02",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-S-2 - 堆雪人 - 双核",
+        "details": "——————————\n作业更新日期: 2025-11-15T13:05:43Z\n统计更新日期: 2025-11-22\n相对评分：94.79%  相对热度：81.09%\n来源：小卡拉帕鲁灰  ID：75471\n——————————\n兼容突袭（普通与突袭都能过）\n携带装置：落雪防护装置（第三个）\n雪、叔满级专三，3级模组，其他练度查看详情\nJSON作者：小卡拉帕鲁灰，B站同名\n本作业已开启截图增强\n求关注"
+    },
+    "opers": [
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "【奶盾】精一满+",
+            "opers": [
+                {
+                    "name": "塞雷娅",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "黍",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 10,
+                        "module": 1
+                    }
+                },
+                {
+                    "name": "临光",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7,
+                        "module": -1
+                    }
+                },
+                {
+                    "name": "深律",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                },
+                {
+                    "name": "古米",
+                    "skill": 1,
+                    "requirements": {
+                        "skill_level": 7
+                    }
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "圣聆初雪",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "落雪防护装置",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "玛恩纳",
+            "location": [
+                3,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy",
+            "costs": 38
+        },
+        {
+            "name": "【奶盾】精一满+",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "落雪防护装置",
+            "location": [
+                8,
+                4
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 17
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 2
+}

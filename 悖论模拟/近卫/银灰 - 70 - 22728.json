@@ -1,0 +1,92 @@
+{
+    "actions": [
+        {
+            "type": "部署",
+            "name": "银灰",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "左"
+        },
+        {
+            "type": "二倍速"
+        },
+        {
+            "type": "部署",
+            "name": "梓兰",
+            "direction": "左",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "下"
+        },
+        {
+            "type": "部署",
+            "name": "障碍物",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "右"
+        },
+        {
+            "type": "技能",
+            "kills": 14,
+            "name": "梓兰",
+            "location": [
+                7,
+                2
+            ]
+        },
+        {
+            "type": "技能",
+            "kills": 22,
+            "name": "银灰",
+            "location": [
+                5,
+                2
+            ]
+        },
+        {
+            "type": "技能",
+            "kills": 23,
+            "name": "梓兰",
+            "location": [
+                7,
+                2
+            ]
+        }
+    ],
+    "stage_name": "mem_svrash_1",
+    "doc": {
+        "title": "银灰悖论模拟",
+        "details": "——————————\n作业更新日期: 2023-04-19T07:07:55Z\n统计更新日期: 2025-11-22\n相对评分：70.41%  相对热度：69.19%\n来源：作业代传——有问题联系原作者  ID：22728\n——————————\n作者：snowflake\n测试干员：银灰 精2 90级 6潜 三技能专三"
+    },
+    "opers": [
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 2
+        }
+    ],
+    "minimum_required": "v4.0.0"
+}

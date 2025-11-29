@@ -1,0 +1,91 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "hard_08-01",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "name": "逻各斯",
+            "location": [
+                3,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "山",
+            "location": [
+                2,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "维什戴尔",
+            "location": [
+                8,
+                5
+            ],
+            "direction": "Up"
+        },
+        {
+            "type": "Deploy",
+            "name": "棘刺",
+            "location": [
+                4,
+                6
+            ],
+            "direction": "Right"
+        },
+        {
+            "type": "Deploy",
+            "name": "流明",
+            "location": [
+                5,
+                5
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "第八章 怒号光明 - H8-1 - 狂夜行动-1",
+        "details": "——————————\n作业更新日期: 2025-05-13T06:44:35Z\n统计更新日期: 2025-11-22\n相对评分：92.63%  相对热度：80.79%\n来源：appleji100  ID：54140\n——————————\n第八章 怒号光明 - H8-1 - 狂夜行动-1"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "山",
+            "skill_times": 1,
+            "skill": 2,
+            "skill_usage": 2
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "流明",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "棘刺",
+            "skill_times": 2,
+            "skill": 3,
+            "skill_usage": 2
+        },
+        {
+            "name": "逻各斯",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

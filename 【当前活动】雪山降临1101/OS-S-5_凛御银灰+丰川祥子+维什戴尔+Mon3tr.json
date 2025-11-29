@@ -1,0 +1,173 @@
+{
+    "stage_name": "act46side_s05",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-S-5 - 雪与我与雪",
+        "details": "——————————\n作业更新日期: 2025-11-15T23:14:28Z\n统计更新日期: 2025-11-22\n相对评分：91.84%  相对热度：68.67%\n来源：エクシール  ID：75543\n——————————\n装置3，突袭注意不要带比祥子费用高的近卫/重装"
+    },
+    "opers": [
+        {
+            "name": "凛御银灰",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        },
+        {
+            "name": "丰川祥子",
+            "skill": 2,
+            "skill_usage": 0,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        },
+        {
+            "name": "维什戴尔",
+            "skill": 3,
+            "skill_usage": 1,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            }
+        },
+        {
+            "name": "Mon3tr",
+            "skill": 3,
+            "requirements": {
+                "level": 90,
+                "skill_level": 10
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "name": "凛御银灰",
+            "location": [
+                9,
+                2
+            ],
+            "direction": "Down",
+            "type": "Deploy"
+        },
+        {
+            "name": "丰川祥子",
+            "location": [
+                1,
+                5
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "name": "维什戴尔",
+            "location": [
+                6,
+                4
+            ],
+            "direction": "Up",
+            "type": "Deploy"
+        },
+        {
+            "type": "Retreat",
+            "name": "魂灵之影",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 6
+        },
+        {
+            "name": "Mon3tr",
+            "location": [
+                6,
+                3
+            ],
+            "direction": "Right",
+            "type": "Deploy"
+        },
+        {
+            "name": "重构体",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "Mon3tr",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "name": "落雪防护装置",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "name": "落雪防护装置",
+            "location": [
+                6,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 20
+        },
+        {
+            "name": "重构体",
+            "location": [
+                5,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy"
+        },
+        {
+            "type": "Skill",
+            "name": "Mon3tr",
+            "location": [
+                6,
+                3
+            ],
+            "kills": 24
+        },
+        {
+            "name": "重构体",
+            "location": [
+                8,
+                2
+            ],
+            "direction": "None",
+            "type": "Deploy",
+            "kills": 35
+        },
+        {
+            "name": "Mon3tr",
+            "skill_usage": 1,
+            "type": "SkillUsage"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 3
+}

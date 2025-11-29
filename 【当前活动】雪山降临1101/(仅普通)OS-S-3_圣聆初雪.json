@@ -1,0 +1,40 @@
+{
+    "stage_name": "act46side_s03",
+    "minimum_required": "v4.0.0",
+    "doc": {
+        "title": "OS-S-3 - 雪孩子 - 单核",
+        "details": "——————————\n作业更新日期: 2025-11-15T13:11:37Z\n统计更新日期: 2025-11-22\n相对评分：94.95%  相对热度：69.55%\n来源：小卡拉帕鲁灰  ID：75482\n——————————\n不兼容突袭（突袭用不了）\n雪满级专三，3级模组，其他练度查看详情\nJSON作者：小卡拉帕鲁灰，B站同名\n本作业已开启截图增强\n求关注"
+    },
+    "opers": [
+        {
+            "name": "圣聆初雪",
+            "skill": 2,
+            "requirements": {
+                "elite": 2,
+                "level": 90,
+                "skill_level": 10,
+                "module": 2
+            }
+        }
+    ],
+    "groups": [],
+    "actions": [
+        {
+            "name": "圣聆初雪",
+            "location": [
+                11,
+                4
+            ],
+            "direction": "Left",
+            "type": "Deploy"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "version": 3,
+    "difficulty": 1
+}

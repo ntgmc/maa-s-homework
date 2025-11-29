@@ -1,0 +1,29 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_00-01",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "芬",
+            "location": [
+                3,
+                2
+            ],
+            "direction": "Right",
+            "pre_delay": 10
+        }
+    ],
+    "doc": {
+        "title": "实验一下MAA",
+        "details": "——————————\n作业更新日期: 2024-05-30T18:25:09Z\n统计更新日期: 2025-11-22\n相对评分：55.00%  相对热度：63.90%\n来源：玛恩纳的狗  ID：38233\n——————————\n就一个简单的尝试，别抄"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "芬",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 1
+}

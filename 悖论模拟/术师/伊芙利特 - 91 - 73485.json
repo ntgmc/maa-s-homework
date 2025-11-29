@@ -1,0 +1,104 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "mem_ifrit_1",
+    "actions": [
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                1,
+                3
+            ],
+            "direction": "Right",
+            "costs": 40
+        },
+        {
+            "type": "Deploy",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                1
+            ],
+            "direction": "Down",
+            "cost_changes": 16
+        },
+        {
+            "type": "Deploy",
+            "name": "爆破装置",
+            "location": [
+                6,
+                1
+            ],
+            "direction": "Down",
+            "kills": 17
+        },
+        {
+            "type": "Skill",
+            "name": "塞雷娅",
+            "location": [
+                3,
+                1
+            ],
+            "cost_changes": 8
+        },
+        {
+            "type": "Retreat",
+            "kills": 35,
+            "pre_delay": 5000,
+            "name": "伊芙利特",
+            "location": [
+                1,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "direction": "Up",
+            "kills": 35,
+            "pre_delay": 7000,
+            "name": "爆破装置",
+            "location": [
+                3,
+                5
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "伊芙利特",
+            "location": [
+                1,
+                1
+            ],
+            "direction": "Right",
+            "kills": 40,
+            "cooling": 0
+        },
+        {
+            "type": "Skill",
+            "name": "塞雷娅",
+            "cost_changes": 32
+        }
+    ],
+    "doc": {
+        "title": "术师 - 伊芙利特 - 互为后盾",
+        "details": "——————————\n作业更新日期: 2025-11-05T03:49:24Z\n统计更新日期: 2025-11-22\n相对评分：91.92%  相对热度：54.269999999999996%\n来源：rain  ID：73485\n——————————\n高练会乱轴！！！！！！\n人老了，老是记错轴，于是直接上了maa。\n精二一级 7级技能 无专精 低练作业，来源 b站 空山心予https://www.bilibili.com/video/BV1xG411M7Ko/?spm_id_from=333.337.search-card.all.click\n不知道通用性怎么样，有问题....让让我个老年人吧。"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "伊芙利特",
+            "skill": 2,
+            "skill_usage": 0
+        },
+        {
+            "name": "塞雷娅",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "爆破装置",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}

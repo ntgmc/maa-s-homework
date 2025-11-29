@@ -1,0 +1,173 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "act46side_s03",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "direction": "Down",
+            "name": "维什戴尔",
+            "location": [
+                11,
+                3
+            ],
+            "costs": 25
+        },
+        {
+            "type": "SpeedUp",
+            "pre_delay": 6000
+        },
+        {
+            "type": "Deploy",
+            "name": "玛恩纳",
+            "location": [
+                10,
+                3
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 50,
+            "name": "维什戴尔"
+        },
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 13250,
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 7500,
+            "name": "玛恩纳"
+        },
+        {
+            "type": "Deploy",
+            "direction": "None",
+            "pre_delay": 6250,
+            "name": "雪崩触发装置",
+            "location": [
+                8,
+                2
+            ]
+        },
+        {
+            "type": "Skill",
+            "name": "维什戴尔",
+            "pre_delay": 10000
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 23000,
+            "name": "玛恩纳"
+        },
+        {
+            "type": "Retreat",
+            "pre_delay": 18500,
+            "name": "祖宗",
+            "direction": "Down",
+            "location": [
+                10,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "direction": "Down",
+            "name": "米格鲁",
+            "location": [
+                10,
+                4
+            ]
+        },
+        {
+            "type": "Skill",
+            "pre_delay": 6000,
+            "name": "维什戴尔"
+        },
+        {
+            "type": "Retreat",
+            "pre_delay": 3500,
+            "name": "祖宗",
+            "direction": "Down",
+            "location": [
+                11,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "direction": "Left",
+            "name": "安赛尔",
+            "location": [
+                11,
+                4
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                10,
+                4
+            ],
+            "direction": "Down"
+        },
+        {
+            "type": "SkillUsage",
+            "pre_delay": 10000,
+            "name": "玛恩纳",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillUsage",
+            "name": "维什戴尔",
+            "skill_usage": 1
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "OS-S-3 - 雪孩子",
+        "details": "——————————\n作业更新日期: 2025-11-15T15:51:49Z\n统计更新日期: 2025-11-22\n相对评分：93.94%  相对热度：81.86%\n来源：焕彩gg  ID：75494\n——————————\n带雪崩触发装置\n叔叔必须有模组，不然砍不动蘑菇。\nB站ID：焕彩GG 主页：https://space.bilibili.com/10123796\n本作业已开启截图增强\n求关注"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "维什戴尔",
+            "requirements": {
+                "level": 90,
+                "skill_level": 10,
+                "module": 1
+            },
+            "skill": 3
+        },
+        {
+            "name": "玛恩纳",
+            "skill": 3,
+            "skill_usage": 0
+        },
+        {
+            "name": "安赛尔",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "米格鲁",
+            "skill": 1,
+            "skill_usage": 0
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ],
+    "difficulty": 3
+}

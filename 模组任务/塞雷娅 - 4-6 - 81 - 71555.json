@@ -1,0 +1,75 @@
+{
+    "minimum_required": "v4.0.0",
+    "stage_name": "main_04-06",
+    "actions": [
+        {
+            "type": "SpeedUp"
+        },
+        {
+            "type": "Deploy",
+            "location": [
+                7,
+                2
+            ],
+            "name": "塞雷娅",
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "古米",
+            "location": [
+                7,
+                3
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "Deploy",
+            "name": "银灰",
+            "direction": "Left",
+            "location": [
+                6,
+                3
+            ]
+        },
+        {
+            "type": "Deploy",
+            "name": "丰川祥子",
+            "location": [
+                7,
+                4
+            ],
+            "direction": "Left"
+        },
+        {
+            "type": "SkillDaemon"
+        }
+    ],
+    "doc": {
+        "title": "塞雷娅y模组任务 第四章 急性衰竭 - 4-6 - 少见多怪",
+        "details": "——————————\n作业更新日期: 2025-10-15T06:41:04Z\n统计更新日期: 2025-11-22\n相对评分：81.63%  相对热度：51.83%\n来源：asyu9912  ID：71555\n——————————\n塞雷娅y模组任务 第四章 急性衰竭 - 4-6 - 少见多怪"
+    },
+    "groups": [],
+    "opers": [
+        {
+            "name": "塞雷娅",
+            "skill": 2,
+            "skill_usage": 1
+        },
+        {
+            "name": "丰川祥子",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "银灰",
+            "skill": 3,
+            "skill_usage": 1
+        },
+        {
+            "name": "古米",
+            "skill": 1,
+            "skill_usage": 0
+        }
+    ]
+}
